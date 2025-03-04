@@ -226,7 +226,7 @@
     <div class="content"></div>
   </div>
   <a class="github" href="https://github.com/dado3212/apple-podcast-transcripts" target="_blank"><img src="images/github.svg"/></a>
-  <script src="https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/sql-wasm.js"></script>
+  <script src="./sql-wasm.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M15SP790QM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -250,7 +250,7 @@
 
     // Initialize it now so that if you go offline the webworker is set up
     const SQL = await initSqlJs({
-      locateFile: file => `https://cdn.jsdelivr.net/npm/sql.js@1.8.0/dist/${file}`
+      locateFile: file => `./${file}`
     });
     
     dropZone.addEventListener('dragover', (event) => {
@@ -280,41 +280,49 @@
         const entry = items[i].webkitGetAsEntry();
         if (entry) queue.push(traverseFileTree(entry));
       }
-      const relevantFiles = {
-        'transcripts': {},
-        'podcastInfo': {},
-      };
+      const relevantFiles = { transcripts: {}, mainDB: null, walFile: null };
       const result = await Promise.all(queue);
       for (const info of result) {
         relevantFiles['transcripts'] = { ...relevantFiles['transcripts'], ...info['transcripts'] };
-        relevantFiles['podcastInfo'] = { ...relevantFiles['podcastInfo'], ...info['podcastInfo'] };
+        if (info.mainDB) relevantFiles.mainDB = info.mainDB;
+        if (info.walFile) relevantFiles.walFile = info.walFile;
       }
 
-      const keys = Object.keys(relevantFiles.transcripts);
-      const podcastInfo = relevantFiles.podcastInfo['db'].exec(
-        `SELECT
-          ZSTORETRACKID,
-          ZAUTHOR,
-          ZCLEANEDTITLE,
-          ZITUNESSUBTITLE,
-          ZDURATION,
-          ZFIRSTTIMEAVAILABLE
-        FROM ZMTEPISODE
-        WHERE ZSTORETRACKID IN (
-          ${keys.join(', ')}
-        );
-      `);
-      // All transcripts
+      let db = null;
+      if (relevantFiles.mainDB && relevantFiles.walFile) {
+        db = new SQL.Database(new Uint8Array(relevantFiles.mainDB), new Uint8Array(relevantFiles.walFile));
+      } else if (relevantFiles.mainDB) {
+        db = new SQL.Database(new Uint8Array(relevantFiles.mainDB));
+      }
+
       const transcripts = {};
-      if (podcastInfo.length > 0) {
-        for (const pod of podcastInfo[0].values) {
-          transcripts[pod[0]] = {
-            'author': pod[1],
-            'title': pod[2],
-            'description': pod[3],
-            'duration': pod[4],
-            'time': pod[5] + 978307200, // Adjust for Jan 1st time which Apple uses
-          };
+
+      if (db) {
+        const keys = Object.keys(relevantFiles.transcripts);
+        const podcastInfo = db.exec(
+          `SELECT
+            ZSTORETRACKID,
+            ZAUTHOR,
+            ZCLEANEDTITLE,
+            ZITUNESSUBTITLE,
+            ZDURATION,
+            ZFIRSTTIMEAVAILABLE
+          FROM ZMTEPISODE
+          WHERE ZSTORETRACKID IN (
+            ${keys.join(', ')}
+          );
+        `);
+        // All transcripts
+        if (podcastInfo.length > 0) {
+          for (const pod of podcastInfo[0].values) {
+            transcripts[pod[0]] = {
+              'author': pod[1],
+              'title': pod[2],
+              'description': pod[3],
+              'duration': pod[4],
+              'time': pod[5] + 978307200, // Adjust for Jan 1st time which Apple uses
+            };
+          }
         }
       }
       for (const podcastId in relevantFiles.transcripts) {
@@ -357,12 +365,14 @@
       if (entry.isFile) {
         return new Promise((resolve) => {
           entry.file(async (file) => {
-            const info = { transcripts: {}, podcastInfo: {} };
+            const info = { transcripts: {}, mainDB: null, walFile: null };
 
             if (file.name.endsWith('.ttml')) {
               info.transcripts = await extractPodcastTranscripts(file);
             } else if (file.name === 'MTLibrary.sqlite') {
-              info.podcastInfo = await extractPodcastInfo(file);
+              info.mainDB = await file.arrayBuffer();
+            } else if (file.name === 'MTLibrary.sqlite-wal') {
+              info.walFile = await file.arrayBuffer();
             }
             resolve(info);
           });
@@ -370,25 +380,20 @@
       } else if (entry.isDirectory) {
         const reader = entry.createReader();
         return new Promise((resolve) => {
-          const mainInfo = { transcripts: {}, podcastInfo: {} };
+          const mainInfo = { transcripts: {}, mainDB: null, walFile: null };
           reader.readEntries(async (entries) => {
             for (const subEntry of entries) {
               const subInfo = await traverseFileTree(subEntry);
               mainInfo['transcripts'] = { ...mainInfo['transcripts'], ...subInfo['transcripts'] };
-              mainInfo['podcastInfo'] = { ...mainInfo['podcastInfo'], ...subInfo['podcastInfo'] };
+              if (subInfo.mainDB) mainInfo.mainDB = subInfo.mainDB;
+              if (subInfo.walFile) mainInfo.walFile = subInfo.walFile;
             }
             resolve(mainInfo);
           });
         });
       } else {
-        return { transcripts: {}, podcastInfo: {} };
+        return { transcripts: {}, mainDB: null, walFile: null };
       }
-    }
-
-    async function extractPodcastInfo(file) {
-      const arrayBuffer = await file.arrayBuffer();
-      const db = new SQL.Database(new Uint8Array(arrayBuffer));
-      return { db };
     }
 
     async function extractPodcastTranscripts(file) {
