@@ -306,14 +306,16 @@
       `);
       // All transcripts
       const transcripts = {};
-      for (const pod of podcastInfo[0].values) {
-        transcripts[pod[0]] = {
-          'author': pod[1],
-          'title': pod[2],
-          'description': pod[3],
-          'duration': pod[4],
-          'time': pod[5] + 978307200, // Adjust for Jan 1st time which Apple uses
-        };
+      if (podcastInfo.length > 0) {
+        for (const pod of podcastInfo[0].values) {
+          transcripts[pod[0]] = {
+            'author': pod[1],
+            'title': pod[2],
+            'description': pod[3],
+            'duration': pod[4],
+            'time': pod[5] + 978307200, // Adjust for Jan 1st time which Apple uses
+          };
+        }
       }
       for (const podcastId in relevantFiles.transcripts) {
         if (podcastId in transcripts) {
