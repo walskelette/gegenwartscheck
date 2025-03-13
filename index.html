@@ -295,7 +295,7 @@
         db = new SQL.Database(new Uint8Array(relevantFiles.mainDB));
       }
 
-      const transcripts = {};
+      let transcripts = {};
 
       if (db) {
         const keys = Object.keys(relevantFiles.transcripts);
@@ -327,7 +327,8 @@
       }
       for (const podcastId in relevantFiles.transcripts) {
         if (podcastId in transcripts) {
-          transcripts[podcastId]['transcripts'] = relevantFiles['transcripts'][podcastId];
+          transcripts[podcastId]['transcripts'] = relevantFiles['transcripts'][podcastId].podcastChunks;
+          transcripts[podcastId]['lastModified'] = relevantFiles['transcripts'][podcastId].lastModified;
         } else {
           transcripts[podcastId] = {
             'author': 'Unknown',
@@ -335,10 +336,15 @@
             'description': '',
             'duration': -1,
             'time': -1,
-            'transcripts' : relevantFiles['transcripts'][podcastId]
+            'transcripts' : relevantFiles['transcripts'][podcastId].podcastChunks,
+            'lastModified': relevantFiles['transcripts'][podcastId].lastModified,
           };
         }
       }
+
+      // Sort it by last modified
+      transcripts = Object.fromEntries(Object.entries(transcripts)
+        .sort(([, a], [, b]) => new Date(b.lastModified) - new Date(a.lastModified)));
 
       // Iterate over it
       for (const transcript of Object.values(transcripts)) {
@@ -409,7 +415,7 @@
 
           if (!body || !podcastId) return callback({});
 
-          const podcastInfo = [];
+          const podcastChunks = [];
 
           // Iterate over each speaking chunk, extracting the sentences
           const speakingChunks = xmlDoc.querySelectorAll("p");
@@ -419,10 +425,10 @@
               .filter(sp => sp.getAttribute('podcasts:unit') === 'sentence')
               .map(sentence => [...sentence.querySelectorAll('span')].map(sp => sp.textContent).join(' '))
               .join(' ');
-            podcastInfo.push({ speaker, sentences });
+              podcastChunks.push({ speaker, sentences });
           }
 
-          resolve({ [podcastId]: podcastInfo });
+          resolve({ [podcastId]: { podcastChunks, lastModified: file.lastModified } });
         };
         reader.onerror = reject;
         reader.readAsText(file);

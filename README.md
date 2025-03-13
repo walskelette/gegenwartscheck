@@ -18,6 +18,13 @@ Clicking on any of them will pull up the full transcript, which you can copy and
 
 The data is locally stored in `~/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache/Assets/TTML`. The tool also pulls in the `.sqlite` folder to display additional information about the podcast to make it easier to find the one you're looking for. Shoutout to @mattdanielmurphy and his [repo here](https://github.com/mattdanielmurphy/apple-podcast-transcript-extractor) which I found when originally trying to do this for a podcast.
 
+## Local Debugging
+Loading files doesn't work just by opening from `file://` in your browser, so instead use Python to set up a local server at http://localhost:8000/.
+
+```
+python3 -m http.server
+```
+
 ## How did you get WAL working with sql.js??
 
 Great question. This [issue was the key](https://github.com/sql-js/sql.js/issues/372). But the compiling steps were a nightmare, so I just manually modified the `sql-wasm.js` file. Will need to do this again with a version boost. Specifically you can look for the `dbfile_` bit in code, find the `if(null!=g)` code and copy it with a different variable (and the '-wal' suffix in the filename definition).
