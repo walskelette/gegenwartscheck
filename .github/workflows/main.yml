@@ -18,17 +18,6 @@ jobs:
       run: |
         osascript -e 'tell application "Podcasts" to open location "https://podcasts.apple.com/de/podcast/die-sogenannte-gegenwart/id1522895163?i=1000695431521"'
         sleep 10 # Wait for the podcast to open
-        
-    - name: Log library and cache folder contents
-      run: |
-        LIBRARY_DIR="$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library"
-        CACHE_DIR="$LIBRARY_DIR/Cache/Assets/TTML"
-        
-        echo "Contents of Library Directory:"
-        ls -R "$LIBRARY_DIR"
-        
-        echo "Contents of Cache Directory:"
-        ls -R "$CACHE_DIR"
     
     - name: Take screenshot
       run: |
