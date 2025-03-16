@@ -46,6 +46,7 @@ jobs:
             delay 10
           end tell
           '
+
       - name: Screenshot After Opening Episode
         run: screencapture step3_opened_episode.png
 
@@ -53,33 +54,36 @@ jobs:
         run: |
           osascript -e '
           tell application "System Events"
-          key code 121
+            key code 121
           end tell
           delay 10
           '
+
       - name: Screenshot After Transcript
         run: screencapture step4_transcript.png
 
-      - name: Scroll Down Instead of Command+T
+      - name: Scroll Down Instead of Command+T again
         run: |
           osascript -e '
           tell application "System Events"
-          key code 121
+            key code 121
           end tell
           delay 10
           '
-      - name: Screenshot After Transcript
+
+      - name: Screenshot After Transcript again
         run: screencapture step5_transcript.png
 
-      - name: Scroll Down Instead of Command+T
+      - name: Scroll Down Instead of Command+T again
         run: |
           osascript -e '
           tell application "System Events"
-          key code 121
+            key code 121
           end tell
           delay 10
           '
-      - name: Screenshot After Transcript
+
+      - name: Screenshot After Transcript again
         run: screencapture step6_transcript.png
 
       - name: Upload All Screenshots
@@ -93,3 +97,4 @@ jobs:
             step4_transcript.png
             step5_transcript.png
             step6_transcript.png
+            $HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache
