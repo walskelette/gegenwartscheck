@@ -61,6 +61,7 @@ jobs:
                 set frontmost to true
                 try
                   click at {1418, 384}
+                  delay 0.1
                   key code 125
                   key code 125
                   key code 125
