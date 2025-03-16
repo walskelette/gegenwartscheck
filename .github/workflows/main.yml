@@ -16,8 +16,8 @@ jobs:
 
       - name: Launch Podcasts
         run: |
-          osascript -e 'tell application "Podcasts" to activate
-          delay 10'
+          osascript -e 'tell application "Podcasts" to activate'
+          sleep 10
 
       - name: Screenshot After Launch
         run: screencapture step1_launch.png
@@ -32,24 +32,25 @@ jobs:
               end try
             end tell
           end tell
-          delay 10
           '
+          sleep 10
 
       - name: Screenshot After Pop-up
         run: screencapture step2_popup.png
 
+      # Capture button names into a file so logs appear in the GitHub Actions log
       - name: Log All Buttons in Podcasts for Debugging
         run: |
           osascript -e '
           tell application "System Events"
             tell process "Podcasts"
               set allButtons to name of every button
-              repeat with b in allButtons
-                log "Button: " & b
-              end repeat
+              return allButtons as text
             end tell
           end tell
-          '
+          ' > buttonNames.txt
+          echo "Buttons found:"
+          cat buttonNames.txt
 
       - name: Open Desired Podcast Episode
         run: |
@@ -69,8 +70,8 @@ jobs:
           tell application "System Events"
             key code 121
           end tell
-          delay 10
           '
+          sleep 10
 
       - name: Screenshot After Transcript
         run: screencapture step4_transcript.png
@@ -81,8 +82,8 @@ jobs:
           tell application "System Events"
             key code 121
           end tell
-          delay 10
           '
+          sleep 10
 
       - name: Screenshot After Transcript again
         run: screencapture step5_transcript.png
@@ -93,8 +94,8 @@ jobs:
           tell application "System Events"
             key code 121
           end tell
-          delay 10
           '
+          sleep 10
 
       - name: Screenshot After Transcript again
         run: screencapture step6_transcript.png
@@ -114,4 +115,5 @@ jobs:
             step4_transcript.png
             step5_transcript.png
             step6_transcript.png
+            buttonNames.txt
             podcasts_cache.zip
