@@ -60,7 +60,7 @@ jobs:
               tell process "Podcasts"
                 set frontmost to true
                 try
-                  click at {1155, 475}
+                  click at {1418, 384}
                 end try
               end tell
             end tell
