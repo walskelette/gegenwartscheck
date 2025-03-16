@@ -11,20 +11,59 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Open Apple Podcast
-      run: |
-        osascript -e 'tell application "Podcasts" to open location "https://podcasts.apple.com/de/podcast/die-sogenannte-gegenwart/id1522895163?i=1000695431521"'
-        sleep 10 # Wait for the podcast to open
-    
-    - name: Take screenshot
-      run: |
-        screencapture podcast_screenshot.png
+      - name: Launch Podcasts
+        run: |
+          osascript -e 'tell application "Podcasts" to activate'
+      
+      - name: Screenshot After Launch
+        run: screencapture step1_launch.png
 
-    - name: Upload screenshot
-      uses: actions/upload-artifact@v4
-      with:
-        name: podcast_screenshot
-        path: podcast_screenshot.png
+      - name: Attempt to Click "Continue" Button
+        run: |
+          osascript -e '
+          tell application "System Events"
+            tell process "Podcasts"
+              try
+                click button "Continue" of window 1
+              end try
+            end tell
+          end tell
+          '
+      - name: Screenshot After Pop-up
+        run: screencapture step2_popup.png
+
+      - name: Open Desired Podcast Episode
+        run: |
+          osascript -e '
+          tell application "Podcasts"
+            open location "https://podcasts.apple.com/de/podcast/die-sogenannte-gegenwart/id1522895163?i=1000695431521"
+            delay 5
+          end tell
+          '
+      - name: Screenshot After Opening Episode
+        run: screencapture step3_opened_episode.png
+
+      - name: Navigate to Transcript
+        run: |
+          osascript -e '
+          tell application "System Events"
+            keystroke "t" using {command down}
+            delay 2
+            keystroke return
+          end tell
+          '
+      - name: Screenshot After Transcript
+        run: screencapture step4_transcript.png
+
+      - name: Upload All Screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: |
+            step1_launch.png
+            step2_popup.png
+            step3_opened_episode.png
+            step4_transcript.png
