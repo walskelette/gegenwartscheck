@@ -85,11 +85,14 @@ jobs:
 
       - name: Screenshot After Transcript again
         run: screencapture step6_transcript.png
+      - name: Zip the Podcasts Cache Folder
+        run: |
+          zip -r podcasts_cache.zip "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
 
-      - name: Upload All Screenshots
+      - name: Upload All Screenshots and Cache Folder
         uses: actions/upload-artifact@v4
         with:
-          name: screenshots
+          name: screenshots-and-cache
           path: |
             step1_launch.png
             step2_popup.png
@@ -97,4 +100,4 @@ jobs:
             step4_transcript.png
             step5_transcript.png
             step6_transcript.png
-            $HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache
+            podcasts_cache.zip
