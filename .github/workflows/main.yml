@@ -61,6 +61,13 @@ jobs:
                 set frontmost to true
                 try
                   click at {1418, 384}
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
                 end try
               end tell
             end tell
@@ -69,6 +76,23 @@ jobs:
 
       - name: Screenshot After Clicking at Coordinates
         run: screencapture step4_transcript_clicked.png
+
+      - name: Open Transcript
+        run: |
+          osascript -e '
+            tell application "System Events"
+              tell process "Podcasts"
+                set frontmost to true
+                try
+                  keystroke return
+                end try
+              end tell
+            end tell
+            delay 10
+          '
+
+      - name: Screenshot After Clicking at Coordinates
+        run: screencapture step5_transcript_clicked.png
 
       - name: Zip the Podcasts Cache Folder
         run: |
