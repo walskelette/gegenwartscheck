@@ -18,7 +18,7 @@ jobs:
         run: |
           osascript -e 'tell application "Podcasts" to activate
           delay 10'
-      
+
       - name: Screenshot After Launch
         run: screencapture step1_launch.png
 
@@ -37,6 +37,19 @@ jobs:
 
       - name: Screenshot After Pop-up
         run: screencapture step2_popup.png
+
+      - name: Log All Buttons in Podcasts for Debugging
+        run: |
+          osascript -e '
+          tell application "System Events"
+            tell process "Podcasts"
+              set allButtons to name of every button
+              repeat with b in allButtons
+                log "Button: " & b
+              end repeat
+            end tell
+          end tell
+          '
 
       - name: Open Desired Podcast Episode
         run: |
@@ -85,6 +98,7 @@ jobs:
 
       - name: Screenshot After Transcript again
         run: screencapture step6_transcript.png
+
       - name: Zip the Podcasts Cache Folder
         run: |
           zip -r podcasts_cache.zip "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
