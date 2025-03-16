@@ -1,0 +1,48 @@
+name: Open Podcast and Log Transcript
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  open-podcast:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Open Apple Podcast
+      run: |
+        osascript -e 'tell application "Podcasts" to open location "https://podcasts.apple.com/de/podcast/die-sogenannte-gegenwart/id1522895163?i=1000695431521"'
+        sleep 10 # Wait for the podcast to open
+        
+    - name: Log library and cache folder contents
+      run: |
+        LIBRARY_DIR="$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library"
+        CACHE_DIR="$LIBRARY_DIR/Cache/Assets/TTML"
+        
+        echo "Contents of Library Directory:"
+        ls -R "$LIBRARY_DIR"
+        
+        echo "Contents of Cache Directory:"
+        ls -R "$CACHE_DIR"
+    
+    - name: Extract and log transcript
+      run: |
+        CACHE_DIR="$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache/Assets/TTML"
+        TRANSCRIPT_FILE=$(find "$CACHE_DIR" -type f -name "*.ttml" | head -n 1)
+        
+        if [ -f "$TRANSCRIPT_FILE" ]; then
+          cp "$TRANSCRIPT_FILE" podcast_transcript.ttml
+        else
+          echo "Transcript file not found" > podcast_transcript.ttml
+        fi
+
+    - name: Upload transcript
+      uses: actions/upload-artifact@v2
+      with:
+        name: podcast_transcript
+        path: podcast_transcript.ttml
