@@ -53,33 +53,29 @@ jobs:
         run: |
           osascript -e '
           tell application "System Events"
-            key code 125
-            delay 2
-            key code 125
+          key code 121
           end tell
           delay 10
           '
       - name: Screenshot After Transcript
         run: screencapture step4_transcript.png
+
       - name: Scroll Down Instead of Command+T
         run: |
           osascript -e '
           tell application "System Events"
-            key code 125
-            delay 2
-            key code 125
+          key code 121
           end tell
           delay 10
           '
       - name: Screenshot After Transcript
         run: screencapture step5_transcript.png
+
       - name: Scroll Down Instead of Command+T
         run: |
           osascript -e '
           tell application "System Events"
-            key code 125
-            delay 2
-            key code 125
+          key code 121
           end tell
           delay 10
           '
