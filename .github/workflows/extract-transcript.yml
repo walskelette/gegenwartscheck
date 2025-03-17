@@ -65,6 +65,10 @@ jobs:
           mkdir -p cache
           unzip -o transcript-cache.zip -d cache
       
+      - name: Create episode title file
+        run: |
+          echo '${{ github.event.inputs.episode_title }}' > episode_title.txt
+      
       - name: Process TTML files and extract transcript
         run: |
           python - <<'EOF'
@@ -76,6 +80,10 @@ jobs:
           
           # Create data directory if it doesn't exist
           os.makedirs('data', exist_ok=True)
+          
+          # Read episode title from file to avoid quote issues
+          with open('episode_title.txt', 'r', encoding='utf-8') as f:
+              episode_title = f.read().strip()
           
           # Find all TTML files in the cache directory
           ttml_files = []
@@ -126,7 +134,6 @@ jobs:
                           })
                   
                   # Create a safe filename
-                  episode_title = "${{ github.event.inputs.episode_title }}"
                   safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
                   
                   output_file = f"data/{safe_title}_transcript.json"
