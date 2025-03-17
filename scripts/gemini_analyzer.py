@@ -67,9 +67,9 @@ Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschl
 Antworte ausschließlich im folgenden JSON-Format:
 
 ```json
-{
+{{
   "gegenwartsvorschlaege": [
-    {
+    {{
       "vorschlag": "Name des Gegenwartsvorschlags",
       "vorschlagender": "Nina/Lars/Ijoma/[Name des Hörers]",
       "ist_hoerer": true/false,
@@ -79,9 +79,9 @@ Antworte ausschließlich im folgenden JSON-Format:
       "punkt_erhalten": true/false,
       "punkt_von": "Nina/Lars/Ijoma (falls Punkt erhalten, sonst null)",
       "tags": ["Tag1", "Tag2", "Tag3"]
-    }
+    }}
   ]
-}
+}}
 ```
 
 # Wichtige Hinweise
