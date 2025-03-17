@@ -1,0 +1,73 @@
+name: Get Podcast Episode Links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly on Sunday at midnight
+
+jobs:
+  fetch-episodes:
+    runs-on: ubuntu-latest
+    outputs:
+      episode_links: ${{ steps.get-links.outputs.episode_links }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Fetch podcast episodes
+        id: get-links
+        run: |
+          python - <<'EOF'
+          import requests
+          import json
+          import os
+          
+          # Dies sogenannte Gegenwart podcast ID
+          podcast_id = '1522895163'
+          
+          # Fetch episodes (limit to 5 for now)
+          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=5'
+          response = requests.get(url)
+          data = response.json()
+          
+          episodes = []
+          for episode in data.get('results', []):
+              if episode.get('wrapperType') == 'podcastEpisode':
+                  episode_title = episode.get('trackName')
+                  episode_url = episode.get('trackViewUrl')
+                  if "gegenwartscheck" in episode_title.lower():
+                      episodes.append({
+                          "title": episode_title,
+                          "url": episode_url
+                      })
+          
+          # Save to file
+          with open('episode_links.json', 'w') as f:
+              json.dump(episodes, f, indent=2)
+          
+          # Set output for next workflow
+          episode_links_json = json.dumps(episodes)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"episode_links={episode_links_json}\n")
+          
+          print(f"Found {len(episodes)} Gegenwartscheck episodes:")
+          for ep in episodes:
+              print(f"- {ep['title']}: {ep['url']}")
+          EOF
+      
+      - name: Upload episode links as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: episode-links
+          path: episode_links.json 

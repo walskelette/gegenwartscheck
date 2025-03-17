@@ -1,0 +1,173 @@
+name: Process Podcast Episodes
+
+on:
+  workflow_run:
+    workflows: ["Get Podcast Episode Links"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    outputs:
+      episode_links: ${{ steps.get-episode-links.outputs.episode_links }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Download artifact
+        if: github.event_name == 'workflow_run'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: ${{ github.event.workflow_run.id }},
+            });
+            
+            const matchArtifact = artifacts.data.artifacts.find(artifact => {
+              return artifact.name == "episode-links"
+            });
+            
+            if (!matchArtifact) {
+              core.setFailed('No episode-links artifact found');
+              return;
+            }
+            
+            const download = await github.rest.actions.downloadArtifact({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              artifact_id: matchArtifact.id,
+              archive_format: 'zip',
+            });
+            
+            const fs = require('fs');
+            fs.writeFileSync('episode-links.zip', Buffer.from(download.data));
+      
+      - name: Extract artifact
+        if: github.event_name == 'workflow_run'
+        run: |
+          unzip -o episode-links.zip
+          cat episode_links.json
+      
+      - name: Load episode links (workflow dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo '[{"title":"Test Episode","url":"https://podcasts.apple.com/de/podcast/die-sogenannte-gegenwart/id1522895163?i=1000695431521"}]' > episode_links.json
+          cat episode_links.json
+      
+      - name: Set output
+        id: get-episode-links
+        run: |
+          EPISODE_LINKS=$(cat episode_links.json)
+          echo "episode_links=$EPISODE_LINKS" >> $GITHUB_OUTPUT
+  
+  process-episodes:
+    needs: setup
+    runs-on: macos-latest
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        episode: ${{ fromJSON(needs.setup.outputs.episode_links) }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Launch Podcasts
+        run: |
+          osascript -e '
+            tell application "Podcasts" to activate
+            delay 10
+          '
+      
+      - name: Attempt to Press Enter Instead of Continue
+        run: |
+          osascript -e '
+            tell application "System Events"
+              tell process "Podcasts"
+                try
+                  keystroke return
+                end try
+              end tell
+            end tell
+            delay 10
+          '
+      
+      - name: Open Podcast Episode
+        run: |
+          osascript -e '
+            tell application "Podcasts"
+              open location "${{ matrix.episode.url }}"
+              delay 10
+            end tell
+          '
+      
+      # Click to show transcript menu
+      - name: Click at Coordinates (1418, 384)
+        run: |
+          osascript -e '
+            tell application "System Events"
+              tell process "Podcasts"
+                set frontmost to true
+                try
+                  click at {1418, 384}
+                  delay 0.1
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                  key code 125
+                end try
+              end tell
+            end tell
+            delay 10
+          '
+      
+      - name: Open Transcript
+        run: |
+          osascript -e '
+            tell application "System Events"
+              tell process "Podcasts"
+                set frontmost to true
+                try
+                  keystroke return
+                end try
+              end tell
+            end tell
+            delay 10
+          '
+      
+      - name: Zip the Podcasts Cache Folder
+        run: |
+          zip -r "${{ matrix.episode.title }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
+      
+      - name: Upload Cache Folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: transcript-cache-${{ github.run_id }}-${{ strategy.job-index }}
+          path: "${{ matrix.episode.title }}_cache.zip"
+      
+      - name: Trigger Extract Transcript workflow
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'extract-transcript.yml',
+              ref: 'main',
+              inputs: {
+                episode_title: '${{ matrix.episode.title }}',
+                run_id: '${{ github.run_id }}',
+                job_index: '${{ strategy.job-index }}'
+              }
+            }); 

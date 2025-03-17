@@ -1,43 +1,61 @@
-# <img src="/favicons/favicon-96x96.png?raw=true" height="32px" alt=""/> Apple Podcast Transcript Viewer
+# Gegenwartscheck Transcript Analyzer
 
-This is a simple UI tool for viewing full transcripts in a way that you can actually copy them. No software needed and it should work with any Mac with the Podcasts app just by visiting the website, https://alexbeals.com/projects/podcasts/. All you have to do is follow the instructions and drag-and-drop your podcasts folder.
+A tool to analyze transcripts from the "Gegenwartscheck" segments in the podcast "Dies sogenannte Gegenwart".
 
-This all works locally without uploading anything, which you can confirm by disabling the Internet after the website is loaded. 
+## About
 
-<img width="1368" alt="Screenshot 2025-01-30 at 11 31 52 PM" src="https://github.com/user-attachments/assets/683f252d-4255-47d5-9e15-2c747ffefb68" />
+This project automatically extracts and analyzes transcripts from the "Gegenwartscheck" game segments in the German podcast "Dies sogenannte Gegenwart". The system fetches episodes from Apple Podcasts, extracts their transcripts, and publishes the analyzed data to GitHub Pages.
 
-Once you drag and drop your files you can browse all of the episodes with transcripts.
+## How It Works
 
-<img width="1368" alt="Screenshot 2025-01-30 at 11 31 47 PM" src="https://github.com/user-attachments/assets/a108a39a-2fbf-4971-a1ee-336d2ec45e9e" />
+The system uses a series of GitHub Actions workflows to:
 
-Clicking on any of them will pull up the full transcript, which you can copy and paste to whatever tool you want to handle the file in.
+1. **Fetch episode links** - Gets links to podcast episodes containing "Gegenwartscheck" segments from Apple Podcasts
+2. **Process episodes** - Opens each episode in the macOS Podcasts app and views the transcript to cache it
+3. **Extract transcripts** - Parses the cached TTML files to extract structured transcript data
+4. **Analyze content** - (Coming soon) Analyzes the transcript to extract Gegenwartscheck game data
+5. **Publish results** - (Coming soon) Deploys the analyzed data to GitHub Pages
 
-<img width="1144" alt="Screenshot 2025-01-31 at 12 08 35 AM" src="https://github.com/user-attachments/assets/0985f961-b661-4679-b6db-026539fa7062" />
+## Data Structure
 
-## Where Does This Come From?
+Extracted transcripts are stored in the `data/` directory as JSON files with the following structure:
 
-The data is locally stored in `~/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache/Assets/TTML`. The tool also pulls in the `.sqlite` folder to display additional information about the podcast to make it easier to find the one you're looking for. Shoutout to @mattdanielmurphy and his [repo here](https://github.com/mattdanielmurphy/apple-podcast-transcript-extractor) which I found when originally trying to do this for a podcast.
-
-## Local Debugging
-Loading files doesn't work just by opening from `file://` in your browser, so instead use Python to set up a local server at http://localhost:8000/.
-
+```json
+{
+  "episode_title": "Episode Title",
+  "podcast_id": "12345",
+  "extracted_date": "2023-01-01T12:00:00",
+  "transcript": [
+    {
+      "speaker": "Speaker Name",
+      "text": "Spoken text content..."
+    }
+  ]
+}
 ```
-python3 -m http.server
-```
 
-## How did you get WAL working with sql.js??
+## Development
 
-Great question. This [issue was the key](https://github.com/sql-js/sql.js/issues/372). But the compiling steps were a nightmare, so I just manually modified the `sql-wasm.js` file. Will need to do this again with a version boost. Specifically you can look for the `dbfile_` bit in code, find the `if(null!=g)` code and copy it with a different variable (and the '-wal' suffix in the filename definition).
+See the [workflow design document](specs/workflow_design.md) for technical implementation details.
 
-Original:
-```
-function e(g){this.filename="dbfile_"+(4294967295*Math.random()>>>0);if(null!=g){var l=this.filename,n="/",t=l;n&&(n="string"==typeof n?n:ja(n),t=l?x(n+"/"+l):
-n);l=ka(!0,!0);t=la(t,(void 0!==l?l:438)&4095|32768,0);if(g){if("string"==typeof g){n=Array(g.length);for(var w=0,A=g.length;w<A;++w)n[w]=g.charCodeAt(w);g=n}ma(t,l|146);n=na(t,577);oa(n,g,0,g.length,0);pa(n);ma(t,l)}}
-```
+### Running Locally
 
-Replacement:
-```
-function e(g,zzz){this.filename="dbfile_"+(4294967295*Math.random()>>>0);if(null!=g){var l=this.filename,n="/",t=l;n&&(n="string"==typeof n?n:ja(n),t=l?x(n+"/"+l):
-n);l=ka(!0,!0);t=la(t,(void 0!==l?l:438)&4095|32768,0);if(g){if("string"==typeof g){n=Array(g.length);for(var w=0,A=g.length;w<A;++w)n[w]=g.charCodeAt(w);g=n}ma(t,l|146);n=na(t,577);oa(n,g,0,g.length,0);pa(n);ma(t,l)}}if(null!=zzz){var l=this.filename+"-wal",n="/",t=l;n&&(n="string"==typeof n?n:ja(n),t=l?x(n+"/"+l):
-n);l=ka(!0,!0);t=la(t,(void 0!==l?l:438)&4095|32768,0);if(zzz){if("string"==typeof zzz){n=Array(zzz.length);for(var w=0,A=zzz.length;w<A;++w)n[w]=zzz.charCodeAt(w);zzz=n}ma(t,l|146);n=na(t,577);oa(n,zzz,0,zzz.length,0);pa(n);ma(t,l)}}
-```
+To run the transcript extraction and analysis locally:
+
+1. Install dependencies: `pip install requests lxml beautifulsoup4`
+2. Get episode links: `python scripts/get_episodes.py`
+3. Extract transcripts from Apple Podcasts (macOS only)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- "Dies sogenannte Gegenwart" podcast for the content
+- Apple Podcasts for providing transcripts
+- Based on [apple-podcast-transcript-viewer](https://github.com/dado3212/apple-podcast-transcripts)

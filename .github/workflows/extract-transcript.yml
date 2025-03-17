@@ -1,0 +1,153 @@
+name: Extract Podcast Transcript
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode_title:
+        description: 'Episode title'
+        required: true
+      run_id:
+        description: 'Run ID of the process-episodes workflow'
+        required: true
+      job_index:
+        description: 'Job index from the matrix'
+        required: true
+
+jobs:
+  extract-transcript:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml beautifulsoup4
+      
+      - name: Download cache artifact
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: ${{ github.event.inputs.run_id }},
+            });
+            
+            const matchArtifact = artifacts.data.artifacts.find(artifact => {
+              return artifact.name == "transcript-cache-${{ github.event.inputs.run_id }}-${{ github.event.inputs.job_index }}"
+            });
+            
+            if (!matchArtifact) {
+              core.setFailed('No transcript cache artifact found');
+              return;
+            }
+            
+            const download = await github.rest.actions.downloadArtifact({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              artifact_id: matchArtifact.id,
+              archive_format: 'zip',
+            });
+            
+            const fs = require('fs');
+            fs.writeFileSync('transcript-cache.zip', Buffer.from(download.data));
+      
+      - name: Extract cache artifact
+        run: |
+          mkdir -p cache
+          unzip -o transcript-cache.zip -d cache
+      
+      - name: Process TTML files and extract transcript
+        run: |
+          python - <<'EOF'
+          import os
+          import re
+          import json
+          from bs4 import BeautifulSoup
+          from datetime import datetime
+          
+          # Create data directory if it doesn't exist
+          os.makedirs('data', exist_ok=True)
+          
+          # Find all TTML files in the cache directory
+          ttml_files = []
+          for root, dirs, files in os.walk('cache'):
+              for file in files:
+                  if file.endswith('.ttml'):
+                      ttml_files.append(os.path.join(root, file))
+          
+          print(f"Found {len(ttml_files)} TTML files")
+          
+          # Process each TTML file
+          for ttml_file in ttml_files:
+              try:
+                  print(f"Processing {ttml_file}")
+                  
+                  # Parse the TTML file
+                  with open(ttml_file, 'r', encoding='utf-8') as f:
+                      soup = BeautifulSoup(f.read(), 'xml')
+                  
+                  # Extract podcast ID from filename
+                  match = re.search(r'(\d+)\.ttml', os.path.basename(ttml_file))
+                  if not match:
+                      print(f"Could not extract podcast ID from {ttml_file}")
+                      continue
+                  
+                  podcast_id = match.group(1)
+                  
+                  # Extract transcript content
+                  transcript_chunks = []
+                  speaking_chunks = soup.select('p')
+                  
+                  for chunk in speaking_chunks:
+                      speaker = chunk.get('ttm:agent', 'Unknown')
+                      
+                      # Extract sentences
+                      sentences = []
+                      for sentence in chunk.select('span[podcasts\\:unit="sentence"]'):
+                          text = ' '.join([span.text for span in sentence.select('span')])
+                          sentences.append(text)
+                      
+                      # Join sentences
+                      text = ' '.join(sentences)
+                      
+                      if text.strip():  # Only add non-empty chunks
+                          transcript_chunks.append({
+                              'speaker': speaker,
+                              'text': text
+                          })
+                  
+                  # Save as JSON
+                  episode_title = "${{ github.event.inputs.episode_title }}".replace('/', '-')
+                  safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
+                  
+                  output_file = f"data/{safe_title}_transcript.json"
+                  with open(output_file, 'w', encoding='utf-8') as f:
+                      json.dump({
+                          'episode_title': episode_title,
+                          'podcast_id': podcast_id,
+                          'extracted_date': datetime.now().isoformat(),
+                          'transcript': transcript_chunks
+                      }, f, indent=2, ensure_ascii=False)
+                  
+                  print(f"Saved transcript to {output_file}")
+                  
+              except Exception as e:
+                  print(f"Error processing {ttml_file}: {e}")
+          EOF
+      
+      - name: Commit transcript data
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add data/
+          git commit -m "Add transcript for ${{ github.event.inputs.episode_title }}" || echo "No changes to commit"
+          git push 
