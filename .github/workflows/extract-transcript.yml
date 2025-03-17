@@ -13,6 +13,11 @@ on:
         description: 'Job index from the matrix'
         required: true
 
+# Add permissions to allow reading artifacts from other workflows
+permissions:
+  actions: read
+  contents: write
+
 jobs:
   extract-transcript:
     runs-on: ubuntu-latest
