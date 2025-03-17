@@ -13,8 +13,8 @@ import google.generativeai as genai
 from google.generativeai import types
 
 # Konstanten für die Verarbeitung
-DATA_DIR = "data"
-OUTPUT_DIR = "website/data"
+DATA_DIR = "data/transcripts"
+OUTPUT_DIR = "data/analyses"
 MODEL_NAME = "gemini-2.0-flash-thinking-exp-01-21"
 
 def setup_gemini_client():

@@ -32,7 +32,7 @@ graph TD
 
 ## Dateneingabe
 
-Die Eingabe für den Analyzer sind die JSON-Transkriptdateien im `/data`-Verzeichnis mit der Struktur:
+Die Eingabe für den Analyzer sind die JSON-Transkriptdateien im `/data/transcripts`-Verzeichnis mit der Struktur:
 
 ```json
 {
@@ -50,7 +50,7 @@ Die Eingabe für den Analyzer sind die JSON-Transkriptdateien im `/data`-Verzeic
 
 ## Datenausgabe
 
-Die Ausgabe ist eine JSON-Datei pro Episode im `/website/data`-Verzeichnis mit der Struktur:
+Die Ausgabe ist eine JSON-Datei pro Episode im `/data/analyses`-Verzeichnis mit der Struktur:
 
 ```json
 {
@@ -89,7 +89,7 @@ Der Prompt wird auf Deutsch gestellt, da die Transkripte auf Deutsch sind und di
 
 Das Python-Skript für den Analyzer wird:
 
-1. Alle Transkript-JSON-Dateien im `/data`-Verzeichnis durchsuchen
+1. Alle Transkript-JSON-Dateien im `/data/transcripts`-Verzeichnis durchsuchen
 2. Den Prompt dynamisch mit dem Transkriptinhalt generieren
 3. Die Gemini API aufrufen und die Antwort verarbeiten
 4. Die strukturierten Daten validieren und bereinigen

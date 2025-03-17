@@ -20,7 +20,7 @@ The system uses a series of GitHub Actions workflows to:
 
 ### Raw Transcripts
 
-Extracted transcripts are stored in the `data/` directory as JSON files with the following structure:
+Extracted transcripts are stored in the `data/transcripts/` directory as JSON files with the following structure:
 
 ```json
 {
@@ -38,7 +38,7 @@ Extracted transcripts are stored in the `data/` directory as JSON files with the
 
 ### Analyzed Data
 
-Analyzed "Gegenwartscheck" data is stored in the `website/data/` directory with the following structure:
+Analyzed "Gegenwartscheck" data is stored in the `data/analyses/` directory with the following structure:
 
 ```json
 {

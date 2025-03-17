@@ -85,7 +85,7 @@ jobs:
           from datetime import datetime
           
           # Create data directory if it doesn't exist
-          os.makedirs('data', exist_ok=True)
+          os.makedirs('data/transcripts', exist_ok=True)
           
           # Read episode title from file to avoid quote issues
           with open('episode_title.txt', 'r', encoding='utf-8') as f:
@@ -142,7 +142,7 @@ jobs:
                   # Create a safe filename
                   safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
                   
-                  output_file = f"data/{safe_title}_transcript.json"
+                  output_file = f"data/transcripts/{safe_title}_transcript.json"
                   with open(output_file, 'w', encoding='utf-8') as f:
                       json.dump({
                           'episode_title': episode_title,
@@ -161,6 +161,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add data/
+          git add data/transcripts/
           git commit -m "Add transcript for ${{ github.event.inputs.episode_title }}" || echo "No changes to commit"
           git push 

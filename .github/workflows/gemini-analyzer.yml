@@ -7,7 +7,7 @@ on:
       - completed
   push:
     paths:
-      - 'data/*_transcript.json'
+      - 'data/transcripts/*_transcript.json'
   workflow_dispatch:
     inputs:
       process_all:
@@ -36,7 +36,7 @@ jobs:
           pip install -r scripts/requirements.txt
       
       - name: Create output directory
-        run: mkdir -p website/data
+        run: mkdir -p data/analyses
       
       - name: Process transcript files
         env:
@@ -48,7 +48,7 @@ jobs:
           # Determine which files to process based on the trigger
           if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${PROCESS_ALL}" == "true" ]; then
             echo "Processing all transcript files"
-            find data -name "*_transcript.json" -type f | while read -r file; do
+            find data/transcripts -name "*_transcript.json" -type f | while read -r file; do
               echo "Processing $file"
               python scripts/gemini_analyzer.py --file "$file"
             done
@@ -60,12 +60,12 @@ jobs:
             done
           elif [ "${{ github.event_name }}" == "workflow_run" ]; then
             echo "Processing the most recent transcript file"
-            latest=$(ls -t data/*_transcript.json | head -1)
+            latest=$(ls -t data/transcripts/*_transcript.json | head -1)
             echo "Processing $latest"
             python scripts/gemini_analyzer.py --file "$latest"
           else
             echo "Processing all transcript files (default)"
-            find data -name "*_transcript.json" -type f | while read -r file; do
+            find data/transcripts -name "*_transcript.json" -type f | while read -r file; do
               echo "Processing $file"
               python scripts/gemini_analyzer.py --file "$file"
             done
@@ -74,10 +74,10 @@ jobs:
       - name: Commit processed data
         run: |
           # Check if there are any changes to commit
-          if git status --porcelain website/data | grep -q .; then
+          if git status --porcelain data/analyses | grep -q .; then
             git config --global user.name 'GitHub Actions'
             git config --global user.email 'actions@github.com'
-            git add website/data/
+            git add data/analyses/
             git commit -m "Add analyzed Gegenwartscheck data [skip ci]"
             git push
             echo "Committed new Gegenwartscheck data"
