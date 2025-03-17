@@ -125,8 +125,8 @@ jobs:
                               'text': text
                           })
                   
-                  # Save as JSON
-                  episode_title = "${{ github.event.inputs.episode_title }}".replace('/', '-')
+                  # Create a safe filename
+                  episode_title = "${{ github.event.inputs.episode_title }}"
                   safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
                   
                   output_file = f"data/{safe_title}_transcript.json"

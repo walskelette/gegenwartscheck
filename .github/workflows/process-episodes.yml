@@ -146,15 +146,22 @@ jobs:
             delay 10
           '
       
+      - name: Create safe filename
+        id: safe-filename
+        run: |
+          # Create a safe filename by replacing special characters
+          SAFE_TITLE=$(echo "${{ matrix.episode.title }}" | sed 's/[^a-zA-Z0-9]/_/g')
+          echo "safe_title=$SAFE_TITLE" >> $GITHUB_OUTPUT
+      
       - name: Zip the Podcasts Cache Folder
         run: |
-          zip -r "${{ matrix.episode.title }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
+          zip -r "${{ steps.safe-filename.outputs.safe_title }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
       
       - name: Upload Cache Folder
         uses: actions/upload-artifact@v4
         with:
           name: transcript-cache-${{ github.run_id }}-${{ strategy.job-index }}
-          path: "${{ matrix.episode.title }}_cache.zip"
+          path: "${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
       
       - name: Trigger Extract Transcript workflow
         uses: actions/github-script@v7
