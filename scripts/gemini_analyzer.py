@@ -9,8 +9,8 @@ import re
 import argparse
 from datetime import datetime
 from pathlib import Path
-from google import genai
-from google.genai import types
+import google.generativeai as genai
+from google.generativeai import types
 
 # Konstanten für die Verarbeitung
 DATA_DIR = "data"
@@ -23,7 +23,8 @@ def setup_gemini_client():
     if not api_key:
         raise ValueError("GEMINI_API_KEY Umgebungsvariable ist nicht gesetzt")
     
-    return genai.Client(api_key=api_key)
+    genai.configure(api_key=api_key)
+    return genai
 
 def load_transcript(file_path):
     """Lädt eine Transkript-Datei und gibt deren Inhalt zurück."""
@@ -106,51 +107,49 @@ def analyze_transcript_with_gemini(client, transcript_data):
     
     prompt = create_gemini_prompt(transcript_data)
     
-    generate_content_config = types.GenerateContentConfig(
-        temperature=0.7,
-        top_p=0.95,
-        top_k=64,
-        max_output_tokens=65536,
-        safety_settings=[
-            types.SafetySetting(
-                category="HARM_CATEGORY_CIVIC_INTEGRITY",
-                threshold="OFF",
-            ),
-        ],
-        response_mime_type="text/plain",
-    )
+    generation_config = {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 64,
+        "max_output_tokens": 65536,
+    }
     
-    model = client.models.get_model(MODEL_NAME)
-    contents = [
-        types.Content(
-            role="user",
-            parts=[types.Part.from_text(text=prompt)],
-        ),
+    safety_settings = [
+        {
+            "category": "HARM_CATEGORY_CIVIC_INTEGRITY",
+            "threshold": "BLOCK_NONE",
+        }
     ]
     
-    response = client.models.generate_content(
-        model=model,
-        contents=contents, 
-        config=generate_content_config
+    model = client.GenerativeModel(
+        model_name=MODEL_NAME,
+        generation_config=generation_config,
+        safety_settings=safety_settings
     )
     
-    response_text = response.text
-    
-    # JSON aus der Antwort extrahieren
-    # Oft gibt Gemini das JSON in einem Markdown-Codeblock zurück
-    json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
-    if json_match:
-        json_text = json_match.group(1)
-    else:
-        # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
-        json_text = response_text
-    
     try:
-        result = json.loads(json_text)
-        return result
-    except json.JSONDecodeError as e:
-        print(f"Fehler beim Parsen der Gemini-Antwort: {e}")
-        print(f"Antworttext: {response_text}")
+        response = model.generate_content(prompt)
+        response_text = response.text
+        
+        # JSON aus der Antwort extrahieren
+        # Oft gibt Gemini das JSON in einem Markdown-Codeblock zurück
+        json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
+        if json_match:
+            json_text = json_match.group(1)
+        else:
+            # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
+            json_text = response_text
+        
+        try:
+            result = json.loads(json_text)
+            return result
+        except json.JSONDecodeError as e:
+            print(f"Fehler beim Parsen der Gemini-Antwort: {e}")
+            print(f"Antworttext: {response_text}")
+            return None
+            
+    except Exception as e:
+        print(f"Fehler bei der Gemini API-Anfrage: {e}")
         return None
 
 def extract_date_from_title(title):

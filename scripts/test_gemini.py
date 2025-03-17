@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from google import genai
-from google.genai import types
+import google.generativeai as genai
 import json
 
 def test_gemini_api():
@@ -16,7 +15,7 @@ def test_gemini_api():
         return False
     
     # Gemini-Client initialisieren
-    client = genai.Client(api_key=api_key)
+    genai.configure(api_key=api_key)
     
     # Einfacher Test-Prompt
     test_prompt = """
@@ -42,31 +41,30 @@ def test_gemini_api():
     
     # Gemini-Konfiguration
     model_name = "gemini-2.0-flash-thinking-exp-01-21"
-    generate_content_config = types.GenerateContentConfig(
-        temperature=0.7,
-        top_p=0.95,
-        top_k=64,
-        max_output_tokens=1024,
-        response_mime_type="text/plain",
-    )
+    generation_config = {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 64,
+        "max_output_tokens": 1024,
+    }
+    
+    safety_settings = [
+        {
+            "category": "HARM_CATEGORY_CIVIC_INTEGRITY",
+            "threshold": "BLOCK_NONE",
+        }
+    ]
     
     try:
         # Modell abrufen
-        model = client.models.get_model(model_name)
+        model = genai.GenerativeModel(
+            model_name=model_name,
+            generation_config=generation_config,
+            safety_settings=safety_settings
+        )
         
         # Anfrage stellen
-        contents = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=test_prompt)],
-            ),
-        ]
-        
-        response = client.models.generate_content(
-            model=model,
-            contents=contents, 
-            config=generate_content_config
-        )
+        response = model.generate_content(test_prompt)
         
         print("Gemini API-Antwort erhalten:")
         print(f"{response.text}\n")
