@@ -1,0 +1,76 @@
+{
+  "episode_title": "Warum kann Alice Weidel nur sarkastisch reden?",
+  "podcast_id": "1000685580511",
+  "episode_date": "2025-03-17",
+  "extracted_date": "2025-03-17T12:33:08.836767",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Lieferboten-Fahrradfahrer mit riesigen Handschuhen am Lenker",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Berit",
+      "begruendung": "Neu diesen Winter, überall gesehen, Elternbubble-Phänomen, verschiedene Interpretationen (bessere Behandlung der Fahrer oder Cyborg-Verwachsung mit dem Rad).",
+      "metaebene": "Interpretation eher negativ (Cyborgs)",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Lieferdienste",
+        "Fahrradfahrer",
+        "Arbeitsbedingungen",
+        "Urbanisierung",
+        "Winter"
+      ]
+    },
+    {
+      "vorschlag": "Voice-Mail-Ansage \"Gesprächsperson\" statt \"Gesprächspartner\"",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Gender-Neutralität, im Gegensatz zum globalen Trend (Wipeshift, DEI-Programme werden abgeschafft), Telekom-Provider verpasst die Gegenwart.",
+      "metaebene": "Antizyklisch, gegenwärtig gegen den Trend",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gendern",
+        "Sprache",
+        "Technologie",
+        "Zeitgeist",
+        "Antizyklisch"
+      ]
+    },
+    {
+      "vorschlag": "Wort \"generieren\" im BWL-Sprech und im Zusammenhang mit KI",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Johannes",
+      "begruendung": "Überall im BWL-Sprech (Klicks generieren, Einnahmen generieren), jetzt auch im Zusammenhang mit generativer KI (Chat GPT), betont, dass wirtschaftliches Geschehen kein Nullsummenspiel ist.",
+      "metaebene": "Aufeinandertreffen von BWL-Sprech und KI",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "Wirtschaft",
+        "KI",
+        "Technologie",
+        "Neologismus"
+      ]
+    },
+    {
+      "vorschlag": "Begriff \"Kennenlernphase\" im Dating",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Olaf aus Köln",
+      "begruendung": "Neue Normierung im Datingverhalten, Zeitraum des Übergangs zur festen Beziehung, Sätze wie \"mehrere Kennenlernphasen gehabt\", Situation Ship als verwandter Begriff.",
+      "metaebene": "Strukturierung des Datings",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Dating",
+        "Beziehung",
+        "Sprache",
+        "Soziale Trends",
+        "Kennenlernen"
+      ]
+    }
+  ]
+}
