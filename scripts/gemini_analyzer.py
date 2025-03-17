@@ -114,6 +114,7 @@ def analyze_transcript_with_gemini(client, transcript_data):
         "max_output_tokens": 65536,
     }
     
+    # Correct safety settings format for Gemini API
     safety_settings = [
         {
             "category": "HARM_CATEGORY_HARASSMENT",
@@ -130,20 +131,16 @@ def analyze_transcript_with_gemini(client, transcript_data):
         {
             "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
             "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_CIVIC_INTEGRITY",
-            "threshold": "BLOCK_NONE",
         }
     ]
     
-    model = client.GenerativeModel(
-        model_name=MODEL_NAME,
-        generation_config=generation_config,
-        safety_settings=safety_settings
-    )
-    
     try:
+        model = client.GenerativeModel(
+            model_name=MODEL_NAME,
+            generation_config=generation_config,
+            safety_settings=safety_settings
+        )
+        
         response = model.generate_content(prompt)
         response_text = response.text
         
