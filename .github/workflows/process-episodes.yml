@@ -7,9 +7,9 @@ on:
       - completed
   workflow_dispatch:
 
-# Add permissions to allow reading artifacts from other workflows
+# Add permissions to allow reading artifacts from other workflows and triggering workflows
 permissions:
-  actions: read
+  actions: write
   contents: read
 
 jobs:
