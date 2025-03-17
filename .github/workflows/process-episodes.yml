@@ -20,7 +20,7 @@ jobs:
       
       - name: Download artifact
         if: github.event_name == 'workflow_run'
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
@@ -63,8 +63,9 @@ jobs:
       - name: Set output
         id: get-episode-links
         run: |
-          EPISODE_LINKS=$(cat episode_links.json)
-          echo "episode_links=$EPISODE_LINKS" >> $GITHUB_OUTPUT
+          # Use jq to format the JSON properly
+          EPISODE_LINKS=$(cat episode_links.json | jq -c .)
+          echo "episode_links=${EPISODE_LINKS}" >> $GITHUB_OUTPUT
   
   process-episodes:
     needs: setup
