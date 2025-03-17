@@ -1,20 +1,19 @@
 # Gegenwartscheck Transcript Analyzer
 
-A tool to analyze transcripts from the "Gegenwartscheck" segments in the podcast "Dies sogenannte Gegenwart".
+A tool to automatically extract and analyze transcripts from the "Gegenwartscheck" segments in the podcast "Dies sogenannte Gegenwart".
 
 ## About
 
-This project automatically extracts and analyzes transcripts from the "Gegenwartscheck" game segments in the German podcast "Dies sogenannte Gegenwart". The system fetches episodes from Apple Podcasts, extracts their transcripts, and publishes the analyzed data to GitHub Pages.
+This project automatically extracts transcripts from podcast episodes of the German podcast "Dies sogenannte Gegenwart" with a focus on the "Gegenwartscheck" game segments. The system fetches episodes from Apple Podcasts, extracts their transcripts, and stores them in a structured format for further analysis.
 
 ## How It Works
 
 The system uses a series of GitHub Actions workflows to:
 
-1. **Fetch episode links** - Gets links to podcast episodes containing "Gegenwartscheck" segments from Apple Podcasts
+1. **Fetch episode links** - Gets links to podcast episodes from Apple Podcasts
 2. **Process episodes** - Opens each episode in the macOS Podcasts app and views the transcript to cache it
 3. **Extract transcripts** - Parses the cached TTML files to extract structured transcript data
-4. **Analyze content** - (Coming soon) Analyzes the transcript to extract Gegenwartscheck game data
-5. **Publish results** - (Coming soon) Deploys the analyzed data to GitHub Pages
+4. **Store data** - Saves the transcripts as JSON files in the data directory
 
 ## Data Structure
 
@@ -38,13 +37,22 @@ Extracted transcripts are stored in the `data/` directory as JSON files with the
 
 See the [workflow design document](specs/workflow_design.md) for technical implementation details.
 
-### Running Locally
+### Running Workflows
 
-To run the transcript extraction and analysis locally:
+The workflows can be triggered manually or run on a schedule:
 
-1. Install dependencies: `pip install requests lxml beautifulsoup4`
-2. Get episode links: `python scripts/get_episodes.py`
-3. Extract transcripts from Apple Podcasts (macOS only)
+1. **Get Podcast Episode Links** (`get-podcast-links.yml`) - Runs weekly by default
+2. **Process Episodes** (`process-episodes.yml`) - Triggered automatically by the previous workflow
+3. **Extract Transcript** (`extract-transcript.yml`) - Triggered for each episode by the process workflow
+
+### Future Development
+
+Planned enhancements for this project include:
+
+1. Creating a GitHub Pages website to visualize the transcript data
+2. Implementing analysis to extract Gegenwartscheck game information
+3. Adding error recovery mechanisms for workflow failures
+4. Optimizing AppleScript interactions for better reliability
 
 ## Contributing
 
@@ -58,4 +66,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - "Dies sogenannte Gegenwart" podcast for the content
 - Apple Podcasts for providing transcripts
-- Based on [apple-podcast-transcript-viewer](https://github.com/dado3212/apple-podcast-transcripts)
+- Based on transcript extraction techniques from [apple-podcast-transcript-viewer](https://github.com/dado3212/apple-podcast-transcripts)
