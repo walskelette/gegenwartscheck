@@ -16,6 +16,11 @@ on:
         type: boolean
         default: false
 
+# Add permissions to allow reading artifacts from other workflows
+permissions:
+  actions: read
+  contents: read
+
 jobs:
   analyze:
     runs-on: ubuntu-latest

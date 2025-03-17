@@ -7,6 +7,11 @@ on:
       - completed
   workflow_dispatch:
 
+# Add permissions to allow reading artifacts from other workflows
+permissions:
+  actions: read
+  contents: read
+
 jobs:
   setup:
     runs-on: ubuntu-latest
