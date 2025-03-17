@@ -1,0 +1,114 @@
+name: Gemini Transcript Analyzer
+
+on:
+  workflow_run:
+    workflows: ["Extract Podcast Transcript"]
+    types:
+      - completed
+  push:
+    paths:
+      - 'data/*_transcript.json'
+  workflow_dispatch:
+    inputs:
+      process_all:
+        description: 'Process all transcript files (not just new ones)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      
+      - name: Create output directory
+        run: mkdir -p website/data
+      
+      - name: Determine files to process
+        id: files
+        run: |
+          # Default to empty (will be filled later)
+          echo "transcript_files=" > $GITHUB_OUTPUT
+          
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${{ github.event.inputs.process_all }}" == "true" ]; then
+            # Process all files when explicitly requested
+            echo "Processing all transcript files"
+            files=$(ls data/*_transcript.json | tr '\n' ' ')
+            echo "transcript_files=$files" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" == "push" ]; then
+            # For push events, only process added/modified transcript files
+            echo "Processing only added or modified transcript files"
+            files=$(git diff --name-only HEAD^ HEAD | grep "_transcript.json" | tr '\n' ' ')
+            echo "transcript_files=$files" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" == "workflow_run" ]; then
+            # For workflow_run events, process the most recent transcript file
+            echo "Processing the most recent transcript file"
+            latest=$(ls -t data/*_transcript.json | head -1)
+            echo "transcript_files=$latest" >> $GITHUB_OUTPUT
+          else
+            # Default: process all transcript files
+            echo "Processing all transcript files (default)"
+            files=$(ls data/*_transcript.json | tr '\n' ' ')
+            echo "transcript_files=$files" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Run Gemini analyzer
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          # Process each file individually
+          success_count=0
+          total_count=0
+          
+          # Check if we have files to process
+          if [ -z "${{ steps.files.outputs.transcript_files }}" ]; then
+            echo "No transcript files to process"
+            exit 0
+          fi
+          
+          # Process each file
+          for file in ${{ steps.files.outputs.transcript_files }}; do
+            echo "Processing $file"
+            total_count=$((total_count + 1))
+            
+            python scripts/gemini_analyzer.py --file "$file"
+            
+            if [ $? -eq 0 ]; then
+              success_count=$((success_count + 1))
+            fi
+          done
+          
+          echo "Processed $success_count of $total_count files successfully"
+          
+          # Exit with error if any file failed
+          if [ $success_count -ne $total_count ]; then
+            exit 1
+          fi
+      
+      - name: Commit processed data
+        run: |
+          # Check if there are any changes to commit
+          if git diff --name-only | grep -q "website/data"; then
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email 'actions@github.com'
+            git add website/data/
+            git commit -m "Add analyzed Gegenwartscheck data [skip ci]"
+            git push
+            echo "Committed new Gegenwartscheck data"
+          else
+            echo "No changes to commit"
+          fi 
