@@ -64,6 +64,12 @@ jobs:
         run: |
           mkdir -p cache
           unzip -o transcript-cache.zip -d cache
+          
+          # Extract the inner zip file
+          find cache -name "*.zip" -exec unzip -o {} -d cache/extracted \;
+          
+          # List the contents to debug
+          find cache -type f | grep -i ttml || echo "No TTML files found"
       
       - name: Create episode title file
         run: |
