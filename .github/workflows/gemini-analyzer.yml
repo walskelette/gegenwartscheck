@@ -38,65 +38,37 @@ jobs:
       - name: Create output directory
         run: mkdir -p website/data
       
-      - name: Determine files to process
-        id: files
-        run: |
-          # Default to empty (will be filled later)
-          echo "transcript_files=" > $GITHUB_OUTPUT
-          
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${{ github.event.inputs.process_all }}" == "true" ]; then
-            # Process all files when explicitly requested
-            echo "Processing all transcript files"
-            files=$(ls data/*_transcript.json | tr '\n' ' ')
-            echo "transcript_files=$files" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event_name }}" == "push" ]; then
-            # For push events, only process added/modified transcript files
-            echo "Processing only added or modified transcript files"
-            files=$(git diff --name-only HEAD^ HEAD | grep "_transcript.json" | tr '\n' ' ')
-            echo "transcript_files=$files" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event_name }}" == "workflow_run" ]; then
-            # For workflow_run events, process the most recent transcript file
-            echo "Processing the most recent transcript file"
-            latest=$(ls -t data/*_transcript.json | head -1)
-            echo "transcript_files=$latest" >> $GITHUB_OUTPUT
-          else
-            # Default: process all transcript files
-            echo "Processing all transcript files (default)"
-            files=$(ls data/*_transcript.json | tr '\n' ' ')
-            echo "transcript_files=$files" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Run Gemini analyzer
+      - name: Process transcript files
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          # Process each file individually
-          success_count=0
-          total_count=0
+          # Get process_all input value
+          PROCESS_ALL="${{ github.event.inputs.process_all }}"
           
-          # Check if we have files to process
-          if [ -z "${{ steps.files.outputs.transcript_files }}" ]; then
-            echo "No transcript files to process"
-            exit 0
-          fi
-          
-          # Process each file
-          for file in ${{ steps.files.outputs.transcript_files }}; do
-            echo "Processing $file"
-            total_count=$((total_count + 1))
-            
-            python scripts/gemini_analyzer.py --file "$file"
-            
-            if [ $? -eq 0 ]; then
-              success_count=$((success_count + 1))
-            fi
-          done
-          
-          echo "Processed $success_count of $total_count files successfully"
-          
-          # Exit with error if any file failed
-          if [ $success_count -ne $total_count ]; then
-            exit 1
+          # Determine which files to process based on the trigger
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${PROCESS_ALL}" == "true" ]; then
+            echo "Processing all transcript files"
+            find data -name "*_transcript.json" -type f | while read -r file; do
+              echo "Processing $file"
+              python scripts/gemini_analyzer.py --file "$file"
+            done
+          elif [ "${{ github.event_name }}" == "push" ]; then
+            echo "Processing only added or modified transcript files"
+            git diff --name-only HEAD^ HEAD | grep "_transcript.json" | while read -r file; do
+              echo "Processing $file"
+              python scripts/gemini_analyzer.py --file "$file"
+            done
+          elif [ "${{ github.event_name }}" == "workflow_run" ]; then
+            echo "Processing the most recent transcript file"
+            latest=$(ls -t data/*_transcript.json | head -1)
+            echo "Processing $latest"
+            python scripts/gemini_analyzer.py --file "$latest"
+          else
+            echo "Processing all transcript files (default)"
+            find data -name "*_transcript.json" -type f | while read -r file; do
+              echo "Processing $file"
+              python scripts/gemini_analyzer.py --file "$file"
+            done
           fi
       
       - name: Commit processed data
