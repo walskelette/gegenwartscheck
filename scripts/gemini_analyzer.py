@@ -17,8 +17,8 @@ from google.genai import types
 # Konstanten für die Verarbeitung
 DATA_DIR = "data/transcripts"
 OUTPUT_DIR = "data/analyses"
-MODEL_NAME = "gemini-2.0-flash-thinking-exp-01-21"
-PROOFREADING_MODEL_NAME = "gemini-1.5-pro"  # Changed from gemini-2.0-pro to gemini-1.5-pro
+MODEL_NAME = "models/gemini-2.0-flash"
+PROOFREADING_MODEL_NAME = "models/gemini-2.0-flash"
 
 def setup_gemini_client():
     """Initialisiert den Gemini API-Client mit dem API-Schlüssel aus der Umgebungsvariable."""
