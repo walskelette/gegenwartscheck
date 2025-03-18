@@ -46,10 +46,14 @@ jobs:
               if episode.get('wrapperType') == 'podcastEpisode':
                   episode_title = episode.get('trackName')
                   episode_url = episode.get('trackViewUrl')
+                  episode_id = episode.get('trackId')
+                  release_date = episode.get('releaseDate')
                   # Include all episodes, not just those with "gegenwartscheck" in the title
                   episodes.append({
                       "title": episode_title,
-                      "url": episode_url
+                      "url": episode_url,
+                      "episode_id": episode_id,
+                      "release_date": release_date
                   })
           
           # Save to file

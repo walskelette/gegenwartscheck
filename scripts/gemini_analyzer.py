@@ -180,10 +180,21 @@ def create_output_data(transcript_data, analysis_result):
     if not analysis_result or "gegenwartsvorschlaege" not in analysis_result:
         return None
     
+    # Use release_date if available, otherwise fall back to extracted date or title-based date
+    episode_date = transcript_data.get("release_date")
+    if not episode_date:
+        # For backward compatibility
+        episode_date = extract_date_from_title(transcript_data["episode_title"])
+    
+    # If episode_date is an ISO format string with time, extract just the date portion
+    if isinstance(episode_date, str) and "T" in episode_date:
+        episode_date = episode_date.split("T")[0]
+    
     return {
         "episode_title": transcript_data["episode_title"],
         "podcast_id": transcript_data["podcast_id"],
-        "episode_date": extract_date_from_title(transcript_data["episode_title"]),
+        "episode_id": transcript_data.get("episode_id"),
+        "episode_date": episode_date,
         "extracted_date": datetime.now().isoformat(),
         "gegenwartsvorschlaege": analysis_result["gegenwartsvorschlaege"]
     }

@@ -154,9 +154,14 @@ jobs:
       - name: Create safe filename
         id: safe-filename
         run: |
-          # Create a safe filename by replacing special characters
-          SAFE_TITLE=$(echo "${{ matrix.episode.title }}" | sed 's/[^a-zA-Z0-9]/_/g')
-          echo "safe_title=$SAFE_TITLE" >> $GITHUB_OUTPUT
+          # Use episode ID for filename instead of title
+          EPISODE_ID="${{ matrix.episode.episode_id }}"
+          # Fallback to safe title if episode_id is not available (for backward compatibility)
+          if [ -z "$EPISODE_ID" ]; then
+            EPISODE_ID=$(echo "${{ matrix.episode.title }}" | sed 's/[^a-zA-Z0-9]/_/g')
+            echo "Warning: Using title as filename because episode_id is not available"
+          fi
+          echo "safe_title=$EPISODE_ID" >> $GITHUB_OUTPUT
       
       - name: Zip the Podcasts Cache Folder
         run: |
@@ -180,6 +185,8 @@ jobs:
               ref: 'main',
               inputs: {
                 episode_title: '${{ matrix.episode.title }}',
+                episode_id: '${{ matrix.episode.episode_id }}',
+                release_date: '${{ matrix.episode.release_date }}',
                 run_id: '${{ github.run_id }}',
                 job_index: '${{ strategy.job-index }}'
               }

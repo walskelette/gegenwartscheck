@@ -6,6 +6,12 @@ on:
       episode_title:
         description: 'Episode title'
         required: true
+      episode_id:
+        description: 'Episode ID'
+        required: false
+      release_date:
+        description: 'Episode release date'
+        required: false
       run_id:
         description: 'Run ID of the process-episodes workflow'
         required: true
@@ -145,13 +151,27 @@ jobs:
                           })
                   
                   # Create a safe filename
-                  safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
+                  # Use episode_id if available, otherwise use the title
+                  episode_id = "${{ github.event.inputs.episode_id }}"
+                  if episode_id and episode_id != '':
+                      output_file = f"data/transcripts/{episode_id}_transcript.json"
+                  else:
+                      # Fallback to title-based naming for backward compatibility
+                      safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
+                      output_file = f"data/transcripts/{safe_title}_transcript.json"
+                      print("Warning: Using title-based filename because episode_id is not available")
                   
-                  output_file = f"data/transcripts/{safe_title}_transcript.json"
+                  # Get release date if available, otherwise use current date
+                  release_date = "${{ github.event.inputs.release_date }}"
+                  if not release_date or release_date == '':
+                      release_date = datetime.now().isoformat()
+                  
                   with open(output_file, 'w', encoding='utf-8') as f:
                       json.dump({
                           'episode_title': episode_title,
                           'podcast_id': podcast_id,
+                          'episode_id': episode_id if episode_id and episode_id != '' else None,
+                          'release_date': release_date,
                           'extracted_date': datetime.now().isoformat(),
                           'transcript': transcript_chunks
                       }, f, indent=2, ensure_ascii=False)
