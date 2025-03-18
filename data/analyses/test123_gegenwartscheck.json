@@ -1,0 +1,85 @@
+{
+  "episode_title": "Test Timestamps",
+  "podcast_id": "1000698535476",
+  "episode_id": "test123",
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T15:04:03.647453",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "AK-Boot mit Plateau als Schuhtrend bei Frauen",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Dieser Winter gab es einen Schuhtrend bei Frauen, ein bestimmter Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Schuhe",
+        "Winter",
+        "Trends",
+        "Mondlandschaft"
+      ],
+      "start_zeit": "3:48.497",
+      "ende_zeit": "6:56.617"
+    },
+    {
+      "vorschlag": "Ständig jemanden unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus, wie Donald Trump oder Annalena Baerbock.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Sprache",
+        "Politik",
+        "Medien",
+        "Verhalten",
+        "Redewendung"
+      ],
+      "start_zeit": "8:19.117",
+      "ende_zeit": "9:54.237"
+    },
+    {
+      "vorschlag": "Personalisierte Handyhüllen mit Fotos/persönlichen Gegenständen",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho/Pancho",
+      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen hinten eine kleine Fotoauswahl von ihren Liebsten oder persönliche Gegenstände, die wie Schmuck gezeigt werden. Das iPhone verliert seinen Status als unberührtes Objekt und wird zum persönlichen Wohnzimmer.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Technologie",
+        "Handys",
+        "Trends",
+        "Personalisierung",
+        "Alltagskultur"
+      ],
+      "start_zeit": "10:10.637",
+      "ende_zeit": "13:30.077"
+    },
+    {
+      "vorschlag": "KI-generierte Bilder auf Pinterest erzeugen Unzufriedenheit",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "KI auf Pinterest kennt keine Restriktionen und kann unendlich viele Dekor-Ideen generieren. Der Reiz von Pinterest war aber bisher, echte, realisierte und damit glaubwürdige Dekorationsvorschläge von Menschen aus Fleisch und Blut zu sehen.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Internet",
+        "Social Media",
+        "Authentizität",
+        "Design"
+      ],
+      "start_zeit": "13:34.157",
+      "ende_zeit": "16:20.697"
+    }
+  ]
+}

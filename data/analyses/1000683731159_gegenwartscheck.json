@@ -3,75 +3,83 @@
   "podcast_id": "1000683731159",
   "episode_id": "1000683731159",
   "episode_date": "2025-01-13",
-  "extracted_date": "2025-03-18T00:30:30.985940",
+  "extracted_date": "2025-03-18T15:08:21.230701",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Bone Broth",
+      "vorschlag": "Knochenbrühe (Bone Broth)",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Trend aus Amerika (Miami, New York), Geschäftsidee für Berlin (Verkauf vor Clubs), gesundheitliche Vorteile (Paleo-Diät, Kollagen, Anti-Aging, ADHS, Depression, Gelenkerkrankungen)",
-      "metaebene": "Geschäftsidee, transatlantischer Trend",
+      "begruendung": "Trend aus Miami und New York, Geschäftsidee, Paleo-Diät, Kollagenquelle, Anti-Aging, soll gegen ADHS, Depressionen und Gelenkerkrankungen wirken.",
+      "metaebene": "Geschäftsidee, Marketing, Preisgestaltung als Qualitätsmerkmal",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Ernährung",
         "Trend",
         "Gesundheit",
-        "Geschäftsidee",
-        "USA"
-      ]
+        "Kulinarik",
+        "Geschäftsidee"
+      ],
+      "start_zeit": "2:58.854",
+      "ende_zeit": "7:11.154"
     },
     {
       "vorschlag": "Treadwife-Satire",
       "vorschlagender": "Nina",
-      "ist_hoerer": false,
-      "hoerer_name": null,
-      "begruendung": "Satirische Weiterentwicklung des Treadwife-Phänomens, Parodien von Comedians (Böhmermann, Hazel Brugger) und privaten Nutzern, Vermischung von Satire und Original-Content durch Algorithmus, Unsicherheit ob Content Satire ist oder nicht",
-      "metaebene": "Zweite Ordnung, Satire als Reaktion auf soziales Phänomen",
+      "ist_hoerer": true,
+      "hoerer_name": "Isolde",
+      "begruendung": "Weiterentwicklung des Treadwife-Phänomens durch Satire von Comedians und privaten Accounts, Algorithmus kann Satire nicht unterscheiden, Vermischung von satirischem und echtem Treadwife-Content.",
+      "metaebene": "Rezeptionsformen von Treadwives (Voyeurismus, Feminismus, Feuilleton), zweite Ordnung der Satire, Funktionsweise von Algorithmen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Social Media",
         "Satire",
-        "Frauenrolle",
-        "Internetkultur",
-        "Ironie"
-      ]
+        "Ironie",
+        "Feminismus",
+        "Internetkultur"
+      ],
+      "start_zeit": "7:16.774",
+      "ende_zeit": "17:05.754"
     },
     {
       "vorschlag": "Robert Habecks Weste",
       "vorschlagender": "Wolf",
       "ist_hoerer": true,
       "hoerer_name": "Wolf",
-      "begruendung": "Robert Habeck trägt Weste im neuen Wahlkampf, Weste als Symbol (Schäfer, Tradition, Handwerk), Renaissance der Weste",
-      "metaebene": "Politische Symbolik, sartoriales Detail, Interpretation von Kleidung",
+      "begruendung": "Robert Habeck trägt Weste seit dem 'D-Day', Weste als Kleidungsstück, das an YouTube-Millionäre und Konfirmanden erinnert, aber im Detail anders ist (keine klassische Anzugsweste, Flanellstoff), erinnert an einen Schafhirten, Habeck als Hirte der Nation.",
+      "metaebene": "Wahlkampf, Zeichenspiel, Geschichte der Grünen, Bürgerlichkeit, selektive Übernahme bürgerlicher Accessoires",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Politik",
-        "Kleidung",
+        "Mode",
+        "Stil",
         "Symbolik",
-        "Trend",
-        "Hörer-Vorschlag"
-      ]
+        "Kommunikation"
+      ],
+      "start_zeit": "17:10.434",
+      "ende_zeit": "22:17.454"
     },
     {
       "vorschlag": "Mentale Nebenkosten",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Begriff von ADHS-Influencerin, Vermischung von Mental Health und Finanz-Bubble, versteckte Kosten für neurodivergente Menschen in sozialen Situationen, Weiterentwicklung von 'Mental Load'",
-      "metaebene": "Neuer Begriff, Vermischung von Bubbles, Benennung von Gefühlen und Abweichungen",
+      "begruendung": "Begriff aus dem Insta-Kosmos, Frau mit ADHS erklärt 'mentale Nebenkosten' im Kontext von Neurodivergenz, Kosten entstehen durch Vorbereitung, soziales Interagieren und Erholung danach, bezahlt mit Dopamin statt Geld.",
+      "metaebene": "Finanz-Bubble, Mental Health Bubble, Neurodivergenz, Benennung von Gefühlen und Abweichungen, Analogie zu 'Arbeitszeitbetrug' und 'Mental Load'",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mental Health",
-        "Finanzen",
-        "Soziale Interaktion",
         "Neurodivergenz",
+        "Finanzen",
+        "Social Media",
         "Sprache"
-      ]
+      ],
+      "start_zeit": "23:12.374",
+      "ende_zeit": "26:42.194"
     }
   ]
 }

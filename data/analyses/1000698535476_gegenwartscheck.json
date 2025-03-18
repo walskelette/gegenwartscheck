@@ -3,49 +3,53 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-18T00:29:32.135821",
+  "extracted_date": "2025-03-18T15:04:45.344316",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Ackboot mit Plateausohle",
+      "vorschlag": "Plateau-Ackboots als Vorbereitung auf Mondmissionen",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Schuhtrend bei Frauen in Kombination mit Space-Iglus vor Restaurants ergibt ein Mondlandschafts-Bild. Vorbereitung auf die nächsten Mondmissionen.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Statement zum NASA-Plan vs. Elon Musk.",
+      "begruendung": "Ackboots mit Plateausohle sind ein Schuhtrend bei Frauen diesen Winter. In Kombination mit den Iglus und Domes vor Restaurants entsteht eine Mondlandschaft. Der Schuh sieht aus wie ein Moonboot, die Zelte wie Mondstationen. Metaebene: Vorbereitung auf die nächsten Mondmissionen und Bekenntnis zum NASA-Plan einer Mondstation als Zwischenschritt zum Mars.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Trends",
         "Weltraum",
-        "Mond"
-      ]
+        "Technologie",
+        "Trends"
+      ],
+      "start_zeit": "3:48.497",
+      "ende_zeit": "6:03.157"
     },
     {
-      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlag": "Ständig wirft irgendjemand irgendjemand anderen unter den Bus",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Redewendung ist ständig präsent, genutzt von Donald Trump und in aktuellen politischen Kontexten (Baerbock-Hasselmann, Ukraine).",
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, z.B. Donald Trump, Annalena Baerbock (Britta Hasselmann), Ukraine.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Sprache",
-        "Redewendung",
         "Politik",
+        "Sprache",
+        "Medien",
         "Kommunikation",
-        "Wiederholung"
-      ]
+        "Verhalten"
+      ],
+      "start_zeit": "8:19.117",
+      "ende_zeit": "10:05.517"
     },
     {
-      "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Sancho",
+      "vorschlag": "Personalisierte Handyhüllen mit Fotos und Gegenständen",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
-      "hoerer_name": "Sancho",
-      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, wie eine moderne Brieftasche.",
-      "metaebene": "iPhone vom geheiligten Objekt zum Nutzgegenstand, Vermischung von digital und analog.",
+      "hoerer_name": "Sancho (Pancho)",
+      "begruendung": "Junge Leute personalisieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, sichtbar für andere. Das iPhone verliert seinen Status als unbeschmutzbarer Gegenstand und wird zum Nutzgegenstand, vollgestopft mit analogen Dingen wie Quittungen oder Kinotickets.",
+      "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
@@ -53,25 +57,30 @@
         "Mobiltelefone",
         "Trends",
         "Personalisierung",
-        "Digitalisierung"
-      ]
+        "Alltagskultur"
+      ],
+      "start_zeit": "10:10.637",
+      "ende_zeit": "13:30.077"
     },
     {
-      "vorschlag": "KI-generierte Bilder auf Pinterest",
-      "vorschlagender": "Lena",
+      "vorschlag": "KI-generierte Bilder auf Pinterest erzeugen Unbehagen",
+      "vorschlagender": "Hörerin",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-Bilder auf Pinterest für Balkongestaltung erzeugen Unzufriedenheit, da ihnen die Authentizität und das Risiko echter, menschlicher Beispiele fehlen. KI kennt keine Restriktionen.",
-      "metaebene": "Authentizität vs. Unendlichkeit der KI-Optionen, Restriktionen als Selektionskriterium menschlicher Kreativität.",
+      "begruendung": "KI-generierte Bilder auf Pinterest, z.B. für Balkongestaltung, erzeugen Unbehagen, da sie keine Restriktionen kennen und die Ernsthaftigkeit und Authentizität menschlicher, realer Gestaltungsbeispiele fehlt. Der Wert von Pinterest lag bisher darin, echte, risikobereite Menschen und ihre realen Umsetzungen zu sehen.",
+      "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
         "Künstliche Intelligenz",
-        "Internet",
-        "Design",
-        "Authentizität"
-      ]
+        "Pinterest",
+        "Social Media",
+        "Authentizität",
+        "Design"
+      ],
+      "start_zeit": "13:34.157",
+      "ende_zeit": "16:20.697"
     }
   ]
 }
