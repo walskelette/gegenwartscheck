@@ -160,9 +160,9 @@ def analyze_transcript_with_gemini(client, transcript_data):
         ]
     )
     
-    # Retry mechanism with exponential backoff
+    # Retry mechanism with respect to 2 rpm rate limit
     max_retries = 5
-    base_delay = 2  # seconds
+    min_retry_delay = 30  # seconds (30s = respecting 2 rpm)
     
     for retry_attempt in range(max_retries):
         try:
@@ -196,9 +196,9 @@ def analyze_transcript_with_gemini(client, transcript_data):
             # Check if it's a rate limit error
             if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
                 if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
-                    # Calculate backoff delay with jitter
-                    delay = base_delay * (2 ** retry_attempt) + random.uniform(0, 1)
-                    print(f"Rate limit erreicht. Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    # Use a fixed delay based on rate limit of 2 rpm
+                    delay = min_retry_delay + (retry_attempt * 5) + random.uniform(0, 2)
+                    print(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
                     time.sleep(delay)
                 else:
                     print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
@@ -283,9 +283,9 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
         ]
     )
     
-    # Retry mechanism with exponential backoff
+    # Retry mechanism with respect to 2 rpm rate limit
     max_retries = 5
-    base_delay = 2  # seconds
+    min_retry_delay = 30  # seconds (30s = respecting 2 rpm)
     
     for retry_attempt in range(max_retries):
         try:
@@ -319,9 +319,9 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             # Check if it's a rate limit error
             if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
                 if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
-                    # Calculate backoff delay with jitter
-                    delay = base_delay * (2 ** retry_attempt) + random.uniform(0, 1)
-                    print(f"Rate limit erreicht. Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    # Use a fixed delay based on rate limit of 2 rpm
+                    delay = min_retry_delay + (retry_attempt * 5) + random.uniform(0, 2)
+                    print(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
                     time.sleep(delay)
                 else:
                     print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
