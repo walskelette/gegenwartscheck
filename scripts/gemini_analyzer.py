@@ -9,8 +9,8 @@ import re
 import argparse
 from datetime import datetime
 from pathlib import Path
-import google.generativeai as genai
-from google.generativeai import types
+from google import genai
+from google.genai import types
 
 # Konstanten für die Verarbeitung
 DATA_DIR = "data/transcripts"
@@ -24,8 +24,8 @@ def setup_gemini_client():
     if not api_key:
         raise ValueError("GEMINI_API_KEY Umgebungsvariable ist nicht gesetzt")
     
-    genai.configure(api_key=api_key)
-    return genai
+    client = genai.Client(api_key=api_key)
+    return client
 
 def load_transcript(file_path):
     """Lädt eine Transkript-Datei und gibt deren Inhalt zurück."""
@@ -117,47 +117,53 @@ Antworte ausschließlich mit dem JSON-Format. Füge keine Erklärungen oder zus�
 
 def analyze_transcript_with_gemini(client, transcript_data):
     """Analysiert ein Transkript mit der Gemini API."""
-    prompt = create_gemini_prompt(transcript_data)
+    prompt_text = create_gemini_prompt(transcript_data)
     
-    # Konfiguration für die Generierung
-    generation_config = {
-        "temperature": 0.2,
-        "top_p": 0.8,
-        "top_k": 40,
-        "max_output_tokens": 4096,
-    }
-    
-    # Sicherheitseinstellungen
-    safety_settings = [
-        {
-            "category": "HARM_CATEGORY_HARASSMENT",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_HATE_SPEECH",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-            "threshold": "BLOCK_NONE",
-        }
+    # Create content structure for the prompt
+    contents = [
+        types.Content(
+            role="user",
+            parts=[types.Part.from_text(text=prompt_text)]
+        )
     ]
     
+    # Add Google Grounding tool
+    tools = [types.Tool(google_search=types.GoogleSearch())]
+    
+    # Create generation config
+    generate_content_config = types.GenerateContentConfig(
+        temperature=0.2,
+        top_p=0.8,
+        top_k=40,
+        max_output_tokens=4096,
+        tools=tools,
+        response_mime_type="text/plain",
+        safety_settings=[
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_HARASSMENT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            )
+        ]
+    )
+    
     try:
-        model = client.GenerativeModel(
-            model_name=MODEL_NAME,
-            generation_config=generation_config,
-            safety_settings=safety_settings
-        )
-        
-        # Add Google Grounding using the tools parameter
-        response = model.generate_content(
-            prompt,
-            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+        # Generate content using the model
+        response = client.models.generate_content(
+            model=MODEL_NAME,
+            contents=contents,
+            config=generate_content_config
         )
         
         response_text = response.text
@@ -196,7 +202,7 @@ def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
     podcast_title = transcript_data.get("episode_title", "Unbekannter Podcast")
     
     # Erstellen des Proofreading-Prompts
-    prompt = f"""
+    prompt_text = f"""
 Du bist ein Korrektur-Assistent für Podcast-Analysen. Du erhältst eine automatisch erstellte Analyse 
 des Podcasts "Die sogenannte Gegenwart" mit dem Titel "{podcast_title}".
 
@@ -217,45 +223,51 @@ Hier ist die zu korrigierende Analyse im JSON-Format:
 Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zusätzlichen Text hinzu.
 """
     
-    generation_config = {
-        "temperature": 0.2,  # Niedrigere Temperatur für konservativere Änderungen
-        "top_p": 0.95,
-        "top_k": 64,
-        "max_output_tokens": 65536,
-    }
-    
-    # Safety settings wie bei der Hauptanalyse
-    safety_settings = [
-        {
-            "category": "HARM_CATEGORY_HARASSMENT",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_HATE_SPEECH",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-            "threshold": "BLOCK_NONE",
-        },
-        {
-            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-            "threshold": "BLOCK_NONE",
-        }
+    # Create content structure for the prompt
+    contents = [
+        types.Content(
+            role="user",
+            parts=[types.Part.from_text(text=prompt_text)]
+        )
     ]
     
+    # Add Google Grounding tool
+    tools = [types.Tool(google_search=types.GoogleSearch())]
+    
+    # Create generation config
+    generate_content_config = types.GenerateContentConfig(
+        temperature=0.1,
+        top_p=0.95,
+        top_k=40,
+        max_output_tokens=4096,
+        tools=tools,
+        response_mime_type="text/plain",
+        safety_settings=[
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_HARASSMENT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            ),
+            types.SafetySetting(
+                category=types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+                threshold=types.HarmBlockThreshold.BLOCK_NONE
+            )
+        ]
+    )
+    
     try:
-        # Verwenden des Proofreading-Modells
-        model = client.GenerativeModel(
-            model_name=PROOFREADING_MODEL_NAME,
-            generation_config=generation_config,
-            safety_settings=safety_settings
-        )
-        
-        # Add Google Grounding using the tools parameter
-        response = model.generate_content(
-            prompt,
-            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+        # Generate content using the model
+        response = client.models.generate_content(
+            model=PROOFREADING_MODEL_NAME,
+            contents=contents,
+            config=generate_content_config
         )
         
         response_text = response.text
