@@ -11,7 +11,6 @@ from datetime import datetime
 from pathlib import Path
 import google.generativeai as genai
 from google.generativeai import types
-from google.generativeai.types import Tool, GoogleSearch, GenerateContentConfig
 
 # Konstanten für die Verarbeitung
 DATA_DIR = "data/transcripts"
@@ -155,17 +154,10 @@ def analyze_transcript_with_gemini(client, transcript_data):
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the proper Tool configuration
-        google_search_tool = Tool(
-            google_search=GoogleSearch()
-        )
-        
+        # Add Google Grounding using the tools parameter
         response = model.generate_content(
             prompt,
-            config=GenerateContentConfig(
-                tools=[google_search_tool],
-                response_modalities=["TEXT"],
-            )
+            tools=["google_search_retrieval"]  # Enable grounding with Google Search
         )
         
         response_text = response.text
@@ -260,17 +252,10 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the proper Tool configuration
-        google_search_tool = Tool(
-            google_search=GoogleSearch()
-        )
-        
+        # Add Google Grounding using the tools parameter
         response = model.generate_content(
             prompt,
-            config=GenerateContentConfig(
-                tools=[google_search_tool],
-                response_modalities=["TEXT"],
-            )
+            tools=["google_search_retrieval"]  # Enable grounding with Google Search
         )
         
         response_text = response.text
