@@ -3,83 +3,84 @@
   "podcast_id": "1000698535476",
   "episode_id": null,
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T15:05:28.987416",
+  "extracted_date": "2025-03-18T15:20:38.564121",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Ackboot mit Plateausohle",
+      "vorschlag": "Plateau-Lackboots",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Der Ackboot mit Plateausohle ist ein Schuhtrend bei Frauen diesen Winter. In Kombination mit den Space-Iglus vor Restaurants ergibt sich eine Mondlandschaft. Der Schuh sieht aus wie ein Moonboot und die Iglus wie Mondstationen.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen und ein Bekenntnis zum NASA-Plan einer Mondstation als Zwischenschritt zum Mars.",
+      "begruendung": "Schuhtrend bei Frauen, besonders in Kombination mit Space-Iglus vor Restaurants. Ergibt zusammen eine 'Mondlandschaft' und symbolisiert die Vorbereitung auf zukünftige Mondmissionen.",
+      "metaebene": "Vorbereitung auf Mondmissionen, Bezugnahme auf NASA- und Elon Musks Pläne zur Mondraumfahrt.",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
+        "Trends",
         "Mond",
         "Raumfahrt"
       ],
-      "start_zeit": "Ich fang an, weil ich hab ein etwas direkt anschließend an die letzte Folge.",
-      "ende_zeit": "aus diesem Grund gebe ich dir gerne diesen Punkt."
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Jemanden unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele sind Donald Trump und Annalena Baerbock-Britta Hasselmann.",
+      "begruendung": "Verwendung der Redewendung 'jemanden unter den Bus werfen' als aktuelles und häufig genutztes Sprachbild in den Medien und im politischen Diskurs.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Sprache",
+        "Redewendung",
         "Politik",
-        "Kommunikation",
-        "Metapher",
+        "Medien",
         "Wiederholung"
       ],
-      "start_zeit": "Ich komme mit einem sehr viel einfacheren Phänomen, gehe ich in den Gegenwartsteck, nämlich dass seit kurzem ständig immer irgendjemand, irgendjemand anderen unter den Bus wirft.",
-      "ende_zeit": "Den Punkt kriegst du."
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
       "vorschlagender": "Sancho",
       "ist_hoerer": true,
       "hoerer_name": "Sancho",
-      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen hinten eine kleine Fotoauswahl von ihren Liebsten oder persönliche Gegenstände, die wie Schmuck aussehen. Das iPhone verliert seinen Status als geheiligtes Objekt und wird zum Nutzgegenstand.",
-      "metaebene": "Das iPhone als ehemals oratischer Gegenstand wird wieder zum profanen Nutzgegenstand, gefüllt mit analogen Dingen.",
+      "begruendung": "Beobachtung, dass besonders junge Leute transparente Handyhüllen nutzen, um diese mit Fotos, Quittungen oder persönlichen Gegenständen zu 'personalisieren' und eine private 'kuratierte' Auswahl nach außen zu zeigen.",
+      "metaebene": "Wandel des iPhones vom 'heiligen', unberührbaren Gegenstand zum persönlichen 'Wohnzimmer', gefüllt mit analogen Erinnerungsstücken.",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Mobiltelefone",
+        "Smartphones",
         "Personalisierung",
         "Kultur",
-        "Digitalisierung"
+        "Accessoires"
       ],
-      "start_zeit": "Ich habe eine Mail bekommen von jemandem, ich vermute mal, der sich Sancho nennt.",
-      "ende_zeit": "Sehr schön."
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
-      "vorschlag": "KI-generierte Pinterest Balkon Designs",
+      "vorschlag": "KI-generierte Pinterest-Bilder",
       "vorschlagender": "Lena",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-generierte Balkon-Design-Bilder auf Pinterest erzeugen Unzufriedenheit, da sie keine Restriktionen kennen und die Authentizität und Ernsthaftigkeit echter, menschlicher Designs fehlt. Der Wert liegt im Risiko und der Investition von Zeit und Geld durch Menschen aus Fleisch und Blut.",
-      "metaebene": "KI-generierte Inhalte fehlt die Restriktion der menschlichen Endlichkeit der Zeit, was die Wertschätzung für authentische, menschliche Kreativität erhöht.",
+      "begruendung": "Feststellung, dass viele Dekorationsvorschläge auf Pinterest KI-generiert sind, was ein Gefühl der Unbefriedigung auslöst, da die Authentizität und Ernsthaftigkeit 'echter' Nutzerbilder mit realem Aufwand fehlt.",
+      "metaebene": "Unterscheidung zwischen KI-generierten Inhalten ohne Restriktionen und authentischen, 'risikobereiten' Nutzerinhalten, die durch menschliche Endlichkeit und Selektion geprägt sind.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
+        "Künstliche Intelligenz",
+        "Pinterest",
         "Design",
         "Authentizität",
-        "Internet",
-        "Realität"
+        "Social Media"
       ],
-      "start_zeit": "Ich gehe mit einem etwas komplizierten, aber wie ich finde hochinteressanten, mit einer hochinteressanten Beobachtung ins zweite Rennen. Das hat unsere Zuhörerin Lena mir gemailt",
-      "ende_zeit": "Und dafür gibt es auf jeden Fall einen Punkt."
+      "start_zeit": null,
+      "ende_zeit": null
     }
   ]
 }

@@ -3,34 +3,34 @@
   "podcast_id": "1000690739921",
   "episode_id": "1000690739921",
   "episode_date": "2025-02-10",
-  "extracted_date": "2025-03-18T15:06:58.170224",
+  "extracted_date": "2025-03-18T15:21:09.802133",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Retro-Elektroautos",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Eine neue Welle von Elektrofahrzeugen belebt traditionelle, alte Modelle wieder, um den Chinesen die Dominanz beim E-Auto abzujagen. Beispiele sind der Ford Capri als E-Auto oder der elektrische Fiat 500. Es ist der Versuch, die elektrische Zukunft mit nostalgischen Wagenklassikern zu verkaufen.",
-      "metaebene": "Nostalgie, Sehnsucht nach der Vergangenheit, Marketingstrategie",
+      "begruendung": "Neue Elektrofahrzeugmodelle sind oft Reinkarnationen traditioneller, alter Modelle (z.B. Ford Capri als Elektroauto), um Nostalgie und Sehnsüchte zu wecken und so den Elektroauto-Markt zu erobern.",
+      "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Automobilität",
-        "Elektroautos",
+        "Elektrofahrzeuge",
         "Nostalgie",
         "Retro",
         "Marketing"
       ],
-      "start_zeit": "3:38.643",
-      "ende_zeit": "5:13.083"
+      "start_zeit": "219s",
+      "ende_zeit": "313s"
     },
     {
-      "vorschlag": "Nicht erhöhte Passfotopreise als Werbeargument",
-      "vorschlagender": "Nina",
+      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Mati",
-      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise nicht erhöht werden, wie im Beispiel von Passfotos in einer Drogerie mit dem Hinweis 'nicht erhöht seit 1.09.2022'. Dies spiegelt das Gefühl der Inflation und die verzweifelte Anmutung wider, mit etwas Nicht-Schlimmem werben zu müssen.",
-      "metaebene": "Inflation, Marketing, Werbung, Konsumverhalten, Zeitgeist",
+      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise für Produkte (wie Passfotos in der Drogerie) seit langem nicht erhöht wurden. Dies wird als etwas Besonderes und Positives dargestellt.",
+      "metaebene": "Gegenwart wird gespiegelt von Marketing und Werbung",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
@@ -38,48 +38,48 @@
         "Marketing",
         "Werbung",
         "Preise",
-        "Konsum"
+        "Drogerie"
       ],
-      "start_zeit": "5:59.483",
-      "ende_zeit": "8:42.403"
+      "start_zeit": "359s",
+      "ende_zeit": "522s"
     },
     {
       "vorschlag": "Cold Plunge Coach",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Die Existenz von spezifischen 'Cold Plunge Coaches' für das Eisbaden zeigt, wie Coaching als große Gegenwartsbewegung sich auf immer speziellere Bereiche ausweitet, selbst auf etwas vermeintlich Einfaches wie Eisbaden. Es entsteht ein ganzes Ökosystem um solche Trends.",
-      "metaebene": "Coaching-Trend, Wellness-Kultur, Übertreibung, Kommerzialisierung von Trends",
+      "begruendung": "Die Etablierung von professionellen Coaches für das Eisbaden (Cold Plunge) zeigt, wie Coaching als Trendberuf sich auf immer spezifischere Lebensbereiche ausweitet und ein ganzes Ökosystem um neue Trends entsteht.",
+      "metaebene": "Coaching als große Gegenwartsbewegung",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Coaching",
-        "Trends",
         "Eisbaden",
-        "Wellness",
-        "Übertreibung"
+        "Coaching",
+        "Trend",
+        "Gesundheit",
+        "Ökosystem"
       ],
-      "start_zeit": "10:25.723",
-      "ende_zeit": "12:44.863"
+      "start_zeit": "626s",
+      "ende_zeit": "737s"
     },
     {
-      "vorschlag": "Funktionale Kinderküche & Haushaltspartizipation",
-      "vorschlagender": "Nina",
+      "vorschlag": "Funktionale Kinderküche & Haushaltspartizipation von Kindern",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Denise",
-      "begruendung": "Funktionale Kinderküchen, in denen Kinder 'echt' kochen können, und Produkte zur Haushaltspartizipation (z.B. Swiffer-artige Wischer) zeigen den Trend, Kinder frühzeitig in den Haushalt einzubeziehen und ihnen Autonomie zu vermitteln. Dahinter steckt die Botschaft 'die Kinder können das'.",
-      "metaebene": "Helikopter-Elternschaft vs. Autonomie, Erziehungstrends, Social Media Trends, Rollenbilder",
-      "punkt_erhalten": false,
-      "punkt_von": null,
+      "begruendung": "Funktionale Kinderküchen und Produkte zur Haushaltspartizipation (z.B. Swiffer für Kinder) spiegeln den Wunsch wider, Kinder autonom zu erziehen und sie frühzeitig in Haushaltsaufgaben einzubeziehen. Dahinter steckt die Botschaft 'die Kinder können das'.",
+      "metaebene": "Elternpodcast",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
       "tags": [
-        "Kindererziehung",
+        "Kinderküche",
         "Haushalt",
+        "Erziehung",
         "Autonomie",
-        "Elternschaft",
-        "Social Media"
+        "Elternschaft"
       ],
-      "start_zeit": "12:54.723",
-      "ende_zeit": "16:00.843"
+      "start_zeit": "775s",
+      "ende_zeit": "961s"
     }
   ]
 }

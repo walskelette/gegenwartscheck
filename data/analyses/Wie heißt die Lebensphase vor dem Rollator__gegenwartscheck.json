@@ -3,19 +3,19 @@
   "podcast_id": "1000690739921",
   "episode_id": null,
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T15:09:46.268867",
+  "extracted_date": "2025-03-18T15:22:03.063485",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Retro-Elektroautos",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Eine neue Welle von Elektrofahrzeugen setzt auf das Design und die Nostalgie traditioneller, alter Modelle, um Kunden anzusprechen und sich von der Konkurrenz abzuheben.",
+      "begruendung": "Autohersteller bringen neue Elektrofahrzeuge auf den Markt, die als Retro-Modelle alter, traditioneller Modelle gestaltet sind, um Nostalgie und Sehnsüchte der Kunden anzusprechen und so im Elektroautomarkt erfolgreicher zu sein.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Automobilität",
+        "Automobil",
         "Elektroautos",
         "Nostalgie",
         "Retro",
@@ -25,19 +25,19 @@
       "ende_zeit": null
     },
     {
-      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
-      "vorschlagender": "Hörer",
-      "ist_hoerer": true,
+      "vorschlag": "Hervorhebung nicht gestiegener Preise in der Werbung",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
       "hoerer_name": "Mati",
-      "begruendung": "In Zeiten der Inflation wird die Tatsache, dass Preise für bestimmte Produkte oder Dienstleistungen nicht erhöht wurden, als besonderes Verkaufsargument hervorgehoben.",
-      "metaebene": null,
+      "begruendung": "In Zeiten der Inflation und des allgemeinen Gefühls, dass alles teurer wird, werben Drogerien und Supermärkte damit, dass bestimmte Preise seit langem nicht erhöht wurden, um dies als besonderen Vorteil hervorzuheben.",
+      "metaebene": "Die Gegenwart wird von Marketing und Werbung gespiegelt.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Marketing",
         "Inflation",
-        "Preise",
+        "Marketing",
         "Werbung",
+        "Preise",
         "Konsum"
       ],
       "start_zeit": null,
@@ -48,35 +48,35 @@
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Die Professionalisierung und Kommerzialisierung von Gesundheitstrends führt zur Entstehung neuer Berufe wie dem 'Cold Plunge Coach', der Menschen beim Eisbaden anleitet.",
-      "metaebene": null,
+      "begruendung": "Die Coaching-Bewegung der Gegenwart erstreckt sich nun auch auf das Eisbaden, wobei es spezifische Coaches gibt, die Menschen beim 'Cold Plunge' beraten und unterstützen.",
+      "metaebene": "Coaching als große Gegenwartsbewegung.",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Coaching",
-        "Trends",
         "Eisbaden",
+        "Coaching",
+        "Trend",
         "Gesundheit",
-        "Lifestyle"
+        "Wellness"
       ],
       "start_zeit": null,
       "ende_zeit": null
     },
     {
-      "vorschlag": "Funktionale Kinderküche/Haushaltspartizipation von Kindern",
-      "vorschlagender": "Hörer",
-      "ist_hoerer": true,
+      "vorschlag": "Funktionale Kinderküche",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
       "hoerer_name": "Denise",
-      "begruendung": "Kinderspielzeug, insbesondere Kinderküchen, werden funktional und ermöglichen es Kindern, echte Haushaltsaktivitäten auszuführen. Dies spiegelt den Trend wider, Kinder frühzeitig in den Haushalt einzubeziehen und ihnen Autonomie zu ermöglichen.",
-      "metaebene": null,
+      "begruendung": "Es gibt einen Trend zu funktionalen Kinderküchen, in denen Kinder tatsächlich kochen und hantieren können, sowie zu Produkten, die Kinder in den Haushalt einbeziehen, um Autonomie und Selbstständigkeit zu fördern.",
+      "metaebene": "Haushaltspartizipation von Kindern als Top 1 Ding für eine gute Entwicklung.",
       "punkt_erhalten": false,
-      "punkt_von": null,
+      "punkt_von": "Lars",
       "tags": [
-        "Erziehung",
         "Kinder",
+        "Erziehung",
         "Haushalt",
         "Autonomie",
-        "Trends"
+        "Elternschaft"
       ],
       "start_zeit": null,
       "ende_zeit": null

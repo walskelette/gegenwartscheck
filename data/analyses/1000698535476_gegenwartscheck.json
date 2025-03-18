@@ -3,84 +3,86 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-18T15:04:45.344316",
+  "extracted_date": "2025-03-18T15:20:23.843912",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Plateau-Ackboots als Vorbereitung auf Mondmissionen",
+      "vorschlag": "AK-Boot mit Plateau",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Ackboots mit Plateausohle sind ein Schuhtrend bei Frauen diesen Winter. In Kombination mit den Iglus und Domes vor Restaurants entsteht eine Mondlandschaft. Der Schuh sieht aus wie ein Moonboot, die Zelte wie Mondstationen. Metaebene: Vorbereitung auf die nächsten Mondmissionen und Bekenntnis zum NASA-Plan einer Mondstation als Zwischenschritt zum Mars.",
+      "begruendung": "Diesen Winter gibt es einen Schuhtrend bei Frauen, den AK-Boot mit Plateausohle. In Kombination mit den Iglus vor Restaurants ergibt sich eine Mondlandschaft, was eine Vorbereitung auf zukünftige Mondmissionen sein könnte.",
       "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Weltraum",
-        "Technologie",
-        "Trends"
+        "Winter",
+        "Plateauschuhe",
+        "Mondmissionen"
       ],
-      "start_zeit": "3:48.497",
-      "ende_zeit": "6:03.157"
+      "start_zeit": "00:03:48",
+      "ende_zeit": "00:07:03"
     },
     {
-      "vorschlag": "Ständig wirft irgendjemand irgendjemand anderen unter den Bus",
+      "vorschlag": "Jemanden unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, z.B. Donald Trump, Annalena Baerbock (Britta Hasselmann), Ukraine.",
-      "metaebene": null,
-      "punkt_erhalten": true,
-      "punkt_von": "Lars",
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock. Sogar die Ukraine wird jeden Tag unter den Bus geworfen.",
+      "metaebene": "Politische Rhetorik und Verantwortungsverschiebung",
+      "punkt_erhalten": false,
+      "punkt_von": null,
       "tags": [
-        "Politik",
         "Sprache",
-        "Medien",
+        "Politik",
         "Kommunikation",
-        "Verhalten"
+        "Metapher",
+        "Konflikt",
+        "Verantwortung"
       ],
-      "start_zeit": "8:19.117",
-      "ende_zeit": "10:05.517"
+      "start_zeit": "00:08:19",
+      "ende_zeit": "00:10:05"
     },
     {
-      "vorschlag": "Personalisierte Handyhüllen mit Fotos und Gegenständen",
-      "vorschlagender": "Hörer",
+      "vorschlag": "Personalisierte Handyhüllen",
+      "vorschlagender": "Sancho (Hörer)",
       "ist_hoerer": true,
-      "hoerer_name": "Sancho (Pancho)",
-      "begruendung": "Junge Leute personalisieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, sichtbar für andere. Das iPhone verliert seinen Status als unbeschmutzbarer Gegenstand und wird zum Nutzgegenstand, vollgestopft mit analogen Dingen wie Quittungen oder Kinotickets.",
-      "metaebene": null,
+      "hoerer_name": "Sancho",
+      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen private Fotos oder persönliche Gegenstände, ähnlich wie frühere Generationen Fotos im Portemonnaie trugen. Das iPhone wird wieder mehr zum Nutzgegenstand.",
+      "metaebene": "Analoge Nostalgie im digitalen Zeitalter",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Mobiltelefone",
-        "Trends",
+        "Handy",
         "Personalisierung",
-        "Alltagskultur"
+        "Kultur",
+        "Trend",
+        "Nostalgie"
       ],
-      "start_zeit": "10:10.637",
-      "ende_zeit": "13:30.077"
+      "start_zeit": "00:10:10",
+      "ende_zeit": "00:13:34"
     },
     {
-      "vorschlag": "KI-generierte Bilder auf Pinterest erzeugen Unbehagen",
-      "vorschlagender": "Hörerin",
+      "vorschlag": "KI-generierte Pinterest-Bilder für Balkongestaltung",
+      "vorschlagender": "Lena (Hörerin)",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-generierte Bilder auf Pinterest, z.B. für Balkongestaltung, erzeugen Unbehagen, da sie keine Restriktionen kennen und die Ernsthaftigkeit und Authentizität menschlicher, realer Gestaltungsbeispiele fehlt. Der Wert von Pinterest lag bisher darin, echte, risikobereite Menschen und ihre realen Umsetzungen zu sehen.",
-      "metaebene": null,
+      "begruendung": "KI-generierte Bilder auf Pinterest für Balkongestaltung erzeugen Unzufriedenheit, da ihnen die Restriktionen und die Authentizität menschlicher, realer Balkongestaltungen fehlen.",
+      "metaebene": "Spannung zwischen KI-Ideal und Realität",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
-        "Künstliche Intelligenz",
         "Pinterest",
-        "Social Media",
+        "Design",
         "Authentizität",
-        "Design"
+        "Technologiekritik",
+        "Balkon"
       ],
-      "start_zeit": "13:34.157",
-      "ende_zeit": "16:20.697"
+      "start_zeit": "00:13:34",
+      "ende_zeit": "00:16:20"
     }
   ]
 }

@@ -3,64 +3,61 @@
   "podcast_id": "1000685580511",
   "episode_id": "1000685580511",
   "episode_date": "2025-01-27",
-  "extracted_date": "2025-03-18T15:02:38.334471",
+  "extracted_date": "2025-03-18T15:19:40.226056",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Lieferboten-Handschuhe",
+      "vorschlag": "Lieferboten-Fahrradfahrer mit festen Handschuhen am Lenker",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Berit",
-      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ...zumindest eine dieser Firmen, ich glaub, die Türkisene, hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe...wo man dann die Hände reintun kann, damit die nicht kalt werden, den Booten.",
-      "metaebene": "Verwachen diese Fahrer so noch mehr mit dem Rad wie so Cyborgs.",
+      "begruendung": "Überall rasen die Lieferboten-Fahrradfahrer rum. ... zumindest eine dieser Firmen, ich glaub, die Türkisene, hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe, die aber festgeklebt sind am Lenker, wo man dann die Hände reintun kann, damit die nicht kalt werden.",
+      "metaebene": "Elternbubble, Early Adopter, Trailblazer. ... Kinderwägen. Manche Leute haben das an ihren Kinderwägen, so große Fellhandschuhe, wo man die Hände so reintun kann, damit die Hände nicht kalt werden, wenn man die ganze Zeit den Kinderwagen durch den Park schieben muss.",
       "punkt_erhalten": true,
       "punkt_von": "SPEAKER_2",
       "tags": [
         "Lieferdienste",
         "Fahrradfahrer",
         "Winter",
-        "Arbeitsbedingungen",
-        "Sicherheit"
+        "Ausrüstung",
+        "Urbaner Raum"
       ],
       "start_zeit": "3:15.555",
       "ende_zeit": "7:14.735"
     },
     {
-      "vorschlag": "Gesprächsperson in Voice-Mail-Ansagen",
-      "vorschlagender": "Ijoma",
+      "vorschlag": "Gesprächsperson in der Voicemail-Ansage",
+      "vorschlagender": "SPEAKER_2",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "neue Ansprache meiner Voice-Mail, die, wenn man dort anruft, jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich gewissermaßen...sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
-      "metaebene": "Während nämlich weltweit...auch die großen Konzerne, ihre ganzen Vogue-Programme...abschaffen...Scheint hier mein Telekom-Provider die Zeichen der Zeit noch nicht gehört zu haben.",
+      "begruendung": "Ich gehe in den Gamer's Check mit einer neuen Ansprache meiner Voice-Mail, die, wenn man dort anruft, jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
+      "metaebene": "Während nämlich weltweit, Stichwort Woke-Shift, seit der Wahl von Donald Trump, auch die großen Konzerne ihre ganzen Woke-Programme, die heißen in Amerika DEI, Diversity, Equity, Inclusion, abschaffen.",
       "punkt_erhalten": true,
       "punkt_von": "SPEAKER_3",
       "tags": [
         "Gendersprache",
         "Sprache",
-        "Genderneutralität",
         "Technologie",
-        "Zeitgeist",
-        "Ironie"
+        "Politik",
+        "Zeitgeist"
       ],
       "start_zeit": "7:20.035",
       "ende_zeit": "10:41.675"
     },
     {
-      "vorschlag": "Verwendung des Wortes 'generieren'",
+      "vorschlag": "Das Wort 'generieren' ist überall",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Johannes",
-      "begruendung": "Johannes schreibt uns, dass das Wort generieren jetzt überall ist. Geht schon ein paar Jahre...nämlich dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. Also das ist jetzt eher unsere Branche, wir müssen sozusagen Einnahmen generieren.",
-      "metaebene": "Wir klauen sozusagen nicht nur der Konkurrenz, die Kunden...sondern wir generieren, also schöpfen, die kreative Schöpfung des Kapitalismus, schöpfen sozusagen aus dem Nichts neue Zahlen...",
+      "begruendung": "Johannes schreibt uns, dass das Wort generieren jetzt überall ist. Das geht schon ein paar Jahre, nämlich dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. Also das ist jetzt eher unsere Branche, wir müssen sozusagen Einnahmen generieren.",
+      "metaebene": "Jetzt kommt natürlich dazu, dass wir sehr viel von generativer KI reden, also von sowas wie Chat GPT oder irgendwelchen Bild-KIs, die Text oder Bilder generieren.",
       "punkt_erhalten": true,
       "punkt_von": "SPEAKER_2",
       "tags": [
         "Sprache",
-        "Wirtschaftssprache",
-        "BWL-Sprech",
-        "Generative KI",
-        "Kapitalismus",
-        "Wachstum",
-        "Nullsummenspiel"
+        "Wirtschaft",
+        "KI",
+        "BWL",
+        "Kapitalismus"
       ],
       "start_zeit": "10:41.675",
       "ende_zeit": "13:34.855"
@@ -70,17 +67,16 @@
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Olaf aus Köln",
-      "begruendung": "Er schlägt vor dem Begriff der Kennenlernphase. Das Datingverhalten habe sich nämlich geändert...in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen gewissermaßen dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
-      "metaebene": "In dieser Phase ist man zwar schon aufeinander fokussiert, aber gewissermaßen nicht mit jenem Commitment, das in irgendeiner Weise auf Dauer gestellt ist.",
+      "begruendung": "Er schlägt den Begriff der Kennenlernphase vor. Das Datingverhalten habe sich nämlich geändert und zwar in einer Form, die quasi normiert und strukturiert daherkommt, indem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen losem Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
+      "metaebene": "Situationship",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Dating",
         "Beziehungen",
         "Sprache",
-        "Soziale Trends",
-        "Jugendkultur",
-        "Situation Ship"
+        "Soziologie",
+        "Trends"
       ],
       "start_zeit": "14:25.035",
       "ende_zeit": "16:32.575"

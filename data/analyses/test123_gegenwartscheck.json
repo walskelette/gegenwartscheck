@@ -3,80 +3,89 @@
   "podcast_id": "1000698535476",
   "episode_id": "test123",
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T15:04:03.647453",
+  "extracted_date": "2025-03-18T15:20:09.004201",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "AK-Boot mit Plateau als Schuhtrend bei Frauen",
+      "vorschlag": "Absatzschuh mit Plateau als Vorbereitung auf Mondmissionen",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Dieser Winter gab es einen Schuhtrend bei Frauen, ein bestimmter Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
+      "begruendung": "Der Absatzschuh mit Plateausohle, getragen von Frauen, in Kombination mit den Space-Iglus vor Restaurants erzeugt eine Mondlandschaft-Ästhetik. Dies deutet auf die Vorbereitung auf zukünftige Mondmissionen und ein erneutes Interesse am Mond hin.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan (Mondstation vor Marsflug)",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
-        "Trends",
-        "Mondlandschaft"
+        "Weltraum",
+        "Technologie",
+        "Zukunft"
       ],
       "start_zeit": "3:48.497",
       "ende_zeit": "6:56.617"
     },
     {
-      "vorschlag": "Ständig jemanden unter den Bus werfen",
+      "vorschlag": "Jemanden unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus, wie Donald Trump oder Annalena Baerbock.",
+      "begruendung": "Das Phänomen, dass in der öffentlichen Debatte und im politischen Diskurs ständig Menschen 'unter den Bus geworfen' werden, um von eigenen Fehlern oder Problemen abzulenken.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Sprache",
         "Politik",
-        "Medien",
-        "Verhalten",
-        "Redewendung"
+        "Kommunikation",
+        "Gesellschaft",
+        "Diskurs"
       ],
       "start_zeit": "8:19.117",
-      "ende_zeit": "9:54.237"
+      "ende_zeit": "10:04.137"
     },
     {
-      "vorschlag": "Personalisierte Handyhüllen mit Fotos/persönlichen Gegenständen",
-      "vorschlagender": "Hörer",
+      "vorschlag": "Personalisierte Handyhüllen mit privaten Gegenständen",
+      "vorschlagender": "Lars",
       "ist_hoerer": true,
-      "hoerer_name": "Sancho/Pancho",
-      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen hinten eine kleine Fotoauswahl von ihren Liebsten oder persönliche Gegenstände, die wie Schmuck gezeigt werden. Das iPhone verliert seinen Status als unberührtes Objekt und wird zum persönlichen Wohnzimmer.",
+      "hoerer_name": "Sancho",
+      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, ähnlich wie frühere Generationen Portemonnaies mit Fotos füllten. Das iPhone verliert seinen Status als unberührbares Objekt und wird zum persönlichen 'Wohnzimmer', gefüllt mit analogen Erinnerungen.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Handys",
-        "Trends",
+        "Handy",
+        "Smartphone",
         "Personalisierung",
-        "Alltagskultur"
+        "Digitalisierung",
+        "Analog",
+        "Erinnerung",
+        "Kultur"
       ],
       "start_zeit": "10:10.637",
-      "ende_zeit": "13:30.077"
+      "ende_zeit": "12:15.017"
     },
     {
-      "vorschlag": "KI-generierte Bilder auf Pinterest erzeugen Unzufriedenheit",
-      "vorschlagender": "Hörer",
+      "vorschlag": "KI-generierte Bilder auf Pinterest erzeugen Unbehagen",
+      "vorschlagender": "Ijoma",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI auf Pinterest kennt keine Restriktionen und kann unendlich viele Dekor-Ideen generieren. Der Reiz von Pinterest war aber bisher, echte, realisierte und damit glaubwürdige Dekorationsvorschläge von Menschen aus Fleisch und Blut zu sehen.",
+      "begruendung": "KI-generierte Dekorationsvorschläge auf Pinterest, insbesondere für Balkone, erzeugen bei Nutzern wie Lena ein Gefühl der Unbefriedigung, da ihnen die 'Ernsthaftigkeit' und 'Authentizität' fehlt, die von Dekorationen ausgeht, die von Menschen aus Fleisch und Blut mit realen Ressourcen und Entscheidungen geschaffen wurden. KI kennt keine Restriktionen und kann unendlich viele Optionen generieren, was den Wert der Vorschläge mindert.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
-        "Internet",
-        "Social Media",
+        "Künstliche Intelligenz",
+        "Pinterest",
+        "Bilder",
+        "Inspiration",
         "Authentizität",
-        "Design"
+        "Echtheit",
+        "Dekoration",
+        "Balkon",
+        "Internet",
+        "Social Media"
       ],
       "start_zeit": "13:34.157",
       "ende_zeit": "16:20.697"

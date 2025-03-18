@@ -3,23 +3,24 @@
   "podcast_id": "1000695431521",
   "episode_id": "1000695431521",
   "episode_date": "2025-02-24",
-  "extracted_date": "2025-03-18T15:06:14.153475",
+  "extracted_date": "2025-03-18T15:20:53.458967",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Tesla-Scham",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Alexander, Anna, Achim",
-      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas schämen oder rechtfertigen zu müssen, da die Marke und Elon Musk negativ in den Medien und der öffentlichen Wahrnehmung stehen. Sticker mit der Aufschrift \"I bought this before Elon went crazy\" als Ausdruck dieser Scham.",
-      "metaebene": "Politisches Statement, Schutz vor Farbbeutel-Attacken/Anschlägen, Abgrenzung",
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da die Marke und Elon Musk negativ in den Medien und der öffentlichen Wahrnehmung stehen. Der Sticker \"I bought this before Elon went crazy\" als Ausdruck dieser Scham.",
+      "metaebene": "Politisches Statement, Schutz vor Farbbeutel-Attacken/Anschlägen, Ausdruck eines veränderten kulturellen Kapitals.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Elektroautos",
+        "Auto",
+        "E-Auto",
+        "Elektroauto",
         "Scham",
-        "Markenimage",
         "Elon Musk",
-        "gesellschaftlicher Wandel"
+        "Kulturkapital"
       ],
       "start_zeit": "3:57.965",
       "ende_zeit": "6:12.805"
@@ -29,16 +30,17 @@
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Neue Technologie, um das Draußensitzen in Restaurants auch im Winter zu ermöglichen. Runde, weiße Plastikzelte (Dome) um einzelne Tische im Außenbereich der Gastronomie, als Nachfolger der Heizpilze.",
-      "metaebene": null,
+      "begruendung": "Neue Technologie als Nachfolger der Heizpilze, um das Draußensitzen in der Gastronomie im Winter zu ermöglichen. Weiße, kuppelartige Zelte, die um einzelne Tische herum aufgebaut werden.",
+      "metaebene": "Nachfolger des Heizpilzes, Ermöglichung der deutschen \"Draußensitzen\"-Kultur im Winter.",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Gastronomie",
         "Winter",
-        "Technologie",
-        "Outdoor-Bereich",
-        "Heizpilz-Alternative"
+        "Outdoor",
+        "Zelte",
+        "Heizpilz",
+        "Gastrodome"
       ],
       "start_zeit": "6:57.925",
       "ende_zeit": "9:17.445"
@@ -48,36 +50,38 @@
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Internet-Trend, bei dem Menschen in Posts und Texten beschreiben, wie sie ihr jüngeres Ich in einem Café treffen. Oft verbunden mit Nostalgie, Selbstversöhnung und dem Gefühl, dem jüngeren Ich Ratschläge zu geben oder es zu beruhigen.",
-      "metaebene": "Versöhnung mit sich selbst, Nostalgie, Selbstliebe, Angeberei gegenüber dem jüngeren Ich",
+      "begruendung": "Internet-Trend, bei dem Menschen in pastellfarbenen Instagram-Posts und Gedichten beschreiben, wie sie ihr jüngeres Ich auf einen Kaffee treffen, um sich mit ihrer Vergangenheit zu versöhnen und die Gegenwart zu feiern.",
+      "metaebene": "Nostalgie-Trend, Selbstversöhnung, Auseinandersetzung mit dem \"inneren Kind\", neue Form der Selbstliebe und Akzeptanz des Älterwerdens.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Internet-Trends",
+        "Internet-Trend",
         "Nostalgie",
         "Selbstliebe",
-        "Identität",
-        "Poetry-Slam"
+        "Instagram",
+        "Poetry-Slam",
+        "Inneres Kind"
       ],
       "start_zeit": "9:17.445",
-      "ende_zeit": "12:46.885"
+      "ende_zeit": "13:44.525"
     },
     {
       "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Trend zur Rückkehr kabelgebundener Kopfhörer, verstärkt durch Beobachtungen im Ukraine-Krieg, wo Kabel-Drohnen aufgrund ihrer Resistenz gegen elektronische Störsignale eingesetzt werden. Praktische Vorteile wie schnellere Verbindung und Verlässlichkeit im Alltag.",
-      "metaebene": "Resilienz, Technologie im Krieg, Anti-Bluetooth-Trend, Beruhigung durch Analoges",
+      "begruendung": "Wiederentdeckung kabelgebundener Kopfhörer als Gegenbewegung zu Bluetooth-Kopfhörern. Kabel sind schneller, zuverlässiger und im Kontext des Ukraine-Kriegs (kabelgebundene Drohnen) resilienter.",
+      "metaebene": "Resilienz von Kabeltechnologie im digitalen Zeitalter, Zuverlässigkeit vs. Bequemlichkeit, analoge vs. digitale Trends, unerwartete Relevanz im Kriegskontext.",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Technologie",
         "Kopfhörer",
-        "Trends",
+        "Kabel",
+        "Bluetooth",
         "Ukrainekrieg",
         "Resilienz",
-        "Analog vs Digital"
+        "Gadget"
       ],
       "start_zeit": "13:52.705",
       "ende_zeit": "17:12.725"

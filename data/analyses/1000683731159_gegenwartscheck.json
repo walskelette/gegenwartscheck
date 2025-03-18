@@ -3,83 +3,83 @@
   "podcast_id": "1000683731159",
   "episode_id": "1000683731159",
   "episode_date": "2025-01-13",
-  "extracted_date": "2025-03-18T15:08:21.230701",
+  "extracted_date": "2025-03-18T15:21:38.492339",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Knochenbrühe (Bone Broth)",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Trend aus Miami und New York, Geschäftsidee, Paleo-Diät, Kollagenquelle, Anti-Aging, soll gegen ADHS, Depressionen und Gelenkerkrankungen wirken.",
-      "metaebene": "Geschäftsidee, Marketing, Preisgestaltung als Qualitätsmerkmal",
+      "begruendung": "Trend aus Amerika, Geschäftsmodell-Idee, Paleo-Diät, Kollagenquelle, Anti-Aging, soll gegen ADHS, Depressionen und Gelenkerkrankungen helfen.",
+      "metaebene": "Geschäftsidee, transatlantischer Trend vs. Alteuropa",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Ernährung",
-        "Trend",
         "Gesundheit",
+        "Trends",
         "Kulinarik",
-        "Geschäftsidee"
+        "Lifestyle"
       ],
-      "start_zeit": "2:58.854",
-      "ende_zeit": "7:11.154"
+      "start_zeit": "00:02:58",
+      "ende_zeit": "00:07:11"
     },
     {
       "vorschlag": "Treadwife-Satire",
       "vorschlagender": "Nina",
       "ist_hoerer": true,
-      "hoerer_name": "Isolde",
-      "begruendung": "Weiterentwicklung des Treadwife-Phänomens durch Satire von Comedians und privaten Accounts, Algorithmus kann Satire nicht unterscheiden, Vermischung von satirischem und echtem Treadwife-Content.",
-      "metaebene": "Rezeptionsformen von Treadwives (Voyeurismus, Feminismus, Feuilleton), zweite Ordnung der Satire, Funktionsweise von Algorithmen",
+      "hoerer_name": "Wolf",
+      "begruendung": "Satirische Weiterentwicklung des Treadwife-Phänomens durch Comedians und private Accounts, Algorithmus kann Satire nicht erkennen, Vermischung von Original und Satire.",
+      "metaebene": "Zweite Ordnung, Satire, Rezeption von Sozialfiguren, Algorithmus-Logik",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Social Media",
         "Satire",
-        "Ironie",
+        "Internetkultur",
         "Feminismus",
-        "Internetkultur"
+        "Ironie"
       ],
-      "start_zeit": "7:16.774",
-      "ende_zeit": "17:05.754"
+      "start_zeit": "00:07:16",
+      "ende_zeit": "00:17:05"
     },
     {
       "vorschlag": "Robert Habecks Weste",
-      "vorschlagender": "Wolf",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
-      "hoerer_name": "Wolf",
-      "begruendung": "Robert Habeck trägt Weste seit dem 'D-Day', Weste als Kleidungsstück, das an YouTube-Millionäre und Konfirmanden erinnert, aber im Detail anders ist (keine klassische Anzugsweste, Flanellstoff), erinnert an einen Schafhirten, Habeck als Hirte der Nation.",
-      "metaebene": "Wahlkampf, Zeichenspiel, Geschichte der Grünen, Bürgerlichkeit, selektive Übernahme bürgerlicher Accessoires",
+      "hoerer_name": "Isolde",
+      "begruendung": "Robert Habeck trägt Weste im Wahlkampf, Bedeutung des Kleidungsstücks, erinnert an YouTube-Millionäre, Konfirmanden oder Schäfer, Hirte der Nation.",
+      "metaebene": "Politischer Kleidungsstil, Symbolik, Wahlkampfkommunikation",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Politik",
         "Mode",
-        "Stil",
         "Symbolik",
-        "Kommunikation"
+        "Kommunikation",
+        "Stil"
       ],
-      "start_zeit": "17:10.434",
-      "ende_zeit": "22:17.454"
+      "start_zeit": "00:17:10",
+      "ende_zeit": "00:22:17"
     },
     {
       "vorschlag": "Mentale Nebenkosten",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Begriff aus dem Insta-Kosmos, Frau mit ADHS erklärt 'mentale Nebenkosten' im Kontext von Neurodivergenz, Kosten entstehen durch Vorbereitung, soziales Interagieren und Erholung danach, bezahlt mit Dopamin statt Geld.",
-      "metaebene": "Finanz-Bubble, Mental Health Bubble, Neurodivergenz, Benennung von Gefühlen und Abweichungen, Analogie zu 'Arbeitszeitbetrug' und 'Mental Load'",
+      "begruendung": "Neuer Begriff aus dem Social-Media-Kosmos, Vermischung von Mental Health- und Finanz-Bubble, versteckte Kosten für neurodivergente Menschen bei sozialen Aktivitäten.",
+      "metaebene": "Sprachliche Neuschöpfung, Verbindung von Diskursen, Benennung von Gefühlen und Erfahrungen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mental Health",
-        "Neurodivergenz",
-        "Finanzen",
         "Social Media",
-        "Sprache"
+        "Sprache",
+        "Neurodivergenz",
+        "Finanzen"
       ],
-      "start_zeit": "23:12.374",
-      "ende_zeit": "26:42.194"
+      "start_zeit": "00:23:12",
+      "ende_zeit": "00:26:42"
     }
   ]
 }

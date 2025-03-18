@@ -3,23 +3,23 @@
   "podcast_id": "1000683731159",
   "episode_id": null,
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T15:03:21.304600",
+  "extracted_date": "2025-03-18T15:19:54.427428",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Bone Broth",
+      "vorschlag": "Knochenbrühe",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Ein Bekannter aus der Startup-Szene brachte diesen Trend aus Miami und New York mit. Knochenbrühe sei ein aufkommendes Phänomen, das im Kontext von Paleo-Diät, Kollagen, Anti-Aging und sogar gegen ADHS und Depression relevant sei. Ijoma plant, daraus ein Geschäftsmodell zu entwickeln, indem er hochwertige Knochenbrühe vor Berliner Clubs zu hohen Preisen verkauft.",
-      "metaebene": "Geschäftsidee, transatlantischer Trend, Paleo-Diät, Anti-Aging",
+      "begruendung": "Ein Trend aus Amerika, der sich auch in Deutschland ausbreitet. Knochenbrühe als Geschäftsmodell, besonders im Nachtleben Berlins. Verknüpft mit Paleo-Diät, Kollagen, Anti-Aging und potenziellen positiven Auswirkungen auf ADHS und Depressionen.",
+      "metaebene": "Geschäftsidee, transatlantischer Trend, Paleo-Diät",
       "punkt_erhalten": false,
-      "punkt_von": "Nina",
+      "punkt_von": null,
       "tags": [
         "Ernährung",
-        "Trends",
+        "Trend",
         "Gesundheit",
-        "Business",
-        "Urban"
+        "Kulinarik",
+        "Geschäftsidee"
       ],
       "start_zeit": null,
       "ende_zeit": null
@@ -27,29 +27,29 @@
     {
       "vorschlag": "Treadwife-Satire",
       "vorschlagender": "Nina",
-      "ist_hoerer": true,
-      "hoerer_name": "Isolde",
-      "begruendung": "Satirische Imitationen von \"Treadwives\" durch Comedians wie Böhmermann und Hazel Brugger sowie private Nutzer. Diese Satire-Welle vermischt sich mit dem ursprünglichen Treadwife-Content im Algorithmus, wodurch es schwer wird, Satire von Ernsthaftigkeit zu unterscheiden. Hörer-Hinweis von Isolde.",
-      "metaebene": "Rezeption von Treadwives, Ironie, Satire als zweite Ordnung, Algorithmus-Logik, Social Media",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Satirische Imitationen von \"Treadwives\" durch Comedians wie Jan Böhmermann und Hazel Brugger sowie private Accounts. Der Algorithmus kann Satire nicht von echtem Treadwife-Content unterscheiden, was zu Verwirrung führt.",
+      "metaebene": "Satire als Reaktion auf soziale Figuren, Beobachtung zweiter Ordnung",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Social Media",
         "Satire",
+        "Ironie",
         "Feminismus",
-        "Online-Trends",
-        "Ironie"
+        "Internetkultur"
       ],
       "start_zeit": null,
       "ende_zeit": null
     },
     {
       "vorschlag": "Robert Habecks Weste",
-      "vorschlagender": "Wolf",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Wolf",
-      "begruendung": "Hörer Wolf beobachtet, dass Robert Habeck bei Wahlkampfauftritten eine Weste trägt, die keine klassische Anzugsweste ist und eher an einen Schäfer erinnert. Dies könnte ein bewusstes Stilmittel im neuen Wahlkampf sein, um Bodenständigkeit und Bürgernähe zu signalisieren.  Wolf fragt nach der Bedeutung dieses Kleidungsstücks.",
-      "metaebene": "Politische Kommunikation, Kleidung als Zeichen, Wahlkampfstrategie, Symbolik der Weste",
+      "begruendung": "Robert Habeck trägt im Wahlkampf eine Weste. Diese wird als Symbol für einen \"Schafhirten der Nation\" interpretiert und steht im Kontrast zu klassischen Anzugwesten. Sie erinnert an Selfmade-Millionäre und Konfirmanden, aber im Detail an einen Schafhirten.",
+      "metaebene": "Politische Botschaft durch Kleidung, sartoriale Details, Symbolik der Weste",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
@@ -67,8 +67,8 @@
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Ein Begriff aus dem Insta-Kosmos, geprägt von einer Frau mit ADHS. \"Mentale Nebenkosten\" beschreiben die versteckten Kosten, die neurodivergente Menschen in sozialen Situationen haben, z.B. auf Partys. Diese Kosten werden nicht in Geld, sondern in Dopamin und Erholungszeit \"bezahlt\". Der Begriff vermischt die Finanz- und Mental-Health-Bubble.",
-      "metaebene": "Begriffsbildung, Mental Health, Finanz-Bubble, Neurodivergenz, Sprachentwicklung",
+      "begruendung": "Ein Begriff aus dem Social-Media-Kosmos, insbesondere von einer Frau mit ADHS verwendet. \"Mentale Nebenkosten\" beschreiben die versteckten Kosten sozialer Interaktionen für neurodivergente Menschen, die über Dopamin und Erholungszeit \"bezahlt\" werden.",
+      "metaebene": "Sprachliche Innovation, Verbindung von Mental Health und Finanz-Bubble, Benennung von Gefühlen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
@@ -76,7 +76,7 @@
         "Neurodivergenz",
         "Finanzen",
         "Social Media",
-        "Begriffe"
+        "Sprache"
       ],
       "start_zeit": null,
       "ende_zeit": null
