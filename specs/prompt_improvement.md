@@ -100,38 +100,44 @@ Extrahiertes Ergebnis:
 - Bei unklaren Punktvergaben: Setze punkt_erhalten = false und punkt_von = null.
 ```
 
-### Proofreading Prompt Improvements
+### Focused Proofreading Prompt (Spelling Corrections Only)
 
-#### 1. Add More Specific Validation Instructions
+Per user requirements, the proofreading prompt has been refocused to perform only spelling corrections using Google Grounding, without making any content-related changes.
 
-```
-# Validierungsschritte
-1. Überprüfe für jeden extrahierten Vorschlag:
-   - Ist der "vorschlag" präzise und auf den Kernbegriff reduziert?
-   - Ist die "begruendung" vollständig und gibt den Kontext korrekt wieder?
-   - Stimmen die Angaben zu "punkt_erhalten" und "punkt_von" mit dem Transkript überein?
-   - Sind die Tags relevant und spezifisch genug?
-
-2. Führe notwendige Korrekturen durch:
-   - Korrigiere falsch geschriebene Namen und Fachbegriffe
-   - Präzisiere vage Formulierungen
-   - Ergänze fehlende, aber im Transkript vorhandene Informationen
-```
-
-#### 2. Add Example of Effective Proofreading
+#### 1. Clear Focused Instructions
 
 ```
-# Beispiel für effektives Korrekturlesen
+# Aufgabe
+Deine Aufgabe ist AUSSCHLIESSLICH die Überprüfung der Rechtschreibung von Konzepten, Marken und Fachbegriffen:
+
+1. Überprüfe für jeden extrahierten "vorschlag" und jedes wichtige Konzept in der "begruendung", ob die Schreibweise korrekt ist.
+2. Nutze IMMER das Google-Grounding-Tool, um die korrekte Schreibweise zu verifizieren.
+3. Korrigiere falsch geschriebene Konzepte, Marken, Namen und Fachbegriffe.
+```
+
+#### 2. Explicit Limitations
+
+```
+# Wichtige Einschränkungen
+1. Ändere KEINE inhaltlichen Aspekte der Analyse.
+2. Verändere NICHT die grundlegende Struktur oder Bedeutung der Daten.
+3. Füge KEINE neuen Tags hinzu und ändere die Tags nur, wenn sie falsch geschrieben sind.
+4. Erweitere NICHT die "begruendung" oder andere Textfelder inhaltlich.
+5. Übersetze KEINE Inhalte ins Englische - behalte alle deutschen Texte unverändert bei.
+```
+
+#### 3. Simple Example
+
+```
+# Beispiel für eine Rechtschreibkorrektur
 Vor der Korrektur:
 {
-  "vorschlag": "KI-generierte Pintrest-Bilder",
-  "tags": ["KI", "Bilder", "Internet"]
+  "vorschlag": "KI-generierte Pintrest-Bilder"
 }
 
 Nach der Korrektur:
 {
-  "vorschlag": "KI-generierte Pinterest-Bilder",
-  "tags": ["KI", "Pinterest", "Design", "Authentizität", "Internetkultur"]
+  "vorschlag": "KI-generierte Pinterest-Bilder"
 }
 ```
 
@@ -155,12 +161,12 @@ For the proofreading phase:
 - top_k: 40
 - max_output_tokens: 4096
 
-Rationale: Slightly higher temperature allows more creativity in the proofreading phase to identify and correct errors that might require some creative thinking.
+Rationale: Slightly higher temperature allows more creativity in the proofreading phase to identify and correct spelling errors that might require some creative thinking, while still maintaining focus on the single task of spelling correction.
 
 ## Implementation Plan
 
 1. Update the `create_gemini_prompt` function in `gemini_analyzer.py` with the improved main analysis prompt
-2. Update the `proofread_analysis_with_gemini` function with the improved proofreading prompt
+2. Update the `proofread_analysis_with_gemini` function with the focused spelling-correction prompt
 3. Adjust the temperature and parameter settings as recommended
 4. Run tests on a sample of transcripts to compare results
 5. Iterate on prompt design based on error analysis
@@ -169,7 +175,7 @@ Rationale: Slightly higher temperature allows more creativity in the proofreadin
 ## Open Questions
 
 1. Is there a more effective way to map SPEAKER_X identifiers to actual podcast hosts?
-2. Should we consider using a more structured approach like Chain-of-Thought or divide the task into smaller sub-tasks?
+2. Should we consider using a more structured approach like Chain-of-Thought for the main analysis?
 3. Would a dedicated NER (Named Entity Recognition) step before the main analysis improve accuracy?
 4. Should we use different prompt designs for different episode formats or special episodes?
 5. How can we better handle episodes where no clear Gegenwartscheck segments exist?
@@ -179,10 +185,9 @@ Rationale: Slightly higher temperature allows more creativity in the proofreadin
 We'll evaluate the success of these prompt improvements by:
 
 1. Accuracy: Percentage of correctly extracted Gegenwartscheck items
-2. Completeness: Percentage of fields correctly populated
+2. Correctness: Percentage of correctly spelled concepts, brands, and terms
 3. Consistency: Variation in output quality across different episodes
-4. Tag quality: Relevance and specificity of generated tags
-5. Error rate: Reduction in common error patterns
+4. Error rate: Reduction in common spelling error patterns
 
 ## Next Steps
 
@@ -190,5 +195,5 @@ After implementing these prompt improvements, we should:
 
 1. Create a systematic evaluation process for prompt quality
 2. Build a test suite with known ground truth examples
-3. Consider developing a feedback loop where manual corrections are used to further improve prompts
+3. Consider implementing a more comprehensive content validation step later, after the spelling correction is working well
 4. Explore using RLHF (Reinforcement Learning from Human Feedback) to continually optimize prompt design 
