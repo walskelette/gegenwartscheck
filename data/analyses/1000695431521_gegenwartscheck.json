@@ -1,0 +1,87 @@
+{
+  "episode_title": "The White Lotus: Schafft der Westen Urlaub nur noch mit Beruhigungsmitteln?",
+  "podcast_id": "1000695431521",
+  "episode_id": "1000695431521",
+  "episode_date": "2025-02-24",
+  "extracted_date": "2025-03-18T16:31:02.703233",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tesla-Scham",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, nachdem Elon Musk 'verrückt geworden ist'.  Der Aufkleber 'I bought this before Elon went crazy' als Ausdruck von Scham oder Abgrenzung, politisches Statement und Schutz vor Angriffen. Medienberichte über die Frage, ob es noch moralisch vertretbar ist, einen Tesla zu fahren.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Elektroautos",
+        "Tesla",
+        "Markenimage",
+        "Scham",
+        "Politische Aussage",
+        "Autoaufkleber"
+      ],
+      "start_zeit": "3:57.965",
+      "ende_zeit": "6:12.805"
+    },
+    {
+      "vorschlag": "Außengastronomie-Dome",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Technologie als Nachfolger der Heizpilze, um das Draußensitzen in der Gastronomie auch im Winter zu ermöglichen. Weiße, runde Zelt-ähnliche Dome, die um einzelne Tische im Außenbereich von Restaurants aufgebaut werden, um Wärme zu speichern und vor Kälte zu schützen.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Gastronomie",
+        "Winter",
+        "Outdoor-Bereich",
+        "Technologie",
+        "Heizpilz-Alternative"
+      ],
+      "start_zeit": "6:57.925",
+      "ende_zeit": "9:17.445"
+    },
+    {
+      "vorschlag": "Kaffee trinken mit jüngerem Ich",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich in einem Café zu treffen.  Dient der Versöhnung mit der Vergangenheit und der Selbstreflexion, kann aber auch als Angeberei des gegenwärtigen Ichs gegenüber dem früheren Ich interpretiert werden. Vergleich zum Poetry Slam.",
+      "metaebene": "Poetry-Slam",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Internet-Trend",
+        "Selbstreflexion",
+        "Nostalgie",
+        "Selbstliebe",
+        "Poetry-Slam",
+        "Vergangenheit"
+      ],
+      "start_zeit": "9:17.445",
+      "ende_zeit": "13:52.705"
+    },
+    {
+      "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "Wiederaufleben des Trends zu kabelgebundenen Kopfhörern.  Begründet durch die umständliche Verbindung von Bluetooth-Kopfhörern und die Resilienz von Kabeln, insbesondere im Kontext des Ukraine-Kriegs, wo kabelgebundene Drohnen gegen elektronische Störsignale resistent sind.  Analoge Kabel als beruhigend und schneller in der Handhabung.",
+      "metaebene": "Ukrainekrieg, Resilienz",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Kopfhörer",
+        "Technologie",
+        "Analog vs Digital",
+        "Resilienz",
+        "Ukrainekrieg"
+      ],
+      "start_zeit": "13:52.705",
+      "ende_zeit": "17:12.725"
+    }
+  ]
+}

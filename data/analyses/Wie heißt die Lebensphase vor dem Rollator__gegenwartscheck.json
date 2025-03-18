@@ -1,0 +1,85 @@
+{
+  "episode_title": "Wie heißt die Lebensphase vor dem Rollator?",
+  "podcast_id": "1000690739921",
+  "episode_id": null,
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T16:32:18.427699",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Nostalgische E-Autos",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine neue Welle von Elektrofahrzeugen setzt auf traditionelle, alte Modelle, um im E-Auto-Markt erfolgreich zu sein und Sehnsüchte der Kunden anzusprechen. Beispiele sind der Ford Capri als Elektroauto oder der elektrische Fiat 500.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Automobilität",
+        "Elektroautos",
+        "Nostalgie",
+        "Marketing",
+        "Trends"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
+    },
+    {
+      "vorschlag": "Nicht erhöhte Preise als Marketing",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Mati",
+      "begruendung": "In Zeiten der Inflation wird es als Marketingstrategie genutzt, hervorzuheben, dass Preise für bestimmte Produkte (wie Passfotos) seit langem nicht erhöht wurden. Dies spiegelt das Gefühl der Menschen wider, dass alles teurer wird.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Marketing",
+        "Inflation",
+        "Preise",
+        "Werbung",
+        "Konsum"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
+    },
+    {
+      "vorschlag": "Cold-Plunge-Coach",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Etablierung von 'Cold-Plunge-Coaches' zeigt, wie Coaching als gegenwärtiger Trend selbst auf triviale Aktivitäten wie Eisbaden ausgedehnt wird. Es entsteht ein ganzes Ökosystem von Coaches für spezifische, oft fragwürdige Trends.",
+      "metaebene": "Coaching als die große Gegenwartbewegung und der große Gegenwartberuf",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Coaching",
+        "Trends",
+        "Eisbaden",
+        "Gesundheit",
+        "Absurdität"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
+    },
+    {
+      "vorschlag": "Funktionale Kinderküche & Haushaltspartizipation",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Denise",
+      "begruendung": "Funktionale Kinderküchen, in denen Kinder 'echt' kochen können, und die Einbeziehung von Kindern in den Haushalt durch spezielle Produkte (z.B. Swiffer-artige Wischer) sind gegenwärtige Trends. Dies spiegelt den Wunsch wider, Kinder autonom zu erziehen und in den Haushalt einzubinden, was laut Studien positiv für Kinder ist.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Erziehung",
+        "Kinder",
+        "Haushalt",
+        "Trends",
+        "Elternschaft"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
+    }
+  ]
+}

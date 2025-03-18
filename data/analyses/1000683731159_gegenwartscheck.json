@@ -1,0 +1,85 @@
+{
+  "episode_title": "Haben Dinge eine Seele?",
+  "podcast_id": "1000683731159",
+  "episode_id": "1000683731159",
+  "episode_date": "2025-01-13",
+  "extracted_date": "2025-03-18T16:31:47.649181",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Bone Broth",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein Bekannter aus der Startup-Szene brachte diesen Trend aus Miami und New York mit. Er schlug vor, daraus ein Geschäftsmodell zu machen, z.B. den Verkauf von Knochenbrühe vor Clubs. Knochenbrühe ist Teil der Paleo-Diät, gilt als Kollagenquelle und soll gegen verschiedene Beschwerden helfen.",
+      "metaebene": "Geschäftsidee, transatlantischer Trend",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Ernährung",
+        "Trends",
+        "Gesundheit",
+        "Kulinarik",
+        "USA"
+      ],
+      "start_zeit": "2:58.854",
+      "ende_zeit": "7:11.154"
+    },
+    {
+      "vorschlag": "Treadwife-Satire",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Isolde",
+      "begruendung": "Satirische Imitationen von Treadwives durch Comedians wie Böhmermann und Hazel Brugger sowie private Accounts. Der Algorithmus kann Satire nicht von echtem Treadwife-Content unterscheiden, was zu einer Vermischung führt.",
+      "metaebene": "Satire als Reaktion auf ein gesellschaftliches Phänomen, zweite Ordnung der Beobachtung",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Satire",
+        "Feminismus",
+        "Internetkultur",
+        "Ironie"
+      ],
+      "start_zeit": "7:16.774",
+      "ende_zeit": "17:05.754"
+    },
+    {
+      "vorschlag": "Robert Habecks Weste",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Wolf",
+      "begruendung": "Robert Habeck trägt bei öffentlichen Auftritten eine Weste. Diese Weste, die an einen Schäfer erinnert, könnte ein politisches Signal sein und eine Renaissance der Weste einleiten.",
+      "metaebene": "Politische Mode, satoriale Details als Kommunikationsmittel",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Politik",
+        "Mode",
+        "Kleidung",
+        "Grüne",
+        "Kommunikation"
+      ],
+      "start_zeit": "17:10.434",
+      "ende_zeit": "22:17.454"
+    },
+    {
+      "vorschlag": "Mentale Nebenkosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein neuer Begriff aus dem Social-Media-Kosmos, der mentale Gesundheit und Finanzen verbindet. Er beschreibt die versteckten 'Kosten' für neurodivergente Menschen in sozialen Situationen, die über den reinen Spaß hinausgehen und Dopamin und Erholung 'kosten'.",
+      "metaebene": "Benennung und Kategorisierung von Gefühlen, Vermischung von Social-Media-Bubbles",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Mental Health",
+        "Neurodivergenz",
+        "Finanzen",
+        "Sprache"
+      ],
+      "start_zeit": "23:12.374",
+      "ende_zeit": "26:42.194"
+    }
+  ]
+}
