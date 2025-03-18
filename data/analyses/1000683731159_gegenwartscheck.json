@@ -1,0 +1,77 @@
+{
+  "episode_title": "Haben Dinge eine Seele?",
+  "podcast_id": "1000683731159",
+  "episode_id": "1000683731159",
+  "episode_date": "2025-01-13",
+  "extracted_date": "2025-03-18T00:30:30.985940",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Bone Broth",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Trend aus Amerika (Miami, New York), Geschäftsidee für Berlin (Verkauf vor Clubs), gesundheitliche Vorteile (Paleo-Diät, Kollagen, Anti-Aging, ADHS, Depression, Gelenkerkrankungen)",
+      "metaebene": "Geschäftsidee, transatlantischer Trend",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Ernährung",
+        "Trend",
+        "Gesundheit",
+        "Geschäftsidee",
+        "USA"
+      ]
+    },
+    {
+      "vorschlag": "Treadwife-Satire",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Satirische Weiterentwicklung des Treadwife-Phänomens, Parodien von Comedians (Böhmermann, Hazel Brugger) und privaten Nutzern, Vermischung von Satire und Original-Content durch Algorithmus, Unsicherheit ob Content Satire ist oder nicht",
+      "metaebene": "Zweite Ordnung, Satire als Reaktion auf soziales Phänomen",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Satire",
+        "Frauenrolle",
+        "Internetkultur",
+        "Ironie"
+      ]
+    },
+    {
+      "vorschlag": "Robert Habecks Weste",
+      "vorschlagender": "Wolf",
+      "ist_hoerer": true,
+      "hoerer_name": "Wolf",
+      "begruendung": "Robert Habeck trägt Weste im neuen Wahlkampf, Weste als Symbol (Schäfer, Tradition, Handwerk), Renaissance der Weste",
+      "metaebene": "Politische Symbolik, sartoriales Detail, Interpretation von Kleidung",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Politik",
+        "Kleidung",
+        "Symbolik",
+        "Trend",
+        "Hörer-Vorschlag"
+      ]
+    },
+    {
+      "vorschlag": "Mentale Nebenkosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Begriff von ADHS-Influencerin, Vermischung von Mental Health und Finanz-Bubble, versteckte Kosten für neurodivergente Menschen in sozialen Situationen, Weiterentwicklung von 'Mental Load'",
+      "metaebene": "Neuer Begriff, Vermischung von Bubbles, Benennung von Gefühlen und Abweichungen",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mental Health",
+        "Finanzen",
+        "Soziale Interaktion",
+        "Neurodivergenz",
+        "Sprache"
+      ]
+    }
+  ]
+}

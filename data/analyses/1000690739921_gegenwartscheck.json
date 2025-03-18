@@ -1,0 +1,77 @@
+{
+  "episode_title": "Wie heißt die Lebensphase vor dem Rollator?",
+  "podcast_id": "1000690739921",
+  "episode_id": "1000690739921",
+  "episode_date": "2025-02-10",
+  "extracted_date": "2025-03-18T00:30:09.561230",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Retro-Elektroautos",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Autohersteller beleben alte Modelle als Elektroautos wieder, um mit Nostalgie den Elektroauto-Markt zu erobern (z.B. Ford Capri Elektro, Fiat 500 Elektro, potentiell E-Käfer, E-Manta, E-Trabi).",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Automobilität",
+        "Elektroautos",
+        "Nostalgie",
+        "Marketing",
+        "Retro"
+      ]
+    },
+    {
+      "vorschlag": "Nicht erhöhte Preise als Werbebotschaft",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Mati",
+      "begruendung": "In Zeiten der Inflation wird aktiv damit geworben, dass Preise für bestimmte Produkte (Passfotos) seit langem nicht erhöht wurden. Dies wird als besonderer Vorteil hervorgehoben und spiegelt das gegenwärtige Inflationsgefühl wider. Ähnlich wie das Bewerben von 'Established [Gründungsjahr]' bei neuen Geschäften wirkt es leicht verzweifelt.",
+      "metaebene": "Marketing und Werbung als Spiegel der Gegenwart, Inflation, Desperation in Werbung",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Inflation",
+        "Marketing",
+        "Werbung",
+        "Preise",
+        "Drogerie"
+      ]
+    },
+    {
+      "vorschlag": "Cold Plunge Coach",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Für das Eisbaden gibt es mittlerweile spezifische Coaches, sogenannte 'Cold Plunge Coaches'. Dies zeigt, wie das Coaching als breite Gegenwartsbewegung auch in Nischentrends Einzug hält und ein ganzes Ökosystem an Dienstleistungen rund um solche Phänomene entsteht (ähnlich Momfluencer Coaches).",
+      "metaebene": "Coaching als Gegenwartstrend, Ökosystem von Nischen-Coaches",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Coaching",
+        "Eisbaden",
+        "Trends",
+        "Wellness",
+        "Ökosystem"
+      ]
+    },
+    {
+      "vorschlag": "Funktionale Kinderküche & Haushaltspartizipation",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Denise",
+      "begruendung": "Es gibt funktionale Kinderküchen (nicht nur Spielzeug), in denen Kinder 'echt' kochen können (z.B. Rührei). Dies ist Teil eines Trends zur Haushaltspartizipation von Kindern, unterstützt durch spezielle Produkte (z.B. Swiffer-artige Wischer). Dahinter steht die Botschaft 'Kinder können das' und die Idee, Kinder früh in den Haushalt einzubeziehen, was laut Studien positiv für ihre Entwicklung sein soll.",
+      "metaebene": "Social Media Trends, Helikopter-Elternschaft, Autonomieerziehung, Haushaltspartizipation",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Kinder",
+        "Haushalt",
+        "Erziehung",
+        "Elternschaft",
+        "Social Media"
+      ]
+    }
+  ]
+}

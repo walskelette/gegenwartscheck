@@ -1,0 +1,77 @@
+{
+  "episode_title": "Warum kann Alice Weidel nur sarkastisch reden?",
+  "podcast_id": "1000685580511",
+  "episode_id": "1000685580511",
+  "episode_date": "2025-01-27",
+  "extracted_date": "2025-03-18T00:29:11.863499",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Lieferboten-Handschuhe",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Berit",
+      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ... hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe ...",
+      "metaebene": "Elternbubble, Kinderwägen",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Lieferdienste",
+        "Fahrradfahrer",
+        "Winter",
+        "Arbeitsbedingungen",
+        "Urban"
+      ]
+    },
+    {
+      "vorschlag": "Gesprächsperson in Voicemail-Ansagen",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "neue Ansprache meiner Voice-Mail, die, wenn man dort anruft, jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich gewissermaßen ... sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
+      "metaebene": "Wipeshift, DEI-Programme in Unternehmen werden abgeschafft, Antizyklisch",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gendern",
+        "Sprache",
+        "Neutralität",
+        "Technologie",
+        "Zeitgeist"
+      ]
+    },
+    {
+      "vorschlag": " inflationäre Verwendung des Wortes 'generieren'",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Johannes",
+      "begruendung": "dass das Wort generieren jetzt überall ist. Geht schon ein paar Jahre, nämlich dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. ... wir sehr viel von generativer KI reden",
+      "metaebene": "BWL-Sprech, generative KI, Nullsummenspiel vs. kreative Schöpfung des Kapitalismus",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "Wirtschaft",
+        "KI",
+        "BWL",
+        "Neologismus"
+      ]
+    },
+    {
+      "vorschlag": "Kennenlernphase",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Olaf aus Köln",
+      "begruendung": "Datingverhalten habe sich nämlich geändert ... in einer Form, die quasi, dass es jetzt normierte und strukturierte daher kommt, in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen gewissermaßen dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
+      "metaebene": "Situation Ship, Dating-Memes",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Dating",
+        "Beziehungen",
+        "Sprache",
+        "Soziologie",
+        "Jugendkultur"
+      ]
+    }
+  ]
+}

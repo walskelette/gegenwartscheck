@@ -1,0 +1,77 @@
+{
+  "episode_title": "The White Lotus: Schafft der Westen Urlaub nur noch mit Beruhigungsmitteln?",
+  "podcast_id": "1000695431521",
+  "episode_id": null,
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T00:30:39.968212",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tesla-Scham",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "Hörer Alexander, Anna und Achim haben denselben Vorschlag gemacht. Menschen empfinden Scham für ihren Tesla, seit Elon Musk 'verrückt geworden ist'. Man möchte sich distanzieren und vor Farbbeuteln schützen. Medien berichten bereits darüber.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Auto",
+        "Elektroauto",
+        "Scham",
+        "Elon Musk",
+        "Politik"
+      ]
+    },
+    {
+      "vorschlag": "Außengastrodome",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Technologie, um Draußensitzen im Winter zu ermöglichen. Runde, weiße Zelte/Dome um einzelne Tische in der Außengastronomie, als Nachfolger der Heizpilze.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Gastronomie",
+        "Winter",
+        "Technologie",
+        "Urban",
+        "Isolation"
+      ]
+    },
+    {
+      "vorschlag": "Internet-Trend, sein eigenes jüngeres Ich auf einen Kaffee zu treffen",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Nostalgischer Internet-Trend, besonders auf Instagram. Versöhnung mit dem jüngeren Selbst, aber auch Angeberei mit dem aktuellen, vermeintlich besseren Leben. Poetry-Slam-mäßig.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Internet-Trend",
+        "Nostalgie",
+        "Selbstliebe",
+        "Poetry Slam",
+        "Instagram"
+      ]
+    },
+    {
+      "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "Hörer schlagen das seit Jahren vor, Medien berichten über Trend. Kabel als resilient im Ukrainekrieg bei Drohnenabwehr. Bluetooth umständlich, Kabel schneller und beruhigender im Alltag.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Technologie",
+        "Kopfhörer",
+        "Analog",
+        "Resilienz",
+        "Ukrainekrieg"
+      ]
+    }
+  ]
+}

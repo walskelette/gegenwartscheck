@@ -1,0 +1,77 @@
+{
+  "episode_title": "\"Air\" von Christian Kracht: Cottagecore ist auch nur eine Fantasy-Geschichte",
+  "podcast_id": "1000698535476",
+  "episode_id": "1000698535476",
+  "episode_date": "2025-03-10",
+  "extracted_date": "2025-03-18T00:29:32.135821",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Ackboot mit Plateausohle",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Schuhtrend bei Frauen in Kombination mit Space-Iglus vor Restaurants ergibt ein Mondlandschafts-Bild. Vorbereitung auf die nächsten Mondmissionen.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Statement zum NASA-Plan vs. Elon Musk.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Schuhe",
+        "Trends",
+        "Weltraum",
+        "Mond"
+      ]
+    },
+    {
+      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Redewendung ist ständig präsent, genutzt von Donald Trump und in aktuellen politischen Kontexten (Baerbock-Hasselmann, Ukraine).",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Sprache",
+        "Redewendung",
+        "Politik",
+        "Kommunikation",
+        "Wiederholung"
+      ]
+    },
+    {
+      "vorschlag": "Personalisierte Handyhüllen",
+      "vorschlagender": "Sancho",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho",
+      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, wie eine moderne Brieftasche.",
+      "metaebene": "iPhone vom geheiligten Objekt zum Nutzgegenstand, Vermischung von digital und analog.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Technologie",
+        "Mobiltelefone",
+        "Trends",
+        "Personalisierung",
+        "Digitalisierung"
+      ]
+    },
+    {
+      "vorschlag": "KI-generierte Bilder auf Pinterest",
+      "vorschlagender": "Lena",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "KI-Bilder auf Pinterest für Balkongestaltung erzeugen Unzufriedenheit, da ihnen die Authentizität und das Risiko echter, menschlicher Beispiele fehlen. KI kennt keine Restriktionen.",
+      "metaebene": "Authentizität vs. Unendlichkeit der KI-Optionen, Restriktionen als Selektionskriterium menschlicher Kreativität.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Künstliche Intelligenz",
+        "Internet",
+        "Design",
+        "Authentizität"
+      ]
+    }
+  ]
+}

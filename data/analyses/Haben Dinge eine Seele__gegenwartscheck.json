@@ -1,0 +1,77 @@
+{
+  "episode_title": "Haben Dinge eine Seele?",
+  "podcast_id": "1000683731159",
+  "episode_id": null,
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T00:29:22.163426",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Bone Broth",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Trend aus Amerika, Geschäftsidee für After-Club-Szene, gesundheitliche Vorteile (Paleo, Kollagen, Anti-Aging).",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Food Trends",
+        "Gesundheit",
+        "Geschäftsidee",
+        "Paleo",
+        "USA"
+      ]
+    },
+    {
+      "vorschlag": "Treadwife-Satire",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Isolde",
+      "begruendung": "Satire-Welle auf Treadwife-Inhalte, Algorithmus kann Satire nicht unterscheiden, Vermischung von Satire und Original-Inhalten.",
+      "metaebene": "zweite Ordnung, dritte Ordnung",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Satire",
+        "Ironie",
+        "Treadwife",
+        "Algorithmen"
+      ]
+    },
+    {
+      "vorschlag": "Robert Habecks Weste",
+      "vorschlagender": "Wolf",
+      "ist_hoerer": true,
+      "hoerer_name": "Wolf",
+      "begruendung": "Robert Habeck trägt Weste, sartoriales Detail, erinnert an Schäfer, politische Botschaft, Renaissance der Weste.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Politik",
+        "Mode",
+        "Robert Habeck",
+        "Weste",
+        "Symbolik"
+      ]
+    },
+    {
+      "vorschlag": "Mentale Nebenkosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Begriff aus Insta/Social Media, verbindet Mental Health- und Finanz-Bubble, versteckte Kosten für neurodivergente Menschen in sozialen Situationen.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Mentale Gesundheit",
+        "Finanzen",
+        "Neurodiversität",
+        "Kosten"
+      ]
+    }
+  ]
+}

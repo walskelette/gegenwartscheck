@@ -1,0 +1,77 @@
+{
+  "episode_title": "\"Air\" von Christian Kracht: Cottagecore ist auch nur eine Fantasy-Geschichte",
+  "podcast_id": "1000698535476",
+  "episode_id": null,
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T00:29:43.786026",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Ackboot mit Plateau",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Dieser Winter gibt es einen Schuhtrend bei Frauen, nämlich den Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants ergibt sich ein Bild einer Mondlandschaft.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen und ein Bekenntnis zum NASA-Plan, der eine Mondstation vorsieht.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Schuhe",
+        "Trends",
+        "Weltraum",
+        "Mondmission"
+      ]
+    },
+    {
+      "vorschlag": "Jemand anderen unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Sprache",
+        "Redewendung",
+        "Politik",
+        "Gesellschaft",
+        "Kommunikation"
+      ]
+    },
+    {
+      "vorschlag": "Personalisierte Handyhüllen",
+      "vorschlagender": "Sancho",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho",
+      "begruendung": "Viele junge Leute kuratieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, ähnlich wie früher Fotos im Portemonnaie.",
+      "metaebene": "Das iPhone verliert seinen Status als geheiligter Gegenstand und wird zum Nutzgegenstand, der mit analogen Dingen gefüllt wird.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Technologie",
+        "Mobiltelefone",
+        "Trends",
+        "Personalisierung",
+        "Analog"
+      ]
+    },
+    {
+      "vorschlag": "KI-generierte Pinterest-Bilder vs. echte Bilder",
+      "vorschlagender": "Lena",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "KI-generierte Bilder auf Pinterest für Balkongestaltung erzeugen Unbefriedigung, da sie keine Restriktionen kennen und die Ernsthaftigkeit und Authentizität menschlicher, realer Gestaltungsentscheidungen vermissen lassen.",
+      "metaebene": "Die Restriktionen menschlicher Endlichkeit (Zeit, Geld) als Selektionskriterium für Authentizität und Ernsthaftigkeit im Gegensatz zur unendlichen Generierungskapazität der KI.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Künstliche Intelligenz",
+        "Internet",
+        "Authentizität",
+        "Inspiration"
+      ]
+    }
+  ]
+}

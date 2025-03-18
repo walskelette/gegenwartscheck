@@ -1,0 +1,77 @@
+{
+  "episode_title": "Warum kann Alice Weidel nur sarkastisch reden?",
+  "podcast_id": "1000685580511",
+  "episode_id": null,
+  "episode_date": "2025-03-18",
+  "extracted_date": "2025-03-18T00:30:20.834598",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Riesige Handschuhe an Lieferboten-Fahrrädern",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Berit",
+      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. Eine Firma hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe, wo man die Hände reintun kann, damit die nicht kalt werden, den Booten.",
+      "metaebene": "Elternbubble Kinderwagen-Handschuhe, Cyborg-Effekt",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Lieferdienste",
+        "Fahrradfahrer",
+        "Winter",
+        "Urbanismus",
+        "Arbeitsbedingungen"
+      ]
+    },
+    {
+      "vorschlag": "Voice-Mail-Ansage mit 'Gesprächsperson' statt 'Gesprächspartner'",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Ansprache meiner Voice-Mail, die jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich gewissermaßen, nicht gewissermaßen, sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
+      "metaebene": "Widerspruch zum weltweiten 'Wipeshift' und Abschaffung von DEI-Programmen in großen Konzernen, Antizyklisch",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gendern",
+        "Sprache",
+        "Diversität",
+        "Technologie",
+        "Zeitgeist"
+      ]
+    },
+    {
+      "vorschlag": "Das Wort 'generieren' ist überall",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Johannes",
+      "begruendung": "BWL-Sprech (Klicks generieren, Einnahmen generieren) und generative KI (Text oder Bilder generieren) treffen aufeinander. Betont, dass wirtschaftliches Geschehen kein Nullsummenspiel ist.",
+      "metaebene": "Zusammenhang zwischen BWL-Sprech und generativer KI, ökonomische Hoffnung mit KI",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "BWL-Sprech",
+        "KI",
+        "Wirtschaft",
+        "Neologismus"
+      ]
+    },
+    {
+      "vorschlag": "Kennenlernphase im Dating",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Olaf aus Köln",
+      "begruendung": "Neues Datingverhalten, normierte und strukturierte Phase des Übergangs zwischen losem Dating und fester Beziehung mit feststehendem Begriff 'Kennenlernphase'.",
+      "metaebene": "Meme, Dating-Trends, Sprachgebrauch, Situation Ship",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Dating",
+        "Beziehungen",
+        "Sprache",
+        "Soziologie",
+        "Trends"
+      ]
+    }
+  ]
+}
