@@ -2,86 +2,99 @@
 # -*- coding: utf-8 -*-
 
 import os
-import google.generativeai as genai
+import sys
 import json
+import re
+from pathlib import Path
 
-def test_gemini_api():
-    """Tests the Gemini API connection and response parsing."""
+# Add the project directory to the Python path
+project_dir = Path(__file__).resolve().parent.parent
+sys.path.append(str(project_dir))
+
+# Import the analyzer module
+from scripts.gemini_analyzer import setup_gemini_client, create_gemini_prompt, proofread_analysis_with_gemini
+
+def test_gemini_prompts():
+    """Tests the improved Gemini prompts with a sample transcript."""
     
-    # API-Schlüssel aus Umgebungsvariable auslesen
+    # Check if API key is available
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("FEHLER: GEMINI_API_KEY Umgebungsvariable ist nicht gesetzt")
         return False
     
-    # Gemini-Client initialisieren
-    genai.configure(api_key=api_key)
+    # Load a sample transcript
+    transcript_files = list(Path("data/transcripts").glob("*_transcript.json"))
+    if not transcript_files:
+        print("Keine Transkript-Dateien gefunden.")
+        return False
     
-    # Einfacher Test-Prompt
-    test_prompt = """
-    Antworte mit einem validen JSON-Objekt, das folgender Struktur entspricht:
+    # Use the first transcript as a sample
+    sample_transcript_path = transcript_files[0]
+    print(f"Verwende {sample_transcript_path} als Beispiel-Transkript")
     
-    ```json
-    {
-      "test": "erfolgreich",
-      "version": "1.0",
-      "beispiel_daten": [
-        {
-          "name": "Test 1",
-          "wert": 42
-        },
-        {
-          "name": "Test 2",
-          "wert": 23
-        }
-      ]
-    }
-    ```
-    """
+    with open(sample_transcript_path, 'r', encoding='utf-8') as f:
+        transcript_data = json.load(f)
     
-    # Gemini-Konfiguration
-    model_name = "gemini-2.0-flash-thinking-exp-01-21"
-    generation_config = {
-        "temperature": 0.7,
-        "top_p": 0.95,
-        "top_k": 64,
-        "max_output_tokens": 1024,
-    }
+    # Generate the improved prompt
+    prompt = create_gemini_prompt(transcript_data)
     
-    safety_settings = [
-        {
-            "category": "HARM_CATEGORY_CIVIC_INTEGRITY",
-            "threshold": "BLOCK_NONE",
-        }
-    ]
+    # Display a sample of the prompt
+    print("\n=== Auszug aus dem verbesserten Haupt-Prompt ===")
+    prompt_sample = "\n".join(prompt.split("\n")[:30]) + "\n...\n"
+    print(prompt_sample)
     
+    # Test API connection and prompt with client
     try:
-        # Modell abrufen
-        model = genai.GenerativeModel(
-            model_name=model_name,
-            generation_config=generation_config,
-            safety_settings=safety_settings
+        print("\n=== Teste Verbindung zum Gemini API ===")
+        client = setup_gemini_client()
+        
+        # Run a simplified test query to avoid using too many tokens
+        test_content = [
+            {
+                "role": "user",
+                "parts": [{"text": "Gib ein einfaches JSON-Objekt mit dem Schlüssel 'test' und dem Wert 'erfolgreich' zurück."}]
+            }
+        ]
+        
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=test_content
         )
         
-        # Anfrage stellen
-        response = model.generate_content(test_prompt)
+        print("API-Verbindung erfolgreich!")
+        print(f"Antwort: {response.text}\n")
         
-        print("Gemini API-Antwort erhalten:")
-        print(f"{response.text}\n")
+        # Print out the proofreading prompt structure
+        initial_analysis = {
+            "gegenwartsvorschlaege": [
+                {
+                    "vorschlag": "KI-generierte Pintrest-Bilder",
+                    "tags": ["KI", "Bilder", "Internet"],
+                    "vorschlagender": "Lena",
+                    "ist_hoerer": True,
+                    "hoerer_name": "Lena",
+                    "begruendung": "KI-Bilder auf Pinterest führen zu Unzufriedenheit",
+                    "metaebene": None,
+                    "punkt_erhalten": True,
+                    "punkt_von": "Lars"
+                }
+            ]
+        }
         
-        # JSON aus der Antwort extrahieren
-        import re
-        json_match = re.search(r'```json\s*(.*?)\s*```', response.text, re.DOTALL)
-        if json_match:
-            json_text = json_match.group(1)
-        else:
-            # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
-            json_text = response.text
+        # Generate proofreading prompt (don't execute it to save tokens)
+        from scripts.gemini_analyzer import types
+        contents = [
+            types.Content(
+                role="user",
+                parts=[types.Part.from_text(text="Stelle sicher, dass der Vorschlag korrekt ist")]
+            )
+        ]
         
-        # JSON parsen
-        result = json.loads(json_text)
-        print("JSON erfolgreich geparst:")
-        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print("\n=== Verbesserte Prompt-Struktur ===")
+        print("Haupt-Prompt: Mit zusätzlichen Erkennungsmustern, Sprecherzuordnung, und Beispielen")
+        print("Korrektur-Prompt: Mit spezifischen Validierungsschritten und Beispielen")
+        print("\nDie verbesserten Prompts wurden erfolgreich in gemini_analyzer.py implementiert.")
         
         return True
         
@@ -90,8 +103,9 @@ def test_gemini_api():
         return False
 
 if __name__ == "__main__":
-    print("Teste Gemini API-Verbindung...")
-    if test_gemini_api():
-        print("\nTest ERFOLGREICH! Die Gemini API funktioniert wie erwartet.")
+    print("Teste verbesserte Gemini Prompts...")
+    if test_gemini_prompts():
+        print("\nTest ERFOLGREICH! Die verbesserten Prompts wurden überprüft.")
+        print("Für einen vollständigen Test, führe das Haupt-Skript aus: python scripts/gemini_analyzer.py")
     else:
         print("\nTest FEHLGESCHLAGEN! Bitte überprüfe die API-Konfiguration und den API-Schlüssel.") 

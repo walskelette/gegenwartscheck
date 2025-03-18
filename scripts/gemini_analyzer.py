@@ -64,6 +64,32 @@ Du bist ein Analyse-Assistent, der dabei hilft, bestimmte Segmente aus Podcast-T
 - Am Ende entscheidet einer der anderen Teilnehmer, ob der Vorschlag einen "Punkt" bekommt oder nicht
 - Manchmal werden auch Vorschläge von Hörern diskutiert
 
+# Erkennungsmuster für Gegenwartsvorschläge
+Gegenwartsvorschläge werden oft mit bestimmten Phrasen eingeleitet:
+- "Ich habe als Gegenwartscheck (mitgebracht)..."
+- "Mein Gegenwartscheck ist/wäre..."
+- "Ich hätte als Gegenwartscheck..."
+- "Für den Gegenwartscheck schlage ich vor..."
+- "Ich habe für den Gegenwartscheck..."
+- "Als Gegenwartscheck würde ich vorschlagen..."
+
+# Zuordnung der Sprecher zu Podcast-Hosts
+Im Transkript werden die Sprecher als SPEAKER_X bezeichnet. 
+- Versuche, die Sprecher anhand des Kontexts und der Namen in den Gesprächen zuzuordnen
+- Beachte, dass meist Nina Pauer, Lars Weisbrod und Ijoma Mangold an den Gesprächen teilnehmen
+- Wenn Hörer-Vorschläge diskutiert werden, wird der Name oft im Kontext genannt
+
+# Detaillierte Feldbeschreibungen
+- vorschlag: Der Kern-Begriff oder die Idee, die als gegenwärtig vorgeschlagen wird. Nur der Name ohne weitere Erklärungen.
+- begruendung: Die vollständige Erläuterung, warum der Vorschlag gegenwärtig ist.
+- metaebene: Ein weiterer Kontext oder eine übergeordnete Bedeutung, die explizit erwähnt wird. Nur ausfüllen, wenn klar als Metaebene benannt.
+- tags: 3-5 präzise Schlagwörter, die den thematischen Bereich des Vorschlags erfassen.
+
+# Umgang mit unvollständigen Informationen
+- Wenn das Transkript unvollständig ist oder Informationen fehlen, verwende null als Wert.
+- Spekuliere nicht über fehlende Informationen, sondern dokumentiere nur, was klar im Transkript erkennbar ist.
+- Bei unklaren Punktvergaben: Setze punkt_erhalten = false und punkt_von = null.
+
 # Deine Aufgabe
 Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschläge mit folgenden Informationen:
 1. Wer den Vorschlag gemacht hat (Nina, Lars, Ijoma oder ein Hörer)
@@ -74,6 +100,27 @@ Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschl
 6. Ob der Vorschlag einen Punkt erhalten hat und von wem
 7. Erstelle für jeden Vorschlag 3-5 passende thematische Tags
 8. Die Zeitstempel, wann der Vorschlag beginnt und endet (falls im Transkript vorhanden)
+
+# Beispiel für einen extrahierten Gegenwartsvorschlag
+Aus einem Transkript:
+SPEAKER_1: "Ich habe als Gegenwartscheck mitgebracht: Plateau-Stiefel! Sie sind diesen Winter der Trend bei Frauen, und zusammen mit diesen Space-Iglus vor Restaurants entsteht eine Art Mondlandschaft."
+SPEAKER_2: "Ja, das ist interessant, vor allem als Vorbereitung auf die nächsten Mondmissionen."
+SPEAKER_3: "Dafür kriegst du einen Punkt von mir."
+
+Extrahiertes Ergebnis:
+{{
+  "vorschlag": "Plateau-Stiefel",
+  "vorschlagender": "Lars",
+  "ist_hoerer": false,
+  "hoerer_name": null,
+  "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
+  "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
+  "punkt_erhalten": true,
+  "punkt_von": "Ijoma",
+  "tags": ["Mode", "Schuhe", "Winter", "Mond", "Raumfahrt"],
+  "start_zeit": "00:03:48",
+  "ende_zeit": "00:06:56"
+}}
 
 # Ausgabeformat
 Antworte ausschließlich im folgenden JSON-Format:
@@ -97,13 +144,6 @@ Antworte ausschließlich im folgenden JSON-Format:
   ]
 }}
 ```
-
-# Wichtige Hinweise
-- Ein "Gegenwartscheck" beginnt meist mit einer Formulierung wie "Ich habe als Gegenwartscheck..." oder "Mein Gegenwartscheck ist..."
-- Die Begründung folgt direkt nach dem Vorschlag
-- Die Punktevergabe erfolgt oft mit Formulierungen wie "Du bekommst einen Punkt" oder "Das ist ein Punkt"
-- Die Sprecher werden im Transkript als SPEAKER_X bezeichnet, nicht mit ihren Namen
-- Wenn Zeitinformationen im Transkript vorhanden sind, verwende diese für die Angabe von start_zeit und ende_zeit
 
 # Transkript für die Analyse
 Podcast-Titel: {transcript_data["episode_title"]}
@@ -134,8 +174,8 @@ def analyze_transcript_with_gemini(client, transcript_data):
     
     # Create generation config
     generate_content_config = types.GenerateContentConfig(
-        temperature=0.2,
-        top_p=0.8,
+        temperature=0.1,
+        top_p=0.9,
         top_k=40,
         max_output_tokens=4096,
         tools=tools,
@@ -228,13 +268,41 @@ Du bist ein Korrektur-Assistent für Podcast-Analysen des deutschen Podcasts "Di
 der Folge mit dem Titel "{podcast_title}".
 
 # Aufgabe
-Deine primäre Aufgabe ist die Überprüfung von Konzepten, Namen und Fachbegriffen:
-1. Stelle besonders bei ungewöhnlichen oder komplexen Begriffen im "vorschlag" Feld sicher, dass diese korrekt geschrieben sind.
-2. Recherchiere aktiv mit dem Google-Grounding-Tool für jeden Gegenwartsvorschlag, um die korrekte Schreibweise zu verifizieren.
-3. Achte besonders auf korrekte Schreibweise von Namen, kulturellen Referenzen und Fachbegriffen.
-4. Verbessere die thematischen Tags, falls sie nicht zum Inhalt des Vorschlags passen.
-5. WICHTIG: Übersetze KEINE Inhalte ins Englische - behalte alle deutschen Texte unverändert bei.
-6. Verändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
+Deine primäre Aufgabe ist die Überprüfung und Verbesserung der extrahierten Gegenwartscheck-Daten:
+
+# Validierungsschritte
+1. Überprüfe für jeden extrahierten Vorschlag:
+   - Ist der "vorschlag" präzise und auf den Kernbegriff reduziert?
+   - Ist die "begruendung" vollständig und gibt den Kontext korrekt wieder?
+   - Stimmen die Angaben zu "punkt_erhalten" und "punkt_von" mit dem Transkript überein?
+   - Sind die Tags relevant und spezifisch genug?
+
+2. Führe notwendige Korrekturen durch:
+   - Korrigiere falsch geschriebene Namen und Fachbegriffe
+   - Präzisiere vage Formulierungen
+   - Ergänze fehlende, aber im Transkript vorhandene Informationen
+   - Stelle sicher, dass die Tags präzise und thematisch passend sind (3-5 Tags)
+
+# Beispiel für effektives Korrekturlesen
+Vor der Korrektur:
+{{
+  "vorschlag": "KI-generierte Pintrest-Bilder",
+  "tags": ["KI", "Bilder", "Internet"]
+}}
+
+Nach der Korrektur:
+{{
+  "vorschlag": "KI-generierte Pinterest-Bilder",
+  "tags": ["KI", "Pinterest", "Design", "Authentizität", "Internetkultur"]
+}}
+
+# Wichtige Hinweise
+1. Recherchiere aktiv mit dem Google-Grounding-Tool für jeden Gegenwartsvorschlag, um die korrekte Schreibweise zu verifizieren.
+2. Achte besonders auf korrekte Schreibweise von Namen, kulturellen Referenzen und Fachbegriffen.
+3. WICHTIG: Übersetze KEINE Inhalte ins Englische - behalte alle deutschen Texte unverändert bei.
+4. Verändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
+5. Reduziere den "vorschlag" auf den Kernbegriff ohne Erklärungen.
+6. Die "begruendung" sollte hingegen ausführlich und vollständig sein.
 
 Hier ist die zu korrigierende Analyse im JSON-Format:
 
@@ -258,7 +326,7 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
     
     # Create generation config
     generate_content_config = types.GenerateContentConfig(
-        temperature=0.1,
+        temperature=0.2,
         top_p=0.95,
         top_k=40,
         max_output_tokens=4096,
