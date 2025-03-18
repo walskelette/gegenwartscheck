@@ -11,6 +11,7 @@ from datetime import datetime
 from pathlib import Path
 import google.generativeai as genai
 from google.generativeai import types
+from google.generativeai.types import Tool, GoogleSearch, GenerateContentConfig
 
 # Konstanten für die Verarbeitung
 DATA_DIR = "data/transcripts"
@@ -116,18 +117,18 @@ Antworte ausschließlich mit dem JSON-Format. Füge keine Erklärungen oder zus�
     return prompt
 
 def analyze_transcript_with_gemini(client, transcript_data):
-    """Ruft die Gemini API auf, um das Transkript zu analysieren."""
-    
+    """Analysiert ein Transkript mit der Gemini API."""
     prompt = create_gemini_prompt(transcript_data)
     
+    # Konfiguration für die Generierung
     generation_config = {
-        "temperature": 0.7,
-        "top_p": 0.95,
-        "top_k": 64,
-        "max_output_tokens": 65536,
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "top_k": 40,
+        "max_output_tokens": 4096,
     }
     
-    # Correct safety settings format for Gemini API
+    # Sicherheitseinstellungen
     safety_settings = [
         {
             "category": "HARM_CATEGORY_HARASSMENT",
@@ -154,10 +155,17 @@ def analyze_transcript_with_gemini(client, transcript_data):
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the tools parameter
+        # Add Google Grounding using the proper Tool configuration for Gemini 2.0
+        google_search_tool = Tool(
+            google_search=GoogleSearch()
+        )
+        
         response = model.generate_content(
             prompt,
-            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+            config=GenerateContentConfig(
+                tools=[google_search_tool],
+                response_modalities=["TEXT"],
+            )
         )
         
         response_text = response.text
@@ -252,10 +260,17 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the tools parameter
+        # Add Google Grounding using the proper Tool configuration for Gemini 2.0
+        google_search_tool = Tool(
+            google_search=GoogleSearch()
+        )
+        
         response = model.generate_content(
             prompt,
-            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+            config=GenerateContentConfig(
+                tools=[google_search_tool],
+                response_modalities=["TEXT"],
+            )
         )
         
         response_text = response.text
