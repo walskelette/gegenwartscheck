@@ -15,13 +15,15 @@ This document outlines the planned improvements to the Gegenwartscheck podcast a
    - ~~Modify the extraction and processing scripts to capture and use this information~~
    - **Completed**: Episode release date is now retrieved from the API and included in both transcripts and analyses.
 
-3. **Add Timestamps to Transcripts**
-   - Modify transcript extraction to include timestamps for each section
-   - This will enable future linking to specific time points in episodes
+3. ~~**Add Timestamps to Transcripts**~~
+   - ~~Modify transcript extraction to include timestamps for each section~~
+   - ~~This will enable future linking to specific time points in episodes~~
+   - **Completed**: Timestamp extraction has been implemented in the transcript extraction workflow, and the structure supports begin_time, end_time, and duration_seconds fields for each transcript chunk when available.
 
-4. **Update Gemini Prompts for Timestamp Offsets**
-   - Update the Gemini prompts to include an offset field in seconds
-   - Modify the analyzer script to capture and include this information in the output
+4. ~~**Update Gemini Prompts for Timestamp Offsets**~~
+   - ~~Update the Gemini prompts to include an offset field in seconds~~
+   - ~~Modify the analyzer script to capture and include this information in the output~~
+   - **Completed**: Gemini prompts have been updated to include timestamp information in both input and output. The timestamp fields are now available in the analysis output as start_zeit and ende_zeit.
 
 5. **Implement Second-Pass Analysis with Gemini Pro**
    - Add a proofreading step using the Gemini Pro model
@@ -45,4 +47,4 @@ Each TODO will be implemented one at a time, with thorough testing after each st
 
 ## Current Status
 
-TODOs #1 and #2 have been completed. Next, we will implement TODO #3: Add Timestamps to Transcripts. 
+TODOs #1, #2, #3, and #4 have been completed. Next, we will implement TODO #5: Implement Second-Pass Analysis with Gemini Pro. 
