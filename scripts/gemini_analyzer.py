@@ -39,7 +39,15 @@ def create_gemini_prompt(transcript_data):
     for item in transcript_data["transcript"]:
         speaker = item["speaker"]
         text = item["text"]
-        transcript_text += f"{speaker}: {text}\n\n"
+        
+        # Include timestamp information if available
+        time_info = ""
+        if "begin_time" in item and "duration_seconds" in item:
+            time_info = f"[Zeit: {item['begin_time']}, Dauer: {round(item['duration_seconds'], 2)}s] "
+        elif "begin_seconds" in item:
+            time_info = f"[Zeit: {round(item['begin_seconds'], 2)}s] "
+            
+        transcript_text += f"{speaker}: {time_info}{text}\n\n"
     
     prompt = f"""
 Du bist ein Analyse-Assistent, der dabei hilft, bestimmte Segmente aus Podcast-Transkripten des Podcasts "Die sogenannte Gegenwart" zu extrahieren und zu strukturieren.
@@ -62,6 +70,7 @@ Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschl
 5. Eine eventuell erwähnte "Metaebene"
 6. Ob der Vorschlag einen Punkt erhalten hat und von wem
 7. Erstelle für jeden Vorschlag 3-5 passende thematische Tags
+8. Die Zeitstempel, wann der Vorschlag beginnt und endet (falls im Transkript vorhanden)
 
 # Ausgabeformat
 Antworte ausschließlich im folgenden JSON-Format:
@@ -78,7 +87,9 @@ Antworte ausschließlich im folgenden JSON-Format:
       "metaebene": "Metaebene (falls explizit erwähnt, sonst null)",
       "punkt_erhalten": true/false,
       "punkt_von": "Nina/Lars/Ijoma (falls Punkt erhalten, sonst null)",
-      "tags": ["Tag1", "Tag2", "Tag3"]
+      "tags": ["Tag1", "Tag2", "Tag3"],
+      "start_zeit": "Startzeit in Sekunden oder Zeitformat (falls vorhanden, sonst null)",
+      "ende_zeit": "Endzeit in Sekunden oder Zeitformat (falls vorhanden, sonst null)"
     }}
   ]
 }}
@@ -89,6 +100,7 @@ Antworte ausschließlich im folgenden JSON-Format:
 - Die Begründung folgt direkt nach dem Vorschlag
 - Die Punktevergabe erfolgt oft mit Formulierungen wie "Du bekommst einen Punkt" oder "Das ist ein Punkt"
 - Die Sprecher werden im Transkript als SPEAKER_X bezeichnet, nicht mit ihren Namen
+- Wenn Zeitinformationen im Transkript vorhanden sind, verwende diese für die Angabe von start_zeit und ende_zeit
 
 # Transkript für die Analyse
 Podcast-Titel: {transcript_data["episode_title"]}
@@ -190,13 +202,22 @@ def create_output_data(transcript_data, analysis_result):
     if isinstance(episode_date, str) and "T" in episode_date:
         episode_date = episode_date.split("T")[0]
     
+    # Process gegenwartsvorschlaege to ensure timestamp information is preserved
+    vorschlaege = analysis_result["gegenwartsvorschlaege"]
+    for vorschlag in vorschlaege:
+        # Ensure start_zeit and ende_zeit fields exist
+        if "start_zeit" not in vorschlag:
+            vorschlag["start_zeit"] = None
+        if "ende_zeit" not in vorschlag:
+            vorschlag["ende_zeit"] = None
+    
     return {
         "episode_title": transcript_data["episode_title"],
         "podcast_id": transcript_data["podcast_id"],
         "episode_id": transcript_data.get("episode_id"),
         "episode_date": episode_date,
         "extracted_date": datetime.now().isoformat(),
-        "gegenwartsvorschlaege": analysis_result["gegenwartsvorschlaege"]
+        "gegenwartsvorschlaege": vorschlaege
     }
 
 def save_output_data(output_data, output_path):
