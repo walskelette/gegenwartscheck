@@ -7,6 +7,8 @@ import os
 import glob
 import re
 import argparse
+import time
+import random
 from datetime import datetime
 from pathlib import Path
 from google import genai
@@ -158,36 +160,55 @@ def analyze_transcript_with_gemini(client, transcript_data):
         ]
     )
     
-    try:
-        # Generate content using the model
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=contents,
-            config=generate_content_config
-        )
-        
-        response_text = response.text
-        
-        # JSON aus der Antwort extrahieren
-        # Oft gibt Gemini das JSON in einem Markdown-Codeblock zurück
-        json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
-        if json_match:
-            json_text = json_match.group(1)
-        else:
-            # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
-            json_text = response_text
-        
+    # Retry mechanism with exponential backoff
+    max_retries = 5
+    base_delay = 2  # seconds
+    
+    for retry_attempt in range(max_retries):
         try:
-            result = json.loads(json_text)
-            return result
-        except json.JSONDecodeError as e:
-            print(f"Fehler beim Parsen der Gemini-Antwort: {e}")
-            print(f"Antworttext: {response_text}")
-            return None
+            # Generate content using the model
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=contents,
+                config=generate_content_config
+            )
             
-    except Exception as e:
-        print(f"Fehler bei der Gemini API-Anfrage: {e}")
-        return None
+            response_text = response.text
+            
+            # JSON aus der Antwort extrahieren
+            # Oft gibt Gemini das JSON in einem Markdown-Codeblock zurück
+            json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
+            if json_match:
+                json_text = json_match.group(1)
+            else:
+                # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
+                json_text = response_text
+            
+            try:
+                result = json.loads(json_text)
+                return result
+            except json.JSONDecodeError as e:
+                print(f"Fehler beim Parsen der Gemini-Antwort: {e}")
+                print(f"Antworttext: {response_text}")
+                return None
+                
+        except Exception as e:
+            # Check if it's a rate limit error
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
+                    # Calculate backoff delay with jitter
+                    delay = base_delay * (2 ** retry_attempt) + random.uniform(0, 1)
+                    print(f"Rate limit erreicht. Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    time.sleep(delay)
+                else:
+                    print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
+            else:
+                # If it's not a rate limit error, don't retry
+                print(f"Fehler bei der Gemini API-Anfrage: {e}")
+                break
+    
+    # If all retries failed
+    return None
 
 def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
     """Führt eine zweite Analyse zur Verbesserung und Korrektur der ersten Analyse durch."""
@@ -262,36 +283,55 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
         ]
     )
     
-    try:
-        # Generate content using the model
-        response = client.models.generate_content(
-            model=PROOFREADING_MODEL_NAME,
-            contents=contents,
-            config=generate_content_config
-        )
-        
-        response_text = response.text
-        
-        # JSON aus der Antwort extrahieren
-        json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
-        if json_match:
-            json_text = json_match.group(1)
-        else:
-            # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
-            json_text = response_text
-        
+    # Retry mechanism with exponential backoff
+    max_retries = 5
+    base_delay = 2  # seconds
+    
+    for retry_attempt in range(max_retries):
         try:
-            result = json.loads(json_text)
-            print("Zweite Analyse (Korrekturlesen) erfolgreich durchgeführt.")
-            return result
-        except json.JSONDecodeError as e:
-            print(f"Fehler beim Parsen der Proofreading-Antwort: {e}")
-            print(f"Antworttext: {response_text}")
-            return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
+            # Generate content using the model
+            response = client.models.generate_content(
+                model=PROOFREADING_MODEL_NAME,
+                contents=contents,
+                config=generate_content_config
+            )
             
-    except Exception as e:
-        print(f"Fehler bei der Proofreading-API-Anfrage: {e}")
-        return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
+            response_text = response.text
+            
+            # JSON aus der Antwort extrahieren
+            json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
+            if json_match:
+                json_text = json_match.group(1)
+            else:
+                # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
+                json_text = response_text
+            
+            try:
+                result = json.loads(json_text)
+                print("Zweite Analyse (Korrekturlesen) erfolgreich durchgeführt.")
+                return result
+            except json.JSONDecodeError as e:
+                print(f"Fehler beim Parsen der Proofreading-Antwort: {e}")
+                print(f"Antworttext: {response_text}")
+                return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
+                
+        except Exception as e:
+            # Check if it's a rate limit error
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
+                    # Calculate backoff delay with jitter
+                    delay = base_delay * (2 ** retry_attempt) + random.uniform(0, 1)
+                    print(f"Rate limit erreicht. Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    time.sleep(delay)
+                else:
+                    print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
+            else:
+                # If it's not a rate limit error, don't retry
+                print(f"Fehler bei der Proofreading-API-Anfrage: {e}")
+                break
+    
+    # If all retries failed, return the initial analysis
+    return initial_analysis
 
 def extract_date_from_title(title):
     """Versucht, ein Datum aus dem Episodentitel zu extrahieren."""
