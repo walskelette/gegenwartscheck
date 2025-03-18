@@ -155,7 +155,7 @@ def analyze_transcript_with_gemini(client, transcript_data):
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the proper Tool configuration for Gemini 2.0
+        # Add Google Grounding using the proper Tool configuration
         google_search_tool = Tool(
             google_search=GoogleSearch()
         )
@@ -260,7 +260,7 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             safety_settings=safety_settings
         )
         
-        # Add Google Grounding using the proper Tool configuration for Gemini 2.0
+        # Add Google Grounding using the proper Tool configuration
         google_search_tool = Tool(
             google_search=GoogleSearch()
         )
