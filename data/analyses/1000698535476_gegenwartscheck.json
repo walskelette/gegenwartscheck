@@ -1,0 +1,86 @@
+{
+  "episode_title": "\"Air\" von Christian Kracht: Cottagecore ist auch nur eine Fantasy-Geschichte",
+  "podcast_id": "1000698535476",
+  "episode_id": "1000698535476",
+  "episode_date": "2025-03-10",
+  "extracted_date": "2025-03-18T16:45:34.982786",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Plateau-Stiefel",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft. Meterebene: Vorbereitung auf die nächsten Mondmissionen.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Schuhe",
+        "Winter",
+        "Mond",
+        "Raumfahrt"
+      ],
+      "start_zeit": "00:03:48",
+      "ende_zeit": "00:06:56"
+    },
+    {
+      "vorschlag": "Jemand anderen unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele: Donald Trump, Annalena Baerbock-Britta Hasselmann, Ukraine.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Sprache",
+        "Politik",
+        "Kommunikation",
+        "Gesellschaft",
+        "Redewendung"
+      ],
+      "start_zeit": "00:08:19",
+      "ende_zeit": "00:10:04"
+    },
+    {
+      "vorschlag": "Personalisierte Handyhüllen",
+      "vorschlagender": "Sancho",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho",
+      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen eine kleine Fotoauswahl von Liebsten oder persönliche Gegenstände. Das iPhone wird personalisiert und wie ein Wohnzimmer gestaltet.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Technologie",
+        "Smartphones",
+        "Personalisierung",
+        "Kultur",
+        "Digitalisierung",
+        "Analog"
+      ],
+      "start_zeit": "00:10:10",
+      "ende_zeit": "00:13:30"
+    },
+    {
+      "vorschlag": "KI-generierte Pinterest-Bilder",
+      "vorschlagender": "Lena",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "KI-generierte Bilder auf Pinterest erzeugen Unzufriedenheit, da die Authentizität und Ernsthaftigkeit menschlicher, realer Dekorationsvorschläge fehlt. KI kennt keine Restriktionen der menschlichen Endlichkeit.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Pinterest",
+        "Design",
+        "Authentizität",
+        "Internetkultur"
+      ],
+      "start_zeit": "00:13:34",
+      "ende_zeit": "00:16:20"
+    }
+  ]
+}

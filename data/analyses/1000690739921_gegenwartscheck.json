@@ -1,0 +1,85 @@
+{
+  "episode_title": "Wie heißt die Lebensphase vor dem Rollator?",
+  "podcast_id": "1000690739921",
+  "episode_id": "1000690739921",
+  "episode_date": "2025-02-10",
+  "extracted_date": "2025-03-18T16:46:03.075686",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Retro-Elektroautos",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Welle von Elektrofahrzeugen europäischer und amerikanischer Firmen, die traditionelle alte Modelle wie Ford Capri oder Fiat 500 als Elektroautos neu auflegen, um gegen die chinesische Dominanz im E-Auto-Markt anzukämpfen. Nostalgische Wagenklassiker werden genutzt, um die elektrische Zukunft zu verkaufen.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Automobilität",
+        "Elektroautos",
+        "Nostalgie",
+        "Retro",
+        "Marketing"
+      ],
+      "start_zeit": "3:38.643",
+      "ende_zeit": "5:13.083"
+    },
+    {
+      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Mati",
+      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise für Produkte oder Dienstleistungen nicht erhöht werden. Das wird sogar zum Marketing-Argument, wie im Beispiel von Passfotos in einer Drogerie, deren Preis seit dem 1. September 2022 nicht erhöht wurde. Dies spiegelt das gegenwärtige Gefühl der Inflation und der steigenden Lebenshaltungskosten wider.",
+      "metaebene": "Spiegelung der Gegenwart durch Marketing und Werbung",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Inflation",
+        "Marketing",
+        "Preise",
+        "Werbung",
+        "Drogerie"
+      ],
+      "start_zeit": "5:59.483",
+      "ende_zeit": "8:42.403"
+    },
+    {
+      "vorschlag": "Cold-Plunge-Coach",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Für das Eisbaden, ein aktueller Trend, gibt es spezifische Coaches, sogenannte 'Cold-Plunge-Coaches', die man engagieren kann. Die Ausweitung des Coaching-Trends auf so spezifische und eigentlich simple Bereiche wie das Eisbaden zeigt die gegenwärtige Coaching-Kultur und die Professionalisierung von Alltagsphänomenen.",
+      "metaebene": "Coaching als Gegenwartsbewegung, Ökosystem von Trends",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Eisbaden",
+        "Coaching",
+        "Trends",
+        "Gesundheit",
+        "Ökosystem"
+      ],
+      "start_zeit": "10:25.723",
+      "ende_zeit": "12:17.243"
+    },
+    {
+      "vorschlag": "Funktionale Kinderküche & Haushaltspartizipation von Kindern",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Denise",
+      "begruendung": "Funktionale Kinderküchen, in denen Kinder tatsächlich 'kochen' können (z.B. Rührei machen), und Produkte zur Haushaltspartizipation von Kindern, wie Swiffer-artige Wischer, sind im Trend. Dahinter steckt der Gedanke, Kinder frühzeitig in den Haushalt einzubeziehen und ihnen Autonomie und Selbstständigkeit zu vermitteln. Studien zeigen, dass Haushaltspartizipation positiv für Kinder ist.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Kinder",
+        "Haushalt",
+        "Erziehung",
+        "Autonomie",
+        "Funktionalität"
+      ],
+      "start_zeit": "12:54.723",
+      "ende_zeit": "16:00.843"
+    }
+  ]
+}

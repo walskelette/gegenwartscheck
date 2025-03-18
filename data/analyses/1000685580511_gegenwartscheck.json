@@ -1,0 +1,85 @@
+{
+  "episode_title": "Warum kann Alice Weidel nur sarkastisch reden?",
+  "podcast_id": "1000685580511",
+  "episode_id": "1000685580511",
+  "episode_date": "2025-01-27",
+  "extracted_date": "2025-03-18T16:45:19.349487",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Lieferboten, Fahrradfahrer, Handschuhe",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Berit",
+      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ... zumindest eine dieser Firmen, ich glaub, die Türkisene, hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe ... damit die [Hände] nicht kalt werden, den Booten.",
+      "metaebene": "Elternbubble, Early Adopter, Trailblazer, Cyborgs, rücksichtslose Verkehrsteilnehmer",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mobilität",
+        "Lieferdienst",
+        "Winter",
+        "Urbanität",
+        "Sicherheit"
+      ],
+      "start_zeit": "3:15",
+      "ende_zeit": "7:14"
+    },
+    {
+      "vorschlag": "Gesprächsperson statt Gesprächspartner in Voice-Mail-Ansagen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "neue Ansprache meiner Voice-Mail, die ... nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. ... sich damit ganz auf der Höhe der Gender-Neutralität bewegt. Die Person ersetzt ja all diese altertümlichen Wörter von denen in der einen oder anderen Weise noch ein binäres Geschlechterverständnis abzulesen gewesen wäre.",
+      "metaebene": "Antizyklisches",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Sprache",
+        "Gendern",
+        "Neutralität",
+        "Voice-Mail",
+        "Zeitgeist"
+      ],
+      "start_zeit": "7:20",
+      "ende_zeit": "10:41"
+    },
+    {
+      "vorschlag": "Das Wort 'generieren' ist überall",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Johannes",
+      "begruendung": "Johannes schreibt uns, dass das Wort generieren jetzt überall ist. ... wir müssen Klicks generieren. Also das ist jetzt eher unsere Branche, wir müssen sozusagen Einnahmen generieren. ... sehr viel von generativer KI reden, also von sowas wie Chat, GPT oder irgendwelchen Bild-Kis, die Text oder Bilder generieren.",
+      "metaebene": "Nullsummenspiel, kreative Schöpfung des Kapitalismus",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "Wirtschaft",
+        "BWL-Sprech",
+        "KI",
+        "Technologie"
+      ],
+      "start_zeit": "10:41",
+      "ende_zeit": "13:34"
+    },
+    {
+      "vorschlag": "Kennenlernphase im Dating",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Olaf",
+      "begruendung": "Er schlägt vor dem Begriff der Kennenlernphase. Das Datingverhalten habe sich nämlich geändert ... in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen gewissermaßen dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
+      "metaebene": "Situationship",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Dating",
+        "Beziehungen",
+        "Sprache",
+        "Soziale Normen",
+        "Zeitgeist"
+      ],
+      "start_zeit": "14:25",
+      "ende_zeit": "16:31"
+    }
+  ]
+}
