@@ -135,6 +135,41 @@ jobs:
                   for chunk in speaking_chunks:
                       speaker = chunk.get('ttm:agent', 'Unknown')
                       
+                      # Extract time information (begin and end attributes)
+                      begin_time = chunk.get('begin', '')
+                      end_time = chunk.get('end', '')
+                      
+                      # Convert time format to seconds if available
+                      begin_seconds = 0
+                      end_seconds = 0
+                      duration_seconds = 0
+                      
+                      if begin_time:
+                          # TTML time format is typically HH:MM:SS.sss
+                          try:
+                              time_parts = begin_time.replace(':', '.').split('.')
+                              if len(time_parts) >= 3:
+                                  hours = int(time_parts[0]) if time_parts[0] else 0
+                                  minutes = int(time_parts[1]) if time_parts[1] else 0
+                                  seconds = float('.'.join(time_parts[2:]))
+                                  begin_seconds = hours * 3600 + minutes * 60 + seconds
+                          except Exception as e:
+                              print(f"Error parsing begin time {begin_time}: {e}")
+                      
+                      if end_time:
+                          try:
+                              time_parts = end_time.replace(':', '.').split('.')
+                              if len(time_parts) >= 3:
+                                  hours = int(time_parts[0]) if time_parts[0] else 0
+                                  minutes = int(time_parts[1]) if time_parts[1] else 0
+                                  seconds = float('.'.join(time_parts[2:]))
+                                  end_seconds = hours * 3600 + minutes * 60 + seconds
+                          except Exception as e:
+                              print(f"Error parsing end time {end_time}: {e}")
+                      
+                      if begin_seconds and end_seconds:
+                          duration_seconds = end_seconds - begin_seconds
+                      
                       # Extract sentences
                       sentences = []
                       for sentence in chunk.select('span[podcasts\\:unit="sentence"]'):
@@ -145,10 +180,22 @@ jobs:
                       text = ' '.join(sentences)
                       
                       if text.strip():  # Only add non-empty chunks
-                          transcript_chunks.append({
+                          transcript_chunk = {
                               'speaker': speaker,
                               'text': text
-                          })
+                          }
+                          
+                          # Add time information if available
+                          if begin_time:
+                              transcript_chunk['begin_time'] = begin_time
+                              transcript_chunk['begin_seconds'] = begin_seconds
+                          if end_time:
+                              transcript_chunk['end_time'] = end_time
+                              transcript_chunk['end_seconds'] = end_seconds
+                          if begin_seconds and end_seconds:
+                              transcript_chunk['duration_seconds'] = duration_seconds
+                          
+                          transcript_chunks.append(transcript_chunk)
                   
                   # Create a safe filename
                   # Use episode_id if available, otherwise use the title
