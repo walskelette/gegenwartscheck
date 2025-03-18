@@ -4,14 +4,16 @@ This document outlines the planned improvements to the Gegenwartscheck podcast a
 
 ## TODOs
 
-1. **Use Episode IDs for File Naming**
-   - Change file naming convention to use episode IDs instead of episode titles
-   - Update all relevant scripts and workflows
-   - This will make file handling more consistent and avoid issues with special characters in titles
+1. ~~**Use Episode IDs for File Naming**~~
+   - ~~Change file naming convention to use episode IDs instead of episode titles~~
+   - ~~Update all relevant scripts and workflows~~
+   - ~~This will make file handling more consistent and avoid issues with special characters in titles~~
+   - **Completed**: All workflows now use episode IDs for file naming, with fallback to title-based naming for backward compatibility.
 
-2. **Include Episode Upload Date**
-   - Replace the current parse date with the actual episode upload date in the final data
-   - Modify the extraction and processing scripts to capture and use this information
+2. ~~**Include Episode Upload Date**~~
+   - ~~Replace the current parse date with the actual episode upload date in the final data~~
+   - ~~Modify the extraction and processing scripts to capture and use this information~~
+   - **Completed**: Episode release date is now retrieved from the API and included in both transcripts and analyses.
 
 3. **Add Timestamps to Transcripts**
    - Modify transcript extraction to include timestamps for each section
@@ -43,4 +45,4 @@ Each TODO will be implemented one at a time, with thorough testing after each st
 
 ## Current Status
 
-No TODOs have been implemented yet. Implementation will begin with item #1. 
+TODOs #1 and #2 have been completed. Next, we will implement TODO #3: Add Timestamps to Transcripts. 
