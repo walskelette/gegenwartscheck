@@ -16,6 +16,7 @@ from google.generativeai import types
 DATA_DIR = "data/transcripts"
 OUTPUT_DIR = "data/analyses"
 MODEL_NAME = "gemini-2.0-flash-thinking-exp-01-21"
+PROOFREADING_MODEL_NAME = "gemini-2.0-pro"  # A more powerful model for proofreading
 
 def setup_gemini_client():
     """Initialisiert den Gemini API-Client mit dem API-Schlüssel aus der Umgebungsvariable."""
@@ -177,6 +178,98 @@ def analyze_transcript_with_gemini(client, transcript_data):
         print(f"Fehler bei der Gemini API-Anfrage: {e}")
         return None
 
+def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
+    """Führt eine zweite Analyse zur Verbesserung und Korrektur der ersten Analyse durch."""
+    if not initial_analysis or "gegenwartsvorschlaege" not in initial_analysis:
+        print("Keine Analyse zum Korrekturlesen vorhanden.")
+        return initial_analysis
+    
+    # Erstellen eines strukturierten JSON-Strings für den Prompt
+    initial_json_str = json.dumps(initial_analysis, indent=2, ensure_ascii=False)
+    
+    # Extrahieren des Podcast-Titels für den Kontext
+    podcast_title = transcript_data.get("episode_title", "Unbekannter Podcast")
+    
+    # Erstellen des Proofreading-Prompts
+    prompt = f"""
+Du bist ein Korrektur-Assistent für Podcast-Analysen. Du erhältst eine automatisch erstellte Analyse 
+des Podcasts "Die sogenannte Gegenwart" mit dem Titel "{podcast_title}".
+
+Deine Aufgabe ist es, die folgende Analyse zu verbessern:
+1. Korrigiere offensichtliche Rechtschreibfehler oder falsch geschriebene Namen.
+2. Verbessere die Genauigkeit der extrahierten Vorschläge, Konzepte und Trends.
+3. Stelle sicher, dass die Tags passend und relevant sind.
+4. Überprüfe die Zeitstempel auf Plausibilität, falls vorhanden.
+5. Ändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
+
+Hier ist die zu korrigierende Analyse im JSON-Format:
+
+```json
+{initial_json_str}
+```
+
+Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zusätzlichen Text hinzu.
+"""
+    
+    generation_config = {
+        "temperature": 0.2,  # Niedrigere Temperatur für konservativere Änderungen
+        "top_p": 0.95,
+        "top_k": 64,
+        "max_output_tokens": 65536,
+    }
+    
+    # Safety settings wie bei der Hauptanalyse
+    safety_settings = [
+        {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_NONE",
+        },
+        {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "threshold": "BLOCK_NONE",
+        },
+        {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "threshold": "BLOCK_NONE",
+        },
+        {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "threshold": "BLOCK_NONE",
+        }
+    ]
+    
+    try:
+        # Verwenden des Proofreading-Modells
+        model = client.GenerativeModel(
+            model_name=PROOFREADING_MODEL_NAME,
+            generation_config=generation_config,
+            safety_settings=safety_settings
+        )
+        
+        response = model.generate_content(prompt)
+        response_text = response.text
+        
+        # JSON aus der Antwort extrahieren
+        json_match = re.search(r'```json\s*(.*?)\s*```', response_text, re.DOTALL)
+        if json_match:
+            json_text = json_match.group(1)
+        else:
+            # Falls kein Markdown-Block gefunden wurde, versuchen wir, die gesamte Antwort zu parsen
+            json_text = response_text
+        
+        try:
+            result = json.loads(json_text)
+            print("Zweite Analyse (Korrekturlesen) erfolgreich durchgeführt.")
+            return result
+        except json.JSONDecodeError as e:
+            print(f"Fehler beim Parsen der Proofreading-Antwort: {e}")
+            print(f"Antworttext: {response_text}")
+            return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
+            
+    except Exception as e:
+        print(f"Fehler bei der Proofreading-API-Anfrage: {e}")
+        return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
+
 def extract_date_from_title(title):
     """Versucht, ein Datum aus dem Episodentitel zu extrahieren."""
     # Einfache Methode: Suche nach einem vierstelligen Jahr
@@ -242,15 +335,18 @@ def process_transcript(client, file_path, output_dir):
         # Transkript laden
         transcript_data = load_transcript(file_path)
         
-        # Mit Gemini API analysieren
-        analysis_result = analyze_transcript_with_gemini(client, transcript_data)
+        # Mit Gemini API analysieren (erste Analyse)
+        initial_analysis = analyze_transcript_with_gemini(client, transcript_data)
         
-        if not analysis_result:
+        if not initial_analysis:
             print(f"Warnung: Keine gültigen Analyseergebnisse für {file_path}")
             return False
         
+        # Zweite Analyse (Korrekturlesen) mit Gemini Pro
+        final_analysis = proofread_analysis_with_gemini(client, initial_analysis, transcript_data)
+        
         # Ausgabedaten erstellen
-        output_data = create_output_data(transcript_data, analysis_result)
+        output_data = create_output_data(transcript_data, final_analysis)
         
         if not output_data:
             print(f"Warnung: Keine gültigen Ausgabedaten für {file_path}")
