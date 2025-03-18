@@ -154,7 +154,12 @@ def analyze_transcript_with_gemini(client, transcript_data):
             safety_settings=safety_settings
         )
         
-        response = model.generate_content(prompt)
+        # Add Google Grounding using the tools parameter
+        response = model.generate_content(
+            prompt,
+            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+        )
+        
         response_text = response.text
         
         # JSON aus der Antwort extrahieren
@@ -201,6 +206,7 @@ Deine Aufgabe ist es, die folgende Analyse zu verbessern:
 3. Stelle sicher, dass die Tags passend und relevant sind.
 4. Überprüfe die Zeitstempel auf Plausibilität, falls vorhanden.
 5. Ändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
+6. Nutze im Zweifel aktuelle Informationen aus dem Internet, um Fakten zu überprüfen.
 
 Hier ist die zu korrigierende Analyse im JSON-Format:
 
@@ -246,7 +252,12 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             safety_settings=safety_settings
         )
         
-        response = model.generate_content(prompt)
+        # Add Google Grounding using the tools parameter
+        response = model.generate_content(
+            prompt,
+            tools=["google_search_retrieval"]  # Enable grounding with Google Search
+        )
+        
         response_text = response.text
         
         # JSON aus der Antwort extrahieren
