@@ -1,0 +1,1095 @@
+{
+  "episode_title": "Test Timestamps",
+  "podcast_id": "1000698535476",
+  "episode_id": "test123",
+  "release_date": "2025-03-18T01:03:55.709358",
+  "extracted_date": "2025-03-18T01:03:55.709484",
+  "transcript": [
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Herzlich willkommen zu einer neuen Folge des Föhter Podcasts der Zeit, die sogenannte Gegenwart. Ich bin Idjoma Mangold und mir gegenüber sitzt Lars Weißbrod. Ich grüße dich. Hallo Lars.",
+      "begin_time": "12.043",
+      "begin_seconds": 0,
+      "end_time": "24.183",
+      "end_seconds": 0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Hallo Idjoma. Ich freue mich, dass wir heute eine neue Folge aufnehmen. Und ich freue mich auch, weil wir lassen heute einem Künstler nämlich eine ganz besondere Ehre zuteilwerden, denn es ist mal wieder eine tolle Premiere in der Geschichte dieses Podcasts, in der Geschichte der sogenannten Gegenwart. Ich glaube jedenfalls, das ist das erste Mal, dass wir zum zweiten Mal dem gleichen Kulturschaffenden eine Folge widmen.",
+      "begin_time": "24.183",
+      "begin_seconds": 0,
+      "end_time": "49.883",
+      "end_seconds": 0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Der aus Kulturschaffender für Christian Kracht. Das klingt mir nur ein wenig sehr nach, also es passt irgendwie nicht zur Beifoll'n Aura dieses einzigartigen Schriftstellers.",
+      "begin_time": "49.883",
+      "begin_seconds": 0,
+      "end_time": "1:03.843",
+      "end_seconds": 4623.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das passt nicht zu ihm, ja. Aber es ist die zweite Folge zum Schriftsteller Christian Kracht.",
+      "begin_time": "1:03.843",
+      "begin_seconds": 4623.0,
+      "end_time": "1:08.823",
+      "end_seconds": 4903.0,
+      "duration_seconds": 280.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Herr Kracht, Sie als Kulturschaffender, wie schauen Sie eigentlich auf die Spannungen zwischen den USA und Europa?",
+      "begin_time": "1:09.003",
+      "begin_seconds": 4143.0,
+      "end_time": "1:16.083",
+      "end_seconds": 4643.0,
+      "duration_seconds": 500.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich finde eher, wenn jemand Kulturschaffender sagt, klingt es sofort so, als will der irgendeine Förderung.",
+      "begin_time": "1:16.083",
+      "begin_seconds": 4643.0,
+      "end_time": "1:20.703",
+      "end_seconds": 5503.0,
+      "duration_seconds": 860.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja genau.",
+      "begin_time": "1:20.703",
+      "begin_seconds": 5503.0,
+      "end_time": "1:21.243",
+      "end_seconds": 5103.0,
+      "duration_seconds": -400.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Darauf ist nun Herr Kracht nicht angewiesen auf unser Schrei.",
+      "begin_time": "1:21.243",
+      "begin_seconds": 5103.0,
+      "end_time": "1:23.963",
+      "end_seconds": 5943.0,
+      "duration_seconds": 840.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Man könnte geradezu sagen, wenn es einen Schriftsteller gibt, der sich noch nie um öffentliche Töpfe bemüht hat und der glaube ich auch für das Maß seiner Berühmtheit und seines Kultstatus außerordentlich selten Literaturpreise bekommt. Ich erinnere nur den zwar mit viel Ruhm und Anerkennung verbundenen Rabe-Literaturpreis. Den hat er mal bekommen. Da hat Clemens Setz eine fantastische Laudatio gehalten. Aber zum Beispiel dafür, dass er doch nun seit 30 Jahren ein Zentralgestern am Himmel der deutschen Gegenwart-Literatur ist. Der Büchnerpreis, die Darmstädter Akademie für Sprache und Dichtung verweigert ihm nach wie vor den Büchnerpreis.",
+      "begin_time": "1:23.963",
+      "begin_seconds": 5943.0,
+      "end_time": "2:03.463",
+      "end_seconds": 7843.0,
+      "duration_seconds": 1900.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Kleistpreis? Auch nicht.",
+      "begin_time": "2:03.463",
+      "begin_seconds": 7843.0,
+      "end_time": "2:05.263",
+      "end_seconds": 7763.0,
+      "duration_seconds": -80.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Könnte sein. Würde fast ins Programm des Kleistpreises passen, der ja auch immer schaut, wo die Räume leer sind, um da dann selber einen Punkt zu machen.",
+      "begin_time": "2:06.983",
+      "begin_seconds": 8543.0,
+      "end_time": "2:16.103",
+      "end_seconds": 8263.0,
+      "duration_seconds": -280.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Jedenfalls, ich binde das schnell mal ab, bevor wir schon in Podcast-Folgen sind, haben wir in diesem Podcast 2021 über Christian Kracht damals neues Buch Euro Trash gesprochen. Jetzt hat er wieder ein neues Buch geschrieben. Es wurde wieder heiß erwartet. Wie immer sind Krachtbücher Ereignisse. Es heißt er, auch das ist schon ein Geheimnis, ich hoffe, man spricht das Englisch, soll das Englisch aussprechen, den Titel. Wir tun es einfach mal, er. Um das geht es heute und darum, was Christian Kracht uns immer noch zu sagen hat. Und ich glaube, dass wir diesen Mann, diesen Schriftsteller hier zweimal auftauchen lassen, ist für einen deutschsprachigen Gegenwart-Podcast völlig korrekt, weil gibt es überhaupt eine andere, eine zweite Figur, die so sehr verkörpert, was uns hier interessiert, wie Christian Kracht, wie der ehemalige Pop-Literat, der verschobene Gegenwart-Diagnostiker. Ja, das ist ja genau, was wir hier brauchen. Deswegen machen wir immer noch mal Kracht.",
+      "begin_time": "2:16.103",
+      "begin_seconds": 8263.0,
+      "end_time": "3:04.023",
+      "end_seconds": 11063.0,
+      "duration_seconds": 2800.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Bereit für den nächsten Roadtrip? Mit der Allianz Kfz-Versicherung seid ihr überall abgesichert, ob in Land oder im europäischen Ausland. Die Erweiterung Auslands Schadenschutz bietet sogar bei unverschuldeten Unfällen im Ausland umfänglichen Schutz. Sicherfahren lohnt sich. Mit Bonus Drive spart ihr bis zu 30 Prozent. Persönliche Beratung oder Online-Abwicklung, ganz flexibel. Jetzt Angebot einholen auf allianz.de/kfzoder in einer Allianz Agentur.",
+      "begin_time": "3:08.823",
+      "begin_seconds": 12103.0,
+      "end_time": "3:36.783",
+      "end_seconds": 13743.0,
+      "duration_seconds": 1640.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Bevor wir uns ihm zuwenden, beginnen wir mit unserem Gegenwartstech. Möchtest du anfangen, Lars, oder soll ich?",
+      "begin_time": "3:42.357",
+      "begin_seconds": 13677.0,
+      "end_time": "3:48.497",
+      "end_seconds": 14177.0,
+      "duration_seconds": 500.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich fang an, weil ich hab ein etwas direkt anschließend an die letzte Folge. In der letzten Folge habe ich die draußen Iglos und Domes vor Restaurants vorgestellt, wo jetzt immer so weiße oder durchsichtige transparente Kuppeln stehen, in denen man dann auch bei kalten Temperaturen windgeschützt und gewärmt essen kann, ja, statt dem ineffizienten Halspilz, der einfach die Wärme überall hin verteilt. Da hat mir dann Nina den Punkt verweigert und ich lege jetzt einfach nach, weil ich habe eine zweite Gegenwartbeobachtung, die sich dann mit dieser ersten zu einem Komplettbild vervollständigt. Und zwar finde ich, gab es diesen Winter und gibt es immer noch, es ist ja immer noch teilweise kalt, einen ganz wichtigen Schuhtrend bei Frauen, nicht bei Männern. Und das war ein bestimmter Ackboot. Also der Ackboot ist ja sowieso ein Klassiker, den hat man über die letzten 10, 20 Jahre immer wieder gesehen. Ich beschreibe ihn noch mal kurz. Ein plüschiger, gewissermaßen unförmiger Stiefel, der so aussieht, als würde man damit im Schnee wandern und der eben besonders warm ist. Dieser Ackboot, also Ack heißt die Firma, der ist in diesem Winter getragen worden mit einer Plateausohle noch dazu, also mit einer dicken hohen Sohle. Und wenn ich jetzt Menschen, Frauen mit diesen Schuhen vor diesen Space-Iglus, vor den Restaurants vorbeilaufen sehe, dann habe ich das Gefühl, das vervollständigt sich irgendwie zu einer Mondlandschaft. Also dieser Schuh sieht ja sowieso schon aus wie so ein halber Moon-Boot und das sieht auch aus wie so eine Mondstation, diese weißen oder transparenten Zelte. Deswegen, ich bringe den AK-Boot mit Plateau hier ein und meine Meterebene ist, das ist die Vorbereitung auf die nächsten Mondmissionen. Das ist vielleicht auch ein Statement, ich weiß nicht, Joma, inwiefern du da drin bist, Elon Musk möchte ja zum Mars, aber er möchte den Direktflug, er möchte auf der Erde starten, große Rakete bis zum Mars. Die NASA hat ja den Plan, erst eine Mondstation zu bauen und von dort dann zum Mars zu kommen.",
+      "begin_time": "3:48.497",
+      "begin_seconds": 14177.0,
+      "end_time": "5:40.677",
+      "end_seconds": 21077.0,
+      "duration_seconds": 6900.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ist der Mond so entscheidend viel näher? Ist es eine sinnvolle Zwischenstation?",
+      "begin_time": "5:40.677",
+      "begin_seconds": 21077.0,
+      "end_time": "5:44.737",
+      "end_seconds": 21377.0,
+      "duration_seconds": 300.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich glaube, da geht es vor allem darum, dass man dann in der Schwerelosigkeit die Raketen besser zusammenbauen kann. Also behauptet die NASA, Elon Musk sieht es nicht so. Das ist vielleicht auch so interpretiert, dass mal ein klares Bekenntnis zum NASA-Plan und der Mond rückt wieder ins Zentrum. Es gab jetzt auch wieder eine private Mondmission von einem Privatunternehmen. Ja, das ist mein Vorschlag.",
+      "begin_time": "5:44.737",
+      "begin_seconds": 21377.0,
+      "end_time": "6:02.697",
+      "end_seconds": 22417.0,
+      "duration_seconds": 1040.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also die Rückkehr der Mondraumfahrt als attraktiv, das trifft bestimmt einen Gegenwartspuls. Ich hab diesen Schuh, von dem du sprichst, noch nie gesehen. Allerdings in meinem Verständnis des Gegenwartchecks spricht das ja eher gegen mich und nicht gegen dich. Nur weil ich zu schlaffdrösig bin, etwas nicht wahrzunehmen und du zu hypersensibel, so dass schon kleinste Vorzeichen dir sofort ins Auge springen, das soll ja nicht gegen dich gewendet werden. Und weil mir die Meta-Narration dazu, dass der Mond wieder zu einem strategisch interessanten Ziel wird, gefällt, aus diesem Grund gebe ich dir gerne diesen Punkt. Ich fürchte allerdings, weil hier wird es mittlerweile jetzt doch fühlingshaft warm, werde ich noch ein Jahr lang ausharren müssen, bis ich diesen Trend mit eigenen Augen mir ein Bild davon verschaffen kann.",
+      "begin_time": "6:03.157",
+      "begin_seconds": 21937.0,
+      "end_time": "6:56.617",
+      "end_seconds": 25577.0,
+      "duration_seconds": 3640.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nächsten Winter wird Nina die Iglus sehen und du wirst die Plateauachs sehen. Und so lang freu ich mich über den Punkt.",
+      "begin_time": "6:56.617",
+      "begin_seconds": 25577.0,
+      "end_time": "7:03.797",
+      "end_seconds": 26177.0,
+      "duration_seconds": 600.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Stehen den Damen denn diese Stiefel auch gut?",
+      "begin_time": "7:03.797",
+      "begin_seconds": 26177.0,
+      "end_time": "7:06.437",
+      "end_seconds": 25997.0,
+      "duration_seconds": -180.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das ist jetzt eine Geschichte für sich, weil ich glaube der Ak-Boot gehört ganz, ganz bewusst, was man unter dem sehr wichtigen Mode-Wort Man Repeller zusammenfasst. Also es sind modische Kleidungsstücke für Frauen, die gerade auch deswegen so interessant sind, weil sie klassischerweise von Männern als nicht schön empfunden werden.",
+      "begin_time": "7:06.437",
+      "begin_seconds": 25997.0,
+      "end_time": "7:28.537",
+      "end_seconds": 27417.0,
+      "duration_seconds": 1420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Wow, wäre das nicht der eigentliche... Zu alt, das ist zu alt... .Beitrag zum Gegenwärtscheck? Was heißt denn Man Repeller? Ich kenn das Wort noch nicht mal.",
+      "begin_time": "7:28.537",
+      "begin_seconds": 27417.0,
+      "end_time": "7:35.937",
+      "end_seconds": 28237.0,
+      "duration_seconds": 820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Na, es repellt Männer. Was heißt repellen? Stößt Männer ab.",
+      "begin_time": "7:35.937",
+      "begin_seconds": 28237.0,
+      "end_time": "7:41.597",
+      "end_seconds": 28257.0,
+      "duration_seconds": 20.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ach, Frauen tragen Schuhe, die Männer abstoßen sollen.",
+      "begin_time": "7:41.597",
+      "begin_seconds": 28257.0,
+      "end_time": "7:45.917",
+      "end_seconds": 28817.0,
+      "duration_seconds": 560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Sagen wir mal, das ist eine besondere Kategorie des modischen Frauenartikels, der sich auch dadurch auszeichnet, dass er von Männern als nicht besonders schön empfunden wird. Und da gibt es sozusagen verschiedene Beispiele dann für. Man Repeller ist aber auch ein sehr wichtiges, glaube ich, Mode-Block, was so heißt, aber den Begriff gibt es auch, glaube ich, unabhängig.",
+      "begin_time": "7:45.917",
+      "begin_seconds": 28817.0,
+      "end_time": "8:03.197",
+      "end_seconds": 29177.0,
+      "duration_seconds": 360.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also quasi eine Art, auch ein feministisches Modestück, das sagt, the male gaze ist mir egal, ganz im Gegenteil, ich möchte den gewissermaßen vor den Kopf stoßen, um meine Autonomie zu zeigen.",
+      "begin_time": "8:03.197",
+      "begin_seconds": 29177.0,
+      "end_time": "8:15.697",
+      "end_seconds": 30397.0,
+      "duration_seconds": 1220.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, ja, das kann man ganz sicher so theoretisieren dann, ja.",
+      "begin_time": "8:15.697",
+      "begin_seconds": 30397.0,
+      "end_time": "8:19.117",
+      "end_seconds": 30057.0,
+      "duration_seconds": -340.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Man Repeller. Sehr gut. Sehr gut. Ich bin einfach total hinter dem Mond, deswegen ist das bei mir noch nicht angekommen. Ich finde es interessant, diesen Begriff zu haben und werde die Welt durch die Linse des Man Repeller, du musst mal noch genauer anschauen. Sehr schön. Ich komme mit einem sehr viel einfacheren Phänomen, gehe ich in den Gegenwartsteck, nämlich dass seit kurzem ständig immer irgendjemand, irgendjemand anderen unter den Bus wirft. Donald Trump.",
+      "begin_time": "8:19.117",
+      "begin_seconds": 30057.0,
+      "end_time": "8:46.217",
+      "end_seconds": 31777.0,
+      "duration_seconds": 1720.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ey, Joma. Ey, Joma. Jetzt musst du um Konfetti kommen. Wir haben nicht nur zum ersten Mal, zum ersten Mal den gleichen Kulturschaffenden in einer Folge, sondern wir haben es zum ersten Mal geschafft, wegen mangelnder Datenbank und gefühlt 1.000 Gegenwartsteckpunkte einen zum zweiten Mal zu bringen. Und zwar glaube ich sogar einen, den ich dir vorgeschlagen habe.",
+      "begin_time": "8:46.217",
+      "begin_seconds": 31777.0,
+      "end_time": "9:07.757",
+      "end_seconds": 33577.0,
+      "duration_seconds": 1800.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nein, das darf nicht wahr sein.",
+      "begin_time": "9:07.757",
+      "begin_seconds": 33577.0,
+      "end_time": "9:09.077",
+      "end_seconds": 33017.0,
+      "duration_seconds": -560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Glaube schon. Es gab ihn auf jeden Fall schon mal. Den Punkt kriegst du. Ich bin immer noch richtig.",
+      "begin_time": "9:09.077",
+      "begin_seconds": 33017.0,
+      "end_time": "9:13.657",
+      "end_seconds": 33837.0,
+      "duration_seconds": 820.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Vorzeitige Altersdemenz als neues Gegenwartphänomen. Das ist mir aber sehr peinlich.",
+      "begin_time": "9:13.657",
+      "begin_seconds": 33837.0,
+      "end_time": "9:17.977",
+      "end_seconds": 34397.0,
+      "duration_seconds": 560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nein, nein, das wird jetzt öfter passieren. Es ist ja klar, wie sollen wir das, sonst brauchen wir irgendeinen Fact-Checking-Datenbank, um Doppelungen zu verhindern. Aber ich erinnere mich, ich habe den Punkt auch bekommen damals.",
+      "begin_time": "9:17.977",
+      "begin_seconds": 34397.0,
+      "end_time": "9:29.897",
+      "end_seconds": 35037.0,
+      "duration_seconds": 640.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Von mir.",
+      "begin_time": "9:29.897",
+      "begin_seconds": 35037.0,
+      "end_time": "9:30.757",
+      "end_seconds": 34957.0,
+      "duration_seconds": -80.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Von dir.",
+      "begin_time": "9:30.757",
+      "begin_seconds": 34957.0,
+      "end_time": "9:31.357",
+      "end_seconds": 34617.0,
+      "duration_seconds": -340.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich glaube schon. Wenn es wenigstens im Gespräch mit Nina gewesen wäre. Zuletzt hat nämlich Annalena Baerbock-Britta Hasselmann auch noch unter den Bus geworfen, um das zumindest ein wenig zu aktualisieren.",
+      "begin_time": "9:31.357",
+      "begin_seconds": 34617.0,
+      "end_time": "9:42.877",
+      "end_seconds": 35797.0,
+      "duration_seconds": 1180.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und die Ukraine wird sozusagen jeden Tag unter den Bus geworfen. Was ein ganz komisches Bild ist, das Land wird unter dem Bus liegen. Hattest du auch nicht richtig, ja.",
+      "begin_time": "9:43.417",
+      "begin_seconds": 35397.0,
+      "end_time": "9:54.237",
+      "end_seconds": 35877.0,
+      "duration_seconds": 480.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, also nach dem Punkt kann ich natürlich jetzt nicht bekommen, nur weil es geht ja um Aktualität und nicht darum, dass man das Archiv wiederkeut. Mehr ist mir ja offensichtlich nicht gelungen.",
+      "begin_time": "9:54.237",
+      "begin_seconds": 35877.0,
+      "end_time": "10:04.137",
+      "end_seconds": 36377.0,
+      "duration_seconds": 500.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Hast du noch einen Ersatz?",
+      "begin_time": "10:04.137",
+      "begin_seconds": 36377.0,
+      "end_time": "10:05.517",
+      "end_seconds": 36817.0,
+      "duration_seconds": 440.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich hab keinen Ersatz zur Hand. Skandal. Ich hab einen zweiten, aber da musst du jetzt erstmal wieder weitermachen.",
+      "begin_time": "10:05.517",
+      "begin_seconds": 36817.0,
+      "end_time": "10:10.637",
+      "end_seconds": 37237.0,
+      "duration_seconds": 420.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Okay, vielleicht fällt dir während ich rede noch was ein. Ich habe eine Mail bekommen von jemandem, ich vermute mal, der sich Sancho nennt. Der nennt sich nämlich dann weiter Pancho. Was ich nicht ganz verstehe, weil es heißt doch bei Cervantes Sancho Panzer heißt er, ne?",
+      "begin_time": "10:10.637",
+      "begin_seconds": 37237.0,
+      "end_time": "10:24.837",
+      "end_seconds": 38277.0,
+      "duration_seconds": 1040.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Der Begleiter von Don Quixote.",
+      "begin_time": "10:25.917",
+      "begin_seconds": 38417.0,
+      "end_time": "10:27.797",
+      "end_seconds": 38417.0,
+      "duration_seconds": 0.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was ist Sancho Pancho? Einfach ein Witz dann. Ja, okay. Er nennt sich jedenfalls so und er schreibt mir oder sie schreibt mir, das fand ich sehr interessant, dass ihm ihr aufgefallen ist, dass viele junge Leute jetzt in ihren meist ja inzwischen transparenten Handyhöhlen hinten so sich so privat kuratiert haben, so eine kleine Fotoauswahl von ihren Liebsten, die man dann nach außen sieht oder persönliche Gegenstände, die dann wie so als Schmuck hinten an der Handyhülle dem gegenüber gezeigt werden. Man personalisiert sie in diesem Sinne. Und das fand ich total interessant. Mir ist das in dem Sinne noch nicht so aufgefallen, dass da jetzt sozusagen wie früher im Portemonnaie, so der Boomer hatte das Foto von seinen Kindern oder der Frau oder so, dass das jetzt in dem Sinne benutzt wird. Aber was mir schon sehr aufgefallen ist, dass das iPhone ja früher ein geheiligtes, cleanes, wenn wir jetzt mal vom iPhone reden und nicht vom beliebigen Smartphone, iPhone heiliges, cleanes Geräte, was nicht beschmutzt werden soll, dann gab es vielleicht noch eine Hülle drum herum. Dann wurde die Hülle irgendwann transparent. Und jetzt, und zwar egal, ob mein Schwiegervater oder junge Leute, wird in die Hülle irgendwas reingesteckt. So alte Quittungen, Geld natürlich, was brauchst du eh. Also hinten ist gar nicht mehr das schöne Apple-Logo, sondern und ich finde es total sympathisch. Es ist jetzt angekommen. Es ist jetzt unser Wohnzimmer und da sind halt so alte Kino-Tickets oder irgendwas, was man da mal reingesteckt hat, sind da jetzt drin. Und vielleicht auch Fotos von den Kindern. Das fand ich eine ganz schöne Gegenwartbeobachtung.",
+      "begin_time": "10:27.797",
+      "begin_seconds": 38417.0,
+      "end_time": "11:52.797",
+      "end_seconds": 43517.0,
+      "duration_seconds": 5100.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Absolut. Die habe ich selber auch schon gesehen, jetzt wo du es sagst. Und in der Tat, das heißt, das iPhone als gewissermaßen oratischer Gegenstand, der eigentlich nur, den man eigentlich nur noch in so einem White Cube ausstellen darf, ohne sonst etwas. Dieser Status gehört jetzt der Vergangenheit. Wir gebrauchen es wieder wie ein Nutzgegenstand und stopfen es mit analogen Zeugs voll. Das ist ja auch das Herrliche.",
+      "begin_time": "11:52.797",
+      "begin_seconds": 43517.0,
+      "end_time": "12:15.017",
+      "end_seconds": 44117.0,
+      "duration_seconds": 600.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und wichtig ist auch bei den transparenten Hüllen, die jetzt alle haben, ist es ja ganz wichtig, dass man sieht, also klar, wenn es Fotos von meinen Kindern sind, von denen ich will, das andere oder von mir, warum sollte ich Fotos von mir selber haben? Das macht keinen Sinn. Das ist wie, es gibt manche Fußballspieler, Marco Reus hatte das immer, die haben dann auf dem Arm so ein Geburtsdatum tätowiert und ich denke dann immer, ah ja, wahrscheinlich von ihrem Kind. Bei manchen ist es aber ihr Geburtsdatum. Ja. Dann frage ich mich, das ist doch wie, als hätte ich ein Foto von mir in meinem Portemonnaie.",
+      "begin_time": "12:15.017",
+      "begin_seconds": 44117.0,
+      "end_time": "12:42.297",
+      "end_seconds": 46017.0,
+      "duration_seconds": 1900.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Naja, aber man kann sich doch auch das eigene Sternzeichen auf den Oberarm tätowieren lassen, damit es einem Glück bringt.",
+      "begin_time": "12:42.297",
+      "begin_seconds": 46017.0,
+      "end_time": "12:49.817",
+      "end_seconds": 46957.0,
+      "duration_seconds": 940.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Stimmt, es soll Glück bringen. Na was ich sagen wollte, bei so Sachen wie Belegzetteln, Quittungen, irgendwie kleinen Notizzetteln oder so, da ist es ja wichtig, dass es transparent ist, weil wenn man, das habe ich früher manchmal gemacht, eine intransparente Hülle hat und macht sozusagen hinter iPhone, zwischen iPhone und Hülle, macht irgendwas, denkst du natürlich nie wieder dran. Das findest du dann in zwei Jahren so, ah ja, okay, da war noch 100 Euro drin oder so. Deswegen das Transparente ermöglicht dir erst, ah ja stimmt, ich muss noch zum Schuhstar meinen Schuh abholen, da ist noch der Zettel.",
+      "begin_time": "12:49.817",
+      "begin_seconds": 46957.0,
+      "end_time": "13:18.277",
+      "end_seconds": 48157.0,
+      "duration_seconds": 1200.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Astaunlich, dass wir überhaupt noch über so physisches Papierzeug verfügen, das wir da reinstopfen können.",
+      "begin_time": "13:18.277",
+      "begin_seconds": 48157.0,
+      "end_time": "13:24.157",
+      "end_seconds": 48397.0,
+      "duration_seconds": 240.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja.",
+      "begin_time": "13:24.157",
+      "begin_seconds": 48397.0,
+      "end_time": "13:24.477",
+      "end_seconds": 48717.0,
+      "duration_seconds": 320.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist ja selber schon fast was Museumshaftes.",
+      "begin_time": "13:24.477",
+      "begin_seconds": 48717.0,
+      "end_time": "13:27.557",
+      "end_seconds": 48977.0,
+      "duration_seconds": 260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das stimmt, das stimmt. Umso schöner, dass das hier zusammenkommt.",
+      "begin_time": "13:27.557",
+      "begin_seconds": 48977.0,
+      "end_time": "13:30.077",
+      "end_seconds": 48677.0,
+      "duration_seconds": -300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Sehr schön.",
+      "begin_time": "13:30.077",
+      "begin_seconds": 48677.0,
+      "end_time": "13:30.537",
+      "end_seconds": 49137.0,
+      "duration_seconds": 460.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Jetzt hab ich extra lang geredet, damit dir vielleicht noch ein Gegenwartspunkt einfällt.",
+      "begin_time": "13:30.797",
+      "begin_seconds": 49397.0,
+      "end_time": "13:34.157",
+      "end_seconds": 48997.0,
+      "duration_seconds": -400.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Aber ich muss dir jetzt zuhören, ich kann nicht multitasking. Also dazu bin ich nicht in der Lage. Ich gehe mit einem etwas komplizierten, aber wie ich finde hochinteressanten, mit einer hochinteressanten Beobachtung ins zweite Rennen. Das hat unsere Zuhörerin Lena mir gemailt und ich musste mich da erstmal hineinfuchsen, weil ich selber Pinterest gar nicht kenne. Die Situation ist folgende. Lena schreibt, sie habe sich für den bald beginnenden Frühling so einen Hängesessel für den Balkon auf Ebay bestellt. Und vorfreudig in Erwartung der Lieferung wollte sie sich jetzt schon mal Gedanken darüber machen, wie man den auf dem Balkon gestalten kann, mit welchen anderen Ausstattungsdekorationselementen man ihn kombinieren könne. Und sie geht deswegen dann zu Pinterest, um sich Anregungen zu holen. Und stellt auf Pinterest fest, dass ganz viele der Bilder, auf die sie trifft, KI erzeugt sind. Und das versetzt ihr einen Stich oder hinterlässt ihr ein Gefühl tiefer Unbefriedigung. Und das wäre jetzt das Gegenwartsphenomen, aber ich muss noch erst weiter erzählen. Weil sie sagt, die KI, und das ist, finde ich, sehr kluger Gedanke, die KI kennt keine Restriktionen. Sie kann also quasi jede denkbare Dekor-Idee durchdeklinieren. Während der Clou für sie, Lena, bisher bei Pinterest war, zu sehen, dass da jemand aus Fleisch und Blut ins Risiko gegangen ist und sein Balkon tatsächlich so und so gestaltet hat, dafür Geld und Zeit ausgegeben hat. Und das beglaubwürdig die, nicht einfach nur die Authentizität, sondern das beglaubwürdig die Ernsthaftigkeit dieses Dekorationsvorschlages. Während die KI, sehen wir von der Energie ab, die die Rechenleistung beansprucht, ja quasi unendlich viele Optionen einer Balkongestaltung durchspielen kann, weshalb das, was sie zeigt, nicht durch das Selektionskriterium, das eben die Restriktion an der menschlichen Endlichkeit der Zeit darstellt, gegangen ist. Und finde ich einfach einen sehr hübschen Gedanken.",
+      "begin_time": "13:34.157",
+      "begin_seconds": 48997.0,
+      "end_time": "15:55.437",
+      "end_seconds": 57737.0,
+      "duration_seconds": 8740.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, auch total. Es ist manchmal schwierig, noch was Neues oder Interessantes zur KI zu sagen, aber genau diese Perspektive habe ich glaube ich noch nie gehört. Und ich finde sie auch total interessant. Ich glaube, man könnte sie jetzt weiterspielen und sie sagt uns noch viel mehr und Grundsätzlicheres und Politisches. Es gelingt mir jetzt in dem Moment nicht das aufzufalten, aber es lohnt sich da weiter darauf rumzudenken. Und dafür gibt es auf jeden Fall einen Punkt. Der dann auch dein einziger war, sollte dir jetzt nicht spontan.",
+      "begin_time": "15:55.437",
+      "begin_seconds": 57737.0,
+      "end_time": "16:20.697",
+      "end_seconds": 59497.0,
+      "duration_seconds": 1760.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist dann zwar mein einziger, aber zumindest ein Ehrenpunkt. Ich muss jetzt nicht, wie sagt man, völlig geschlagen vom Platz davon ziehen.",
+      "begin_time": "16:20.697",
+      "begin_seconds": 59497.0,
+      "end_time": "16:29.157",
+      "end_seconds": 59497.0,
+      "duration_seconds": 0.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Idjoma, sprechen wir über Christian Kracht und sein neues Buch Er, was glaube ich eins der großen Literaturereignisse dieses Jahr oder auf jeden Fall in diesem Frühjahr ist. Wir selber als Zeit haben einen großen schönen Text von Adam Sobyszczynski, der sich mit Christian Kracht getroffen hat. Aber ich denke auch in vielen anderen Zeitungen wird das eine große Rolle spielen, das Buch. Fangen wir aber mal nicht mit dem Buch an, sondern fangen wir noch mal mit Christian Kracht an. Bringen wir doch nochmal unsere Hörerinnen und Hörer, da sind ja vielleicht auch Jüngere dabei, vielleicht auch welche, die die alte Folge nicht gehört haben damals, bringen wir die doch nochmal auf den Stand der Dinge und du, du Idjoma Mangold, der große Literaturkritiker, erklärst uns nochmal, warum ist, und das kann man ja sagen, Christian Kracht so eine zentrale Figur für die deutschsprachige Gegenwart-Literatur, dass seine Bücher so heiß überhaupt erwartet werden? Kannst du im Schweinsgalopp nochmal kurz seine Karriere rekonstruieren? Du hast ja von den letzten 30 Jahren gesprochen, ein bisschen länger geht sie wahrscheinlich sogar schon.",
+      "begin_time": "16:29.157",
+      "begin_seconds": 59497.0,
+      "end_time": "17:29.077",
+      "end_seconds": 63017.0,
+      "duration_seconds": 3520.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich weiß gar nicht mehr, wann ist Faserland erschienen? 95 oder 96?",
+      "begin_time": "17:29.077",
+      "begin_seconds": 63017.0,
+      "end_time": "17:33.597",
+      "end_seconds": 63777.0,
+      "duration_seconds": 760.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "95, du hast recht.",
+      "begin_time": "17:35.397",
+      "begin_seconds": 63697.0,
+      "end_time": "17:36.417",
+      "end_seconds": 63777.0,
+      "duration_seconds": 80.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Schauen wir auf 30 Jahre Christian Kracht Rezeption zurück. Und wenn ich einen Grund, wenn ich gewissermaßen nur einen Schuss frei habe, einen Grund angeben müsste, warum dieser Autor mehr als alle seine Zeitgenossen, diese Faszinationskraft, auch diese Abstürzungskraft, immer mit sich führte, dann würde ich sagen, weil er von allem Anfang an Bücher schrieb, denen irgendetwas Unheimliches oder Ruchloses anhing, irgendetwas, wo man dachte, ist es eigentlich erlaubt, das gut zu finden. Der Reiz des Verbotenen schwebte von allem Anfang an über dem Werk Christian Kracht. Das fing bei Faserland an und da muss man sich jetzt wirklich erstmal zurückversetzen, in eine ganz andere Epoche. In eine, so wird es glaube ich auch, in Faserland explizit gesagt, in einem wirklich noch sozialdemokratisches Zeitalter, wo es als ungeheures Sakrileg, als ein Verrat an den ethischen Grundlagen des Zusammenlebens in der Bundesrepublik Deutschland empfunden wurde, dass ein Schnösel-Dandy aus reichen Verhältnissen durch Deutschland zog, durch Deutschland und die Schweiz zog, einmal bekanntermaßen von List auf Sylt bis nach Zürich und all das, was gewissermaßen den sozialdemokratisch egalitären Gerechtigkeitscharme dieses Landes ausmachte, mit Hohn und Spott über Goss. Das hat die Rezeption auf, sagen wir es mal, auf der Ebene des Literaturbetriebs so herausgefordert und erbittert, dass es, wenn ich das richtig sehe, damals nur Verrisse gab, aber Verrisse mit richtig viel Schaum vor dem Mund. Diese Art der Schnösel-Litratur, das war dann eigentlich fast über acht, neun, zehn Jahre der kanonische Ausdruck dafür, diese Art der Schnösel-Litratur, dem musste der Literaturbetrieb quasi mit konformistischer Geschlossenheit entgegentreten. Und gleichzeitig bewirkte er natürlich, wie das immer so ist in der Dialektik der Weltgeschichte, damit das Gegenteil. Der Ruhm und der Erfolg von Kracht's Debüt wuchs im Maße des Gegenwindes, den er durch den Literaturbetrieb erlebte. Man konnte, und das ist vielleicht das, was ich sagte, man konnte sich plötzlich mit einem umstrittenen Werk identifizieren und konnte etwas von der Ruchlosigkeit, wenn man so will, von der unangepassten Ruchlosigkeit fast auf sich selber lenken. Ich war damals, als das Buch erschien, noch Student und las vor allem Literatur, Geschichte, also Bücher aus der Vergangenheit. Aber um Faserland wurde so viel gestritten, dass ich da dann eben auch mal zu einer Neuerscheinung griff, weil ich wissen wollte, was ist das für ein Buch, über das sich alle aufregen. Und als braver Student, ich will mich nicht besser machen, als ich war, war es für mich schon auch eine Herausforderung, hinzunehmen, dass da jemand mit seiner ästhetisch-materiellen Überlegenheit in dieser herausfahrenden Weise herausstellte, sodass ich als braver sozialdemokratischer Student das Gefühl hatte, hier wird ja eine Welt ins Licht gerückt, an der ich ja sowieso nie werde teilhaben können. Ich werde nie im Go-Gärtchen sitzen und einen Cocktail trinken. Dachte ich damals als 25-Jähriger, wenig später begreift man, dass es jetzt auch nicht so schwierig ist, im Go-Gärtchen einen Cocktail zu trinken. Kurzum, diese Abstoßungsreaktion, die ich beschrieben habe beim Literaturbetrieb und das ist immer so billig und Wohlfalt, wenn man schmachvolle Reaktionen an anderen beschreibt. Das ist ja viel glaubwürdiger, wenn man zumindest feststellt, dass davon Spurenelemente auch bei einem selber, dass ich die auch an mir selber zu beobachten hatte. Gleichzeitig aber, das zumindest möchte ich dann zu meiner Verteidigung vorbringen, fand ich es eben auch faszinierend, dass da jemand plötzlich mit einem Tonfall kommt, der so provokativ anders ist als das, was ich bis dahin aus der deutschen Gegenwartsliteratur kannte. Ja, das war jetzt ein längerer Einführungsmonolog. Den könnte man jetzt problemlos auf das nächste Buch von ihm erweitern. Das war 1979, das ist der Titel des zweiten Romans von Christian Kracht. Und dieses Buch war interessanterweise, so funktionieren dann eben Rezeptionsprozesse, quasi bei Erscheinen schon kanonisch. So hatte ich ungefähr den Eindruck. Also das passierte nun das Gegenteil. Fast in nachholender Weise hatte der Literaturbetrieb natürlich nicht in den identischen Figuren derselben Kritiker, aber das spielt bei einem Betrieb, wo Subjekte ersetzbar sind, auch keine Rolle. Er hatte da wohl etwas wiedergutzumachen. Und nun war aber auch plötzlich klar, ach, das ist die Verfahrensweise. Das ist dieser Lustgrusel, mit dem Kracht arbeitet. Es gibt da etwas, er wagt sich in etwas tabuisiertes hinaus. Und das war dann bei 1979 auch wieder die Beschreibung der westlichen Welt als einer Dekadenten. Es spielt im Iran kurz vor der islamischen oder islamistischen Revolution. Wir haben hier wieder wie in Faserland quasi den Dendi als Protagonisten, der charakterisiert wird durch teure Modemarken, dem es um schöne Oberflächen geht, um Design geht. Und der aber auch diesen Selbsthass und Selbstekel genau gegenüber diesem ästhetizistischen Blick auf die Welt entwickelt. Und der in einer Art Selbstbestrafungsfantasie glaubt, büßen zu müssen für seinen Ästhetizismus. Und diese Buße vollzieht, in dem er am Ende Jahr und Armen sagt, in eine Art totalitär-chinesisch-kommunistisches Arbeitslager eine Art Exorzismus für den Hedonismus einzusteigen. Und dieses Buch erschien, jetzt weiß ich nicht mehr, ob wenige Tage vor oder wenige Tage nach den Anschlägen auf das World Trade Center am 11. September. Und wurde unmittelbar deswegen als ein Roman gelesen, der wie in einem Brennspiegel die reale Situation des Westens zusammenfasst. Das ist mir im Rückblick gar nicht mehr so nachvollziehbar, aber tatsächlich gab es gerade in der Kulturwelt viele Reaktionen auf 9-11, die das nicht so sehr als einen islamistischen Angriff sahen, sondern als einen Angriff, der vor allem zum Auszug bringt, wie verkommen, dekadent und fragwürdig der Westen ist. Und genau das erzählt doch 1979 Avant La Lettre. Das war in Wahrheit natürlich eine reine zeitliche Koinzidenz, dieses Erscheinungsdatum und das welthistorische Ereignis. Aber seit er genießt kracht diesen Hof, dass er durch sehr exzentrische Bücher doch immer etwas seismografisch zu erspüren scheint, was die Gegenwart gerade transformiert.",
+      "begin_time": "17:36.417",
+      "begin_seconds": 63777.0,
+      "end_time": "24:59.697",
+      "end_seconds": 90637.0,
+      "duration_seconds": 26860.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was uns dann eigentlich direkt zu er führt, das Buch kann man auch nicht lesen, ohne irgendwie, dass man von diesem starken Gefühl überkommen wird, hier wird einem jetzt erklärt, was unsere Gegenwart eigentlich bewegt. Nur wie du schon gesagt hast, wie genau das erklärt wird oder was genau unsere Gegenwart bewegt, das bleibt dann doch auf letzte Weise rätselhaft und nicht genau fassbar. Darüber sprechen wir gleich. Ich will nur ganz kurz, wenn jetzt nicht weiter die reichhaltige Geschichte von Christian Kracht Schaffen, da hätte man jetzt noch andere Sachen nennen können, durchgehen. Ich will nur eine Fußnote zu 1979 machen, weil ich da nämlich gestern auch noch mal reingelesen hab. Ich hatte da ewig nicht reingeguckt, wo ich die ersten zwei, drei Kapitel gelesen hab. Jetzt ist es ja so, das Wort hast du noch nicht erwähnt, Faserland ist ja damals als Pop-Literatur klassifiziert worden. Und ich verstehe natürlich, dass der Begriff heute sehr problematisiert wird und eigentlich will keiner mehr was damit zu tun haben. Das war irgendwie sowieso eine falsche Klassifikation. Und da wurden auch zu unterschiedliche Sachen zusammengerührt. Ganz schlechtes Zeug dann mit Kracht, der ja einfach schon gut ist, haben wir jetzt ja auch schon unterstrichen. Nur es war ja schon Pop-Literatur in dem Sinne, dass das ja das eine Kriterium ist, es kamen Pop-Songs vor, die wurden erwähnt dauernd. Es wurde verwiesen auf Marken, auf Namen der Pop-Kultur, die tauchten in diesem Text auf. Auf rein textueller Ebene ist das ja sozusagen das Kriterium von Pop-Literatur. Und jetzt ist mir erst klar geworden, dass ja Kracht bei 1979 eigentlich was total Verrücktes macht. Er behält diese Methode bei. Also zumindest die ersten beiden Kapitel sind durchzogen von der Nennung von bestimmten Mode-Labels, bestimmten Kleidungsstücken, ein vintage Yves Saint Laurent-Blazer, von Pop-Songs, die gehört werden, die irgendein Iraner ihnen vorspielt und so. Nur anders als jede andere Pop-Literatur ist es ja gerade nicht Gegenwart des Jahres 2001, sondern Kracht musste sich in eine Pop-Welt des Jahres 1979 zurückversetzen, was doppelt schwierig ist, weil diese Blüte des Pops und das alles Pop-Song und Marke war, war ja 1979 noch nicht klar. Sie ist seit 45 das Grundwasser unserer Kultur, dass alles Pop und Pop-Musik wird. Aber 1979 war es ja noch gar nicht so stark. Und er musste sozusagen eine ganz interessante Verschiebungsleistung machen, da hab ich noch nie drüber nachgedacht, weil sonst Pop-Literatur in der Gegenwart stattfindet.",
+      "begin_time": "24:59.697",
+      "begin_seconds": 90637.0,
+      "end_time": "27:20.977",
+      "end_seconds": 99377.0,
+      "duration_seconds": 8740.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Oder er hat die Verschiebungsleistung ganz unangestrengt frech, wie es Künstler tun, hat in Wahrheit eine Figur der 2000er Jahre einfach mal ins Jahr 79 versetzt, ohne die Unplausibilität weiter zu begründen, weil es ihm in den Kram passte. Das ist ja die Lizenz der Literatur.",
+      "begin_time": "27:20.977",
+      "begin_seconds": 99377.0,
+      "end_time": "27:38.297",
+      "end_seconds": 99777.0,
+      "duration_seconds": 400.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das stimmt, aber die Songs, die genannt werden, sind eben aus der Zeit, die beschrieben wird und ich geh mal davon aus, dass die Modeartikel auch ungefähr passen. Aber das ist nur eine Fußnote. Lass uns doch mal vielleicht, wie gesagt, jetzt die Rest der interessanten Geschichte von Christian Kracht skippen und wir kommen zum neuen Buch. Zum neuen Buch eher. Und wir müssen jetzt einfach nur mal kurz zusammenfassen, was in diesem Buch passiert, was einerseits ziemlich einfach ist, weil es eine ganz klare Geschichte ist, andererseits gar nicht so leicht, das wird man dann merken. Willst du mal starten, was wird uns hier erzählt?",
+      "begin_time": "27:38.297",
+      "begin_seconds": 99777.0,
+      "end_time": "28:11.617",
+      "end_seconds": 102077.0,
+      "duration_seconds": 2300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Na erstmal finden wir uns in einem sehr vertrauten Christian Kracht-Kosmos wieder, aber auch in einem sehr vertrauten die Welt, wie wir sie so vielleicht, ich würde sagen so vor zehn Jahren wahrgenommen haben, fast schon Hüge-Kosmos wieder. Irgendwo in nördlicheren Sphären befindet sich ein junger Mann, der denselben Beruf ausübt wie der Protagonist aus 1979. Er ist Innenarchitekt, er gestaltet Räume, er ist ein Ästhetizist, dem es um, ich wiederhole mich jetzt ein wenig, um schöne Oberflächen geht, der eine Leidenschaft hat für alles, was mit Handwerklichkeit zu tun hat, sowohl was das Essen betrifft als auch die Gestaltung von Räumen. Vieles, was da beschrieben wird, kommt einem so vertraut vor. Als wir darüber geredet haben, sagtest du sofort, man kommt sich vor wie in dem Restaurant Noma. Da müssen wir den Jüngeren unter unseren Zuhörern noch mal in Erinnerung rufen. Noma war mal so um das Jahr 2010 herum das berühmteste Restaurant der Welt. René Rezipi hieß der Chefkoch, ein Däne hatte es in Kopenhagen gegründet und das war das Flagship der neuen skandinavischen Cuisine, deren Philosophie im Wesentlichen, ich glaube man sagte manchmal so, brutal lokal war. Also alle Produkte durften nicht weiter als im Umkreis aus 30 oder 50 Kilometern kommen. Das heißt selbst der Riesling, den man im Noma trank, war ein Riesling, der überraschenderweise tatsächlich in Dänemark wuchs. All die Produkte, die man mit der skandinavischen Weltverband spielten, haben eine Rolle, Quark, Beeren natürlich, auf denen ich hatte tatsächlich das Glück, einmal im Noma gewesen zu sein. Man saß auch natürlich in so einem skandinavischen Design mit so Fällen, wenn ich das richtig erinnere, auf den Stühlen. Es war alles ungeheuer zeitgenössisch für diese Zeit. Und es war der Boom einer Epoche, wo gewissermaßen der Kult um die Handwerklichkeit der Versuch war, gegen die plebeische Massenkonfektion ein Zeichen zu setzen. Ähnlich wie Lena das vielleicht mit KI charakterisiert hat. Es ging jetzt darum, wie können wir eigentlich in einer Zeit kapitalistischen Überflusses nochmal Knappheit, Kostbarkeit herstellen? Ja, durch Handwerklichkeit, weil die sich nicht skalieren lässt.",
+      "begin_time": "28:11.617",
+      "begin_seconds": 102077.0,
+      "end_time": "30:46.777",
+      "end_seconds": 111537.0,
+      "duration_seconds": 9460.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das ist ganz wichtig als allgemeiner Trend für diese Zeit oder auch immer noch unsere Gegenwart, auch wenn das jetzt vielleicht langsam ausläuft. Nur ich will es noch genauer fassen, weil die spezifische, ästhetische Welt, die auf den ersten Seiten, in den ersten Kapiteln Kracht uns hier vorstellt, in dem eben dieser Innenarchitekt entsprechende Restaurants einrichtet, über diese Sachen nachdenkt, sein eigenes Leben versucht so zu gestalten, ist ein Unterfall dieses Artisanalen. Weil das Artisenale gäbe es ja auch in einer, ich sag mal, toskanischen Ausprägung oder französischen Ausprägung oder sozusagen der Winzer ist ja auch ein artisanaler Winzer, irgendwo in Südfrankreich oder so. Aber um die geht es hier explizit nicht. Es geht um den Norden, aber ich finde auch das Wort Hücke, was im Buch nicht vorkommt, irreführend, weil Hücke wäre ja was Kuscheliges, Dänisches. Es geht aber darum, der Protagonist wohnt auf einer Insel, die im Norden Schottlands der Küste vorgelagert ist und ganz bewusst. Also das ist eine bewusste Entscheidung. Das sind seine Traumlandschaften. Es geht also schon um eine Kark, das Gegenteil eigentlich von Hücke in dem oder ja, es ist schwierig. Also das Kuschelige bedingt sich ja durch die Karkheit draußen. Aber die Landschaft soll besonders kark sein. Die soll flach sein, grau, ja. Und die, wenn wir jetzt wieder beim Essen sind und die Speisen sind, sozusagen nicht die Fülle der Obstplantage, sondern das, was in diesem kargen Küstenstreifen vielleicht das Meer und die Natur uns so ein bisschen übrig lässt, was wir so aufsammeln können. Ich lese mal gerade zwei Zitate vor aus dem Buch, die sozusagen einschlägig sind, um diese Welt zu beschreiben. Erstmal beschreibt er, ich weiß gar nicht, ob es das wirklich gibt, du warst mal auf den Faroe-Inseln, hast du glaube ich gesagt. Er beschreibt einmal, da hat er für gearbeitet, das war ein Auftrag, für ein aus Brettern gezimmertes Foraging-Restaurant. Also foraging, das englische Wort für sammeln. Also der Jäger und Sammler ist Hunter, nee das heißt hunter and gatherers, aber foraging ist glaube ich so was wie sammeln, oder?",
+      "begin_time": "30:47.417",
+      "begin_seconds": 111237.0,
+      "end_time": "32:48.177",
+      "end_seconds": 118257.0,
+      "duration_seconds": 7020.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, also ich hatte das nach nachgegoogelt, ich kannte den Begriff noch nicht. Und das ist auch immer dieser Überraschungseffekt, bei er begegnet einem öfter, dass man denkt, oh hier hat sich der Autor etwas sehr exzentrisches ausgedacht. Und wenn man dann googleschreibt, man fest, achso, das ist ein eingeführter Begriff, vielleicht für eine Minderheit, aber für die immerhin. Also ein Restaurant, das Sachen, Kredenz, die man einfach so sammelt, ohne dass man sie noch einem modifizierenden Kochvorgang unterwirft. So habe ich das verstanden.",
+      "begin_time": "32:48.177",
+      "begin_seconds": 118257.0,
+      "end_time": "33:20.637",
+      "end_seconds": 120637.0,
+      "duration_seconds": 2380.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, also ein aus Brettern gezimmertes foraging Restaurant auf den Faröern, mit nur, das kennen wir natürlich, mit nur einem einzigen Tisch für sechs Personen, nur einer akzeptierten Reservierung pro Abend und nur einem Gericht auf der Karte. Das ist ja nun sozusagen, was wir alle kennen als künstliche Verknappung. Ja, so.",
+      "begin_time": "33:20.637",
+      "begin_seconds": 120637.0,
+      "end_time": "33:37.597",
+      "end_seconds": 121617.0,
+      "duration_seconds": 980.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Da kam man sich gleich vor, wir hatten auch mal ganz am Anfang eine Folge über Chefs Table und da wurden, da erinnere ich auch, ein skandinavisches Restaurant, das mich ungeheuer genau, genau an die Beschreibung von Christian Krachs Restaurant-Welten erinnert.",
+      "begin_time": "33:37.897",
+      "begin_seconds": 121917.0,
+      "end_time": "33:51.457",
+      "end_seconds": 122317.0,
+      "duration_seconds": 400.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und jetzt kommt aber ein Gericht auf der Karte und jetzt finde ich, kommt das Wichtigste, nämlich die Beschreibung der Speisen. Ein Gericht auf der Karte, das aus zusammengesammelten Mosen bestand und aus windgefaultem, übel riechendem Kabeljau. Hier klingt schon durch, was gleich wichtig wird, der Protagonist scheint diese Welt zu lieben, er bewegt sich in ihr, er arbeitet ihr, aber er hat natürlich, wie alle Krachtleute, was ich schon erwähnt, einen nicht mehr zu verleugnenen Ekel gleichzeitig vor ihr. Man weiß ja nicht, also findet er jetzt eigentlich gutes Essen, ja? Und auch das windgefaulte, da hab ich nämlich auch gegoogelt, das hab ich nicht gefunden, ob es wirklich eine Bezeichnung beim Kochen ist, dass etwas windfaul ist, denn das scheint eher eine poetische Beschreibung zu sein.",
+      "begin_time": "33:51.457",
+      "begin_seconds": 122317.0,
+      "end_time": "34:32.877",
+      "end_seconds": 125197.0,
+      "duration_seconds": 2880.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also ich habe gegoogelt und habe was gefunden.",
+      "begin_time": "34:32.877",
+      "begin_seconds": 125197.0,
+      "end_time": "34:35.637",
+      "end_seconds": 125137.0,
+      "duration_seconds": -60.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ach so.",
+      "begin_time": "34:35.637",
+      "begin_seconds": 125137.0,
+      "end_time": "34:36.277",
+      "end_seconds": 124837.0,
+      "duration_seconds": -300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Es gibt nämlich eine, glaub ich, andere Stelle. Darf ich die mal vorlesen? Oder ist das dieselbe? Ich hab hier jetzt nur immer die Zitate mir rausgeschrieben. Dann hatten ihn diese kargen baumlosen Inseln des Nordens und ihre heidnische Küche hierher gebracht. Jakobsmuscheln, Lodderogen, Heilbutt, Ortcakes, Tordalk, Alkensalat, Krähenbeeren, Rababa, Restur, Fiskur, Huggies, Skirpikjott und wie das ganze Zeug hieß.",
+      "begin_time": "34:36.277",
+      "begin_seconds": 124837.0,
+      "end_time": "35:06.837",
+      "end_seconds": 127197.0,
+      "duration_seconds": 2360.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Eine ganz wichtige Stelle, ja.",
+      "begin_time": "35:06.897",
+      "begin_seconds": 127257.0,
+      "end_time": "35:08.377",
+      "end_seconds": 126857.0,
+      "duration_seconds": -400.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Genau, weil es gewissermaßen die Präziosität dieser Sachen wird dann in so einer Souveränitätsgeste auch wieder vom Tisch gewischt mit dem und wie das ganze Zeug hieß. Aber dieses Restur-Fiskur habe ich dann gegoogelt und es gibt es tatsächlich und es scheint mir wirklich Fisch zu sein, der am Wind getrocknet und fermentiert wird. Ich selber kenne aus Island, da ist es eine Nationalspezialität, fermentierter Fisch, Haifisch, in dem Fall nicht Hailebutt, sondern Fisch, der Haie ist ja auch ein Fisch, genau, dessen Fleisch man in der Erde vergrabt und da fermentiert ist und dann holt man ihn wieder hervor und der ist dann, hat dann so eine extreme Schärfe wie ein Rockfrohr hoch 10, weshalb man ihn auch nur in ganz kleinen Portionchen, also die Menge einer, was auf eine Messerspitze passt, als Vorspeise zu sich nimmt und mit einem Aquavit herunterspült. Also dieses Prinzip Fermentieren irgendwie an den rauen Kräften der Elemente gibt es tatsächlich. Und ich glaube, das ist auch, wenn man es jetzt deuten will, die Idee für dieses Lifestyle-Setting raus aus der Industrieproduktion heißt hinein in anscheinend natürliche Vorgänge, die das, was wir essen, dann bearbeiten oder modifizieren. Macht das Sinn?",
+      "begin_time": "35:08.397",
+      "begin_seconds": 126877.0,
+      "end_time": "36:26.997",
+      "end_seconds": 132157.0,
+      "duration_seconds": 5280.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja und ich greife jetzt schon ein bisschen voraus, weil wir das an späterer Stelle noch besser festmachen können. Aber ich glaube, es gehört auch ganz wichtig dazu, dass man eben jagt und sammelt, dass möglichst wenig Ackerbauprodukte Eingang finden. Sondern der Fisch wird gefischt oder eben als Jäger, finde ich den, ja, den muss ich sozusagen fangen und töten. Oder die Mose sammel ich ein. Ich mach mal kurz ein bisschen weiter, weil jetzt ist wichtig…",
+      "begin_time": "36:26.997",
+      "begin_seconds": 132157.0,
+      "end_time": "36:51.977",
+      "end_seconds": 133637.0,
+      "duration_seconds": 1480.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Jetzt kurz nur muss ich einbläfen, weil das nennen wir ja auch die Paleo Diät. Und die war ein großes Modethema, auch so um 2010 herum. Dies hier sagen gleich, dass man bei diesem Roman, das meine ich jetzt nicht gegen ihn gewendet, aber man hat ein bisschen das Gefühl eines leichten Anachronismuses. Weil die Lifestyle-Welten, die hier entfaltet werden, sind keineswegs die unsere Gegenwart, sondern schon die uns wohlvertrauten von vor zehn Jahren.",
+      "begin_time": "36:51.977",
+      "begin_seconds": 133637.0,
+      "end_time": "37:20.137",
+      "end_seconds": 134537.0,
+      "duration_seconds": 900.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Also ich find zehn Jahre dann doch ein bisschen zu brutal. Also ich hab das auch beim Lesen gedacht, ist das nicht schon wieder vorbei. Nur so einen Roman muss man ja auch erst schreiben, der hat eine Latenzzeit. Und selbst ich könnte jetzt nicht sagen, weil ich der große Experte bin, aber wir machen ja ein Gegenwart-Podcast, was das jetzt ersetzt hat. Also ich könnte jetzt nicht genau jetzt schon fassen, was denn nach dieser Fermentierungs-Nordischen Grauküche kommt. Also klar, wir wissen alle, wir können jetzt keinen Artikel mehr über das Noma schreiben, dass das was Neues ist. Aber was kommt sozusagen nach dem Noma, das könnte ich jetzt noch nicht sagen. Ich will nur kurz erzählen, dass er dann, ich glaube die Details können wir beiseite lassen, aber er trifft einen anderen Mann, Coen. Dieser Coen gibt ein Magazin heraus, das Paul heißt, die Hauptfigur übrigens, was Paul sehr schätzt, weil es genau diese Welten irgendwie abbildet, trifft diesen Coen, weil er einen Auftrag von dem Magazin bekommt. Und dieser Coen stellt sich aber als seltsame Figur heraus, der vielleicht schon sagen wir mal einen Schritt oder viel weiter ist in seinem Ekel gegen die Welt und stellt sich auch diesen Magazin, er mag das eigentlich gar nicht, was sie da machen mehr. Das wird ja völlig absurd. Und der fasst dann sozusagen, als der, der schon drüber hinaus ist, auch noch mal zusammen diese Welt, ich lese noch mal was vor, er sagt dann, diese Cottage-Core-Flechten-Restaurants, Cottage-Core, also Hütten, Cottage ist sozusagen die Hütte im Wald, Cottage-Core-Flechten-Restaurants, das entsättigte, die Farben rausgenommen, das Graue. Jene einsame europäische Peripherie, Schottlanden, das Zwei-dimensionale der Landschaft, die brummelnden wortkagen Schotten und so weiter, das sei doch protestantischer Kinderkram, findet der Cohn. Und er nennt das auch einen konsumistischen Pseudokommunismus. Dieses Politische spielt vielleicht auch eine Rolle, weil irgendwie immer der Eindruck erstehen soll, dass diese Sachen ja kommunistisch sind in dem Sinne, dass man einfache Produkte macht, die irgendwie für alle da sind. Aber es ist natürlich Pseudo, weil sie dann total teuer sind und exklusiv vertrieben werden oder so. Ja. Und dann sagt Cohn auch, das Ganze funktioniere nicht. Das Hauptproblem an Kuki, so heißt diese Zeitschrift, an Kuki war ja, dass es das als begehrenswert abbildete, was die Moderne selbst vorher zerstört hatte. So all das, was hier in tollem Licht erscheint, wird ja durch moderne Prozesse eigentlich an den Rand gebracht oder niemand braucht es mehr. Kuki überführte das fast vergesstene in den Postkapitalismus, um das Versunkene erneut als Ware anbieten zu können, allerdings zum hundertfachen Preis. Am besten, man brachte sich einfach um. Cohn ist schon völlig am Ende von dieser Ästhetik, die ihn verrückt macht und dieses Problem oder ein verwandtes Problem äußert sich auch immer darin, dass Paul merkt, die alten Schotten und die Fischer in seinem Dorf, wo der erlebt, die sind ja schon sozusagen so korrumpiert von der Moderne, dass sie diese scharfswollpullover, die er so liebt, schon gar nicht mehr tragen, sondern die tragen natürlich alle so künstlichen Fleece, weil es einfach das Beste ist, wenn man da arbeitet. So wie die echten Arbeiter ja nicht Sachen von Manufaktum tragen, sondern irgendwelche Engelbert-Strauß-Jacken, so wie die aufs Deutschland übertragen. Und das macht ihn so verrückt, weil er will aber an diesen Scharfswollpullover festhalten, aber merkt, die Wirklichkeit ist ja schon gar nicht mehr so auf seiner Insel da.",
+      "begin_time": "37:20.137",
+      "begin_seconds": 134537.0,
+      "end_time": "40:30.697",
+      "end_seconds": 146497.0,
+      "duration_seconds": 11960.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Er war hin und her gerissen zwischen Naturfasern und Stoffen aus Polyester, hatte aber für sich beschlossen, die Entscheidung zugunsten eines der beiden Textilien aufzuschieben. Wahrscheinlich aber würde er den Fleece-Pullover wieder abstoßen oder im Internet verkaufen. Also das ist gewissermaßen die Ausgangssituation, dass diese Lifestyle-Frage zu einer existentiellen werden kann. Und wie bewegen wir uns aus dieser verzweiflungsvollen Situation heraus, wo die Frage nach Fleece oder Naturfaser einen so hohen Stellenwert hat? Ja, der Cohn sagt, da kann man sich doch am besten eh gleich umbringen. Gibt es ein Jenseits dieser Welt der reinen Oberfläche? Und insofern fühlen wir uns da sehr stark erinnert an 1979. Ist quasi eine ähnliche Ausgangssituation. Das Jenseits dieser Welt der Oberfläche oder ihr Exorzismus, ihr Reinigungsbad war in 1979 das Straflager. Und jetzt ist die Frage, welches Jenseits, welches andere dieser Welt entwirft. Der neue Roman von Christian Kracht entwirft er.",
+      "begin_time": "40:30.697",
+      "begin_seconds": 146497.0,
+      "end_time": "41:39.177",
+      "end_seconds": 150117.0,
+      "duration_seconds": 3620.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Cohn schickt die Hauptfigur Paul dann los, um, das erzähl ich jetzt mal etwas detailliert, weil es eine wichtige Gelenkstelle ist, um in Norwegen eine, und die gibt es glaube ich auch wirklich, ich hab sie gegoogelt, eine, ich nenne sie mal sehr große Server-Farm zu dekorieren, tatsächlich anzustreichen in reinem Weiß, das ist natürlich auch sehr metaphorisch. Ja und dann fährt Paul in diese riesige Server-Farm, von der immer wieder gesagt wird, sie ist eigentlich der Cloud-Speicher letztlich der ganzen Welt und alle unsere Identitäten sind irgendwie auf diesen Servern da. Ja und die ist auch tief in einem Bergwerk drin, damit sie gut geschützt ist in einer riesigen Höhle, wo man die Decke gar nicht mehr sehen kann und nur Server stehen.",
+      "begin_time": "41:39.177",
+      "begin_seconds": 150117.0,
+      "end_time": "42:18.697",
+      "end_seconds": 152977.0,
+      "duration_seconds": 2860.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Darf ich das nur kurz zur Selbstaufklärung und hoffentlich auch höhere Aufklärung, vielleicht haben die es nicht nötig, aber mir war das schon nochmal wichtig, für mich war es wichtig darauf gestoßen zu werden, weil wir dieses kollektive Gedächtnis, das das Internet darstellt, wo alle Bilder von den Katzenbildern bis zur Goldenen Hochzeit abgespeichert sind, werden immer in die Cloud geschickt, als sei es eine immaterielle Metapher. Aber die Cloud ist natürlich etwas, was durch Rechenleistung verfügbar gehalten werden muss und die zur Verfügung Stellung dieser Rechenleistung ist etwas zutiefst materielles, nämlich etwas, was Energie verbraucht und sehr viel Abwärme erzeugt. Und deswegen gibt es Orte wie dieser Ort bei Starvanga in Norwegen, wo es genügend Kühlwasser gibt, um die Rechenmaschinen auch kühlen zu können. Die Cloud ist also nicht irgendwo oben im siebten Himmel, sondern es ist ein physischer Ort.",
+      "begin_time": "42:18.697",
+      "begin_seconds": 152977.0,
+      "end_time": "43:17.377",
+      "end_seconds": 156197.0,
+      "duration_seconds": 3220.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Den betritt jetzt Paul und dann, ja was passiert dann? Dann gibt es ein, auch dieses Detail erwähne ich noch, einen Sonnensturm, eine Sonneneruption, die, das ist ja eine wirkliche Gefahr, zu einer großen elektromagnetischen Strahlung führt, so dass die trifft dann die Erde und diesen Ort, sodass dann die Server kurz alle, alles wird dunkel und die Server sind aus. Und dann gehen die Lichter aber wieder an und dann ist Paul verschwunden. Die Cone sucht dann noch nach ihm, ist verschwunden. Und wo ist dann Paul? Vielleicht übernimmst du nochmal von hier.",
+      "begin_time": "43:17.377",
+      "begin_seconds": 156197.0,
+      "end_time": "43:47.997",
+      "end_seconds": 158617.0,
+      "duration_seconds": 2420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Wo ist dann Paul? Dieser Roman ist in einer Gegenschnitttechnik gestaltet, zumindest bis deutlich über die Hälfte. Mit jedem Kapitel wechselt der Ort der Handlung und die Welt der schottischen, nordischen und norwegischen Grauheitssettings wird gegengeschnitten durch eine Welt, bei der ich mich, der ich kein Kenner von Fantasy-Filmen oder Welten bin, sofort erinnert gefühlt habe. Ich habe leider nie diese Verfilmungen vom Herr der Ringe gesehen, aber habe die Bilder, die Filmplakate immer so vor Augen und diese Landschaft hatte mich immer so früher angesprochen. Ich dachte manchmal, ich würde gerne diese Filme sehen, nur um diese Landschaft zu sehen, nicht weil mich die Erzählung als solche interessierte. Es ist eine Welt von sehr satem Grün. Du hast vorhin schon gesagt, die Gegenwelt der schottischen Inseln ist als grau und flach beschrieben. Grau ist auch die Lieblingsfarbe von Paul. Hier in den Gegenkapiteln sind wir plötzlich in einer Welt sattesten Grüns, wo es kraftvolle Regenschauer gibt, dann bricht die Sonne wieder hervor, der Nebel verdunstet, ein junges Kind mit Pfeil und Bogen setzt zum Schuss an und lässt die Sehne los und dieser Pfeil fliegt in ein dichtes grünes Dickicht, wo das Mädchen ein Reh vermutet, der Pfeil trifft, sie folgt quasi dem erlegten Wild und stellt fest, das war kein Reh, sondern ein Fremder und dieser Fremde ist durchbohrt von dem Pfeil, aber die beiden und das ist eine sehr anrührende Geschichte zwischen einem etwas älteren Mann und noch einem Kind treten in einer Beziehung zueinander, sie heilt ihn, sie vernäht die Wunde, sie versucht ihn wieder zu Kräften zu bringen und es ist klar die Welt, in der sich das Ganze abspielt, ist aber nicht unsere Gegenwart, auch nicht irgendwie eine Vergangenheit, sondern eine andere Welt und für mich, der ich nicht sehr viel Lektüre-Erfahrung mitbringe, war dann immer zu, ich hab dann nur so eine grobe Kategorie als Frage, dann freu mich, habe ich jetzt in einer Fantasy-Welt oder bin ich in einer Science-Fiction-Welt? Und ich weiß, wir haben dieses Thema schon öfter zusammen in Folgen angesprochen. Das Differenz-Kritier ist ja gar nicht so einfach und ich würde auch sagen, spielt Kracht jetzt mit Elementen von Science-Fiction oder mit Elementen von Fantasy? Würde ich nicht sagen und zwar bis zuletzt nicht. Aber noch einmal kurz zusammengefasst, die Gegengeschichte spielt in dieser ganz anderen Welt, die erkennbar nicht unser Planet ist und wie sich irgendwann herausstellt, ist dieser fremde Mann, den die Ildr, so heißt sie, mit dem Pfeil getroffen hat, ist Paul, der nach diesem kosmischen Ereignis im norwegischen Stavanger plötzlich in einer anderen Welt wieder herausgekommen ist.",
+      "begin_time": "43:47.997",
+      "begin_seconds": 158617.0,
+      "end_time": "46:55.817",
+      "end_seconds": 169717.0,
+      "duration_seconds": 11100.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Werbung Wo soll es hingehen? Heute, morgen und in 30 Jahren? Denkst du an deine nächste Reise oder an eine finanziell sichere Zukunft? Mit den Start-up-Tarifen der Allianz kannst du beides haben. Deine Altersvorsorge bleibt chancenorientiert, sicher und flexibel. Ob Zuzahlungen, Beitragspausen oder Kapitalinnahmen, du entscheidest und ein Berufsunfähigkeitsschutz ist automatisch mitversichert. Jetzt informieren auf allianz.de/deinweg.",
+      "begin_time": "46:59.037",
+      "begin_seconds": 169177.0,
+      "end_time": "47:25.957",
+      "end_seconds": 171657.0,
+      "duration_seconds": 2480.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, das macht Kracht auf interessante Art fest, dass das wirklich eine andere Welt ist, weil das fand ich ganz schön in dem Text von Adam Soboczynski in unserem Föhton, der ja mit Kracht gesprochen hat, erzählt Kracht, dass er kurz überlegt hat, ob diese Welt zwei Monde haben soll. Das war ihm dann aber doch offensichtlich zu viel. Das hat er dann weggelassen. Es gibt nicht zwei Monde. Aber trotzdem, es gibt, man hat vorher diese ganzen, ist ja auch lustig, es ist wahrscheinlich Absicht, diese Gerichte gegoogelt, um zu gucken, ob es wirklich gibt. Und jetzt tauchen aber plötzlich Gemüsesorten auf. Wenn man die googelt, die gibt es nicht. Daran merkt man, ah, okay, das muss sozusagen irgendwas sein, was otherworldly ist. Und es gibt dann auch eine, es wird aber nur ganz kurz, sehr abstrakt angedeutet, eine Art Religion. Die ist aber nur der Kreis. Und es gibt eine Krankheit, eine gelbe Seuche. Und das klingt alles so als seien es eben Fantasy-Elemente. Machen wir mal kurz hier einen Cut, weil wir wollen auch nicht das ganze Buch spoilern und erzählen. Wir müssen nur vielleicht eine Wicht einmal vorausgreifen, ja entschuldigt bitte, da müssen wir ein bisschen, ja es ist schon ein Spoiler, aber wir müssen weiter erzählen. Weil was dann passiert, ist das Ildre und dieser Fremde, der sich, das hast du schon verraten, das ist glaube ich auch keine ganz große Überraschung, als Paul herausstellt, auf einer Reise wiederfinden, quer durch diesen Kontinent Richtung Meer, Richtung Kälte, wobei das bei ihnen der Süden ist, das fand ich auch ganz interessant. Paul kriegt das erst nicht zusammen, wenn wir nach Norden gehen, aber dann versteht er, ah hier ist jetzt Süden die richtige Richtung, also vielleicht sind sie auch auf der Südhalbkugel eines Planeten, wo sie dann sozusagen Richtung Südpol laufen. Und dann sind sie noch nicht im ewigen Eis oder so, sondern kommen wieder in eine geografische Region, die natürlich dann erinnert an da, wo Paul gewohnt hat, an diese Noma-Sehnsuchtswelt aus der Realität. Und dort, also die Landschaft erstmal, und dann leben sie dort aber auch kurz in einer Stadt, die nur die Steinstadt genannt wird, bei einem Volk, was sich dort angesiedelt hat in dieser Kaaknis. Und das ist ganz interessant, weil diese Steinstadt ist ja dann die Noma-Welt nur gespiegelt in dieser Fantasy-Welt und sozusagen auf ihre metaphysischen Eigenharten noch mal reduziert. Ja, es wird immer wieder gesagt, auch die religiöse fast Überzeugung dieser Menschen dort ist nur Wasser und Stein. Das sind die Sachen, von denen wir leben und die wir brauchen, weil die sind klar, die sind klar und fest. Was wir nicht wollen, ist das Grün und die Erde und die Bäume. Das Wuchhande. Ich musste da kurz an, es gibt doch die berühmte Szene in Homo Faber, wenn sie im Dschungel abstürzen und Homo Faber stürzt er da ab, ich glaube im Flugzeug oder so.",
+      "begin_time": "47:32.007",
+      "begin_seconds": 171127.0,
+      "end_time": "50:04.387",
+      "end_seconds": 180627.0,
+      "duration_seconds": 9500.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das Flugzeug muss notlanden.",
+      "begin_time": "50:04.387",
+      "begin_seconds": 180627.0,
+      "end_time": "50:06.127",
+      "end_seconds": 180487.0,
+      "duration_seconds": -140.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und da steht im Dschungel und dieser ganze Ekel vor dem Lebendigen, dem Keimenden, der auch dieser Sexualität, dem Feuchtfiebregen des Dschungels, das haben diese Steinstammmensch auch.",
+      "begin_time": "50:06.307",
+      "begin_seconds": 180667.0,
+      "end_time": "50:15.827",
+      "end_seconds": 181727.0,
+      "duration_seconds": 1060.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und in den Spuck keimt es, heißt es.",
+      "begin_time": "50:15.847",
+      "begin_seconds": 181747.0,
+      "end_time": "50:17.687",
+      "end_seconds": 181707.0,
+      "duration_seconds": -40.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ach toll, das hätte ich jetzt nicht mehr auswendig gekonnt. Und so diese Steinstammenschen sind auch ein bisschen so und sie sind gleichzeitig artisanal, aber ganz toll, weil sie haben ein ganz tolles, ihre Stadt ist sozusagen in den Fels gehauen an der Küste und es gibt ein ganz tolles Fenster aus so Obsidian-Glas, kennen sie nicht richtig, aus Obsidian, wo der Mond ganz gut durchschaut.",
+      "begin_time": "50:18.207",
+      "begin_seconds": 181287.0,
+      "end_time": "50:40.167",
+      "end_seconds": 182567.0,
+      "duration_seconds": 1280.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Selbst die Kissen, wenn ich das richtig gelesen habe, sind aus Stein gemeistert. Ich hab, wenn ich es kurz, ich fühlte mich sehr stark dankbar erinnert, an ein Professor aus meinem Germanistikstudium, der uns mit einer gewissen Pedantarie immer versuchte, über Raum-Semantiken zu informieren und dass man Erzählwelten nach ihrer Raum-Semantik abklopfen sollte. Und das hatte so ein bisschen was mechanisch langweiliges damals für meinen Geschmack. Bei der Lektüre von Christian Kracht kam es mir jetzt ungeheuer zu Hilfe, weil das geradezu Bilderbuchmäßig damit spiegelt, dass also bestimmte Räumlichkeiten mit bestimmten oppositionellen oder Oppositionsbegriffen aufgeladen werden. Und hier wird es glaube ich sehr, sehr spannend. Nicht, dass ich es auflösen kann, aber du hast vorhin schon einmal, als du die schottische Nordwelt beschrieben hast, nicht einfach nur gesagt grau, sondern auch flach. Und jetzt kommt noch eine dritte entscheidende Eigenschaft hinzu, die in diesem Roman immer wieder abgerufen wird. Es ist das Zweidimensionale. Und je mehr man sich durch die Steinwüste dieser Steinstadt nähert, desto zweidimensionaler und flacher wird alles. Und das ist so ein interessanter Anknüpfungspunkt. Du hast ja selber gerade von Otherworld gesprochen. Und das interessante an diesem Experiment oder an dieser Fragestellung über andere Welten, die sowohl eine philosophische Frage ist, als auch ein klassisches Science-Fiction-Motiv ist ja, durch welche Formen kann sich Andersheit darstellen? Na ja, durch grüne Menschen vom Mars. Okay, das ist aber noch relativ langweilig. Viel spannender wäre es doch, wenn gewissermaßen nicht nur die Physik zum Beispiel eine andere wäre, sondern auch die Formen unserer Anschauung. Und zweidimensionale, versteht es sich eigentlich von selbst, dass wir in einer gefühlt dreidimensionalen Welt leben? Oder wäre es auch denkbar, sich in einer zweidimensionalen Welt zu bewegen? Was heißt es, eine neue Welt zu erzeugen? Kann man da versuchen zu denken, aha, wir könnten eine eindimensionale erzeugen? Wir haben aber auch die Möglichkeit eine zweidimensionale. Und dieser Punkt wird in sehr schöner, zarter Weise als ein Dialog zwischen dem jungen Mädchen, der Ildre und dem Paul entwickelt. Weil die Ildre natürlich wissen will, wo kommt er her? Und er kann es so richtig klar auch nicht sagen oder will es nicht so klar sagen, weil er auch nicht ganz genau weiß, was ihm da widerfahren ist. Aber er will ihr etwas von seinem Wissen mitbringen. Und zu diesem Wissen gehören bestimmte ingenieurhafte Techniken. Zum Beispiel, wie man aus Papier einen Papierflieger falten kann. Und das Falten von Papier führt aber dazu, dass man plötzlich aus der Zweidimensionalität des Papierblattes, so wie es gefaltet wird, wechselt in die Dreidimensionalität. In der Dreidimensionalität gibt es plötzlich die Möglichkeit für Auftrieb. Deswegen kann dieser Papierflieger fliegen. Und nun fängt die Ildre wie eine gelehrige Schülerin an, wie du sagst, other world, andere Welten als mögliche Welten durchzuspielen. Und gleichzeitig machen sie sich aber auf den Weg in eine Welt, die immer zweidimensionaler wird. Das heißt, das Grüne, das Satte, das Organische, das Dreidimensionale ist die eine Seite der Raumsemantik und das andere ist das flache, grau und zweidimensionale. Du merkst, ich komm da jetzt nicht zu einem, das ist jetzt nicht so ein Rätsel, dieser Roman von Christian Kracht ist nicht so ein Rätsel. Man muss einmal den richtigen Schlüssel gefunden haben und dann lässt es sich aufschlüsseln. Das nicht. Aber wir wissen immer, aber die ganze Zeit spielen diese Parameter als Weltbeschreibung eine entscheidende Rolle.",
+      "begin_time": "50:40.167",
+      "begin_seconds": 182567.0,
+      "end_time": "54:25.487",
+      "end_seconds": 196387.0,
+      "duration_seconds": 13820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Naja, es gibt schon einen Schlüssel, man kommt sich naiv vor, wenn man das jetzt versucht. Aber ich will schon mal einen einfach angieten, weil es ist ja auch trivial. Aber mir scheint dann doch wichtig, auch wenn das so nie explizit gemacht wird, dass die grüne Welt, in der sie auch aufbrechen, in dieser anderen Dimension, in der sie da gelandet sind, also der grüne Kontinent, der grüne Landstrich, der ist, so viel kann man vielleicht verraten, auch bedroht von bösen Mächten, also von korrupten, brutalen Führern. Bei einem Herzog. Und diese zweidimensionale graue Welt, die Paul dann auch sehr erfüllt, er lebt das schon gerne, die ist ja auch so kommunistisch organisiert. Es gibt keinen Privatbesitz. Trotzdem gibt es Genuss, weil die Speisen, die sie dann aus dem Meer finden und aus dem Wenigen, was sie haben, was sie da machen, aber die klingen eben wie im Noma, besonders interessant.",
+      "begin_time": "54:25.487",
+      "begin_seconds": 196387.0,
+      "end_time": "55:24.827",
+      "end_seconds": 200267.0,
+      "duration_seconds": 3880.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Die klingen wieder wie im Noma. Da läuft eben Noma-Gast das Wasser im Munde zusammen.",
+      "begin_time": "55:24.827",
+      "begin_seconds": 200267.0,
+      "end_time": "55:28.627",
+      "end_seconds": 200307.0,
+      "duration_seconds": 40.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Genau und es gibt tatsächlich...",
+      "begin_time": "55:28.627",
+      "begin_seconds": 200307.0,
+      "end_time": "55:29.727",
+      "end_seconds": 200467.0,
+      "duration_seconds": 160.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Hoher Seeigel.",
+      "begin_time": "55:29.727",
+      "begin_seconds": 200467.0,
+      "end_time": "55:31.467",
+      "end_seconds": 200327.0,
+      "duration_seconds": -140.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Es gibt tatsächlich zwei Kühe, die sie haben oder drei oder so. Diese Kühe, aber weil es keine Weide gibt, können sie nur mit Seegras füttern und dadurch ist die Milch von den Kühen wird beschrieben als so salzig wie Meerwasser und das klingt natürlich sofort nach irgendwas, wofür ich bei mir im Bio-Supermarkt irgendwie 20 Euro zahle, wenn es das dann gibt. So, aber das wollte ich eigentlich sagen, es gibt nur diese zwei, drei Kühe, das heißt eigentlich wird dort keine Landwirtschaft betrieben. Diese Menschen, jetzt sind wir beim Foraging bei den Jägern und Sammlern, haben nicht die, wie sagt man da, neolithische Revolution durchgemacht, die sind nicht oder sie haben sie rückabgewickelt, vielleicht hatten sie sie früher mal, das wird manchmal angedeutet, weil sie von woanders nämlich kommen, sie sind gar nicht Indigene dieses Landstrichs, aber sie haben sie rückabgewickelt, um sich dort anzupassen und betreiben keine Landwirtschaft. Und da kann man doch sagen, Christian Kracht, das Wort können wir ja so einmal erwähnen, dem man immer diese moderne Feindlichkeit vorwirft, wenn man sagt, eigentlich ist das sozusagen ein falsches Projekt, diese Moderne, es gibt Zweifel daran, hat jetzt einen Endpunkt gefunden der moderne Kritik, die letztlich fast Zivilisationskritik ist, aber nicht ganz, weil es gibt schon eine Form der Zivilisation, die hier noch als richtig erscheint. Die hätten wir sozusagen nicht verlassen sollen. Und das ist die hochentwickelte Jäger- und Sammlerkultur. Das ist übrigens so was, was, ich hatte das hier rezensiert für die Zeit, was Graeber in seinem letzten Buch zusammen mit dem Archäologen David Waingrow bearbeitet hat. Also die Idee, dass eigentlich die Jäger und Sammler schon viel komplexere Strukturen und interessantere Lebensformen hatten, als wir immer annehmen. Das waren keine edlen Wilden, sondern, und so erscheint auch diese Steinstadt, das war schon eine hochkomplexe Kultur. Manches fehlt denen, die schreiben nichts auf, zum Beispiel, in der Steinstadt. Ja, so, aber die haben zum Beispiel sehr Genuss beim Essen. Das ist sehr besonders, was sie da kredent sind.",
+      "begin_time": "55:31.467",
+      "begin_seconds": 200327.0,
+      "end_time": "57:18.967",
+      "end_seconds": 207247.0,
+      "duration_seconds": 6920.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also das ist auch die These oder die Pointe des Buches, mit dem Yuval Harari seinerzeit berühmt wurde, eine kurze Geschichte der Menschheit, wo er im Grunde auch darauf hinauskommt, auch aus durchaus diätetischen Gründen, warum die Sammler und Jäger glücklicher waren, als die Menschen in der Sesshaftwerdung. Zum einen, weil mit der Sesshaftwerdung das Maß an Hierarchisierung der Gesellschaft stark zunimmt, während Sammler und Jäger in kleinen Gruppen stärker egalitär organisiert sind, aber auch weil die Essensdiät abwechslungsreicher war. Mit der Sesshaftwerdung fangen wir an den Ackerbau und Ackerbau ist auch immer monolandwirtschaftlich. Da müssen halt alle immer zu Weizen essen, Weizen essen, Weizen essen, während der Sammler und Jäger eine sehr abwechslungsreiche Diät zu sich nimmt, nämlich je nachdem, wo er sich gerade rumtreibt, was da gerade saisonal blüht und wächst. Ähnlich wie im Brutallokal-Trend der Paleo-Diät.",
+      "begin_time": "57:18.967",
+      "begin_seconds": 207247.0,
+      "end_time": "58:11.127",
+      "end_seconds": 209587.0,
+      "duration_seconds": 2340.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was ich glaube ich nur ergänzen würde unbedingt ist, also du kannst das viel besser erzählen, das geht ja zurück bis Rousseau, wo man sozusagen den edlen Wilden hat und das hast du mir nochmal erklärt, der Anfang des Ackerbaus ist der Moment, wo einer sagt, das ist mein und das ist dein, ich stecke mein Feld ab und dann, das ist der Anfang vom Ende, dann geht's schon wieder in den Bach runter. So, nur was man nicht, glaube ich, was wichtig ist, um das zu verstehen, deswegen fällt mir auch Wanker und Graeber jetzt so ein, diese Jäger und Sammler dieser Steinstadt sind eben keine edlen Wilden. Die haben eine ganz besondere Hochkultur, die sehr elaboriert ist sozusagen. Und vielleicht ist das Krachtsfluchtpunkt, habe ich dann kurz gedacht, als Schlüssel. Also moderne Kritik kann sozusagen bis zu diesem Schritt zurückgehen, zur hoch elaborierten Jäger- und Sammlerkultur. Das ist also, und hinter denen oder nach denen beginnt die moderne und da ist man dann sozusagen falsch abgebogen. Und unser Versuch sozusagen im Noma, ja, den windgefaulten Gabeljau zu essen, das ist sozusagen nur die Sehnsucht zurück an diesen Wendepunkt zu kommen.",
+      "begin_time": "58:11.607",
+      "begin_seconds": 210067.0,
+      "end_time": "59:11.307",
+      "end_seconds": 213367.0,
+      "duration_seconds": 3300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Sehr interessant. Halten wir als entscheidendsten Punkt fest, man kann nicht über Christian Kracht reden, ohne über dieses Motiv einer moderne Verachtung zu sprechen. Machen wir hier kurz nochmal ein kleines Intermezzo auf. Kracht begleitet durch sein Schaffen auch immer dieser Verdacht, irgendwie Recht zu sein. Wie konkret auch immer man es dann ausformuliert. Und die Ebene, die diesen Verdacht nähert, ist, und ich glaube das kann man philologisch mit vollem Fug und Recht sagen, dass er immer tatsächlich mit dieser modernen, mit dieser moderne Überdruß arbeitet in vielen unterschiedlichen Formen, aber als Motiv taucht es immer auf. Auch in seinem, wie ich finde, großen Roman Die Toten geht es genau um diese Frage. Da ist es gewissermaßen festgemacht an der Kulturindustrie. Gibt es etwas, was wir der Moderne, die durch Hollywood die Welt globalisiert und vereinheitlicht hat in ihrer Bildsprache entgegensetzen kann? Ist das möglicherweise der alte Stumpffilm? Ist das möglicherweise eine zelluloide Achse zwischen Berlin und Japan, die versucht, Filme herzustellen, die dem gleichmacherischen Kapitalvermarktenden Machtpol Hollywoods etwas entgegenzusetzen vermarkten? Auf ganz vielen Ebenen lässt sich diese Frage durchspielen und man kommt aber immer zurück zu diesem Moment, was man als eine Regressionssehnsucht auch beschreiben kann. Der moderne Verachtung, jetzt sagst du, es ist nicht die schiere Regression quasi bis zurück in die Embryonalität der reinen Natur.",
+      "begin_time": "59:11.307",
+      "begin_seconds": 213367.0,
+      "end_time": "1:00:56.447",
+      "end_seconds": 3656.447,
+      "duration_seconds": -209710.553
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Weil man kann sich ja, weil du Paleo diät. Paleo-Diet kann man sich auch vorstellen, ich lass Mammut jagen und dann beißt man einfach in so ein Fleisch rein. Und genau diese Art von Paleo-Vorstellung ist es ja nicht. Ja, so.",
+      "begin_time": "1:00:57.827",
+      "begin_seconds": 3657.827,
+      "end_time": "1:01:09.967",
+      "end_seconds": 3669.967,
+      "duration_seconds": 12.139999999999873
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nein, genau. Aber du hast die Geschichte jetzt so erzählt, als wäre die unendliche Sinnsuche doch zu einem Ende gekommen, zu einem Schlussstein gekommen. Und dem würde ich, dem würde ich schon auf der Erzählebene widersprechen, weil ich verlasse mir das.",
+      "begin_time": "1:01:09.967",
+      "begin_seconds": 3669.967,
+      "end_time": "1:01:23.687",
+      "end_seconds": 3683.687,
+      "duration_seconds": 13.7199999999998
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, okay, das nimmt noch mal eine weitere Wendung danach. Absolut.",
+      "begin_time": "1:01:23.687",
+      "begin_seconds": 3683.687,
+      "end_time": "1:01:26.987",
+      "end_seconds": 3686.987,
+      "duration_seconds": 3.300000000000182
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und diese, dass es eine weitere Wende ist, ist so entscheidend, weil das ist nun mal die Kondition, oh Mann, wir kommen nie zu dem, weder zurück noch voraus, zu jenem Punkt, wo wir unser Gewissen national beruhigen können, sondern wir werden immer auf der Suche sein, wir werden immer nach einer neuen und nach einer anderen Welt suchen. Keine, keine je realisierte Gesellschaftsform ist eine, wo der Mensch oder die Menschheit mit sich so identisch ist, dass sie nun wirklich zur Ruhe kommen könnte. Und diese ewige, die unendliche Suche nach einem Letztsinn, der nie einzulösen ist, die wird in verschiedenen Romanen von Kracht eben durch unterschiedliche Welten ersetzt. Und wenn das andere zum Spätkapitalismus in 1979 das chinesisch-kommunistische Straflager war, dann bedient sich Kracht jetzt im neuen Roman eher der Mittel von Fantasy und Science-Fiction, um zu sagen, es ist wiederum eine ganz andere Welt, nämlich eine in irgendeinem Sinne außerterrestrische, die uns auf den Weg einer ewigen Wanderung schickt. In 1979 läuft sich doch der Protagonist seine berühmten Designerschuhe auch auf bei der Umkreisung eines großen Berges. Und diese Pilgerschaft, das ist ein uraltes Motiv, denken wir an dann das göttliche Komödie zurück, das Leben als Pilgerschaft. Das greift Kracht auch wieder in Ehr auf. Coen und Paul ziehen weiter, auch hier am Ende wieder einem neuen großen Berg entgegen. Es spielt da ein Gemälder des mittelmässigen Malers aus dem 19. Jahrhundert James Arka eine Rolle. James Arka hat, ich glaube, weiß nicht, nennt man die Prära for the Eliten, also diese Malschule des späten 19. Jahrhunderts, die nochmal so eine mythosselige, trotz der Industrialisierung und der Moderne, eine mythosselige Vergegenwärtigung alter Motive betrieben hat. Und da gibt es ein Gemälde, das kann man auch googeln, von dem Zauberer Merlin und dem Ritter von der Tafelrunde Lancelot. Ein sehr mäßiges Bild, wie auch Paul feststellt oder auch Paul beschreibt. Der bekommt das geschenkt von einem Herzog Cumberland, dessen Jagdtüte glaube ich er im genau passenden, war es jetzt rot, ich weiß gar nicht mehr welche Farbe er ausgemalt hat. Und der Herzog ist so begeistert, er sagt dann ein massiver Pfundskerl, herrlich anachronistischer Alter, tue mich auf, so ein massiver Pfundskerl und als Dank schickt er ihm dieses Gemälde von James Arka. Und genau diese Situation, die James Arka malt, nämlich das Lancelot mit seiner Lanze auf einem Pferd sitzt in etwas zusammengesagter müder Haltung und ihm vorneweg in einer Kutte schreitet Merlin der Zauberer, das ist das eigentliche Schlussbild der letzten Kapitel von er, wo die beiden nämlich Cohen als Lancelot mit faulender Wunde, auch ihn hat der Pfeil einer Armbrust getroffen und vorneweg Paul schreitet. Wohin? In wieder eine neue Welt, zu wieder einem Berg und Berge sind ja immer das Versprechen oder die Schiffre einer tiefen Weisheit, die man gewissermaßen, der man nur teilhaftig wird, wenn man auch die körperlichen Strapazen bis hin zur Selbstzerstörung auf sich zu nehmen bereit ist.",
+      "begin_time": "1:01:26.987",
+      "begin_seconds": 3686.987,
+      "end_time": "1:05:04.827",
+      "end_seconds": 3904.827,
+      "duration_seconds": 217.84000000000015
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Trotz meines komischen Erklärungsversuches, das jetzt alles aufzuschlüsseln, muss man glaube ich festhalten, es bleibt natürlich alles sehr rätselhaft. Es bleibt auch alles ironisch auf eine Weise, weil es doch total interessant.",
+      "begin_time": "1:05:04.827",
+      "begin_seconds": 3904.827,
+      "end_time": "1:05:15.707",
+      "end_seconds": 3915.707,
+      "duration_seconds": 10.879999999999654
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist ein sehr komischer Roman.",
+      "begin_time": "1:05:15.707",
+      "begin_seconds": 3915.707,
+      "end_time": "1:05:17.527",
+      "end_seconds": 3917.527,
+      "duration_seconds": 1.8200000000001637
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das ist ein komischer Roman. Das Schlussbild, in dem sich der Roman auflöst, also die Figuren wirken dann genau wie Merlin und Lancelot auf dem Bild, ist aber das Bild eines Gemäldes, das am Anfang explizit als besonders schlecht oder mittelmäßig geschrieben wurde. Also das ist natürlich so ein typischer Fast-Kracht-Gag, finde ich. Genau das mittelmäßige und schlechte dann so ins Zentrum zu rücken.",
+      "begin_time": "1:05:17.527",
+      "begin_seconds": 3917.527,
+      "end_time": "1:05:42.047",
+      "end_seconds": 3942.047,
+      "duration_seconds": 24.519999999999982
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, ich hab mich erinnert, aus irgendeinem Grund, und ich kann es nicht festmachen, aber ich habe bei der Lektüre öfter einen Schriftsteller, der tatsächlich einer meiner absoluten Lieblingsschriftsteller ist, der Argentinier Jorge Luis Borges denken müssen. Von dem gibt es eine Erzählung über auch eine andere Welt, eine Otherworld, die heißt Tlön. Und von den Bewohnern von Tlön heißt das Design per se von Natur aus Idealisten. Das heißt, zuerst ist für sie die geistige Idee da und alles andere Materielle ist dann überhaupt erst nachgeordnet. Und für die gehört es zu den Qualitätsmerkmalen eines Romans, das ist ein oder eines Buches. Ein Buch, das nicht seine eigene Widerlegung enthalte, ist für die Bewohner von Tlön unvollständig. Und ganz viele der Eigenschaften von Tlön habe ich auf vage Art in Krachts eher wiedererkannt, aber nicht so, dass ich sie jetzt philologisch wirklich dingfest machen könnte. Aber so funktioniert dieser Roman auch, dass er ist ein intertextuelles Feuerwerk, das kein Leser ganz kontrollieren kann, wo jeder Leser aber immerzu Assoziation zu anderen Film- oder Literaturwelten hat. Und die Frage ist, wie geht man mit diesem symbiotischen Überschuss gewissermaßen um?",
+      "begin_time": "1:05:42.047",
+      "begin_seconds": 3942.047,
+      "end_time": "1:07:01.427",
+      "end_seconds": 4021.427,
+      "duration_seconds": 79.38000000000011
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich finde für eine Schlussbemerkung von mir ist boches.",
+      "begin_time": "1:07:01.427",
+      "begin_seconds": 4021.427,
+      "end_time": "1:07:05.487",
+      "end_seconds": 4025.487,
+      "duration_seconds": 4.059999999999945
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Borches.",
+      "begin_time": "1:07:05.487",
+      "begin_seconds": 4025.487,
+      "end_time": "1:07:06.687",
+      "end_seconds": 4026.687,
+      "duration_seconds": 1.199999999999818
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Es ist ein gutes Stichwort, weil ich bin ja nicht doof. Also ich bin nicht so belesen wie du, aber ich weiß natürlich, dass die Vermischung von realistischem Erzählen und im weitesten Sinne fantastischem Erzählen und das unvermittelte oder irgendwie interessant vermittelte Aufeinandertreffen, das ist jetzt nun nichts Neues und das hat Kracht nicht erfunden und das gibt es schon lange. Und das, wofür Borches steht oder der magische Realismus, sind jetzt nur wenige Beispiele. Auch im, sagen wir mal, echten postmodernen Erzählen passiert das ja häufig. Nur, trotzdem gibt es bei diesem Krachtbuch eine ganz spezifische Mischung und die finde ich nicht so gewöhnlich oder so, weil das andere ist ja fast ein Standard der Literatur. Selbst in jedem Kelmann Buch, es ist gar keine Kritik an Kelmann, aber Kelmann sehe ich sozusagen als so ein nicht besonders, er will ja nicht besonders extravagant sein in dem, was er erzählt. Ja selbst dafür mischen sich ja dann die fantastischen und die realistischen Elemente dann in so einem Buch wie Chill oder so. Ja, aber bei Kracht gibt es schon etwas ganz Besonderes und das fasziniert mich. Nämlich einerseits gibt es sehr fein aufgelöste, genau beobachtete, ästhetische Lifestyle-Fragen und zwar auch die bestimmter Tonangeben der Milieus. Also das, was der Pop-Roman in seinem besten Fall auch mal geleistet hat. Ja, bei Faserland. So, die werden hier durchexerziert, ja, so und das trifft auf die Nutzung, ich nenne mal, sag mal, die Nutzung von Elementen aus der Fantastik oder Spiel mit Fantastik oder meinetwegen sogar wirklich auf fantastische Literatur, die dann in den anderen Kapiteln durchgespielt wird. Ja und das fasziniert mich so, weil also da fallen mir jetzt, wenn ich jetzt nur an deutschsprachige Literatur denke, nicht viele Beispiele ein von Leuten, die das machen oder können. Also zuerst hab ich gedacht, ist das bei Ulbeck so? Ist kein deutscher, aber französischer Autor. Dann hab ich gedacht, ja klar, der hat immer mal wieder sozusagen Science-Fiction-Elemente in seinen Büchern und der beobachtet auch Gegenwart und da kommt dann sozusagen eine G-Klasse vor, genau als richtiges Auto. Aber er ist ja nicht so ein genauer Beobachter von spezifischen Lifestyle-Essenstrends, oder? Also das ist ja...",
+      "begin_time": "1:07:07.407",
+      "begin_seconds": 4027.407,
+      "end_time": "1:09:13.007",
+      "end_seconds": 4153.007,
+      "duration_seconds": 125.59999999999945
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Die Details spielen nicht so eine Rolle.",
+      "begin_time": "1:09:13.007",
+      "begin_seconds": 4153.007,
+      "end_time": "1:09:14.887",
+      "end_seconds": 4154.887,
+      "duration_seconds": 1.8800000000001091
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das kann er glaube ich auch nicht so genau wie ein Kracht, ja. Aber jetzt bin ich zurück in Deutschland. Leif Rand, vielleicht der andere Schriftsteller Säulenheilige dieses Podcasts, weil mir mit seinem Buch Allegro Pastel dieser Podcast begann, der ist ein anderes Beispiel, weil der hat mal einen Roman geschrieben, der heißt Planet Maginon und da macht er genau das, nämlich die, das würde ja, sagt er ja auch in Allegro Pastel die Frau dann als Schriftstellerin, also er interessiert sich für sehr spezifische zeitgenössische Zeitgeist-Lifestyle-Fragen, aber lässt sie treffen auf eine Science-Fiction-Rahmenhandlung, in der sie verhandelt werden. Und dann hab ich noch weiter überlegt und ein Beispiel ist mir noch eingefallen, der Autor Joshua Groß, den du glaube ich auch sehr schätzt, der tut das auch. Ich hab damals seinen Roman Flexen in Miami gelesen, der interessiert sich aber für andere Lifestyle-Welten als Krach. Der ist ja mehr so im Rap zu Hause. Damals war das glaube ich noch dominanter, das ganze spezifischen Formen von Rap und Street-Style. Und da kennt er aber auch die richtigen Marken und richtigen Rapper. Und die lässt er dann treffen auf Fantasy. Ich weiß von ihm auch, dass er sozusagen ein großer Fantasy-Leser ist von den Klassikern der Fantasy-Literatur und Science-Fiction-Literatur. Und jetzt bei Krach dasselbe.",
+      "begin_time": "1:09:15.587",
+      "begin_seconds": 4155.587,
+      "end_time": "1:10:26.727",
+      "end_seconds": 4226.727,
+      "duration_seconds": 71.13999999999942
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Was passiert denn, wenn man wie in so einem Zeichenbeschleuniger Lifestyle und Fantasy aufeinander zukrachen lässt?",
+      "begin_time": "1:10:26.727",
+      "begin_seconds": 4226.727,
+      "end_time": "1:10:33.587",
+      "end_seconds": 4233.587,
+      "duration_seconds": 6.860000000000582
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das wäre meine Frage. Ich will nur erst mal sagen, dass es mich total fasziniert, dass es überhaupt jemand tut. Weil ich hab diese beiden Seiten ja auch. Merkt man ja auch heute im Podcast. Einerseits sprechen wir im Gegenwartsteck über so Fragen des gegenwärtigen Lifestyles. Andererseits erwähne ich ja immer mal wieder, dass mich fantastische Welten sehr interessieren. Nur in mir sind das so ganz getrennte Sphären, wie so zwei Gehirnhälften. Oder ist es fast ein Widerspruch? Also ich würde die nie so zusammenbekommen. Aber vielleicht ist das auch der Witz. Also vielleicht ist die Frage gar nicht, was passiert dann Interessantes, sondern dass es der absolute Gegensatz ist, fast in so einem Sinne der alten Two-Cultures-These. Das eine ist eher Humanities, das andere ist eher Mint. Passt nicht ganz vielleicht als Beschreibung. Und das so aufeinander zu clashing ist halt ein gutes Experiment, weil du Widersprüche ineinander crashen lässt. Aber das fasziniert mich an diesem Buch.",
+      "begin_time": "1:10:33.587",
+      "begin_seconds": 4233.587,
+      "end_time": "1:11:21.607",
+      "end_seconds": 4281.607,
+      "duration_seconds": 48.01999999999953
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Oder ist die Ironie, dass es nicht nur Widersprüche sind, sondern sogar dann überraschende Identitäten. Denn was wir in der ganz anderen Welt, durch die wir quasi wie durch so eine Science-Fiction-Saugkammer, der Paul da durchgeschleudert wird und jetzt taucht er in der ganz anderen Welt auf, da wiederholt sich ja quasi dasselbe Speiseplan wie im Noma. Das ist ja ein bisschen mit die Poente. Es ist gar nicht das ganz andere. Auch dort gibt es diese Vorstellung, um noch einmal das Wort der Zweitdimensionalität und der Flachheit auszusprechen, weil das für die Sinnstrukturierung des Romans doch schon so entscheidend ist. Das ist ja eigentlich die Erlösungsschiffre. Die Zweitdimensionalität als Gegensatz zu dem wuchernden Grün ist ja eine asketische Option. Man entscheidet sich, man führt ein asketisches Leben, wenn man auf die dritte Dimension verzichtet. Und dass aus diesem Verzicht, aus der Entsagung, aus der Askese, die Einsicht in eine tiefere Weisheit erfolgt. Dieses so klassische Sinnsuche-Motiv ist in der Welt des Nomas exakt dieselbe wie in dieser ganz anderen Welt, in der Ildre mit Paul in die Steinstadt pilgert.",
+      "begin_time": "1:11:21.607",
+      "begin_seconds": 4281.607,
+      "end_time": "1:12:43.567",
+      "end_seconds": 4363.567,
+      "duration_seconds": 81.96000000000004
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Okay, Idjoma, machen wir hier einen Schnitt?",
+      "begin_time": "1:12:43.567",
+      "begin_seconds": 4363.567,
+      "end_time": "1:12:46.287",
+      "end_seconds": 4366.287,
+      "duration_seconds": 2.7200000000002547
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das war Textarbeit, oder? Wir haben es uns nicht einfach gemacht.",
+      "begin_time": "1:12:46.287",
+      "begin_seconds": 4366.287,
+      "end_time": "1:12:49.467",
+      "end_seconds": 4369.467,
+      "duration_seconds": 3.1799999999993815
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Wir haben es uns nicht einfach gemacht. Wir können das Buch, falls das nicht klar geworden ist, aber unbedingt empfehlen. Also ich wollte jetzt keine Kritik daran äußern.",
+      "begin_time": "1:12:49.467",
+      "begin_seconds": 4369.467,
+      "end_time": "1:12:56.467",
+      "end_seconds": 4376.467,
+      "duration_seconds": 7.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich fand es hinreißend. Es ist ein Genuss es zu lesen. Man muss ja Bücher nicht entschlüsseln können, um deren Lektüre trotzdem im vollsten Maße genießen zu können.",
+      "begin_time": "1:12:56.467",
+      "begin_seconds": 4376.467,
+      "end_time": "1:13:06.887",
+      "end_seconds": 4386.887,
+      "duration_seconds": 10.420000000000073
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und ich mache noch eine Schlussfrage an dich, die wie immer ein ganz anderes Thema ist. Und wie immer beschäftigt sich meine Schlussfrage mit Elon Musk auf die ein oder andere Art. Irgendwie treibt es mich dann doch um. Weiterhin, einerseits kann ich sein Gesicht nicht mehr sehen, ich kann seine Tweets nicht mehr lesen, ich will nichts mehr von ihm hören, aber er beschäftigt mich dann doch gleichzeitig. Ich frage mich, wenn dann vielleicht doch wir erlöst werden und irgendwie aus dem einen oder anderen Grund wird er von der Macht abgelöst oder es ist so, dass einfach die Macht, die er jetzt hat, dafür sorgt, dass wirklich keine Teslas mehr verkauft werden und er wird ein bisschen ärmer oder so. Ja, da hab ich mich gefragt, was passiert, wenn er in der Liste der reichsten Menschen der Welt nicht mehr Platz eins ist? Jetzt kann man immer sagen, er ist der reichste Mensch. Ja, wer wird dann der reichste Mensch? Also gibt es dann einen Wiederaufsteiger? Das passiert ja oft, da wechselt sich ja dann immer so ab, dann kommt dann der Einwanderer. Oder gibt es vielleicht jemand von weiter hinten, den du jetzt auf dem Schirm hast, der sagt, wenn dann in ein paar Jahren Elon Musk nicht mehr da steht, da setze ich dann auf diesen chinesischen oder setze ich auf den Softbank-Gründer oder setze ich auf ganz jemand anderen?",
+      "begin_time": "1:13:06.887",
+      "begin_seconds": 4386.887,
+      "end_time": "1:14:11.747",
+      "end_seconds": 4451.747,
+      "duration_seconds": 64.86000000000058
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Sehr, sehr spannende Frage. Wird es nochmal Jeff Bezos sein, der es sehr lange war? Oder kommt da jemand aus der KI-Ecke? Das wäre natürlich meine nicht sehr originelle, aber Prognose. Jetzt fällt mir der Name des NVIDIA-Chefs nicht ein, aber vielleicht. NVIDIA hat ja in den letzten zwei Jahren eine sagenhafte Rally an der Börse hingelegt. Ich weiß nicht, was für ein Aktienpaket der CEO von NVIDIA verfügt. Meine Prognose lautet, der nächste reichste Mann der Welt wird ein Geschöpf der KI-Disruption sein.",
+      "begin_time": "1:14:11.747",
+      "begin_seconds": 4451.747,
+      "end_time": "1:14:49.207",
+      "end_seconds": 4489.207,
+      "duration_seconds": 37.460000000000036
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Gut, Ichoma, ich bedanke mich bei dir für das schöne Gespräch. Ich bedanke mich bei allen Hörern und Hörern. Ich bedanke mich besonders bei Paula, die uns heute aufgezeichnet hat. Und Paula und alle Hörerinnen und Hörer dürfen uns gerne E-Mails schreiben an gegenwarterzeit.de. Ich meine, Paula kann uns auch gleich nach der Aufnahme sagen, aber alle anderen können an gegenwarterzeit.de schreiben mit Lob, besonders gern natürlich Lob, aber vielleicht noch mit Kritik und vor allem mit Vorschlägen für den Gegenwart-Check. Bis zum nächsten Mal.",
+      "begin_time": "1:14:50.087",
+      "begin_seconds": 4490.087,
+      "end_time": "1:15:18.307",
+      "end_seconds": 4518.307,
+      "duration_seconds": 28.219999999999345
+    },
+    {
+      "speaker": "SPEAKER_4",
+      "text": "In 1001 Nacht erzähle ich euch in jeder Folge eine andere Geschichte. Damit der König mich am Leben lässt, muss jede Geschichte spannender sein als die davor. Wir treffen auf Ginni's, auf Kaufmänner, Fischer, aber vor allem geht es um die kämpferischen Frauen. Es geht um Liebe, Abenteuer, Verführung, Angst. Es geht um 1001 Nacht. Der Hörspiel-Podcast, am besten in der kostenlosen Deutschlandfunk App.",
+      "begin_time": "1:15:35.991",
+      "begin_seconds": 4535.991,
+      "end_time": "1:16:01.831",
+      "end_seconds": 4561.831,
+      "duration_seconds": 25.840000000000146
+    }
+  ]
+}
