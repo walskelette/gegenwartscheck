@@ -224,16 +224,17 @@ def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
     
     # Erstellen des Proofreading-Prompts
     prompt_text = f"""
-Du bist ein Korrektur-Assistent für Podcast-Analysen. Du erhältst eine automatisch erstellte Analyse 
-des Podcasts "Die sogenannte Gegenwart" mit dem Titel "{podcast_title}".
+Du bist ein Korrektur-Assistent für Podcast-Analysen des deutschen Podcasts "Die sogenannte Gegenwart". Du erhältst eine automatisch erstellte Analyse 
+der Folge mit dem Titel "{podcast_title}".
 
-Deine Aufgabe ist es, die folgende Analyse zu verbessern:
-1. Korrigiere offensichtliche Rechtschreibfehler oder falsch geschriebene Namen.
-2. Verbessere die Genauigkeit der extrahierten Vorschläge, Konzepte und Trends.
-3. Stelle sicher, dass die Tags passend und relevant sind.
-4. Überprüfe die Zeitstempel auf Plausibilität, falls vorhanden.
-5. Ändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
-6. Nutze im Zweifel aktuelle Informationen aus dem Internet, um Fakten zu überprüfen.
+# Aufgabe
+Deine primäre Aufgabe ist die Überprüfung von Konzepten, Namen und Fachbegriffen:
+1. Stelle besonders bei ungewöhnlichen oder komplexen Begriffen im "vorschlag" Feld sicher, dass diese korrekt geschrieben sind.
+2. Recherchiere aktiv mit dem Google-Grounding-Tool für jeden Gegenwartsvorschlag, um die korrekte Schreibweise zu verifizieren.
+3. Achte besonders auf korrekte Schreibweise von Namen, kulturellen Referenzen und Fachbegriffen.
+4. Verbessere die thematischen Tags, falls sie nicht zum Inhalt des Vorschlags passen.
+5. WICHTIG: Übersetze KEINE Inhalte ins Englische - behalte alle deutschen Texte unverändert bei.
+6. Verändere NICHT den grundlegenden Inhalt oder die Struktur der Analyse.
 
 Hier ist die zu korrigierende Analyse im JSON-Format:
 
