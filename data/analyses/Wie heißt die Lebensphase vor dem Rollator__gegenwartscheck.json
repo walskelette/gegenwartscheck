@@ -3,14 +3,14 @@
   "podcast_id": "1000690739921",
   "episode_id": null,
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T00:30:52.602305",
+  "extracted_date": "2025-03-18T15:09:46.268867",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Retro-Elektroautos",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Eine neue Welle von Elektrofahrzeugen setzt auf das Design traditioneller, alter Modelle, um die Elektromobilität mit Nostalgie und Sehnsüchten zu verbinden.",
+      "begruendung": "Eine neue Welle von Elektrofahrzeugen setzt auf das Design und die Nostalgie traditioneller, alter Modelle, um Kunden anzusprechen und sich von der Konkurrenz abzuheben.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
@@ -20,58 +20,66 @@
         "Nostalgie",
         "Retro",
         "Marketing"
-      ]
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
-      "vorschlag": "Nicht erhöhte Passfoto-Preise als Marketing-Argument",
-      "vorschlagender": "Mati",
+      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Mati",
-      "begruendung": "In Zeiten der Inflation wird die Stabilität von Preisen, selbst für alltägliche Dinge wie Passfotos, zu einem besonderen Verkaufsargument und spiegelt das allgemeine Gefühl der Teuerung wider.",
-      "metaebene": "Die Gegenwart wird gespiegelt von Marketing und Werbung.",
+      "begruendung": "In Zeiten der Inflation wird die Tatsache, dass Preise für bestimmte Produkte oder Dienstleistungen nicht erhöht wurden, als besonderes Verkaufsargument hervorgehoben.",
+      "metaebene": null,
       "punkt_erhalten": true,
-      "punkt_von": "Nina",
+      "punkt_von": "Lars",
       "tags": [
-        "Inflation",
         "Marketing",
+        "Inflation",
         "Preise",
         "Werbung",
-        "Zeitgeist"
-      ]
+        "Konsum"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Cold Plunge Coach",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Die Existenz von \"Cold Plunge Coaches\" verdeutlicht die Ausweitung des Coaching-Trends auf immer spezifischere Lebensbereiche, selbst auf das Eisbaden.",
-      "metaebene": "Coaching als große Gegenwartsbewegung und Gegenwartberuf.",
+      "begruendung": "Die Professionalisierung und Kommerzialisierung von Gesundheitstrends führt zur Entstehung neuer Berufe wie dem 'Cold Plunge Coach', der Menschen beim Eisbaden anleitet.",
+      "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Coaching",
-        "Eisbaden",
-        "Wellness",
         "Trends",
-        "Überfluss"
-      ]
+        "Eisbaden",
+        "Gesundheit",
+        "Lifestyle"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
-      "vorschlag": "Funktionale Kinderküchen & Haushaltspartizipation",
-      "vorschlagender": "Denise",
+      "vorschlag": "Funktionale Kinderküche/Haushaltspartizipation von Kindern",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Denise",
-      "begruendung": "Funktionale Kinderküchen und Haushaltsprodukte für Kinder spiegeln den Trend zu autonomer Erziehung und der frühen Einbeziehung von Kindern in den Haushalt wider. Botschaft: 'Die können das'.",
+      "begruendung": "Kinderspielzeug, insbesondere Kinderküchen, werden funktional und ermöglichen es Kindern, echte Haushaltsaktivitäten auszuführen. Dies spiegelt den Trend wider, Kinder frühzeitig in den Haushalt einzubeziehen und ihnen Autonomie zu ermöglichen.",
       "metaebene": null,
       "punkt_erhalten": false,
-      "punkt_von": "Lars",
+      "punkt_von": null,
       "tags": [
         "Erziehung",
         "Kinder",
         "Haushalt",
         "Autonomie",
-        "Elternschaft"
-      ]
+        "Trends"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     }
   ]
 }

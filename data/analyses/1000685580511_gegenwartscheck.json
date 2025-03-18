@@ -3,75 +3,87 @@
   "podcast_id": "1000685580511",
   "episode_id": "1000685580511",
   "episode_date": "2025-01-27",
-  "extracted_date": "2025-03-18T00:29:11.863499",
+  "extracted_date": "2025-03-18T15:02:38.334471",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Lieferboten-Handschuhe",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Berit",
-      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ... hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe ...",
-      "metaebene": "Elternbubble, Kinderwägen",
+      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ...zumindest eine dieser Firmen, ich glaub, die Türkisene, hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe...wo man dann die Hände reintun kann, damit die nicht kalt werden, den Booten.",
+      "metaebene": "Verwachen diese Fahrer so noch mehr mit dem Rad wie so Cyborgs.",
       "punkt_erhalten": true,
-      "punkt_von": "Ijoma",
+      "punkt_von": "SPEAKER_2",
       "tags": [
         "Lieferdienste",
         "Fahrradfahrer",
         "Winter",
         "Arbeitsbedingungen",
-        "Urban"
-      ]
+        "Sicherheit"
+      ],
+      "start_zeit": "3:15.555",
+      "ende_zeit": "7:14.735"
     },
     {
-      "vorschlag": "Gesprächsperson in Voicemail-Ansagen",
-      "vorschlagender": "Hörer",
-      "ist_hoerer": true,
+      "vorschlag": "Gesprächsperson in Voice-Mail-Ansagen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "neue Ansprache meiner Voice-Mail, die, wenn man dort anruft, jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich gewissermaßen ... sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
-      "metaebene": "Wipeshift, DEI-Programme in Unternehmen werden abgeschafft, Antizyklisch",
+      "begruendung": "neue Ansprache meiner Voice-Mail, die, wenn man dort anruft, jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich gewissermaßen...sich damit ganz auf der Höhe der Gender-Neutralität bewegt.",
+      "metaebene": "Während nämlich weltweit...auch die großen Konzerne, ihre ganzen Vogue-Programme...abschaffen...Scheint hier mein Telekom-Provider die Zeichen der Zeit noch nicht gehört zu haben.",
       "punkt_erhalten": true,
-      "punkt_von": "Lars",
+      "punkt_von": "SPEAKER_3",
       "tags": [
-        "Gendern",
+        "Gendersprache",
         "Sprache",
-        "Neutralität",
+        "Genderneutralität",
         "Technologie",
-        "Zeitgeist"
-      ]
+        "Zeitgeist",
+        "Ironie"
+      ],
+      "start_zeit": "7:20.035",
+      "ende_zeit": "10:41.675"
     },
     {
-      "vorschlag": " inflationäre Verwendung des Wortes 'generieren'",
+      "vorschlag": "Verwendung des Wortes 'generieren'",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Johannes",
-      "begruendung": "dass das Wort generieren jetzt überall ist. Geht schon ein paar Jahre, nämlich dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. ... wir sehr viel von generativer KI reden",
-      "metaebene": "BWL-Sprech, generative KI, Nullsummenspiel vs. kreative Schöpfung des Kapitalismus",
+      "begruendung": "Johannes schreibt uns, dass das Wort generieren jetzt überall ist. Geht schon ein paar Jahre...nämlich dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. Also das ist jetzt eher unsere Branche, wir müssen sozusagen Einnahmen generieren.",
+      "metaebene": "Wir klauen sozusagen nicht nur der Konkurrenz, die Kunden...sondern wir generieren, also schöpfen, die kreative Schöpfung des Kapitalismus, schöpfen sozusagen aus dem Nichts neue Zahlen...",
       "punkt_erhalten": true,
-      "punkt_von": "Ijoma",
+      "punkt_von": "SPEAKER_2",
       "tags": [
         "Sprache",
-        "Wirtschaft",
-        "KI",
-        "BWL",
-        "Neologismus"
-      ]
+        "Wirtschaftssprache",
+        "BWL-Sprech",
+        "Generative KI",
+        "Kapitalismus",
+        "Wachstum",
+        "Nullsummenspiel"
+      ],
+      "start_zeit": "10:41.675",
+      "ende_zeit": "13:34.855"
     },
     {
-      "vorschlag": "Kennenlernphase",
+      "vorschlag": "Kennenlernphase im Dating",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Olaf aus Köln",
-      "begruendung": "Datingverhalten habe sich nämlich geändert ... in einer Form, die quasi, dass es jetzt normierte und strukturierte daher kommt, in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen gewissermaßen dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
-      "metaebene": "Situation Ship, Dating-Memes",
+      "begruendung": "Er schlägt vor dem Begriff der Kennenlernphase. Das Datingverhalten habe sich nämlich geändert...in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen gewissermaßen dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
+      "metaebene": "In dieser Phase ist man zwar schon aufeinander fokussiert, aber gewissermaßen nicht mit jenem Commitment, das in irgendeiner Weise auf Dauer gestellt ist.",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Dating",
         "Beziehungen",
         "Sprache",
-        "Soziologie",
-        "Jugendkultur"
-      ]
+        "Soziale Trends",
+        "Jugendkultur",
+        "Situation Ship"
+      ],
+      "start_zeit": "14:25.035",
+      "ende_zeit": "16:32.575"
     }
   ]
 }

@@ -3,75 +3,83 @@
   "podcast_id": "1000683731159",
   "episode_id": null,
   "episode_date": "2025-03-18",
-  "extracted_date": "2025-03-18T00:29:22.163426",
+  "extracted_date": "2025-03-18T15:03:21.304600",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Bone Broth",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Trend aus Amerika, Geschäftsidee für After-Club-Szene, gesundheitliche Vorteile (Paleo, Kollagen, Anti-Aging).",
-      "metaebene": null,
+      "begruendung": "Ein Bekannter aus der Startup-Szene brachte diesen Trend aus Miami und New York mit. Knochenbrühe sei ein aufkommendes Phänomen, das im Kontext von Paleo-Diät, Kollagen, Anti-Aging und sogar gegen ADHS und Depression relevant sei. Ijoma plant, daraus ein Geschäftsmodell zu entwickeln, indem er hochwertige Knochenbrühe vor Berliner Clubs zu hohen Preisen verkauft.",
+      "metaebene": "Geschäftsidee, transatlantischer Trend, Paleo-Diät, Anti-Aging",
       "punkt_erhalten": false,
-      "punkt_von": null,
+      "punkt_von": "Nina",
       "tags": [
-        "Food Trends",
+        "Ernährung",
+        "Trends",
         "Gesundheit",
-        "Geschäftsidee",
-        "Paleo",
-        "USA"
-      ]
+        "Business",
+        "Urban"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Treadwife-Satire",
       "vorschlagender": "Nina",
       "ist_hoerer": true,
       "hoerer_name": "Isolde",
-      "begruendung": "Satire-Welle auf Treadwife-Inhalte, Algorithmus kann Satire nicht unterscheiden, Vermischung von Satire und Original-Inhalten.",
-      "metaebene": "zweite Ordnung, dritte Ordnung",
+      "begruendung": "Satirische Imitationen von \"Treadwives\" durch Comedians wie Böhmermann und Hazel Brugger sowie private Nutzer. Diese Satire-Welle vermischt sich mit dem ursprünglichen Treadwife-Content im Algorithmus, wodurch es schwer wird, Satire von Ernsthaftigkeit zu unterscheiden. Hörer-Hinweis von Isolde.",
+      "metaebene": "Rezeption von Treadwives, Ironie, Satire als zweite Ordnung, Algorithmus-Logik, Social Media",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Social Media",
         "Satire",
-        "Ironie",
-        "Treadwife",
-        "Algorithmen"
-      ]
+        "Feminismus",
+        "Online-Trends",
+        "Ironie"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Robert Habecks Weste",
       "vorschlagender": "Wolf",
       "ist_hoerer": true,
       "hoerer_name": "Wolf",
-      "begruendung": "Robert Habeck trägt Weste, sartoriales Detail, erinnert an Schäfer, politische Botschaft, Renaissance der Weste.",
-      "metaebene": null,
+      "begruendung": "Hörer Wolf beobachtet, dass Robert Habeck bei Wahlkampfauftritten eine Weste trägt, die keine klassische Anzugsweste ist und eher an einen Schäfer erinnert. Dies könnte ein bewusstes Stilmittel im neuen Wahlkampf sein, um Bodenständigkeit und Bürgernähe zu signalisieren.  Wolf fragt nach der Bedeutung dieses Kleidungsstücks.",
+      "metaebene": "Politische Kommunikation, Kleidung als Zeichen, Wahlkampfstrategie, Symbolik der Weste",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Politik",
         "Mode",
-        "Robert Habeck",
-        "Weste",
-        "Symbolik"
-      ]
+        "Symbolik",
+        "Wahlkampf",
+        "Kleidung"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     },
     {
       "vorschlag": "Mentale Nebenkosten",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Begriff aus Insta/Social Media, verbindet Mental Health- und Finanz-Bubble, versteckte Kosten für neurodivergente Menschen in sozialen Situationen.",
-      "metaebene": null,
+      "begruendung": "Ein Begriff aus dem Insta-Kosmos, geprägt von einer Frau mit ADHS. \"Mentale Nebenkosten\" beschreiben die versteckten Kosten, die neurodivergente Menschen in sozialen Situationen haben, z.B. auf Partys. Diese Kosten werden nicht in Geld, sondern in Dopamin und Erholungszeit \"bezahlt\". Der Begriff vermischt die Finanz- und Mental-Health-Bubble.",
+      "metaebene": "Begriffsbildung, Mental Health, Finanz-Bubble, Neurodivergenz, Sprachentwicklung",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
-        "Social Media",
-        "Mentale Gesundheit",
+        "Mental Health",
+        "Neurodivergenz",
         "Finanzen",
-        "Neurodiversität",
-        "Kosten"
-      ]
+        "Social Media",
+        "Begriffe"
+      ],
+      "start_zeit": null,
+      "ende_zeit": null
     }
   ]
 }
