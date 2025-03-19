@@ -36,8 +36,8 @@ jobs:
           # Dies sogenannte Gegenwart podcast ID
           podcast_id = '1522895163'
           
-          # Fetch episodes (limit to 6 to ensure we get 5 actual episodes since first result is the podcast itself)
-          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=6'
+          # Fetch episodes (limit to 21 to ensure we get 20 actual episodes since first result is the podcast itself)
+          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=21'
           response = requests.get(url)
           data = response.json()
           
@@ -57,8 +57,8 @@ jobs:
                       "release_date": release_date
                   })
           
-          # Limit to 5 episodes if we got more
-          episodes = episodes[:5]
+          # Limit to 20 episodes if we got more
+          episodes = episodes[:20]
           
           # Save to file
           with open('episode_links.json', 'w') as f:
