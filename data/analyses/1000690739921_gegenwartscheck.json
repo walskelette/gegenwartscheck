@@ -3,83 +3,83 @@
   "podcast_id": "1000690739921",
   "episode_id": "1000690739921",
   "episode_date": "2025-02-10",
-  "extracted_date": "2025-03-19T04:47:59.800452",
+  "extracted_date": "2025-03-19T05:14:21.977858",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "E-Autos im Retro-Design",
+      "vorschlag": "neue Welle von Elektrofahrzeugen sind extra traditionelle alte Modelle",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Eine neue Welle von Elektrofahrzeugen, mit denen europäische und amerikanische Firmen den Chinesen die Dominanz beim E-Auto abjagen wollen, sind oft keine neuen Modelle, sondern traditionelle alte Modelle wie Ford Capri oder Fiat 500.",
+      "begruendung": "dass eine neue Welle von Elektrofahrzeugen, also wenn jetzt die Firmen nochmal sagen, das ist unser neues E-Auto, mit dem wir jetzt doch nochmal, gerade wenn es europäische oder amerikanische Firmen sind, den Chinesen die Dominanz beim E-Auto abjagen wollen, dass diese neuen Modelle gar keine neuen Modelle sind, sondern dann oft extra traditionelle alte Modelle.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Automobil",
-        "Elektroauto",
-        "Retro",
+        "Automobilität",
+        "Elektrofahrzeuge",
         "Nostalgie",
-        "Design"
+        "Marketing",
+        "Retro"
       ],
-      "start_zeit": "00:03:38",
-      "ende_zeit": "00:05:13"
+      "start_zeit": "03:38.643",
+      "ende_zeit": "05:13.083"
     },
     {
-      "vorschlag": "Nicht erhöhte Preise für Passfotos seit 1.09.2022",
-      "vorschlagender": "Mati",
+      "vorschlag": "nicht erhöhte Preise für Passfotos seit 1.09.2022",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Mati",
-      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise für Produkte, wie hier Passfotos in einer Drogerie, nicht erhöht werden. Dies wird als Marketing-Strategie genutzt und spiegelt das Gefühl der Menschen wider, dass alles teurer wird.",
-      "metaebene": "Angeben mit etwas nicht Schlimmem in Zeiten der Inflation; Vergleich mit \"Established\"-Schildern bei neuen Bars.",
+      "begruendung": "in Zeiten der Inflation finde ich das besonders spannend. Alle haben das berechtigte Gefühl, dass alles teurer wird. Und wenn dann etwas nicht teurer wird, wird das sogar ausdrücklich hervorgehoben. Also es ist so ein bisschen so, ich find das schon, ich mein, also die Gegenwart wird ja gespiegelt von Marketing und Werbung. Und es ist irgendwie toll, wie sowas wie Inflation und dieses Gefühl, wir können uns alle nichts mehr leisten, weil es ist ja nicht Butter oder so, sondern halt so Passfotos, die man selten vielleicht braucht und dann irgendwie die halt macht für den Preis, den es da halt gibt. Aber dann auch noch mit diesem spezifischen, guck mal, so lange haben wir hier nichts erhöht. Und das ist ja so ein Angeben mit etwas, irgendwie hat es so was leicht Desperates oder so was, dass man denkt so hallo, also ihr könnt euch nicht angeben mit irgendwas, was nicht Schlimmes, mit etwas nicht Schlimmem könnt ihr doch jetzt nicht Werbung machen, aber doch in Zeiten der Inflation, in unserer Gegenwart kann man das dann eben schon.",
+      "metaebene": "das Desperate daran hat mich so ein bisschen erinnert an diese Kneipen oder auch manchmal so, wenn was vor kurzem gegründet wurde, so eine Bar und dann steht da auch manchmal so bei so alten, urigen Kneipen steht dann doch so Established 1910 oder so was oder so eine Biermarke. Und wenn dann da so steht Established 2021 und man denkt so, das ist halt so eine Geschichtslosigkeit und das soll ich jetzt geil finden so. So ein bisschen so ein Vibe hat das, aber irgendwie denkt man halt so, ja ist das ehrlich, finde ich gut.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Inflation",
         "Marketing",
         "Preise",
-        "Werbung",
-        "Drogerie"
+        "Drogeriemarkt",
+        "Gegenwartgefühl"
       ],
-      "start_zeit": "00:05:59",
-      "ende_zeit": "00:08:42"
+      "start_zeit": "06:02.023",
+      "ende_zeit": "08:42.403"
     },
     {
       "vorschlag": "Cold Plunge Coach",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Es gibt spezifische Helfer für das Eisbaden, die man engagieren kann und die \"Cold Plunge Coach\" heißen. Coaching als große Gegenwartsbewegung wird auf das Eisbaden übertragen.",
-      "metaebene": "Ökosystem um das Eisbaden; Vergleich zu Momfluencer Coaches.",
+      "begruendung": "Und zwar erzählte mir neulich jemand, dass es, wenn man Eis baden will, auch spezifische Helfer gibt, die man engagieren kann und die heißen dann wirklich Cold Plunge Coach und das musste ich dir einfach kurz erzählen, weil wenn jetzt sozusagen das Coaching als die große Gegenwartbewegung und der große Gegenwartberuf auch noch auf das, also Cold Plunge ist dasselbe wie Eis baden, oder? Ich nehme an.",
+      "metaebene": "wenn jetzt sozusagen das Coaching als die große Gegenwartbewegung und der große Gegenwartberuf auch noch auf das",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Eisbaden",
         "Coaching",
-        "Trend",
-        "Gesundheit",
-        "Lifestyle"
+        "Trends",
+        "Gegenwartberuf",
+        "Ökosystem"
       ],
-      "start_zeit": "00:10:25",
-      "ende_zeit": "00:12:17"
+      "start_zeit": "10:25.723",
+      "ende_zeit": "12:17.243"
     },
     {
-      "vorschlag": "Funktionale Kinderküche",
-      "vorschlagender": "Denise",
+      "vorschlag": "funktionale Kinderküche",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Denise",
-      "begruendung": "Funktionale Kinderküchen, in denen Kinder tatsächlich \"kochen\" können, sind ein Trend. Es geht um Haushaltspartizipation von Kindern und die Botschaft, dass Kinder mehr können, als Millennial-Parents vielleicht annehmen.",
-      "metaebene": "Haushaltspartizipation von Kindern als Top 1 Ding, was man Kindern Gutes tun kann (Harvard-Studie).",
+      "begruendung": "nämlich Denise aus Geisenheim im Rheingau. ... Die schreibt über das schöne Thema Kinderküche. ... Und zwar guck nicht so skeptisch, also Kinderküche, ja ja, genau. Ich bin dabei. Du bist ja krank, Entschuldigung. ... Genau und der Witz ist, dass es jetzt eine funktionale Kinderküche ist. Also ich sehe das auf Insta schon, offensichtlich wird dir das nicht reingespült. Ich sehe die ganze Zeit so Zwillinge, also die Mutter hat so einen Account und da sind so super kleine Zwillinge, also die können gerade so laufen, also stöpseln noch so rum, also haben noch dieses leicht roboterhafte, aber machen sich in ihrer funktionalen Kinderküche, also funktional bedeutet sie ist nicht fake.",
+      "metaebene": "Haushaltspartizipation von Kindern durch Produkte wie einem Swiffer-artigen Wischer.",
       "punkt_erhalten": false,
-      "punkt_von": null,
+      "punkt_von": "Lars",
       "tags": [
         "Kinder",
         "Haushalt",
         "Erziehung",
-        "Elternschaft",
+        "Funktionalität",
         "Social Media"
       ],
-      "start_zeit": "00:12:54",
-      "ende_zeit": "00:16:00"
+      "start_zeit": "12:54.723",
+      "ende_zeit": "15:13.323"
     }
   ]
 }

@@ -3,83 +3,84 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-19T04:47:26.928505",
+  "extracted_date": "2025-03-19T05:13:47.200856",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "AK-Boot mit Plateau",
+      "vorschlag": "Ankle Boot mit Plateau",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
+      "begruendung": "Dieser Winter gibt es einen ganz wichtigen Schuhtrend bei Frauen, nicht bei Männern. Und das war ein bestimmter Ankle Boot mit Plateausohle. Wenn ich jetzt Menschen, Frauen mit diesen Schuhen vor diesen Space-Iglus, vor den Restaurants vorbeilaufen sehe, dann habe ich das Gefühl, das vervollständigt sich irgendwie zu einer Mondlandschaft. Also dieser Schuh sieht ja sowieso schon aus wie so ein halber Moon-Boot und das sieht auch aus wie so eine Mondstation, diese weißen oder transparenten Zelte.",
       "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
-        "Mondlandschaft",
+        "Trends",
+        "Mondmission",
         "Raumfahrt"
       ],
-      "start_zeit": "00:03:48",
-      "ende_zeit": "00:06:56"
+      "start_zeit": "3:48.497",
+      "ende_zeit": "5:59.0"
     },
     {
       "vorschlag": "Jemand anderen unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock.",
+      "begruendung": "Seit kurzem ständig immer irgendjemand, irgendjemand anderen unter den Bus wirft. Donald Trump.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Sprache",
         "Politik",
-        "Gesellschaft",
         "Kommunikation",
-        "Metapher"
+        "Gesellschaft",
+        "Trends"
       ],
-      "start_zeit": "00:08:19",
-      "ende_zeit": "00:10:04"
+      "start_zeit": "8:19.117",
+      "ende_zeit": "9:54.237"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Sancho/Pancho",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Sancho/Pancho",
-      "begruendung": "Junge Leute gestalten transparente Handyhüllen persönlich mit Fotos oder Gegenständen, ähnlich wie früher Fotos im Portemonnaie.",
+      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhöhlen hinten so sich so privat kuratiert, so eine kleine Fotoauswahl von ihren Liebsten, die man dann nach außen sieht oder persönliche Gegenstände, die dann wie so als Schmuck hinten an der Handyhülle dem gegenüber gezeigt werden. Man personalisiert sie in diesem Sinne.",
       "metaebene": null,
       "punkt_erhalten": true,
-      "punkt_von": "Lars",
+      "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Mobiltelefone",
-        "Individualisierung",
+        "Smartphones",
+        "Personalisierung",
         "Trends",
-        "Alltagskultur"
+        "Kultur"
       ],
-      "start_zeit": "00:10:10",
-      "ende_zeit": "00:13:30"
+      "start_zeit": "10:10.637",
+      "ende_zeit": "13:30.077"
     },
     {
       "vorschlag": "KI-generierte Pinterest-Bilder",
-      "vorschlagender": "Lena",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "Auf Pinterest sind viele KI-generierte Bilder für Balkon-Dekoration, was Lena unbefriedigend findet, da KI keine Restriktionen kennt wie echte Menschen.",
+      "begruendung": "Ganz viele der Bilder auf Pinterest, auf die sie trifft, sind KI erzeugt. Die KI kennt keine Restriktionen. Sie kann also quasi jede denkbare Dekor-Idee durchdeklinieren. Während der Clou für sie, Lena, bisher bei Pinterest war, zu sehen, dass da jemand aus Fleisch und Blut ins Risiko gegangen ist und sein Balkon tatsächlich so und so gestaltet hat, dafür Geld und Zeit ausgegeben hat.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
+        "Künstliche Intelligenz",
         "Pinterest",
         "Design",
         "Authentizität",
-        "Restriktionen"
+        "Internetkultur"
       ],
-      "start_zeit": "00:13:34",
-      "ende_zeit": "00:16:20"
+      "start_zeit": "13:34.157",
+      "ende_zeit": "16:20.697"
     }
   ]
 }
