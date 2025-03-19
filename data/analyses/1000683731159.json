@@ -1,0 +1,85 @@
+{
+  "episode_title": "Haben Dinge eine Seele?",
+  "podcast_id": "1000683731159",
+  "episode_id": "1000683731159",
+  "episode_date": "2025-01-13",
+  "extracted_date": "2025-03-19T06:13:10.455663",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Knochenbrühe / Bone Broth",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Trend aus Amerika, besonders in Miami und New York stark, auch in Deutschland in den Anfängen. Geschäftsidee, Knochenbrühe vor Clubs als hochwertiges, naturbelassenes Produkt im hochpreisigen Segment anzubieten. Bezug zu Paleo-Diät, Kollagen, Anti-Aging, ADHS, Depressionen und Gelenkerkrankungen.",
+      "metaebene": "Geschäftsidee",
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Food trends",
+        "Health",
+        "Business",
+        "Paleo diet",
+        "Anti-aging"
+      ],
+      "start_zeit": "02:58",
+      "ende_zeit": "07:11"
+    },
+    {
+      "vorschlag": "Tradwife-Satire",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Satirische Imitationen von Tradwife-Inhalten durch Comedians wie Böhmermann und Hazel Brugger sowie private Accounts. Algorithmus kann Satire nicht von Original-Inhalten unterscheiden, was zu Vermischung und potentieller Verwirrung führt.",
+      "metaebene": "Zweite Ordnung, Weiterdrehung einer Sozialfigur",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Social Media",
+        "Satire",
+        "Gender roles",
+        "Internet culture",
+        "Irony"
+      ],
+      "start_zeit": "07:16",
+      "ende_zeit": "17:05"
+    },
+    {
+      "vorschlag": "Robert Habecks Weste / Weste",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Wolf",
+      "begruendung": "Robert Habeck trägt Weste bei Wahlkampfauftakt. Ungewöhnliches Kleidungsstück, erinnert an Self-Made YouTube-Millionäre oder Konfirmanden, aber auch an Schafhirten. Symbolische Bedeutung als Hirte der Nation, Renaissance der Weste.",
+      "metaebene": "Symbolik der Kleidung in der Politik",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Politics",
+        "Fashion",
+        "Symbolism",
+        "Green Party",
+        "Public Image"
+      ],
+      "start_zeit": "17:10",
+      "ende_zeit": "22:17"
+    },
+    {
+      "vorschlag": "Mentale Nebenkosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Begriff aus dem Insta-Kosmos, geprägt von einer Frau mit ADHS. Vermischung von Mental Health- und Finanz-Bubble. Versteckte Kosten für neurodivergente Menschen in sozialen Situationen, bezahlt mit Dopamin und Erholungszeit.",
+      "metaebene": "Benennung von Gefühlen, Vermischung von Social Media Bubbles",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mental Health",
+        "Neurodiversity",
+        "Social Media",
+        "Finance",
+        "Terminology"
+      ],
+      "start_zeit": "23:12",
+      "ende_zeit": "26:42"
+    }
+  ]
+}

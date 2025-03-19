@@ -1,0 +1,85 @@
+{
+  "episode_title": "\"Air\" von Christian Kracht: Cottagecore ist auch nur eine Fantasy-Geschichte",
+  "podcast_id": "1000698535476",
+  "episode_id": "1000698535476",
+  "episode_date": "2025-03-10",
+  "extracted_date": "2025-03-19T06:11:18.848987",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "UGG-Boot mit Plateau",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Diesen Winter gab es einen Schuhtrend bei Frauen, ein bestimmter UGG-Boot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants entsteht eine Mondlandschaft. Der Schuh sieht aus wie ein Moon-Boot und die Zelte wie Mondstationen.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan (Mondstation als Zwischenschritt zum Mars).",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Schuhe",
+        "Winter",
+        "Mond",
+        "Weltraum"
+      ],
+      "start_zeit": "3:48.497",
+      "ende_zeit": "5:40.677"
+    },
+    {
+      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele: Donald Trump, Annalena Baerbock, Britta Hasselmann, Ukraine.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Sprache",
+        "Politik",
+        "Gesellschaft",
+        "Kommunikation",
+        "Metapher"
+      ],
+      "start_zeit": "8:19.117",
+      "ende_zeit": "9:54.237"
+    },
+    {
+      "vorschlag": "Personalisierte Handyhüllen",
+      "vorschlagender": "Sancho",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho",
+      "begruendung": "Viele junge Leute kuratieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, ähnlich wie früher Fotos im Portemonnaie. Das iPhone verliert seinen Status als geheiligtes Objekt und wird zum Nutzgegenstand, vollgestopft mit analogen Dingen.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Technologie",
+        "Smartphone",
+        "Personalisierung",
+        "Kultur",
+        "Alltag"
+      ],
+      "start_zeit": "10:10.637",
+      "ende_zeit": "12:15.017"
+    },
+    {
+      "vorschlag": "KI-generierte Pinterest-Bilder",
+      "vorschlagender": "Lena",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "Zuhörerin Lena bemerkte, dass viele Bilder auf Pinterest, die als Inspiration für Balkongestaltung dienen sollen, KI-generiert sind. KI kennt keine Restriktionen und kann unendlich viele Optionen durchspielen, was die Glaubwürdigkeit und Ernsthaftigkeit der Vorschläge mindert, im Vergleich zu realen Balkonen von Menschen aus Fleisch und Blut.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Pinterest",
+        "Design",
+        "Authentizität",
+        "Technologie"
+      ],
+      "start_zeit": "13:34.157",
+      "ende_zeit": "15:55.437"
+    }
+  ]
+}

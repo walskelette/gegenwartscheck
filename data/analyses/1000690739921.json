@@ -1,0 +1,85 @@
+{
+  "episode_title": "Wie heißt die Lebensphase vor dem Rollator?",
+  "podcast_id": "1000690739921",
+  "episode_id": "1000690739921",
+  "episode_date": "2025-02-10",
+  "extracted_date": "2025-03-19T06:12:33.137184",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "E-Autos im Retro-Design",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine neue Welle von Elektrofahrzeugen europäischer und amerikanischer Firmen, die traditionelle, alte Modelle wiederbeleben, um den chinesischen Herstellern die Dominanz beim E-Auto abzujagen. Beispiele sind der Ford Capri als Elektroauto, der Fiat 500 als elektrifiziertes Modell und die Wiederbelebung einer alten Geländewagen-Marke von VW.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Automobil",
+        "Elektroauto",
+        "Retro",
+        "Nostalgie",
+        "Marketing"
+      ],
+      "start_zeit": "03:44.023",
+      "ende_zeit": "05:13.083"
+    },
+    {
+      "vorschlag": "Nicht erhöhte Preise für Passfotos",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Mati",
+      "begruendung": "In Zeiten der Inflation wird es in der Werbung besonders hervorgehoben, wenn Preise für Produkte nicht erhöht wurden, wie im Beispiel von Passfotos in einer Drogerie, deren Preis seit dem 1. September 2022 nicht erhöht wurde. Dies spiegelt das Gefühl der Inflation und der Teuerung in der Gesellschaft wider.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Inflation",
+        "Marketing",
+        "Preise",
+        "Drogerie",
+        "Werbung"
+      ],
+      "start_zeit": "06:08.443",
+      "ende_zeit": "08:42.403"
+    },
+    {
+      "vorschlag": "Cold Plunge Coach",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Ausweitung des Coaching-Trends auf das Eisbaden, indem es spezifische \"Cold Plunge Coaches\" gibt. Dies zeigt, wie Coaching als gegenwärtige Bewegung und Beruf sich sogar auf scheinbar einfache Phänomene wie das Eisbaden ausdehnt und ein ganzes Ökosystem darum entsteht.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Eisbaden",
+        "Coaching",
+        "Trend",
+        "Gesundheit",
+        "Ökosystem"
+      ],
+      "start_zeit": "10:25.723",
+      "ende_zeit": "12:17.243"
+    },
+    {
+      "vorschlag": "Funktionale Kinderküche/Haushaltspartizipation von Kindern",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Denise",
+      "begruendung": "Funktionale Kinderküchen, die es Kindern ermöglichen, \"echt\" zu kochen, und die generelle Haushaltspartizipation von Kindern durch spezielle Produkte wie Swiffer-artige Wischer. Dies spiegelt den Wunsch wider, Kinder autonom zu erziehen und in den Haushalt einzubeziehen, gestützt durch Forschung, die die positiven Auswirkungen der Haushaltseinbeziehung auf Kinder hervorhebt.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Kinder",
+        "Haushalt",
+        "Erziehung",
+        "Autonomie",
+        "Elternschaft"
+      ],
+      "start_zeit": "12:54.723",
+      "ende_zeit": "16:00.843"
+    }
+  ]
+}

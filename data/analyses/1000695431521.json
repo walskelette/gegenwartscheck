@@ -1,0 +1,85 @@
+{
+  "episode_title": "The White Lotus: Schafft der Westen Urlaub nur noch mit Beruhigungsmitteln?",
+  "podcast_id": "1000695431521",
+  "episode_id": "1000695431521",
+  "episode_date": "2025-02-24",
+  "extracted_date": "2025-03-19T06:11:56.074643",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tesla-Scham",
+      "vorschlagender": "Hörer",
+      "ist_hoerer": true,
+      "hoerer_name": "Alexander, Anna, Achim",
+      "begruendung": "Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da Elon Musk 'verrückt geworden' ist.  Der Tesla verliert an kulturellem Kapital und wird zum politischen Statement oder Schutzmaßnahme.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Elektroautos",
+        "Scham",
+        "Politik",
+        "Auto-Aufkleber",
+        "Elon Musk"
+      ],
+      "start_zeit": "3:57.965",
+      "ende_zeit": "5:40.725"
+    },
+    {
+      "vorschlag": "Außengastronomie-Dome",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Technologie, um das Draußensitzen in Restaurants im Winter zu ermöglichen.  Dome-artige, weiße Zelte um Tische, die Schutz vor Kälte bieten und das Draußensitzen verlängern.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": null,
+      "tags": [
+        "Gastronomie",
+        "Winter",
+        "Technologie",
+        "Urbaner Raum",
+        "Isolation"
+      ],
+      "start_zeit": "6:57.925",
+      "ende_zeit": "8:55.345"
+    },
+    {
+      "vorschlag": "Kaffee trinken mit jüngerem Ich",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen.  Dient der Selbstversöhnung und dem Akzeptieren des Älterwerdens, oft in pastellfarbener, nostalgischer Ästhetik dargestellt.",
+      "metaebene": "Poetry-Slam-mäßig",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Internet-Trends",
+        "Nostalgie",
+        "Selbstliebe",
+        "Poetry Slam",
+        "Vergangenheit"
+      ],
+      "start_zeit": "9:17.445",
+      "ende_zeit": "12:27.785"
+    },
+    {
+      "vorschlag": "Rückkehr des Kabels",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Wiederentdeckung des Kabelkopfhörers als Gegenbewegung zu Bluetooth-Kopfhörern.  Begründet durch Praktikabilität, Schnelligkeit, Zuverlässigkeit und Resilienz, illustriert durch den Einsatz von Kabel-Drohnen im Ukrainekrieg.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Technologie",
+        "Kopfhörer",
+        "Analog vs Digital",
+        "Ukrainekrieg",
+        "Resilienz"
+      ],
+      "start_zeit": "13:52.705",
+      "ende_zeit": "17:12.725"
+    }
+  ]
+}
