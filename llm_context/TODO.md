@@ -5,10 +5,10 @@
 - ✅ Successfully processed all transcript files
 - ✅ Removed .gitkeep files from data directories
 - ✅ Created project documentation
+- ✅ Verified that gemini-2.0-pro-exp-02-05 is already being used for second pass analysis
+- ✅ Updated script to simplify data folder structure by using only IDs in output filenames
 
 ## In Progress
-- ⏳ Update the gemini-analyzer.py script to use gemini-2.0-pro-exp-02-05 for second pass analysis
-- ⏳ Simplify data folder structure by removing suffixes and using IDs only
 - ⏳ Verify episode count fix is working properly
 - ⏳ Run a clean workflow with extended dataset (20 episodes)
 
