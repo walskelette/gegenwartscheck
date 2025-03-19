@@ -3,52 +3,52 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-19T04:14:11.481638",
+  "extracted_date": "2025-03-19T04:26:21.451242",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Plateau-Stiefel",
+      "vorschlag": "Plateau-Ackboots als Vorbereitung auf Mondmissionen",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Dieser Winter gibt es einen Schuhtrend bei Frauen, nämlich einen bestimmten Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants ergibt sich eine Mondlandschaft.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan",
+      "begruendung": "Ackboots mit Plateausohle in Kombination mit Space-Iglus vor Restaurants erzeugen eine Mondlandschaft-Ästhetik und symbolisieren die Rückkehr der Mondraumfahrt, insbesondere im Kontext von NASA-Plänen für eine Mondstation als Zwischenschritt zum Mars.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
         "Weltraum",
-        "Trends"
+        "Technologie",
+        "Zukunft"
       ],
-      "start_zeit": "03:48.497",
-      "ende_zeit": "06:56.617"
+      "start_zeit": "3:48.497",
+      "ende_zeit": "6:03.157"
     },
     {
-      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlag": "Jemand anderen unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock. Sogar die Ukraine wird jeden Tag unter den Bus geworfen.",
+      "begruendung": "Das Phänomen, dass in der öffentlichen Diskussion und im politischen Diskurs ständig Einzelpersonen oder Gruppen geopfert oder beschuldigt werden, um von eigenen Fehlern oder Problemen abzulenken.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
-        "Sprache",
         "Politik",
+        "Diskurs",
         "Gesellschaft",
         "Kommunikation",
-        "Redewendung"
+        "Verantwortung"
       ],
-      "start_zeit": "08:19.117",
+      "start_zeit": "8:19.117",
       "ende_zeit": "10:04.137"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Hörer",
+      "vorschlagender": "Lars",
       "ist_hoerer": true,
       "hoerer_name": "Sancho/Pancho",
-      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen hinten eine kleine Fotoauswahl von Liebsten oder persönliche Gegenstände, die wie Schmuck aussehen. Das iPhone wird zum persönlichen Wohnzimmer.",
+      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten, Quittungen oder persönlichen Gegenständen, ähnlich wie frühere Generationen Portemonnaies mit Fotos füllten. Das iPhone verliert seinen Status als unberührbares Objekt und wird zum persönlichen Nutzgegenstand.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
@@ -56,26 +56,27 @@
         "Technologie",
         "Mobiltelefone",
         "Personalisierung",
-        "Gesellschaft",
-        "Trends"
+        "Alltagskultur",
+        "Brauchtum"
       ],
       "start_zeit": "10:10.637",
       "ende_zeit": "13:30.077"
     },
     {
       "vorschlag": "KI-generierte Pinterest-Bilder vs. authentische Nutzerbilder",
-      "vorschlagender": "Hörerin",
+      "vorschlagender": "Ijoma",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI auf Pinterest erzeugt viele Dekor-Ideen ohne Restriktionen, was unbefriedigend ist. Der Clou von Pinterest war bisher, echte Menschen zu sehen, die mit ihren realen Restriktionen etwas gestaltet haben, was Authentizität und Ernsthaftigkeit beglaubigt.",
+      "begruendung": "KI-generierte Bilder auf Pinterest, die Dekorationsideen darstellen, erzeugen Unzufriedenheit, da ihnen die Authentizität und Ernsthaftigkeit realer, von Menschen umgesetzter Ideen fehlt. Der Wert von Pinterest lag bisher in der Inspiration durch tatsächliche, mit Aufwand verbundene Nutzerprojekte.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
-        "Internet",
-        "Social Media",
+        "Künstliche Intelligenz",
+        "Pinterest",
         "Authentizität",
+        "Inspiration",
         "Design"
       ],
       "start_zeit": "13:34.157",

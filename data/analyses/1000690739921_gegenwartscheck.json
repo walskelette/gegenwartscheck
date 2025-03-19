@@ -3,86 +3,83 @@
   "podcast_id": "1000690739921",
   "episode_id": "1000690739921",
   "episode_date": "2025-02-10",
-  "extracted_date": "2025-03-19T04:14:46.012238",
+  "extracted_date": "2025-03-19T04:26:52.174754",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Retro-Elektroautos",
+      "vorschlag": "E-Autos im Retro-Design",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Eine neue Welle von Elektrofahrzeugen europäischer und amerikanischer Firmen, die versuchen, der chinesischen Dominanz entgegenzuwirken, setzt auf extra traditionelle, alte Modelle wie den Ford Capri oder den Fiat 500, um Nostalgie und Sehnsüchte zu wecken und so den Elektromarkt zu erobern.",
-      "metaebene": "Nostalgie als Verkaufsstrategie für Zukunftstechnologie, Wiederbelebung von Wagenklassikern, Spannungsfeld zwischen Tradition und Innovation.",
+      "begruendung": "Eine neue Welle von Elektrofahrzeugen, mit denen Firmen den Chinesen die Dominanz beim E-Auto abjagen wollen, sind oft extra traditionelle alte Modelle. Beispiele sind der Ford Capri als Elektroauto und der Fiat 500 Elektro. Es wird versucht, die elektrische Zukunft mit nostalgischen Wagenklassikern zu verkaufen.",
+      "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Automobilität",
-        "Elektroautos",
-        "Nostalgie",
         "Retro",
-        "Marketing"
+        "Nostalgie",
+        "Elektroautos",
+        "Design"
       ],
-      "start_zeit": "3:38.643",
-      "ende_zeit": "5:18.563"
+      "start_zeit": "03:38",
+      "ende_zeit": "05:13"
     },
     {
-      "vorschlag": "Inflationsmarketing",
-      "vorschlagender": "Hörer",
+      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
+      "vorschlagender": "Nina",
       "ist_hoerer": true,
       "hoerer_name": "Mati",
-      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise für Produkte oder Dienstleistungen nicht erhöht wurden, wie im Beispiel von Passfotos in einer Drogerie, deren Preis seit dem 1. September 2022 unverändert ist. Dies wird als Marketing-Strategie genutzt, um in der gegenwärtigen Teuerungsphase positiv aufzufallen.",
-      "metaebene": "Spiegelung des Inflationsgefühls in Marketing und Werbung, Angeben mit Nicht-Preiserhöhungen, Verzweiflung im Marketing, Vergleich mit 'Established'-Schildern junger Unternehmen.",
+      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise nicht erhöht werden, wie bei Passfotos in einer Drogerie seit dem 1.9.2022. Dies wird als Marketing-Argument genutzt und spiegelt das Gefühl der Inflation und die aktuelle Gegenwart wider. Es wirkt ein bisschen verzweifelt, mit etwas Nicht-Schlimmem zu werben.",
+      "metaebene": "Marketing",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Inflation",
         "Marketing",
-        "Werbung",
+        "Inflation",
         "Preise",
-        "Konsum",
-        "Drogerie"
+        "Werbung",
+        "Konsum"
       ],
-      "start_zeit": "5:59.483",
-      "ende_zeit": "8:42.403"
+      "start_zeit": "05:59",
+      "ende_zeit": "08:42"
     },
     {
       "vorschlag": "Cold-Plunge-Coach",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Die Existenz von 'Cold Plunge Coaches' zeigt, wie weit sich der Coaching-Trend ausdehnt und sogar auf vermeintlich einfache Aktivitäten wie das Eisbaden übergreift. Dies verdeutlicht die gegenwärtige Tendenz zur Professionalisierung und zum Ökosystem-Aufbau rund um Wellness- und Selbstoptimierungstrends.",
-      "metaebene": "Ausweitung der Coaching-Kultur auf absurde Bereiche, Ökosysteme um Trends, Kommerzialisierung von Selbstverständlichkeiten, Bullshit-Verdacht bei neuen Berufen.",
+      "begruendung": "Es gibt spezifische Helfer für das Eisbaden, die 'Cold Plunge Coach' genannt werden. Das Coaching als große Gegenwartsbewegung weitet sich auf das Eisbaden aus. Es entsteht ein ganzes Ökosystem um das Phänomen Eisbaden.",
+      "metaebene": "Coaching",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Coaching",
-        "Eisbaden",
         "Trends",
-        "Absurdität",
+        "Eisbaden",
         "Wellness",
-        "Ökosystem"
+        "Absurdität"
       ],
-      "start_zeit": "10:25.723",
-      "ende_zeit": "12:44.863"
+      "start_zeit": "10:25",
+      "ende_zeit": "12:17"
     },
     {
       "vorschlag": "Funktionale Kinderküche",
-      "vorschlagender": "Hörer",
+      "vorschlagender": "Nina",
       "ist_hoerer": true,
       "hoerer_name": "Denise",
-      "begruendung": "Funktionale Kinderküchen, in denen Kinder tatsächlich 'kochen' können, und die generelle Haushaltspartizipation von Kindern durch spezielle Produkte wie kindgerechte Wischer verdeutlichen den Trend zu autonomer Erziehung und der frühen Einbeziehung von Kindern in Haushaltsaufgaben. Dies spiegelt den Wunsch wider, Kinder frühzeitig zur Selbstständigkeit zu erziehen und sie als kompetent wahrzunehmen.",
-      "metaebene": "Helikopter-Elternschaft vs. Autonomieerziehung, Social Media Inszenierung von 'kompetenten' Kindern, Trend zur frühen Verantwortungsübertragung, Frage der kindlichen Sicherheit und des Realitätsbezugs.",
+      "begruendung": "Es gibt funktionale Kinderküchen, in denen Kinder tatsächlich 'kochen' können, und Haushaltsprodukte wie Swiffer-artige Wischer für Kinder. Dies zeigt die Haushaltspartizipation von Kindern und die Botschaft, dass Kinder mehr können, als man denkt. Es spiegelt den Wunsch nach autonomer Erziehung wider.",
+      "metaebene": "Elternschaft",
       "punkt_erhalten": false,
-      "punkt_von": null,
+      "punkt_von": "Lars",
       "tags": [
-        "Kindererziehung",
-        "Haushalt",
         "Elternschaft",
-        "Autonomie",
-        "Social Media",
-        "Trends"
+        "Kinder",
+        "Erziehung",
+        "Haushalt",
+        "Autonomie"
       ],
-      "start_zeit": "12:54.723",
-      "ende_zeit": "16:00.843"
+      "start_zeit": "12:54",
+      "ende_zeit": "16:00"
     }
   ]
 }
