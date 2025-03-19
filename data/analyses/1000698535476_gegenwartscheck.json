@@ -3,84 +3,83 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-19T04:26:21.451242",
+  "extracted_date": "2025-03-19T04:47:26.928505",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Plateau-Ackboots als Vorbereitung auf Mondmissionen",
+      "vorschlag": "AK-Boot mit Plateau",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Ackboots mit Plateausohle in Kombination mit Space-Iglus vor Restaurants erzeugen eine Mondlandschaft-Ästhetik und symbolisieren die Rückkehr der Mondraumfahrt, insbesondere im Kontext von NASA-Plänen für eine Mondstation als Zwischenschritt zum Mars.",
+      "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
       "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Weltraum",
-        "Technologie",
-        "Zukunft"
+        "Winter",
+        "Mondlandschaft",
+        "Raumfahrt"
       ],
-      "start_zeit": "3:48.497",
-      "ende_zeit": "6:03.157"
+      "start_zeit": "00:03:48",
+      "ende_zeit": "00:06:56"
     },
     {
       "vorschlag": "Jemand anderen unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Das Phänomen, dass in der öffentlichen Diskussion und im politischen Diskurs ständig Einzelpersonen oder Gruppen geopfert oder beschuldigt werden, um von eigenen Fehlern oder Problemen abzulenken.",
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
+        "Sprache",
         "Politik",
-        "Diskurs",
         "Gesellschaft",
         "Kommunikation",
-        "Verantwortung"
+        "Metapher"
       ],
-      "start_zeit": "8:19.117",
-      "ende_zeit": "10:04.137"
+      "start_zeit": "00:08:19",
+      "ende_zeit": "00:10:04"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Lars",
+      "vorschlagender": "Sancho/Pancho",
       "ist_hoerer": true,
       "hoerer_name": "Sancho/Pancho",
-      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten, Quittungen oder persönlichen Gegenständen, ähnlich wie frühere Generationen Portemonnaies mit Fotos füllten. Das iPhone verliert seinen Status als unberührbares Objekt und wird zum persönlichen Nutzgegenstand.",
+      "begruendung": "Junge Leute gestalten transparente Handyhüllen persönlich mit Fotos oder Gegenständen, ähnlich wie früher Fotos im Portemonnaie.",
       "metaebene": null,
       "punkt_erhalten": true,
-      "punkt_von": "Ijoma",
+      "punkt_von": "Lars",
       "tags": [
         "Technologie",
         "Mobiltelefone",
-        "Personalisierung",
-        "Alltagskultur",
-        "Brauchtum"
+        "Individualisierung",
+        "Trends",
+        "Alltagskultur"
       ],
-      "start_zeit": "10:10.637",
-      "ende_zeit": "13:30.077"
+      "start_zeit": "00:10:10",
+      "ende_zeit": "00:13:30"
     },
     {
-      "vorschlag": "KI-generierte Pinterest-Bilder vs. authentische Nutzerbilder",
-      "vorschlagender": "Ijoma",
+      "vorschlag": "KI-generierte Pinterest-Bilder",
+      "vorschlagender": "Lena",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-generierte Bilder auf Pinterest, die Dekorationsideen darstellen, erzeugen Unzufriedenheit, da ihnen die Authentizität und Ernsthaftigkeit realer, von Menschen umgesetzter Ideen fehlt. Der Wert von Pinterest lag bisher in der Inspiration durch tatsächliche, mit Aufwand verbundene Nutzerprojekte.",
+      "begruendung": "Auf Pinterest sind viele KI-generierte Bilder für Balkon-Dekoration, was Lena unbefriedigend findet, da KI keine Restriktionen kennt wie echte Menschen.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
-        "Künstliche Intelligenz",
         "Pinterest",
+        "Design",
         "Authentizität",
-        "Inspiration",
-        "Design"
+        "Restriktionen"
       ],
-      "start_zeit": "13:34.157",
-      "ende_zeit": "16:20.697"
+      "start_zeit": "00:13:34",
+      "ende_zeit": "00:16:20"
     }
   ]
 }
