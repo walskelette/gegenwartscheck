@@ -36,13 +36,14 @@ jobs:
           # Dies sogenannte Gegenwart podcast ID
           podcast_id = '1522895163'
           
-          # Fetch episodes (limit to 5 for now)
-          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=5'
+          # Fetch episodes (limit to 6 to ensure we get 5 actual episodes since first result is the podcast itself)
+          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=6'
           response = requests.get(url)
           data = response.json()
           
           episodes = []
           for episode in data.get('results', []):
+              # Only include items with wrapperType == 'podcastEpisode', which filters out the podcast itself
               if episode.get('wrapperType') == 'podcastEpisode':
                   episode_title = episode.get('trackName')
                   episode_url = episode.get('trackViewUrl')
@@ -55,6 +56,9 @@ jobs:
                       "episode_id": episode_id,
                       "release_date": release_date
                   })
+          
+          # Limit to 5 episodes if we got more
+          episodes = episodes[:5]
           
           # Save to file
           with open('episode_links.json', 'w') as f:
