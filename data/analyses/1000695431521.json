@@ -3,61 +3,61 @@
   "podcast_id": "1000695431521",
   "episode_id": "1000695431521",
   "episode_date": "2025-02-24",
-  "extracted_date": "2025-03-19T06:11:56.074643",
+  "extracted_date": "2025-03-19T06:35:17.469729",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Tesla-Scham",
-      "vorschlagender": "Hörer",
+      "vorschlagender": "Nina",
       "ist_hoerer": true,
       "hoerer_name": "Alexander, Anna, Achim",
-      "begruendung": "Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da Elon Musk 'verrückt geworden' ist.  Der Tesla verliert an kulturellem Kapital und wird zum politischen Statement oder Schutzmaßnahme.",
-      "metaebene": null,
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da die Marke und ihr Gründer Elon Musk seit einiger Zeit negativ in den Medien und der öffentlichen Wahrnehmung stehen. Der Tesla galt einst als Statussymbol und Zeichen für Umweltbewusstsein, hat aber durch Kontroversen seinen Glanz verloren. Dies führt dazu, dass Tesla-Besitzer nun den Wunsch verspüren, sich von der aktuellen Entwicklung zu distanzieren.",
+      "metaebene": "Politisches Statement, Schutz vor Farbbeuteln und Anschlägen",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Elektroautos",
+        "Tesla",
         "Scham",
-        "Politik",
-        "Auto-Aufkleber",
-        "Elon Musk"
+        "E-Auto",
+        "Kulturelles Kapital",
+        "Politische Aussage"
       ],
       "start_zeit": "3:57.965",
       "ende_zeit": "5:40.725"
     },
     {
-      "vorschlag": "Außengastronomie-Dome",
+      "vorschlag": "Außengastrodome",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Neue Technologie, um das Draußensitzen in Restaurants im Winter zu ermöglichen.  Dome-artige, weiße Zelte um Tische, die Schutz vor Kälte bieten und das Draußensitzen verlängern.",
-      "metaebene": null,
+      "begruendung": "Eine neue Technologie, die es ermöglicht, auch im Winter in der Außengastronomie zu sitzen. Diese \"Außengastrodome\" sind kuppelförmige, transparente Zelte, die um Tische in Restaurants aufgebaut werden, um die Gäste vor Kälte zu schützen und das Draußensitzen im Winter angenehmer zu gestalten. Sie könnten als Nachfolger der Heizpilze dienen.",
+      "metaebene": "Nachfolger des Heizpilzes",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
-        "Gastronomie",
+        "Außengastronomie",
         "Winter",
+        "Heizpilz",
         "Technologie",
-        "Urbaner Raum",
-        "Isolation"
+        "Deutschland"
       ],
       "start_zeit": "6:57.925",
-      "ende_zeit": "8:55.345"
+      "ende_zeit": "8:47.545"
     },
     {
       "vorschlag": "Kaffee trinken mit jüngerem Ich",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen.  Dient der Selbstversöhnung und dem Akzeptieren des Älterwerdens, oft in pastellfarbener, nostalgischer Ästhetik dargestellt.",
-      "metaebene": "Poetry-Slam-mäßig",
+      "begruendung": "Ein neuer Internet-Trend, bei dem Menschen in oft pastellfarbenen Postszenarien inszenieren, wie sie ihr jüngeres Selbst auf einen Kaffee treffen. Dieser Trend scheint eine Form der Selbstreflexion und -versöhnung darzustellen, bei der das ältere, gegenwärtige Ich auf das jüngere, vergangene Ich trifft, um sich mit der eigenen Entwicklung und dem Älterwerden auseinanderzusetzen.",
+      "metaebene": "Versöhnung mit sich selbst, neue Praxis",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Internet-Trends",
+        "Kaffee",
+        "Jüngeres Ich",
         "Nostalgie",
-        "Selbstliebe",
-        "Poetry Slam",
-        "Vergangenheit"
+        "Internet-Trend",
+        "Selbstversöhnung"
       ],
       "start_zeit": "9:17.445",
       "ende_zeit": "12:27.785"
@@ -67,19 +67,19 @@
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Wiederentdeckung des Kabelkopfhörers als Gegenbewegung zu Bluetooth-Kopfhörern.  Begründet durch Praktikabilität, Schnelligkeit, Zuverlässigkeit und Resilienz, illustriert durch den Einsatz von Kabel-Drohnen im Ukrainekrieg.",
-      "metaebene": null,
+      "begruendung": "Die Renaissance des Kabelkopfhörers als Gegenbewegung zum kabellosen Trend.  Die Kabelverbindung erlebt eine unerwartete Wiederbelebung, was sich in verschiedenen Kontexten zeigt, von coolen Hollywood-Stars, die wieder Kabelkopfhörer tragen, bis hin zur militärischen Nutzung von Kabeldrohnen im Ukrainekrieg, da Kabelverbindungen widerstandsfähiger gegen Störsignale sind.",
+      "metaebene": "Resilienz, Ukrainekrieg, Drohnen",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Technologie",
+        "Kabel",
         "Kopfhörer",
-        "Analog vs Digital",
-        "Ukrainekrieg",
-        "Resilienz"
+        "Technologie",
+        "Resilienz",
+        "Ukrainekrieg"
       ],
       "start_zeit": "13:52.705",
-      "ende_zeit": "17:12.725"
+      "ende_zeit": "16:28.625"
     }
   ]
 }

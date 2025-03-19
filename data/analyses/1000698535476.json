@@ -3,71 +3,70 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-19T06:11:18.848987",
+  "extracted_date": "2025-03-19T06:34:49.944691",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "UGG-Boot mit Plateau",
+      "vorschlag": "ACK-Boot mit Plateau",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Diesen Winter gab es einen Schuhtrend bei Frauen, ein bestimmter UGG-Boot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants entsteht eine Mondlandschaft. Der Schuh sieht aus wie ein Moon-Boot und die Zelte wie Mondstationen.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan (Mondstation als Zwischenschritt zum Mars).",
+      "begruendung": "Es gab diesen Winter einen Schuhtrend bei Frauen, nämlich den Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants ergibt sich ein Mondlandschaft-artiges Gesamtbild.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan (Mondstation vor Marsflug).",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
+        "Trends",
         "Mond",
-        "Weltraum"
+        "Raumfahrt"
       ],
-      "start_zeit": "3:48.497",
-      "ende_zeit": "5:40.677"
+      "start_zeit": "03:48",
+      "ende_zeit": "06:03"
     },
     {
-      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlag": "Leute unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele: Donald Trump, Annalena Baerbock, Britta Hasselmann, Ukraine.",
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump und Annalena Baerbock.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
-        "Sprache",
         "Politik",
-        "Gesellschaft",
-        "Kommunikation",
-        "Metapher"
+        "Sprache",
+        "Medien",
+        "Verhalten"
       ],
-      "start_zeit": "8:19.117",
-      "ende_zeit": "9:54.237"
+      "start_zeit": "08:19",
+      "ende_zeit": "10:04"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
       "vorschlagender": "Sancho",
       "ist_hoerer": true,
       "hoerer_name": "Sancho",
-      "begruendung": "Viele junge Leute kuratieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, ähnlich wie früher Fotos im Portemonnaie. Das iPhone verliert seinen Status als geheiligtes Objekt und wird zum Nutzgegenstand, vollgestopft mit analogen Dingen.",
+      "begruendung": "Junge Leute kuratieren ihre transparenten Handyhüllen mit Fotos von Liebsten oder persönlichen Gegenständen, ähnlich wie frühere Generationen Fotos im Portemonnaie trugen. Das iPhone verliert seinen Status als unberührbares Objekt und wird zum persönlichen Nutzgegenstand.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Smartphone",
+        "Smartphones",
         "Personalisierung",
-        "Kultur",
-        "Alltag"
+        "Gesellschaft",
+        "Trends"
       ],
-      "start_zeit": "10:10.637",
-      "ende_zeit": "12:15.017"
+      "start_zeit": "10:10",
+      "ende_zeit": "13:30"
     },
     {
       "vorschlag": "KI-generierte Pinterest-Bilder",
       "vorschlagender": "Lena",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "Zuhörerin Lena bemerkte, dass viele Bilder auf Pinterest, die als Inspiration für Balkongestaltung dienen sollen, KI-generiert sind. KI kennt keine Restriktionen und kann unendlich viele Optionen durchspielen, was die Glaubwürdigkeit und Ernsthaftigkeit der Vorschläge mindert, im Vergleich zu realen Balkonen von Menschen aus Fleisch und Blut.",
+      "begruendung": "KI-generierte Bilder auf Pinterest für Balkongestaltung erzeugen Unzufriedenheit, da ihnen die Authentizität und Ernsthaftigkeit realer, von Menschen gestalteter Balkone fehlt. KI kennt keine Restriktionen der menschlichen Endlichkeit und Selektion.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
@@ -76,10 +75,10 @@
         "Pinterest",
         "Design",
         "Authentizität",
-        "Technologie"
+        "Restriktion"
       ],
-      "start_zeit": "13:34.157",
-      "ende_zeit": "15:55.437"
+      "start_zeit": "13:34",
+      "ende_zeit": "15:55"
     }
   ]
 }
