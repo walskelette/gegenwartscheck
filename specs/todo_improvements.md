@@ -42,11 +42,12 @@ This document outlines the planned improvements to the Gegenwartscheck podcast a
    - ~~This will clean up the codebase and remove unused test code~~
    - **Completed**: Successfully removed the test_gemini.py file after confirming it was not referenced or used by any other part of the codebase.
 
-8. **Fix Episode Count Issue**
-   - Currently only 4 transcripts are pulled despite restricting to 5 episodes
-   - Investigate if the first result in the Apple link result list is metadata about the whole show
-   - Modify the code to ensure it correctly processes the intended number of episodes
-   - Test to verify that 5 actual episode transcripts are now processed
+8. ~~**Fix Episode Count Issue**~~
+   - ~~Currently only 4 transcripts are pulled despite restricting to 5 episodes~~
+   - ~~Investigate if the first result in the Apple link result list is metadata about the whole show~~
+   - ~~Modify the code to ensure it correctly processes the intended number of episodes~~
+   - ~~Test to verify that 5 actual episode transcripts are now processed~~
+   - **Completed**: Found and fixed the issue in the get-podcast-links.yml workflow. The first result from the Apple API is the podcast itself, not an episode. Updated the code to increase the limit to 6 and then filter to only include podcast episodes, ensuring we get 5 actual episodes.
 
 9. ~~**Improve Second Pass (Proofreading) Prompt**~~
    - ~~Enhance the second pass prompt to explicitly explain that this is an auto-generated transcript of a German language podcast~~
@@ -54,6 +55,34 @@ This document outlines the planned improvements to the Gegenwartscheck podcast a
    - ~~Remove ALL examples in the prompts, as they are based on previously generated data that doesn't meet quality standards~~
    - ~~Test the improved prompt thoroughly to ensure better handling of transcription errors~~
    - **Completed**: Successfully updated both the main analysis prompt and the proofreading prompt, removing all examples and adding specific instructions about auto-generated German transcripts and the handling of foreign words and loanwords. Testing confirmed the improved prompts work effectively.
+
+10. **Upgrade Second Pass Model**
+   - Change the second-pass (proofreading) model from gemini-2.0-flash to gemini-2.0-pro-exp-02-05
+   - Update the model constant in the gemini_analyzer.py file
+   - Test the improved model to verify better results in proofreading
+   - Compare outputs to ensure the new model provides better corrections
+
+11. **Simplify Data Folder Structure**
+   - Remove suffixes in the data folder structure, using just IDs for folders
+   - Update any code that references these paths to accommodate the new structure
+   - Ensure backward compatibility with existing code when possible
+   - Test the changes with a sample workflow run
+
+12. **Remove .gitkeep Files**
+   - Remove all .gitkeep files from the data folders
+   - Update the git configuration to retain empty folders if needed
+   - Test to ensure the repository structure remains intact
+
+13. **Verify Episode Count Fix**
+   - Run a test of the get-podcast-links workflow to verify it correctly retrieves 5 episodes
+   - Check the output data to confirm the first result (the podcast itself) is correctly filtered out
+   - Examine the episode_links.json artifact to verify its structure and content
+
+14. **Run Clean Workflow with Extended Episodes**
+   - Increase the episode limit from 5 to 20 episodes in the get-podcast-links.yml file
+   - Remove all files in the data folder for a clean start
+   - Run the complete workflow chain (get links → process episodes → extract transcripts → analyze)
+   - Verify all steps complete successfully with the larger dataset
 
 ## Implementation Strategy
 
@@ -68,7 +97,7 @@ Each TODO will be implemented one at a time, with thorough testing after each st
 
 ## Current Status
 
-TODOs #1 through #7 and #9 have been completed successfully. We are now working on TODO #8:
+TODOs #1 through #9 have been completed successfully. We are now working on TODOs #10 through #14:
 
 1. ✅ Using Episode IDs for file naming
 2. ✅ Including episode upload/release dates
@@ -77,5 +106,10 @@ TODOs #1 through #7 and #9 have been completed successfully. We are now working 
 5. ✅ Implementing second-pass analysis with Gemini Pro
 6. ✅ Implementing Google Grounding for improved accuracy
 7. ✅ Remove test_gemini.py file
-8. ⏳ Fix episode count issue
-9. ✅ Improve second pass prompt 
+8. ✅ Fix episode count issue
+9. ✅ Improve second pass prompt
+10. ⏳ Upgrade second pass model
+11. ⏳ Simplify data folder structure
+12. ⏳ Remove .gitkeep files
+13. ⏳ Verify episode count fix
+14. ⏳ Run clean workflow with extended episodes 

@@ -18,7 +18,7 @@ from google.genai import types
 DATA_DIR = "data/transcripts"
 OUTPUT_DIR = "data/analyses"
 MODEL_NAME = "gemini-2.0-flash-thinking-exp-01-21"
-PROOFREADING_MODEL_NAME = "gemini-2.0-flash"
+PROOFREADING_MODEL_NAME = "gemini-2.0-pro-exp-02-05"
 
 def setup_gemini_client():
     """Initialisiert den Gemini API-Client mit dem API-Schlüssel aus der Umgebungsvariable."""
