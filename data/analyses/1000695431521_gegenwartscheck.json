@@ -3,83 +3,84 @@
   "podcast_id": "1000695431521",
   "episode_id": "1000695431521",
   "episode_date": "2025-02-24",
-  "extracted_date": "2025-03-18T16:45:50.298147",
+  "extracted_date": "2025-03-19T04:14:28.282259",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Tesla-Scham",
       "vorschlagender": "Nina",
-      "ist_hoerer": false,
-      "hoerer_name": null,
-      "begruendung": "Gefühl, sich für den Besitz eines Tesla rechtfertigen zu müssen, da Elon Musk 'verrückt geworden ist' und das Image von Tesla sich negativ verändert hat. Man möchte sich distanzieren und/oder vor negativen Reaktionen schützen.",
-      "metaebene": null,
+      "ist_hoerer": true,
+      "hoerer_name": "Alexander, Anna, Achim",
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da Elon Musk als verrückt wahrgenommen wird und es negative Presse gibt. Man möchte sich distanzieren und evtl. vor Angriffen schützen.",
+      "metaebene": "Politisches Statement, Schutz vor Farbbeuteln/Anschlägen",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Auto",
         "Elektroauto",
-        "Image",
         "Scham",
+        "Kultur",
         "Politik"
       ],
-      "start_zeit": "3:57.965",
-      "ende_zeit": "5:40.725"
+      "start_zeit": "3:57",
+      "ende_zeit": "5:40"
     },
     {
       "vorschlag": "Außengastronomie-Dome",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Neue Technologie, um Draußensitzen in Restaurants auch im Winter zu ermöglichen. Weiße, runde Zelte/Dome um Tische auf Außenterrassen, als Nachfolger der Heizpilze.",
+      "begruendung": "Neue Technologie, um Draußensitzen im Winter zu ermöglichen. Weiße, runde Zelt-artige Dome um Tische in der Außengastronomie.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
-        "Gastronomie",
-        "Winter",
         "Technologie",
-        "Urban",
-        "Essen"
+        "Winter",
+        "Gastronomie",
+        "Trend",
+        "Urban"
       ],
-      "start_zeit": "6:57.925",
-      "ende_zeit": "8:47.545"
+      "start_zeit": "6:57",
+      "ende_zeit": "9:17"
     },
     {
-      "vorschlag": "Kaffee trinken mit dem jüngeren Ich",
+      "vorschlag": "Kaffee mit jüngerem Ich",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen. Ausdruck von Nostalgie, Selbstreflexion und dem Wunsch nach Selbstversöhnung. Oft in pastellfarbenen Social-Media-Posts mit 'Poetry-Slam'-artigen Texten.",
-      "metaebene": "Poetry-Slam-Vergleich von Lars",
+      "begruendung": "Internet-Trend, bei dem man sein jüngeres Ich auf einen Kaffee trifft. Ausdruck einer neuen Praxis der Selbstversöhnung und Akzeptanz des gegenwärtigen Selbst.",
+      "metaebene": "Versöhnung mit sich selbst, eventuelle Angeberei gegenüber dem jüngeren Ich",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Social Media",
-        "Trends",
+        "Internet-Trend",
         "Nostalgie",
-        "Selbstreflexion",
-        "Generation Z"
+        "Selbstliebe",
+        "Psychologie",
+        "Social Media"
       ],
-      "start_zeit": "9:17.445",
-      "ende_zeit": "12:27.785"
+      "start_zeit": "9:17",
+      "ende_zeit": "12:27"
     },
     {
-      "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
+      "vorschlag": "Rückkehr des Kabels",
       "vorschlagender": "Lars",
-      "ist_hoerer": false,
-      "hoerer_name": null,
-      "begruendung": "Wachsende Akzeptanz und Nutzung von kabelgebundenen Kopfhörern als Gegenbewegung zu Bluetooth-Kopfhörern. Begründet durch Bequemlichkeit, Schnelligkeit, Zuverlässigkeit und im übertragenen Sinne durch die Resilienz von Kabeln, inspiriert durch den Ukraine-Krieg und Kabel-Drohnen.",
-      "metaebene": "Verbindung zum Ukraine-Krieg und Kabel-Drohnen als 'unerwartete Wendung'",
+      "ist_hoerer": true,
+      "hoerer_name": "viele Hörer (n.n.)",
+      "begruendung": "Wiederaufleben von Kabelkopfhörern als Trend.  Begründet in der umständlichen Natur von Bluetooth-Kopfhörern und der überraschenden Resilienz von Kabeltechnologie, illustriert durch Kabel-Drohnen im Ukrainekrieg.",
+      "metaebene": "Resilienz von Kabeln, Analogie zu Kriegstechnologie",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Technologie",
-        "Trends",
-        "Audio",
-        "Analog",
-        "Resilienz"
+        "Kopfhörer",
+        "Kabel",
+        "Trend",
+        "Krieg",
+        "Analog"
       ],
-      "start_zeit": "13:52.705",
-      "ende_zeit": "16:28.625"
+      "start_zeit": "13:52",
+      "ende_zeit": "17:12"
     }
   ]
 }

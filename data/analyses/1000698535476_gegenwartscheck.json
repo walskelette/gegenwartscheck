@@ -3,84 +3,83 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-18T16:45:34.982786",
+  "extracted_date": "2025-03-19T04:14:11.481638",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Plateau-Stiefel",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft. Meterebene: Vorbereitung auf die nächsten Mondmissionen.",
-      "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
+      "begruendung": "Dieser Winter gibt es einen Schuhtrend bei Frauen, nämlich einen bestimmten Ackboot mit Plateausohle. In Kombination mit den Space-Iglus vor Restaurants ergibt sich eine Mondlandschaft.",
+      "metaebene": "Vorbereitung auf die nächsten Mondmissionen, Bekenntnis zum NASA-Plan",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
         "Winter",
-        "Mond",
-        "Raumfahrt"
+        "Weltraum",
+        "Trends"
       ],
-      "start_zeit": "00:03:48",
-      "ende_zeit": "00:06:56"
+      "start_zeit": "03:48.497",
+      "ende_zeit": "06:56.617"
     },
     {
-      "vorschlag": "Jemand anderen unter den Bus werfen",
+      "vorschlag": "Jemanden unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele: Donald Trump, Annalena Baerbock-Britta Hasselmann, Ukraine.",
+      "begruendung": "Seit kurzem werfen ständig Leute andere unter den Bus, wie Donald Trump oder Annalena Baerbock. Sogar die Ukraine wird jeden Tag unter den Bus geworfen.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Sprache",
         "Politik",
-        "Kommunikation",
         "Gesellschaft",
+        "Kommunikation",
         "Redewendung"
       ],
-      "start_zeit": "00:08:19",
-      "ende_zeit": "00:10:04"
+      "start_zeit": "08:19.117",
+      "ende_zeit": "10:04.137"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Sancho",
+      "vorschlagender": "Hörer",
       "ist_hoerer": true,
-      "hoerer_name": "Sancho",
-      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen eine kleine Fotoauswahl von Liebsten oder persönliche Gegenstände. Das iPhone wird personalisiert und wie ein Wohnzimmer gestaltet.",
+      "hoerer_name": "Sancho/Pancho",
+      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen hinten eine kleine Fotoauswahl von Liebsten oder persönliche Gegenstände, die wie Schmuck aussehen. Das iPhone wird zum persönlichen Wohnzimmer.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Smartphones",
+        "Mobiltelefone",
         "Personalisierung",
-        "Kultur",
-        "Digitalisierung",
-        "Analog"
+        "Gesellschaft",
+        "Trends"
       ],
-      "start_zeit": "00:10:10",
-      "ende_zeit": "00:13:30"
+      "start_zeit": "10:10.637",
+      "ende_zeit": "13:30.077"
     },
     {
-      "vorschlag": "KI-generierte Pinterest-Bilder",
-      "vorschlagender": "Lena",
+      "vorschlag": "KI-generierte Pinterest-Bilder vs. authentische Nutzerbilder",
+      "vorschlagender": "Hörerin",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-generierte Bilder auf Pinterest erzeugen Unzufriedenheit, da die Authentizität und Ernsthaftigkeit menschlicher, realer Dekorationsvorschläge fehlt. KI kennt keine Restriktionen der menschlichen Endlichkeit.",
+      "begruendung": "KI auf Pinterest erzeugt viele Dekor-Ideen ohne Restriktionen, was unbefriedigend ist. Der Clou von Pinterest war bisher, echte Menschen zu sehen, die mit ihren realen Restriktionen etwas gestaltet haben, was Authentizität und Ernsthaftigkeit beglaubigt.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
-        "Pinterest",
-        "Design",
+        "Internet",
+        "Social Media",
         "Authentizität",
-        "Internetkultur"
+        "Design"
       ],
-      "start_zeit": "00:13:34",
-      "ende_zeit": "00:16:20"
+      "start_zeit": "13:34.157",
+      "ende_zeit": "16:20.697"
     }
   ]
 }
