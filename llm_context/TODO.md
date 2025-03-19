@@ -7,9 +7,15 @@
 - ✅ Created project documentation
 
 ## In Progress
-- ⏳ Add more error handling to the workflow
+- ⏳ Update the gemini-analyzer.py script to use gemini-2.0-pro-exp-02-05 for second pass analysis
+- ⏳ Simplify data folder structure by removing suffixes and using IDs only
+- ⏳ Verify episode count fix is working properly
+- ⏳ Run a clean workflow with extended dataset (20 episodes)
 
 ## To Do
+- 📋 Remove all files in the data folder for clean data generation
+- 📋 Extend to 20 episodes for the next clean run
+
 - 📋 Create a basic web UI for viewing analysis results
   - Create a React/Vue/Svelte frontend
   - Implement a simple API to serve the analysis data
