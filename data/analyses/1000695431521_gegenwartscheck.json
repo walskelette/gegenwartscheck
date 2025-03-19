@@ -3,83 +3,83 @@
   "podcast_id": "1000695431521",
   "episode_id": "1000695431521",
   "episode_date": "2025-02-24",
-  "extracted_date": "2025-03-18T16:45:50.298147",
+  "extracted_date": "2025-03-19T04:26:36.068770",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Tesla-Scham",
       "vorschlagender": "Nina",
-      "ist_hoerer": false,
+      "ist_hoerer": true,
       "hoerer_name": null,
-      "begruendung": "Gefühl, sich für den Besitz eines Tesla rechtfertigen zu müssen, da Elon Musk 'verrückt geworden ist' und das Image von Tesla sich negativ verändert hat. Man möchte sich distanzieren und/oder vor negativen Reaktionen schützen.",
-      "metaebene": null,
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, seit Elon Musk 'verrückt' geworden ist.  Der Sticker 'I bought this before Elon went crazy' als Ausdruck dieser Scham oder Distanzierung.  Medienberichte über die Frage, ob es noch moralisch vertretbar ist, Tesla zu fahren.",
+      "metaebene": "Politisches Statement, Schutz vor Farbbeuteln/Anschlägen, Rückkehr der Auto-Aufkleber-Diskussion",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Auto",
-        "Elektroauto",
-        "Image",
+        "E-Auto",
         "Scham",
-        "Politik"
+        "Elon Musk",
+        "Kulturkapital"
       ],
       "start_zeit": "3:57.965",
-      "ende_zeit": "5:40.725"
+      "ende_zeit": "6:12.805"
     },
     {
       "vorschlag": "Außengastronomie-Dome",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Neue Technologie, um Draußensitzen in Restaurants auch im Winter zu ermöglichen. Weiße, runde Zelte/Dome um Tische auf Außenterrassen, als Nachfolger der Heizpilze.",
-      "metaebene": null,
+      "begruendung": "Neue Technologie, um das Draußensitzen in der Gastronomie auch im Winter zu ermöglichen.  Weiße, runde Zelt- oder Dom-artige Konstruktionen, die um einzelne Tische im Außenbereich von Restaurants aufgebaut werden, als Nachfolger der Heizpilze.",
+      "metaebene": "Nachfolger des Heizpilzes, Ermöglichung der deutschen 'Draußen sitzen'-Kultur im Winter",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Gastronomie",
         "Winter",
+        "Outdoor",
         "Technologie",
-        "Urban",
-        "Essen"
+        "Trend"
       ],
       "start_zeit": "6:57.925",
-      "ende_zeit": "8:47.545"
+      "ende_zeit": "9:17.445"
     },
     {
-      "vorschlag": "Kaffee trinken mit dem jüngeren Ich",
+      "vorschlag": "Kaffee trinken mit jüngerem Ich",
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen. Ausdruck von Nostalgie, Selbstreflexion und dem Wunsch nach Selbstversöhnung. Oft in pastellfarbenen Social-Media-Posts mit 'Poetry-Slam'-artigen Texten.",
-      "metaebene": "Poetry-Slam-Vergleich von Lars",
+      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen.  Dient der Selbstversöhnung und Akzeptanz des Älterwerdens.  Oft in pastellfarbenen Social-Media-Posts mit 'poetry-slam'-artigen Texten dargestellt.",
+      "metaebene": "Poetry-Slam, Insta-Trends, inneres Kind, Nostalgie vs. Angeberei, neue Praxis der Selbstversöhnung",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Social Media",
-        "Trends",
+        "Internet-Trend",
         "Nostalgie",
-        "Selbstreflexion",
-        "Generation Z"
+        "Selbstliebe",
+        "Versöhnung",
+        "Social Media"
       ],
       "start_zeit": "9:17.445",
-      "ende_zeit": "12:27.785"
+      "ende_zeit": "12:46.885"
     },
     {
       "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
       "vorschlagender": "Lars",
-      "ist_hoerer": false,
+      "ist_hoerer": true,
       "hoerer_name": null,
-      "begruendung": "Wachsende Akzeptanz und Nutzung von kabelgebundenen Kopfhörern als Gegenbewegung zu Bluetooth-Kopfhörern. Begründet durch Bequemlichkeit, Schnelligkeit, Zuverlässigkeit und im übertragenen Sinne durch die Resilienz von Kabeln, inspiriert durch den Ukraine-Krieg und Kabel-Drohnen.",
-      "metaebene": "Verbindung zum Ukraine-Krieg und Kabel-Drohnen als 'unerwartete Wendung'",
+      "begruendung": "Trend zur Rückkehr kabelgebundener Kopfhörer, beobachtet bei 'coolen Hollywood-Stars'.  Praktische Vorteile: schnellere Verbindung, zuverlässiger, keine Akkuprobleme.  Relevanz im Ukraine-Krieg durch kabelgebundene Drohnen als resiliente Technologie.",
+      "metaebene": "Anti-Bluetooth-Trend, Resilienz, Technologie im Krieg, Analog vs. Digital",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
+        "Kopfhörer",
+        "Kabel",
         "Technologie",
-        "Trends",
-        "Audio",
-        "Analog",
+        "Trend",
         "Resilienz"
       ],
       "start_zeit": "13:52.705",
-      "ende_zeit": "16:28.625"
+      "ende_zeit": "17:12.725"
     }
   ]
 }

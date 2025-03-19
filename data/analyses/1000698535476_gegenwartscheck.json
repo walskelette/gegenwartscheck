@@ -3,84 +3,84 @@
   "podcast_id": "1000698535476",
   "episode_id": "1000698535476",
   "episode_date": "2025-03-10",
-  "extracted_date": "2025-03-18T16:45:34.982786",
+  "extracted_date": "2025-03-19T04:26:21.451242",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "Plateau-Stiefel",
+      "vorschlag": "Plateau-Ackboots als Vorbereitung auf Mondmissionen",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft. Meterebene: Vorbereitung auf die nächsten Mondmissionen.",
+      "begruendung": "Ackboots mit Plateausohle in Kombination mit Space-Iglus vor Restaurants erzeugen eine Mondlandschaft-Ästhetik und symbolisieren die Rückkehr der Mondraumfahrt, insbesondere im Kontext von NASA-Plänen für eine Mondstation als Zwischenschritt zum Mars.",
       "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Mode",
         "Schuhe",
-        "Winter",
-        "Mond",
-        "Raumfahrt"
+        "Weltraum",
+        "Technologie",
+        "Zukunft"
       ],
-      "start_zeit": "00:03:48",
-      "ende_zeit": "00:06:56"
+      "start_zeit": "3:48.497",
+      "ende_zeit": "6:03.157"
     },
     {
       "vorschlag": "Jemand anderen unter den Bus werfen",
       "vorschlagender": "Ijoma",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Seit kurzem wirft ständig irgendjemand, irgendjemand anderen unter den Bus. Beispiele: Donald Trump, Annalena Baerbock-Britta Hasselmann, Ukraine.",
+      "begruendung": "Das Phänomen, dass in der öffentlichen Diskussion und im politischen Diskurs ständig Einzelpersonen oder Gruppen geopfert oder beschuldigt werden, um von eigenen Fehlern oder Problemen abzulenken.",
       "metaebene": null,
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
-        "Sprache",
         "Politik",
-        "Kommunikation",
+        "Diskurs",
         "Gesellschaft",
-        "Redewendung"
+        "Kommunikation",
+        "Verantwortung"
       ],
-      "start_zeit": "00:08:19",
-      "ende_zeit": "00:10:04"
+      "start_zeit": "8:19.117",
+      "ende_zeit": "10:04.137"
     },
     {
       "vorschlag": "Personalisierte Handyhüllen",
-      "vorschlagender": "Sancho",
+      "vorschlagender": "Lars",
       "ist_hoerer": true,
-      "hoerer_name": "Sancho",
-      "begruendung": "Viele junge Leute haben in ihren transparenten Handyhüllen eine kleine Fotoauswahl von Liebsten oder persönliche Gegenstände. Das iPhone wird personalisiert und wie ein Wohnzimmer gestaltet.",
+      "hoerer_name": "Sancho/Pancho",
+      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos von Liebsten, Quittungen oder persönlichen Gegenständen, ähnlich wie frühere Generationen Portemonnaies mit Fotos füllten. Das iPhone verliert seinen Status als unberührbares Objekt und wird zum persönlichen Nutzgegenstand.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Ijoma",
       "tags": [
         "Technologie",
-        "Smartphones",
+        "Mobiltelefone",
         "Personalisierung",
-        "Kultur",
-        "Digitalisierung",
-        "Analog"
+        "Alltagskultur",
+        "Brauchtum"
       ],
-      "start_zeit": "00:10:10",
-      "ende_zeit": "00:13:30"
+      "start_zeit": "10:10.637",
+      "ende_zeit": "13:30.077"
     },
     {
-      "vorschlag": "KI-generierte Pinterest-Bilder",
-      "vorschlagender": "Lena",
+      "vorschlag": "KI-generierte Pinterest-Bilder vs. authentische Nutzerbilder",
+      "vorschlagender": "Ijoma",
       "ist_hoerer": true,
       "hoerer_name": "Lena",
-      "begruendung": "KI-generierte Bilder auf Pinterest erzeugen Unzufriedenheit, da die Authentizität und Ernsthaftigkeit menschlicher, realer Dekorationsvorschläge fehlt. KI kennt keine Restriktionen der menschlichen Endlichkeit.",
+      "begruendung": "KI-generierte Bilder auf Pinterest, die Dekorationsideen darstellen, erzeugen Unzufriedenheit, da ihnen die Authentizität und Ernsthaftigkeit realer, von Menschen umgesetzter Ideen fehlt. Der Wert von Pinterest lag bisher in der Inspiration durch tatsächliche, mit Aufwand verbundene Nutzerprojekte.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "KI",
+        "Künstliche Intelligenz",
         "Pinterest",
-        "Design",
         "Authentizität",
-        "Internetkultur"
+        "Inspiration",
+        "Design"
       ],
-      "start_zeit": "00:13:34",
-      "ende_zeit": "00:16:20"
+      "start_zeit": "13:34.157",
+      "ende_zeit": "16:20.697"
     }
   ]
 }
