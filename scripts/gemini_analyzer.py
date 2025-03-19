@@ -101,27 +101,6 @@ Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschl
 7. Erstelle für jeden Vorschlag 3-5 passende thematische Tags
 8. Die Zeitstempel, wann der Vorschlag beginnt und endet (falls im Transkript vorhanden)
 
-# Beispiel für einen extrahierten Gegenwartsvorschlag
-Aus einem Transkript:
-SPEAKER_1: "Ich habe als Gegenwartscheck mitgebracht: Plateau-Stiefel! Sie sind diesen Winter der Trend bei Frauen, und zusammen mit diesen Space-Iglus vor Restaurants entsteht eine Art Mondlandschaft."
-SPEAKER_2: "Ja, das ist interessant, vor allem als Vorbereitung auf die nächsten Mondmissionen."
-SPEAKER_3: "Dafür kriegst du einen Punkt von mir."
-
-Extrahiertes Ergebnis:
-{{
-  "vorschlag": "Plateau-Stiefel",
-  "vorschlagender": "Lars",
-  "ist_hoerer": false,
-  "hoerer_name": null,
-  "begruendung": "Bestimmte Stiefel mit Plateausohle sind Schuhtrend bei Frauen diesen Winter. In Kombination mit Space-Iglus vor Restaurants entsteht eine Mondlandschaft.",
-  "metaebene": "Vorbereitung auf die nächsten Mondmissionen",
-  "punkt_erhalten": true,
-  "punkt_von": "Ijoma",
-  "tags": ["Mode", "Schuhe", "Winter", "Mond", "Raumfahrt"],
-  "start_zeit": "00:03:48",
-  "ende_zeit": "00:06:56"
-}}
-
 # Ausgabeformat
 Antworte ausschließlich im folgenden JSON-Format:
 
@@ -267,30 +246,31 @@ def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
 Du bist ein Korrektur-Assistent für Podcast-Analysen des deutschen Podcasts "Die sogenannte Gegenwart". Du erhältst eine automatisch erstellte Analyse 
 der Folge mit dem Titel "{podcast_title}".
 
+# Wichtige Kontextinformationen
+Die Analyse basiert auf einem automatisch generierten Transkript eines deutschsprachigen Podcasts. Bei der Spracherkennung und Transkription treten häufig Fehler auf, besonders bei:
+- Fremdwörtern und Lehnwörtern aus anderen Sprachen (Englisch, Französisch, etc.)
+- Neologismen und neu erfundenen Begriffen
+- Markennamen und Produktbezeichnungen
+- Internet-Trends und Social-Media-Begriffen
+- Fachbegriffen aus verschiedenen Domänen
+
+Diese Wörter sind besonders anfällig für Transkriptionsfehler, da sie oft falsch erkannt oder verstanden werden.
+
 # Aufgabe
 Deine Aufgabe ist AUSSCHLIESSLICH die Überprüfung der Rechtschreibung von Konzepten, Marken und Fachbegriffen:
 
 1. Überprüfe für jeden extrahierten "vorschlag" und jedes wichtige Konzept in der "begruendung", ob die Schreibweise korrekt ist.
 2. Nutze IMMER das Google-Grounding-Tool, um die korrekte Schreibweise zu verifizieren.
-3. Korrigiere falsch geschriebene Konzepte, Marken, Namen und Fachbegriffe.
+3. Korrigiere falsch geschriebene Konzepte, Marken, Namen und Fachbegriffe, die wegen Transkriptionsfehlern falsch geschrieben sein könnten.
+4. Du MUSST für jeden "vorschlag" das Google-Grounding-Tool verwenden, um die Schreibweise zu überprüfen.
 
 # Wichtige Einschränkungen
 1. Ändere KEINE inhaltlichen Aspekte der Analyse.
 2. Verändere NICHT die grundlegende Struktur oder Bedeutung der Daten.
 3. Füge KEINE neuen Tags hinzu und ändere die Tags nur, wenn sie falsch geschrieben sind.
 4. Erweitere NICHT die "begruendung" oder andere Textfelder inhaltlich.
-5. Übersetze KEINE Inhalte ins Englische - behalte alle deutschen Texte unverändert bei.
-
-# Beispiel für eine Rechtschreibkorrektur
-Vor der Korrektur:
-{{
-  "vorschlag": "KI-generierte Pintrest-Bilder"
-}}
-
-Nach der Korrektur:
-{{
-  "vorschlag": "KI-generierte Pinterest-Bilder"
-}}
+5. Übersetze KEINE Inhalte in eine andere Sprache - alle Texte bleiben in ihrer Originalsprache.
+6. Konzentriere dich NUR auf mögliche Fehler, die durch Spracherkennung oder Transkription entstanden sein könnten.
 
 Hier ist die zu korrigierende Analyse im JSON-Format:
 
