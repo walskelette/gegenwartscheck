@@ -3,83 +3,83 @@
   "podcast_id": "1000690739921",
   "episode_id": "1000690739921",
   "episode_date": "2025-02-10",
-  "extracted_date": "2025-03-19T05:14:21.977858",
+  "extracted_date": "2025-03-19T05:49:04.084101",
   "gegenwartsvorschlaege": [
     {
-      "vorschlag": "neue Welle von Elektrofahrzeugen sind extra traditionelle alte Modelle",
+      "vorschlag": "E-Autos im Retro-Design",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "dass eine neue Welle von Elektrofahrzeugen, also wenn jetzt die Firmen nochmal sagen, das ist unser neues E-Auto, mit dem wir jetzt doch nochmal, gerade wenn es europäische oder amerikanische Firmen sind, den Chinesen die Dominanz beim E-Auto abjagen wollen, dass diese neuen Modelle gar keine neuen Modelle sind, sondern dann oft extra traditionelle alte Modelle.",
+      "begruendung": "Eine neue Welle von Elektrofahrzeugen europäischer und amerikanischer Firmen, die den Chinesen die Dominanz beim E-Auto abjagen wollen, sind oft keine neuen Modelle, sondern extra traditionelle alte Modelle wie z.B. Ford Capri als Elektroauto oder Fiat 500 als Elektroauto. VW hat eine alte Geländewagen-Marke aus den USA wiederbelebt, um sie als Elektroauto zu verkaufen. Man versucht die elektrische Zukunft zu verkaufen, indem man so nostalgische Wagenklassiker reaktiviert. Beispiele wären E-Käfer, Elektromanta oder E-Trabi.",
       "metaebene": null,
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
-        "Automobilität",
-        "Elektrofahrzeuge",
+        "Automobil",
+        "Elektroauto",
         "Nostalgie",
-        "Marketing",
-        "Retro"
+        "Retro",
+        "Marketing"
       ],
-      "start_zeit": "03:38.643",
-      "ende_zeit": "05:13.083"
+      "start_zeit": "3:38.643",
+      "ende_zeit": "5:13.083"
     },
     {
-      "vorschlag": "nicht erhöhte Preise für Passfotos seit 1.09.2022",
+      "vorschlag": "Inflation Marketing",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Mati",
-      "begruendung": "in Zeiten der Inflation finde ich das besonders spannend. Alle haben das berechtigte Gefühl, dass alles teurer wird. Und wenn dann etwas nicht teurer wird, wird das sogar ausdrücklich hervorgehoben. Also es ist so ein bisschen so, ich find das schon, ich mein, also die Gegenwart wird ja gespiegelt von Marketing und Werbung. Und es ist irgendwie toll, wie sowas wie Inflation und dieses Gefühl, wir können uns alle nichts mehr leisten, weil es ist ja nicht Butter oder so, sondern halt so Passfotos, die man selten vielleicht braucht und dann irgendwie die halt macht für den Preis, den es da halt gibt. Aber dann auch noch mit diesem spezifischen, guck mal, so lange haben wir hier nichts erhöht. Und das ist ja so ein Angeben mit etwas, irgendwie hat es so was leicht Desperates oder so was, dass man denkt so hallo, also ihr könnt euch nicht angeben mit irgendwas, was nicht Schlimmes, mit etwas nicht Schlimmem könnt ihr doch jetzt nicht Werbung machen, aber doch in Zeiten der Inflation, in unserer Gegenwart kann man das dann eben schon.",
-      "metaebene": "das Desperate daran hat mich so ein bisschen erinnert an diese Kneipen oder auch manchmal so, wenn was vor kurzem gegründet wurde, so eine Bar und dann steht da auch manchmal so bei so alten, urigen Kneipen steht dann doch so Established 1910 oder so was oder so eine Biermarke. Und wenn dann da so steht Established 2021 und man denkt so, das ist halt so eine Geschichtslosigkeit und das soll ich jetzt geil finden so. So ein bisschen so ein Vibe hat das, aber irgendwie denkt man halt so, ja ist das ehrlich, finde ich gut.",
+      "begruendung": "In Zeiten der Inflation wird es besonders hervorgehoben, wenn Preise für Produkte nicht erhöht werden. Mati hat in einer Drogerie ein Schild für Passfotos gesehen mit dem Hinweis 'nicht erhöht seit 1.09.2022'. Das Angeben mit etwas Nicht-Schlimmem in Zeiten der Inflation ist gegenwärtig. Es erinnert an Kneipen oder Bars, die mit 'Established 2021' werben, um Geschichtsträchtigkeit zu suggerieren.",
+      "metaebene": "Marketing und Werbung spiegeln die Gegenwart wider.",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
         "Inflation",
         "Marketing",
+        "Drogerie",
         "Preise",
-        "Drogeriemarkt",
-        "Gegenwartgefühl"
+        "Werbung"
       ],
-      "start_zeit": "06:02.023",
-      "ende_zeit": "08:42.403"
+      "start_zeit": "5:59.483",
+      "ende_zeit": "8:42.403"
     },
     {
-      "vorschlag": "Cold Plunge Coach",
+      "vorschlag": "Eisbaden Coaching",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Und zwar erzählte mir neulich jemand, dass es, wenn man Eis baden will, auch spezifische Helfer gibt, die man engagieren kann und die heißen dann wirklich Cold Plunge Coach und das musste ich dir einfach kurz erzählen, weil wenn jetzt sozusagen das Coaching als die große Gegenwartbewegung und der große Gegenwartberuf auch noch auf das, also Cold Plunge ist dasselbe wie Eis baden, oder? Ich nehme an.",
-      "metaebene": "wenn jetzt sozusagen das Coaching als die große Gegenwartbewegung und der große Gegenwartberuf auch noch auf das",
+      "begruendung": "Es gibt spezifische Helfer für Leute, die Eisbaden wollen, sogenannte 'Cold Plunge Coaches'. Coaching als große Gegenwartsbewegung und -beruf weitet sich auf das Eisbaden aus. Es entsteht ein ganzes Ökosystem um Trends, in dem Leute schnell Jobs finden, indem sie sich auf diese Trends aufsetzen.",
+      "metaebene": "Coaching als die große Gegenwartbewegung und der große Gegenwartberuf",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Eisbaden",
         "Coaching",
-        "Trends",
-        "Gegenwartberuf",
-        "Ökosystem"
+        "Trend",
+        "Gesundheit",
+        "Wellness"
       ],
       "start_zeit": "10:25.723",
-      "ende_zeit": "12:17.243"
+      "ende_zeit": "12:44.863"
     },
     {
-      "vorschlag": "funktionale Kinderküche",
+      "vorschlag": "Funktionale Kinderküche",
       "vorschlagender": "Hörer",
       "ist_hoerer": true,
       "hoerer_name": "Denise",
-      "begruendung": "nämlich Denise aus Geisenheim im Rheingau. ... Die schreibt über das schöne Thema Kinderküche. ... Und zwar guck nicht so skeptisch, also Kinderküche, ja ja, genau. Ich bin dabei. Du bist ja krank, Entschuldigung. ... Genau und der Witz ist, dass es jetzt eine funktionale Kinderküche ist. Also ich sehe das auf Insta schon, offensichtlich wird dir das nicht reingespült. Ich sehe die ganze Zeit so Zwillinge, also die Mutter hat so einen Account und da sind so super kleine Zwillinge, also die können gerade so laufen, also stöpseln noch so rum, also haben noch dieses leicht roboterhafte, aber machen sich in ihrer funktionalen Kinderküche, also funktional bedeutet sie ist nicht fake.",
-      "metaebene": "Haushaltspartizipation von Kindern durch Produkte wie einem Swiffer-artigen Wischer.",
+      "begruendung": "Funktionale Kinderküchen sind im Trend, in denen Kinder tatsächlich 'kochen' können, z.B. Rührei machen. Es geht um Haushaltspartizipation von Kindern durch Produkte wie funktionale Kinderküchen oder Swiffer-artige Wischer. Top 1 Ding, was man Kindern Gutes tun kann, ist die Einbeziehung in den Haushalt. Es geht um Autonomieerziehung und die Botschaft 'die Kinder können das'.",
+      "metaebene": "Haushaltspartizipation von Kindern",
       "punkt_erhalten": false,
-      "punkt_von": "Lars",
+      "punkt_von": null,
       "tags": [
         "Kinder",
         "Haushalt",
         "Erziehung",
-        "Funktionalität",
-        "Social Media"
+        "Spielzeug",
+        "Elternschaft"
       ],
       "start_zeit": "12:54.723",
-      "ende_zeit": "15:13.323"
+      "ende_zeit": "16:08.443"
     }
   ]
 }

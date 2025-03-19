@@ -3,42 +3,42 @@
   "podcast_id": "1000695431521",
   "episode_id": "1000695431521",
   "episode_date": "2025-02-24",
-  "extracted_date": "2025-03-19T05:14:03.640434",
+  "extracted_date": "2025-03-19T05:48:39.944220",
   "gegenwartsvorschlaege": [
     {
       "vorschlag": "Tesla-Scham",
-      "vorschlagender": "Hörer",
-      "ist_hoerer": true,
-      "hoerer_name": "Alexander, Anna, Achim",
-      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, da die Marke und Elon Musk negativ in den Medien und der öffentlichen Wahrnehmung dargestellt werden. Man möchte sich distanzieren und nicht mit dem negativen Image in Verbindung gebracht werden.",
-      "metaebene": "Politisches Statement, Schutz vor Vandalismus/Anschlägen",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Sticker an Autos mit der Aufschrift \"I bought it before Elon went crazy\", Gefühl der Rechtfertigung für Tesla-Besitzer, da Tesla und Elon Musk negativ in den Schlagzeilen sind. Wunsch nach Abgrenzung und politischem Statement, Angst vor Anschlägen.",
+      "metaebene": "Rückkehr der Auto-Aufkleber-Diskussion",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Auto",
-        "Elektromobilität",
+        "Elektroautos",
+        "Markenimage",
         "Scham",
-        "Kultur",
-        "Politik"
+        "Politik",
+        "Auto-Aufkleber"
       ],
       "start_zeit": "3:57.965",
       "ende_zeit": "5:40.725"
     },
     {
-      "vorschlag": "Außengastronomie-Dome",
+      "vorschlag": "Außengastrodome",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Neue Technologie, um das Draußensitzen in Restaurants auch im Winter zu ermöglichen. Runde, weiße Zelt-artige Konstruktionen, die um einzelne Tische herum aufgebaut werden und Schutz vor Kälte bieten.",
-      "metaebene": "Nachfolger der Heizpilze, Ermöglichung von Außengastronomie im Winter",
+      "begruendung": "Neue Technologie, um Draußensitzen in Restaurants auch im Winter zu ermöglichen. Runde, weiße Zelte aus Plastik um einzelne Tische, die Wärme speichern und vor Kälte schützen sollen.",
+      "metaebene": "Nachfolger des Heizpilzes",
       "punkt_erhalten": false,
       "punkt_von": null,
       "tags": [
         "Gastronomie",
         "Winter",
         "Technologie",
-        "Urbanismus",
-        "Trend"
+        "Outdoor",
+        "Trends"
       ],
       "start_zeit": "6:57.925",
       "ende_zeit": "8:47.545"
@@ -48,37 +48,37 @@
       "vorschlagender": "Nina",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen. Oft in pastellfarbenen, nostalgischen Instagram-Posts dargestellt. Ausdruck einer neuen Form der Selbstversöhnung und Akzeptanz des gegenwärtigen Selbst.",
-      "metaebene": "Versöhnung mit sich selbst, Umgang mit Nostalgie, Instagram-Trend",
+      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen. Praxis der Selbstversöhnung und Akzeptanz des Älterwerdens. Oft in pastellfarbenen Social-Media-Posts mit poetischen Texten dargestellt.",
+      "metaebene": "Poetry-Slam-Thematik, Nostalgie-Verzicht",
       "punkt_erhalten": true,
       "punkt_von": "Lars",
       "tags": [
-        "Internet-Trend",
+        "Internet-Trends",
         "Nostalgie",
         "Selbstliebe",
-        "Social Media",
-        "Poetry-Slam"
+        "Poetry-Slam",
+        "Generation Z"
       ],
       "start_zeit": "9:17.445",
       "ende_zeit": "12:27.785"
     },
     {
-      "vorschlag": "Rückkehr des Kabels (Kopfhörer)",
+      "vorschlag": "Rückkehr des Kabels am Kopfhörer",
       "vorschlagender": "Lars",
       "ist_hoerer": false,
       "hoerer_name": null,
-      "begruendung": "Wiederkehr von kabelgebundenen Kopfhörern aufgrund der Unannehmlichkeiten von Bluetooth-Verbindungen, der Zuverlässigkeit in kritischen Situationen (Ukraine-Krieg - Kabeldrohnen) und der generellen Praktikabilität.",
-      "metaebene": "Resilienz des Kabels, Anti-Bluetooth-Trend, Praktikabilität",
+      "begruendung": "Wachsende Akzeptanz und Nutzung von Kabelkopfhörern als Gegenbewegung zu Bluetooth-Kopfhörern.  Begründet durch umständliche Bluetooth-Verbindungen, Zuverlässigkeit von Kabeln (Beispiel Drohnen im Ukrainekrieg) und schnellere, unkompliziertere Handhabung im Alltag.",
+      "metaebene": "Ukrainekrieg, Anti-Bluetooth-Trend, Beruhigung durch analoge Technik",
       "punkt_erhalten": true,
       "punkt_von": "Nina",
       "tags": [
         "Technologie",
         "Kopfhörer",
-        "Analog",
-        "Digitalisierung",
-        "Trend"
+        "Trends",
+        "Analog vs Digital",
+        "Ukrainekrieg"
       ],
-      "start_zeit": "13:52.705",
+      "start_zeit": "14:28.805",
       "ende_zeit": "16:28.625"
     }
   ]
