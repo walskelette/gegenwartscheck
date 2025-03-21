@@ -15,6 +15,11 @@ jobs:
   extract-transcript:
     runs-on: ubuntu-latest
     
+    # Add environment variables for Spotify API
+    env:
+      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install lxml beautifulsoup4
+          pip install lxml beautifulsoup4 requests
       
       - name: Process cache files from data/raw
         run: |
@@ -74,6 +79,7 @@ jobs:
           import json
           from bs4 import BeautifulSoup
           from datetime import datetime
+          import requests
           
           # Create data directory if it doesn't exist
           os.makedirs('data/transcripts', exist_ok=True)
@@ -100,6 +106,70 @@ jobs:
                   print(f"Error loading episode links: {e}")
           else:
               print(f"Warning: Episode links file not found at {episode_links_path}")
+          
+          # Function to get Spotify ID for an episode based on release date and title
+          def get_spotify_id(title, upload_date):
+              try:
+                  # Gegenwartscheck podcast Spotify show ID
+                  show_id = "3sObg5LiElhdkjCVGYyuGG"  # Gegenwartscheck on Spotify
+                  
+                  # Get Spotify access token (using client credentials flow)
+                  # In a real workflow, you'd store these securely in GitHub Secrets
+                  # This is a simplified example - in production, use GitHub secrets
+                  client_id = os.environ.get('SPOTIFY_CLIENT_ID')
+                  client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
+                  
+                  if not client_id or not client_secret:
+                      print("Missing Spotify credentials, skipping Spotify ID lookup")
+                      return None
+                  
+                  auth_response = requests.post(
+                      'https://accounts.spotify.com/api/token',
+                      data={
+                          'grant_type': 'client_credentials',
+                          'client_id': client_id,
+                          'client_secret': client_secret,
+                      }
+                  )
+                  
+                  if auth_response.status_code != 200:
+                      print(f"Failed to get Spotify token: {auth_response.status_code}")
+                      return None
+                      
+                  auth_data = auth_response.json()
+                  access_token = auth_data['access_token']
+                  
+                  # Use the token to call the Spotify API
+                  headers = {
+                      'Authorization': f'Bearer {access_token}'
+                  }
+                  
+                  # Get episodes for the show (paginate if needed)
+                  response = requests.get(
+                      f'https://api.spotify.com/v1/shows/{show_id}/episodes?limit=50',
+                      headers=headers
+                  )
+                  
+                  if response.status_code != 200:
+                      print(f"Failed to get Spotify episodes: {response.status_code}")
+                      return None
+                      
+                  episodes = response.json()
+                  
+                  # Search for matching episode based on release date
+                  for episode in episodes['items']:
+                      episode_date = episode['release_date']  # Format: YYYY-MM-DD
+                      if episode_date == upload_date:
+                          # We found a date match, now check title similarity
+                          # For simplicity, we're using a basic contains check
+                          if title.lower() in episode['name'].lower() or episode['name'].lower() in title.lower():
+                              return episode['id']
+                  
+                  print(f"No matching Spotify episode found for {title} ({upload_date})")
+                  return None
+              except Exception as e:
+                  print(f"Error getting Spotify ID: {e}")
+                  return None
           
           # Find all TTML files in the cache directory
           ttml_files = []
@@ -161,6 +231,11 @@ jobs:
                   if not episode_title:
                       episode_title = f"Episode {episode_id}"
                   
+                  # Get Spotify ID if we have upload date 
+                  spotify_id = None
+                  if upload_date and episode_title:
+                      spotify_id = get_spotify_id(episode_title, upload_date)
+                      
                   # Extract transcript content
                   transcript_chunks = []
                   speaking_chunks = soup.select('p')
@@ -198,6 +273,9 @@ jobs:
                           except Exception as e:
                               print(f"Error parsing begin time {begin_time}: {e}")
                       
+                      # Round down seconds to integers
+                      begin_seconds = int(begin_seconds)
+                      
                       # Extract sentences
                       sentences = []
                       for sentence in chunk.select('span[podcasts\\:unit="sentence"]'):
@@ -225,19 +303,23 @@ jobs:
                       output_file = f"data/transcripts/{safe_title}_transcript.json"
                       print("Warning: Using title-based filename because episode_id is not available")
                   
-                  # Prepare output JSON
+                  # Create the output data structure
                   output_data = {
-                      'episode_title': episode_title,
-                      'podcast_id': podcast_id,
-                      'episode_id': episode_id
+                      "episode_title": episode_title,
+                      "apple_id": podcast_id,  # Renamed from podcast_id to apple_id
+                      "episode_id": episode_id,
                   }
+                  
+                  # Add Spotify ID if available
+                  if spotify_id:
+                      output_data["spotify_id"] = spotify_id
                   
                   # Add upload date if available
                   if upload_date:
-                      output_data['upload_date'] = upload_date
+                      output_data["upload_date"] = upload_date
                   
-                  # Add transcript data
-                  output_data['transcript'] = transcript_chunks
+                  # Add the transcript
+                  output_data["transcript"] = transcript_chunks
                   
                   with open(output_file, 'w', encoding='utf-8') as f:
                       json.dump(output_data, f, indent=2, ensure_ascii=False)
@@ -255,5 +337,5 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add data/transcripts/
-          git commit -m "Add transcripts from data/raw cache files" || echo "No changes to commit"
-          git push
+          git commit -m "Update transcripts with IDs and rounded seconds" || echo "No changes to commit"
+          git push origin main
