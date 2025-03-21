@@ -36,29 +36,43 @@ jobs:
           # Dies sogenannte Gegenwart podcast ID
           podcast_id = '1522895163'
           
-          # Fetch episodes (limit to 21 to ensure we get 20 actual episodes since first result is the podcast itself)
-          url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit=21'
-          response = requests.get(url)
-          data = response.json()
-          
+          # Fetch all episodes by making multiple requests if needed
           episodes = []
-          for episode in data.get('results', []):
-              # Only include items with wrapperType == 'podcastEpisode', which filters out the podcast itself
-              if episode.get('wrapperType') == 'podcastEpisode':
-                  episode_title = episode.get('trackName')
-                  episode_url = episode.get('trackViewUrl')
-                  episode_id = episode.get('trackId')
-                  release_date = episode.get('releaseDate')
-                  # Include all episodes, not just those with "gegenwartscheck" in the title
-                  episodes.append({
-                      "title": episode_title,
-                      "url": episode_url,
-                      "episode_id": episode_id,
-                      "release_date": release_date
-                  })
+          limit = 100  # Apple API allows up to 100 episodes per request
+          offset = 0
           
-          # Limit to 20 episodes if we got more
-          episodes = episodes[:20]
+          while True:
+              url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit={limit}&offset={offset}'
+              response = requests.get(url)
+              data = response.json()
+              
+              new_episodes = []
+              for episode in data.get('results', []):
+                  # Only include items with wrapperType == 'podcastEpisode', which filters out the podcast itself
+                  if episode.get('wrapperType') == 'podcastEpisode':
+                      episode_title = episode.get('trackName')
+                      episode_url = episode.get('trackViewUrl')
+                      episode_id = episode.get('trackId')
+                      release_date = episode.get('releaseDate')
+                      # Include all episodes, not just those with "gegenwartscheck" in the title
+                      new_episodes.append({
+                          "title": episode_title,
+                          "url": episode_url,
+                          "episode_id": episode_id,
+                          "release_date": release_date
+                      })
+              
+              if not new_episodes:
+                  break
+              
+              episodes.extend(new_episodes)
+              offset += limit
+              
+              # If we got fewer results than the limit, we've reached the end
+              if len(new_episodes) < limit:
+                  break
+          
+          print(f"Found {len(episodes)} episodes")
           
           # Save to file
           with open('episode_links.json', 'w') as f:
@@ -70,12 +84,13 @@ jobs:
               f.write(f"episode_links={episode_links_json}\n")
           
           print(f"Found {len(episodes)} episodes:")
-          for ep in episodes:
+          for ep in episodes[:10]:  # Print first 10 episodes for brevity
               print(f"- {ep['title']}: {ep['url']}")
+          print("...and more")
           EOF
       
       - name: Upload episode links as artifact
         uses: actions/upload-artifact@v4
         with:
           name: episode-links
-          path: episode_links.json 
+          path: episode_links.json

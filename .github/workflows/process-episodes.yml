@@ -7,10 +7,10 @@ on:
       - completed
   workflow_dispatch:
 
-# Add permissions to allow reading artifacts from other workflows and triggering workflows
+# Add permissions to allow reading artifacts from other workflows and committing to the repo
 permissions:
   actions: write
-  contents: read
+  contents: write
 
 jobs:
   setup:
@@ -71,6 +71,10 @@ jobs:
           # Use jq to format the JSON properly
           EPISODE_LINKS=$(cat episode_links.json | jq -c .)
           echo "episode_links=${EPISODE_LINKS}" >> $GITHUB_OUTPUT
+      
+      - name: Create data/raw directory
+        run: |
+          mkdir -p data/raw
   
   process-episodes:
     needs: setup
@@ -84,6 +88,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Create data/raw directory
+        run: |
+          mkdir -p data/raw
       
       - name: Launch Podcasts
         run: |
@@ -167,27 +175,23 @@ jobs:
         run: |
           zip -r "${{ steps.safe-filename.outputs.safe_title }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
       
-      - name: Upload Cache Folder
+      - name: Upload Cache Folder to data/raw
+        run: |
+          mkdir -p data/raw
+          mv "${{ steps.safe-filename.outputs.safe_title }}_cache.zip" "data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
+          echo "Cache saved to data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
+      
+      - name: Upload Cache as Artifact (backup)
         uses: actions/upload-artifact@v4
         with:
           name: transcript-cache-${{ github.run_id }}-${{ strategy.job-index }}
-          path: "${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
+          path: "data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
       
-      - name: Trigger Extract Transcript workflow
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'extract-transcript.yml',
-              ref: 'main',
-              inputs: {
-                episode_title: '${{ matrix.episode.title }}',
-                episode_id: '${{ matrix.episode.episode_id }}',
-                release_date: '${{ matrix.episode.release_date }}',
-                run_id: '${{ github.run_id }}',
-                job_index: '${{ strategy.job-index }}'
-              }
-            }); 
+      # Commit changes to data/raw
+      - name: Commit Changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add data/raw/
+          git commit -m "Add transcript cache for episode ${{ matrix.episode.title }}" || echo "No changes to commit"
+          git push
