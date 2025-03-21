@@ -3,25 +3,12 @@ name: Extract Podcast Transcript
 on:
   workflow_dispatch:
     inputs:
-      episode_title:
-        description: 'Episode title'
-        required: true
-      episode_id:
-        description: 'Episode ID'
+      specific_file:
+        description: 'Specific file to process (leave empty to process all)'
         required: false
-      release_date:
-        description: 'Episode release date'
-        required: false
-      run_id:
-        description: 'Run ID of the process-episodes workflow'
-        required: true
-      job_index:
-        description: 'Job index from the matrix'
-        required: true
 
-# Add permissions to allow reading artifacts from other workflows
+# Add permissions to allow writing to the repository
 permissions:
-  actions: read
   contents: write
 
 jobs:
@@ -42,49 +29,42 @@ jobs:
           python -m pip install --upgrade pip
           pip install lxml beautifulsoup4
       
-      - name: Download cache artifact
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: ${{ github.event.inputs.run_id }},
-            });
-            
-            const matchArtifact = artifacts.data.artifacts.find(artifact => {
-              return artifact.name == "transcript-cache-${{ github.event.inputs.run_id }}-${{ github.event.inputs.job_index }}"
-            });
-            
-            if (!matchArtifact) {
-              core.setFailed('No transcript cache artifact found');
-              return;
-            }
-            
-            const download = await github.rest.actions.downloadArtifact({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              artifact_id: matchArtifact.id,
-              archive_format: 'zip',
-            });
-            
-            const fs = require('fs');
-            fs.writeFileSync('transcript-cache.zip', Buffer.from(download.data));
-      
-      - name: Extract cache artifact
+      - name: Process cache files from data/raw
         run: |
-          mkdir -p cache
-          unzip -o transcript-cache.zip -d cache
+          # Create directories
+          mkdir -p cache/extracted
+          mkdir -p data/transcripts
           
-          # Extract the inner zip file
-          find cache -name "*.zip" -exec unzip -o {} -d cache/extracted \;
+          # Determine which files to process
+          if [ -n "${{ github.event.inputs.specific_file }}" ]; then
+            CACHE_FILES=("data/raw/${{ github.event.inputs.specific_file }}")
+            echo "Processing specific file: ${CACHE_FILES[0]}"
+          else
+            CACHE_FILES=(data/raw/*.zip)
+            echo "Processing all zip files in data/raw/ directory"
+          fi
           
-          # List the contents to debug
-          find cache -type f | grep -i ttml || echo "No TTML files found"
-      
-      - name: Create episode title file
-        run: |
-          echo '${{ github.event.inputs.episode_title }}' > episode_title.txt
+          # Process each zip file
+          for zip_file in "${CACHE_FILES[@]}"; do
+            if [ -f "$zip_file" ]; then
+              echo "Extracting $zip_file"
+              # Extract the episode ID from the filename
+              EPISODE_ID=$(basename "$zip_file" _cache.zip)
+              
+              # Create a directory for this specific episode
+              mkdir -p "cache/extracted/$EPISODE_ID"
+              
+              # Extract the zip file
+              unzip -o "$zip_file" -d "cache/extracted/$EPISODE_ID"
+              
+              echo "Extracted contents of $zip_file to cache/extracted/$EPISODE_ID"
+            else
+              echo "File not found: $zip_file"
+            fi
+          done
+          
+          # List the extracted contents to debug
+          find cache/extracted -type f | grep -i ttml || echo "No TTML files found"
       
       - name: Process TTML files and extract transcript
         run: |
@@ -98,13 +78,9 @@ jobs:
           # Create data directory if it doesn't exist
           os.makedirs('data/transcripts', exist_ok=True)
           
-          # Read episode title from file to avoid quote issues
-          with open('episode_title.txt', 'r', encoding='utf-8') as f:
-              episode_title = f.read().strip()
-          
           # Find all TTML files in the cache directory
           ttml_files = []
-          for root, dirs, files in os.walk('cache'):
+          for root, dirs, files in os.walk('cache/extracted'):
               for file in files:
                   if file.endswith('.ttml'):
                       ttml_files.append(os.path.join(root, file))
@@ -115,6 +91,11 @@ jobs:
           for ttml_file in ttml_files:
               try:
                   print(f"Processing {ttml_file}")
+                  
+                  # Extract episode ID from the directory structure
+                  # Path format: cache/extracted/EPISODE_ID/...
+                  path_parts = ttml_file.split(os.sep)
+                  episode_id = path_parts[2] if len(path_parts) > 2 else None
                   
                   # Parse the TTML file
                   with open(ttml_file, 'r', encoding='utf-8') as f:
@@ -127,6 +108,17 @@ jobs:
                       continue
                   
                   podcast_id = match.group(1)
+                  
+                  # Try to extract episode title from the TTML metadata
+                  episode_title = None
+                  metadata = soup.find('metadata')
+                  if metadata:
+                      title_elem = metadata.find('title')
+                      if title_elem and title_elem.text:
+                          episode_title = title_elem.text.strip()
+                  
+                  if not episode_title:
+                      episode_title = f"Episode {episode_id}"
                   
                   # Extract transcript content
                   transcript_chunks = []
@@ -197,29 +189,24 @@ jobs:
                           
                           transcript_chunks.append(transcript_chunk)
                   
-                  # Create a safe filename
-                  # Use episode_id if available, otherwise use the title
-                  episode_id = "${{ github.event.inputs.episode_id }}"
-                  if episode_id and episode_id != '':
+                  # Create a safe filename using episode_id
+                  if episode_id:
                       output_file = f"data/transcripts/{episode_id}_transcript.json"
                   else:
-                      # Fallback to title-based naming for backward compatibility
+                      # Fallback to a safe title derived from the episode title
                       safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
                       output_file = f"data/transcripts/{safe_title}_transcript.json"
                       print("Warning: Using title-based filename because episode_id is not available")
                   
-                  # Get release date if available, otherwise use current date
-                  release_date = "${{ github.event.inputs.release_date }}"
-                  if not release_date or release_date == '':
-                      release_date = datetime.now().isoformat()
+                  # Get the current date for metadata
+                  current_date = datetime.now().isoformat()
                   
                   with open(output_file, 'w', encoding='utf-8') as f:
                       json.dump({
                           'episode_title': episode_title,
                           'podcast_id': podcast_id,
-                          'episode_id': episode_id if episode_id and episode_id != '' else None,
-                          'release_date': release_date,
-                          'extracted_date': datetime.now().isoformat(),
+                          'episode_id': episode_id,
+                          'extracted_date': current_date,
                           'transcript': transcript_chunks
                       }, f, indent=2, ensure_ascii=False)
                   
@@ -227,6 +214,8 @@ jobs:
                   
               except Exception as e:
                   print(f"Error processing {ttml_file}: {e}")
+                  import traceback
+                  traceback.print_exc()
           EOF
       
       - name: Commit transcript data
@@ -234,5 +223,5 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add data/transcripts/
-          git commit -m "Add transcript for ${{ github.event.inputs.episode_title }}" || echo "No changes to commit"
-          git push 
+          git commit -m "Add transcripts from data/raw cache files" || echo "No changes to commit"
+          git push
