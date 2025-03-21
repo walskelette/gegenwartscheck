@@ -78,6 +78,29 @@ jobs:
           # Create data directory if it doesn't exist
           os.makedirs('data/transcripts', exist_ok=True)
           
+          # Load episode links data for titles and release dates if available
+          episode_metadata = {}
+          episode_links_path = 'data/episodes/episode_links.json'
+          
+          if os.path.exists(episode_links_path):
+              try:
+                  with open(episode_links_path, 'r', encoding='utf-8') as f:
+                      episodes_data = json.load(f)
+                      
+                      # Create a lookup dictionary by episode_id
+                      for episode in episodes_data:
+                          episode_id = str(episode.get('episode_id'))
+                          if episode_id:
+                              episode_metadata[episode_id] = {
+                                  'title': episode.get('title'),
+                                  'release_date': episode.get('release_date')
+                              }
+                  print(f"Loaded metadata for {len(episode_metadata)} episodes")
+              except Exception as e:
+                  print(f"Error loading episode links: {e}")
+          else:
+              print(f"Warning: Episode links file not found at {episode_links_path}")
+          
           # Find all TTML files in the cache directory
           ttml_files = []
           for root, dirs, files in os.walk('cache/extracted'):
@@ -109,14 +132,32 @@ jobs:
                   
                   podcast_id = match.group(1)
                   
-                  # Try to extract episode title from the TTML metadata
+                  # Get episode title from metadata or fallback to TTML
                   episode_title = None
-                  metadata = soup.find('metadata')
-                  if metadata:
-                      title_elem = metadata.find('title')
-                      if title_elem and title_elem.text:
-                          episode_title = title_elem.text.strip()
+                  upload_date = None
                   
+                  # First check if we have metadata from episode_links.json
+                  if episode_id in episode_metadata:
+                      episode_title = episode_metadata[episode_id].get('title')
+                      
+                      # Extract just the date part from the release date (format: 2021-04-12T07:00:00Z)
+                      release_date_str = episode_metadata[episode_id].get('release_date')
+                      if release_date_str:
+                          try:
+                              # Extract just the date part
+                              upload_date = release_date_str.split('T')[0]
+                          except Exception as e:
+                              print(f"Error parsing release date {release_date_str}: {e}")
+                  
+                  # If no title from metadata, try to get it from TTML
+                  if not episode_title:
+                      metadata = soup.find('metadata')
+                      if metadata:
+                          title_elem = metadata.find('title')
+                          if title_elem and title_elem.text:
+                              episode_title = title_elem.text.strip()
+                  
+                  # Final fallback for title
                   if not episode_title:
                       episode_title = f"Episode {episode_id}"
                   
@@ -127,40 +168,35 @@ jobs:
                   for chunk in speaking_chunks:
                       speaker = chunk.get('ttm:agent', 'Unknown')
                       
-                      # Extract time information (begin and end attributes)
+                      # Extract time information (begin attribute only)
                       begin_time = chunk.get('begin', '')
-                      end_time = chunk.get('end', '')
                       
                       # Convert time format to seconds if available
                       begin_seconds = 0
-                      end_seconds = 0
-                      duration_seconds = 0
                       
                       if begin_time:
                           # TTML time format is typically HH:MM:SS.sss
                           try:
-                              time_parts = begin_time.replace(':', '.').split('.')
-                              if len(time_parts) >= 3:
-                                  hours = int(time_parts[0]) if time_parts[0] else 0
-                                  minutes = int(time_parts[1]) if time_parts[1] else 0
-                                  seconds = float('.'.join(time_parts[2:]))
-                                  begin_seconds = hours * 3600 + minutes * 60 + seconds
+                              # First handle the case where we have hours
+                              if ':' in begin_time:
+                                  time_parts = begin_time.split(':')
+                                  hours = int(time_parts[0]) if len(time_parts) > 2 else 0
+                                  minutes = int(time_parts[-2]) if len(time_parts) > 1 else 0
+                                  
+                                  # For seconds, handle milliseconds properly
+                                  seconds_parts = time_parts[-1].split('.')
+                                  seconds = int(seconds_parts[0])
+                                  milliseconds = int(seconds_parts[1]) if len(seconds_parts) > 1 else 0
+                                  
+                                  begin_seconds = hours * 3600 + minutes * 60 + seconds + (milliseconds / 1000)
+                              else:
+                                  # Handle simple seconds.milliseconds format
+                                  seconds_parts = begin_time.split('.')
+                                  seconds = int(seconds_parts[0])
+                                  milliseconds = int(seconds_parts[1]) if len(seconds_parts) > 1 else 0
+                                  begin_seconds = seconds + (milliseconds / 1000)
                           except Exception as e:
                               print(f"Error parsing begin time {begin_time}: {e}")
-                      
-                      if end_time:
-                          try:
-                              time_parts = end_time.replace(':', '.').split('.')
-                              if len(time_parts) >= 3:
-                                  hours = int(time_parts[0]) if time_parts[0] else 0
-                                  minutes = int(time_parts[1]) if time_parts[1] else 0
-                                  seconds = float('.'.join(time_parts[2:]))
-                                  end_seconds = hours * 3600 + minutes * 60 + seconds
-                          except Exception as e:
-                              print(f"Error parsing end time {end_time}: {e}")
-                      
-                      if begin_seconds and end_seconds:
-                          duration_seconds = end_seconds - begin_seconds
                       
                       # Extract sentences
                       sentences = []
@@ -174,18 +210,9 @@ jobs:
                       if text.strip():  # Only add non-empty chunks
                           transcript_chunk = {
                               'speaker': speaker,
-                              'text': text
+                              'text': text,
+                              'begin_seconds': begin_seconds
                           }
-                          
-                          # Add time information if available
-                          if begin_time:
-                              transcript_chunk['begin_time'] = begin_time
-                              transcript_chunk['begin_seconds'] = begin_seconds
-                          if end_time:
-                              transcript_chunk['end_time'] = end_time
-                              transcript_chunk['end_seconds'] = end_seconds
-                          if begin_seconds and end_seconds:
-                              transcript_chunk['duration_seconds'] = duration_seconds
                           
                           transcript_chunks.append(transcript_chunk)
                   
@@ -198,17 +225,22 @@ jobs:
                       output_file = f"data/transcripts/{safe_title}_transcript.json"
                       print("Warning: Using title-based filename because episode_id is not available")
                   
-                  # Get the current date for metadata
-                  current_date = datetime.now().isoformat()
+                  # Prepare output JSON
+                  output_data = {
+                      'episode_title': episode_title,
+                      'podcast_id': podcast_id,
+                      'episode_id': episode_id
+                  }
+                  
+                  # Add upload date if available
+                  if upload_date:
+                      output_data['upload_date'] = upload_date
+                  
+                  # Add transcript data
+                  output_data['transcript'] = transcript_chunks
                   
                   with open(output_file, 'w', encoding='utf-8') as f:
-                      json.dump({
-                          'episode_title': episode_title,
-                          'podcast_id': podcast_id,
-                          'episode_id': episode_id,
-                          'extracted_date': current_date,
-                          'transcript': transcript_chunks
-                      }, f, indent=2, ensure_ascii=False)
+                      json.dump(output_data, f, indent=2, ensure_ascii=False)
                   
                   print(f"Saved transcript to {output_file}")
                   
