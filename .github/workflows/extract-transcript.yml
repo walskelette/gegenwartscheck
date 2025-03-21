@@ -114,8 +114,6 @@ jobs:
                   show_id = "3sObg5LiElhdkjCVGYyuGG"  # Gegenwartscheck on Spotify
                   
                   # Get Spotify access token (using client credentials flow)
-                  # In a real workflow, you'd store these securely in GitHub Secrets
-                  # This is a simplified example - in production, use GitHub secrets
                   client_id = os.environ.get('SPOTIFY_CLIENT_ID')
                   client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
                   
@@ -123,17 +121,25 @@ jobs:
                       print("Missing Spotify credentials, skipping Spotify ID lookup")
                       return None
                   
+                  # Create base64 encoded Authorization header (Basic auth)
+                  import base64
+                  auth_bytes = f"{client_id}:{client_secret}".encode('ascii')
+                  auth_header = base64.b64encode(auth_bytes).decode('ascii')
+                  
+                  # Request the access token
                   auth_response = requests.post(
                       'https://accounts.spotify.com/api/token',
+                      headers={
+                          'Authorization': f'Basic {auth_header}',
+                          'Content-Type': 'application/x-www-form-urlencoded'
+                      },
                       data={
-                          'grant_type': 'client_credentials',
-                          'client_id': client_id,
-                          'client_secret': client_secret,
+                          'grant_type': 'client_credentials'
                       }
                   )
                   
                   if auth_response.status_code != 200:
-                      print(f"Failed to get Spotify token: {auth_response.status_code}")
+                      print(f"Failed to get Spotify token: {auth_response.status_code}, {auth_response.text}")
                       return None
                       
                   auth_data = auth_response.json()
@@ -151,18 +157,23 @@ jobs:
                   )
                   
                   if response.status_code != 200:
-                      print(f"Failed to get Spotify episodes: {response.status_code}")
+                      print(f"Failed to get Spotify episodes: {response.status_code}, {response.text}")
                       return None
                       
                   episodes = response.json()
+                  print(f"Successfully retrieved {len(episodes['items'])} episodes from Spotify")
                   
                   # Search for matching episode based on release date
                   for episode in episodes['items']:
                       episode_date = episode['release_date']  # Format: YYYY-MM-DD
+                      
+                      print(f"Comparing Spotify episode: '{episode['name']}' ({episode_date}) with podcast episode: '{title}' ({upload_date})")
+                      
                       if episode_date == upload_date:
                           # We found a date match, now check title similarity
                           # For simplicity, we're using a basic contains check
                           if title.lower() in episode['name'].lower() or episode['name'].lower() in title.lower():
+                              print(f"Found matching Spotify episode: {episode['id']} for {title}")
                               return episode['id']
                   
                   print(f"No matching Spotify episode found for {title} ({upload_date})")
