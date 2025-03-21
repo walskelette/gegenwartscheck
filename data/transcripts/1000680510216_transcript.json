@@ -1,1392 +1,778 @@
 {
-  "episode_title": "Episode 1000680510216",
+  "episode_title": "Warum wir uns nach gutem Streit sehnen",
   "podcast_id": "1000680510216",
   "episode_id": "1000680510216",
-  "extracted_date": "2025-03-21T22:00:45.756336",
+  "upload_date": "2024-12-16",
   "transcript": [
     {
       "speaker": "SPEAKER_2",
       "text": "Herzlich willkommen, liebe Zuhörer, bei der neuesten Folge der sogenannten Gegenwart. Ich sitze hier mit meinem Kollegen Lars Weißbrod und selbst bin ich Idroman Mangold. Wir beide sind aus dem Föhton der Zeit und werden in dieser Woche über welches Thema streiten, mein lieber Lars.",
-      "begin_time": "11.132",
-      "begin_seconds": 0,
-      "end_time": "32.172",
-      "end_seconds": 0
+      "begin_seconds": 11.132
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Wir wollen uns mal über den Streit streiten. Wir wollen uns beschäftigen mit der großen politischen Frage, ob wir verlernt haben, zu streiten, richtig zu streiten. Es steht ja immer die große These im Raum, dass unsere gesellschaftlichen Unwuchten damit zu tun haben, dass wir entweder zu wenig streiten und zu konformistisch sind oder wenn wir streiten, dann und da greife ich jetzt direkt voraus in einen Begriffsvokabular, auf das wir gleich zurückkommen, uns nicht mehr als Gegner, sondern als Feinde begreifen. Also entweder wir streiten zu wenig und sind zu kuschelig oder wir wünschen uns gleich alles Schlimme und Gewalt an den Hals. Gleichzeitig, wir sind ja schon im Dezember, es ist ja bald Weihnachten, vielleicht sollte auch die private Ebene hier in dem Podcast eine Rolle spielen, denn es ist ja so der Standard Twitterwitz an Weihnachten, da kommt der Onkel, der AfD wählt, mit dem wird dann politisch gestritten, aber es wird auch privat und politisch an Weihnachten gestritten, wenn die Familie zusammenrückt, ist noch mal das Streitpotenzial hoch. Deswegen dachten wir, das ist die Gegenwart jetzt im Dezember, politisch privat, wo man mal über das Streiten reden müsste.",
-      "begin_time": "32.172",
-      "begin_seconds": 0,
-      "end_time": "1:35.792",
-      "end_seconds": 6492.0
+      "begin_seconds": 32.172
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Sehr schön, dass wir Weihnachten nicht ganz kalt und herzlos links liegen lassen, es zumindest ex negativo hier in unserem Kalender eingebaut haben. Aber vorher machen wir den Gegenwartsteck.",
-      "begin_time": "1:36.192",
-      "begin_seconds": 5952.0,
-      "end_time": "1:47.112",
-      "end_seconds": 6532.0,
-      "duration_seconds": 580.0
+      "begin_seconds": 96.192
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nein, noch vorher will ich den Streit gleich schon anfangen, weil ich es nicht...",
-      "begin_time": "1:47.112",
-      "begin_seconds": 6532.0,
-      "end_time": "1:51.732",
-      "end_seconds": 7392.0,
-      "duration_seconds": 860.0
+      "begin_seconds": 107.112
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Vorüber.",
-      "begin_time": "1:51.732",
-      "begin_seconds": 7392.0,
-      "end_time": "1:52.652",
-      "end_seconds": 7372.0,
-      "duration_seconds": -20.0
+      "begin_seconds": 111.732
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, ja.",
-      "begin_time": "1:52.652",
-      "begin_seconds": 7372.0,
-      "end_time": "1:53.372",
-      "end_seconds": 7152.0,
-      "duration_seconds": -220.0
+      "begin_seconds": 112.652
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich bin mir völlig schleier, woran du jetzt schon wieder Anstoß nehmen magst.",
-      "begin_time": "1:53.372",
-      "begin_seconds": 7152.0,
-      "end_time": "1:57.892",
-      "end_seconds": 7912.0,
-      "duration_seconds": 760.0
+      "begin_seconds": 113.372
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Jetzt schon. Sind erst einen halben Tag hier im Urlaub und schon...",
-      "begin_time": "1:57.912",
-      "begin_seconds": 7932.0,
-      "end_time": "2:03.112",
-      "end_seconds": 7492.0,
-      "duration_seconds": -440.0
+      "begin_seconds": 117.912
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, genau.",
-      "begin_time": "2:03.512",
-      "begin_seconds": 7892.0,
-      "end_time": "2:04.452",
-      "end_seconds": 7892.0,
-      "duration_seconds": 0.0
+      "begin_seconds": 123.512
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nein, aber ich gendere ja nicht. Ich halte es aber auch für falsch, nur die Zuhörer zu begrüßen. Weil das ist, um ein großes Wort zu benutzen, reaktionär und fällt ja hinter das zurück, was selbst in der Samstagabendunterhaltung, was selbst ein konservativer Thomas Gottschalk sein Leben lang gemacht hat, nämlich die Damen und Herren zu begrüßen. Also deswegen finde ich schon an der Stelle würdig anders als du. Du hast dankenswerterweise ein tolles Intro gesprochen, ja. Aber da würde ich dann schon sagen...",
-      "begin_time": "2:04.452",
-      "begin_seconds": 7892.0,
-      "end_time": "2:32.492",
-      "end_seconds": 9612.0,
-      "duration_seconds": 1720.0
+      "begin_seconds": 124.452
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich fand das auch ziemlich gut.",
-      "begin_time": "2:32.492",
-      "begin_seconds": 9612.0,
-      "end_time": "2:33.732",
-      "end_seconds": 9912.0,
-      "duration_seconds": 300.0
+      "begin_seconds": 152.492
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich fand es ziemlich gut, aber da würde ich jetzt sagen, liebe Zuhörerinnen und Zuhörer.",
-      "begin_time": "2:33.732",
-      "begin_seconds": 9912.0,
-      "end_time": "2:37.232",
-      "end_seconds": 9652.0,
-      "duration_seconds": -260.0
+      "begin_seconds": 153.732
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Okay, ich bin aber, gehöre zu der Schule, die von Svenja Flasspöler, die nachher in unserer Sendung auch eine Rolle spielen wird und von unserer Kollegin Nele Polacek angeführt wird. Ich gehöre zur Schule der Verteidiger des generischen Maskulinums. Ich bin der Meinung, das hat überhaupt gar nichts mit einem biologischen oder sozialen Geschlecht zu tun, sondern ist einfach nur eine grammatische Kategorie, derer ich mich bediene. Insofern ist das nicht reaktionär, sondern trotzig. Ist da ein Unterschied?",
-      "begin_time": "2:37.232",
-      "begin_seconds": 9652.0,
-      "end_time": "3:07.872",
-      "end_seconds": 12092.0,
-      "duration_seconds": 2440.0
+      "begin_seconds": 157.232
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, auf trotz kommen wir vielleicht gleich auch zurück. Das hat ja auch viel mit Streiten zu tun. Aber wie du schon gesagt hast, legen wir los mit dem Check. Willst du anfangen?",
-      "begin_time": "3:09.212",
-      "begin_seconds": 11552.0,
-      "end_time": "3:17.832",
-      "end_seconds": 12652.0,
-      "duration_seconds": 1100.0
+      "begin_seconds": 189.212
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, das erste Phänomen ist eine Unsitte, die ich geißeln möchte, die sich neuerdings auf Facebook und auf Twitter breit macht. Ich kenne halt TikTok nicht, deswegen kann ich das jetzt nicht in die übliche Reihung mit einbeziehen. Ich stelle mir vor, da lässt sich sowas aber auch gar nicht in dieser Weise adressieren. Nämlich, dass man einen Videoclip ist, das meistens postet und drunter schreibt, ist das echt? Und es ist natürlich immer eine rein rhetorische Frage. Denn was man da brand mag, ist gewissermaßen der politische Gegner. Eine Figur, die man abgrundtief verabscheut hat etwas gesagt, was man so die Insinuation selbst dem schlimmsten Feind, um den es sich da handelt, eigentlich nicht zugetraut hat, weshalb der Verdacht aufkommt, dass es möglicherweise nur eine Manipulation der KI ist. Aber nein, leider stellt sich heraus, es ist leider doch echt so schlimm. Der ist ja noch schlimmer als ich gedacht habe. Ist das echt?",
-      "begin_time": "3:17.832",
-      "begin_seconds": 12652.0,
-      "end_time": "4:17.472",
-      "end_seconds": 15892.0,
-      "duration_seconds": 3240.0
+      "begin_seconds": 197.832
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Christian Lindner hat wirklich gesagt, wir müssen mehr Masken und Mähler wagen. Ja, schön gesehen, schöne Beobachtung. Da kann ich ganz unverstritten, unstrittig sofort einen Punkt für geben. Es ist natürlich reizig ein in eine ganze Reihe von ähnlichen Formulierungen. Früher hieß es auf Twitter immer, kannst du dir nicht ausdenken. Stimmt. Das war ja so ähnlich, also immer so zu behaupten, alles ist, was die da machen, da drüben, die anderen, das ist so, das kann gar nicht Teil dieser echten Welt, das muss halt als einer anderen Welt stammen. Ja. Und es ist immer dieses, ist das echt, ja, sehr schön, ja, super. Ich mach direkt weiter mit einem anderen Internet-Ding. Meinst du, ist es ein bisschen spezieller?",
-      "begin_time": "4:18.252",
-      "begin_seconds": 15732.0,
-      "end_time": "4:58.272",
-      "end_seconds": 18152.0,
-      "duration_seconds": 2420.0
+      "begin_seconds": 258.252
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Wobei, wenn ich das nur kurz anmelden darf, weil jetzt geht's mir auch auf. Natürlich ist das echt die Weiterentwicklung, weil als du noch schriebst, kannst du dir nicht ausdenken, gab's KI noch nicht. Und jetzt nutzt man die KI als die scheinbare in Fragestellung der Echtheit.",
-      "begin_time": "4:58.272",
-      "begin_seconds": 18152.0,
-      "end_time": "5:11.272",
-      "end_seconds": 18932.0,
-      "duration_seconds": 780.0
+      "begin_seconds": 298.272
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich hab ein anderes Internet-Ding, das ist ein bisschen nischiger, aber ich find's trotzdem interessant. Und zwar wird als Meme benutzt, sowohl als Bild-Meme, aber auch der Satz, also einfach als Pattern oder sprachliche Verwendung, die dann immer wieder auftaucht. Die Formulierung Gott Strafe, hm hm hm. Ja.",
-      "begin_time": "5:11.272",
-      "begin_seconds": 18932.0,
-      "end_time": "5:29.952",
-      "end_seconds": 20692.0,
-      "duration_seconds": 1760.0
+      "begin_seconds": 311.272
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das ist der Morgengruß während des ersten Weltkriegs. Da sagte man in Deutschland Gott Strafe England.",
-      "begin_time": "5:29.952",
-      "begin_seconds": 20692.0,
-      "end_time": "5:35.032",
-      "end_seconds": 20132.0,
-      "duration_seconds": -560.0
+      "begin_seconds": 329.952
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau. Darauf geht es zurück. Und das ist auch das Originalbild, wo dann England überschrieben wird mit irgendwas anderem, was gerade lustig ist. Gott Strafe die FDP oder so. Da ist meistens so eine eiserne Faust wie aus so einem Mittelalter-Ritterrüstungshandschuh, die so auf England draufhaut. Und dann steht so drüber Gott Strafe England. Das ist glaube ich sogar eine Briefmarke oder so, die da immer benutzt wird als Optik. Kann es sein, dass es damals Briefmarken gab, auf denen sowas drauf war? Ja, oder? Im ersten Weltkrieg wird man vielleicht auch Briefmarken mit sowas gedruckt haben. Egal. Also so ein Bild, das wird immer benutzt. Und für alles Mögliche. Also die Verwendungsweise ist gar nicht so richtig einzugrenzen. Ein Linker sagt dann Gottstrafe die FDP, weil sie so nervt jemand anderes. Meistens ist es nur ein Gag wie Gottstrafe Pizza Hawaii, weil ich die so blöd finde oder so. Ich finde es deswegen interessant, weil es ist zum ersten Mal, es ist kein NS-Vokabular im engeren Sinne, richtig? Weil es ist ja schon aus dem ersten Weltkrieg. Absolut. Trotzdem ist es, also soweit ist es noch nicht, aber trotzdem ist es natürlich tief nationalistisches, chauvinistisches, kriegstreiberisches Vokabular voller Hass, was jetzt von Deutschen aber einfach so lustig benutzt wird, um es ja so halbaffirmativ, also man grenzt sich ja nicht davon ab, sondern man ist derjenige, der sagt, Gottstrafe, Pizza Hawaii zu benutzen. Und das fand ich schon interessant, dass zum ersten Mal, dass ich sehe, dass sowas so deutsch-nationale Propaganda aus dem ersten Weltkrieg so benutzt wird.",
-      "begin_time": "5:35.452",
-      "begin_seconds": 20552.0,
-      "end_time": "6:54.512",
-      "end_seconds": 25352.0,
-      "duration_seconds": 4800.0
+      "begin_seconds": 335.452
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Hochinteressant. Mir ist es nicht begegnet, aber ich finde es ein sehr interessantes Phänomen. Die Frage lautet ja immer, wo ist der Bereich des Erlaubten für spielerisch frivole Anspielungen? Und da ist es interessant zu sehen, dass der erste Weltkrieg offensichtlich jetzt zu den Spielkarten gehört, die man schon mal ziehen darf. Das hängt möglicherweise, ich hatte gerade einen interessanten Podcast mit dem eminenten Historiker Christopher Clarke gehört. Da ging es eben auch um die Frage der Erinnerung und ob wir eine zu starke Fixierung haben auf das Dritte Reich. Also die Grundfrage, kleine Abschweifung, aber ich fand es doch sehr interessant, die Grundfrage war, bringen historische Vergleiche etwas? Und dann sagt Clarke, ja, durchaus, aber die Geschichte ist mehr als nur die Zeit zwischen 33 und 45. Und wir neigen dazu historische Vergleiche immer nur oder allenfalls noch den Weimar-Vergleich, der dann zu 33 führte. Während er sagt, die viel spannendere Referenz seit des 19. Jahrhunderts, da würden nun gerade zum Beispiel auch mit Blick auf russischen Imperialismus und so weiter die fruchtbareren Vergleiche herkommen. Und dann macht er eben auch wiederum einen Schlenker zum ersten Weltkrieg und erinnert an eine Debatte, ich kannte die nicht, da war Boris Johnson noch Bürgermeister von London, wo die Konservativen, die Tories massiv daran festhielten an der allein Schuld Deutschlands am ersten Weltkrieg. Und für Christopher Clarke, der ja das berühmte große Buch, die Schlafwandler geschrieben hat, ist das eine irrige Annahme. Und insofern gilt Christopher Clarke, Schlafwandeln sind alle europäischen Mächte oder die Mächte im Concerto Grosso der Europäischen Nation sind gemeinsam gewissermaßen in diesen ersten Weltkrieg hineingetaumelt. Er galt dann eben als ein unpatriotischer linker Historiker aus der Perspektive der Tories. Während er gleichzeitig, und jetzt kommt der direkte Anknüpfungspunkt an das, was du sagst, in Deutschland auch ein wenig misstrauisch beäugt wurde. Und zwar mit umgekehrten Vorzeichen, weil man das ja nun aus dem deutschen Bedürfnis doch alle Schuld der Welt auf sich zu nehmen. Eigentlich an der Alleinschuld-These, ich glaube der Historiker hieß Fischer, der die in die Welt gesetzt hat, aber das müsste von der Dokumentation entgegengecheckt werden, dass man eigentlich gerne an der Alleinschuld-These festgehalten hätte. Und ich finde, das, was du jetzt beschreibst, Gottstrafe England, ist ein Zeichen dafür, dass wir jetzt auf Christopher-Clark-Linie sind.",
-      "begin_time": "6:54.512",
-      "begin_seconds": 25352.0,
-      "end_time": "9:09.232",
-      "end_seconds": 33172.0,
-      "duration_seconds": 7820.0
+      "begin_seconds": 414.512
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, dann bist du dran, oder? Also den Punkt habe ich bekommen, richtig? Nur für die Buchhaltung, ja?",
-      "begin_time": "9:09.232",
-      "begin_seconds": 33172.0,
-      "end_time": "9:14.172",
-      "end_seconds": 33412.0,
-      "duration_seconds": 240.0
+      "begin_seconds": 549.232
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, einen Punkt hast du bekommen. Ich komme jetzt mit einem Vorschlag, den uns ein Hörer mit dem sehr schönen Namen Massimiliano geschickt hat. Und darf ich das vorwegschicken? Ich verstehe, wenn man sagt, das ist jetzt nicht absolut neu, aber es ist so ein größerer Vorgang. Und wir haben noch nicht auf ihm herumgedacht, wie man dann immer so schön sagt. Und das sollten wir zumal der Massimiliano nicht nur die Beobachtung macht, sondern schon auch noch eine interessante Überlegung. Nämlich, das Phänomen ist bekannt, spätestens seit der Übernahme von Twitter oder X durch Elon Musk gibt es jetzt große Migrationswellen, die X verlassen und zu anderen Plattformen überwechseln, wie Blue Sky oder Mastodon oder Nostra. Und soweit bekannt, aber Massimiliano sagt zu Recht, dass diese Erinnerung ihn eigentlich an die traditionelle Presselandschaft erinnert, in der Zeitungen ja immer schon ihre politischen Positionierungen hatten. Das heißt ein konservativer Leser abonnierte die FAZ, ein liberaler Rechtsstaatsverteidiger, die Süddeutsche Zeitung und so weiter und so fort. Wenn Social Media-Schreiben Massimiliano weiterhin diesen Segmentierungstrend folgt, könnte es ähnliche Strukturen wie traditionelle Medien einnehmen, mit Plattformen, die eher linke oder rechte Öffentlichkeiten bedienen. Das bedeutet, wir bewegen uns künftig nicht mehr nur in durch den algorithmusbedingten Bubbles, sondern in abgekapselten, fragmentierten Informationsräumen. Und diese Schlussdeutung, finde ich, ist jetzt das Neue und das Interessante, was darüber nachzudenken lohnt, weil das Wesen der Plattform war bisher ihre Generalität, dass sie eben nicht ideologiespezifisch war. Und wenn die Plattformen sich deswegen jetzt aber multiplizieren, könnte man erstmal sagen, super, da ist ein Monopol gebrochen, wie schön. Jetzt haben wir einen Pluralismus der Plattformen und das läuft eigentlich nach dem alten Muster der Zeitung. Ich weiß jetzt nicht, wie ich es genau bewerte, aber ich finde, dieser Punkt verdient ein Nachdenken.",
-      "begin_time": "9:14.172",
-      "begin_seconds": 33412.0,
-      "end_time": "11:12.812",
-      "end_seconds": 41132.0,
-      "duration_seconds": 7720.0
+      "begin_seconds": 554.172
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, ich verweige den Punkt trotzdem. Nicht nur, weil mir das jetzt schon sozusagen zu oft so gefallen ist als Stichwort dieser Gedanke, sondern weil er, finde ich, eine entscheidende Funktionsweise von Social Media, wie wir es bisher kannten, wie es bisher funktioniert hat, gerade übersieht. Also in dem Sinne finde ich ihn etwas gegenwärts blind. Das ist jetzt gar nicht gegen den Hörer, der das vorgeschlagen hat. Man hört das ja hier und da immer wieder diese Behauptung, jetzt zerfallen sozusagen die Netzwerke in verschiedene politische Blasen. Ich glaube fest weiter daran, dass Twitter auf seinem Höhepunkt deswegen so interessant war, weil man in seiner Blase sich politisch bewegt hat, aber gleichzeitig, so hat das glaube ich Jens Jessen mal bei uns beschrieben in einem sehr schönen Artikel, vielleicht können wir den unten verlinken, die anderen Blasen ja von außen transparent waren. Also du konntest sozusagen im gleichen Netzwerk immer wieder sehen, aha, Ejoma Mangold hat schon wieder was Rechtslibertäres geschrieben und ist das echt, ist das echt, dass ein Zeitredakteur sich so äußert über Geldpolitik? Und das konnte ich dann sozusagen meinen Followern hinwerfen, ja, und die konnten sich sozusagen ihre Blasen darüber aufringen, aber diese von außen Durchsichtigkeit war wichtig, weil sonst wäre es viel langweiliger gewesen. Also ohne diesen, das ist ja auch das politische Problem an diesen Netzwerken, dass ihre ganze Sexiness nur aus diesem politischen Streit, können wir gleich darüber diskutieren, ist das schon ein Streit oder ist das nur, weiß ich nicht, nur Quatsch, besteht. Wenn jetzt die These ist, dass die so die Linksliberalen gehen dahin, die Rechten gehen dahin, die Libertären gehen dahin oder so, wenn das jetzt so ist, dann würde auf jeden Fall das gar kein richtiges Social Media mehr sein, weil die Stimmung wäre so abgekühlt, weil man müsste immer extra rüberkarren, ja, aus dem anderen Netzwerk, irgendein Screenshot oder so. Weil diese Überlegung für mich sehr zentral ist für die Funktionsweise sozialer Netzwerke, verweigere ich auch den Punkt, wenn das okay ist. Sorry.",
-      "begin_time": "11:12.812",
-      "begin_seconds": 41132.0,
-      "end_time": "13:10.032",
-      "end_seconds": 47432.0,
-      "duration_seconds": 6300.0
+      "begin_seconds": 672.812
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Akzeptiert.",
-      "begin_time": "13:10.032",
-      "begin_seconds": 47432.0,
-      "end_time": "13:11.272",
-      "end_seconds": 47732.0,
-      "duration_seconds": 300.0
+      "begin_seconds": 790.032
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, lieber Hörer. Ich hab noch ein letztes und zwar Hexen. Ich glaube, die Hexen sind zurück.",
-      "begin_time": "13:11.272",
-      "begin_seconds": 47732.0,
-      "end_time": "13:16.172",
-      "end_seconds": 47932.0,
-      "duration_seconds": 200.0
+      "begin_seconds": 791.272
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich hab doch gestern einen Text von dir redigiert, da ging es um einen Film über Hexen.",
-      "begin_time": "13:16.172",
-      "begin_seconds": 47932.0,
-      "end_time": "13:19.992",
-      "end_seconds": 48932.0,
-      "duration_seconds": 1000.0
+      "begin_seconds": 796.172
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Richtig, das ist schon mal der allererste Anlass, das große Popkultur-Kinoereignis ist gerade eine Musical-Verfilmung. Sie heißt Wicked und sie erzählt die Geschichte der Hexe von Oz, also aus dem berühmten amerikanischen Film der Zauberer von Oz. Da kommt eine böse Hexe vor und die spielt jetzt nur die Hauptrolle in diesem Film. Also man fokussiert sich auf die Hexe. Außerdem gab es, ich nenne nur zwei andere Beispiele noch, diesen Herbst eine sehr schöne Malvita-Endlich-Comic-Marvel-Serie Agatha All Along. Auch in dieser ging es um eine Gruppe von Hexen, ein Hexenzirkel, mehrere Hexen. Agatha war die Hauptfigur, die sozusagen miteinander ein Abenteuer erleben. Und dann kann man auch noch mit dazu nehmen, weil ich ja nicht müde werde über Dune zu sprechen. Es gibt ja eine neue Dune-Serie nochmal bei HBO, die heißt Dune Prophecy. Und auch dort spielen die sogenannten Bene Gesserit, also ein Orden von Frauen in diesem Dune-Universum, die Hauptrolle. Und die kann man durchaus auch als Hexen, also wie so eine Art Space-Hexen bezeichnen, weil sie auch nach ähnlichen Strukturen funktionieren.",
-      "begin_time": "13:19.992",
-      "begin_seconds": 48932.0,
-      "end_time": "14:26.332",
-      "end_seconds": 52292.0,
-      "duration_seconds": 3360.0
+      "begin_seconds": 799.992
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich dachte, sie funktionieren nach der Struktur eines Nonnenordens.",
-      "begin_time": "14:26.332",
-      "begin_seconds": 52292.0,
-      "end_time": "14:30.812",
-      "end_seconds": 53012.0,
-      "duration_seconds": 720.0
+      "begin_seconds": 866.332
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, jetzt lass mir doch mal das dritte Beispiel.",
-      "begin_time": "14:30.812",
-      "begin_seconds": 53012.0,
-      "end_time": "14:32.472",
-      "end_seconds": 52792.0,
-      "duration_seconds": -220.0
+      "begin_seconds": 870.812
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Hexen ja immer gerade, das nicht geordnete sind. Auf dem Blocksberg toben die rum, ganz chaotisch und strukturlos. Und das gilt doch für diesen Dune-Orden gar nicht, der ist sehr streng hierarchisch.",
-      "begin_time": "14:32.472",
-      "begin_seconds": 52792.0,
-      "end_time": "14:44.152",
-      "end_seconds": 53192.0,
-      "duration_seconds": 400.0
+      "begin_seconds": 872.472
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, okay, gut, okay. Ich zieh das Beispiel, ich zieh das Beispiel, ja, ja, ich zieh das Beispiel Bene Gesserit zurück. Trotzdem bleib ich bei der Meinung, dass gerade viel gehext wird. Das auch so Stichwort Witch Talk lese ich dann immer so auf TikTok. Junge Frauen sich irgendwie emanzibativ bemächtigt fühlen, wenn sie sich zuordnen, ob sie jetzt eine Erdhexe oder eine Wasserhexe sind und welche ob sie Chaos Magie oder Blut Magie benutzen. Interessante Beobachtung, das wird auch bei der Marvel-Serie hier sehr ausführlich gemacht. Es ist aber, das ist schon lange so, in diesen Kreisen wichtig, wenn man von Magic spricht. Also Magic nur mit C hinten, das ist das Alberne für Kinder und fürs Fernsehen. Wenn man wirklich Magie benutzt, ist es Magic mit CK hinten. So schreibt sich das dann. Ich weiß nicht, wer das mal erfunden hat. Ich finde das deswegen...",
-      "begin_time": "14:44.152",
-      "begin_seconds": 53192.0,
-      "end_time": "15:27.892",
-      "end_seconds": 56512.0,
-      "duration_seconds": 3320.0
+      "begin_seconds": 884.152
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Magic mit CK ist dann was?",
-      "begin_time": "15:27.892",
-      "begin_seconds": 56512.0,
-      "end_time": "15:29.952",
-      "end_seconds": 56692.0,
-      "duration_seconds": 180.0
+      "begin_seconds": 927.892
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, damit will man betonen, das ist jetzt ernst gemeint. Also es ist wirklich Magie. Wir nehmen das ernst. Das ist sozusagen nicht der Kinderspaß. Und ich hab auch so eine kleine Interpretation, aber das ist nur so ein Anfangsgedanke. Ich glaube, das ist natürlich alles sehr feministisch und links konnotiert. Alle Beispiele, die ich gerade genannt habe, funktionieren so. Ich glaube, das hat was damit zu tun, dass die Linke gerade nach neuen Wegen damit sucht, mit der Irrationalität umzugehen. Ich mach jetzt einen ganz großen Fass auf, das muss ich kurz machen. Wenn man mal sagt, was ist der Unterschied zwischen rechts und links? Ganz schnell, ganz rough. Könnte man ja einmal sagen, naja, das ist der Unterschied zwischen Zauberberg, das ist doch gerade 100 Jahre alt geworden, zwischen Setembrini und NAFTA. Setembrini ist auf irgendwie links, auf der Seite der Rationalität und der Vernunft. Und NAFTA ist rechts. Das Fortschritts und NAFTA ist rechts auf der Seite des dunkeln, irrationalen...",
-      "begin_time": "15:29.952",
-      "begin_seconds": 56692.0,
-      "end_time": "16:23.432",
-      "end_seconds": 59412.0,
-      "duration_seconds": 2720.0
+      "begin_seconds": 929.952
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Pessimistische Anthropologie.",
-      "begin_time": "16:23.432",
-      "begin_seconds": 59412.0,
-      "end_time": "16:25.912",
-      "end_seconds": 60012.0,
-      "duration_seconds": 600.0
+      "begin_seconds": 983.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, aber auch so ein irrationales Element, des mystischen.",
-      "begin_time": "16:25.912",
-      "begin_seconds": 60012.0,
-      "end_time": "16:29.272",
-      "end_seconds": 59612.0,
-      "duration_seconds": -400.0
+      "begin_seconds": 985.912
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, aber ein durch Vernunft überhaupt... Also gewissermaßen der Intellekt ist so hochgezüchtet, dass er dann wiederum das irrationale Selbst schärfer in den Blick zu nehmen. Also eigentlich auch ein bisschen so Moment Dialektik der Aufklärung.",
-      "begin_time": "16:29.772",
-      "begin_seconds": 60112.0,
-      "end_time": "16:43.772",
-      "end_seconds": 60952.0,
-      "duration_seconds": 840.0
+      "begin_seconds": 989.772
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Und ich hab das Gefühl vielleicht hat diese Hexenbegeisterung was damit zu tun, dass doch Linke versuchen wieder zu sagen, können wir einen Anschluss finden an die behaupteten oder echten irrationalen Kräfte dieser Welt. Nicht, dass die jetzt wirklich denken, es gäbe Blutmagie, aber irgendwie mit dem Gedanken zu spielen, ja mit dem was der Blutmagie entspricht in dieser Welt, ja. Allen Kräften, die nicht rational erklärbar sind. Vielleicht hat es was damit zu tun. Und das wäre meine These, die ich mal in den Raum stelle.",
-      "begin_time": "16:43.772",
-      "begin_seconds": 60952.0,
-      "end_time": "17:07.612",
-      "end_seconds": 62232.0,
-      "duration_seconds": 1280.0
+      "begin_seconds": 1003.772
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich finde es schön, dass du mit einer sehr kühnen These antritt, die sehr voraussetzungsreich ist. Man könnte für diesen Eifer allein schon einen Punkt in Mitarbeit verleihen. Ich nutze es vielleicht ein bisschen selbstgerecht oder ein bisschen hart, aber dann doch für ein klares Nein-Votum. Ich lehne diesen Vorschlag ab und zwar wirklich mit diesem Hinweis, dass das Phänomen nicht neu ist, sondern 50 Jahre alt. Also gewissermaßen schon im 70er Jahre Feminismus gab es diese starke Identifikation mit den Hexen, als das verdrängte Andere an der patriarchalen Gesellschaft und auch genau mit diesem Konnex, dass die Rationalität gewissermaßen nur eine Maske des männlichen Instrumentalisierungswillens ist, weshalb die Frauen und die Hexen das Irrationale verteidigen sollten, nicht als etwas negativ Irrationale, sondern als eine wesentliche Weltkraft, die im männlichen Blick sonst gar nicht aufscheint.",
-      "begin_time": "17:07.612",
-      "begin_seconds": 62232.0,
-      "end_time": "18:11.872",
-      "end_seconds": 66332.0,
-      "duration_seconds": 4100.0
+      "begin_seconds": 1027.612
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, ja, das nehme ich dann so hin und wir kommen zu unserem Hauptthema, zum Streit. Darf ich mal mit einer persönlichen Bemerkung anfangen?",
-      "begin_time": "18:13.232",
-      "begin_seconds": 65812.0,
-      "end_time": "18:21.812",
-      "end_seconds": 66872.0,
-      "duration_seconds": 1060.0
+      "begin_seconds": 1093.232
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, bitte.",
-      "begin_time": "18:21.812",
-      "begin_seconds": 66872.0,
-      "end_time": "18:23.652",
-      "end_seconds": 66832.0,
-      "duration_seconds": -40.0
+      "begin_seconds": 1101.812
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich hab mich ja neulich mit Nina, und wir haben das auch nicht versteckt, schon ein bisschen gestritten, als wir über ein Buch gesprochen haben.",
-      "begin_time": "18:23.652",
-      "begin_seconds": 66832.0,
-      "end_time": "18:29.252",
-      "end_seconds": 66792.0,
-      "duration_seconds": -40.0
+      "begin_seconds": 1103.652
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ach, über diese schöne Folge, über die so und so viel Bahnen.",
-      "begin_time": "18:29.252",
-      "begin_seconds": 66792.0,
-      "end_time": "18:32.932",
-      "end_seconds": 67652.0,
-      "duration_seconds": 860.0
+      "begin_seconds": 1109.252
     },
     {
       "speaker": "SPEAKER_3",
       "text": "22 Bahnen, ja genau.",
-      "begin_time": "18:33.112",
-      "begin_seconds": 66892.0,
-      "end_time": "18:34.112",
-      "end_seconds": 66952.0,
-      "duration_seconds": 60.0
+      "begin_seconds": 1113.112
     },
     {
       "speaker": "SPEAKER_2",
       "text": "22, genau. Ja, da war ich auf Ninas Seite.",
-      "begin_time": "18:34.432",
-      "begin_seconds": 67272.0,
-      "end_time": "18:37.292",
-      "end_seconds": 67312.0,
-      "duration_seconds": 40.0
+      "begin_seconds": 1114.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ah ja, okay, okay, gut. Okay, mir ist noch...",
-      "begin_time": "18:37.332",
-      "begin_seconds": 67352.0,
-      "end_time": "18:40.472",
-      "end_seconds": 67672.0,
-      "duration_seconds": 320.0
+      "begin_seconds": 1117.332
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Weil es ja nicht um die Frage geht, ob das Buch jetzt literarisch gut ist oder nicht, aber in diesem Therapieskeptizismus, das scheint mir wirklich was gut, da hat die Autorin was gesehen und wie sie das dann darstellt, weiß ich nicht, ich hab die Bücher nicht gelesen, aber das finde ich, da hat sie etwas am Schopf gepackt.",
-      "begin_time": "18:40.472",
-      "begin_seconds": 67672.0,
-      "end_time": "18:57.272",
-      "end_seconds": 68492.0,
-      "duration_seconds": 820.0
+      "begin_seconds": 1120.472
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, ich reg mich jetzt nicht wieder auf, ich will eigentlich nur sagen, ich will eigentlich darauf hinaus, dass mir vor dieser Folie aufgefallen ist, dass ich mich eigentlich mit dir nicht wirklich streite. Also wir diskutieren natürlich oft, ja, aber ich hatte noch nie das Gefühl, dass wir in dem Sinne gestritten haben, dass es so, ja was ist eigentlich Streit? Das ist dann schon ein Moment, wo sich bei mir sowas zusammenknotet. Vielleicht weil ich auch konfliktscheu bin und das gar nicht so gern will. Andererseits diskutiere ich auch total gerne, da bin ich vielleicht ein bisschen, da bin ich ein bisschen schizophren.",
-      "begin_time": "18:57.272",
-      "begin_seconds": 68492.0,
-      "end_time": "19:28.392",
-      "end_seconds": 70472.0,
-      "duration_seconds": 1980.0
+      "begin_seconds": 1137.272
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Halt ganz kurz beide Eigenschaften treffen auch auf mich zu. Ich diskutiere wahnsinnig gern und bin aber im Tiefsten dann eigentlich auch konfliktscheu. Vielleicht ist das auch schon die Erklärung, weil wir haben ja durchaus sehr unterschiedliche Ansicht. Manche überschneiden sich, aber wir müssten jetzt nur über Inflation reden. Da kommst du ja mit vollständig irrsinnigen Ansichten daher. Aber wir würden da nicht bis zum Äußersten gehen.",
-      "begin_time": "19:28.392",
-      "begin_seconds": 70472.0,
-      "end_time": "19:49.372",
-      "end_seconds": 71712.0,
-      "duration_seconds": 1240.0
+      "begin_seconds": 1168.392
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, aber ich hab auch überlegt für einen Streit unter Kollegen ist es ja eher die Voraussetzung, dass irgendwas nicht politisch, nicht Inhaltliches passiert. Kann auch mal ein inhaltlicher Streit sein, aber irgendwie so jetzt also jetzt schon mal, ich hab jetzt schon wirklich dreimal gesagt, dass du deine Kaffeetasse doch nach der Konferenz nicht da stehen lasst. Warum machst du es denn jetzt immer noch? Sowas erinnere ich mich jetzt gar nicht, dass das jetzt...",
-      "begin_time": "19:49.372",
-      "begin_seconds": 71712.0,
-      "end_time": "20:15.592",
-      "end_seconds": 73492.0,
-      "duration_seconds": 1780.0
+      "begin_seconds": 1189.372
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nein, es liegt aber auch daran, dass wir uns im dreidimensionalen Raum so gut wie nie begegnen. Also du weißt gar nicht, ob ich meine Kaffeetasse schlampigerweise an allen möglichen Orten immer stehen lasse, statt sie wegzuräumen, weil wir fast nur eine elektronisch vermittelte Beziehung haben.",
-      "begin_time": "20:15.592",
-      "begin_seconds": 73492.0,
-      "end_time": "20:33.152",
-      "end_seconds": 74132.0,
-      "duration_seconds": 640.0
+      "begin_seconds": 1215.592
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, das kann natürlich ein sehr guter Grund sein.",
-      "begin_time": "20:33.152",
-      "begin_seconds": 74132.0,
-      "end_time": "20:35.332",
-      "end_seconds": 74432.0,
-      "duration_seconds": 300.0
+      "begin_seconds": 1233.152
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Eine Online-Beziehung, sagt man so?",
-      "begin_time": "20:35.692",
-      "begin_seconds": 74792.0,
-      "end_time": "20:37.352",
-      "end_seconds": 74572.0,
-      "duration_seconds": -220.0
+      "begin_seconds": 1235.692
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Eine Online-Beziehung, ja. Trotzdem frage ich mich natürlich, ob das auch was mit uns beiden zu tun hat, unserer Konstitution als Persönlichkeit. Du hast ja gerade gesagt, in dieser Beschreibung fühlst du dich wiedererkannt, dass du sehr gern diskutierst, aber konfliktscheu bist. Bei mir ist das halt so, ich diskutiere dann immer rum und ich werde auch so ganz scharf und irgendwie auch... Ich werde dann so persönlich im Sinne von, ich sag dann, weiß ich gar nicht, aber du als Lehrerkind, zumindest so persönlich, musst doch so und so. Aber wenn der andere dann auch was persönlich nimmt und irgendwie sagt, ah nee, Lars, das finde ich jetzt gar nicht gut, das möchte ich jetzt auch irgendwie nicht weitermachen an der Stelle, das hat mich irgendwie verletzt. Das ist mir dann ganz unangenehm. Also das ertrage ich kaum, kaum dann diesen Moment, was eigentlich blöde Voraussetzungen ist oder ich weiß es nicht. Das geht dir auch so, würdest du sagen, beim Streiten?",
-      "begin_time": "20:37.352",
-      "begin_seconds": 74572.0,
-      "end_time": "21:22.512",
-      "end_seconds": 77432.0,
-      "duration_seconds": 2860.0
+      "begin_seconds": 1237.352
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, und der Vermittlungsbegriff wäre vielleicht wirklich Sport. Es darf ganz heftig gewissermaßen gekämpft werden, um den Sieg zu erringen, aber es muss halt klar sein, dass es sich dabei gerade um ein sportliches Spiel handelt. Könnte das der Vermittlungsbegriff sein?",
-      "begin_time": "21:22.832",
-      "begin_seconds": 77752.0,
-      "end_time": "21:38.332",
-      "end_seconds": 78212.0,
-      "duration_seconds": 460.0
+      "begin_seconds": 1282.832
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Dann nennen wir das Buch schon mal, weil das ist ja zentral auch als Metapher für Svenja Flassböller in ihrem neuen Buch, was schlicht heißt Streiten.",
-      "begin_time": "21:38.332",
-      "begin_seconds": 78212.0,
-      "end_time": "21:45.092",
-      "end_seconds": 78392.0,
-      "duration_seconds": 180.0
+      "begin_seconds": 1298.332
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Hansa Berlin Verlag erschienen.",
-      "begin_time": "21:45.132",
-      "begin_seconds": 78432.0,
-      "end_time": "21:47.412",
-      "end_seconds": 78832.0,
-      "duration_seconds": 400.0
+      "begin_seconds": 1305.132
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Hui, ich weiß gar nicht, hat das noch einen Untertitel, der mehr verrät?",
-      "begin_time": "21:47.412",
-      "begin_seconds": 78832.0,
-      "end_time": "21:49.692",
-      "end_seconds": 79232.0,
-      "duration_seconds": 400.0
+      "begin_seconds": 1307.412
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nee, hat keinen Untertitel, weil das Teil einer Reihe ist. Die heißt sowas wie schlafen, altern, lieben und das ist eben Streiten. Also als quasi eine, wie sagt man, Existenzialmodus oder so, um mich geschwollen auszudrücken.",
-      "begin_time": "21:49.692",
-      "begin_seconds": 79232.0,
-      "end_time": "22:03.072",
-      "end_seconds": 79452.0,
-      "duration_seconds": 220.0
+      "begin_seconds": 1309.692
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich verstehe, okay. Und da sagt sie das auch immer wieder, dass eigentlich der Streit und das meint sie, glaube ich, auch normativ so funktionieren soll wie Sport, wo man wirklich alles gibt, kämpft, aber danach sich die Hand gibt. Du glaubst, sie will das gar nicht so normativ?",
-      "begin_time": "22:03.072",
-      "begin_seconds": 79452.0,
-      "end_time": "22:20.392",
-      "end_seconds": 80792.0,
-      "duration_seconds": 1340.0
+      "begin_seconds": 1323.072
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nee, ich würde sagen, sie hat zwei Stränge, die sie auch so benennt, ohne diese beiden Aspekte wirklich dann miteinander zu vermitteln oder aufzulösen, was überhaupt nicht schlimm ist. Aber sie steigt am Anfang ein und das scheint mir auch sehr wichtig zu sein, dass es im Streiten eine Dimension der Unversöhnlichkeit geben muss. Sonst kommt es nicht wirklich zum Streit. Und dann wechselt sie später eher in diese Sport-Arena, wie ich sie gerade vorgeschlagen habe, wo dann heftig gestritten wird. Aber es ist immer klar, das ist der Ring. Da draußen steht der Ringrichter, der die Punkte zählt. Und wenn einer zu Boden geht, dann ist das Spiel over. Und diese beiden Aspekte von Streit sind beide entscheidend. Und wie sie aber ineinander zu einem Verhältnis stehen, ist nicht ganz so klar gemacht. Es gibt vielleicht einen Vermittlungsversuch. Aber jetzt greife ich schon gleich sehr weit vor. Soll ich das jetzt an dieser Stelle schon?",
-      "begin_time": "22:20.392",
-      "begin_seconds": 80792.0,
-      "end_time": "23:20.432",
-      "end_seconds": 84432.0,
-      "duration_seconds": 3640.0
+      "begin_seconds": 1340.392
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Oder vielleicht, wenn du schon fragst, dann können wir ja vielleicht ein Ordnungsprinzip weiten lassen, dann greifen wir noch nicht vor. Aber merk es dir bitte.",
-      "begin_time": "23:20.432",
-      "begin_seconds": 84432.0,
-      "end_time": "23:28.752",
-      "end_seconds": 85232.0,
-      "duration_seconds": 800.0
+      "begin_seconds": 1400.432
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich merk es mir.",
-      "begin_time": "23:28.752",
-      "begin_seconds": 85232.0,
-      "end_time": "23:29.592",
-      "end_seconds": 85132.0,
-      "duration_seconds": -100.0
+      "begin_seconds": 1408.752
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich würde ja nämlich ganz kurz noch wieder ein Schritt zurück, nochmal zum Persönlichen machen. Also Flasspöhlers Buch kommt ja aus dieser Diagnose heraus, über die wir gleich ganz kurz vielleicht noch reden, obwohl sie sich fast von selbst versteht, dass irgendwas mit unseren öffentlichen Debatten und Streitigkeiten nicht funktioniert. Sie bezieht dann auch als Folie dafür den privaten Streit, auch sehr biografisch, den Streit, den ihre Eltern bzw. ihre Mutter und ihr Stiefvater oft geführt haben.",
-      "begin_time": "23:29.592",
-      "begin_seconds": 85132.0,
-      "end_time": "23:54.432",
-      "end_seconds": 86472.0,
-      "duration_seconds": 1340.0
+      "begin_seconds": 1409.592
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Also sie hat eine extrem unabhängige, freiheitsliebende Mutter, was so apostrophiert erstmal toll klingt, aber von Svenja Flasspöler nicht so beschrieben wird, sondern die Schattenseiten werden absolut mit ins Bild gerückt. Denn das Unabhängigkeitsstreben dieser Mutter war so stark, dass sie dann sogar ihre Kinder im jungen Alter, ich erinnere es jetzt nicht mehr ganz genau, gewissermaßen vorher, wenn man sagt, sitzen ließ, um ihre Freiheit zu haben und sich mit einem neuen Mann zusammen tat. Und der Mann, bei dem die Kinder blieben, war damals auch schon wiederum nur ein Stiefel. Was heißt nur? Überhaupt nicht nur, das war mal ein ganz liebender sozialer Vater, aber eben nur, ich komme um das Wort nicht herum, ein Stiefvater. Ich will sagen, Svenja Flasspöler beschreibt quasi auch ihre eigene Psychogenealogie und sagt, von ihrer Mutter hat sie diesen Unabhängigkeitsgeist, über dessen Schattenseiten sie sich aber auch nicht hinwegtäuschen will. Das war schon sehr schmerzhaft und deswegen hat sie durchaus auch ein ambivalent gespaltenes Verhältnis zum Streit. Denn als Kind hatte sie immer die Angst, wenn die Mutter streitet, sie könnte einen im nächsten Moment auch gleich verlassen und ihres eigenen Weges gehen.",
-      "begin_time": "23:54.512",
-      "begin_seconds": 86552.0,
-      "end_time": "25:01.152",
-      "end_seconds": 90212.0,
-      "duration_seconds": 3660.0
+      "begin_seconds": 1434.512
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich will ein bisschen anknüpfen an dieser persönlichen Ebene, bevor wir zu den politischen Gedöns kommen. Machen wir lieber das persönliche, wichtige.",
-      "begin_time": "25:02.172",
-      "begin_seconds": 90292.0,
-      "end_time": "25:09.072",
-      "end_seconds": 90612.0,
-      "duration_seconds": 320.0
+      "begin_seconds": 1502.172
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Man sollte das Wort Gedöns viel öfter verwenden.",
-      "begin_time": "25:09.072",
-      "begin_seconds": 90612.0,
-      "end_time": "25:11.672",
-      "end_seconds": 91332.0,
-      "duration_seconds": 720.0
+      "begin_seconds": 1509.072
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Das alte Gert Schröder.",
-      "begin_time": "25:11.672",
-      "begin_seconds": 91332.0,
-      "end_time": "25:12.392",
-      "end_seconds": 91112.0,
-      "duration_seconds": -220.0
+      "begin_seconds": 1511.672
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Gert Schröder sei Dank.",
-      "begin_time": "25:12.392",
-      "begin_seconds": 91112.0,
-      "end_time": "25:14.312",
-      "end_seconds": 91152.0,
-      "duration_seconds": 40.0
+      "begin_seconds": 1512.392
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich erzähl was Persönliches über mich, da können jetzt die Zuhörerinnen und Zuhörer sagen, ist doch uninteressant, aber ich will auf was hinaus. Und zwar hab ich das Gefühl, dass ich schon immer, und das hat nichts zu tun mit Corona oder politischen Konflikten, die sich für mich erst viel später in der Form aufgetan haben, wie ja die ganzen Fragen, wenn wir darum ringen, was darf man noch sagen und die Punkte wie Krieg und wirtschaftliche Fragen, die wir hier im Podcast wählten. Das geht dem voraus. Ich hatte schon immer ein Grundmodus des Widerspruchs und ich bin darauf gar nicht mehr richtig stolz, weil ich glaube, es ist so eine Art Coping-Strategie, um anderes Versagen zu überdecken. Aber ich weiß bis heute, dass wenn ich als junger Student auf eine WG-Party kam und mit Leuten ein Gespräch angefangen habe und übrigens auch, es ist blöd, dass ich jetzt auf sowas hinaus will, aber das merkt man sich am besten. Übrigens auch bei so Flirten, also wenn ich denke, wie hast du eigentlich geflirtet, da hast du irgendjemand getroffen, mit dem hast du geflirtet. Ich hab immer nur widersprochen. Also die, was soll ich sagen, so ein One-Trick-Pony. Also wenn jemand gesagt hat, wenn jemand gesagt hat, ja, ist doch total schön im Sommer zum See zu fahren, dann hab ich mir gedacht, nein, zum See fahren ist ja wohl das Allerletzte, ja. Und ich hab ja klar, um mich irgendwie interessant zu machen und ich muss auch sagen, weil mir vielleicht anderes Besteck fehlte, um mich interessant zu machen, weil das sozusagen der letzte Nagel, an dem ich mich dann festgehalten hab, irgendwie zu widersprechen. Und das ist aber auch sehr leider in mir drin und meine Frau, um noch was Privaters zu sagen, macht das wahnsinnig. Also meine Frau sagt, ich muss mal lernen ein Gespräch, also nicht ein Streit, ein normales Gespräch am Küchen-Tisch, anders zu führen, als wenn sie sagt X, dann zu sagen, nee, nicht X. So. Ich denke immer an dieses tolle Beispiel von, ich hab das mal gehört, das in der Impro, im Impro-Theater, weißt du? Wenn man Theater macht ohne Text und so, um uns so an so Stichworten des Publikums zu improvisieren, gibt's die goldene Regel, wenn der eine Impro-Schauspieler was sagt, soll der andere, soll man dann nie sagen nein zu dem? Weil dann kommt man in eine Sackgasse. Man soll immer sagen...",
-      "begin_time": "25:14.312",
-      "begin_seconds": 91152.0,
-      "end_time": "27:13.932",
-      "end_seconds": 98912.0,
-      "duration_seconds": 7760.0
+      "begin_seconds": 1514.312
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich dachte, dann geht's überhaupt erst los, lebendig zu werden.",
-      "begin_time": "27:13.932",
-      "begin_seconds": 98912.0,
-      "end_time": "27:16.232",
-      "end_seconds": 98392.0,
-      "duration_seconds": -520.0
+      "begin_seconds": 1633.932
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, komisch, ne? Aber die Regel, also das ist wirklich eine Regel, das Impro-Theater, man soll immer sagen ja und. Ja.",
-      "begin_time": "27:16.232",
-      "begin_seconds": 98392.0,
-      "end_time": "27:22.872",
-      "end_seconds": 99392.0,
-      "duration_seconds": 1000.0
+      "begin_seconds": 1636.232
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das ist ja wie in einer amerikanischen Company, da darf man auch nie nein sagen, sondern sagen, sehr interessant, was die da vorgetragen haben, ich würde es gerne noch durch sein Gegenteil ergänzen.",
-      "begin_time": "27:22.872",
-      "begin_seconds": 99392.0,
-      "end_time": "27:33.032",
-      "end_seconds": 99212.0,
-      "duration_seconds": -180.0
+      "begin_seconds": 1642.872
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also das wollte ich noch mal grad vorausschicken, dass das so meine private Voreinstellung ist, in die ich in diese ganzen politischen Sachen reingehe zum, weiß ich nicht, Wohl und Wen, ja.",
-      "begin_time": "27:34.212",
-      "begin_seconds": 99452.0,
-      "end_time": "27:43.432",
-      "end_seconds": 100212.0,
-      "duration_seconds": 760.0
+      "begin_seconds": 1654.212
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Bei mir auch Werkseinstellung.",
-      "begin_time": "27:43.432",
-      "begin_seconds": 100212.0,
-      "end_time": "27:45.132",
-      "end_seconds": 100032.0,
-      "duration_seconds": -180.0
+      "begin_seconds": 1663.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Auch genauso oder wie würdest du dich da beschreiben?",
-      "begin_time": "27:45.132",
-      "begin_seconds": 100032.0,
-      "end_time": "27:48.332",
-      "end_seconds": 100412.0,
-      "duration_seconds": 380.0
+      "begin_seconds": 1665.132
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Naja, naja, naja, auch meine Freundin klagt über diese Deformation.",
-      "begin_time": "27:48.332",
-      "begin_seconds": 100412.0,
-      "end_time": "27:53.112",
-      "end_seconds": 100492.0,
-      "duration_seconds": 80.0
+      "begin_seconds": 1668.332
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, okay.",
-      "begin_time": "27:53.172",
-      "begin_seconds": 100552.0,
-      "end_time": "27:54.312",
-      "end_seconds": 100752.0,
-      "duration_seconds": 200.0
+      "begin_seconds": 1673.172
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Da schwingt dann immer die Unterstellung mit, dass meine Gegenposition nur aus der Lust an der Gegner schafft. Und ich das eigentlich gar nicht so meine, meine reaktionären Ansichten. Aber da sag ich immer, das stimmt nicht. Ich bin wirklich so reaktionär. Es ist nicht nur der Sportsgeist. Ich weiß es auch nicht. Wer kennt sich schon selbst?",
-      "begin_time": "27:54.312",
-      "begin_seconds": 100752.0,
-      "end_time": "28:15.112",
-      "end_seconds": 101812.0,
-      "duration_seconds": 1060.0
+      "begin_seconds": 1674.312
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, und jetzt wachsen wir mit dieser Voreinstellung hinein in so eine politische Welt, die sich ja schon sehr geändert hat, weil ich erinnere mich noch immer, das muss man wirklich mal in Erinnerung rufen, als ich angefangen hab, Vögelton zu lesen, sagen wir, oder mich wirklich dann beschäftigt hab, sagen wir Mitte der Nullerjahre oder so, ja? Da war das große Thema immer noch, die Parteien sind sich zu ähnlich, es gibt keine politischen Unterschiede mehr, es wird nicht mehr gestritten, ja?",
-      "begin_time": "28:15.112",
-      "begin_seconds": 101812.0,
-      "end_time": "28:41.432",
-      "end_seconds": 103692.0,
-      "duration_seconds": 1880.0
+      "begin_seconds": 1695.112
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, und nichts bewegt sich, nichts Neues unter der Sonne, Mehltau auf allen Verhältnissen.",
-      "begin_time": "28:41.432",
-      "begin_seconds": 103692.0,
-      "end_time": "28:47.252",
-      "end_seconds": 103872.0,
-      "duration_seconds": 180.0
+      "begin_seconds": 1721.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, wobei das ja heute Leute vielleicht, ja gut, aber...",
-      "begin_time": "28:47.252",
-      "begin_seconds": 103872.0,
-      "end_time": "28:49.612",
-      "end_seconds": 104352.0,
-      "duration_seconds": 480.0
+      "begin_seconds": 1727.252
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nee, und jetzt ist alles neu. Wir haben Krieg in Europa, Trump wird wieder Präsident, also man kann sich nicht beschweren, dass nichts passiert.",
-      "begin_time": "28:49.792",
-      "begin_seconds": 104532.0,
-      "end_time": "28:56.172",
-      "end_seconds": 104332.0,
-      "duration_seconds": -200.0
+      "begin_seconds": 1729.792
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, okay, gut, stimmt. Stimmt, okay, es passieren halt nicht die Sachen, die sich dann, sagen wir mal, linke gewünscht haben. So, und jetzt wachsen wir in dieses neue Umfeld rein. Wie hast du das denn erlebt, weil du ja auch schon länger das professionell machst, das Streiten, ja? Ist es dann plötzlich passiert, dass dann plötzlich mehr gestritten wurde, dann aber falsch? Oder gab es eine Phase, wo du gesagt hast, da wurde richtig gestritten, das war eigentlich die Idealsituation, so hätte es sein sollen, wir warten auf Augenhöhe im Sportsgeist, danach haben wir uns die Hand gegeben und dann wurde es erst schlimm, weil das Internet zu groß wurde.",
-      "begin_time": "28:56.172",
-      "begin_seconds": 104332.0,
-      "end_time": "29:25.472",
-      "end_seconds": 106372.0,
-      "duration_seconds": 2040.0
+      "begin_seconds": 1736.172
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, auch auf die Gefahr hin, dich zu langweilen, würde ich tatsächlich sagen, in den 90er und 00er Jahren wurde auf die Art gestritten, wie ich es schön fand, nämlich immer mit so einer gewissen Frivolität und Spielfreude und in den 10er Jahren wurde es plötzlich so ernst und die jeweigen Gegenpositionen galten als verabscheuungswürdig und sollten möglichst keine Bühne bekommen. Es hat sich das allerdings längst, das ist ja jetzt seit einem Jahr, ich langweile mich fast schon selber, wenn ich sage meine Dauerthese, das ist jetzt längst auch Vergangenheit. Also die Tatsache, dass wir jetzt über Streiten reden, die Tatsache, dass wenn ja Flasspöhler ein Buch über Streiten herausgebracht hat, die Tatsache, dass in diesen Tagen ein weiteres Buch sich genau diesem Thema widmet und das heißt, defekte Debatten geschrieben hat es die Politologin Julia Reuschenbach zusammen mit dem Deutschlandradio Kultur Journalisten Corbinian Frenzl und die auch sagen, da liegt ein Kernproblem unserer Zeit, dass wir nicht mehr in der Lage sind gut und scharf zu streiten. Scheint mir jetzt ihrerseits ein Zeichen dafür zu sein, dass das Problem bereits ein überwundenes ist. Ach wie gut, dass niemand weiß, dass sich Rumpelstilzchen heißt. In dem Moment, wo ich den Namen ausspreche, ist der Zauber gebrochen. Und jetzt wird das ausgesprochen. Jetzt auch nur rein anekdotisch, aber ich war vor zwei Wochen zu einer Lesung in einem ganz süßen kleinen Städtchen Bad Hersfelde, ich glaube in Nordhessen eingeladen und da ging es um das deutsche Krokodil und es war eine schöne Veranstaltung, weil dieses ganze Bad Hersfelde dieses Buch gelesen hat. Und dann wurde ich von einem Journalisten zum Buch natürlich befragt und am Ende, wir hatten eigentlich schon fast über alles gesprochen, sagte er, wollen Sie dem Saal noch etwas mitgeben? Und ich war so ein bisschen überfordert, weil darauf war ich jetzt nicht vorbereitet und es ist auch ein bisschen die Rolle des Pfarrers, der der Gemeinde dann noch etwas Denkwürtiges mit auf den Weg gibt. Ich wollte das jetzt aber auch nicht verweigern und suchte krampfhaft nach irgendwas und weil ich vorher also allerlei Provokantes gesagt hatte, dachte ich mir, ach dann sag halt, brich nochmal den Stab dafür fürs Streiten und dass wir besser tragen sollten, wenn andere Leute die Dinge ganz anders sehen und ich hatte quasi nur die ersten vier Wörter des Satzes angefangen, da gab es schon spontanen Zustimmungsapplaus aus dem Publikum und da war mir klar, ach so, nee das ist gerade ein riesiges Thema. Ganz viele in dieser Republik wünschten sich, dass es möglich sein sollte, besser zu streiten. Was immer das dann auch heißt.",
-      "begin_time": "29:25.472",
-      "begin_seconds": 106372.0,
-      "end_time": "31:52.232",
-      "end_seconds": 114952.0,
-      "duration_seconds": 8580.0
+      "begin_seconds": 1765.472
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, was immer das dann auch heißt. Vielleicht fange ich mal mit einem Detail oder mache ich mal weiter mit einem Detail aus Svenja Flasspölers Buch, das für mich auch im Rückblick so wichtig ist, auch auf mein wiederum eigenes jetzt eher nicht privates WG-Party, Flirt-Getue, sondern publizistisches Schaffen, wenn man es so nennen will. Und zwar schreibt sie an einer Stelle, das finde ich total interessant, ein wichtiges Erlebnis für sie ist Me Too und dann ist sie mit ganz vielen nicht einverstanden, gerade wie sie findet aus ihrer feministischen Perspektive, was die Me Too, wie sie mal sie nennen, Vorantreiber behaupten und schreibt dann ein Buch Die potente Frau und sagt dann sogar, wenn sie das heute noch mal liest, hätte sie wohl einige provozierende Stellen abgemildert. Sie hätte das lieber anders formuliert. Fängt dann aber wiederum diese Selbstkritik dann wieder ein dadurch, aber damals war der Konsens so verkrustet, zumindest bei den Leuten, zu denen sie sprach, muss man ja mal ergänzen, der Konsens so verkrustet, dass alles, was bei Me Too passiert ist, richtig und alles, was sie dann kritisiert, also die Vermischung von Vergewaltigung und weniger schlimmen Sachen usw., das ist alles ganz ganz richtig und um diesen verkrusteten Konsens aufzuspringen, waren polemische Spitzen notwendig. Sie sieht das wie so ein, wie den ersten Bohrer, um überhaupt ins Material reinzukommen.",
-      "begin_time": "31:52.232",
-      "begin_seconds": 114952.0,
-      "end_time": "33:07.432",
-      "end_seconds": 119652.0,
-      "duration_seconds": 4700.0
+      "begin_seconds": 1912.232
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, leuchtet mir aber ein.",
-      "begin_time": "33:07.432",
-      "begin_seconds": 119652.0,
-      "end_time": "33:08.752",
-      "end_seconds": 120032.0,
-      "duration_seconds": 380.0
+      "begin_seconds": 1987.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nein, mir eben nicht mehr. Das ist so eine Standardüberzeugung, die ich, weiß ich gar nicht, ob ich auch so gelernt hab im Journalismus. Man muss da mal polemisch rein, damit was passiert. Vielleicht noch aus dieser alten Mehltau-Welt kam das. Und heute würde ich sagen, das ist doch grad der Fehler gewesen, der uns das Streiten so schwierig gemacht hat, dass immer jeder denkt, es ist die absolute polemische Überspitzung notwendig, um überhaupt mal das aufzubrechen. Das war so der erste Widerspruch, den ich da mit Flasspöler hatte.",
-      "begin_time": "33:08.752",
-      "begin_seconds": 120032.0,
-      "end_time": "33:38.292",
-      "end_seconds": 121372.0,
-      "duration_seconds": 1340.0
+      "begin_seconds": 1988.752
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Na ja, es entsteht natürlich aus diesem Gefühl, dass in den Zehnerjahren die geltende Meinung halt immer so stark im Gewand der Orthodoxie daher kam. Und wie bringt man die Orthodoxie dazu, überhaupt was zu spüren, weil die Kraft ihrer bürokratischen Verwaltungsmacht ja gewissermaßen so abgedämpft und abgefedert ist, dass sie ja gar nichts mehr erreicht. Dazu braucht man dann irgendein Hebel und dieser Hebel ist vielleicht die provokative Zuspitzung. Man muss dazu sagen, ich meine die Hauptthese von Svenja Flasspöhler in ihrem Buch Die potente Frau war, dass dieser Diskurs von MeToo dazu angetan ist, Frauen zu entmündigen, weil man ihnen gar nicht mehr diese Dimension, sich selbst zur Wehr zu setzen, einräumt. Und dann sagt sie auch sehr klar, dass natürlich der Fall Harvey Weinstein nicht darunter fällt. Das ist einfach dann brutale Vergewaltigung. Aber es wurden dann in der Entgrenzung dieses Falles, der Fall Harvey Weinstein wurde gewissermaßen als der Standardfall des männlich-weiblichen toxischen Verhältnisses herangezogen und das hat Svenja Flasspöhler kritisiert, als eine Form die Frau in ein Rollenbild der Schwäche hinein zu zwingen.",
-      "begin_time": "33:38.292",
-      "begin_seconds": 121372.0,
-      "end_time": "34:54.872",
-      "end_seconds": 126512.0,
-      "duration_seconds": 5140.0
+      "begin_seconds": 2018.292
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Darf ich noch ein anderes Beispiel aus dem Buch erwähnen, das für sie sehr wichtig ist, nämlich die Situation während der Corona-Pandemie?",
-      "begin_time": "34:56.352",
-      "begin_seconds": 126112.0,
-      "end_time": "35:01.412",
-      "end_seconds": 126472.0,
-      "duration_seconds": 360.0
+      "begin_seconds": 2096.352
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das ist doch hochinteressant. Darf ich das kurz nochmal sagen? Wir hatten die Ebene Familie, welche Rolle spielt der Streit da? Dann haben wir die theoretische Ebene des Diskurses, da kommen wir gleich bestimmt nochmal zu, Stichwort Habermaß, wie funktioniert eine deliberative Demokratie, das führen wir bestimmt später noch aus. Und dann gibt es die Arbeitsebene, gewissermaßen in der offenen Feldschacht stehend, an konkreten Themen. Und da führt sie an, zum einen war sie ein Jahr lang bei Deutschland-Radio Kulturredakteurin und ist entnervt nach einem Jahr gegangen, weil es da eben gar keine Streitkultur gab. Dann das große Thema MeToo, das hatten wir schon. Dann eben das Thema, auf das du jetzt zu sprechen kommen willst, Corona. Da gibt es eine berühmte Talkshow mit Frank Plasberg, Hard Aber Fair, wo Plasbühler auftrat und danach quasi von allen vernichtet wurde. Und schließlich das Thema Ukraine. Das sind glaube ich so, habe ich das richtig gesagt?",
-      "begin_time": "35:01.572",
-      "begin_seconds": 126632.0,
-      "end_time": "36:06.512",
-      "end_seconds": 130472.0,
-      "duration_seconds": 3840.0
+      "begin_seconds": 2101.572
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Absolut. Ich wollte nur das eine Beispiel mit Corona noch etwas anbicken.",
-      "begin_time": "36:06.512",
-      "begin_seconds": 130472.0,
-      "end_time": "36:10.612",
-      "end_seconds": 130812.0,
-      "duration_seconds": 340.0
+      "begin_seconds": 2166.512
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, unbedingt. Genau.",
-      "begin_time": "36:10.612",
-      "begin_seconds": 130812.0,
-      "end_time": "36:11.952",
-      "end_seconds": 131212.0,
-      "duration_seconds": 400.0
+      "begin_seconds": 2170.612
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich will gar nicht auf mein Corona-Thema hinaus. Ich finde es aber nicht ganz unwichtig.",
-      "begin_time": "36:11.952",
-      "begin_seconds": 131212.0,
-      "end_time": "36:15.992",
-      "end_seconds": 131492.0,
-      "duration_seconds": 280.0
+      "begin_seconds": 2171.952
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich finde es schön, weil du das Corona-Thema eine Zeit lang bearbeitet hast. Im Jahr, keine Ahnung, 21, 22. Und dann, je mehr würde ich jetzt mal sagen, deine Position ins Recht gesetzt wurde. Als du es vorgetragen hattest, warst du im Rahmen des Milieus, in dem ich mich bewege, eine absolut verschriehende Minderheit. Das Blatt der öffentlichen Meinung gewissermaßen hat sich seither, würde ich sagen, gewendet. Aber seither greifst du das Thema gar nicht mehr auf. Und ich weiß, dass ich in den letzten zwei Jahren öfter mal gefragt habe, Lars, wie siehst du das? Und dann sagst du immer so genervt, als hättest du keinen Bock aufs Recht haben, dass dich das nicht mehr interessiert. Deswegen bin ich jetzt sehr gespannt, dass du nach zwei Jahren das erste Mal öffentlich wieder etwas zu Corona sagst.",
-      "begin_time": "36:16.012",
-      "begin_seconds": 130572.0,
-      "end_time": "36:57.112",
-      "end_seconds": 133132.0,
-      "duration_seconds": 2560.0
+      "begin_seconds": 2176.012
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Es ist ja manchmal auch schwierig sich zu erinnern und in dem Fall finde ich jetzt einfach gut einfach mal dran zu erinnern. Sie zitiert einfach nur den Titel und die Beschreibung der Ausgabe von Hard Aber Fair, in der sie zu Gast war. Sie beschreibt auch ansonsten, dass sie die Einzige war mit einer abweichenden Position. Alle anderen hatten ungefähr die gleiche Position. Sie beschreibt sozusagen, wie sie nicht fair behandelt wurde und so weiter. Aber es reicht einfach glaube ich nur mal im Herbst 2021 Titel und Beschreibung einer Hard Aber Fair Sendung. Der Titel war nur ja kein Zwang. Ist unsere Politik beim Impfen zu feige? Die Beschreibung der Folge ist, in Deutschland sind zu viele Menschen ungeimpft. Die vierte Welle trifft das Land mit voller Wucht. Warum sind wir wieder unvorbereitet? Knickt die Politik ein vor den Impfverweigerern? Wer hat Schuld, wenn wieder viele tausend sterben und für alle Corona kein Ende nimmt? Also das war die vollständige Beschreibung der Folge. Ich muss dazu gar nichts mehr sagen.",
-      "begin_time": "36:58.012",
-      "begin_seconds": 133092.0,
-      "end_time": "37:58.452",
-      "end_seconds": 137132.0,
-      "duration_seconds": 4040.0
+      "begin_seconds": 2218.012
     },
     {
       "speaker": "SPEAKER_2",
       "text": "In der Folge tritt dann genau eine Person auf und das ist Svenja Flasspöler, die sich gegen einen Impfzwang ausspricht.",
-      "begin_time": "37:58.452",
-      "begin_seconds": 137132.0,
-      "end_time": "38:05.552",
-      "end_seconds": 137652.0,
-      "duration_seconds": 520.0
+      "begin_seconds": 2278.452
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Den man auch damals übrigens nicht so nennen durfte. Weil wir haben ja gesagt, das ist ein Impfzwang. Da gibt es ja glaube ich so eine Lauterbach Äußerung gesagt. Na es ist ja kein Zwang, weil die Leute gehen ja freiwillig zum Impfen, weil sie sonst das Bußgeld.",
-      "begin_time": "38:05.552",
-      "begin_seconds": 137652.0,
-      "end_time": "38:17.292",
-      "end_seconds": 138112.0,
-      "duration_seconds": 460.0
+      "begin_seconds": 2285.552
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Es wird einem nur das Leben verunmöglicht.",
-      "begin_time": "38:17.292",
-      "begin_seconds": 138112.0,
-      "end_time": "38:20.312",
-      "end_seconds": 138312.0,
-      "duration_seconds": 200.0
+      "begin_seconds": 2297.292
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja ne, weil sie sonst ein Bußgeld bezahlen müssen. Wir müssen sagen, es gibt auch keinen Zwang zum Nichtmord oder so. Also alle Begriffe wurden dann auf den Kopf gestellt in dem Moment. Ja. Egal.",
-      "begin_time": "38:20.312",
-      "begin_seconds": 138312.0,
-      "end_time": "38:29.372",
-      "end_seconds": 138912.0,
-      "duration_seconds": 600.0
+      "begin_seconds": 2300.312
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das war die Zeit, wo auch der jetzige Gesundheitsminister, was er jetzt bestreitet, ungefähr 20 mal gesagt hat, Pandemie der Ungeimpften ist, will er jetzt nicht mehr gesagt haben.",
-      "begin_time": "38:29.372",
-      "begin_seconds": 138912.0,
-      "end_time": "38:39.812",
-      "end_seconds": 139952.0,
-      "duration_seconds": 1040.0
+      "begin_seconds": 2309.372
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau, das ist ein gutes Beispiel, dass man sich jetzt auch schlecht erinnert. Und das meine ich gar nicht polemisch, zynisch, ironisch, sondern wirklich, ich glaube wirklich ist das so ein bisschen, mir ist das selber aufgefallen, weil ich ja selber immer wieder Zielscheibe auch von rechtem Hass im Netz werde, weil ich irgendwas gegen Vermieter gesagt hab oder so. Und die suchen dann immer in meinen alten Tweets nach so Corona-Tweets. Und ich wusste es nicht mehr, tatsächlich aber in der langen Diskussion einen drunter Kommentar, wo ich irgendwann mal geschrieben hab, dass die Impfpflicht jetzt auch wirklich eine gute Idee wäre. Ist interessant, dass ich selber nicht mehr im Kopf, dass ich an irgendeinem Punkt auch mal gesagt habe, ah ja jetzt ist es vielleicht doch wirklich eine gute Idee.",
-      "begin_time": "38:39.812",
-      "begin_seconds": 139952.0,
-      "end_time": "39:17.792",
-      "end_seconds": 142212.0,
-      "duration_seconds": 2260.0
+      "begin_seconds": 2319.812
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ach ja, interessant.",
-      "begin_time": "39:17.792",
-      "begin_seconds": 142212.0,
-      "end_time": "39:19.512",
-      "end_seconds": 142052.0,
-      "duration_seconds": -160.0
+      "begin_seconds": 2357.792
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also ich will einfach nur sagen, vielleicht ist es ganz gut sich an den Diskurs auch richtig zu erinnern, wie er stattgefunden hat.",
-      "begin_time": "39:19.512",
-      "begin_seconds": 142052.0,
-      "end_time": "39:24.832",
-      "end_seconds": 142672.0,
-      "duration_seconds": 620.0
+      "begin_seconds": 2359.512
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Bleiben wir kurz nochmal bei dem Beispiel, weil das ist doch jetzt konkret, was ist das Problem, dass Svenja Flasspöhler bei Hart aber Fair aufspießt, ist ja nicht einfach, dass die Mehrheitsgesellschaft damals der Meinung war, ein Impfzwang wäre das probate Mittel, sondern das Problem ist, dass sie, und deswegen führt es ins Thema des Streitens hinein, dass du deine Sache nicht kommunikationspsychologisch, sozialpsychologisch sinnvoll verteidigen kannst, wenn alle Rahmenbedingungen drum herum so eingestellt sind, dass du im absoluten Abseits stehst. Aus dem Abseits heraus alleine kannst du auch kein vernünftiges Argument vorbringen, weil, und das ist jetzt so etwas, was mir irgendwie wichtig ist, ich weiß gar nicht, ob das irgendeine theoretische Basis hat, ich kann es deswegen nur so ganz hands-on-mäßig beschreiben. Wir glauben immer, als sei die Vernunft so ein klares, abstraktes, aber eine Berufungsinstanz, die allen klar vor Augen steht. Aber in Wahrheit gibt es Vernunft immer nur in einer konkreten Redesituation. Und das kenne ich auch aus vielen Konferenzen oder Tischgesprächen, wenn du allein in einer Runde sitzt und du trägst etwas Gewagtes vor. Und es gibt nicht einen, der nur wenigstens auch mal so nachdenklich mit dem Kopf wiegt, als könnte es zumindest den Hauch einer Chance haben, dass da irgendwas auch gesehen ist in dem, was du sagst. Wenn es eine solche positive Feedback-Schleife gar nicht gibt, ist es als würde dir der Sauerstoff im Raum entzogen werden und du kannst eigentlich nicht mehr weiter argumentieren. Und so etwa muss sich Frau Flasspöhler in dieser Hard Aber Fair-Sendung empfunden haben. Du brauchst mindestens einen Anspielpartner, der mal irgendetwas aufnimmt. Nicht, weil er total deiner Meinung ist, aber weil er das Vorbringen dieses Gedankenaspekts für sinnvoll hält. Hab ich mich verständlich ausgedrückt?",
-      "begin_time": "39:24.832",
-      "begin_seconds": 142672.0,
-      "end_time": "41:28.612",
-      "end_seconds": 149892.0,
-      "duration_seconds": 7220.0
+      "begin_seconds": 2364.832
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Absolut, absolut. Und klar, das würde ich auch unterschreiben. Ich würde jetzt nur Folgendes sagen, aber da haben wir eben schon drüber gesprochen im Vorgespräch, da willst du mir glaube ich nicht ganz zustimmen, aber ich würde nur sagen, wenn wir jetzt darüber sprechen, also die Möglichkeiten seine Meinung zu äußern, auch wenn sie der Mehrheit widerspricht, dann sind wir ja ganz nah beim Thema Meinungsfreiheit, was wir vor zwei Folgen besprochen haben. Und natürlich hängen Streit und Meinungsfreiheit unmittelbar zusammen und das ist sozusagen die inoffizielle Fortsetzungsfolge der Meinungsfreiheitsfolge. Trotzdem halte ich es für lehrreich sozusagen auf dem Sitziertisch, analytisch, das mal grad zu trennen und auch zu fragen, was ist eigentlich kaputt oder los mit unserem Streit, jenseits von so Fragen wie wer hat die Minderheitsposition, wer hat die Mehrheitsposition, was darf man noch sagen? Also Streit kann ja auch einfach was zwischen zwei Leuten sein, da ist dann immer 50-50, da hält es dann immer keiner die Minderheit und keiner die Mehrheit. Weil ich würde gern die beiden Aspekte so gern einmal voneinander trennen, ob sich da nicht sozusagen was Sinnvolles finden lässt.",
-      "begin_time": "41:28.612",
-      "begin_seconds": 149892.0,
-      "end_time": "42:34.432",
-      "end_seconds": 153672.0,
-      "duration_seconds": 3780.0
+      "begin_seconds": 2488.612
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Und da bin ich mir nicht sicher, ob diese Trennung, die heuristisch bestimmt erstrebenswert wäre, praktisch dann sehr viel Wirklichkeit abbildet, weil das Problem mit dem Streiten hängt, tritt doch immer oder trat zumindest, wenn wir jetzt in die letzten zehn Jahre zurückschauen, doch immer dort auf, wo die Gegenposition eben als eine wahrgenommen wurde, die gänseits das noch Ertragbaren verortet wurde. Also die Svenja Flassbüller, um sie einmal zu ziehen, schreibt eine politisch fundamental andere Meinung, die eigene linksliberale Wert- und Weltvorstellungen schmerzhaft herausfordert, ist nicht gleich faschistisch. Und wir hatten die Zehnerjahre waren halt, gab es dann irgendwann auch den Spruch auf Twitter, alles Nazis außer Mami oder außer Mutti. Das war ja die hauptkommunikative Strategie, dass eben andere Meinungen nicht einfach nur als unsinnig oder nicht die meine oder schwach begründet, sondern sie wurden dann immer eben ins absolute gesellschaftliche Abseits gestellt. Und das verunmöglicht dann eben einen fruchtbaren Streit. Der Streit verlangt eben schon, dass man akzeptiert, dass Leute die Dinge so sehen, dass einem selber das Hirn durchbrennt, weil man denkt, so ein Quatsch, so ein Quatsch, das kann doch gar nicht sein. Ja, dann gibt es offensichtlich einen Dissens und der muss dann irgendwie eingeholt und eingearbeitet und aufgearbeitet werden, ohne ihn gleich zu stoppen, indem man sagt, das ist doch Nazisprech.",
-      "begin_time": "42:34.432",
-      "begin_seconds": 153672.0,
-      "end_time": "44:06.112",
-      "end_seconds": 158872.0,
-      "duration_seconds": 5200.0
+      "begin_seconds": 2554.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, mir fällt auch grad ein, was so Mehrheiten, Minderheiten angeht, ja. Also wer wird von der Mehrheit mundtot gemacht, ja. Das findet natürlich auch im privaten Zweierstreit eine sehr böse Verwendung. Weil was ist das Böseste, was du sozusagen im Beziehungsstreit machen kannst? Wenn sie mal sagen, du hast das und das gemacht oder du bist so und so, ja du bist so geizig oder so und dann sagst du und alle anderen sagen das auch. Paul und Susanne, die sagen das genauso. Also so eine fiktive Mehrheitsposition, dass der andere dann der Einsame in der Talkshow ist, der so abgerückt auf der Minderheit in Kürze sitzt.",
-      "begin_time": "44:07.452",
-      "begin_seconds": 159272.0,
-      "end_time": "44:41.312",
-      "end_seconds": 161172.0,
-      "duration_seconds": 1900.0
+      "begin_seconds": 2647.452
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Oder ein Verfahren, das ich manchmal anwende, jemand sagt etwas und ich sage, das sagen ja eh alle.",
-      "begin_time": "44:41.832",
-      "begin_seconds": 161692.0,
-      "end_time": "44:46.952",
-      "end_seconds": 162112.0,
-      "duration_seconds": 420.0
+      "begin_seconds": 2681.832
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ah, okay. Okay, gut, okay, ja, okay. Da wird dann der andere als langweiliger konformist hingestellt.",
-      "begin_time": "44:46.952",
-      "begin_seconds": 162112.0,
-      "end_time": "44:55.332",
-      "end_seconds": 162032.0,
-      "duration_seconds": -80.0
+      "begin_seconds": 2686.952
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, genau.",
-      "begin_time": "44:55.372",
-      "begin_seconds": 162072.0,
-      "end_time": "44:56.612",
-      "end_seconds": 162372.0,
-      "duration_seconds": 300.0
+      "begin_seconds": 2695.372
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Das ist mein Laster.",
-      "begin_time": "44:56.612",
-      "begin_seconds": 162372.0,
-      "end_time": "44:58.632",
-      "end_seconds": 162512.0,
-      "duration_seconds": 140.0
+      "begin_seconds": 2696.612
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Lass uns noch zwei zentrale Argumentationsmuster, die das Buchstreiten aufgreift, kurz für unsere Zuhörerinnen und Zuhörer, du siehst ich bin völlig undogmatisch, aufbereiten. Zwei zentrale Argumentationsmuster, eine ist der Locus Classicus von Jürgen Habermas, das andere ist die belgische Politologin Chantal Muff. Habermas ist gewissermaßen sowieso die Folie, vor der sich all diese Fragen immer wieder stellen, weil der ja gewissermaßen der Hausphilosoph der alten Bonner Republik ist und mit seiner Theorie des kommunikativen Handelns die Philosophie der letzten fünf sechs Jahrzehnte auch maßgeblich geprägt hat und da steht ja immer im Hintergrund diese Vorstellung, dass wir in einer, so nennt es der Soziologe und Philosoph Habermas, in einer deliberativen Demokratie leben und das gewinnt an diese Idealvorstellung, dass wir Teil einer Diskursgemeinschaft sind in einem Staatsgebilde, wo wir Argumente austauschen und uns dann, das ist eine berühmte Formulierung, durch den zwanglosen Zwang des besseren Arguments auf eine gemeinsame Konsensposition einigen. Es klingt für mich als gewissermaßen so Herfried Münkler-hafter Realist immer ein wenig sehr theoretisch und im luftleeren Raum. Ich erinnere auch noch, wie ich ich habe mal Robert Spähmann interviewt und der hatte höchsten Respekt vor Habermas, auch wenn ich natürlich klar war, er seine Gegenposition einahm und der sagt halt immer, was Habermas nicht begreift ist, dass bei allem Deliberieren, bei allem Miteinander Pro und Contras abwägen, irgendwann muss ja immer ein Punkt kommen, wo entschieden werden muss. Das ist der Dezisionismus. Da muss man sagen, jetzt haben wir genug diskutiert, jetzt daraus folgt blub blub blub. Und diesen Umschlag vom Diskutieren in die Entscheidung, die wird im Idealbild, so würde ich, der ich jetzt aber überhaupt kein Habermas-Kennner bin und ihn deswegen vielleicht falsch karikiere, ich möchte das nicht, aber das kann mir unterlaufen, diesen Umschlagsmoment, der ist gar nicht vorgesehen, weil sich durch den zwanglosen Zwang des besseren Argument dann die richtige Entscheidung von selbst ergibt und diese lautet dann eben auch, das ist die Wahrheit. Also insofern hat Habermas so einen intersubjektiven Wahrheitsbegriff. Wahrheit ist das, worauf sich die Sprechergemeinschaft einigt nach gründlichem Austausch aller Pro- und Kontraposition. Ist es halbwegs gerecht ausgedrückt?",
-      "begin_time": "44:59.432",
-      "begin_seconds": 162372.0,
-      "end_time": "47:37.552",
-      "end_seconds": 171972.0,
-      "duration_seconds": 9600.0
+      "begin_seconds": 2699.432
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Es wird auf jeden Fall dem gerecht, wie, und darum geht es uns ja, wie in diesem Buchstreiten die habermasianische Position auftaucht. Wie du schon gesagt hast, was jetzt im Detail Habermas, wo theoretisiert hat, ist für uns jetzt vielleicht zweitrangig. Uns geht es ja darum, wie das in dem Buch der Habermasianer auftaucht. Du hast von Herfried Münkler und dem Realismus gesprochen. Ich übersetze das mal kurz. Das wird gleich, glaube ich, relevant, weil der Realismus, das ist ja ein Wort, was in dieser Verwendungsweise nicht jeder kennt, den Herfried Münkler vertritt, der ja vor allem sich um internationale Beziehungen und Politik kümmert als Politikwissenschaftler.",
-      "begin_time": "47:37.552",
-      "begin_seconds": 171972.0,
-      "end_time": "48:10.212",
-      "end_seconds": 173612.0,
-      "duration_seconds": 1640.0
+      "begin_seconds": 2857.552
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Die er über Machiavelli habilitiert hat.",
-      "begin_time": "48:10.232",
-      "begin_seconds": 173632.0,
-      "end_time": "48:12.472",
-      "end_seconds": 173992.0,
-      "duration_seconds": 360.0
+      "begin_seconds": 2890.232
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau, heißt eben in seinem Fall zwischen Staaten, aber das letztes Jahr auf andere Situationen übertragen, zählt natürlich nicht der zwanglose Zwang des besseren Arguments in der Wirklichkeit, sondern die Macht. Die Macht, im Zweifelsfall sogar wer mehr Kanonen und Flugzeugträger hat, sozusagen. Das ist hier gemeint mit Realismus, ja. Und dann hast du auch noch...",
-      "begin_time": "48:12.472",
-      "begin_seconds": 173992.0,
-      "end_time": "48:30.752",
-      "end_seconds": 175352.0,
-      "duration_seconds": 1360.0
+      "begin_seconds": 2892.472
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das ist eine berühmte Szene, auf die sich Münkler auch immer bezieht, während es, ich glaube, ja, des Peloponnesischen Kriegs zwischen Sparta und Athen, schreibt Tukidides, der die Histografie des Peloponnesischen Kriegs geschrieben hat, da gibt es eine Delegation der Polis Athens, so einem Inselstaat, die Melia heißen die, glaube ich. Und die Melia wollen jetzt in diesem Sinne auf Augenhöhe in einen Dialog treten mit den Unterhändlern aus Athen. Und die sagen, wie sollen wir denn auf Augenhöhe diskutieren? Wir sind ja die militärisch überlegene Macht. Also hier zählt jetzt nicht mehr das Argument, sondern das, was wir in die Waagschale werfen können. Und das ist sehr viel mehr als was ihr Melia in die Waagschale werfen könnt. Deswegen müsst ihr euch unserem, dem Attischen Sehbund, glaube ich, ich hoffe ich bringe jetzt nichts durcheinander, oder war der Attische Sehbund im Krieg gegen die Perser, jedenfalls dem Militärbündnis auf der athenischen Seite, den müsst ihr euch jetzt unterwerfen. Das ist, macht Realismus.",
-      "begin_time": "48:30.752",
-      "begin_seconds": 175352.0,
-      "end_time": "49:24.932",
-      "end_seconds": 178772.0,
-      "duration_seconds": 3420.0
+      "begin_seconds": 2910.752
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Attischer Sehbund gibt's bei Dune nicht, da kenn ich mich nicht aus, da musst du jemand anderem fragen. Ich wollte aber den zweiten Namen noch ganz kurz so mit journalistischer Sorgfaltspflicht, zumindest mit einem weiteren Begriff versehen, das ist noch Robert Spemann erwähnt, ein, kann man sagen, Religionsphilosoph, der als...",
-      "begin_time": "49:24.932",
-      "begin_seconds": 178772.0,
-      "end_time": "49:39.932",
-      "end_seconds": 179672.0,
-      "duration_seconds": 900.0
+      "begin_seconds": 2964.932
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nee, kein Religionsphilosoph. Ich würde sagen ein praktischer Philosoph, der allerdings gläubiger Katholik war und deswegen spielt die Religion als Folie dann schon auch eine Rolle. Aber er hat, glaube ich, jetzt im eigentlichen Religionsphilosophischen Sinne, dazu hat er gar nicht gearbeitet.",
-      "begin_time": "49:39.932",
-      "begin_seconds": 179672.0,
-      "end_time": "49:53.692",
-      "end_seconds": 180272.0,
-      "duration_seconds": 600.0
+      "begin_seconds": 2979.932
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ah, Entschuldigung.",
-      "begin_time": "49:53.692",
-      "begin_seconds": 180272.0,
-      "end_time": "49:54.092",
-      "end_seconds": 179732.0,
-      "duration_seconds": -540.0
+      "begin_seconds": 2993.692
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Aber der kommt auch so ein bisschen aus dieser Ritterschule, die war zentral für die alte Bundesrepublik in Münster. Der Joachim Ritter versammelte da in seinem, wie sagt man, Privatissimum sehr junge, kluge Köpfe. Unter anderem auch, wenn ich das richtig erinnere, so jemand wie Ernst Wolfgang Böckenförde, die dann später Verfassungsrichter wurden. Odo Marquardt gehörte zu dieser Runde. Hermann Lübbe hatte eine starke Strahlkraft auf so ein liberal-konservatives Milieu der Bundesrepublik. Und da wiederum gab es dann interessante Verbindungen zu Karl Schmidt. Und jetzt sind wir nämlich beim Dezisionismus. Diese jungen Studenten, die kamen damals auch alle mit Karl Schmidt ins Gespräch. Und ich glaube, über diese Schiene kam dann, deswegen hat Sperrmann dann diesen schmitschen Dezisionismusbegriff, auf den wir gleich nochmal zurückkommen. Weil das nutze ich, weil eine Folie, die so explizit, glaube ich, gar nicht genannt wird, oder vielleicht doch, ist natürlich bei dieser Frage des Streitens auch immer der große Theoretiker des erbarmungslosen Streits, wenn man so will, ist natürlich Karl Schmidt, der sagt, der Begriff des politischen ist eine Unterscheidung von Freund und Feind. Und der Feind ist immer diese Gegenfigur, die es dann zu vernichten gilt. Und Schmidt hat quasi das Toten Blöcklein geläutet für die Weimarer Republik und dann als Kronjurist des Dritten Reiches in absurder Weise diesen Satz auch geäußert, aber nicht nur diesen Satz, sondern ganz viel anderes. Der war ein eingefleischter furchtbarer Antisemit, brillanter Kopf und furchtbarer Antisemit. Der Führer schützt das Recht. Das ist dann der reine Machtpositivismus, wenn man so möchte. Aber als theoretische Folie ist dieser Carl Schmidt, kann der immer die Begriffe ganz gut ordnen. Und jetzt ist natürlich die Frage, gibt es in antitätischer Zuspitzung, gibt es einen Raum zwischen der deliberativen Demokratie, wie sie am Jürgen Habermas vorschwebt und der tendenziell tödlichen Alternative immer zwischen Freund und Feind zu unterscheiden. Und da kommt jetzt, und das war wo ich am Anfang schon mal drauf hinaus wollte und du mich zu Recht zurückgepfiffen hast, da kommt jetzt eben die belgische Politologin Chantal Muff ins Gespräch, die sagt, der politische Streit entsteht schon, weil es auf der allergrundsätzlichsten Ebene ein absolutes Nicht-Verstehen gibt mit der anderen Seite. Ein Nicht-Verstehen, das durch keine noch so deliberative Gesprächssituation im Sinne einer universellen Vernunft aufgelöst werden kann. Darüber sollten wir uns nicht hinwegtäuschen. Daraus muss aber nicht gleich der Karl-Schmitzsche-Freund-Feind-Maximalismus entstehen, sondern was sie vorschlägt, ist, was sie einen Agonismus nennt und das geht zurück auf das griechische Wort Agon, heißt einfach Kampf und Wettkampf. Die griechische Kultur, jetzt nehmen wir nochmal, bei den Athenern war immer eine ganz agonale. Es ging immer darum, der Beste zu sein und die Kräfte mit zu messen. Und zwar nicht nur in Olympos bei den Sportwettkämpfen, sondern genauso traten die großen Tragiker, Sophocles, Euripides, Eichelos, traten im Theater auch gegeneinander an. Und am Ende hat einer gewonnen, der war dann der eben der Sieger im Tragödienschreiben des jeweiligen Jahres. Und diese agonale Grundstruktur in Gemeinschaften sich zu organisieren, die möchte die Chantal Muff bewahrt sehen. Und dann ist es eben für sie so entscheidend, dass aber dann der Gegner eben nur der Gegner ist und nicht der Feind. Er darf als Gegner aber tatsächlich Positionen vertreten, die der anderen Seite als völlig nicht nachvollziehbar erscheinen. Die andere Seite sollte sie deswegen aber nicht pathologisieren, weil es ist ein interessanter Gedanke. Wenn wir das tun, dann fühlt sich die andere Seite ja auch leider die an solchen Gesichtsverlust und fühlt sich so um ihre Ehre gebracht, dass sie dann wie ein in die Ecke getriebener Hund nur noch beißen kann, übersetzt nur noch mit Gewaltanwendung reagieren kann. Und diesen Gedanken, den hatte ich vorher so nicht auf dem Schirm, den finde ich aber doch ein aufklärerischen für unsere Gegenwart.",
-      "begin_time": "49:54.092",
-      "begin_seconds": 179732.0,
-      "end_time": "54:04.672",
-      "end_seconds": 195312.0,
-      "duration_seconds": 15580.0
+      "begin_seconds": 2994.092
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, a lot to unpack, wie man da manchmal sagt. Ich versuche mal gerade ein kleines Tafelbild daraus zu machen, damit wir nicht die Übersicht verlieren. Also wir sprechen ja insgesamt immer noch darüber, wie Svenja Flasspöller die Philosophin ist, in ihrem Buch, die Philosophie des Streites entfaltet, so nenne ich es jetzt mal. Und jetzt haben wir drei Namen, die dir zentral sind, die du aufgeworfen hast, mit drei unterschiedlichen Konzepten. Wir haben ganz rechts natürlich stehen Karl Schmidt, der einfach zwischen Freund und Feind unterscheidet. Und das ist eine Unterscheidung um Leben und Tod. Da geht es, so sagt Flasspöller, es darum, den anderen zu vernichten. Und zwar nicht nur im metaphorischen Sinne. Im zwei bis zwei wird er eben tatsächlich getötet im Krieg. So, offensichtlich wollen wir alle das nicht. Also weder du noch ich, noch Svenja Flasspöller, noch die guten Linksliberalen. Das können wir schon mal. Das ist rechts im Tafelbild, das wollen wir nicht. Dann haben wir ganz links im Tafelbild. Wobei das schon schwierig ist, da sei das jetzt nicht mehr so einfach politisch zu positionieren, das ist auf der Achse. Aber da haben wir den Habermaß mit der deliberativen Demokratie. Da geht es darum, wir tauschen unsere Argumente aus. Und das ist ja das Zitat, was du gesagt hast, der zwanglose Zwang führt uns dann dazu, dass wir hier einen Konsens finden und der ist dann auch der Richtige, ja? So. Beides, das muss ich vielleicht mal sagen, beides findet Flasspöler nicht so gut. Also nicht nur den Carl Schmidt findet sie schlimm, sondern auch mit Habermaß hat sie ihre Probleme. Deswegen sucht sie überhaupt nach dieser dritten Position, ich sag jetzt mal in der Mitte, die du aufgefallen hast, wofür die dann Chantal Mouff zitiert, wo der Antagonismus ja erhalten bleibt, sich nicht irgendwie zwanglos im Argument auflöst, sondern er bleibt erhalten, aber trotzdem müssen wir uns nicht die Köpfe einschlagen.",
-      "begin_time": "54:04.672",
-      "begin_seconds": 195312.0,
-      "end_time": "55:51.612",
-      "end_seconds": 201672.0,
-      "duration_seconds": 6360.0
+      "begin_seconds": 3244.672
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, den Antagonismus erhalten, ohne die Vernichtungsabsicht da mit einzukaufen.",
-      "begin_time": "55:51.612",
-      "begin_seconds": 201672.0,
-      "end_time": "55:56.912",
-      "end_seconds": 202272.0,
-      "duration_seconds": 600.0
+      "begin_seconds": 3351.612
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Na, schon alle Geschenke gekauft? Klar, mit meiner Debit Mastercard behalte ich selbst im Feiertagstress den Überblick über meine Ausgaben dank Direktabbuchung vom Konto. Klingt nach einer entspannte Feiertagekarte. Geht das auch online? Ja, mit der Debit Mastercard zahlst du auch online und in Apps sicher und bequem. Und wenn du bis zum 31.12. deine Mastercard bei eBay hinterlegst, bekommst du 10 Euro Rabatt auf deinen Einkauf. Mehr auf mastercard.de/debit.",
-      "begin_time": "56:01.492",
-      "begin_seconds": 202152.0,
-      "end_time": "56:29.032",
-      "end_seconds": 203372.0,
-      "duration_seconds": 1220.0
+      "begin_seconds": 3361.492
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Was ich dann nicht verstehe, um das Buch auch ein bisschen zu kritisieren an der Stelle, ist, was hat eigentlich Flasspöler gegen Habermas? Oder wenn du das jetzt eingekauft hast, was sie da sagt, was hast du denn eigentlich gegen Habermas? Weil was sie macht ist, sie zitiert ihn gar nicht so sehr als Theoretiker, sondern so als politischen Intellektuellen, der mal in Interviews gesagt hat, man muss die AfD die Plattformen, so nenn ich sie jetzt mal, ich weiß nicht ob er diesen Anglizismus benutzt, aber man muss sozusagen die Themen der AfD einfach nicht mehr besprechen, damit die weggeht. Und das mag Flasspöler nicht und deswegen ist Habermas für sie irgendwie verdächtig, weil sie irgendwie unterstellt seiner Theorie, die wird immer darauf hinauslaufen, dass vorher irgendwie schon festgesetzt ist, das sind die richtigen Normen, erstens, zweitens, drittens und alles, was irgendwie halbwegs diese Normen verstößt, das darf da eh schon nicht mitmachen beim Deliberativ. Ich weiß gar nicht, ob das jetzt eine faire Rekonstruktion der Habermas-Position ist.",
-      "begin_time": "56:35.194",
-      "begin_seconds": 203894.0,
-      "end_time": "57:32.874",
-      "end_seconds": 207994.0,
-      "duration_seconds": 4100.0
+      "begin_seconds": 3395.194
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Also es werden so vier Kriterien angeführt, die die Voraussetzungen zur Teilhabe in diesem Diskurs seien, nämlich Verständlichkeit, Wahrheit, Richtigkeit und Wahrhaftigkeit. Auf die müssen sich die Teilnehmer zumindest meinen, geeinigt zu haben, also im Bemühen, ihnen gerecht zu werden. Und da würde man dann eben sagen, die sind natürlich ihrerseits schon wieder Gegenstand des Streitens, denn ob etwas richtig ist oder wahrhaftig oder wahr, naja, das liegt ja nicht herum wie Steine auf der Straße. Das ist ja selber Gegenstand des Diskutierens. Also da kommen wir auch in einen infiniten Regress, oder?",
-      "begin_time": "57:33.134",
-      "begin_seconds": 207314.0,
-      "end_time": "58:10.914",
-      "end_seconds": 210314.0,
-      "duration_seconds": 3000.0
+      "begin_seconds": 3453.134
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, aber das finde ich und das traue ich mir jetzt fast nicht zu sagen, weil Flassbierer ist natürlich ein wahnsinnig kluges Buch und sie ist eine wahnsinnig kluge Philosophin und ich hab keine Ahnung. Aber trotzdem, in ihrem Sinne, wie die Minderheit bei harte Befehle widerspreche ich jetzt trotzdem, weil ich jetzt sagen würde, was hier gemeint ist, ist doch, dass alle sich in diesem habermasianischen Wunschdiskurs, den es natürlich auch nicht immer gibt, das ist ja nur eine Idealvorstellung, müssten sich darauf einigen, dass sie interessiert sind daran, verpflichten sich dazu, das nur beizutragen, was sie eben für wahr und richtig halten. Es ist ja nicht dere gemeint, es ist nur wahr, dass wir eine Impfpflicht brauchen, deswegen darf nur mitdiskutieren, wer eine Impfpflicht will. Das scheint mir eine komische Verkürzung der Position zu sein. Und das will ich nochmal betonen, überhaupt. Und das ist ein ganz interessantes Phänomen, was nicht nur bei Flasspöler oder MUF immer wieder zu beobachten ist, sondern auch bei dem Soziologen Wolfgang Streeck, der, ich sag mal, eine verwandte Position zu der von MUF hat.",
-      "begin_time": "58:10.914",
-      "begin_seconds": 210314.0,
-      "end_time": "59:11.554",
-      "end_seconds": 213614.0,
-      "duration_seconds": 3300.0
+      "begin_seconds": 3490.914
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Charakterisieren wir mal kurz die MUF-Position, weil ich hab die gar nicht so richtig auf dem Schirm. Ich meine jetzt nicht die Position in dieser Frage des Streits, sondern überhaupt im politischen. Wie sagst du über Quadrant oder?",
-      "begin_time": "59:11.974",
-      "begin_seconds": 214034.0,
-      "end_time": "59:23.134",
-      "end_seconds": 213914.0,
-      "duration_seconds": -120.0
+      "begin_seconds": 3551.974
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, also Shantai MUF, so würde ich es jetzt mal zusammenfassen, gilt als die Vordenkerin zum Beispiel von Mélenchon in Frankreich, dessen Namen ich jetzt garantiert wieder falsch ausgesprochen habe, aber ihr wisst alle, wie gemeint ist. Also ein Linkspopulismus.",
-      "begin_time": "59:23.134",
-      "begin_seconds": 213914.0,
-      "end_time": "59:36.554",
-      "end_seconds": 215114.0,
-      "duration_seconds": 1200.0
+      "begin_seconds": 3563.134
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ach so, Linkspopulismus, ja.",
-      "begin_time": "59:37.654",
-      "begin_seconds": 215274.0,
-      "end_time": "59:38.214",
-      "end_seconds": 214894.0,
-      "duration_seconds": -380.0
+      "begin_seconds": 3577.654
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, mit Marxist finde ich den jetzt unsträffig gesprungen. Also ein Linkspopulismus, der populistisch ist in der Tonart, in der Herangehensweise sozusagen gegen die Eliten schimpft und sich politisch, international natürlich gegen den amerikanischen Imperialismus stellt, was natürlich heißt, man ist pro-Palästina, man ist nicht unbedingt so pro-Ukraine, wie sich das zentristische Kräfte wünschen würden, man würde jetzt Melanchon vielleicht auch unterstellen, er sei pro-Russland, weiß nicht, ob das nicht meine Beschreibung, ja. So. Gleichzeitig aber ist es nicht, das muss man bei Melanchon wissen, da gehört jetzt nicht so sehr so Migrationsskepsis oder so dazu. Also er ist nicht Sarah Wagenknecht, genau, Wagenknecht. Wagenknecht. Du bist in der Welt der Literatur zu Hause, da gibt's einen Wagenbach-Verlag. Nein, also das unterscheidet ihn dann wiederum von Sarah Wagenknecht, die ja die gerade genannten Sachen teilt.",
-      "begin_time": "59:38.214",
-      "begin_seconds": 214894.0,
-      "end_time": "1:00:34.614",
-      "end_seconds": 3634.614,
-      "duration_seconds": -211259.386
+      "begin_seconds": 3578.214
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Und auch von Wolfgang Streeck, mit dem du ein sehr aufschlussreiches Interview kürzlich geführt hast.",
-      "begin_time": "1:00:35.514",
-      "begin_seconds": 3635.514,
-      "end_time": "1:00:40.674",
-      "end_seconds": 3640.674,
-      "duration_seconds": 5.1599999999998545
+      "begin_seconds": 3635.514
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Darauf wollte ich nur hinaus. Ich musste so an dieses Streeck-Interview denken, weil Streeck auch sagt, diese Habermas-Vorstellung, wo wir alle auch, das ist ein anderer wichtiger Brief, Universalisten sind, und letztlich nur das bessere Argument und die Vernunft zählt. Er sagt dann glaube ich Streeck im Interview, das ist unsoziologisch, so funktioniert das gar nicht. Und das würde ich erst noch festhalten. Ja, das mag sein, dass die Welt so nicht funktioniert, aber es ist ja erst mal auch nur eine Abstraktion, eine Theorie einer idealen Kommunikationssituation. Und deswegen finde ich den Vorwurf, sofern ihn Flasspöler da äußert, irgendwie nicht ganz richtig zu sagen, ja in Wirklichkeit ist Streiten aber nicht so. Ja ich glaube auch nicht, dass das das Argument von Habermas ist, dass Streiten in Wirklichkeit so ist. Gleichzeitig verstehe ich natürlich was Flasspöler...",
-      "begin_time": "1:00:40.674",
-      "begin_seconds": 3640.674,
-      "end_time": "1:01:25.534",
-      "end_seconds": 3685.534,
-      "duration_seconds": 44.86000000000013
+      "begin_seconds": 3640.674
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Es wäre nicht ganz klar, was denn dann sein, jenseits der Idealität müsste dann Habermas ja sagen, wie es in der Wirklichkeit so abläuft. Und da kenne ich von ihm keine Aussagen. Deswegen glaube ich schon, dass es für ihn nur dieses Modell gibt, das sich natürlich nicht immer ideal umsetzt. Aber er würde ja nicht sagen, so wie Luther unterscheidet von der Freiheit eines Christenmenschen, dann gibt es halt ja die Freiheit im Geistigen, aber im Weltlichen gibt es halt die Landesknecht, Fürsten zu deren Knechten man wird oder so. Also eine solche Zweiteilung ist mir jetzt nicht bekannt bei Habermas.",
-      "begin_time": "1:01:25.534",
-      "begin_seconds": 3685.534,
-      "end_time": "1:01:59.854",
-      "end_seconds": 3719.854,
-      "duration_seconds": 34.31999999999971
+      "begin_seconds": 3685.534
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, aber wie alles auf der Welt hat auch das Streiten ja verschiedene Ebenen. Und es gibt in der, aber das ist mehr aus der Wissenschaftstheorie, eine berühmte Unterscheidung, Mar hieß der Mann glaube ich, der hat mal versucht sozusagen zu beschreiben, wie das Auge funktioniert letztlich auf allen Ebenen. Ja von der Biologie bis zur Philosophie of Mind, wie das sozusagen im Gehirn verarbeitet wird auf welchen Ebenen. Und der hat da so interessante Ebenen, diese Unterscheidungen über dieses Buch, über das Auge, über das Sehen, hinaus bis heute in der Philosophie erhalten geblieben. Dass man immer sagt, also mindestens hat so was mal ein computational level und ein implementational level. Es gibt noch andere levels, ich lasse mal gerade noch die beiden. Also es hat ein Berechnungsverarbeitungs, da steckt das Wort Computer drin, level, ja, und ein implementationslevel, so wie mein Computer, vor dem ich sitze.",
-      "begin_time": "1:02:01.354",
-      "begin_seconds": 3721.354,
-      "end_time": "1:02:51.634",
-      "end_seconds": 3771.634,
-      "duration_seconds": 50.2800000000002
+      "begin_seconds": 3721.354
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das musst du mir jetzt erklären, das hab ich nicht verstanden.",
-      "begin_time": "1:02:51.634",
-      "begin_seconds": 3771.634,
-      "end_time": "1:02:53.434",
-      "end_seconds": 3773.434,
-      "duration_seconds": 1.800000000000182
+      "begin_seconds": 3771.634
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Na mein Computer, vor dem ich sitze, der hat irgendwie eine Software, die immer sagt, so was wie, wenn P, dann mach auch Q oder so, ja. Aber da sind natürlich auch irgendwie Silikonchips drin und kleine Elektrosignale fliegen da durch, so ist das implementiert. Und so ist es doch auch, um jetzt wieder zurückzukommen, so ist es doch auch beim Streiten.",
-      "begin_time": "1:02:53.434",
-      "begin_seconds": 3773.434,
-      "end_time": "1:03:12.994",
-      "end_seconds": 3792.994,
-      "duration_seconds": 19.559999999999945
+      "begin_seconds": 3773.434
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Wow, das ist eine sehr anspruchsvolle Metapher, die du bemühst. Also um ein komplexes Phänomen zu erklären, ziehst du ein noch viel komplexeres Beispiel heran.",
-      "begin_time": "1:03:12.994",
-      "begin_seconds": 3792.994,
-      "end_time": "1:03:21.974",
-      "end_seconds": 3801.974,
-      "duration_seconds": 8.980000000000018
+      "begin_seconds": 3792.994
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, das ist jetzt mal sehr unjournalistisch. Ich erklär was Einfaches mit was viel Komplizierteren. Aber vielleicht kann man doch da jetzt mitnehmen, ist doch offensichtlich, dass es auch beim Streiten bei all diesen Sachen eine abstrakte Ebene gibt. Und es gibt eine Ebene, auf der sich implementiert wird im Fall des Streitens eben nicht im Computer, sondern in der Gesellschaft oder in der Talkshow. Und da ist halt die Frage, wer sitzt wo, wer hat wann das Rederecht, wer redet zuerst, wer lässt wen ausreden und tausend andere Sachen, die gehören halt zur Implementierung. Und ich sehe da keinen Widerspruch.",
-      "begin_time": "1:03:21.974",
-      "begin_seconds": 3801.974,
-      "end_time": "1:03:55.034",
-      "end_seconds": 3835.034,
-      "duration_seconds": 33.059999999999945
+      "begin_seconds": 3801.974
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich akzeptiere das einfach mal so. Genau.",
-      "begin_time": "1:03:57.474",
-      "begin_seconds": 3837.474,
-      "end_time": "1:03:59.234",
-      "end_seconds": 3839.234,
-      "duration_seconds": 1.7599999999997635
+      "begin_seconds": 3837.474
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Vielleicht darf ich am Schluss noch eine, das ist vielleicht mein letzter Punkt, eine grundsätzliche Sache machen, die ich bei dem Streit über das Streiten nicht ganz verstehe. Ich habe manchmal das Gefühl, wenn ich zum Beispiel Flasspöder lese, dass es ihr sehr viel darum geht. Sie kommt aus dem, aus dem ganzen Corona-Schlammhassel und ihr geht sehr viel darum, wie Streiten richtig funktioniert, so wie wir es an unserem Tafelbild gerade gemacht haben, sodass wir nicht Feinde werden, ja, aber auch nicht zuvorschnell manche Leute ausschließen, die darum zu feinden werden. Das wäre ja das Move-Problem, was du schilderst. Wenn wir zu schnell sagen, nur die da dürfen mitmachen, weil die deliberativ sind, die anderen dürfen nicht mitmachen, dann wären das Feinde auch nicht gut. Also es geht irgendwie um den gesellschaftlichen Zusammenhalt. Aber mich interessiert, das klingt jetzt blöd, aber mich interessiert beim Streiten und gerade bei sowas wie bei Corona doch erst mal was anderes, nämlich was stimmt eigentlich? Also ich streite doch, um rauszufinden, wer Recht hat. Meistens jedenfalls. Oder streitet man, um durchzusetzen, was man will. Oder lässt sich das nicht voneinander trennen.",
-      "begin_time": "1:03:59.234",
-      "begin_seconds": 3839.234,
-      "end_time": "1:05:05.614",
-      "end_seconds": 3905.614,
-      "duration_seconds": 66.38000000000011
+      "begin_seconds": 3839.234
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich würde denken, das lässt sich nicht voneinander trennen.",
-      "begin_time": "1:05:05.614",
-      "begin_seconds": 3905.614,
-      "end_time": "1:05:08.874",
-      "end_seconds": 3908.874,
-      "duration_seconds": 3.2599999999997635
+      "begin_seconds": 3905.614
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, vielleicht bin ich dann zu naiv.",
-      "begin_time": "1:05:08.874",
-      "begin_seconds": 3908.874,
-      "end_time": "1:05:10.094",
-      "end_seconds": 3910.094,
-      "duration_seconds": 1.2200000000002547
+      "begin_seconds": 3908.874
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Man muss so tun, als würde man streiten, um die Wahrheit herauszufinden, während man faktisch natürlich streitet, um sich durchzusetzen.",
-      "begin_time": "1:05:10.374",
-      "begin_seconds": 3910.374,
-      "end_time": "1:05:17.234",
-      "end_seconds": 3917.234,
-      "duration_seconds": 6.860000000000127
+      "begin_seconds": 3910.374
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, ich hab ein anderes Bild von der Welt. Ich hab das Gefühl, ich streite, um rauszufinden, was stimmt. Selbst dann, wenn es darum geht, welche moralische Norm stimmt. Das ist natürlich ein...",
-      "begin_time": "1:05:18.554",
-      "begin_seconds": 3918.554,
-      "end_time": "1:05:27.414",
-      "end_seconds": 3927.414,
-      "duration_seconds": 8.860000000000127
+      "begin_seconds": 3918.554
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nein, da hast du auch recht. Wenn das deine Basis ist, sollten wir uns dieser auch anschließen, weil alles andere bringt uns ja nur in Teufels Küche, weil dann ist es eigentlich auch alles sinnlos. Ja, natürlich sollte man einen psychologisch selbstkritischen Blick haben und wissen, wie stark die Versuchung ist, im Streiten vor allem selber Recht behalten zu wollen. Aber das kann nicht die Arbeitsbedingungen sein, weil sonst können wir es gleich lassen. Die Arbeitsbedingungen muss das sein, wie du herangehst. Nein, ich stimme dir völlig zu. Da sollten wir uns alle nach der Decke recken. Nutzen wir das Streiten zumindest in der Idealität, dass wir hoffen, durch den Streit zu einer neuen Einsicht zu kommen, die am Anfang des Streitens möglicherweise gar nicht unsere eigene war. Nee, ich stimme dir zu. Vielleicht ist da übermenschliches verlangt, aber wenn wir uns das nicht abverlangen, können wir den Laden eh dicht machen.",
-      "begin_time": "1:05:27.414",
-      "begin_seconds": 3927.414,
-      "end_time": "1:06:19.634",
-      "end_seconds": 3979.634,
-      "duration_seconds": 52.2199999999998
+      "begin_seconds": 3927.414
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, vielleicht bleibt da nur zu sagen, dass natürlich die, und dafür hab ich ja mal plädiert in einem Text, dass natürlich auch die, ich nenne sie mal hermeneutischen Mittel und Werkzeuge oder die kognitiven Ressourcen, dann nicht allzu ungleich verteilt sein dürfen. Weil jetzt nehme ich doch wieder Corona als Beispiel, meine Sorge, auch den Text können wir unten noch mal verlinken, wer das genauer nachlesen will, meine Sorge war immer, dass man zum Beispiel dem Impfgegner oder Verweigere oder was auch immer, Impfskeptiker, um mal die softe Variante zu nehmen, gar nicht in der Öffentlichkeit in irgendeiner Talkshow oder irgendwo die kognitiven Ressourcen zur Verfügung gestellt hat, die besten Argumente für seine Position zu finden. Weil die dann auch deswegen nicht auftauchen durften, und da bin ich dann auf Flasspölers Seite, weil man gesagt hat, ah nee, das die plattformen wir mal lieber, bevor jetzt hier ein Moralfilosoph erklärt, warum die Handeln-lassen-Unterscheidung vielleicht ein Argument dafür sein könnte, ja, dass die Handlung des Impfens problematisch ist, als das Unterlassen oder so. Das lassen wir mal wieder weg, weil dann verwirren wir die Leute nur, dann lassen die sich am Ende tatsächlich nicht impfen, das wollen wir ja gar nicht. Da bin ich bei Flasspölers, das ist vielleicht ein Problem. Man muss den Leuten ja die kognitiven Werkzeuge zur Verfügung stellen. Sonst kann man auch nicht erwarten, dass sie sich nicht im Streit eben doch einfach über Trumpf fühlen, das Gefühl haben, da soll ihnen nur irgendwie der Wille einer Elite aufgezogen werden oder so.",
-      "begin_time": "1:06:19.634",
-      "begin_seconds": 3979.634,
-      "end_time": "1:07:42.954",
-      "end_seconds": 4062.954,
-      "duration_seconds": 83.32000000000016
+      "begin_seconds": 3979.634
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja. Lieber Lars, ich werde jetzt mal in eine bundespräsidiale Redehaltung zum Ende unserer Folge verfallen und sagen, liebe Leute da draußen, lieber Lars, wenn wir jetzt schon wieder so angeregt über das Streiten streiten, dann sind wir auf einem guten Weg. Denn am schlimmsten ist, das hat uns Sigmund Freud gelehrt, wenn wir dort, wo es drückt, diese Themen verdrängen. Das haben wir nicht getan. Stattdessen wenden wir uns zum Ausklang unserer klassischen Schlussfrage der Zukunftsprognose zu. Und diesmal darf ich dich um eine Prognose bitten. Ich bin sehr nah am politischen Geschehen. Ich möchte von dir wissen, Christian Lindner hat berühmterweise vor kurzem gesagt, wir sollten mehr Musk und Mealy wagen. Friedrich Merz hat daraufhin seine Erschütterung zum Protokoll gegeben, dass er entsetzt war, als er diese Formulierung gehört habe. Plötzlich sah man Merz an der Seite der Grünen und nicht mehr an Seiten der FDP. Meine Frage in dieser neuen zugespitzten Situation, deine Prognose wird, ist die Mealy-Mask-FDP in den nächsten Bundestag schaffen oder nicht?",
-      "begin_time": "1:07:42.954",
-      "begin_seconds": 4062.954,
-      "end_time": "1:08:58.814",
-      "end_seconds": 4138.814,
-      "duration_seconds": 75.86000000000013
+      "begin_seconds": 4062.954
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Das ist natürlich eine sehr gute, sehr direkte, sehr klare Frage. Und ich muss jetzt rumschwurbeln 30 Sekunden, um mir eine Antwort zu überlegen. Also die entscheidende Frage ist natürlich, schafft die FDP jetzt Wähler zu gewinnen, indem sie sich, ich sag jetzt mal ganz wertneutral, in diesem Sinne radikalisiert? Und zwar mehr als sie verliert. Es ist ja schon interessant, da muss man schon sagen, es ist ja schon interessant zu beobachten. Wir haben natürlich sehr viele Stimmen in der Öffentlichkeit, die sagen, das ist nicht mehr der richtige Liberalismus, so verhalten sich doch keine Liberalen. Die sollen sie jetzt mal auch bekennen zu ihrer Verantwortung und ordentlich mitmachen.",
-      "begin_time": "1:08:58.814",
-      "begin_seconds": 4138.814,
-      "end_time": "1:09:41.954",
-      "end_seconds": 4181.954,
-      "duration_seconds": 43.13999999999942
+      "begin_seconds": 4138.814
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Leuthäuser-Schnarrenberger-mäßig gewissermaßen.",
-      "begin_time": "1:09:41.954",
-      "begin_seconds": 4181.954,
-      "end_time": "1:09:43.874",
-      "end_seconds": 4183.874,
-      "duration_seconds": 1.9200000000000728
+      "begin_seconds": 4181.954
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Während ich natürlich bei Twitter, und da weiß man natürlich auch nicht, wie viele Leute das sind, aber eher bei den Rechtsliberalen bei Twitter, aber schon seit Jahren, schon übrigens lustigerweise seit der Diskussion um die Impfpflicht, das Gefühl habe, denen ist die FDP natürlich viel zu zentristisch in der Mitte. Die hätten gern mal eine FDP, die sagt, die Impfpflicht kam am Ende nicht, aber die viel radikaler, nicht nur Kubicki, sondern viel radikaler gesagt hat, den machen wir auf gar keinen Fall. Und dann Bushmann gilt bei denen wirklich als Unperson, auch wegen bestimmtem, wegen glaube ich dem Selbstbestimmungsgesetz, wo dann irgendwie drin steht, dass es ein Bußgeld ist, wenn man das abgelegte Geschlecht einer Person nennt und so weiter. Und das ist für die alles keine liberale, keine liberalen Entscheidungen. Und deswegen wünschen sie der FDP den Untergang sozusagen, wegen diesen Sachen. Da ist es natürlich jetzt schwierig zu entscheiden, wer es denn wirklich, wer bringt denn wirklich viele Wähler auf die Strecke. Ja, vielleicht ist es dann doch so, dass man unterschätzt, wie viele Leute dann doch eben so ticken wie die Leute bei Twitter. Wir tun immer so, ja auf Twitter, das sind nur drei. Aber vielleicht sind es dann doch genug, um die FDP wieder in den Bundestag zu heben, wenn sie sich denn da auf so eine bisschen schmuddelige Maske-Schiene einlässt. Ich sage, sie kommt wieder in den Bundestag.",
-      "begin_time": "1:09:44.414",
-      "begin_seconds": 4184.414,
-      "end_time": "1:11:00.354",
-      "end_seconds": 4260.354,
-      "duration_seconds": 75.94000000000051
+      "begin_seconds": 4184.414
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich habe mich sehr gefreut, dass du so klug analytisch meine Zukunftsprognose-Frage beantwortet hast. Das war sehr fruchtbar. Es war mir ein Vergnügen mit dir zu streiten.",
-      "begin_time": "1:11:00.354",
-      "begin_seconds": 4260.354,
-      "end_time": "1:11:10.674",
-      "end_seconds": 4270.674,
-      "duration_seconds": 10.319999999999709
+      "begin_seconds": 4260.354
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich muss zum Abschied noch erstmal mich bedanken bei den Hörerinnen und Hörern, bei dir, aber auch bei Jona, unserem Producer. Ich muss eine kleine Ankündigung machen, nämlich dass wir in eine kleine Weihnachtspause gehen, um uns dann ein paar Wochen nur privat zu streiten oder hoffentlich nicht so viel zu streiten. Wir sind am 13. Januar mit einer neuen Folge wieder da. Bis dahin freuen wir uns aber über ganz viele E-Mails an gegenwartatzeit.de mit Gegenwartvorschlägen oder anderen Beiträgen.",
-      "begin_time": "1:11:10.674",
-      "begin_seconds": 4270.674,
-      "end_time": "1:11:39.394",
-      "end_seconds": 4299.394,
-      "duration_seconds": 28.720000000000255
+      "begin_seconds": 4270.674
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, ihr dürft uns auch einfach gesegnete Weihnachten wünschen, so wie wir diese euch wünschen.",
-      "begin_time": "1:11:39.394",
-      "begin_seconds": 4299.394,
-      "end_time": "1:11:44.654",
-      "end_seconds": 4304.654,
-      "duration_seconds": 5.260000000000218
+      "begin_seconds": 4299.394
     }
   ]
 }

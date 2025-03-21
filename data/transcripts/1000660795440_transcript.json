@@ -1,1192 +1,668 @@
 {
-  "episode_title": "Episode 1000660795440",
+  "episode_title": "Sind wir im Fitnesstudio alle gleich?",
   "podcast_id": "1000660795440",
   "episode_id": "1000660795440",
-  "extracted_date": "2025-03-21T22:00:40.003220",
+  "upload_date": "2024-07-01",
   "transcript": [
     {
       "speaker": "SPEAKER_1",
       "text": "Herzlich willkommen zur neuen Ausgabe der sogenannten Gegenwart. Heute mit Nina Pauer und Ijoma Mangold. Der dritte im Bunde, Lars Weisbrod, ist zuständig für die Musik, die wir eben hören durften. Er hat sie gepromptet. Wie fühlst du dich da mit Nina?",
-      "begin_time": "22.493",
-      "begin_seconds": 0,
-      "end_time": "38.393",
-      "end_seconds": 0
+      "begin_seconds": 22.493
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Sehr gut. Also ich fand das sehr gechillt. Ich hab bisschen mitgewippt und ja, fand das eigentlich fast zu entspannt für unser heutiges Thema, Ijoma.",
-      "begin_time": "38.413",
-      "begin_seconds": 0,
-      "end_time": "46.633",
-      "end_seconds": 0
+      "begin_seconds": 38.413
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich würde auch sagen, mitwippen ist doch eigentlich gerade nicht die Idee unseres hochanspruchsvollen Podcasts. Also ich erkenne mich darin nicht wieder.",
-      "begin_time": "46.653",
-      "begin_seconds": 0,
-      "end_time": "55.053",
-      "end_seconds": 0
+      "begin_seconds": 46.653
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, ich fand's schön, aber wir hätten heute irgendwie so eine pumpende Stressmusik einspielen sollen. Denn worum soll es heute gehen, Ijoma, bei uns beiden?",
-      "begin_time": "55.293",
-      "begin_seconds": 0,
-      "end_time": "1:04.513",
-      "end_seconds": 4353.0
+      "begin_seconds": 55.293
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Um alle Erlebnisse, Gefühle und Seelenlagen, die man in einem Fitnesstudio erlebt.",
-      "begin_time": "1:04.533",
-      "begin_seconds": 4373.0,
-      "end_time": "1:10.353",
-      "end_seconds": 4553.0,
-      "duration_seconds": 180.0
+      "begin_seconds": 64.533
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, es soll um Fitness gehen, um Sport, um Körper, um das Formen von unseren Körpern, alles drumrum. Es klingt jetzt so ein bisschen groß, das Thema. Wir haben gerne große Themen. Wir haben uns aber natürlich auch als Steigbügel oder Geländer einige Dinge gesichtet, wie immer. Wir haben einen Roman gelesen, wir haben uns einen Dokumentarfilm geguckt und so weiter und so fort. Aber bevor wir groß ins Thema Fitness einsteigen, Ijoma, wollen wir unser Aufwärmspiel spielen, wie immer den Gegenwart Check. Möchtest du anfangen?",
-      "begin_time": "1:10.373",
-      "begin_seconds": 4573.0,
-      "end_time": "1:44.793",
-      "end_seconds": 7033.0,
-      "duration_seconds": 2460.0
+      "begin_seconds": 70.373
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich fange gerne an und zwar mit einer subtilen Geste des Widerstands, die ich, ich komme gerade aus Italien zurück, in Mailand an allen Orten beobachten konnte. Nämlich der Versuch, sich gewissermaßen diesem regulatorischen Zugriff, wonach an Plastikwasserflaschen der Deckel jetzt nicht mehr abzunehmen ist, sondern so halb da dran hängt und einem natürlich immer auf die unangenehmste und demütigendste Weise in die Wange zwrackt, damit so umzugehen durch eine Geste mit gespreizten Fingern, theatralisch sind die Italiener und sie wissen ja, welche Macht von Gesten ausgeht, also diese Flasche so mit einer Geste so an den Mund zu führen, dass man mit einem Finger den Deckel wegdrückt, aber nicht aus praktischen Gründen, sondern um damit zu signalisieren, dass man das nicht einfach so hinnimmt, dass man nicht der Meinung ist, hier kann einfach alles über einen verfügt werden, wir dürfen doch nicht mal mehr Herren unserer eigenen Deckel sein, sondern dieser Geste drückt sich ein Widerstand gegen ein bürokratisches Gesetz aus in Form einer schönen, ästhetischen Handbewegung. Das ist mein Gegenwart-Check.",
-      "begin_time": "1:44.813",
-      "begin_seconds": 7053.0,
-      "end_time": "2:56.173",
-      "end_seconds": 10733.0,
-      "duration_seconds": 3680.0
+      "begin_seconds": 104.813
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, ich finde das toll, dass das Thema endlich Einzug in den Gegenwart-Check hält, weil natürlich haben uns Hörerinnen und Hörer schon darüber was geschrieben, so dass diese Deckeldiktatur, ja, welcher Finger ist es denn? Also du deutest das natürlich jetzt. Ich meine, ich dachte jetzt, als du angefangen hast, das zu sagen, du hast gesehen, wie alle versuchen, das irgendwie rauszureißen oder irgendwie mit einer Zange das so abzuzwacken.",
-      "begin_time": "2:56.273",
-      "begin_seconds": 10833.0,
-      "end_time": "3:18.333",
-      "end_seconds": 12213.0,
-      "duration_seconds": 1380.0
+      "begin_seconds": 176.273
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, das wäre quasi die teutonische Antwort darauf. Die italienische Antwort ist aber eben die Verwandlung der Herausforderung in ein Zeichen des eleganten Widerstands.",
-      "begin_time": "3:18.353",
-      "begin_seconds": 12233.0,
-      "end_time": "3:27.593",
-      "end_seconds": 13013.0,
-      "duration_seconds": 780.0
+      "begin_seconds": 198.353
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Also den Punkt kriegst du einfach, weil das Thema endlich mal jetzt hier und weil es weiter gedreht wurde, im wahrsten Sinne des Wortes. Also es gibt sozusagen nicht nur die Beobachtung, es gibt jetzt diese Deckel, sondern es gibt jetzt schon die die menschliche Anpassung daran. Aber mich würde trotzdem jetzt auch aus Gründen interessieren, damit ich das auch machen kann. Wie weißt du, wie dieser Handmove geht? Vielleicht können wir noch so ein Reel von dir anhängen, wie du die Italiener und Italienerin imitierst.",
-      "begin_time": "3:27.813",
-      "begin_seconds": 13233.0,
-      "end_time": "3:53.993",
-      "end_seconds": 14973.0,
-      "duration_seconds": 1740.0
+      "begin_seconds": 207.813
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Das ist richtig. Man nimmt die Flasche mit Daumen und Mittelfinger und der Zeigefinger wird dazu verwendet, den Deckel vom Gesicht wegzudrücken.",
-      "begin_time": "3:54.013",
-      "begin_seconds": 14053.0,
-      "end_time": "4:03.253",
-      "end_seconds": 14833.0,
-      "duration_seconds": 780.0
+      "begin_seconds": 234.013
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Okay, also ich werde das nachher probieren. Das ist heiß und ich werde das mal probieren. Den Punkt kriegst du, Ijoma. Das ist schön lebensnah und ich mache weiter vielleicht mit einer Beobachtung. Ich muss fast immer lachen irgendwie, weil Wiebke hat uns geschrieben, Wiebke aus Hamburg, viele Grüße durch die Stadt. Und zwar ist es so eine Beobachtung, die auf so einem Level war. Das hatten wir während der Pandemie sehr viel, dass man einfach viel im öffentlichen Raum war und Dinge hier in den Gegenwart-Check reingestellt hat, die man einfach gesehen hat. Auch ein bisschen vielleicht mit der Frage, seht ihr das auch und warum ist das so? Ich fand es sehr lustig, sie schreibt, guten Tag zusammen. Also es ist mir vorher auch schon aufgefallen, dann hat sie es mir geschrieben und jetzt sehe ich es natürlich noch häufiger. Was mir auffällt, Hunde haben in der Stadt ja alle, aber zwei Hunde scheint mir ein neues Ding zu sein. Gibt auch ganz patente, ach was schicke Leiden dafür. Haltet doch mal die Augen auf, ob euch das auch unterkommt. Herzliche Grüße von eurem Fan Wiebke. Und zwar ist es wirklich so, ich hatte das gar nicht auf dem Radar für unser Spiel hier, aber wenn ich draußen unterwegs bin seit einiger Zeit, sehe ich wirklich Leute mit zwei Hunden. Und frage mich dann immer, denke dann immer so kurz so, hä, war das jetzt so eine Hunde-Nanny? Oder hat die irgendwie den Hund von einer Freundin mit? Aber Hunde-Nannys haben dann meistens so vier, fünf. Und wenn eine Freundin mit dabei ist, ist die meistens selber mit dabei. Und es gibt tatsächlich halt auch diese Doppel-Line. Und ich, also, ist so ein bisschen die Frage, seht ihr das auch und warum? Also warum ist das so, dass das passiert ist, glaube ich? Also Wiebke sieht das und ich hab's wirklich, ich sehe es wirklich sehr, sehr viel. Die Frage ist, ist das so ein, tatsächlich so ein Pandemie-Ding? Weil ich mein, man hat dann sich einen Hund angeschafft, oder wir haben sehr viel über Haustiere geredet, die in der Pandemie angeschafft worden sind. Und dann so, hups Corona vorbei, Mist, ich hab mir einen Hund angeschafft, jetzt muss der irgendwie wieder weg. Oder die ganzen Viecher sollen wieder aus dem Haus raus. Das war ja so ein großes Thema. Und es scheint, es könnte auch so sein, dass manche gesagt haben, nee, Flucht nach vorne, ich hole mir einen zweiten. So, so würde ich das deuten.",
-      "begin_time": "4:03.273",
-      "begin_seconds": 14853.0,
-      "end_time": "6:06.293",
-      "end_seconds": 22253.0,
-      "duration_seconds": 7400.0
+      "begin_seconds": 243.273
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Flucht nach vorne, ich hole mir einen zweiten. Hm, also ich hab das Phänomen noch nicht gesehen. Bzw. im Sinne von zwei Hunde scheint mir ein vertrauter Anblick zu sein. Ich kann jetzt, will gar nicht dagegen sagen, aber um jetzt den Punkt zu vergeben, müsste, finde ich, irgendwas hinzukommen, was das als ein Kommentar zur Gegenwart auch begreiflich machen lässt. Und der Versuch, den du unternommen hast, der überzeugt mich jetzt nicht, zu sagen, naja, während der Pandemie, übrigens natürlich besonders stark in Frankreich und Italien, wo man den Hund braucht, um überhaupt vor die Tür gehen zu dürfen, hat man sich einen Hund zugelegt.",
-      "begin_time": "6:06.313",
-      "begin_seconds": 22273.0,
-      "end_time": "6:39.133",
-      "end_seconds": 24073.0,
-      "duration_seconds": 1800.0
+      "begin_seconds": 366.313
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Na, das glaube ich schon, dass man das so deuten kann. Man kann es natürlich auch noch. Also da bin ich jetzt wirklich nicht so tief drin.",
-      "begin_time": "6:39.593",
-      "begin_seconds": 24533.0,
-      "end_time": "6:44.533",
-      "end_seconds": 24773.0,
-      "duration_seconds": 240.0
+      "begin_seconds": 399.593
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Deuten meinst du, dass man sagt, weil man einen Hund hat, sagt man, nervig genug, jetzt hole ich mir noch einen zweiten?",
-      "begin_time": "6:44.553",
-      "begin_seconds": 24793.0,
-      "end_time": "6:49.253",
-      "end_seconds": 24793.0,
-      "duration_seconds": 0.0
+      "begin_seconds": 404.553
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nein, aber dass man in das Thema so, also, bloß dass es, glaube ich, einen Shift gab, so dass man, also natürlich immer mehr um Hunde drum rum, ne? In guten Vierteln machen immer mehr, was weiß ich, Hundetherapiepraxen auf oder irgendwelche, was, was, Hundes Feinschmeckerkram, so dass man, das meine ich damit, du gehst dann eher in die Bubble rein, statt zu sagen, oh, ich will damit nichts mehr zu tun haben, sondern lässt dich halt auf das Thema ein. Und ich glaube auch, Haustiere vom Haustier aus denken, ist, wenn ich das mit meiner 80er-Jahre-Kindheit vergleiche, zum Beispiel, was war das? Ich glaube so, welche Tiere? Meerschweinchen, irgendwas gibt es. Also wird heute einfach standardisiert. Wellensitiche werden nur im Paar gekauft, jetzt nur. Während in unserer 80er-Jahre-Kindheit man halt immer nur einen Vereinsamten da hat. Nein, ich hatte zwei Kaninchen. Na siehst du, hat deine Eltern alles schon richtig gemacht damals. Aber genau, also ich glaube, das könnte auch so was haben, so ein Anti-Vereinsamungs-Haustier-Ministerium oder so.",
-      "begin_time": "6:49.273",
-      "begin_seconds": 24813.0,
-      "end_time": "7:48.973",
-      "end_seconds": 29053.0,
-      "duration_seconds": 4240.0
+      "begin_seconds": 409.273
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Gut, aus Mitleid für die Tiere, nicht für dich, für die Tiere. Auf das sie mögen, immer in Zweisamkeit leben, gebe ich diesem Punkt aber ohne große innere Überzeugung, aber vielleicht auch aus schlechtem Gewissen, weil mir in einer Form des Erinnerungsflashs gerade aufging, dass diese zwei Kaninchen in einem sehr, sehr engen Käfig damals gehalten wurden und auch völlig verschreckt waren. Und deswegen habe ich auch sehr schnell die Freude an ihnen verloren. Ach, schlimme Kindheitserinnerungen.",
-      "begin_time": "7:48.993",
-      "begin_seconds": 29073.0,
-      "end_time": "8:14.733",
-      "end_seconds": 30373.0,
-      "duration_seconds": 1300.0
+      "begin_seconds": 468.993
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Auch das noch. Du bist da nicht nach vorne gegangen und hast gesagt, wenn die jetzt schon so mickrig da sitzen, dann kümmere ich mich jetzt aber auch um die. Na gut.",
-      "begin_time": "8:14.753",
-      "begin_seconds": 30393.0,
-      "end_time": "8:23.853",
-      "end_seconds": 31033.0,
-      "duration_seconds": 640.0
+      "begin_seconds": 494.753
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nee, ich habe einfach nur die Lust an ihnen verloren.",
-      "begin_time": "8:23.873",
-      "begin_seconds": 31053.0,
-      "end_time": "8:26.253",
-      "end_seconds": 30613.0,
-      "duration_seconds": -440.0
+      "begin_seconds": 503.873
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich frage jetzt nicht, wie sie verendet sind. Ich mache schnell weiter.",
-      "begin_time": "8:26.813",
-      "begin_seconds": 31173.0,
-      "end_time": "8:30.313",
-      "end_seconds": 30913.0,
-      "duration_seconds": -260.0
+      "begin_seconds": 506.813
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, bitte, bitte. Und ich wende mich wiederum auch einer Zuschrift eines Zuhörers zu. Saba Zahebi hat uns geschrieben, mit einer hervorragenden Beobachtung, nämlich die Konjunktur eines Wortes, und zwar des Wortes Gewalt voll. Und wir haben es hier mit so einem klassischen Phänomen zu tun, wo der Versuch unternommen wird, einen Begriff so zu designen, dass sein Geltungsbereich möglichst erweitert wird. Ähnliche Phänomene hatten wir hier glaube ich schon öfter mal unter die Lupe genommen. Und Gewalt voll meint jetzt eben gerade nicht gewalttätig, wo dann irgendwie immer eine konkrete Handlung zum Ausdruck kommt oder beobachtbar sein muss, sondern wenn man andeuten will, dass die Konstellation, dass die Verhältnisse insgesamt auf abstrakte, gar nicht so leicht und klar zu benennende Weise, aber eben doch irgendwie...",
-      "begin_time": "8:30.333",
-      "begin_seconds": 30933.0,
-      "end_time": "9:17.633",
-      "end_seconds": 34053.0,
-      "duration_seconds": 3120.0
+      "begin_seconds": 510.333
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Voller Gewalt.",
-      "begin_time": "9:17.653",
-      "begin_seconds": 34073.0,
-      "end_time": "9:18.613",
-      "end_seconds": 34093.0,
-      "duration_seconds": 20.0
+      "begin_seconds": 557.653
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Voller Gewalt sind, dann braucht man das Wort gewaltvoll kurzum. Dann kann ganz vieles plötzlich gewaltvoll sein. Der Sprecher drückt seinerseits ein erhöhtes Maß an Sensibilität aus, dass ihm bewusst ist, dass Gewalt lange vor gewalttätigen Handlungen einsetzt.",
-      "begin_time": "9:18.633",
-      "begin_seconds": 34113.0,
-      "end_time": "9:36.253",
-      "end_seconds": 34813.0,
-      "duration_seconds": 700.0
+      "begin_seconds": 558.633
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Wie verhält sich das zu dem Wort strukturelle Gewalt?",
-      "begin_time": "9:36.273",
-      "begin_seconds": 34833.0,
-      "end_time": "9:39.313",
-      "end_seconds": 35053.0,
-      "duration_seconds": 220.0
+      "begin_seconds": 576.273
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, sehr ähnlich würde ich auch sagen.",
-      "begin_time": "9:39.333",
-      "begin_seconds": 35073.0,
-      "end_time": "9:41.073",
-      "end_seconds": 34933.0,
-      "duration_seconds": -140.0
+      "begin_seconds": 579.333
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Okay, also es ist eine ergänzende Form zu strukturell. Also das ist eigentlich ein anderes Wort, wenn man nicht strukturelle Gewalt sagen will. Es ist ein gewaltvolles System, so würde man das so...",
-      "begin_time": "9:41.093",
-      "begin_seconds": 34953.0,
-      "end_time": "9:52.253",
-      "end_seconds": 35773.0,
-      "duration_seconds": 820.0
+      "begin_seconds": 581.093
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, und es hat halt eine stärkere emotionale Konnotation, was in einem solchen Diskurs ja auch immer hilfreich ist, weil man sich dann als empathiefähig erweist.",
-      "begin_time": "9:52.273",
-      "begin_seconds": 35793.0,
-      "end_time": "10:00.513",
-      "end_seconds": 36513.0,
-      "duration_seconds": 720.0
+      "begin_seconds": 592.273
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, finde ich sehr spannend, gerade solche... Also Punkt kriegt ihr, ich finde, diese kleinen Erweiterungen oder worum es ja auch häufig... Letztes Mal hatten wir es mit falschen Imperativen, ist was ganz anderes, aber so dieses, wie du versuchst, etwas noch mal zu resurfissen, also in denen noch mal zu verstärken, wenn es sich vielleicht ja auch schon so ein bisschen abgenutzt hat, ein Wort, oder noch mal in seiner Wichtigkeit und Dramatik zu unterstreichen. Also harmonisch ist das hier heute, zumindest von deiner Seite.",
-      "begin_time": "10:01.013",
-      "begin_seconds": 36073.0,
-      "end_time": "10:29.453",
-      "end_seconds": 38193.0,
-      "duration_seconds": 2120.0
+      "begin_seconds": 601.013
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, der Punkt geht mit Dank an Saba Sahibi.",
-      "begin_time": "10:29.673",
-      "begin_seconds": 38413.0,
-      "end_time": "10:32.933",
-      "end_seconds": 38853.0,
-      "duration_seconds": 440.0
+      "begin_seconds": 629.673
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich habe auch noch eine Zusendung und zwar war wieder so wie mit den Hunden. Ich habe es schon überall gesehen, Olga hat uns geschrieben und sie schreibt, mir ist aufgefallen, dass die Menopause zurzeit einen krassen Moment hat. Ich finde es sehr schön, einen krassen Moment. Es gibt ultra viel Instagram-Content zum Thema, zum Beispiel einen Account von einer Gynäkologin, die darauf spezialisiert ist, Menopause, Hormontherapie. Das hat sie nicht geschrieben, aber Lars hat ihr schon geantwortet. Manchmal antworten wir sogar auf unsere E-Mails, wenn wir es schaffen. Er hat auch noch mal darauf verwiesen, dass es Miranda July, ein Buch geschrieben hat, was so angeteasert wird als das erste große Perimenopausen-Buch, der Perimenopausen-Roman.",
-      "begin_time": "10:32.953",
-      "begin_seconds": 38873.0,
-      "end_time": "11:15.493",
-      "end_seconds": 40993.0,
-      "duration_seconds": 2120.0
+      "begin_seconds": 632.953
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Was ist Peri?",
-      "begin_time": "11:15.893",
-      "begin_seconds": 41393.0,
-      "end_time": "11:17.153",
-      "end_seconds": 40773.0,
-      "duration_seconds": -620.0
+      "begin_seconds": 675.893
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Das ist halt, meine ich, ich bin noch nicht ganz tief drin, aber noch davor, also wo sich der Körper praktisch schonend darauf wieder auf die Umstellung vorbereitet. Und Olga schreibt, dass so...",
-      "begin_time": "11:17.173",
-      "begin_seconds": 40793.0,
-      "end_time": "11:29.013",
-      "end_seconds": 41353.0,
-      "duration_seconds": 560.0
+      "begin_seconds": 677.173
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Auch eine Begriffsexpansion.",
-      "begin_time": "11:29.033",
-      "begin_seconds": 41373.0,
-      "end_time": "11:30.353",
-      "end_seconds": 41753.0,
-      "duration_seconds": 380.0
+      "begin_seconds": 689.033
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Auf jeden Fall. Also wahrscheinlich, weiß ich nicht, ich bin nicht tief genug drin, ich weiß nicht, ob Gynäkologen und Gynäkologinnen schon ewig davon reden, vermutlich so, aber das beobachten wir ja überhaupt auch, dass medizinische Begriffe dann so populär werden und populär gemacht werden. Sie schreibt, dass sozusagen auf der einen Seite eine neue Lebensphase, eine weitere Lebensphase entdeckt wird oder gehypt wird, die optimiert werden kann, weil man natürlich sagen kann, ich kenne mich aus, ich kläre mich auf, ich mache mich fit, ich möchte besser altern und so weiter, also sehenden Auges und in der popfeministischen Enttabuisierung aller möglichen Themen, des weiblichen Körpers, Menstruation und so weiter, ist es natürlich die folgerichtige weitere Entwicklung. Und ich würde dazu sagen, es gibt natürlich auch noch diesen, darüber haben wir glaube ich auch schon ein paar Mal gesprochen, also diesen Hormontalk, dass man sagt, irgendwie Cortisol bei Stress, Melatonin beim Schlafen, also dass alles durch Hormone erklärt wird und man nur sagt, naja, jetzt guckt man sich noch mal so eine Lebensphase in Frauenbiografien an, wo dieses Hormonthema thematisiert wird. Plus auch sehr gegenwärtig natürlich die Gender-Data-Gap, wo ja immer mehr Bücher und Forschung erscheinen darüber, dass Männer bisher in der medizinischen Forschung so im Vordergrund standen und man da jetzt überhaupt weibliche, medizinische Themen noch mal so pusht. Also all das kommt zusammen und demografisch die Millennials, die sozusagen ja die Diskursbühne dann doch vielleicht setzen oder zumindest auch sich einen Namen gemacht haben, wie Miranda July eben jetzt in diese biografische Phase vorrücken. Wie alt ist die denn? Gut, aber sie schreibt für Millennials. Also sie ist ein Star der Millennials.",
-      "begin_time": "11:30.373",
-      "begin_seconds": 41773.0,
-      "end_time": "13:14.133",
-      "end_seconds": 47773.0,
-      "duration_seconds": 6000.0
+      "begin_seconds": 690.373
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Naja, generell das Phänomen habe sogar ich mitbekommen. Ja klar, da kann ich gar nicht widersprechen. Und mir scheint es auch folgerichtig nach der Hochkonjunktur der Menstruation kommt jetzt als nächstes Kapitel. Ja, Perimeno, das ist schon sehr lustig. Ja, natürlich auch ein bisschen dröge, weil es läuft ja immer nach demselben Erzählenmuster ab. Man muss von einer Sache behaupten, sie sei zu stark tabuisiert, um sie dann besonders emphatisch zu thematisieren. Aber gar keine Frage, da steckt die Gegenwart drin. Schön, dass sich die Gegenwart auch über die Perimenopause hinaus noch erstreckt.",
-      "begin_time": "13:14.553",
-      "begin_seconds": 48193.0,
-      "end_time": "13:54.333",
-      "end_seconds": 50373.0,
-      "duration_seconds": 2180.0
+      "begin_seconds": 794.553
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ijoma, es gibt bestimmt auch jetzt Überleitung zum Hauptthema, sehr, sehr viel zum Thema Fitness in der Perimenopause. Es gibt bestimmt Fitness-Coaches, die genau auf diese Lebensphase hintrainieren mit Frauen. Wir wollen über Fitness sprechen. Wir wollen nicht nur, aber vielleicht auch gleich am Anfang, darüber reden, was unsere Erfahrungen damit sind, bevor wir dann unsere Kulturprodukte, die heute sehr mannigfaltig in ihren Formen sind. Wir haben nicht nur einen Roman gelesen oder so, sondern uns ein bisschen umgeguckt, ein bisschen rumgelesen, eine Doku geschaut, natürlich auch nochmal die Boss-Transformation von einem Kollegen uns angeguckt und so weiter und so fort. Tatsächlich finde ich es immer ganz nett zu sagen, wie sind wir auf das Thema gekommen? Ich bin auf das Thema gekommen, als ich dich in einem Fremdpodcast sprechen gehört habe bei Micky Beisenherz. Und du hast so entflammt über dein Fitnessstudio gesprochen. Und sofort habe ich dir eine SMS geschrieben und gesagt, Ijoma, rede doch mal bei uns auch über Fitness. Fitness ist doch schon was, worüber wir mal sprechen könnten. Das ist meine Einflugsschneise. Was ist deine Einflugsschneise in unser heutiges Thema?",
-      "begin_time": "13:54.493",
-      "begin_seconds": 50533.0,
-      "end_time": "15:02.653",
-      "end_seconds": 54773.0,
-      "duration_seconds": 4240.0
+      "begin_seconds": 834.493
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Naja, wie du gerade sagst, ich habe mir in den letzten Monaten eine für mich an sich ansonsten völlig fremde Welt neu erschlossen. Ich war immer der Meinung, dass ein Fitnessraum das letzte ist, in dem ich landen würde. Da hatte überhaupt kein Appeal auf mich, in solch geschlossenen Räumen, an so merkwürdig talaussehenden Geräten, stupide Wiederholungsbewegungen auszuführen. Namentlich war ich eigentlich immer ganz gerne Jogge, aber das ist auch eine Form der Landschaftserschließung. Also ich kann gerne eine Stunde joggen, ohne dass es mir langweilig wird, weil man ja die ganze Zeit einen sehr schönen Blick in schöne Natur hat. Also ich bin dann auch eher jemand, der auf dem Land joggt. In Berlin fand ich es immer schwierig. Hamburg um die Außenalster, als ich noch eine Zeit lang in Hamburg lebte, das fand ich auch toll. Oder München war natürlich fantastisch an der Isar entlang. Kurzum, da hatte man das Gefühl, man war in so einem größeren Naturganzen integriert. Jetzt habe ich seit Anfang des Jahres auch mit Yoga begonnen und das hat mich total beseelt und das leuchtete mir auch irgendwie ein, weil dieses Ineins von seelischem und körperlichem, das finde ich schon sehr, sehr beeindruckend, weshalb Yoga auch so den ganzen Tag weiter strahlende Wirkung hat. Also man ist wirklich in einer Weise konzentriert und fokussiert, die einen dann durch den Tag trägt. Aber aus irgendeinem Grund fand ich dann doch, hm, ganz ohne Kraft geht es nicht. Ich hatte mir vorher aber auch gar nicht in systematischer Weise darüber Gedanken gemacht. Also dass in der Fitnesswelt es gewisserweise einerseits die Welt der Kraft und andererseits die Welt von Kardio gibt, das war mir vorher überhaupt nicht so richtig klar, auch wenn ich diese Wörter natürlich immer wieder mal gehört hatte. Aber bevor man Sachen nicht selber praktisch konkret macht, sind sie nicht mit Leben erfüllt. Was ich allerdings spürte, war, wie ich andeute, ich dachte so, ja vielleicht brauch ich doch auch mal Kraft. Und Kraft war wirklich etwas, was mich irgendwie nie interessiert hat. Ausdauer, super, weil da kommen wir in so einen transhaften Flow, dafür bin ich irgendwie geschaffen. Kraft erschien mir auch, ich weiß nicht, ich will jetzt nicht sagen immer vulgär, aber jedenfalls nichts, worauf ich ansprang.",
-      "begin_time": "15:02.673",
-      "begin_seconds": 54793.0,
-      "end_time": "17:11.673",
-      "end_seconds": 62533.0,
-      "duration_seconds": 7740.0
+      "begin_seconds": 902.673
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, ich glaube, das ist schon eins der Themen, über die wir heute auch sprechen wollen, wie Kraft sozusagen als eine, ja, also das Vulgäre daran, die aber auch so was wie eine ehrliche Währung in Anführungsstrichen, ja, also oder das, worauf es dann doch ankommen könnte, sollte, was vielleicht heute eigentlich, man könnte ja auch sagen, es ist komplett überflüssig, ja, wer braucht heute, also die Menschen, die es in ihren Jobs brauchen, aber es ist, wenn wir sagen so, wir haben das an Maschinen ausgelagert, ganz viel ausgelagert und wir selber, wie gesagt, wir haben Lastenrad, wir haben E-Bike, wir müssen heute keine Kraft mehr haben. Es wirkt schon so ein bisschen aus der Zeit gefallen und so ein bisschen, wie du ja auch sagst, es hat auch so eine stumpfe Seite.",
-      "begin_time": "17:12.053",
-      "begin_seconds": 61973.0,
-      "end_time": "17:58.073",
-      "end_seconds": 64753.0,
-      "duration_seconds": 2780.0
+      "begin_seconds": 1032.053
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber das stimmt halt einfach gar nicht. Das stimmt einfach gar nicht, weil wir brauchen natürlich heute mehr denn je Kraft, nämlich allein schon die Kraft, um selber den aufrechten Gang durchzuhalten. Wenn die Motivation für Yoga durchaus war, mehr Geschmeidigkeit in die Körperbewegung zu bekommen, also nicht immer zu ächzen, nur weil man sich gerade die Socken anzieht, war die Motivation, ins Fitness zu gehen. Schon auch zu sagen, diese ganze Rückenpartie muss gestärkt werden, damit der aufrechte Gang sich irgendwie harmonischer ergibt. Und das ist eine starke Erfahrung, weil sie einen ja dann auch jenseits des Fitnessstudios in jeder Alltagssituation begleitet. Ob ich am Schreibtisch sitze, am Restauranttisch sitze oder spazieren gehe, plötzlich habe ich das Gefühl, ich habe Haltung. Und da kommt auch wieder dieser Übersprung quasi vom physischen ins seelische. Haltung ist ja was Inneres und was Äußeres zugleich. Ich musste jetzt auch viel daran denken, vor drei, vier Jahren, als Jordan Petersons Buch, ich glaube zehn Lektionen oder so, hieß es, rauskam, da war ja eine dieser Aufforderungen, Kreuzdurchdrücken und Schulter zurück, also eine aufrechte Haltung einzunehmen. Man fand das damals, alles, was mit Jordan Peterson zusammenhängt, natürlich ganz, ganz schlimm und furchtbar und irgendwie neo-rechts. Dabei ist es eine ganz simple und, wie ich sagen würde, auch völlig skandalfreie Einsicht. Ah ja, nee, die äußere Haltung richtet einen auch irgendwie innerlich auf. Und dazu braucht es aber tatsächlich Kraft. Dazu müssen bestimmte Muskelpartien ausgebildet werden. Und das geht dann schneller, als man glaubt. Daher kommt auch so ein befriedigendes Moment.",
-      "begin_time": "17:58.093",
-      "begin_seconds": 64773.0,
-      "end_time": "19:47.693",
-      "end_seconds": 71913.0,
-      "duration_seconds": 7140.0
+      "begin_seconds": 1078.093
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, also vielleicht der aufrechte Gang generell hat natürlich auch gleich vielleicht die Komponente, auf die wir auch noch mal sprechen, wenn wir docken natürlich auch so ein bisschen an. Wir haben uns so ein bisschen vorgenommen, dass wir nicht so über Fitness sprechen. Das ist einfach nur, dass wir diesen Stumpfheitsdiskurs und dieses, das sind so neoliberale Muckibuden, in denen man so egoistisch seinen Körper stehlt. Das ist ja so ein Topos, den es so gibt, um darüber zu sprechen. Es gibt überhaupt sehr viele, haben wir jetzt in der Recherche noch mal gemerkt, Texte, auffällig viele Texte übers Fitnessstudio als Ort. Entweder das, was ich eben gesagt habe, als Ort der Verteufelung und aber auch als romantisierter Ort, würde ich fast schon sagen. Vielleicht gab es das auch so nach Corona noch mal, so dieses da treffen sich alle und da sind alle so ein egalitärer Ort, wo, weiß ich nicht, ob das dann den Bogen schließt zum antiken, hier formen wir so unsere Körper oder zum pseudodemokratischen, hier sind alle gleich Ding, was ja finde ich dann irgendwie auch wieder so ein bisschen klar, im Sport sind irgendwie alle gleich oder man wechselt komplett die Perspektive. Und trotzdem gibt es natürlich teure Fitnessstudios und billige Fitnessstudios, also so ganz stimmt das natürlich nicht, oder das kann man sagen, über jedes Schwimmbad, was ja auch wieder so ein wiederkehrender Topos übers Freibad was zu schreiben jedes Jahr. Und also diese Romantik gibt es da schon. Es gab ja auch eine Phase, wo man dachte, oh, kommt das überhaupt wieder jetzt? Eine große Explosion von so YouTube-Videos, die Leute dann zu Hause durchgeturnt haben. Und nun ist es aber so, dass die Leute natürlich wieder in den Fitnessstudios zurück sind und dort ja ihre Körper formen.",
-      "begin_time": "19:48.073",
-      "begin_seconds": 71353.0,
-      "end_time": "21:31.493",
-      "end_seconds": 77953.0,
-      "duration_seconds": 6600.0
+      "begin_seconds": 1188.073
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Warum sagst du natürlich?",
-      "begin_time": "21:31.513",
-      "begin_seconds": 77973.0,
-      "end_time": "21:32.753",
-      "end_seconds": 78273.0,
-      "duration_seconds": 300.0
+      "begin_seconds": 1291.513
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, nicht natürlich, es ist...",
-      "begin_time": "21:32.773",
-      "begin_seconds": 78293.0,
-      "end_time": "21:34.193",
-      "end_seconds": 77833.0,
-      "duration_seconds": -460.0
+      "begin_seconds": 1292.773
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Weil in den Büros sind wir interessanterweise nicht zurückgekehrt. Also es versteht sich ja keineswegs von selbst, dass man immer zurückkehrt.",
-      "begin_time": "21:34.213",
-      "begin_seconds": 77853.0,
-      "end_time": "21:40.733",
-      "end_seconds": 78733.0,
-      "duration_seconds": 880.0
+      "begin_seconds": 1294.213
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Vielleicht ist das interessant.",
-      "begin_time": "21:40.753",
-      "begin_seconds": 78753.0,
-      "end_time": "21:41.973",
-      "end_seconds": 79033.0,
-      "duration_seconds": 280.0
+      "begin_seconds": 1300.753
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich finde es eher bemerkenswert, dass man zurückkommt. Also das sind, wir haben so ein bisschen oberflächlich hier recherchiert und die Zahlen, also die ganzen Fitnessstudios, die vermelden Rekordmitgliederzahlen. Es brach natürlich alles mit dem Lockdown zusammen. Und da zitterte man, was eben was zurückkehren würde. Und es ist massiv zurückgekehrt. Und ich finde nicht, dass es sich von selbst versteht.",
-      "begin_time": "21:41.993",
-      "begin_seconds": 79053.0,
-      "end_time": "22:05.013",
-      "end_seconds": 79513.0,
-      "duration_seconds": 460.0
+      "begin_seconds": 1301.993
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nee, das stimmt. Vielleicht haben die Leute sich standen vor der Wahl, welche Arbeit sie nun wieder an einem Ort aufnehmen wollen. Und sie haben sich gegen das Büro und für das Fitnessstudio. Ist ja auch eine Arbeit, ja. Ja, aber das mit dem aufrechten Gang, was du meintest, vielleicht wollen wir auch heute ein bisschen die, also diese anthropologische Seite der, sagen wir mal so was, ist ja auch so ein antiquiertes Wort der Ertüchtigung, der körperlichen Ertüchtigung. Was hat das? Gerade der Roman, über den wir sprechen wollen, können wir vielleicht eher gerne Ende hinmachen. Von Timon Karl Kaleiter spricht man ihn, glaube ich, aus Heilung. Und da gibt es eben viel um körperliche Arbeit. Und wie das ist, dass dasselbe wie Fitness. Wenn man jetzt sagt, der Mensch ist ja auf der Welt, weil er beackert etwas oder hat also dieser Ursprünglichkeitsdiskurs, der ja auch bei ganz ganz vielen Themen gerade schon seit sehr langer Zeit drin ist. So eigentlich sind wir nicht fürs Büro gemacht. Eigentlich sind wir dafür gemacht, uns den ganzen Tag zu bewegen. So das steckt ja auch so ein bisschen da drin, dass man versucht, vielleicht in dieser Zeit, die man in so einem Fitnessstudio ist, zu dieser Ursprünglichkeit zurückzukehren. Da können wir vielleicht da später hin noch abheben.",
-      "begin_time": "22:05.033",
-      "begin_seconds": 79533.0,
-      "end_time": "23:15.413",
-      "end_seconds": 84113.0,
-      "duration_seconds": 4580.0
+      "begin_seconds": 1325.033
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, ich finde schon, dass am Thema Fitness was gegenwärtiges ist, nicht nur, weil die Zahlen jetzt wieder stimmen, sondern weil ich tatsächlich den Eindruck habe, sehr lange wurde gewissermaßen nur das Genre in der Berichterstattung, nur dieses demonisierende Genre bedient, wonach im Fitness sich gewissermaßen der Imperativ des Neoliberalismus auf seine hässlichste Weise zeige. Wie es ja ohnehin interessant ist, dass man ja intellektuell eine komplette Existenz der letzten 20 Jahre bewirtschaften konnte, indem man einfach immer alles nur Neoliberal nannte. Und schon schien man sich selber zu den reflektierenden Klassenzellen zu dürfen. Das ist schon auch ein Armutszeugnis, aber dieses nur am Rande. Unsere Kollegin Charlotte Parnack hatte vor einem Jahr einen interessanten Erfahrungsbericht geschrieben über ihren eigenen Weg ins Fitnessstudio.",
-      "begin_time": "23:15.553",
-      "begin_seconds": 84253.0,
-      "end_time": "24:08.513",
-      "end_seconds": 87393.0,
-      "duration_seconds": 3140.0
+      "begin_seconds": 1395.553
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ihren Versuch, einen Klimmzug zu schaffen, oder? Konkret.",
-      "begin_time": "24:08.533",
-      "begin_seconds": 87413.0,
-      "end_time": "24:11.313",
-      "end_seconds": 87373.0,
-      "duration_seconds": -40.0
+      "begin_seconds": 1448.533
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, der konkrete Versuch war es, aber schafft man es, das eigene Körpergewicht in die Höhe zu ziehen.",
-      "begin_time": "24:12.033",
-      "begin_seconds": 87153.0,
-      "end_time": "24:17.413",
-      "end_seconds": 87833.0,
-      "duration_seconds": 680.0
+      "begin_seconds": 1452.033
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ijoma, schaffst du einen Klimmzug? Ich nicht.",
-      "begin_time": "24:17.653",
-      "begin_seconds": 88073.0,
-      "end_time": "24:20.633",
-      "end_seconds": 88233.0,
-      "duration_seconds": 160.0
+      "begin_seconds": 1457.653
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ehrlich gesagt, ich weiß das gar nicht. Nach der Lektüre von Charlotte des Texts ging ich auch eher davon aus, dass ich höchstwahrscheinlich, mit allergrößter Wahrscheinlichkeit, das nicht schaffe, ja. Auch wenn man es, ich hab's tatsächlich als Kind, das letzte Mal als Kind, da hatte man ja immer diese Stangen und da war das natürlich ober easy, sich da hochzuziehen, weil das Eigengewicht, vermutlich in der Verhältnis zur Muskelmasse, keine Ahnung, ob es da so eine Ratio gibt, sehr gering war. Das sieht heute leider anders aus. Aber es ist ein erreichbares Ziel, Charlotte hat es erreicht. Sie sagt aber darin auch den interessanten Satz, dass der Vorwurf, den man ans Fitness adressiert, es sei eine Form der Körpermanipulation, natürlich irgendwie nur so ein bisschen blind auf einem Auge ist, weil es außer Acht lässt, dass eigentlich alles, was wir tun, Manipulation ist. Und Manipulation, da steckt ja das lateinische Wort für Hände drin, meint, naja, wir gestalten mit unseren Händen, mit unserem Willen etwas und in welche Richtung wir das gestalten, ob wir dafür sorgen, dass wir seligbrummend im Übergewicht verharren oder dass wir schlank und dünn werden. Das ist dann eine Entscheidung mit Gründen. Aber der Bereich gewissermaßen des Naturwüchsig-Natürlichen oder so, der ist sowieso nicht wirklich zu erreichen.",
-      "begin_time": "24:20.653",
-      "begin_seconds": 88253.0,
-      "end_time": "25:39.973",
-      "end_seconds": 93313.0,
-      "duration_seconds": 5060.0
+      "begin_seconds": 1460.653
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, und ich glaube, da sind wir ja auch sehr, sehr in der Gegenwart, in unserem Mindset, dass genau das, also dass wir mit jeder Mikroentscheidung frühstückst du überhaupt, was frühstückst du, manipulierst du. Ich fand den Satz auch sehr gut, den sie schreibt. Es ist das Vorwerk überhaupt nicht möglich, seinen Körper nicht zu manipulieren. Also parallel zu, man kann nicht nicht kommunizieren, bis du, wenn du dich gehen lässt, dann ist das auch eine Manipulation. Dann ist das eine Tätigkeit, nämlich du lässt es gehen, du lässt, du spannst den Muskel nicht an. Du formst dich bewusst nicht.",
-      "begin_time": "25:40.033",
-      "begin_seconds": 92433.0,
-      "end_time": "26:13.753",
-      "end_seconds": 95133.0,
-      "duration_seconds": 2700.0
+      "begin_seconds": 1540.033
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Und dahinter verbildet sich eigentlich die Vorstellung, dass wir versuchen, zu bewussten Entscheidungen zu kommen, über das, wie es mit dem Leben jeweils weitergehen soll. Ich verstehe auch komplett die Gegenpositionen, die sagen, ich will mir nicht über alles in meinen Kopf zerbrechen. Manches lasse ich halt einfach so gehen, ich entscheide mich fürs Gehen lassen. Das ist eine völlig legitime Position. Es gibt hier sowieso überhaupt gar keinen Anlass, irgendetwas zu moralisieren. Allerdings mache ich für mich, das will ich jetzt nicht missionarisch vor allgemeiner Erfahrung, dass es ganz schön ist, Dinge anzugehen, sich Ziele zu setzen. Und sich Ziele zu setzen, gleich als neoliberal oder von kapitalistischem Ehrgeiz getrieben zu entwerten, das verkennt, glaube ich, überhaupt alles, was wie Leben generell funktioniert. Weil Leben hat immer diese Herausforderung für sich selber, Ziele, sinnstiftende Ziele zu setzen, an denen kann man scheitern, die kann man erreichen, das ist völlig egal. Hauptsache, sie geben dem Leben so eine Richtung, so einen Schwung und in diesem Sinne funktioniert das Fitness, finde ich, doch ganz gut. Wir wollten mal vorher, damit das nicht als, also wir wollten mal so ein bisschen eine Systematik dessen erstellen, worüber wir reden und es war mir vorher alles nicht so klar, aber ich würde jetzt mal sagen, es gibt gewissermaßen, wenn man sich das wie so ein Entscheidungsbaum vorstellt, wie nennt man denn einen Baum, der von oben nach unten sich verzweigt?",
-      "begin_time": "26:13.773",
-      "begin_seconds": 95153.0,
-      "end_time": "27:36.153",
-      "end_seconds": 99513.0,
-      "duration_seconds": 4360.0
+      "begin_seconds": 1573.773
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Um Himmels willen, also kann man nicht in Wurzeln denken? Wollen wir in Wurzeln denken?",
-      "begin_time": "27:36.173",
-      "begin_seconds": 99533.0,
-      "end_time": "27:40.013",
-      "end_seconds": 99613.0,
-      "duration_seconds": 80.0
+      "begin_seconds": 1656.173
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Okay, denken wir in Wurzeln und dann ist quasi unten gibt es, nach der ersten Abzweigung gibt es, würde ich sagen, den Sport und die Ernährung.",
-      "begin_time": "27:40.033",
-      "begin_seconds": 99633.0,
-      "end_time": "27:49.393",
-      "end_seconds": 100533.0,
-      "duration_seconds": 900.0
+      "begin_seconds": 1660.033
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Was ist mit Gesundheit?",
-      "begin_time": "27:49.413",
-      "begin_seconds": 100553.0,
-      "end_time": "27:50.693",
-      "end_seconds": 100893.0,
-      "duration_seconds": 340.0
+      "begin_seconds": 1669.413
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau und ganz unten, vielleicht ist das die eine, das ist die Gesundheit und die Gesundheit spaltet sich dann auf, und zwar einerseits in die Ernährung, andererseits in den Sport. Da geht natürlich meistens auch beide Wege. Der Sport teilt sich dann wiederum auf in Fitness und alle anderen Sportarten und Fitness wiederum teilt sich dann noch mal auf in Kardio und Kraft und Kraft teilt sich dann noch mal auf und das ist ja wiederum noch was Spezifisches in Bodybuilding und die normale Art Krafttraining zu machen und das ist ja alles nicht ein und dasselbe, sondern es sind quasi jeweils Modifikation oder Abzweigungen und wo man sich da wiederfindet in diesem Entscheidungsbaum ist eben selbst überlassen, aber ist ja auch eine interessante Entscheidung. Mir war das vorher zum Beispiel überhaupt nicht klar, was die Differenz von Kardio und Kraft bedeutet und irgendwann war mir klar, weil ich begreife diese Geräte gar nicht, wenn sie mir nicht jemand erklärt und weil mir auch irgendwie vor Augen stand, wenn man die falsch bedient, schadet man seinem Körper mehr als dass man ihm hilft, habe ich mir den Luxus gegönnt eines Personal Trainers für so acht oder zehn Stunden und das war sehr sehr hilfreich und als der mir sehr einfühlsam und begleitet mich da bei allem und ich machte plötzlich die Erfahrung, dass ich bei den Kraftübungen gar nicht schwitze und es war mir überhaupt nicht bekannt, dass es es gibt eine Ausübung von Sport, bei der man nicht schwitzt und dann ging mir auf ach so.",
-      "begin_time": "27:50.713",
-      "begin_seconds": 100913.0,
-      "end_time": "29:17.573",
-      "end_seconds": 105993.0,
-      "duration_seconds": 5080.0
+      "begin_seconds": 1670.713
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Weil du ja eigentlich von Cardio kommst zu langsam lostraben, roten Kopfring.",
-      "begin_time": "29:17.593",
-      "begin_seconds": 106013.0,
-      "end_time": "29:23.753",
-      "end_seconds": 106533.0,
-      "duration_seconds": 520.0
+      "begin_seconds": 1757.593
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Weil ich nur von Cardio komme und Cardio meint immer, solange ich nicht schwitze habe ich auch noch nichts geleistet und beim Kraft kommt man aber gar nicht ins Schwitzen.",
-      "begin_time": "29:23.773",
-      "begin_seconds": 106553.0,
-      "end_time": "29:32.013",
-      "end_seconds": 106333.0,
-      "duration_seconds": -220.0
+      "begin_seconds": 1763.773
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja irgendwann schon oder?",
-      "begin_time": "29:32.033",
-      "begin_seconds": 106353.0,
-      "end_time": "29:33.533",
-      "end_seconds": 106913.0,
-      "duration_seconds": 560.0
+      "begin_seconds": 1772.033
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nicht so wirklich, nicht so richtig.",
-      "begin_time": "29:33.553",
-      "begin_seconds": 106933.0,
-      "end_time": "29:35.093",
-      "end_seconds": 106593.0,
-      "duration_seconds": -340.0
+      "begin_seconds": 1773.553
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Interessant.",
-      "begin_time": "29:35.113",
-      "begin_seconds": 106613.0,
-      "end_time": "29:36.413",
-      "end_seconds": 106973.0,
-      "duration_seconds": 360.0
+      "begin_seconds": 1775.113
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Wo Nina, vor Ort ist du dich mehr auf der Cardio Seite oder auf der Kraftseite?",
-      "begin_time": "29:36.433",
-      "begin_seconds": 106993.0,
-      "end_time": "29:40.613",
-      "end_seconds": 107413.0,
-      "duration_seconds": 420.0
+      "begin_seconds": 1776.433
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja ich habe so eine Sportbiografie, ich weiß nicht, viele Leute haben so ein Ding und machen das die ganze Zeit. Ich habe so Phasen im Leben und ich höre so ein bisschen mit Neid auf deine Fitnesserfahrung, weil ich auch mal so eine Phase im Leben hatte und jetzt bin ich bei Cardio, weil ich das halt unterkriege, also beim einfachen Joggen gehen und natürlich gehe ich da mit, wenn du sagst, das ist irgendwie so romantisch und wie man so versinkt und an allem vorbei joggt, das habe ich auch. Man kann irgendwie Podcasts hören und hat nicht dieses Indoor-Pumpzeug, aber wenn du so anfängst über Kraft zu reden und auch als wir jetzt darüber sprachen oder auch den Text von Charlotte Panack über diesen einen Klimmzug, man hat irgendwie sofort wieder, man möchte dieses Körpergefühl wieder haben und auch das, ich erinnere mich da, ich hatte keinen Personal Trainer, sondern nur einmal so einen Typen, der gesagt hat, hier so funktioniert das Gerät und vor mehreren Jahren war das, der sagte dann so, naja, das ist der Unterschied, wenn du das jetzt hier schaffst, das sind die Leute, die im Altenheim selber aufstehen können und das sind ja so Sätze, die man sich so merkt und man weiß sofort das Körpergefühl, dieses Kraftgefühl, wie man es ja auch beim Yoga, also ich musste vorhin daran denken, dieses Auf der Aufrechte gegangen und wie sich das überträgt aufs Leben. Also es ist eben nicht nur stumpfe Muskelkraft, sondern das macht ja etwas mit dir, wie man das sagt und ich kenne das nur aus so Kraft-Yoga-Videos oder Pilates, die dann so sagen, mach den Krieger eins und zwei, gucke stolz nach, jetzt guck stolz geradeaus und dass dieser Satz dann und dieses Körpergefühl oder wenn man das sogenannte Powerhouse vorne und hinten so Bauch und Rücken wirklich mal ein bisschen gekräftigt hat, dass es dich aufrechter macht und dass du die Treppen besser hochkommst und dieses Körpergefühl, das kriege ich jetzt vom Joggen nicht und das vermisse ich oder kann mich da sofort wieder rein romantisieren. Was ich noch interessant an Charlotte Panachs Text fand, weil sie ja auch den Punkt gemacht hat, Frauen und Fitness und ich glaube, wenn wir jetzt so ein bisschen sporthistorischer oder soziologischer noch mal zurückblicken, kann man sagen, sie beschreibt das auch so sehr schön, weil sie sagt, ein Fitnessstudio ist eigentlich wie eine deutsche Vorstandsetage, so in der Mitte machen die Männer irgendwelche Kraftübungen und am Rand stehen so Frauen und gucken ihnen zu, aber dass sich das Bild eben wandelt...",
-      "begin_time": "29:40.733",
-      "begin_seconds": 107533.0,
-      "end_time": "31:49.133",
-      "end_seconds": 114673.0,
-      "duration_seconds": 7140.0
+      "begin_seconds": 1780.733
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nein, nein, so hat sie das, da muss ich jetzt kurz widersprechen, so beschreibt sie es.",
-      "begin_time": "31:49.153",
-      "begin_seconds": 114693.0,
-      "end_time": "31:52.613",
-      "end_seconds": 115333.0,
-      "duration_seconds": 640.0
+      "begin_seconds": 1909.153
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, habe ich es falsch gelesen?",
-      "begin_time": "31:52.613",
-      "begin_seconds": 115333.0,
-      "end_time": "31:53.573",
-      "end_seconds": 115353.0,
-      "duration_seconds": 20.0
+      "begin_seconds": 1912.613
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nee, es steht da drin, dass sie am Rande stehen, aber einfach nur deswegen...",
-      "begin_time": "31:53.753",
-      "begin_seconds": 115533.0,
-      "end_time": "31:57.253",
-      "end_seconds": 115273.0,
-      "duration_seconds": -260.0
+      "begin_seconds": 1913.753
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Nein, nicht mehr, nicht mehr, aber dass sich das gewandelt hat, oder?",
-      "begin_time": "31:57.273",
-      "begin_seconds": 115293.0,
-      "end_time": "32:00.433",
-      "end_seconds": 115633.0,
-      "duration_seconds": 340.0
+      "begin_seconds": 1917.273
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nee, was sie beschreibt, ist, dass es natürlich den Cross-Trainer und diese Cardio-Sachen gibt, und die stehen halt irgendwie rein geografisch am Rand, und die Kraftgeräte, an denen sind die Männer, und die Frauen sind halt mehr auf den Cardio-Geräten.",
-      "begin_time": "32:01.613",
-      "begin_seconds": 115873.0,
-      "end_time": "32:16.413",
-      "end_seconds": 116573.0,
-      "duration_seconds": 700.0
+      "begin_seconds": 1921.613
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, aber das ist schon dabei, also das war sogar schon vor ein paar Jahren dabei, sich zu wandeln. Sie schreibt ja auch über den Topos, Michelle Obamas Oberarme, die jeder kennt, das war glaube ich 2008, und da war es ja schon so, da kam ja dann diese, ja diese sarkastische Reaktion erst mal so, oh was ist das, ist die jetzt irgendwie, will die jetzt zeigen, dass sie irgendwie stärker ist als ihr Mann, oder es wurde ja erst mal so negativ aufgefasst.",
-      "begin_time": "32:16.433",
-      "begin_seconds": 116593.0,
-      "end_time": "32:43.113",
-      "end_seconds": 117893.0,
-      "duration_seconds": 1300.0
+      "begin_seconds": 1936.433
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Echt, ich fand, alle waren völlig voller Bewunderung und sagten, boah, mit diesen Armen.",
-      "begin_time": "32:43.233",
-      "begin_seconds": 118013.0,
-      "end_time": "32:47.833",
-      "end_seconds": 118853.0,
-      "duration_seconds": 840.0
+      "begin_seconds": 1963.233
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, es wurde halt zu ihrem Markenzeichen dann, auch dass Frauen stark sind, also starke Körper, definierte Körper haben, wie man sagt, das ist ja auch was, was sich historisch sogar von Medizinern früher gesagt wurde, nein, und die sollen natürlich, die sollen nicht so ein breites Kreuz haben, die sollen nicht irgendwie, das soll nicht, ihre Energie soll nicht von der Mutterschaft abgezogen werden. Und dann gab es die Aerobik-Bewegung in den 80ern. Und dann wurde das irgendwie zu einem Trend. Ich habe einmal die Influencerin oder Fitness-Influencerin Pamela Reif interviewt. Und das ist zum Beispiel ja ein Sinnbild dieser schon seit längerem umkodierten Kraftsport, ist auch etwas für Frauen und einer neuen Sexiness, die sozusagen einer selbstbewussten, empowernden, ja, sich dieses Körperideal aneignenden und nicht als unweiblich gelesenen Körperarbeit, die für etwas steht. Ich weiß auch noch, wie Pamela Reif meinte so, die steht ja für eine starke Frau und nicht für irgendeine abgedrehte Bodybuilderin. Sondern du machst diese Übung, du hast einen straffen, aufrechten Körper. Man kann dann natürlich wieder sagen, nicht nur ist das neoliberal und egoistisches vor sich hingehampelt, um so einen Körper zu haben, man kann natürlich sofort sagen, das ist irgendwie toxische Normschönheit, weil natürlich haben wir hier wieder eine blonde, durchtrainierte Frau. Aber dieser Move der Selbstermächtigung, in dem Charlotte Panak Text ist es ihre Kindergartenfreundin, die irgendwie sagt, eine Frau muss sich selbst tragen können, zu diesem Klimmzug, also die korreliert das so mit weiblicher Kraft.",
-      "begin_time": "32:47.853",
-      "begin_seconds": 118873.0,
-      "end_time": "34:26.913",
-      "end_seconds": 124873.0,
-      "duration_seconds": 6000.0
+      "begin_seconds": 1967.853
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich weiß gar nicht, ob ich mich der Formulierung der Normschönheit anschließen würde, denn tatsächlich ist ja das Interessante, was Charlotte auch beschreibt, dass sich eben die Norm ändert. Die lautet die Norm früher, Frauen sollten möglichst immer dünner werden, passiert ja.",
-      "begin_time": "34:26.933",
-      "begin_seconds": 124893.0,
-      "end_time": "34:41.293",
-      "end_seconds": 125153.0,
-      "duration_seconds": 260.0
+      "begin_seconds": 2066.933
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Jetzt sollen sie stark sein.",
-      "begin_time": "34:41.313",
-      "begin_seconds": 125173.0,
-      "end_time": "34:42.473",
-      "end_seconds": 125393.0,
-      "duration_seconds": 220.0
+      "begin_seconds": 2081.313
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, jetzt sollen sie stark und damit tendenziell ja auch breiter werden und insofern ändert sich damit dann auch was.",
-      "begin_time": "34:42.493",
-      "begin_seconds": 125413.0,
-      "end_time": "34:48.013",
-      "end_seconds": 125293.0,
-      "duration_seconds": -120.0
+      "begin_seconds": 2082.493
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Mehr Platz einnehmen an den Geräten als Körper.",
-      "begin_time": "34:48.233",
-      "begin_seconds": 125513.0,
-      "end_time": "34:51.733",
-      "end_seconds": 126193.0,
-      "duration_seconds": 680.0
+      "begin_seconds": 2088.233
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Mehr Platz einnehmen und es ändert sich auch was am Schönheitsideal dadurch. Verstehe, okay, das heißt, die Norm Schönheit, Normen sind ja selber flexibel, wandeln sicher. Die sind ja nicht ewig gleich, sondern in Wahrheit ändern die sich immer schneller, als wir Armen sagen können.",
-      "begin_time": "34:51.753",
-      "begin_seconds": 126213.0,
-      "end_time": "35:06.893",
-      "end_seconds": 127253.0,
-      "duration_seconds": 1040.0
+      "begin_seconds": 2091.753
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, aber man kann natürlich sagen, dass das böse Körperideal von jemandem, der irgendwie fast verschwindet, weil so dünn abgemagert ist, Models, die da über einen Strich in der Landschaft sind, werden jetzt ersetzt durch fitte, kräftige Frauen. Man kann aber immer sagen, okay, das Normschöne ist das Toxische, verstehst du? Also man kann ja immer sagen, in diesem Diskurs über Normschönheit.",
-      "begin_time": "35:06.913",
-      "begin_seconds": 127273.0,
-      "end_time": "35:27.873",
-      "end_seconds": 128493.0,
-      "duration_seconds": 1220.0
+      "begin_seconds": 2106.913
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Also dass es überhaupt eine Norm gibt, aber am Ende leben wir doch in einer liberal-pluralistischen Gesellschaft, wo sich jeder die Norm, der er gehorchen will, selber aussuchen darf. Und so sucht sich der eine vielleicht eher das anorektische Schönheitsideal aus, der andere eher das breitere, stärkere und der dritte für die Kurven oder so. Es gibt doch da, würde ich sagen, auch einfach koexistierende Werte oder Normen.",
-      "begin_time": "35:27.893",
-      "begin_seconds": 128513.0,
-      "end_time": "35:54.973",
-      "end_seconds": 130213.0,
-      "duration_seconds": 1700.0
+      "begin_seconds": 2127.893
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, also jedenfalls haben wir ausgemacht mit Michelle Obamas Oberarm und dem neuen, starken Frauenpumpen jetzt auch, sage ich jetzt mal stumpf. Mit diesem Schönheitsideal ist eins dazugekommen, wo wir auch die Gegenwart ablesen können. Natürlich Frauen sollen Kraft haben, so Frauen sollen mitregieren, mitbestimmen und so weiter. Also das übersetzt sich natürlich.",
-      "begin_time": "35:55.233",
-      "begin_seconds": 129533.0,
-      "end_time": "36:16.113",
-      "end_seconds": 130673.0,
-      "duration_seconds": 1140.0
+      "begin_seconds": 2155.233
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Mit Michelle Obama ist mir damals zum ersten Mal überhaupt der Begriff definierte Oberarme begegnet. Was hat es mit diesem Begriff definiert auf sich? Der ist ja sehr prägnant und anschaulich.",
-      "begin_time": "36:16.413",
-      "begin_seconds": 130973.0,
-      "end_time": "36:28.693",
-      "end_seconds": 131973.0,
-      "duration_seconds": 1000.0
+      "begin_seconds": 2176.413
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, der ist irgendwie toll, ne? Der ist definiert. Vielleicht können wir gleich nochmal über diese Doku, die wir gesehen haben, sprechen. Da geht es ja auch immer, ich möchte einen definierten Look und definierte Muskeln.",
-      "begin_time": "36:28.713",
-      "begin_seconds": 131993.0,
-      "end_time": "36:38.313",
-      "end_seconds": 132193.0,
-      "duration_seconds": 200.0
+      "begin_seconds": 2188.713
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Definieren meint doch, etwas in eine Form bringen, in eine Abgrenzung. Das heißt, so ein bisschen wie, es herrscht ja eigentlich das Gesetz der Entropie, wenn keine Energie zugeführt wird, pendelt sich alles in so einem Mittelmaß des Ununterscheidbaren ein. Das ist dann am Ende des Universums eben der Wärmetod. Und um aus dieser Ununterscheidbarkeit herauszukommen, muss Energie aufgebracht werden. Und indem wir Energie aufbringen, unterscheiden wir das eine vom anderen. Und dann akkumulieren wir das jetzt hoch, wir bringen Energie auf und unterscheiden dann den Oberarm vom Unterarm und so weiter. Und dann kann der Oberarm selber schon wieder verschiedene erkennbar nachvollziehbare Partien haben, die über klare Grenzen verfügen. Man könnte es anthropologisch sagen, es braucht Grenzen, um das Ich vom Nicht-Ich abzusetzen und diese Grenzen aufrechtzuhalten, erfordert Energie und Anstrengung.",
-      "begin_time": "36:38.693",
-      "begin_seconds": 132573.0,
-      "end_time": "37:36.293",
-      "end_seconds": 135653.0,
-      "duration_seconds": 3080.0
+      "begin_seconds": 2198.693
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Sehr schön gesagt, also ich kann dir nichts hinzufügen, weil das jetzt so hochgezogen ist. Ich hätte noch den Schritt über die Couch gemacht, sozusagen so dieses so, du musst dich von deinem Sofakissen abheben, ja, also du kannst nicht dich dahin gießen, sondern du bist halt, um aus der Masse dich zu definieren als Mensch mit Kraft und Gliedmaßen, der selber von der Couch hochkommt. Aber du hast es noch größer gezogen.",
-      "begin_time": "37:36.313",
-      "begin_seconds": 135673.0,
-      "end_time": "37:57.213",
-      "end_seconds": 136833.0,
-      "duration_seconds": 1160.0
+      "begin_seconds": 2256.313
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Wer geht ins Fitness? Du hast es schon angesprochen. Es ist auch ein soziologischer Ort. Da würden mich deine Erfahrungen interessieren. Ich selber war sehr, sehr fasziniert, denn ich gebe zu, ich habe schon das Gefühl, dass ich in einer extrem homogenen Bubble mich bewege. Wenn ich auf dem Land bin, ist es ein bisschen anders, ist es ein bisschen besser. Da komme ich öfter mal mit Menschen in Berührung, die nicht sowieso dasselbe denken wie ich und dasselbe tun wie ich. Im städtischen Leben ist das aber alles ein Fall von Selbstähnlichkeit. Deswegen ist man ja neugierig. Früher gab es so Orte, die Kirche war der Idee nach, doch auch so ein klassenübergreifender Ort. Als Kind und Jugendlicher war es damals der Sportverein, gar keine Frage, zumindest aus den Regionen, aus denen ich komme, der Sportverein, bis zu 15 war ich im Leichtathletikverein, da war natürlich der ganze Querschnitt der Gesellschaft versammelt. Weil das dünnt sich dann aber doch immer mehr aus, auch mit der Ausdifferenzierung der professionellen Berufe und so weiter, würde ich sagen. Das reproduziert der Beruf.",
-      "begin_time": "37:57.233",
-      "begin_seconds": 136853.0,
-      "end_time": "39:01.933",
-      "end_seconds": 141393.0,
-      "duration_seconds": 4540.0
+      "begin_seconds": 2277.233
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Und mit den Preisen. Der Preisunterschied zwischen einem Handball-Training und einem Homesplace-Abo ist dann eben doch vielleicht, das ist ja was anderes. Oder? Also ich finde, wir haben ja eben schon am Anfang geredet.",
-      "begin_time": "39:01.953",
-      "begin_seconds": 141413.0,
-      "end_time": "39:14.193",
-      "end_seconds": 141433.0,
-      "duration_seconds": 20.0
+      "begin_seconds": 2341.953
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, ich würde jetzt trotzdem mal eine Neugier, aber doch eher die zu sagen und ich finde es auch nicht ganz falsch zu sagen, ich bin tatsächlich bei Homesplace und ich treffe da schon Gesichter, die mir sonst weniger begegnen. Und da bin ich auch immer in besonderer Weise neugierig. Natürlich vor allem der arabische Migrationshintergrund, das muss man sagen, der prägt das Homesplace sehr, sehr stark. Und einmal spricht mir ein junger Mann an, weil wir zur gleichen Zeit zum selben Gerät gehen, von zwei verschiedenen Richtungen. Dann ist natürlich frei, wer darf da jetzt zuerst ran? Und der war total charmant und wollte mir den Vortritt lassen. Und ich wollte ihm den Vortritt lassen. Und dann macht der einen überraschenden Move. Dann sagte er, ich bin kein guter Stimmeimitator, deswegen lasse ich es, aber mit dem bekannten Street Credibility Sound, mit diesem spezifischen neuen Akzent, fragte er, ob wir nicht zusammen trainieren wollen. Ich war dann erst mal so ein bisschen überrumpelt und abfreundlich abgewehrt. Und in dem Moment dachte ich schon, was für ein Fehler, das wäre doch total schön. Aber der ließ mich locker. Zehn Minuten später sah er mich in der Ferne, winkte zu und sagte, hey, komm rüber, lass uns doch zusammen trainieren. Und dann entfaltete sich natürlich ein ganz neues Gespräch. Das war ganz toll. Aber es wurden auch alle Klischee-Punkte sofort abgerufen. Ein anderer Kumpel von ihm trat auch noch dazu. Er sagte zu mir, was machst du beruflich? Ich nehme an, du bist Lehrer oder Rechtsanwalt.",
-      "begin_time": "39:14.213",
-      "begin_seconds": 141453.0,
-      "end_time": "40:34.993",
-      "end_seconds": 147033.0,
-      "duration_seconds": 5580.0
+      "begin_seconds": 2354.213
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, sehr schön.",
-      "begin_time": "40:35.013",
-      "begin_seconds": 146113.0,
-      "end_time": "40:36.053",
-      "end_seconds": 146213.0,
-      "duration_seconds": 100.0
+      "begin_seconds": 2435.013
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Da war ich mir nicht ganz. Ich bin Journalist. Und dann sagte er, ah, das ist interessant, da musst du fair sein. Meine Branche steht jetzt eigentlich nicht gerade in dem Ruf, besonders fair zu sein, ganz im Gegenteil, wir reiten Leute ja sehr, sehr gerne ein. Und dann sagte er, okay, ich sag nur zwei Buchstaben. Das fängt mit P an und hört mit A auf. Jetzt tatsächlich schwitzend innerlich, was meint er nur, was meint er nur? Und dann sagt er, Palästina. Und ich so, oh Gott, oh Gott, das wird mir jetzt zu heiß.",
-      "begin_time": "40:36.073",
-      "begin_seconds": 146233.0,
-      "end_time": "41:12.533",
-      "end_seconds": 148853.0,
-      "duration_seconds": 2620.0
+      "begin_seconds": 2436.073
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Schnell in die Sauna.",
-      "begin_time": "41:12.553",
-      "begin_seconds": 148873.0,
-      "end_time": "41:13.173",
-      "end_seconds": 148553.0,
-      "duration_seconds": -320.0
+      "begin_seconds": 2472.553
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber er war dann, wie soll man sagen, Kavalier genug, um auch zu sagen, nein, nein, das muss jetzt hier gar nicht weiter vertieft oder ausgebreitet werden. Und dann fragte er mich, was glaubst du, was ich beruflich mache? Und dann meinte ich, keine Ahnung. Und dann sagt er, weißt du, ich bin ein Quatscher. Wie meinst du das, ich bin ein Quatscher? Na, ich quatsch den Leuten Zeug auf. Also, Sicherheitssysteme, meld dich mal besser bei mir, dann baue ich Alarmanlagen ein, bevor meine Vetter in deine Wohnung ausräumen.",
-      "begin_time": "41:13.573",
-      "begin_seconds": 148953.0,
-      "end_time": "41:39.093",
-      "end_seconds": 150033.0,
-      "duration_seconds": 1080.0
+      "begin_seconds": 2473.573
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Oh, also Ijoma, das klingt doch so, als hättest du eine nicht-non-selbsehentliche Erfahrung gemacht und wärst sozusagen beim Topos-Fitnessstudio als egalitärer Ort der Begegnung komplett.",
-      "begin_time": "41:39.673",
-      "begin_seconds": 150613.0,
-      "end_time": "41:49.773",
-      "end_seconds": 151313.0,
-      "duration_seconds": 700.0
+      "begin_seconds": 2499.673
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, bei mir hat das nämlich voll funktioniert, das war eine schöne Begegnung. Ich setze darauf, dass ich mir auch bald wieder begegne. Es gibt ja im Fitnessstudio dann auch immer die Gruppenkurse und die sind auch wiederum interessant. Und da bin ich als Mann immer in der Minderzahl, also so Full Body Workout, da sind dann wirklich 80% Frauen, die auch oft sehr nach arabischen Medikationshintergrund aussehen und die eine ungeheure Disziplin und Stärke aufbringen. Sodass ich dann auch immer das Gefühl gewinne, dass vielleicht Fitness eben doch auch so der erste Schritt zur sozialen Mobilität ist, weil man hier die eigene Diszipliniertheit unter Beweis stellen kann, die einem dann auch im weiteren Fortlauf des beruflichen Lebens und so weiter zugutekommt.",
-      "begin_time": "41:49.793",
-      "begin_seconds": 151333.0,
-      "end_time": "42:34.093",
-      "end_seconds": 153333.0,
-      "duration_seconds": 2000.0
+      "begin_seconds": 2509.793
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Mag sein. Also es jedenfalls gibt ja diese sportliche Gleichheit, dass du dich mit Menschen über das Dritte definierst. Und das ist natürlich etwas wahnsinnig Heilsames, etwas wahnsinnig Öffnendes. Es gab irgendwelche, beim Rückenkurs sind dann alle, alle haben Rücken und alle können miteinander, da kommst du eher aus der pathologischen Ecke, aber alle können, wenn dann eine Fitness-Antreiberin vorne sagt, jetzt noch 10, 9 und so, und man bricht alle kollektiv zusammen. Das hat natürlich etwas unglaublich Verbindendes. Ich weiß, ich war irgendwann, als ich schwanger war, mal in so einem Aquafit-Kurs und war plötzlich die einzige Nicht-Weißhaarige, weil das einfach so ein Rentnerkurs war. Das ist natürlich schon etwas Tolles. Ich finde insgesamt, was ich, oder weshalb ich dann irgendwann wieder ausgestiegen bin, aber vielleicht ja auch nicht für immer, ist, dass ich, und das Wort hatten wir ja auch, ist auch so ein Wort wie definierte Muskeln und so was. Ich hatte das Gefühl, es ist ein komischer, ewiger, geschlossener Zirkel der Instandhaltung. Es hat eher so dieses Repetitive, was du am Anfang, ist gar nicht so eine Wertung, dass es so eine Stumpfheit hat, aber ich hatte dann das Gefühl, ich muss in die Natur zurück, ich muss raus. Und es ist die Frage, hat das alles ein Ziel? Oder ist das irgendwas Zirkuläres, wo man sagen kann, es ist so, ob man das jetzt bewertet oder nicht, aber es hat irgendwie eine Geschlossenheit, die irgendwie süchtig machen kann. Vielleicht können wir ja gleich nochmal über den Dokumentarfilm reden, den wir geschaut haben und die Motivationen der jungen Leute, die dort in diesen Zirkel hineingehen, ja? Genau, der heißt Jim Boys und endlich kann ich mal von den ganzen vielen öffentlich-rechtlichen Dokus erzählen, die ich mir immer rein knalle, das mach ich ja ab und zu, aber wir haben noch nie über einen richtig gesprochen, die lief auf dem WDR. Jim Boys, wenn junge Männer pumpen, heißt die, glaube ich. Und da werden so verschiedene junge Männer gezeigt, also ich meine, der eine ist, glaube ich, 16 oder so was, also die alle Kraftsport betreiben und recht rührend, in rührender Ehrlichkeit sagen, weshalb sie das tun. Und vielleicht hat man hier auch, kann man natürlich ablesen, den wir haben jetzt über weibliche Ermächtigung und weibliche, ja, Normschön, ein neues Normschönheitsideal gesprochen. Hier hast du den klassischen männlichen, ja, die Kraft, die Muskeln, die Stärke, die da anvisiert werden. Es gibt dann so einen Moritz, also jeder sagt so ein Testimonial in die Kamera und dann sagt einer, ich bin Moritz und habe mit Bodybuilding angefangen, weil ich nicht mehr der kleine, dicke Junge sein wollte. Und das sagt er so in die Kamera. Also es ist eine Ungebrochenheit von Idealen. Und dann kommt sein Kumpel und sagt in die Kamera, ich bin Max und betreibe Kraftsport, um besser zu sein als Moritz. Ich musste so lachen, weil es ist so, am Ende stellt sich heraus, sie sind irgendwie, sie sind ja Freunde, es ist irgendwie eine, dieser sportliche Wettkampf und er möchte Feuerwehrmann werden. Das heißt, er trainiert konkret auf eine Prüfung zu. Und der Moritz feuert ihn dann auch an und sagt so, du schaffst das und ich werde dich so dermaßen anspornen, bis du das geschafft hast, das glaubst du gar nicht und so. Also es ist so eine Form, die die gefunden haben, vielleicht auch, um durch diese Jugend zu kommen, hatte ich das Gefühl, die haben halt auf das Ticket gesetzt. Man kann auch auf Saufen, Kiffen, sonst was setzen. Man kann irgendwie Computerspielsüchtig werden oder sonst was so. Und die haben halt auf das gesetzt und gießen da so ihre Freundschaft in dieses Fitnessstudio rein. Ich hatte tatsächlich fast schon so, daran merke ich, wie alt ich dann wiederum werde, dass ich fast schon so einen mütterlichen Moment hatte und dachte, das ist doch gut, wenn die Jungs so was machen. Ja, wenn sie was Vernünftiges machen und so ein bisschen Sport treiben zusammen.",
-      "begin_time": "42:34.373",
-      "begin_seconds": 153613.0,
-      "end_time": "46:13.993",
-      "end_seconds": 167373.0,
-      "duration_seconds": 13760.0
+      "begin_seconds": 2554.373
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber sie machen ja in Wahrheit Bodybuilding. Und das ist ja jetzt nicht einfach nur gesund, sondern da spielen ja Anabolika auch eine gefährliche Rolle.",
-      "begin_time": "46:14.013",
-      "begin_seconds": 166453.0,
-      "end_time": "46:23.013",
-      "end_seconds": 166993.0,
-      "duration_seconds": 540.0
+      "begin_seconds": 2774.013
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Na, zumindest schon irgendwelche, also Koffein nehmen sie wohl sehr viel. Also der eine sagt dann halt so, ja, ich übergebe mich. Da reflektieren sie so darüber. Da sagt der eine auch, es sind so sehr schöne Originalzitate, weil der dann sagt, na ja, wir machen das ja jetzt. Der eine sagt so, ja, wir machen ja viel Sport, und das machen die meisten nicht, und wir sind gesünder als andere, achten total auf ihre Ernährung, posten da auf Instagram, wie viel Proteine da in ihrem Essen drin sind und so weiter. Nehmen natürlich auf Protein Pulver. Und dann sagt der andere so, na ja, gut, also ja, ist gesund, aber so viel Koffein, wie wir die ganze Zeit zu uns nehmen, um uns da weiter zu pushen, also die sind ja noch gar nicht auf anderen Stoffen, aber das reicht schon, dass der eine sagt, na ja, stimmt, ich übergebe mich regelmäßig nach dem Sport, weil ich so viel Koffein, oder der Schiebtnis sagt, das liegt am Koffein, so, und sagt dann halt, man muss dazu sagen, wir machen das nicht, um gesund zu sein, sondern um gut auszusehen. Bäm, so, und da sind halt also reine Zitate drin, ich wurde gemobbt, ich war fett, ich hatte keine Chance bei Mädchen, dann sagt der eine, ja, man baut halt jetzt Selbstvertrauen auf, und der andere, ich glaube, der ist Josias, der ist 17, der sagt, er hat zum einen diesen Topos, ich möchte die beste Version meiner selbst, und sagt aber auch einfach, ich möchte mich wehren können. Also, ich weiß nicht, ob das eine Rolle spielt, dass er schwarz ist, aber auf jeden Fall, oder in einem Viertel wohnt, der sagt, hier kann jedem Moment was passieren, und mit mir kann man rechnen. Ich renne dann nicht weg, er sagt dann auch noch irgendwie was, ich bin keiner, der wegrennt. Also du hast sozusagen eine Reinform an Männlichkeitsidealen, bei denen man natürlich sagen kann, naja, ist das irgendwie, wär's nicht schöner, wenn er einfach nicht gemobbt wär, der Junge, wär's nicht okay, wenn er einfach fett sein könnte, ja, also so ein pummeliger Jugendlicher sein könnte, aber wir sehen hier junge Männer, die sich selbst ermächtigt haben.",
-      "begin_time": "46:23.033",
-      "begin_seconds": 167013.0,
-      "end_time": "48:12.953",
-      "end_seconds": 174473.0,
-      "duration_seconds": 7460.0
+      "begin_seconds": 2783.033
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber ich finde nicht, dass das einfach nur Männlichkeitsreinform ist, sondern können auch sagen, es geht auch um ein anders ausgelegtes Gerechtigkeitsbedürfnis.",
-      "begin_time": "48:12.973",
-      "begin_seconds": 174493.0,
-      "end_time": "48:21.193",
-      "end_seconds": 174253.0,
-      "duration_seconds": -240.0
+      "begin_seconds": 2892.973
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Wie meinst du das?",
-      "begin_time": "48:21.373",
-      "begin_seconds": 174433.0,
-      "end_time": "48:22.053",
-      "end_seconds": 174173.0,
-      "duration_seconds": -260.0
+      "begin_seconds": 2901.373
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, dass wir immer in dieser, an sich gebt, ist ja doch diese regulative Idee, oder es wäre zumindest sehr schön, wenn man in einer Meritokratie leben würde. Nun wissen wir natürlich, dass das nur ein Ideal ist, dass es in der Wirklichkeit nicht so ganz gibt, wie stark es gibt. Darüber kann man je nach Parteizugehörigkeit dann streiten, aber es ist doch irgendwie etwas Erstrebenwertes. Gleichzeitig spüren wir, viele Spiele werden mit gezinkten Karten gespielt. Also so als Bitcoiner bin ich zum Beispiel auch der Meinung, klar, Geld ist immer gezinkt, weil da gibt es das Kartell aus Zentralbanken und Geschäftsbanken, die können Geld schöpfen, so viel sie wollen, wir müssen dafür arbeiten, um es zu bekommen. Da geht es nicht mehr retokratisch zu, da läuft es nicht fair ab. Unter einem harten Geldstandard gilt, nur wer echte Werte schafft, kann in dem Sinne Geld hinzugewinnen. Und da sagt der Jonas in dem Dokumentarfilm eben auch einen ähnlichen Gedanken, aber jetzt bezogen auf den Kraftraum. Du kannst dir einen gut aussehenden Körper nicht erkaufen. Und das ist dieser Proof-of-Work-Gedanke. Also hier wird nichts simuliert, hier wird nichts vorgetäuscht. Jeder Muskel an diesem Körper ist ein Zeugnis davon, dass Zeit, Kraft und Energie investiert worden ist. Und in diesem Sinne ist das Fitnesscenter vielleicht eine starke Konkurrenzgesellschaft, aber eben auch eine meritokratische Gesellschaft.",
-      "begin_time": "48:22.473",
-      "begin_seconds": 174593.0,
-      "end_time": "49:39.273",
-      "end_seconds": 179013.0,
-      "duration_seconds": 4420.0
+      "begin_seconds": 2902.473
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, wobei ich genau, ich hab das nicht, das fand ich hier in der Dokumentation so ein bisschen so, wobei sie es ja nicht als richtigen Wettbewerb nehmen, sondern eigentlich als wir gehen da zusammen hin und machen das zusammen. Meine Fitnessstudie-Erfahrung war eher auch so, man geht da alleine hin und macht seine Arbeit und geht wieder zurück. Und dann kann man sich so ein bisschen zusammenschließen oder auch nicht, aber es ist eher was, was man, man macht seinen Job so. Und vielleicht ist das, worüber wir noch sprechen können, weil du hast ja jetzt eben, als ich gesagt hab, das ist sozusagen ein klassisches Männlichkeitsideal, hast ja nochmal abgehoben auf diese Idee einer unisex-ehrlichen Währung. Ja, und der, was ja auch drin steht, ich wurde gemobbt und dann hab ich mich stark gemacht. Und hab gezeigt letztlich, ich bin in der Lage, was zu tun dagegen. Und vielleicht ist diese Ertüchtigung, das klingt so 20. Jahrhundert mäßig, vielleicht ist das der Moment, wo wir noch mal, wo wir auch zu unserem Roman überleiten können. Den du, du hast mir das so rübergerufen und meintest, lies doch da mal rein. Ich hab den dann wirklich an zwei Tagen sehr schnell durchgelesen, weil ich ihn wahnsinnig, ja wir haben schon darüber gesprochen, ist das ein guter Roman, wissen wir gar nicht, aber er ist irgendwie ein toller Roman im Sinne von, er ist wahnsinnig anregend und ich hätte ihn, glaube ich, von außen nie mit unserem Thema Fitness in Verbindung gebracht. Aber es geht um, es steckt so viel Gegenwart drin und es geht viel um körperliche Arbeit und das Wohltun an körperlicher Arbeit. Timon Carl Kaleiter hat ihn geschrieben und es geht um Heilung.",
-      "begin_time": "49:39.593",
-      "begin_seconds": 179333.0,
-      "end_time": "51:13.153",
-      "end_seconds": 184533.0,
-      "duration_seconds": 5200.0
+      "begin_seconds": 2979.593
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Der Roman heißt auch Heilung.",
-      "begin_time": "51:13.173",
-      "begin_seconds": 184553.0,
-      "end_time": "51:14.553",
-      "end_seconds": 184993.0,
-      "duration_seconds": 440.0
+      "begin_seconds": 3073.173
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Er heißt Heilung, genau. Ich dachte zuerst, dass es ein Gegenpol zu Fitness ist. Wir haben schon über dieses Wort Instandhaltung geredet. Ich glaube, Lars und ich haben auch mehrfach schon darüber geredet, dass in der Gegenwart bei uns viele das Instandhaltung etwas ist, was wahnsinnig trendet seit einiger Zeit, weil man ja auch ganz Insta ist voll von Instandhaltungstechniken. Wir hatten die Folge übers Putzen. Dinge werden da gewartet, kochen letztlich auch, dieses Müttermachen, Brotdosen. Es ist alles Instandhaltung, Instandhaltung, Instandhaltung und gar nicht so dieses geniehafte Intervenieren. Da hat man das Gefühl, die Zeiten sind gerade so ein bisschen vorbei. Und es geht eher um Instandhalten, wo das logischerweise wäre, dass man den eigenen Körper in Stand hält, sozusagen wäre jetzt eine logische Instandhaltungs-Säule davon. Und da dachte ich zuerst, dass der Roman allein schon wegen des Titels, das Heilung, eher was ist, was der Instandhaltung irgendwie entgegensteht, weil es so ein Endpunkt markiert, den Instandhaltung nicht hat. Also, dass man denkt, naja gut, ich begebe mich auf irgendeine Reise, Healing und Heilung und Healing Journeys und so, steckt auch stark in der Gegenwart drin. Aber dieses Phantasma zu sagen, ich mache etwas und dann bin ich final geheilt von was auch immer, Traumata, ja oder auch auf körperlicher Ebene, ich tu etwas und dann bin ich durch mit dem Thema, da würde man ja sagen, okay, Fitness ist das Gegenteil davon. Alles, was wir jetzt besprochen haben, das ist ja ein reines, also zwar irgendwie ein Muskelaufbau, aber du musst zwei Wochen machst du nichts und schon fängst du wieder bei Null an, ja. Und es hat ja auch in dem Sinne keinen Zielpunkt. Ich glaube, das war das, was mich bei diesem Fitnesstudio dann als alleiniges fertig gemacht hat, dass es so ein im Kreis laufen war gefühlt, ja.",
-      "begin_time": "51:14.853",
-      "begin_seconds": 185293.0,
-      "end_time": "53:02.253",
-      "end_seconds": 191173.0,
-      "duration_seconds": 5880.0
+      "begin_seconds": 3074.853
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber gibt es irgendetwas, was ein Zielpunkt ist und wenn man es einmal erreicht hat, dann war es das. Selbst der Berggipfel, den man erklimmt, da kann man ja nicht bleiben. Oben auf den Berggipfel kann man nicht den Rest seines Lebens verbringen, weil man sein Ziel jetzt erreicht hat. Das sind doch alle Ziele immer solche, die man dann abhakt und insofern beginnt es dann wieder von vorne.",
-      "begin_time": "53:02.273",
-      "begin_seconds": 191193.0,
-      "end_time": "53:22.233",
-      "end_seconds": 192353.0,
-      "duration_seconds": 1160.0
+      "begin_seconds": 3182.273
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, das stimmt.",
-      "begin_time": "53:23.053",
-      "begin_seconds": 192233.0,
-      "end_time": "53:24.113",
-      "end_seconds": 192353.0,
-      "duration_seconds": 120.0
+      "begin_seconds": 3203.053
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Weil alles andere wäre dann tatsächlich schon transcendent, nämlich Erlösung. Also dann wäre es die Sehnsucht nach der Erlösung und die ist dann zeitlos. Also gewisseinander die Erlösten im Himmel, zur Rechten des Herrn.",
-      "begin_time": "53:24.133",
-      "begin_seconds": 192373.0,
-      "end_time": "53:36.173",
-      "end_seconds": 193133.0,
-      "duration_seconds": 760.0
+      "begin_seconds": 3204.133
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Würdest du es denn schaffen, für immer im Fitnessstudio zu bleiben, Ijoma?",
-      "begin_time": "53:36.193",
-      "begin_seconds": 193153.0,
-      "end_time": "53:41.593",
-      "end_seconds": 193853.0,
-      "duration_seconds": 700.0
+      "begin_seconds": 3216.193
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ach, das weiß ich gar nicht. Ich habe da auch gar keinen Ethos, sondern ich würde sagen, mir macht das im Moment Spaß und Freude und zwar über das. Also wenn ich das kurz noch einmal sagen darf, am Gerät zu arbeiten selbst finde ich öde, macht mir keinen Spaß. Das Einzige, was ich daran Spaß nenne, ist die Freude, mich zu zwingen. Also das ist ein gemischtes Gefühl. Es ist nicht so, wie wenn ich auf dem Tennisplatz stehe. Hey, das ist total ehrlich. Das macht natürlich von der ersten bis zur letzten Minute Spaß. Nee, nee, in der Brustpresse zu sitzen, ist überhaupt nichts, was mir Spaß macht. Ganz und gar nicht. Ich mache jetzt auch morgens manchmal Liegestützen, das macht mir auch überhaupt nicht Spaß. Ich finde es total unangenehm. Crunches, hässlich, furchtbar. Das Einzige, was mir Spaß macht, ist mich dabei zu beobachten, wie ich mich zwinge, etwas zu tun, was auf der ersten Ebene, Beobachtung 1. Ordnung, keinen Spaß macht, aber Beobachtung 2. Ordnung, dann eben als Überwindung, klassischerweise würde man sagen, des inneren Schweinehunds, dann natürlich doch Befriedigung mit sich bringt und belohnt wird durch die Sauna.",
-      "begin_time": "53:41.613",
-      "begin_seconds": 193873.0,
-      "end_time": "54:45.713",
-      "end_seconds": 197813.0,
-      "duration_seconds": 3940.0
+      "begin_seconds": 3221.613
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Die Gratification kommt später.",
-      "begin_time": "54:45.733",
-      "begin_seconds": 197833.0,
-      "end_time": "54:48.133",
-      "end_seconds": 197413.0,
-      "duration_seconds": -420.0
+      "begin_seconds": 3285.733
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber schnell, später aber schnell. Das ist vielleicht auch das Attraktive, natürlich also Low-Time-Preference, dass man in langen Zeiträumen denkt, das ist die größere Herausforderung. Insofern ist der Kraftraum auch sehr dankbar, weil die Gratification erstaunlich schnell kommt.",
-      "begin_time": "54:48.153",
-      "begin_seconds": 197433.0,
-      "end_time": "55:06.473",
-      "end_seconds": 198833.0,
-      "duration_seconds": 1400.0
+      "begin_seconds": 3288.153
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, es hat mich tatsächlich an die Faulheitsfolge von mir und Lars noch mal erinnert, weil genau das ja, du eben beschrieben hast, wie man sich zu... Also man kann ja sagen, es gibt keine Entspannung ohne Anspannung vorher. Und vielleicht ist das noch mal ein Thema, was wir jetzt auch noch mal, wenn wir in den Roman eintauchen, einmal besprechen können. Ist Fitness eine... Das wär so eine These, eine Simulation von Arbeit. Also du sprichst ja über Arbeit letztlich. Man muss sich zu etwas zwingen und dann... Genau, und das sagen auch die Boys, die Gym-Boys sagen das auch. Man hat halt danach das Gefühl, man hat etwas geschafft. Vielleicht sprechen wir einmal um den Roman und dann verstehen auch die Menschen da draußen, warum wir jetzt hier plötzlich mit so einem Roman um die Ecke kommen.",
-      "begin_time": "55:06.493",
-      "begin_seconds": 198853.0,
-      "end_time": "55:50.953",
-      "end_seconds": 201953.0,
-      "duration_seconds": 3100.0
+      "begin_seconds": 3306.493
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, denn der Protagonist hat ein Problem, ein sehr konkretes, das ich leider Gottes auch ein wenig kenne, nämlich Schlafstörungen. Und er ist verheiratet mit einer extrem erfolgreichen, das ist eine interessante neue Geschlechterkonstellation, mit einer sehr erfolgreichen Künstlerin, internationaler Kunstjet-Set. Und er arbeitet ihr zu, erst gewissermaßen des Backoffice. Er bringt die Termine auf die Reihe und sorgt dafür, dass die Kunstwerke in den Emiraten ankommen, wo die nächste Ausstellung ist und so weiter. Offensichtlich aber läuft da irgendwas auch nicht so gut. Jedenfalls, innerlich müssen sich Defizite aufbereiten und er findet keinen Schlaf mehr. Und die Antwort darauf ist, dass seine Frau, die Künstlerin, ihn in so ein Spa-Resort-Hotel, ich glaube in Südtirol, irgendwo in den Alpen schickt, wo die absolute Oberschicht sich durch einen Professor Trinkel heilen lässt.",
-      "begin_time": "55:50.973",
-      "begin_seconds": 201973.0,
-      "end_time": "56:43.913",
-      "end_seconds": 205093.0,
-      "duration_seconds": 3120.0
+      "begin_seconds": 3350.973
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, es ist so eine Art Zauberbergerzählung in Gegenwart. Also er wird da hingeschickt und er wehrt sich die ganze Zeit und sagt, wie doof das eigentlich alles ist. Also er kommt da nicht als so ein Bedürftiger. Vielleicht ist das sogar fast ein bisschen ungegenwärtig, weil wir ja eigentlich sonst alle uns zu Tode pathologisieren und denken, wir müssen alle in Anstalten die ganze Zeit und geheilt werden oder uns auseinandersetzen mit uns selber. Da hat er fast sowas, oder ich würde sagen, fast so etwas Boomer-mäßiges, so nein, mit mir ist nichts, stimmt nichts und so. Na gut, dann gehe ich da jetzt mal hin. Und man hat wirklich beim Lesen das Gefühl, hier ist jemand lost, also er hat sich irgendwo auf dem Weg verloren. Es wird dann gesagt, ja, sie wollen eigentlich ein Kind kriegen und das klappt irgendwie nicht. Aber man kann noch nicht mal sagen, dass das das Hauptthema ist, also dass das deren Hauptproblem wäre. Sonst könnten sie ja auch in die Kinderwunschklinik gehen, sondern es ist wirklich so, er ist irgendwie, wie es vielleicht, also das fand ich eine gute Beschreibung, wie es ja auch so ist im Leben, er hat sich irgendwie, der ist von der Spur runtergeraten, während sie, er ist irgendwie verblasst neben ihr. Und nun wird er da letztlich ein bisschen eingewiesen. Und man hat dann sofort beim Lesen das Gefühl, er wird so traktiert mit diversen, ja, Spar-Vermessungs, erst mal wird alles vermessen, so die medizinischen Werte, dann kommen irgendwie diese ganzen, was weiß ich, geht er in so Salzbäder und macht also alles, was man sich so vorstellen kann. Und man hat schon das Gefühl, dass hier die Gegenwart, also so ein Roman, wo ich das Gefühl habe, alles, kennst du das beim Lesen von Büchern, dass man denkt, ah hier, damit meint er das, das ist die Metapher. Hier ist unsere Selbstoptimierungsgesellschaft. Auch dieser Professor, der dann so wirklich ja Psycho ist und man das Gefühl hat, der will irgendwie so komisch in den Rhein kriechen und man kann den nicht lesen und so weiter, hat man das Gefühl, das ist der Selbstoptimierungswahnsinn von uns allen.",
-      "begin_time": "56:43.933",
-      "begin_seconds": 205113.0,
-      "end_time": "58:31.633",
-      "end_seconds": 211293.0,
-      "duration_seconds": 6180.0
+      "begin_seconds": 3403.933
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Also der Professor sagt immerhin, sie haben einen Unbehagen. Aber was dieses Unbehagen ist, das müssen sie schon selber herausfinden. Ich kann sie da nur auf den Weg schicken.",
-      "begin_time": "58:31.653",
-      "begin_seconds": 211313.0,
-      "end_time": "58:39.273",
-      "end_seconds": 211413.0,
-      "duration_seconds": 100.0
+      "begin_seconds": 3511.653
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, und dieses Umstelltsein von Therapieangeboten, da hatte ich das Gefühl, und ich meine, der Protagonist kann da ja jederzeit raus. Er ist da zwar hingeschickt worden, aber er könnte da ja jederzeit raus. Und da hatte ich das Gefühl, das ist eine Metapher für uns alle, wie wir uns selbst traktieren und irgendwie damit im Kreis traktieren auch. Denn letztlich hilft ihm diese Klinik nicht, kann man sagen.",
-      "begin_time": "58:39.693",
-      "begin_seconds": 211833.0,
-      "end_time": "59:03.893",
-      "end_seconds": 213473.0,
-      "duration_seconds": 1640.0
+      "begin_seconds": 3519.693
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Was aber kein Argument gegen Therapie und gegen diese Klinik ist, nur weil er dieser Protagonist über sehr viele Abgründe verfügt, denen wir als Leser psychologisch auch nicht in seiner Gänze erschließen können. Dass ihm das nicht hilft, finde ich, ist kein Argument gegen dieses Angebot dieser Klinik. Denn der Roman hat ja einen zweiten Teil, wo er sich in gewisser Weise auch die Suche macht an den Quellen oder den Ursprungen eines Unbehagens. Und da stellt er sich nun doch sehr stark als eine pathologische Figur und insofern auch als ein sehr unzuverlässiger Erzähler dar. Was macht er? Er kehrt zurück zu einem Schulfreund.",
-      "begin_time": "59:03.913",
-      "begin_seconds": 213493.0,
-      "end_time": "59:40.593",
-      "end_seconds": 215393.0,
-      "duration_seconds": 1900.0
+      "begin_seconds": 3543.913
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ja, er stochert dann in seiner Vergangenheit rum, so wie wir alle das tun, und fragt sich, oh, meine Oma hat mir immer Kriegslieder vorgesungen, bin ich deshalb heute irgendwie so deformiert? Und dann stellt er fest, nein, irgendwie gibt es die Sehnsucht. Er hat einen alten Freund und der hat ihm auch früher noch Briefe geschrieben. Er hat wahnsinnig tolle Kindheitserinnerungen an den. Und plötzlich macht er sich auf und fährt zu diesem alten Freund hin, lässt diese komische Klinik hinter sich, fährt zu dem Freund und der, Jesper, hat einen Hof.",
-      "begin_time": "59:40.953",
-      "begin_seconds": 215753.0,
-      "end_time": "1:00:08.213",
-      "end_seconds": 3608.213,
-      "duration_seconds": -212144.787
+      "begin_seconds": 3580.953
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Im Odenwald?",
-      "begin_time": "1:00:08.233",
-      "begin_seconds": 3608.233,
-      "end_time": "1:00:09.453",
-      "end_seconds": 3609.453,
-      "duration_seconds": 1.2199999999998
+      "begin_seconds": 3608.233
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, im Odenwald und tut dort eigentlich nichts. Jetzt schließt sich der Kreis zu unserem Thema als körperlich sich Ertüchtigen. Also er arbeitet unentfremdet auf dem Feld, in der Sonne.",
-      "begin_time": "1:00:09.473",
-      "begin_seconds": 3609.473,
-      "end_time": "1:00:22.253",
-      "end_seconds": 3622.253,
-      "duration_seconds": 12.7800000000002
+      "begin_seconds": 3609.473
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Hier wird noch manuell mit der Sense die Wiese gemäht.",
-      "begin_time": "1:00:22.273",
-      "begin_seconds": 3622.273,
-      "end_time": "1:00:25.633",
-      "end_seconds": 3625.633,
-      "duration_seconds": 3.3599999999996726
+      "begin_seconds": 3622.273
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Hat Muskeln und wäre dieser Roman nicht irgendwie so packend und gut, könnte man sagen, das ist so echt kitschig. Also ich dachte so, warum finde ich das beim Lesen jetzt irgendwie gut? Weil es ist dann doch sehr diese Romantik der Feldarbeit, kommt einem dann so, it's very in your face. Der Freund tut so, als hätte er nur auf ihn gewartet und sagt dann aber die Signalsätze, du könntest dich nützlich machen, kannst du kräftig anpacken. Und dann geht es so los, dass er sagt, meine Tage auf dem Hof sind immer gleicher Routine. Und er sagt tatsächlich auch, es geht um Reparaturen und Instandhaltungsarbeiten. Und der Freund fragt ihn so plakativ, wann hast du das letzte Mal mit deinen Händen gearbeitet? Wann haben deine Hände zum letzten Mal einen Unterschied gemacht? Und dann wird so beschrieben, so wirklich sehr, sehr schön, kitschig, aber schön beschrieben, diese Feldarbeit. Und das ist, da hast du das Gefühl, jetzt ist die Utopie da. Ja, und seine Heilung ist wirklich da. Wie es weitergeht, müssen wir ja jetzt nicht, darum geht es ja heute nicht.",
-      "begin_time": "1:00:25.653",
-      "begin_seconds": 3625.653,
-      "end_time": "1:01:27.433",
-      "end_seconds": 3687.433,
-      "duration_seconds": 61.7800000000002
+      "begin_seconds": 3625.653
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber es stellt sich natürlich als große Illusion heraus.",
-      "begin_time": "1:01:27.453",
-      "begin_seconds": 3687.453,
-      "end_time": "1:01:29.833",
-      "end_seconds": 3689.833,
-      "duration_seconds": 2.380000000000109
+      "begin_seconds": 3687.453
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Genau, also er kann, vielleicht kann man nicht für immer im Fitnessstudio bleiben, aber man kann auch nicht für immer auf diesem Feld bleiben. Was ich aber nur so interessant fand, und vielleicht ist das auch der rote Faden der Muskelkater zwischen Feldarbeit und Fitnessstudium. Und das brachte mich so zu dieser These ist Fitnessstudio eine Simulation unserer Vorausgabung auf dem Feld, die wir nun nicht mehr haben. Ja, ist jetzt vielleicht nicht so tiefsinnig gedacht, aber es verbindet diese Dinge noch sehr schön. Ich würde jedem diesen Roman empfehlen, fand es sehr, auch wenn es manchmal so holzhammermäßig ist, sehr, sehr spannend. Und da stand, die Tage gingen dahin, Tage voll sinnstiftender Vorausgabung. Und da dachte ich plötzlich, na ja, was ist denn die, weil hier geht es ja immer um Ertrag, es geht um Ernte, es geht um, da wird noch ein Kälbchen geboren, also es geht um die Verortung in der Natur. Und ist das Fitnessstudio eine, reicht das, um eine sinnhafte Vorausgabung zu erschaffen, ja? Verstehst du?",
-      "begin_time": "1:01:29.853",
-      "begin_seconds": 3689.853,
-      "end_time": "1:02:30.253",
-      "end_seconds": 3750.253,
-      "duration_seconds": 60.40000000000009
+      "begin_seconds": 3689.853
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nina, wenn es dir nicht reicht, bist du herzlich eingeladen, mich auf dem Land zu besuchen und zu unterstützen, meine 4000 Quadratmeter Garten in den Griff zu bekommen. Ich sage dir, da mangelt es nicht an Sinnstiftung.",
-      "begin_time": "1:02:30.273",
-      "begin_seconds": 3750.273,
-      "end_time": "1:02:43.693",
-      "end_seconds": 3763.693,
-      "duration_seconds": 13.420000000000073
+      "begin_seconds": 3750.273
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Mit Allergie-Tabletten.",
-      "begin_time": "1:02:43.713",
-      "begin_seconds": 3763.713,
-      "end_time": "1:02:45.053",
-      "end_seconds": 3765.053,
-      "duration_seconds": 1.3399999999996908
+      "begin_seconds": 3763.713
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Mit Allergie-Tabletten, das stimmt. Ich würde umgekehrt sagen, Heilung werden wir nicht erzielen, nicht erreichen, das ist so ein finales Ziel. Das ist mit irrtischen Mitteln nicht zu bekommen. Aber was sowohl der Garten wie das Fitnesstudio bieten ist, und vielleicht ist das der Kern der Sache, ist die Aussicht auf Verwandlung. Wir können ein anderer werden. Wir können uns verwandeln. Und deswegen finde ich den Begriff von Kollegah, der ein professionelles, kommerzielles Fitnessprogramm entwickelt hat, und das nennt er Boss-Transformation. Ich finde es keinen schlechten Namen dafür, weil die Vorstellung, dass wir uns transformieren können ohne die stirbt halt das Leben.",
-      "begin_time": "1:02:45.073",
-      "begin_seconds": 3765.073,
-      "end_time": "1:03:32.033",
-      "end_seconds": 3812.033,
-      "duration_seconds": 46.960000000000036
+      "begin_seconds": 3765.073
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich meine, hinter diesem toxisch männlichen Boss, du meinst, du verunisext gerade und transcendierst das Wort Boss.",
-      "begin_time": "1:03:32.053",
-      "begin_seconds": 3812.053,
-      "end_time": "1:03:40.593",
-      "end_seconds": 3820.593,
-      "duration_seconds": 8.539999999999964
+      "begin_seconds": 3812.053
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich verunisexesse und streiche den Boss raus und bleibe nur bei der Transformation.",
-      "begin_time": "1:03:40.613",
-      "begin_seconds": 3820.613,
-      "end_time": "1:03:44.953",
-      "end_seconds": 3824.953,
-      "duration_seconds": 4.3400000000001455
+      "begin_seconds": 3820.613
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ich glaube, das Thema haben wir ein bisschen definiert, vielleicht, ja. Wir haben zumindest ein bisschen rangearbeitet durch mehrere Wiederholungen, Schleifen und haben ein bisschen die Muskel gestellert beim Thema Fitness. Am Ende möchte ich dir noch eine Prognosefrage stellen. Und zwar geht es da ein bisschen um Sport, aber ich möchte noch einmal zurückkommen zu EM. Ich bin ja weiterhin im EM-Fieber. Und möchte dir eine letztlich klassische Frage, recht klassische Frage stellen, die aber immer noch gegenwärtig ist. Und zwar die nach der Homosexualität im Profifußball. Wann meinst du, wird es endlich normal werden? Ich finde diese Frage so ungegenwärtig, weil man denkt, es müsste doch längst schon normal sein. Jetzt habe ich noch einmal so einen Meme gesehen, wo irgendwie, ich glaube, der ist von vor mehreren Jahren, aber da ging es darum, dass Deutschland ja dann jetzt so schlecht war. Und wie dann Manuel Neuer steht so hinter, Antonio Rüdiger und es sieht so aus, als hätten die Sex miteinander. Das ist nur so eine blöde Einstellung der Kamera. Und das wird dann so benutzt, so von wegen haha, jetzt sind wir so schlecht, ist das Team so schlecht. Und man denkt so, ist, also wir haben jetzt gesehen, irgendwie wie der Niklas Fühlkrug da sein Töchterchen hochgehoben hat. Wir sehen die Spielerfrauen im Stadion, das ist alles gelernt. Wann wird das so, dass man einfach jetzt nicht, ich meine jetzt nicht jeder muss irgendwie sagen, welches Geschlecht er hat und welche Zugehörigkeit er hat und wie er wen liebt, aber dass man einfach von manchen Leuten weiß, ah, Ronaldo hat irgendwie zehn Kinder adoptiert, der hat seine Tochter da sitzen, der hat seine dritte Ehefrau da sitzen und der hat halt seinen Typen da sitzen. Wann sitzt da mal ein Typ neben den Spielerfrauen? Wann ist das normal?",
-      "begin_time": "1:03:47.693",
-      "begin_seconds": 3827.693,
-      "end_time": "1:05:29.073",
-      "end_seconds": 3929.073,
-      "duration_seconds": 101.37999999999965
+      "begin_seconds": 3827.693
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich verstehe deine Frage sehr genau und in der Tat, vielleicht ist es ein Zeichen dafür, dass Gesellschaft halt auch immer eine Gesellschaft von Ungleichzeitigkeiten ist, denn in der Tat würde man denken, sonst spielt diese Frage doch gar keine diskriminierende oder ausschließende Rolle mehr im Fußball. Ich kenne mich nun allerdings so wirklich gar nicht aus. Ich weiß halt nur, ja, es gab mal dieses große Hittelsberger-Interview bei uns vor mittlerweile 15 Jahren. Das wurde sehr gefeiert, weil da ein Tabu angesprochen oder aufgebrochen worden sei. Und seither ist natürlich so gesellschaftspolitisch wahnsinnig viel passiert, sodass ich in der Tat, sodass man in der Tat annehmen müsste, das könne jetzt auch im Fußball kein Thema mehr sein. Wenn du sagst, dass es das immer noch ist, das muss ich jetzt so übernehmen, ich kenne mich zu wenig aus, ja, dann finde ich es eben doch nur interessant, wie die verschiedenen gesellschaftlichen Teilsysteme doch immer noch mit unterschiedlichen, dekorativen Moralitäten arbeiten. Da ist dann der Fußball offensichtlich noch hinter der Bundeswehr oder auch hinter der amerikanischen Armee in der bekannter Maße dann auch Transpersonen, Kommandofunktionen übernehmen. Vielleicht ist Fußball ganz einfach doch das archaischste und deswegen das sich am langsamsten transformierende gesellschaftliche Teilsystem.",
-      "begin_time": "1:05:29.713",
-      "begin_seconds": 3929.713,
-      "end_time": "1:06:48.493",
-      "end_seconds": 4008.493,
-      "duration_seconds": 78.77999999999975
+      "begin_seconds": 3929.713
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Keine Boss-Transformation, keine Angabe noch nicht mal. Meinst du, es dauert noch?",
-      "begin_time": "1:06:48.513",
-      "begin_seconds": 4008.513,
-      "end_time": "1:06:53.093",
-      "end_seconds": 4013.093,
-      "duration_seconds": 4.579999999999927
+      "begin_seconds": 4008.513
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Es dauert noch.",
-      "begin_time": "1:06:53.113",
-      "begin_seconds": 4013.113,
-      "end_time": "1:06:53.993",
-      "end_seconds": 4013.993,
-      "duration_seconds": 0.8800000000001091
+      "begin_seconds": 4013.113
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Ijoma, wir haben eine lange Folge gemacht. Wir bedanken uns ganz schnell nochmal bei allen, die heute zugehört haben, die immer zuhören. Und wir bedanken uns bei Ijoma Rösch und den Pool Artists für die Unterstützung und Produktion unseres Podcasts. Und für alle, die meckern wollen, uns Vorschläge zum Gegenwart-Check schicken wollen oder sonstige Kommentare oder auch Lob schicken wollen, gerne an gegenwartezeit.de. Muss ich ja jetzt machen, weil Siri im Servetticke ist.",
-      "begin_time": "1:06:54.553",
-      "begin_seconds": 4014.553,
-      "end_time": "1:07:21.813",
-      "end_seconds": 4041.813,
-      "duration_seconds": 27.26000000000022
+      "begin_seconds": 4014.553
     }
   ]
 }

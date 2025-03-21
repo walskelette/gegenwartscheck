@@ -1,877 +1,493 @@
 {
-  "episode_title": "Episode 1000651730596",
+  "episode_title": "Was kommt nach Social Media?",
   "podcast_id": "1000651730596",
   "episode_id": "1000651730596",
-  "extracted_date": "2025-03-21T22:00:44.306512",
+  "upload_date": "2024-04-08",
   "transcript": [
     {
       "speaker": "SPEAKER_2",
       "text": "Wir schreiben das Jahr 2024 und das hier ist die sogenannte Gegenwart.",
-      "begin_time": "6.950",
-      "begin_seconds": 0,
-      "end_time": "11.050",
-      "end_seconds": 0
+      "begin_seconds": 6.95
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Herzlich willkommen zu unserem Fölturm Podcast hier bei der ZEIT und ZEIT Online. Mein Name ist Nina Pauer und ich bin heute hier mit meinem Kollegen Lars Weisbrod. Hallo Lars.",
-      "begin_time": "22.127",
-      "begin_seconds": 0,
-      "end_time": "30.707",
-      "end_seconds": 0
+      "begin_seconds": 22.127
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Hallo Nina. Guten Morgen an diesem ersten Werktag in Deutschland, an dem Cannabiskonsum legal ist. Fühlt sich das eigentlich für dich anders an? Es wird nicht unser Thema heute sein. Wir hätten irgendwann mal eine Folge über, aber fanden wir dann irgendwie zu langweilig, über Gras eine Folge zu machen.",
-      "begin_time": "30.727",
-      "begin_seconds": 0,
-      "end_time": "47.747",
-      "end_seconds": 0
+      "begin_seconds": 30.727
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Man hätte noch so Lambo, komm, wir wechseln das Thema noch mal, eine Kifferfolge. Nee, fühlt sich nicht besonders anders an, nur dass ich irgendwie gestern schon dachte, muss ich jetzt die ersten fünf Meldungen nur zu mit Grasmeldungen hier irgendwie verbringen. Nein, Lars, darum soll es heute nicht gehen. Ja, ich sage, worum es gehen wird. Wir wollen heute etwas machen, was wir glaube ich noch nie gemacht haben in all den Jahren, mal explizit über einen Text von einem von uns sprechen. Also natürlich nicht nur über den Text, aber das Thema drum herum und zwar über einen Text von dir, Lars. Ich gebe zu, ich habe das gepusht. Lars wollte das aus narzisstischen Gründen nicht, nirgends über einen Text von mir reden. Aber ich fand ihn auf der einen Seite sehr gut und ich finde, das Thema gibt einfach so viel her für uns beide vielleicht insbesondere. Du hast nämlich Mitte Februar im Veyton der Zeit einen Text geschrieben über das Ende von Social Media. Und genau darüber wollen wir heute nachdenken. Also ich glaube, Ijoma und du hattest ja schon mal über Twitter nachgedacht, über Mastodon, was damals die Hoffnung war. Wir wollen heute aber vielleicht auch noch mal durch eine Millenial Brille, ne? Lars und ich gehen ja manchmal in die Elternbubble für unseren Podcast. Das haben wir letztens gemacht. Und manchmal gehen wir aber auch in die Millenial Bubble, weil wir einfach zwei langsam ergrauende Millennials sind. Und wollen noch mal vielleicht die Social Media Biografie bis hierher abschreiten. Und irgendwie über dieses Schale, du nennst es in deinem Text, ein Vorbeigefühl sprechen. Also wo kommen wir her? Wo gehen wir hin? Also schon auch vielleicht noch mal so große Fragen stellen. Was ist eigentlich aus der guten alten Freundschaft geworden? Dieses große Wort, eine Freundschaftsanfrage. Dann gab es die Follower. Wo stehen wir? Wo gehen wir hin?",
-      "begin_time": "47.767",
-      "begin_seconds": 0,
-      "end_time": "2:31.447",
-      "end_seconds": 9507.0
+      "begin_seconds": 47.767
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, also auch wo gehen wir hin? Da würde ich gerne noch mal eine Betonung draufsetzen. Ich hoffe, wir kommen dazu. Also dass man nicht stehen bleibt, sondern fragt, was passiert als nächstes. Und wenn jetzt die These, Stichwort vorbei gefühlt, tatsächlich ist Social Media stirbt irgendwie. Es stirbt vielleicht langsam. Und der langsame Tod eines sehr großen Tiers, was dann immer auch viele Verfallserscheinungen zeigt. Und irgendwann ist es vorbei. Dann ist ja schon die Frage, wofür macht es Platz? Was kommt danach? Das könnte so ein Arbeitstitel sein für unsere Diskussion. Was kommt nach Social Media? Und dann höre ich sofort auf, wie können wir das am besten so gestalten, dass es besser wird als das, was vorher war? Weil ich glaube, viele Leute, ich auch, nicht so glücklich in Hindsight damit sind, was Social Media aus uns gemacht hat. Also wie können wir da versorgen, dass was auch immer danach kommt, ja zumindest nicht noch schlimmer wird? Darüber wollen wir vielleicht auch reden. Aber bevor wir das machen, kommt der Gegenwartstech.",
-      "begin_time": "2:31.887",
-      "begin_seconds": 9947.0,
-      "end_time": "3:30.907",
-      "end_seconds": 13507.0,
-      "duration_seconds": 3560.0
+      "begin_seconds": 151.887
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau. Lars, möchtest du loslegen heute?",
-      "begin_time": "3:31.047",
-      "begin_seconds": 12707.0,
-      "end_time": "3:33.887",
-      "end_seconds": 13667.0,
-      "duration_seconds": 960.0
+      "begin_seconds": 211.047
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich möchte loslegen mit einem... Ach so, das ist so ein Nina-Punkt, finde ich. Ich hoffe sehr, dass es ein Nina-Punkt ist, dass du da mir für einen Punkt gibst. Also, wenn man das Wort regulieren gehört hat, oder ich zumindest, da dachte ich früher natürlich an Behörden und den Staat, der den Markt reguliert, als wovor Ijoma Angst hat. Ja, sozusagen regulieren vom Markt, da wird die Innovationskraft erdrosselt, sagt dann der Liberale. Oder andersrum, ja, man muss endlich deregulieren. Ja, jetzt ist immer auch wieder so eine Phase, wie jetzt Christian Lindner immer sagt, damit Deutschland wirtschaftlich vorankommt, muss jetzt dereguliert werden. Ja, und dann sagt man irgendwie jetzt, können wir wieder Blei ins Trinkwasser kippen, weil sonst gibt es zu viel Bürokratie oder was auch immer. Ja, Klammer auf, kleine satirische Überspitzung. Wir dürfen nicht wirklich Blei ins Trinkwasser kippen. Das war für mich regulieren, deregulieren. Bis ich Vater geworden bin und mich in diesem Elternschaft, Instagram rumgetrieben habe und gemerkt habe, und ich benutze das auch selber im Alltag die ganze Zeit, du machst schon Daumen nach unten, dass es da immer darum geht, ob die Kinder sich selber regulieren können. Oder auch mal aus der Kita kriegt man manchmal das Feedback, kann sich selbst schon sehr gut regulieren. Also ich nehme mal an, gemeint ist dann immer, sie weinen oder sind wütend, aber beruhigen sich dann und können dann irgendwie sich davon ablenken und weiterspielen. Oder wiederum, was man machen soll, wenn die Kinder ganz schlimm dereguliert sind. Und wie man sie dann wieder re-reguliert wird.",
-      "begin_time": "3:33.907",
-      "begin_seconds": 13687.0,
-      "end_time": "4:59.707",
-      "end_seconds": 18647.0,
-      "duration_seconds": 4960.0
+      "begin_seconds": 213.907
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also re-regulieren nicht, sondern ko-regulieren. Dein Vorschlag ist ko-regulieren, weil das ist in dieser Insta-Babel. Das stimmt, das ist ein absoluter Nina-Punkt. Nur wenn man denkt, ah, das ist ein Nina-Punkt, dann ist Nina halt schon ein bisschen weit. Also es ist mir zu alt tatsächlich. Ich weiß, wenn man das Internet öffnet oder jedem Erziehungsratgeber, da geht es ja immer darum. Deswegen auch, da haben wir ja schon ein paar Mal drüber gesprochen, wenn du das Kind anschreist, dann das sollst du nicht tun. Du sollst es ko-regulieren, weil du ja ihm beibringst. Die Emotionen nimmst du als ruhiger Elternteil auf und zeigst dem Kind, das ist okay, wie du dich fühlst. Und wir kriegen das schon wieder hin. Und deswegen auch dieses ganze Gespiegel so, okay, ich sehe, du bist sehr wütend. Und dann regulierst du auch dessen Nervensystem wieder. Und so weiter und so fort. Und ich glaube, das ist die große, du hast schon recht, das ist die große Überschrift Ko-regulation. Aber es ist für mich, ich weiß nicht, ich hab das mit einer Freundin schon vor zwei Jahren hin und her geschrieben im Sinne von, oh, schon wieder schlecht ko-reguliert oder so.",
-      "begin_time": "5:01.687",
-      "begin_seconds": 18747.0,
-      "end_time": "6:05.447",
-      "end_seconds": 22347.0,
-      "duration_seconds": 3600.0
+      "begin_seconds": 301.687
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Das Wort kannte ich noch nicht mal, da bin ich noch gar nicht. Ich bin noch beim normalen Regulieren.",
-      "begin_time": "6:05.467",
-      "begin_seconds": 22367.0,
-      "end_time": "6:09.247",
-      "end_seconds": 22387.0,
-      "duration_seconds": 20.0
+      "begin_seconds": 365.467
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Du musst ko-regulieren, aber das ist auch, glaube ich, es ist schon sehr, sehr interessant, weil das ja ein Teil von heutiger Elternschaft ist, dass du ja immer dafür da bist, ko zu regulieren. Das heißt, du musst aber selbst einfach immer reguliert sein. Du musst ja immer den Raum haben. Diese Emotionen vom Kind aufzufangen. Es geht ja eher so um das Auffangen. Also mir ist das ein Ticken zu alt.",
-      "begin_time": "6:09.787",
-      "begin_seconds": 22927.0,
-      "end_time": "6:31.687",
-      "end_seconds": 24147.0,
-      "duration_seconds": 1220.0
+      "begin_seconds": 369.787
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich will jetzt nicht spontan einen anderen Vorschlag machen, aber nur als Gedankenoffiz. Vielleicht ist auch ko ein Gegenwartswort, weil sozusagen in der Ko-Elternschaft ko regulieren wir unsere... Jetzt fällt mir kein drittes Beispiel ein.",
-      "begin_time": "6:31.827",
-      "begin_seconds": 24287.0,
-      "end_time": "6:43.447",
-      "end_seconds": 24627.0,
-      "duration_seconds": 340.0
+      "begin_seconds": 391.827
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, stimmt. Ko regulieren wir. Ja, vielleicht muss noch mal eine Runde weiter und dann nächstes Mal gibt es den Ko-Punkt. Schön, ich mach auch einen Ko-Punkt, aber nicht als Vorgestelltes, sondern es fängt auch mit Ko an und zwar Thema Bauchfett, Lars. Das kann man ja...",
-      "begin_time": "6:43.467",
-      "begin_seconds": 24647.0,
-      "end_time": "7:00.267",
-      "end_seconds": 25467.0,
-      "duration_seconds": 820.0
+      "begin_seconds": 403.467
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Das ist gefährlich. Bauchfett ist das Gefährlichste.",
-      "begin_time": "7:00.287",
-      "begin_seconds": 25487.0,
-      "end_time": "7:02.887",
-      "end_seconds": 26207.0,
-      "duration_seconds": 720.0
+      "begin_seconds": 420.287
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also ich möchte gewiss... Ich weiß nicht, wie du das handhabst, also Intervallfasten, irgendwelche schlimmen Sit-Ups, Bootcamps, weiß der Kuckuck. Ich weiß nicht, wie du es machst. Mein Vorschlag ist der Cortisolbauch. Und der Cortisolbauch ist sozusagen... Also das krieg ich immer auf Insta in die Timeline gespült. Irgendwie hab ich das Gefühl, es sind tatsächlich nur Frauen, die da ihren Cortisolbauch abtrainieren. Und da geht es darum, nicht, glaube ich, wie man es früher immer so gesagt hat, man frisst zu viel, weil man gestresst ist. Das ist es irgendwie nicht, sondern tatsächlich ist die Traumalast, die man hat, da haben wir auch schon häufig drüber gesprochen, Trauma als Gegenwartsbegriff, die setzt sich im Bauch fest. Und wenn du dann bestimmte, das heißt dann immer somatische Yoga-Übungen machst, das hat viel mit der Hüfte zu tun und so, also irgendeinen Psoas-Nerv gibts da oder sowas, dann machst du diese paar Übungen und dann kommt der Stress, also durch der Cortisol ist ja der Stresshormon, wird dann so frei, kann so fließen, also es werden da immer Frauen gezeigt, die so somatische Yoga-Übungen machen und dann können sie endlich weinen oder so. Und dann geht der Cortisolbauch von selber.",
-      "begin_time": "7:02.907",
-      "begin_seconds": 26227.0,
-      "end_time": "8:18.067",
-      "end_seconds": 29947.0,
-      "duration_seconds": 3720.0
+      "begin_seconds": 422.907
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, Entschuldigung, also ich glaube, den Gegenwartspunkt kriegst du dafür, das guckt mich alles sehr gegenwärtig an, aber verstanden hab ich es noch nicht ganz. Also am Anfang dachte ich, es geht einfach darum, mein Cortisolbauch ist Bauchfett, weil ich wegen Cortisol dauernd abends noch zwei Rittersport Knusperkeks esse, nachdem ich die Kinder ins Bett, aber das ist nicht, oder was?",
-      "begin_time": "8:18.547",
-      "begin_seconds": 30427.0,
-      "end_time": "8:37.327",
-      "end_seconds": 31347.0,
-      "duration_seconds": 920.0
+      "begin_seconds": 498.547
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nee, also jedenfalls wird mir das nicht als Heilungsnarrativ so angeboten, weil da geht es nie darum, dass du zu viel isst, sondern das Trauma selber ist das Snickers sozusagen. Also du hast dir etwas Trauma angeräuft und das wird dann gelöst dadurch, deine Emotion, und dadurch schmilzt das Fett sozusagen. Und deswegen finde ich das, den Punkt hast du mir ja eh schon gegeben, aber deswegen finde ich das so gegenwärtig, dass man sagt, also dass man es mit dem Großen verknüpft und halt natürlich mit dieser großen Hormon-Diskussion, haben wir auch schon drüber geredet, dass man alles durch Hormone erklärt. Und dass es eben nicht so, ja, es ist dieses, es muss von innen heraus geheilt werden und dann löst es sich. Weil es ist halt die Anti-Abnehm-Spritze letztlich. Es ist das Gegenwärtige, der Antipol dazu.",
-      "begin_time": "8:37.467",
-      "begin_seconds": 31487.0,
-      "end_time": "9:24.087",
-      "end_seconds": 33927.0,
-      "duration_seconds": 2440.0
+      "begin_seconds": 517.467
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja ja, Punkt kriegst du nur, ich neige immer dazu, dann wieder Gegenwart abzusprechen, wenn es mir zu doof wird.",
-      "begin_time": "9:24.427",
-      "begin_seconds": 34267.0,
-      "end_time": "9:31.067",
-      "end_seconds": 34327.0,
-      "duration_seconds": 60.0
+      "begin_seconds": 564.427
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, das stimmt, dazu neigst du, das stimmt.",
-      "begin_time": "9:31.707",
-      "begin_seconds": 34967.0,
-      "end_time": "9:33.627",
-      "end_seconds": 35007.0,
-      "duration_seconds": 40.0
+      "begin_seconds": 571.707
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber das lassen wir erstmal beiseite, weil irgendwie kippt es natürlich jetzt sehr in so eine naturwissenschaftsferne Erklärung dann am Ende. Versteh ich das richtig?",
-      "begin_time": "9:33.647",
-      "begin_seconds": 35027.0,
-      "end_time": "9:41.347",
-      "end_seconds": 35207.0,
-      "duration_seconds": 180.0
+      "begin_seconds": 573.647
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Na, ich glaube, das ist vielleicht gerade auch gegenwärtig daran, dass es auf der einen Seite so super Trauma-Esoterik ist. Aber Trauma ist ja auf der einen Seite so ein hohes...",
-      "begin_time": "9:41.367",
-      "begin_seconds": 35227.0,
-      "end_time": "9:51.327",
-      "end_seconds": 35787.0,
-      "duration_seconds": 560.0
+      "begin_seconds": 581.367
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber man benutzt das Wort Cortisol, weil das klingt irgendwie nach Biochemie, LK, versteh schon. Ja ja ja, okay, ist Gegenwart, ist Gegenwart, kriegst du. Ich hab noch was anderes, Nina. Das ist auch ein bisschen, nicht nur, aber auch ein saisonaler Punkt. Also ich mach ihn jetzt, weil wir starten ja jetzt hoffentlich mit besserem Wetter. Nee, kein Spargel, aber in den Frühling und dann in den Sommer, es wird wieder wärmer. Und ich hab, schlepp noch ein bisschen aus dem letzten Jahr mit, aber ich glaube, er ist noch haltbar, der Punkt. Schlepp noch ein bisschen mit, dass ich nochmal die Spezi hier in die Runde schmeißen will. Eigentlich die gute alte Spezi, also der Cola-Fanta-Mix, der war dann auch eine Zeit lang letztes Jahr so in den Medien, weil da gab's so eine juristische Auseinandersetzung zwischen zwei Brauereien, wo man dann gelernt hat, die Marke Spezi gehört einer kleinen bayerischen Brauerei und die verleiht die dann an andere Firmen und so. Das ist aber nicht so spannend. Ich hab eher das Gefühl, es gibt mehr, erstens Spezies. Also zum Beispiel sehe ich jetzt in meinem Edeka eine Kronbacher Spezi. Die gab's, glaube ich, vor zwei Jahren noch nicht. Also diese Marke wird weiter verliehen. Gleichzeitig aber auch grundsätzlich, also selbst wo dieses Branding nicht eingekauft wird, dass man Spezi nennen darf, ist sozusagen der Cola-Mix auf dem Vormarsch. Ich bin manchmal in einem Café, da gibt's weder Cola noch Fanta, es gibt diese ganzen Softdrinks nicht, aber es gibt einen Cola-Mix. Also das ist sozusagen so ein bisschen fast, wenn wir uns auf Zeiten zubewegen und auch in Milieus uns bewegen, wo dieses ganze Zucker, ja, das ganze Cortisol, der ganze Cortisol-Zuckerbauch ja sowieso nicht mehr stattfindet, weil alles bio ist und gesund und so, dass man eine Sache übrig lässt, so als Erinnerung. Es schnurrt zusammen, ja. Max Gold hat mal geschrieben, man muss, wenn mal Amerika verschwindet, trotzdem Las Vegas erhalten, so als Erinnerung an den komprimierten Irrsinn von Amerika. Und so bleibt die Mischung von Fanta und Cola, die bleibt dann als letztes Getränk.",
-      "begin_time": "9:51.347",
-      "begin_seconds": 35807.0,
-      "end_time": "11:36.987",
-      "end_seconds": 42747.0,
-      "duration_seconds": 6940.0
+      "begin_seconds": 591.347
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Aber Sprite halt nicht so, ne?",
-      "begin_time": "11:37.007",
-      "begin_seconds": 41827.0,
-      "end_time": "11:38.527",
-      "end_seconds": 42407.0,
-      "duration_seconds": 580.0
+      "begin_seconds": 697.007
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Sprite nicht und auch nicht Cola selber. Deswegen die Spezi als gegenwärtiges, aber auch zukünftiges Konzept, von dem wir mehr hören werden in Zukunft sogar noch.",
-      "begin_time": "11:38.547",
-      "begin_seconds": 42427.0,
-      "end_time": "11:48.987",
-      "end_seconds": 43467.0,
-      "duration_seconds": 1040.0
+      "begin_seconds": 698.547
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also ich muss da wieder auf Vertrauen umschalten, weil ich bei dir bei den Getränken, du einfach, glaub ich, die bessere Peilung hast. Ich selber würde irgendwie sagen, naja, wieso ich, also keine Ahnung, ich sehe dann eher so Mezzomix-Dosen noch irgendwie auf dem Gerüst rumstehen und denk so, ah, da hat sich nichts geändert oder sowas. Aber du hast das jetzt so schön erklärt und dieses Nostalgische finde ich ganz schön, das hat man ja auch so bei der Kindererziehung oder sowas, dass man dann so denkt so, aber das aus meiner eigenen Kindheit, diese Trash-Ecke, oder bei einem selber, so die Trash-Ecke, die muss ich jetzt echt, eine müssen wir ja erhalten.",
-      "begin_time": "11:49.007",
-      "begin_seconds": 42547.0,
-      "end_time": "12:23.207",
-      "end_seconds": 44787.0,
-      "duration_seconds": 2240.0
+      "begin_seconds": 709.007
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Was ist das bei euch? Bei uns, ich darf nicht sagen, was es bei uns ist. Hier wird massiv Knack- und Backhörnchen und so komische Zimtschnecken oder so werden hier an Feiertagen im Ofen gemacht. Wahrscheinlich das Schlechteste, wahrscheinlich Ernährungskompass Rot F- aber es sind so schöne Kindheitserinnerungen.",
-      "begin_time": "12:23.287",
-      "begin_seconds": 44867.0,
-      "end_time": "12:43.207",
-      "end_seconds": 45987.0,
-      "duration_seconds": 1120.0
+      "begin_seconds": 743.287
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich fand dieses, ja, so letztens Schokocosbrötchen am Kindergeburtstag war doch, war doch nochmal dabei. Aber darum geht's ja jetzt nicht. Darum geht's hier nicht.",
-      "begin_time": "12:43.227",
-      "begin_seconds": 46007.0,
-      "end_time": "12:52.707",
-      "end_seconds": 47027.0,
-      "duration_seconds": 1020.0
+      "begin_seconds": 763.227
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Hast du noch was?",
-      "begin_time": "12:52.727",
-      "begin_seconds": 47047.0,
-      "end_time": "12:53.287",
-      "end_seconds": 46667.0,
-      "duration_seconds": -380.0
+      "begin_seconds": 772.727
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, ich hab noch was. Und zwar gucken wir uns ja immer gerne Werbung an. Gerade wenn man mal wieder so Printprodukte konsumiert, also Zeitschriften oder Magazine, da bleib ich gerne mal bei so Anzeigen hängen, also bei Werbeanzeigen und guck mir die so ganz genau an. Und ich kann das jetzt nicht, ich muss das ja für andere erklären. Aber was mir so aufgefallen ist, ist, also ich hab zwei Anzeigen und zwar geht es darum, ich würde das Phänomen beschreiben als menschliches Antlitz der KI. Ja, also viel, das hattet ihr glaube ich auch letztes Mal festgestellt, viele Hörerinnen und Hörer schreiben uns auch Gegenwartchecks von, was ist noch, was ist KI generiert, was nicht und so. Und ich glaube, bei der Werbung sieht man halt so, es gibt ja auch so Werbung, die für alte Menschen online Banking irgendwie da dieses über dieses Misstrauen rübergehen will. Ja, und dann gibt es zum Beispiel von den Banken immer so Tutorials für Video Clips so herzlich willkommen beim Online Banking. So machen sie das. Und da sind ja immer vertrauenswürdiges, braucht immer vertrauenswürdiges Personal. Also das menschliche Antlitz dieses kühlen, potenziell bedrohlichen Begriffs Shed GPT oder Virtual Reality, was auch immer. Und da finde ich diese Trägerkörper, die Vertrauensbrücken Körper, die es da gibt. Also zum Beispiel wird hier, siehst du das? Also ich muss es beschreiben, da siehst du so einen zupackenden, jungen Mann, der weiß ich nicht, so einen drei Tage Bart Millenial mit so einer netten Akademikerbrille und so einem Jeanshemd und der hat so die Hände vorm Körper so zupackend, so geerdet verschlungen. Und daneben ihm ist so eine fit aussehende, leicht asiatisch anmutende, könnte man fast eigentlich rassistisch finden, weil sie so dieses Zukunft-Chat-GPT ist so ein bisschen, eigentlich ist es ein bisschen too much und ein bisschen unglücklich, finde ich, aber gut. Und sie hat so ein Laptop unterm Arm und das bedeutet halt so, hallo, wir kommen und erklären euch das jetzt nochmal. Also eigentlich müsste da auf der Anzeige stehen, keine Angst vor KI, da steht dann aber so Chat-GPT professionell nutzen. Was ist das? Einflussfaktoren und Grenzen. Also so ein bisschen so, wir kommen jetzt und coachen euch.",
-      "begin_time": "12:53.307",
-      "begin_seconds": 46687.0,
-      "end_time": "15:05.567",
-      "end_seconds": 54867.0,
-      "duration_seconds": 8180.0
+      "begin_seconds": 773.307
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Aber Nina, kannst du einmal kurz sagen, das ist alles total interessant, aber einmal noch ganz kurz sagen, für was ist es denn tatsächlich eine Werbung? Weißt du gar nicht.",
-      "begin_time": "15:06.467",
-      "begin_seconds": 54827.0,
-      "end_time": "15:12.847",
-      "end_seconds": 55567.0,
-      "duration_seconds": 740.0
+      "begin_seconds": 906.467
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Warte mal, ja ich muss mal gucken. Das ist Weiterbildung mit Fernhochschule. Und das andere ist Meta, Werbung für Meta. Und da ist eine Berufsschweißerin zu sehen, die auch so, wir haben ja auch viel über so Arbeitsklamotten gesprochen hier. Und die ist halt so, hat auf der einen Seite, ich weiß nicht, ob du das siehst, also sie hat die KI-Brille nach oben geschoben und gleichzeitig so eine Schweißer Schutzbrille auf der Nase. Und Handschuhe und so ein Arbeitsanzug. Und sie sagt, durch die Ausbildung in Virtual Reality kann ich die Handgriffe üben und eine Routine für das Schweißen entwickeln. Und unten steht, die Ausbildung mit der MLA-Plattform hat Shanna Ford geholfen, ihr Leben positiv zu verändern. Sie arbeitet gern als Schweißerin und kann ihre Familie versorgen. Also das Metaversum hat heute einen realen Einfluss. Also es werden diese Brückenfiguren uns vor die Nase gehalten, die sagen, ich bin Mensch. Also was gibt es zu packen da als Schweißen?",
-      "begin_time": "15:12.867",
-      "begin_seconds": 55587.0,
-      "end_time": "16:13.907",
-      "end_seconds": 59287.0,
-      "duration_seconds": 3700.0
+      "begin_seconds": 912.867
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Kriegst du den Punkt, das erste Beispiel fand ich noch nicht so gegenwärtig, so ganz spezifisch gegenwärtig, aber mit dieser Schweißerin. Also erst mal überhaupt, dass es diese Metakampagne gibt, wo immer faktenwidrig, möchte ich behaupten, gesagt wird, dass das Metaversum jetzt schon realen Einfluss hätte. Ja gut, irgendwie trivialerweise ist es immer wahr, aber ich glaube eher, dass es bald niemand mehr interessieren wird. Aber der Konzern wirbt weiter damit, das darf er ja auch machen. Aber dass sie dann auch noch Schweißerin ist und mit diesen beiden Brillen, weil das schließt auch an in so einem ganzen Diskurs. Ich glaube, es gibt so ein eher so rechtes US-Meme, dass man immer sagt, Learn Wielding heißt Schweißen, glaube ich, oder? Also Learn Wielding. Weil sozusagen die Rechten das dann gern dem Silicon Valley vorhalten, wo sie glauben, dass jetzt alle Programmierer arbeitslos werden, weil die KI, die ja auch von Rechten sehr geschätzt wird und vorangetrieben wird, die jetzt arbeitslos machen, diese Voken-Programmierer jetzt alle Schweißen lernen müssen und nicht mehr heruntergucken dürfen auf die Schweißer in Virginia, blablabla. Also das Ganze, das schnurrt da so zusammen in diesem Bild. Das finde ich toll.",
-      "begin_time": "16:13.927",
-      "begin_seconds": 59307.0,
-      "end_time": "17:17.567",
-      "end_seconds": 62787.0,
-      "duration_seconds": 3480.0
+      "begin_seconds": 973.927
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, und es ist so ein bisschen eure letzte Folge über was ist konservativ. Also da steht ja auch so, sie kann ihre Familie versorgen dadurch. Also es ist Schweißen, alte Arbeitswelt, neue Virtual Reality-Brille und die Familie versorgen. Also besser geht's eigentlich wirklich nicht, oder?",
-      "begin_time": "17:17.727",
-      "begin_seconds": 62947.0,
-      "end_time": "17:32.187",
-      "end_seconds": 63307.0,
-      "duration_seconds": 360.0
+      "begin_seconds": 1037.727
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich hab noch so viel zum Thema Schweißen zu sagen, aber wir haben herrmungslos schon wieder im Check überzogen.",
-      "begin_time": "17:33.587",
-      "begin_seconds": 63767.0,
-      "end_time": "17:37.267",
-      "end_seconds": 63687.0,
-      "duration_seconds": -80.0
+      "begin_seconds": 1053.587
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Okay, eine Kiffer-Folge, eine Schweißer-Folge bald mal. Wir müssen jetzt zum, ich find's so schön, dein Ausdruck, das Vorbeigefühl. Und ich finde, man kann das auch ausweiten übers Ende von Social Media heraus. Denn du darf ich dich mal direkt zitieren, wie einen richtig großen Autor, wie wir das hier manchmal gemacht haben. Eine Stelle von Lars jetzt mal zur Abwechslung. Und zwar, man kann nicht mit dem Thermometer messen, wann eine Party vorbei ist. Man spürt es irgendwie. Der Vibe stimmt nicht mehr, es kommt zum Spannungsabfall. Die Gespräche werden schleppend. Es dauert dann, bis alle Gäste das auch bemerken. Und es dauert noch länger, bis sie aufbrechen nach Hause. Aber da war die Party in Wirklichkeit schon längst zu Ende. So läuft es auch im Internet. Und so läuft es ja auch in Beziehungen. Oder bei einer Party, bei einer Beziehung, bei einer Freundschaft. Es könnte sogar hier im Podcast Gott bewahre so sein, dass man denkt, wir machen noch dasselbe, aber irgendwie fühlt es sich nicht mehr so an.",
-      "begin_time": "17:37.287",
-      "begin_seconds": 63707.0,
-      "end_time": "18:32.767",
-      "end_seconds": 67487.0,
-      "duration_seconds": 3780.0
+      "begin_seconds": 1057.287
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Und vor allem wollte ich, glaube ich, diese These vom Sterben der sozialen Medien einleiten mit diesem Gedanken, weil die erste Rückfrage immer wäre, aber was sagen denn die Zahlen? Ich bin ja eigentlich Zahlengläubig. Ich hab gar nichts dagegen, auf die Zahlen zu schauen. Das finde ich ganz wichtig. Wichtiger noch als anderen ist es mir. Aber man muss einmal klarmachen, dass das nicht immer die Antwort verrät. So wie eben in den Beispielen, die du genannt hast. Weil man ja auch nicht weiß genau, was man messen soll. Mein Lieblingsbeispiel dafür, und darauf gehe ich in dem Text ein, bevor ich in die Gegenwart komme, ist Facebook früher. Ich glaube schon, dass viele von uns, unserer Generation so, jetzt ganz klar sagen würden, Facebook ist uninteressant geworden. Klar, es gibt immer noch, ich bin da trotzdem noch gerne. Und ich weiß, ein netter Kollege von uns, Danilo Scholz, grüße, falls er hier diesen Podcast hört, der postet da immer noch viele Sachen als Public Intellectual. Gibt's alles noch? Aber es ist irgendwie, hm, ist es vorbei, würdest du auch sagen, oder?",
-      "begin_time": "18:32.787",
-      "begin_seconds": 67507.0,
-      "end_time": "19:31.687",
-      "end_seconds": 70947.0,
-      "duration_seconds": 3440.0
+      "begin_seconds": 1112.787
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich würde sagen, da ist irgendwie irgendeine amerikanische Austauschschülerin, die ganz unentwegt, die sozusagen noch nach der Apokalypse wird sie unentwegt irgendwie Kinderfotos hochladen, oder wenn sie irgendwie bei Disney World war. Das geht weiter. Und was du ja auch gesagt hast gerade, ich glaube, es gibt ja auch so eine Kette, dass man Vermarktung eigener Arbeit macht und sagt, guck mal, ich hab einen ganz tollen Text über, ich hab eine neue Podcastaufnahme, die ist jetzt online. Und dann machst du aber so einen Rattenschwanz und du postest das, du connectest Insta und alles nacheinander. Und du weißt, Facebook ist irgendwie noch so ein Resteeimer, wo das auch noch mal aufpoppt.",
-      "begin_time": "19:31.707",
-      "begin_seconds": 70967.0,
-      "end_time": "20:10.667",
-      "end_seconds": 73267.0,
-      "duration_seconds": 2300.0
+      "begin_seconds": 1171.707
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, jetzt will ich nicht schon so vorweggreifen. Das Problem ist auch, wenn ich heute Facebook aufmache, anders als vor drei Jahren, hat sich noch mehr verschlechtert. Darauf kommen wir, glaub ich, später zu sprechen, weil nämlich mir Danilo Scholz und diese amerikanische Austauschschülerin schon gar nicht mehr angezeigt wird. Weil dann nur noch anderer Trash mir in der Timeline angezeigt wird. Darauf kommen wir vielleicht gleich zu sprechen. Aber grundsätzlich wollte ich nur festhalten, Facebook ist für uns vorbei. Es ist aber wahnsinnig schwer, das an Zahlen festzumachen. Find mal Zahlen, die dir belegen, dass Facebook in dem Sinne vorbei ist. Da kannst du ein bisschen sagen, das Wachstum hat arg abgenommen, das wächst gar nicht mehr. Oder der Altersdurchschnitt ist zu hoch. Aber die Interaktionsraten sind natürlich weiterhin das größte soziale Netzwerk der Welt. Es interessiert nur nicht mehr. Das ist sozusagen das Vorbeigefühl. Jetzt lass mich nur ganz kurz den Bogen schlagen in die Gegenwart. Dass Facebook vorbei ist, ist ja jetzt auch für unsere Hörerinnen und Hörer nicht so interessant. Ich will nur sagen, wenn man jetzt 2024 sagt, soziale Medien insgesamt sind vorbei, dann darf man nicht sofort zurückfragen, aber wo sind die Zahlen dafür? Weil bei Facebook haben wir sie auch nicht. Vielleicht muss man sich auf dieses Gefühl verlassen, dass dieses Facebookgefühl jetzt für alle sozialen Medien so ein bisschen einschleicht. Das war sozusagen der Ausgangspunkt von meinem Text.",
-      "begin_time": "20:10.687",
-      "begin_seconds": 73287.0,
-      "end_time": "21:24.307",
-      "end_seconds": 77347.0,
-      "duration_seconds": 4060.0
+      "begin_seconds": 1210.687
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau, also ich glaube, man muss auch da vielleicht die Parallele oder kann die ruhig nehmen zu, Leute sind bestimmt oder in unserem Alter teilweise täglich noch auf Facebook vielleicht, manche oder viele. Und das ist so wie in einer Beziehung, die ausgehöhlt ist von innen. Oder du bist wegen der Kinder noch zusammen oder irgendwie weil der eine noch keine Wohnung gefunden hat und du redest kaum noch miteinander. Aber von außen, wenn man eine Kamera aufstellen würde, würde man sagen, naja, der ist da doch noch gemeldet und schläft da jede Nacht. Also das ist glaube ich so ein bisschen die Metapher hier. Und auch wenn man sagt, die Interaktion hat nicht abgenommen, weil wir wollen ja nicht über Facebook nur reden heute, das war jetzt nur das Extrembeispiel zu sagen. Selbst da kannst du es nicht wirklich beweisen. Auch wenn man sagt, Insta, würde man ja nicht sagen, okay, das ist vorbei. Aber es geht, und vielleicht können wir das gleich noch mal so ein bisschen rückabschreiten, was die Social Media Biografie bis hierhin von Anfang an ist, also wie wir hier hingekommen sind. Würde man nur vielleicht feststellen, okay, es hat nicht mehr dieser, es hat halt eine Erwartbarkeit. Man weiß, weshalb man da hingeht. Man ist recht passiv, außer man muss halt, man ist halt Influencer und muss irgendwas vermarkten. Darum geht es was. Das ist etwas schal gewordenes. Und ich muss sagen, seit ich auch deinen Text gelesen hab, und wir reden ja auch über noch ein paar andere Texte, seitdem kriege ich das nicht mehr aus dem Kopf, dass ich merke, wie schäbig ich mich dann doch dabei fühle, wenn ich dann bei Insta irgendwie des Abends noch mal aufmache. Es hat mir noch mal so ein bisschen den Finger in die Wunde gesteckt, wie schal das geworden ist doch.",
-      "begin_time": "21:24.327",
-      "begin_seconds": 77367.0,
-      "end_time": "22:59.227",
-      "end_seconds": 82967.0,
-      "duration_seconds": 5600.0
+      "begin_seconds": 1284.327
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Weil du andere Texte ansprichst. Der Economist hatte sogar eine Titelgeschichte, titelte mit The End of the Social Network. Und die hatten dann tatsächlich auch, also die hatten wahnsinnig viele Zahlen in ihrem Text, aber eine zahlte dann direkt auf die These ein, dass soziale Netzwerke an sich vorbei sind. Die kann man dann auch nennen, neben dem Gefühl. Also die schreiben, dass 2020 40 Prozent der Amerikaner noch gesagt haben, sie dokumentieren gern ihr Leben online. Und es sind jetzt nur noch 28 Prozent. Das wäre so ein Umfragebeleg dafür, dass das auch zahlengestützt ist.",
-      "begin_time": "22:59.407",
-      "begin_seconds": 83147.0,
-      "end_time": "23:31.907",
-      "end_seconds": 85567.0,
-      "duration_seconds": 2420.0
+      "begin_seconds": 1379.407
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich glaube auch Anzeigenkunden haben sich so ein bisschen, also hochqualitative Anzeigenkunden, haben sich eher so ein bisschen zurückgezogen. Oder man hat gesagt, ich glaube, wann ich gab es nicht auch eine Zahl dazu, dass gesagt wurde hier, bei Insta werden die Menschen auch nicht mehr auf politische Themen gelenkt, außer sie wünschen es explizit oder sowas. So eine Veränderung, die da ansteckt, dass man einfach sagt, dafür ist das nicht da, Leute. Es ist einfach dafür da, dass man durch einen Algorithmus immer wieder dasselbe hochgespült kriegt. Du kriegst diese kleinen Videos und da lockst du dich dann jeden Abend, guckst du dir das an und dann irgendwann kannst du nicht mehr und schaltest das aus. Aber mehr passiert da auch nicht. Darum geht es ja so ein bisschen. Das ist nicht tot in dem Sinne, aber emotional ist es gewässermaßen tot.",
-      "begin_time": "23:31.927",
-      "begin_seconds": 85587.0,
-      "end_time": "24:13.927",
-      "end_seconds": 88107.0,
-      "duration_seconds": 2520.0
+      "begin_seconds": 1411.927
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Und jetzt kann man so ein bisschen in die Analyse einsteigen, weil das ist gar nicht jetzt mein eigener Gedanke, den greift der Economist auf, den greifen auch andere Texte auf. Im Atlantic gab es einen Beitrag dazu. Und auch anderswo, wir verlinken das ja unten alles. Die These ist so ein bisschen, dass das Ende der sozialen Medien eigentlich bedeutet, dass ein bestimmtes Amalgam, eine Zusammenkunft von zwei Aspekten, die dieses heiße Social-Media-Zeitalter überhaupt ausgemacht haben, das uns alles so atemlos und irgendwie verrückt gemacht hat.",
-      "begin_time": "24:13.947",
-      "begin_seconds": 88127.0,
-      "end_time": "24:47.527",
-      "end_seconds": 89747.0,
-      "duration_seconds": 1620.0
+      "begin_seconds": 1453.947
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, so spielerisch aber auch, oder? Also so spielerisch kreativ, man irgendwie so in Wörter wie Selbstwirksamkeit oder so was, dass es anregend war.",
-      "begin_time": "24:47.547",
-      "begin_seconds": 89767.0,
-      "end_time": "24:58.407",
-      "end_seconds": 90287.0,
-      "duration_seconds": 520.0
+      "begin_seconds": 1487.547
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, für mich bleiben jetzt eher sozusagen noch die negative Exhaustion, die ich damit verbinde. Also diese Verbindung von zwei Stoffen, die dann explodiert ist, dass diese sozusagen wieder auseinanderbricht. Was sind diese beiden Stoffe, um jetzt von vorne anzufangen? Es wird dann immer so analysiert. Einerseits gibt es, man kann es am Wort festmachen, besteht Social Media aus Social und aus Media. Social heißt, ich kann mich mit anderen Leuten in Verbindung setzen im sozialen Nahumfeld. Erstmal nur. Und jetzt, das ist auch dein Punkt, wir wollen ja so ein bisschen in die Geschichte unseres Internets gucken. Da wird auch mal gesagt, so fing es ja eigentlich mal an. Also so fing es mal an, dass wir irgendwie, es gilt jetzt wirklich für unsere Kohorte sehr spezifisch, ja aber viele Hörerinnen und Hörer werden da sicher connecten können, kamen aus der Schule noch nach Hause. Es war noch so Modem-Internet oder vielleicht gerade dann irgendwie, dass das losging mit Flatrate oder DSL an diesem Kipppunkt. Und man hatte so...",
-      "begin_time": "24:58.427",
-      "begin_seconds": 90307.0,
-      "end_time": "25:54.307",
-      "end_seconds": 93547.0,
-      "duration_seconds": 3240.0
+      "begin_seconds": 1498.427
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Wir machen eine zweisekündige Pause, damit alle älteren Millennials nochmal dieses Geräusch, dieses Modem-Einwahl-Geräusch sich nochmal vergegenwärtigen können. Augen zu, denkt nochmal daran zurück. Vielleicht wirkt es sogar beruhigend jetzt aus heutiger Sicht. Es gab überhaupt ein Einloggen. Du schreibst es ja. Da kam man von der Schule nach Hause, warf den Eastpac-Rucksack in die Ecke und schaltete im Kinderzimmer den PC ein. Dort waren die Freunde, von denen man sich eben verabschiedet hatte. Genau dasselbe schreibt der Mensch aus dem Atlantik auch. Da geht es um AIM, also so ein Chatdienst, in dem man sich dann einloggte. Und das waren die Menschen, die man in der Schule jeden Tag gesehen hat. Oder eben gerade erst in der analogen Welt. Und zack, kopierte man sich ins Internet. Und hatte diesen Social Aspekt damit komplett abgedeckt.",
-      "begin_time": "25:54.327",
-      "begin_seconds": 93567.0,
-      "end_time": "26:47.787",
-      "end_seconds": 97207.0,
-      "duration_seconds": 3640.0
+      "begin_seconds": 1554.327
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, das ist der Social Aspekt. Lass uns mit dem Media gerade mal außen vor was damit gemeint ist. Erstmal bleiben wir bei diesem Social Aspekt. Das waren die Schulfreunde, die jetzt digital verdoppelt waren. Du hast schon einen Messenger genannt, AIM. Also A-I-M. Das war der von AOL. Was für mich noch viel wichtiger war, war der Messenger-Dienst ICQ. Von einem israelischen Unternehmen damals, der frühe Pioniere von Instant Messaging, wie das hieß. Da will ich nur kurz verweisen, können wir unten verlinken. Es gibt einen Podcast, der heißt HDGDL. Und der ist so ein bisschen so eine Art allgemeine Biografie von Millennials, die rückblickend auf ihre Phänomene gucken. Die haben eine Folge über ICQ gemacht, weil das glaube ich schon alle von uns dieses Logo, diese Blume und die Geräusche davon, da werden sofort Erinnerungen wach. Das habe ich sehr viel benutzt damals. Und es diente eben primär dazu, sich mit den Leuten zu vernetzen, die man schon kannte. Oder so wird es dann in manchen Texten ausgeführt, ob jetzt ICQ oder was anderes, oder auch Facebook am Anfang. Die Idee war ja, ich kann dann, kontinuierlich später bei Facebook, eine Geburtstagsparty mit Leuten, die ich aber in echt kannte von der Uni, einfach besser organisieren. Es diente aber sozusagen dem analogen Leben als Hilfsmittel. So, das war der eigentliche Zweck von Social in Social Media.",
-      "begin_time": "26:47.987",
-      "begin_seconds": 97407.0,
-      "end_time": "28:00.767",
-      "end_seconds": 101567.0,
-      "duration_seconds": 4160.0
+      "begin_seconds": 1607.987
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau, das war die Abbildung des realen Lebens. Und dann gab es manchmal so lustige, oh, das ist auch ein Fenster in die Welt. Also zum einen dieses mit irgendwelchen amerikanischen Austauschschülerinnen oder die waren dann in Deutschland. Und dann konnte man die Beziehung weiterführen. Und musste dafür irgendwie keinen Brief schreiben oder so. Oder man konnte sich so einmal in dieses völlige, in den internationalen Kosmos sich einwählen. Also das war bei mir so eine Erinnerung, sowohl von unserem, wie hieß das damals noch, Computerlehrer oder sowas, der dann gesagt hat, komm wir schreiben jetzt mal die Schule auf Hawaii an und mal gucken, ob sie antwortet. Und dann hat sie geantwortet und das war dann total verrückt. Genauso wie man sich in diesem AOL-Chat ja einfach in irgendwelche, ja dann konntest du mit Leuten aus Florida chatten. Es hatte auch klassisch, glaube ich, was Amerikanisches, dass man dann so gemerkt hat, oh man kann über diesen großen Teich, man ist die ganze Zeit mit seinen Freunden von der Schule zusammen, aber man kann ab und zu diese virtuellen Ausflüge unternehmen. Diesen Moment gab es dann doch noch.",
-      "begin_time": "28:01.007",
-      "begin_seconds": 100867.0,
-      "end_time": "29:02.847",
-      "end_seconds": 105367.0,
-      "duration_seconds": 4500.0
+      "begin_seconds": 1681.007
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, aber wir erzählen das jetzt nicht einfach als Selbstzweck und zur Nostalgie, sondern weil eben die These ist, die viele vertreten, dass diese Logik, die eben sich auf das soziale Nahumfeld beschränkt, auf begrenzte Reichweite, auf Leute, die man vielleicht wirklich kennt, dass die zurückkehrt, dass Leute es wieder danach sehen und dass sich das auch darin spiegelt, was zumindest eine Avantgarde wieder nutzt für Apps. Und ein Beispiel dafür, finde ich, ist BeReal. Erst mal ist ja der Claim to Fame, dieser App BeReal, die übrigens ganz oft vorgeschlagen wurde als Gegenwartphänomen von zwei Jahren oder so, oder vor einem Jahr, als das so groß wurde. Wir haben es dann nie besprochen. Aber erst mal ist der Claim to Fame ein bisschen anderer, weil er sagt, er ist das Gegenteil zur Optik von Instagram, wo gestellte Fotos gemacht werden. Und bei BeReal, durch die, muss ich, glaube ich, unseren Hörern gar nicht mehr erklären, dadurch, dass die App sich genau einmal am Tag meldet und dann zu einem Zeitpunkt, den man nicht kontrollieren kann, und dann genau will, dass ich das fotografiere, wo ich zufällig gerade bin, soll eben Authentizität hergestellt werden. Aber fast wichtiger, finde ich, ist, dass BeReal, der Werbespruch ist irgendwie Your Friends for Real, oder so, glaube ich, also das Friends steht auch im Vordergrund, meistens so benutzt wird, dass die Leute, das hat natürlich mit der Authentizität zu tun, eben da nur so mit ihren 30 wirklich engeren Bekannten und Freunden zu tun haben und nicht mit der halben Welt, wie auf Twitter und mit 50.000 Followern oder potenziell allen Menschen, die auf Twitter sind, auch nicht wie auf Facebook, wo dann am Ende jeder 5.000 Freunde hatte, oder dann hatte Facebook ja auch die Funktion, dass man Follower freischalten konnte, dann war es auch wieder unbegrenzt und alle konnten es sehen. Also es wird wieder sozusagen enger zusammengerückt und diese ICQ-Haftigkeit spielt wieder mehr eine Rolle.",
-      "begin_time": "29:02.867",
-      "begin_seconds": 105387.0,
-      "end_time": "30:44.967",
-      "end_seconds": 111607.0,
-      "duration_seconds": 6220.0
+      "begin_seconds": 1742.867
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Genau, ich glaube, da kann man auch einmal auf diesem Wort der Freundschaft verharren, weil das ja auch so ein klassisch kulturpessimistischer Freundschaft wird hier ausgehöhlt, wurde dann ja gejammert, als Facebook größer geworden ist. Ist das überhaupt eine Freundschaft und so was? Und wenn man jetzt auch nochmal über das Wort nachdenkt, Freunde, ist es ja die Kopie, der Social Aspekt an Social Media, der einstige ist ja von begeisterten Friends, also der Serie Friends, dass das zusammentrifft, dass man das damals geguckt hat und sich dann mit den eigenen Freunden und sich dann noch bei Facebook als Freunde befreundet hat, obwohl man natürlich eh Freunde war. Das ist schon irgendwie die kuschelige Freunde-Welt, die es damals gab. Und dass die jetzt wieder aufnehmen, dass man sagt, das gibt es da eh nicht mehr, jetzt haben wir ein neues Sammelbecken dafür. Und was ich ganz lustigerweise auch noch so eine Querbeobachtung, dass ich letztens so ein Kinderbuch vorgelesen habe über Menschen in der Steinzeit. Und da ging es darum, es gibt immer diese Gruppen und die waren so 20 bis 30 Menschen. Also das wäre so eine natürliche Gruppe, in der man sich damals dann so als Höhlenmensch, und wir wissen ja, dass Höhlenmensch immer eine gute Referenz sind für alle Gegenwartskurse. Und dass ich da dann plötzlich an unser Thema denken musste und dachte, ah, okay, vielleicht landet man immer wieder auf dieser Zahl, der nicht Kernfamilie oder des besten Freundes, Freundin nur, sondern das ist wirklich so eine, ja, wie so eine anthropologische Konstante ist, die man dann eben jetzt wieder dort abgebildet sehen möchte. Bei Be Real zum Beispiel.",
-      "begin_time": "30:45.227",
-      "begin_seconds": 110927.0,
-      "end_time": "32:22.787",
-      "end_seconds": 117307.0,
-      "duration_seconds": 6380.0
+      "begin_seconds": 1845.227
     },
     {
       "speaker": "SPEAKER_1",
       "text": "So, jetzt ist dieser soziale Teil einmal erklärt und seine Rückkehr, warum dieser Aspekt sozusagen zurückkommt. Aber wie ich schon angedeutet hab, zwischendurch war das Soziale ja eben mit dem Media verknüpft. Und das entfaltete erst die ganze Power und auch den ganzen Horror des sozialen Medien, den wir noch nicht so kannten, als wir nur bei ICQ waren. Und das hat damit zu tun, dass dann plötzlich irgendwann Leute entdeckt haben, ich kann nicht nur eine Geburtstagsparty digital planen, und das geht einfacher, und mal mit dem Austauschschüler länger in Kontakt bleiben, sondern eigentlich habe ich ja plötzlich die ganze Welt als Bühne. Und alle anderen Milliarden Internetnutzer könnten ja theoretisch, mir folgen und meinen Content sehen. Und das war der Moment, ich würde einfach mal behaupten, der kam ein bisschen später. Klar, man hat das Internet immer damit in Verbindung gebracht, aber dass das wirklich einsickerte, die breite Masse der Internetnutzer, das kam dann erst nach der ICQ-Zeit. Und also in diesem Atlantic-Artikel, den wir verlinken, schreibt der Medienwissenschaftler Ian Bogost, denke ich, spricht er sich aus, den schönen Satz, plötzlich hielten sich mehrere Milliarden Menschen für Prominente, für Experten, für Trendsetter. Das war sozusagen die zweite Verführungskraft. Und dieses Prinzip koppelte sich eben mit dem Sozialen und führte erst dazu, dass das Ganze so explodiert ist. Übrigens, lustig, in einem anderen Text schreibt dieser Bogost auch, weil du gesagt hast, man kann uns mit so und so vielen Leuten befreundet sein, alles andere übersteigt unser Steinzeitgehirn oder so. Er schreibt, er vertritt die andere These, we are not meant to talk that much. Also eigentlich, dass wir so viel miteinander kommunizieren, den ganzen Tag, das ist eigentlich nicht für uns richtig gemacht. Und wir müssen uns wieder gesund schrumpfen auf ein niedriges Kommunikationsmaß.",
-      "begin_time": "32:22.807",
-      "begin_seconds": 117327.0,
-      "end_time": "34:05.227",
-      "end_seconds": 122927.0,
-      "duration_seconds": 5600.0
+      "begin_seconds": 1942.807
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Weißt du noch, was sein Argument ist? Einfach dann, also wenn man jetzt hat, ist es eine Säbelzahntiger, kommt der dann vorbei? Oder sind wir dann leer?",
-      "begin_time": "34:05.247",
-      "begin_seconds": 122947.0,
-      "end_time": "34:14.287",
-      "end_seconds": 123527.0,
-      "duration_seconds": 580.0
+      "begin_seconds": 2045.247
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Er argumentiert nicht so vulgär evolutionspsychologisch, sondern ich glaube, er argumentiert nur daher, dass das so, wie es jetzt ist, ja auch nicht gut funktioniert und irgendwas daran muss verkehrt sein. Jetzt ist nur die Frage, also das müssen wir glaube ich nicht mehr erklären, was das heißt, dass es im Internet dann Influencer gab und Prominente und jeder auf Instagram, Instagram ist ja das prototypische Plattform dafür. Und Twitter, das waren vielleicht die prototypischen, nicht so sehr Facebook, die dieses, ich kann eigentlich die ganze Welt erreichen mit meiner politischen Meinung oder meinen Selfies oder so. So, das kennen wir ja alles. Jetzt ist nur das Ding, was ist daraus geworden? Das ist nicht verschwunden. Wie gesagt, das ist nur auseinandergebrochen. Die eine Bewegung geht hin zu Be Real oder zu einer geschlossenen WhatsApp-Gruppe oder whatever. Die andere Bewegung geht hin zu sowas wie TikTok oder der TikTok-ifizierung aller anderen Netzwerke, die ja davon kopieren. Weil immer, wenn man sagt, Social Media stirbt irgendwie, ist natürlich der offensichtliche Gegeneinwand, naja, aber TikTok ist so groß wie nie, alle reden über TikTok, TikTok hat so viel Einfluss, jeden Tag fünf neue TikTok-Trends. Zu den Trends muss ich gleich noch was sagen. Neue TikTok-Trends, das zeigt doch, Social Media ist sozusagen größer denn je.",
-      "begin_time": "34:14.307",
-      "begin_seconds": 123547.0,
-      "end_time": "35:22.407",
-      "end_seconds": 127727.0,
-      "duration_seconds": 4180.0
+      "begin_seconds": 2054.307
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Lebendig wie nie.",
-      "begin_time": "35:22.427",
-      "begin_seconds": 127747.0,
-      "end_time": "35:23.447",
-      "end_seconds": 127827.0,
-      "duration_seconds": 80.0
+      "begin_seconds": 2122.427
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Lebendig wie nie. Nur die These wäre jetzt, das TikTok-Teil ist gar nicht mehr Social Media, es ist nur der Media-Teil, der sozusagen sich abgesplittert hat. Und das funktioniert jetzt so ein bisschen wie eigentlich so eine Cast, um mit der Millennial-Referenz zu bleiben, so eine Castingshow auf RTL 2. Klar, jeder kann sich da bewerben. In dem Sinne ist es weiter die neue digitale Welt, weil es gibt keine Gatekeeper mehr. Es gibt nicht mehr die Feuilletonisten, die sagen, das ist gut, und der darf in den Verlag, und der kriegt ein Buch, und der nicht. Sondern jeder kann einfach sich bemühen, um da groß zu werden. Klammer auf, es gibt natürlich schon Gatekeeper, nämlich die chinesischen Zensurbehörden, die im Zweifelsfall entscheiden dürfen, ob du dadurch kommst oder nicht. Aber das ist sozusagen weiter, wirkt so hierarchielos und gatekeeperlos. Aber es gibt nicht mehr einen dauernden Austausch. Du trittst auf TikTok schon entweder eben als Producer, als Content-Creator auf, oder du konsumierst halt stumpf abends immer ein Video nach dem anderen. Aber du kommst gar nicht mehr auf die Idee, zu sagen, ich antworte da auch mit einem Video, weil ja Video auch schon so aufwendig wäre und so. Die Rollen sind wieder getrennt, das will ich sagen.",
-      "begin_time": "35:23.467",
-      "begin_seconds": 127847.0,
-      "end_time": "36:27.647",
-      "end_seconds": 131867.0,
-      "duration_seconds": 4020.0
+      "begin_seconds": 2123.467
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Und vielleicht kann man auch so sagen, wenn man jetzt noch einmal dabei hängen bleibt, wenn man sagt, man hatte also in diesem psychologischeren Begriffen der Selbstwirksamkeit, man hatte das Gefühl, man kann teilhaben versus jetzt setze ich mich das, was ich meinte. Mein Gefühl ist so schal. Also ich setze mich da irgendwie abends hin, mach das auf, konsumiere bis, das ist ja eine Parallele bei dir, ist es glaube ich in deinem Text, bis man sich stumpf gesehen hat. Und in dem anderen Text, dem amerikanischen ist es so dieses, man snackt so viel, bis einem irgendwann schlecht wird und dann legt man das Gerät beiseite und taumelt ins Bett. Das ist ja ein vorhersehbarer, passiver Zustand. Und auch von der Sender- und Senderinnen-Seite ist es halt so, ich glaube, dieser Influencer-Moment. Es gibt das eine, dass du das Gefühl hattest, wow, ich hab eine Bühne, andere sehen mich. Vielleicht kann man das auch noch einmal darauf hinweisen, dass es ja auch ein politischer Moment war. Es gibt ja auch die These, das Internet ist weiblich. Oder die Frauen haben das Internet so groß gemacht. Nicht das Silicon Valley, das männliche, mit dem Marc in seinen Schlappen und seinem T-Shirt. Die Frauen haben das genutzt aus der Unsichtbarkeit von, also Stichwort Momfluencerin, oder sich zusammenzuschließen als Gruppe, die sonst unsichtbar zu Hause gewesen wäre. Das ist ein großer Empowermentschritt gewesen. Das ist natürlich auch noch so, egal welche Krankheit du eingibst, welchen Makel letztlich. Ob du eine körperliche Behinderung hast, ob du nicht dem Body Mass Index, dem Standard entsprichst. Für alles wirst du eine Bubble finden. Das war ein wichtiger Schritt in dieser Social Media Biografie. Aber auch da gibt es eine leichte Vorhersehbarkeit, dass man einfach weiß, die Rollen sind wieder klar verteilt. Ich weiß, es gibt diese Bubble, aber der Traum davon, dass sich jetzt alle Welt für diese Bubble interessieren würde, der ist für mich nicht mehr da. Man kann da so reingucken und wieder rausgehen, weil es betrifft eigentlich der Algorithmus, der merkt, das interessiert mich nicht. Und mit dem Wort des Influencers und der Influencerin ist auch das entzaubert worden, dass man weiß, naja, die spulen da jeden Tag ihr Programm ab. Da gibt es irgendwie Coaches für, die den Leuten sagen, wenn du Mom-Fluencerin bist, dann ist es gut, wenn du so und so viele Postings am Tag machst und mal so und so in die Kamera guckst. Und man weiß, es ist sozusagen alles, es gibt den Algorithmus, der das berechnet, aber es gibt auch einfach das Geschäft, in Anführungsstrichen, dahinter. Und genauso wie, also der Deal ist klar, es gibt das Geschäft, die Professionalisierung. Und man weiß sozusagen schon, auch die Influencerin hat manchmal eigentlich gar keinen Bock auf dieses Insta-Video, aber sie muss es halt machen, weil sie ist halt Influencerin. Der Deal ist klar, das meine ich mit diesem Schalen. Und man selber als Konsument denkt so, boah, eigentlich weiß ich, das ist jetzt nicht gut für mein Gehirn und eigentlich weiß ich auch, was mich da erwartet, aber irgendwie findet meine Hand wieder das Handy. Also, dieses leicht runtergerockte, das würde ich schon sagen, das kannst du wie gesagt nicht tracken, weil du siehst, aha, der Sender ist da, der Empfänger ist da, wo ist hier das Ende von Social Media? Aber fühlen tut man's.",
-      "begin_time": "36:27.667",
-      "begin_seconds": 131887.0,
-      "end_time": "39:52.207",
-      "end_seconds": 143727.0,
-      "duration_seconds": 11840.0
+      "begin_seconds": 2187.667
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ich will noch einen sehr naheliegenden Einwand, vielleicht nicht entkräften, aber vorwegnehmen, zumindest erst mal. Jetzt ist es ja so, wir sprechen ja aus einer Generationenperspektive und sind jetzt eben nicht mehr 19 und auch nicht mehr 25. Und gewisserweise kann man schon sagen, so wie Popmusik, Mode und weiß ich nicht was, ist auch Internet irgendwie was für junge Leute. Oder Social Media ist eine Art Primär für junge Leute. Und die könnten natürlich jetzt denken, ja gut, dass jetzt Lars nicht mehr versteht, wie vibrierend TikTok ist. Das ist ungefähr so gehalten, wie dass Lars sagt, ja, also ich bin jetzt fast 40 und irgendwie glaube ich, Popmusik ist vorbei. So, ja, aha. Surprise, dass du das jetzt denkst. Ja, dann würde ich sagen, ja und aber auch nein. Das stimmt natürlich.",
-      "begin_time": "39:52.227",
-      "begin_seconds": 143747.0,
-      "end_time": "40:44.647",
-      "end_seconds": 147287.0,
-      "duration_seconds": 3540.0
+      "begin_seconds": 2392.227
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Bestimmt. New York Times hat auch einer geschrieben hier. Max Reed geschrieben. Perhaps millennials have simply aged out of the Internet. Also man kann auch sagen und natürlich bin ich da jetzt ja auch nicht die 19-jährige TikTok-Userin. Vielleicht müssen wir es irgendwie politisch neutraler sagen. Wir sagen nicht, es ist nicht mehr lebendig, ja, sondern es ist sozusagen das, was es mal war. Also vielleicht kann man es technischer beschreiben, so wie du es ja getan hast, Social Media, das ist es nicht mehr, ja. Also wir sind bei, weil TikTok ist ja also die Verschnipselung der ganzen Sache. Man kann natürlich auch sagen, gut, es ist eine Befreiung, dass es jetzt verschnipselter ist. Und das ist nur ein Zwischenstadium zu etwas ganz Grandiosem, ja. Und es ist hoch kreativ oder sowas. Kann man sagen, aber man kann schon einfach glaube ich, so kann man sagen, dieses Übersättigungsgefühl gibt es objektiv jenseits davon, dass wir 40 sind.",
-      "begin_time": "40:44.867",
-      "begin_seconds": 147507.0,
-      "end_time": "41:40.867",
-      "end_seconds": 150867.0,
-      "duration_seconds": 3360.0
+      "begin_seconds": 2444.867
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, also ich will schon nicht nur sagen, dass es auseinandergebrochen ist und sozusagen definitorisch Social Media vorbei ist, weil ich sage, TikTok ist kein Social Media mehr in diesem definitorischen Sinne. Das ist es an der einen Seite. Aber ich würde schon mich versteigen zu der These, dass das, was TikTok macht, nicht auf Dauer diese explosive Kraft, die sozusagen die ganze, die Privatalltag von so vielen Menschen komplett über den Haufen wirft, das wird es nicht schaffen. Es ist natürlich was, wo wahnsinnig viel Handyzeit reingehen wird. Aber diese revolutionäre, umgestaltende Kraft von diesem Amalgam, was es mal gab, wäre jetzt meine gewagte These, wird sich nicht bei TikTok irgendwie zeigen. Und wir sind ja Föltonisten oder machen sogar einen Gegenwartspodcast. Das bedeutet, dreimal am Tag hören wir von einem neuen TikTok-Trend. Auf TikTok gibt es jetzt Mobwife, Aesthetic, interessant auch immer. Manchmal ist es ein Vibe, manchmal nennt man es Aesthetic. Da gibt es jetzt die Treadwife Aesthetic, oder das ist dann eher ein Vibe, oder was auch immer. Da haben wir darüber gesprochen, hier gibt es dies, jenes. Und das wird ja dafür sprechen, dass da immer noch Vibration und Energie ist, wenn es so Trendsetting ist. Und da gab es einen schönen Text bei, ich glaube, Vox, verlinken wir auch unten, also dieser amerikanischen Plattform Vox, über TikTok Trendbaiting. Und das beschrieb auch sozusagen ein analoges Gefühl, auf TikTok versuchen dauernd Leute, so Begriffe, das ist ja dein Lieblingsthema, heute versucht jeder, für alles einen Begriff zu erfinden. Also wenn ich mich so fühle, dass mir der Schlüssel runterfällt, und dann bin ich genervt, weil ich nicht weiß, wo die Milch, das ist Milch-Keying oder so.",
-      "begin_time": "41:40.887",
-      "begin_seconds": 150887.0,
-      "end_time": "43:15.627",
-      "end_seconds": 156327.0,
-      "duration_seconds": 5440.0
+      "begin_seconds": 2500.887
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nee, warte, emotional globalization habe ich letztens, dass wenn du dich über den runtergefallenen Schlüssel aufregst, dass das dir dich den ganzen Tag, also globalization-mäßig verhagelt.",
-      "begin_time": "43:15.627",
-      "begin_seconds": 156327.0,
-      "end_time": "43:27.407",
-      "end_seconds": 156827.0,
-      "duration_seconds": 500.0
+      "begin_seconds": 2595.627
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Genau, genau. Und die verfangen natürlich auch teilweise die Begriffe, aber das ist ja auch Thema in diesem Podcast manchmal. Gleichzeitig merkt man, dass es eigentlich zu viele sind und sie sozusagen ja auch schal wirken. Weil jeden Tag versuchen eben TikTok-Leute, darum dreht sich dieser Vox-Text, neue Begriffe zu prägen. Und selbst die, die mal aufgegriffen werden, haben eine kurze Halbwertszeit und schnell merkt man eigentlich, die sagen mir doch nicht wirklich was über mein Leben. Und dieser Trend war, also es ist eigentlich der Trend weg vom Trend. Dieser Trend war eigentlich gar keiner. Er wurde sozusagen nur herbeigetiktockt, um da irgendwie Content zu haben. Und das alles, finde ich schon, jenseits davon, dass ich bald 40 werde, spricht so ein bisschen gegen die kulturelle Bedeutung von TikTok.",
-      "begin_time": "43:27.527",
-      "begin_seconds": 156947.0,
-      "end_time": "44:08.847",
-      "end_seconds": 159727.0,
-      "duration_seconds": 2780.0
+      "begin_seconds": 2607.527
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Man kann ja auch sagen, es ist ja eigentlich rührend fast, dass es eine millenniale, ja, eine Digital-Nostalgie gibt, ja. Das ist so eine, also man schämt sich ja so ein bisschen oder denkt so, oh ja, Facebook hat jetzt sowas Schales, aber es gibt diese Digital, könnte man fast als Gegenwart-Check machen, diese Digital-Nostalgie hin zu den guten alten Zeiten, als man sich noch nach der Schule im Facebook-Chat getroffen hat oder sowas. Da würde ich sagen, das Wichtige ist diese Funktionalisierung, also dass man das nicht mehr den Instagramern abnimmt, dass sie authentisch sind, dass es längst klar ist. Und das ist ja auch für Leute, die oder die Gen Z, die später eingestiegen ist. Diese Entzauberung, mit der sind die ja schon eingestiegen, würde ich jetzt einfach mal unterstellen, ja. Oder auch mit digitalen Detoxen, wenn wir jetzt vielleicht auch mal über die eben reden, ja. Was macht das alles mit unserem Gehirn? Was haben diese Jahrzehnte mit unserem Gehirn gemacht? Und die, die neu da reinstarten, die wissen ja schon, also das ist ein Suchthema auch, ja. Also es gibt eine digitale Präsenz oder sich da in Scrollen zu begeben, hat immer auch etwas Toxisches. Allein von der Handlung her und was es mit unserem Gehirn macht. Also während wir noch sagen können, ja, wir haben uns, das ist ja fast eine Analogie zu dem, was wir vorhin gesagt haben, wir konnten uns die Schokoküsse noch reinballern und nicht darüber nachdenken, wie viel Zucker da drin war und die Spezies. Heute bist du ja schon in diesem Gesundheitsframing schon so drin und kannst da nicht mehr so naiv rein gehen. Und die Frage ist, wenn wir jetzt davon ausgehen, ja gut, es gibt für die Millennials, gibt es diese Ernüchterung und die Übersättigung und auch für die, die neu dazukommen, deren Gehirne platzen auch irgendwann, wenn der Algorithmus sie jeden Tag voll spült. Ja, Lars, was nun? Der Zerfall ist vollendet oder ein gewisser Status Quo, wo die Spielregeln sehr klar sind. Der Algorithmus spült dir was davor, du bist passiv. Es gibt die Influencer-Punkt. Und dann gibt es noch den Schnipselreichtum. Ist dann diese Be Real-Ecke, würdest du sagen, das ist ein Ausgang oder eine Weiterentwicklung? Oder hat das immer was Atmendes? Wir gehen immer in den Exzess und dann gehen wir in den engen Steinzeitfreundeskreis wieder. Wird das jetzt für immer so weitergehen? Das glaube ich eigentlich nicht.",
-      "begin_time": "44:08.867",
-      "begin_seconds": 159747.0,
-      "end_time": "46:27.307",
-      "end_seconds": 167527.0,
-      "duration_seconds": 7780.0
+      "begin_seconds": 2648.867
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Auf jeden Fall, das hatte ich am Anfang gesagt. Auf jeden Fall will ich unbedingt jetzt nochmal drüber sprechen. Wenn man jetzt sozusagen zurückgeblickt, darüber sprechen. What next? Was könnte denn jetzt eigentlich passieren? Und nochmal, das habe ich zwar schon gesagt. Mir macht das, das muss ich nochmal unterstreichen, natürlich erstmal Hoffnung, wenn ich höre, Social Media stirbt. Also da fange ich dann an fröhlich zu singen, Ding Dong, die Hexe ist tot. Und wir sind endlich frei, weil dieser irre, vielleicht mit Hexe wirklich eine gute Metapher, weil dieser irre Zauber, von dem ich so gefangen war, der ist irgendwie verschwunden. Ich bin von dem Bannfluch befreit. Gleichzeitig muss man auch dazu sagen, ich weiß aber, da gilt der alte Jerry Seinfeld-Satz, breaking up is like knocking over a cook machine. You have to go back and forth a bit.",
-      "begin_time": "46:27.327",
-      "begin_seconds": 167547.0,
-      "end_time": "47:09.827",
-      "end_seconds": 170567.0,
-      "duration_seconds": 3020.0
+      "begin_seconds": 2787.327
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nochmal? Küchenmaschine, Trennung?",
-      "begin_time": "47:11.127",
-      "begin_seconds": 169987.0,
-      "end_time": "47:14.327",
-      "end_seconds": 170367.0,
-      "duration_seconds": 380.0
+      "begin_seconds": 2831.127
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Nein, Kohleautomaten. So einen großen Kohleautomaten willst du umschmeißen. Das ist wie sich trennen. Du kannst nicht in einem, das geht nicht, du kannst ihn nicht so umschmeißen, du musst ihn so vor und zurück und ihn zum Wackeln bringen. Then it goes over. So ist es mit Social Media. Es wird lange dauern, es ist ein langer Kampf, bis wir dann wirklich da nicht mehr sind. Viele Trennungen aneinander. Aber was kommt denn danach? Und da hab ich einerseits Hoffnung. Dann aber denke ich an diesen tollen Buchtitel von der marxistischen intellektuellen Mackenzie Walk, die hat dieses Buch geschrieben, Capital is dead, is this something worse? Also die These war, der Kapitalismus ist eigentlich vorbei. Darauf haben wir uns als Marxisten immer gefreut. Aber ist es eigentlich nicht was Schlimmeres, was jetzt an seine Stelle getreten ist? Technofeudalismus oder so wär's dann bei ihr. Da könnte man auch fragen, also Social Media is dead, is this something worse? Und TikTok sieht manchmal für mich sogar aus, wie something worse, ja, wenn das jetzt sozusagen das Leitbild bleibt. Aber gleichzeitig gibt es auch andere Sachen, die vielleicht Hoffnung machen. Du redest nämlich immer jetzt von, du hast ja immer gesagt, Micro-Learning ist die Alternative.",
-      "begin_time": "47:14.347",
-      "begin_seconds": 170387.0,
-      "end_time": "48:21.467",
-      "end_seconds": 174527.0,
-      "duration_seconds": 4140.0
+      "begin_seconds": 2834.347
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Also ich finde es interessant, wenn du jetzt sagst, okay, Social Media is dead, juhu, so, dann würde ich ja sagen, oder wenn man diese große Maschine umkippen muss, dann geht es ja schon darum, dass alles daran, wenn wir jetzt nochmal über Gehirne reden und sagen, was hat das mit unserem Geisteszustand gemacht, da glaube ich, gibt es, egal wie lange man jetzt schon dabei ist und egal wie toll TikTok ist, es kann ja auch sein, dass das irgendwie eine coole, lustige Konfetti-Welt ist, die noch neu dazugekommen ist und manchmal sogar irgendwas Politisches auswirft, aber die Art, wie man es kommuniziert, ist darauf angelegt, dass du so lang wie möglich dabei bleibst und dass es dir schwerfällt, wieder rauszugehen und dass du eigentlich bleiben sollst, bis du übersättigt bist oder bis dir irgendwie schwindelig wird. Und da habe ich schon das Gefühl, da gehen wir jetzt so in Richtung, wir hatten ja schon die News-Avoidance-Folge oder es gibt ja Accounts, die praktisch in Social Media dir sagen, Achtung, bist du wieder am Doom-Scrollen, also knallst du dir wieder nur negative Nachrichten rein oder vergeudest du, Achtung, vergeudest du hier gerade deine Lebenszeit und deine Aufmerksamkeitsspanne beim Scrollen. Mach das jetzt bitte aus, trink ein Glas Wasser, geh vor die Tür. Und ich glaube, dass diese Suchbewegung oder dieses Wie kann man detoxen und die Zeit, die man, und da kam das Stichwort Micro-Learning, weil mir das immer vorgeschlagen wird oder ich das Gefühl habe, dass das vielleicht etwas wäre, ob es jetzt analog ist oder nicht. Ja, also auch der Erfolg von Podcasts ist für mich eigentlich in dieser Digitalbiografie, würde ich sagen, na man hat sich schon daran gewöhnt, dass man jede freie Sekunde immer aufs Handy glotzt, so Podcast hören und dass man damit auch zwei Dinge gleichzeitig macht. Man ist in seinem physischen Körper, aber man scrollt eben auch noch virtuell herum. Und der Podcast ist für mich schon ein Versöhnungsschritt, vielleicht sogar auch schon ein Social-Media-Aussteiger-Schritt, dass man sagt, man hat das Leben als Körper oder man geht joggen, aber man hört dabei etwas und entweder man lässt sich davon unterhalten oder man lernt etwas. Man hat diese Audio-Hubben für die Zeit an der Bushaltestelle, wo man sonst dumm durchs Facebook, durchs tote Facebook gescrollt hätte oder Twitter oder was auch immer. Und die benutzt man. Micro-Learning wäre jetzt, so wird es einem verkauft, als, naja, du kannst auch in der Zeit übrigens, was weiß ich, 15 neue Vokabeln lernen, du kannst dir...",
-      "begin_time": "48:21.807",
-      "begin_seconds": 174867.0,
-      "end_time": "50:53.847",
-      "end_seconds": 184027.0,
-      "duration_seconds": 9160.0
+      "begin_seconds": 2901.807
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Also so Duolingo wäre jetzt...",
-      "begin_time": "50:53.867",
-      "begin_seconds": 184047.0,
-      "end_time": "50:55.627",
-      "end_seconds": 183927.0,
-      "duration_seconds": -120.0
+      "begin_seconds": 3053.867
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, oder du kannst dir ein Sachbuch zusammenfassen lassen. In der Zeit, wo du, Lars, ja genau, also du sagst jetzt die Apps und ich sag die Sehnsüchte oder die Versuche dazu, dass man sagt, ja okay, so diese tote Zeit oder die Zeit, das wäre ja so wie das große Narrativ von, okay, wir haben unsere Zeit immer weiter verdichtet, indem wir Maschinen erfunden haben, die unsere Arbeit tun. Und trotzdem fühlen wir uns immer gestresst. Eigentlich müssten wir so viel Zeit haben wie noch nie zuvor. Aber stattdessen sitzen wir da mit unseren Smartphones und ballern uns die Birne voll und versetzen uns in einen Zustand der unguten hektischen Zerstreutheit. Und dass wir feststellen, das muss ja gar nicht so sein. Und man kann wieder diese kleinen Zeitspannen nutzen. Oder man könnte einen fernen Uni Hagen machen und sich da ein komplettes Psychologiestudium reindonnern. Wenn man nur diese kleinen ganzen Situationen, die man sonst verschleudert. Also Micro-Learning als Sehnsuchtsort oder als Aussteiger, neues Modell, wenn man jetzt rein auf diese Gehirnebene geht, scheint mir da schon irgendwie so ein Versprechen zu sein.",
-      "begin_time": "50:55.887",
-      "begin_seconds": 184187.0,
-      "end_time": "52:06.387",
-      "end_seconds": 187947.0,
-      "duration_seconds": 3760.0
+      "begin_seconds": 3055.887
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Es ist ein Versprechen, nur ich glaube nicht so richtig dran. Vielleicht nur, weil ich bei Duolingo mit meinem Französisch nie über Stufe 3 hinausgekommen bin oder so. Aber es gibt kein richtiges Leben im falschen, der ausgenudelte Adorno-Satz. Und genauso würde man doch sagen, es gibt keinen richtigen Content in der falschen Form. Also wenn am Ende alles Bits and Pieces und snackable kleine Häppchen sein sollen, dann komm ich ja auch nur so und so weit damit.",
-      "begin_time": "52:06.407",
-      "begin_seconds": 187967.0,
-      "end_time": "52:33.527",
-      "end_seconds": 189707.0,
-      "duration_seconds": 1740.0
+      "begin_seconds": 3126.407
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Aber meinst du, ist es nicht fast schon so, vielleicht ist das auch eine ganz gute Metapher mit den Snacks, weil das ist ja so, wie wenn Menschen irgendwie abends rumsitzen vor so was Gutem Alten wie dem Fernseher oder irgendwas konsumieren. Und dabei tauschen sie, dann sagen sie so, Neujahrsvorsatz, ich tausche jetzt, ich knall mir nicht die Chips rein, sondern die, entweder die Linsenchips, aber die sind ja auch eigentlich genauso schlecht. Dann hol ich mir jetzt die rote Beetechips oder ich mach ein paar Gürkchen oder ich mach so. Also ist das so, du sagst, du glaubst daran nicht, dass die Snackform, also ich würde sagen, naja, man muss halt was finden, was irgendwie nicht, sich nicht eben schal und blöd anfühlt. Weil du kannst nicht sagen, so statt jetzt geile Chips, esse ich Edamame und knall mir die rein. Oder die Rote-Bete-Chips, also da würde ich sagen, der Vibe ist dann irgendwie nicht dasselbe. Aber die Hand greift da immer hin und stopft sich das in den Mund. Ist das jetzt wirklich, das wäre ja die Micro-Learning-Metapher, dass man sagt, naja, gut, ich versuche jetzt, was Gesündes in meinen Gehirn zu snacken. Oder funktioniert das alles nicht?",
-      "begin_time": "52:33.967",
-      "begin_seconds": 190147.0,
-      "end_time": "53:36.307",
-      "end_seconds": 193267.0,
-      "duration_seconds": 3120.0
+      "begin_seconds": 3153.967
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Diese Snackmetapher ist natürlich sehr gut. Ich frag mich auch, was du gegen Edamame hast. Schmeckt sie dir nicht? Das ist doch toll.",
-      "begin_time": "53:36.327",
-      "begin_seconds": 193287.0,
-      "end_time": "53:44.107",
-      "end_seconds": 193547.0,
-      "duration_seconds": 260.0
+      "begin_seconds": 3216.327
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Nee, natürlich ist das toll. Aber wenn du jetzt Chio-Chips deinem Gehirn irgendwie dieses krachende Geräusch will und die Geschmacksverstärker, dann weiß ich nicht. Wenn man noch mal zurückgeht auf die Fernsehmetapher, kann man auch sagen, da gab es das gute alte Zapping. Und jetzt gibt es halt TikTok. Man kann natürlich auch sagen, Snacks sind Snacks. Ich weiß es jetzt nicht, sogar die Steinzeitmenschen in der Höhle brauchten einen Zeitvertreib, der sozusagen dem Scrollen ähnlich kommt. Also braucht unser Gehirn einen Leerlauf, der auch nur so funktioniert, dass er ungesund ist? Oder können wir einfach einen gewissen Leerlauf, ich weiß nicht, was die Steinzeitmenschen dann gemacht haben, ins Nichts gestarrt, stumpf und dabei an irgendwas rumgedaddelt? Ich weiß es nicht. Oder sind wir fast schon wieder in der gegenwärtigen Diskussion um Eigentlichkeit und Natürlichkeit? Oder ist das einfach was, womit uns die Zivilisation, womit wir uns selber so ein schlimmes Spielgerät in die Hand gedrückt haben und früher war es halt das Zappen und jetzt ist es TikTok und es wird einfach nie Micro Learning, nie sich in Micro Learning wohlgefallen auflösen?",
-      "begin_time": "53:44.127",
-      "begin_seconds": 193567.0,
-      "end_time": "54:53.987",
-      "end_seconds": 198567.0,
-      "duration_seconds": 5000.0
+      "begin_seconds": 3224.127
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Also ich würde schon sagen, dass natürlich zur Conditio Humana, wie man es nennen will, so ein gewisser Snaggable Content-Teil dazugehört und der geht auch nie weg und das ist auch okay und den kann man sicher dann besser füllen durch Micro Learning als durch was anderes. Aber ich würde gleichzeitig sagen, das geht an dem eigentlichen Problem vorbei und das eigentliche Problem beschreiben eher zwei Buchtitel, die ich jetzt einfach mal reinwerfe. Eins heißt Radical Attention von Julia Bell. Habe ich irgendwie mal so als Spontankauf auf der Documenta in Kassel. Sie hatten so einen Riesen-Dokumenta-Buchladen, da lag das irgendwo. Schlechtes Buch bitte nicht lesen, es sind eben nur langweilige Sachen drin. Aber der Titel ist geil.",
-      "begin_time": "54:54.587",
-      "begin_seconds": 198227.0,
-      "end_time": "55:33.927",
-      "end_seconds": 200907.0,
-      "duration_seconds": 2680.0
+      "begin_seconds": 3294.587
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Wir schreiben es trotzdem in die Show.",
-      "begin_time": "55:33.947",
-      "begin_seconds": 200927.0,
-      "end_time": "55:35.427",
-      "end_seconds": 200527.0,
-      "duration_seconds": -400.0
+      "begin_seconds": 3333.947
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Radical Attention, darum geht es. Der politische und auch in anderem Radikale Akt heute wäre, unsere Aufmerksamkeit zurückzukriegen und nicht in snackable Content zu investieren. Und ein anderer Buchteil, der es auf den Punkt bringt, da habe ich gerade den Autor vergessen, der heißt Stolen Focus. Also was uns passiert ist, dass unser Fokus, unsere Aufmerksamkeit uns gestohlen wurde von mit viel Kapital versorgten Psychologieingenieuren im Silicon Valley, die alles dafür getan haben, dass es da nochmal blinkt, damit ich da nochmal drei Sekunden in diese App investiere. Und das scheint mir das eigentliche Projekt zu sein. Und darf ich einmal, weil ich will das in diesem Podcast einmal ganz groß abfeiern, weil wir haben es glaube ich, ich habe es nie so richtig gesagt, wir hätten eigentlich eine Folge dazu machen sollen. Vor ein paar Jahren ist ein Film erschienen, der heißt Inside von einem amerikanischen Komiker Bo Burnham. Für mich ist es einer der großartigsten Filme der letzten Jahre. Es ist schwierig zu beschreiben, was er da macht. Bo Burnham ist Komiker, aber er macht so eine Art Musikcomedy. In Deutschland hätte man es Klavierkabarett genannt.",
-      "begin_time": "55:36.567",
-      "begin_seconds": 200727.0,
-      "end_time": "56:37.327",
-      "end_seconds": 204147.0,
-      "duration_seconds": 3420.0
+      "begin_seconds": 3336.567
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Und ist er nicht auch so einfach so ein Obermillennium? Er ist ja nicht das Abziehbild eines so melancholischen, bisschen Wohlstandsverwahrlosts.",
-      "begin_time": "56:37.347",
-      "begin_seconds": 204167.0,
-      "end_time": "56:44.807",
-      "end_seconds": 205047.0,
-      "duration_seconds": 880.0
+      "begin_seconds": 3397.347
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Er hatte schon eine große Karriere vorher. Viele liebten ihn sehr für seine Songs. Man darf sich das eben nicht so bieder vorstellen wie Klavierkabarett, weil er auch dann eher mal bei Kanye West seine Anleihen genommen hat. Die Pointen waren natürlich immer super amerikanisch treffsicher. Aber dann hat er während der Lockdowns diesen Film Inside gemacht, für den er eben in seiner Wohnung blieb die ganze Zeit. Und es ist dann ganz alleine über ein Jahr hinweg immer wieder so Bits, das sagt man ja bei Comedy dann tatsächlich, lustig, dass das hier passt, aufgenommen ohne Publikum. Der Komiker braucht ja eigentlich das Publikum, um zu testen, lacht da jemand, aber das hatte er nicht. Hat das dann über so einen Film zusammengefügt, der dann im zweiten Pandemiejahr bei Netflix erschien? Und der ist ganz großartig, also wer den noch nicht gesehen hat, muss den unbedingt gucken. Hast du ihn eigentlich zwischendurch mal gesehen?",
-      "begin_time": "56:46.627",
-      "begin_seconds": 204987.0,
-      "end_time": "57:34.487",
-      "end_seconds": 207727.0,
-      "duration_seconds": 2740.0
+      "begin_seconds": 3406.627
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich weiß nicht, ob ich ihn ganz gesehen habe, aber ich habe eine sehr tiefe Lockdown-Erinnerung daran. Ich weiß nicht, ob du es mir geschickt hast damals, aber wie der an seinem Keyboard in seinem abgedunkelten Zimmer steht. Also es war schon, ja, man fühlte sich auch leicht gespiegelt oder dachte, wenn ich jetzt keine Kinder hätte, würde ich vielleicht so traurig an meinem Keyboard stehen und einen anderen Koller als den, den ich jetzt hab, haben.",
-      "begin_time": "57:34.547",
-      "begin_seconds": 207787.0,
-      "end_time": "57:56.607",
-      "end_seconds": 209167.0,
-      "duration_seconds": 1380.0
+      "begin_seconds": 3454.547
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Also ich kann für diesen Film schon gleich das zweite oder dritte Lied White Womans Instagram hat sozusagen im letzten Drittel einen Twist für den. Ich finde, nachdem hat sich für mich alles geändert. Danach kann man nicht mehr die gleichen Witze machen. Allein bis zu diesem Twist von diesem Song zu kommen, ist schon ein Geniestreich von Bo Burnham. Und natürlich dachte man am Anfang, es ist vor allem eine Pandemieverarbeitung. Dann geht es auch um seine Mental Health, wie er psychologisch damit tickt. Aber ich glaube eigentlich, eigentlich, und das ist auch mal wieder Thema seiner Songs, es ist ein Film über das Digitale, über unser Problem in unserer Generation. Du sagst, er ist der Obermännchen mit Social Media, mit dem Digitalen. Und das durchzieht sich auch immer durch diesen Film, weil er in seiner engen Wohnung ist, aber so viele Aufnahmegeräte und Kabel hat, dass man immer das Gefühl hat, er ist immer eingeschnürt und eingeengt von diesen Kabeln und Mikrofonen und irgendwelchen Lichtern, alles die digitale Infrastruktur. Und manchmal projiziert er sozusagen Bilder, Hintergründe an die Wand, aber die sind gleichzeitig auf seinem T-Shirt, weil er gar nicht ausweichen kann. Und dann denke ich mir, so fühlt es sich manchmal im Internet an. Das alles ist sozusagen so, es soll eine Welt der Freiheit sein, aber ich fühle mich ganz eingeengt, wie in einem engen Zimmer und eingeschnürt von so Kabeln. Und dann ist gleichzeitig, und jetzt komme ich zurück zu Radical Attention, die Machart dieses Films, der eigentliche Sieg, den Bo Burnham im Namen von uns allen über den digitalen, bösen Zauberer errungen hat. Weil er hätte ja gerade in diesem seltsamen Zustand des Lockdowns, und das hat er früher auch, immer so Bits und Pieces bei YouTube raushauen können. Ich habe hier mal einen lustigen Song gemacht, den stelle ich jetzt ins Internet. Das ist ein Witz, daraus mache ich einen Tweet. Hier äußere ich mich mal kurz da. Das hat er aber nicht. Er hat sich zusammengerissen, hat irgendwie die Kraft gefunden, nichts davon zu veröffentlichen, sozusagen auf die Delayed Gratification zu setzen. Und sagen, ich mache das nur für mich, ohne Publikum. Ich zeige es niemandem, ich bin nicht connected mit irgendjemandem. Und dann kann ich ein Jahr später, das war wahrscheinlich sehr, sehr viel Arbeit, das wirkt dann immer so, als hätte ich das so hingeworfen, aber man kennt das ja, ist wahrscheinlich wahnsinnig viel Arbeit, das zu schneiden, das richtige Material ist, dann mache ich daraus einen Film. Ich mache wieder ein Werk daraus, was aber auch für länger bestehen wird. Ich ballere nicht meine Witze einfach so raus, sondern ich warte da drauf, dass sie es auf einmal, ich gehe nicht auf diese Falle, die ja der Komiker doppelt hat, auf diese Falle ein, dass sie immer den direkten Lacher will, um zu wissen, hat das funktioniert, und auch nicht den direkten Like, um zu wissen, ich bin jemand, ich bin heute hier gesehen, sondern ich hab daraus einen Film gemacht. Und deswegen steht für mich Bo Burnham für den Versuch, auszubrechen aus all dem, auch aus dem Micro-Learning und wieder Radical Attention zu schaffen. Macht das Sinn, macht das Sinn, was ich gesagt hab?",
-      "begin_time": "57:56.627",
-      "begin_seconds": 209187.0,
-      "end_time": "1:00:31.447",
-      "end_seconds": 3631.447,
-      "duration_seconds": -205555.553
+      "begin_seconds": 3476.627
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Doch, das macht sehr viel Sinn. Oder ist jedenfalls sehr anregend, mein Gehirn rattert so ein bisschen, weil ich denke so, okay, was ist, also wenn man jetzt sagt, Detox ist ja eher so ein, ich wehre mich oder ich versuche, mich aus den Kabeln zu befreien und dann sitze ich wieder in den Kabeln drin. Und dein Text endet ja, das hattest du ja auch mit Ijoma letztes Mal im Gegenwart's Check, dein Text endet ja so ein bisschen, man kann natürlich auch sagen, romantisierend. Ja, die Leute lesen jetzt wieder mehr dicke Bücher. Aber vielleicht ist das dieser Moment, wo man sagt, okay, Radical Attention, du kannst so ein dickes Buch nicht lesen, wenn du nicht so einen Deep Dive deiner Aufmerksamkeit, dass du dich wieder in ein Buch vertiefst. Und du hältst es aus, dass die Hand zuckt und nach jeder Seite irgendeinen Screenshot von dir selber, entweder im Sessel, wie du es liest, oder ein Gedanke, dass du den mir dann sofort rüberschickst, sondern nein, du liest dieses Buch wirklich am Stück oder zumindest über lange Stunden und dann connectest du dich mit anderen Leuten auf Booktalk darüber. Also weil ich glaube, dieses rein oder raus, wenn du sagst, radikal müsste man sich jetzt ausloggen aus allem, das ist ja auch schon fast wieder so eine romantische Folklore. Das kann ja auch nicht die Lösung sein, wenn Micro-Learning nicht die Lösung ist, aber das Radikale ausschalten von allem für immer ja auch nicht, da würde ja auch das Soziale wegfallen. Weil das ist ja glaube ich schon, wenn man sagt, okay Social Media ist tot, es ist zerfallen, gibt es wirklich keine Art, das zusammenzudenken, dann könnte man doch Booktalk, oder das was Bo Burnham macht, ich tauche ab, also ich gehe raus, ich tauche ab, und dann erst, ich teile nicht die ganze Zeit manisch in ganz vielen kleinen Snacks, also ich konsumiere nicht Snacks und ich verschicke keine Snacks, sondern ich sammle erst mal ein bisschen und dann teile ich es als Werk wie bei Bo Burnham oder als Booktalk von wegen, ich schalte erst wieder ein, wenn ich das Buch zur Hälfte gelesen habe oder ich lasse mir ein neues empfehlen und dann gehe ich raus und hole mir das physische Buch und tauche darin ein. Ist das irgendwas, was für uns so eine zukunftsweisende Geschichte sein könnte?",
-      "begin_time": "1:00:31.467",
-      "begin_seconds": 3631.467,
-      "end_time": "1:02:47.827",
-      "end_seconds": 3767.827,
-      "duration_seconds": 136.36000000000013
+      "begin_seconds": 3631.467
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, es klingt natürlich jetzt so ein bisschen altbacken, dass man am Ende nur darauf hinaus will und vor früher, aber das haben wir schon oft.",
-      "begin_time": "1:02:48.347",
-      "begin_seconds": 3768.347,
-      "end_time": "1:02:55.567",
-      "end_seconds": 3775.567,
-      "duration_seconds": 7.2199999999998
+      "begin_seconds": 3768.347
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich finde altbacken würde aber eher klingen, weil man sagt, wir müssen das alles ausschalten für immer. Und das wahre Leben ist nur auf der Straße.",
-      "begin_time": "1:02:55.587",
-      "begin_seconds": 3775.587,
-      "end_time": "1:03:02.107",
-      "end_seconds": 3782.107,
-      "duration_seconds": 6.519999999999982
+      "begin_seconds": 3775.587
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, aber früher, das habe ich im Podcast ja schon oft gesagt, dass ich früher dazu ein bisschen blöde Meinungen hatte, weil früher habe ich so Jared Kovac, den ich sehr schätze, der hat ein Buch geschrieben, ich hasse dieses Internet, was wahnsinnig vorausblickend und interessant ist. Auch das kann ich jedem nochmal empfehlen. Ja, haben wir im Podcast schon hier und da mal erwähnt. Der hat dann mal irgendwo gesagt, als er dann gefragt wurde, als er den FAZ-Preis für irgendwas bekommen hat auf der Buchmeiste, hat er dann gesagt, ja, also was können wir denn machen gegen dieses Monstrum? Letztlich das gute Buch ist die Antwort. Und damals hab ich gedacht, boah, dem fällt aber auch gar nichts mehr ein. Aber in diesem Sinne, wie wir es jetzt beschrieben haben, sozusagen als abgeschlossenes Werk, was auf delayed gratification setzt, beim Herstellen, beim Lesen und so. Das scheint mir dann doch die hoffnungsvollste Perspektive zu sein. Ich kann es noch ein bisschen emotionalisieren. Ich kann nur sagen, den Satz hab ich schon mal im Podcast genannt. Wenn mal so die Vorstellung am Anfang war, oh, es gibt Internet, jetzt muss ich nie wieder einsam sein, ja, muss man sich, glaub ich, jetzt vielleicht, ja, wir als Millennials, wenn wir jetzt rausgewachsen sind, aus diesem Internet, noch mal dann doch mit der Einsamkeit irgendwie beschäftigen und uns die Frage stellen, müssen wir das nicht doch noch mal komplett lernen? Ist das nicht wirklich eine Grundkompetenz von Erwachsenen, dass sie da nicht mehr so Panik vorhaben, einfach mal einsam zu sein? Dieser Schauspieler Fabian Hinrichs war in einem sehr interessanten Interview vor ein paar Wochen bei uns im Zeitfilter. Der hat das da auch so schön gesagt. Er wäre gern ein Mensch, der einfach dazu stehen könnte, dass er einsam ist. Das ist sein Projekt. Vielleicht ist das ein Projekt, das wir auch noch mal annehmen sollten, einfach sagen, jetzt bin ich nun mal einsam. Es hört mir keiner zu und keiner schickt mir ein Like.",
-      "begin_time": "1:03:02.427",
-      "begin_seconds": 3782.427,
-      "end_time": "1:04:40.567",
-      "end_seconds": 3880.567,
-      "duration_seconds": 98.13999999999987
+      "begin_seconds": 3782.427
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich würde auf jeden Fall sagen, dieses Sich-Frei-Machen, von dem Wunsch nach der Zeugenschaft von allem. Und vielleicht auch einem leicht infantilen Wunsch, dass man sagt, hier, ich zeig immer alles einer anderen Instanz gegenüber dem Publikum, in Klammern meiner Mama, meinem Papa. Vielleicht müssen wir uns lernen, Co zu regulieren, eine Weile. Also selber zu regulieren und nicht das durch Publikum oder Teilen die ganze Zeit zu machen. Vielleicht geht es ein bisschen um, ich weiß nicht, ich will nicht so depressiv rausgehen mit Einsamkeit oder ein bisschen traurig mit Einsamkeit wieder lernen. Die es aushalten, dass man auch mal was ohne den Blick der anderen macht. Aber ich weiß nicht, was gibt es da für gegenwärtigere, positivere Wörter dafür? Unlearning.",
-      "begin_time": "1:04:40.587",
-      "begin_seconds": 3880.587,
-      "end_time": "1:05:27.427",
-      "end_seconds": 3927.427,
-      "duration_seconds": 46.840000000000146
+      "begin_seconds": 3880.587
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Bei Liu Xixin, dem Science-Fiction Schriftsteller, über den wir hier gelegentlich gesprochen haben, gibt es die Wand-Schauer. Das ist so ein alter, glaube ich, Sympodismus, so ein Begriff von der Meditation, der sozusagen nur an die Wand guckt. Nicht an den Screen, das ist bei Liu Xixin auch wichtig, weil später in der Zukunft alle Wände nur noch Screens sind. Aber hier brauchen wir natürlich eine Wand, die dann kein Bildschirm ist, an die man einfach schaut.",
-      "begin_time": "1:05:27.447",
-      "begin_seconds": 3927.447,
-      "end_time": "1:05:51.347",
-      "end_seconds": 3951.347,
-      "duration_seconds": 23.90000000000009
+      "begin_seconds": 3927.447
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Die keine Augen hat, die nicht zurückguckt, okay. Die kein Spiegel ist. Okay, die Wand-Schauung muss jetzt erst mal konstruktiv und positiv genug sein.",
-      "begin_time": "1:05:51.367",
-      "begin_seconds": 3951.367,
-      "end_time": "1:06:00.607",
-      "end_seconds": 3960.607,
-      "duration_seconds": 9.239999999999782
+      "begin_seconds": 3951.367
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Haben wir eigentlich noch Zeit für eine Prognosefrage? Ja, oder damit schließen wir ab?",
-      "begin_time": "1:06:00.627",
-      "begin_seconds": 3960.627,
-      "end_time": "1:06:04.427",
-      "end_seconds": 3964.427,
-      "duration_seconds": 3.800000000000182
+      "begin_seconds": 3960.627
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ich würde sagen ja.",
-      "begin_time": "1:06:04.447",
-      "begin_seconds": 3964.447,
-      "end_time": "1:06:05.267",
-      "end_seconds": 3965.267,
-      "duration_seconds": 0.819999999999709
+      "begin_seconds": 3964.447
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Die hat wie immer nichts mit dem Hauptthema zu tun, aber ich würde gerne mal wissen, folgendes vorweg. Ich kokettiere ja manchmal mit so ganz unterschiedlichen politischen Meinungen. Hey, hier hab ich eine toll konservative Meinung, hier bin ich super libertär, da bin ich links und so weiter. Ich habe aber tatsächlich auch so krass grüne Meinungen und mit denen muss ich jetzt auch mal kurz kokettieren, weil meine grünste Meinung ist tatsächlich, dass ich wirklich nicht verstehe, was private Autos in Innenstädten verloren haben. Also wenn man einmal drüber nachdenkt, merkt man so, ja stimmt, macht eigentlich nicht so viel Sinn. Das ist natürlich die große Vision. Wir haben ja mal über Five Minute City gesprochen, da hat Ijoma das auch schon erwähnt, von manchen Grünen, dass eigentlich in der Innenstadt, da kann mal sozusagen der Krämpner mit dem Lieferwagen rumfahren und Taxi und die Polizei oder so, aber nicht jeder mit seinem X1090 Volvo SUV da rumparken. Eigentlich klingt das ganz plausibel für mich. Deswegen ist einfach meine Prognosefrage an dich. Meinst du, das wird in den nächsten zehn Jahren noch mal passieren? Meiner Wegen 15 Jahren, dass wir wirklich erleben, dass eine Stadt wie Hamburg einfach sagt, in Eppendorf und auch noch in diesen Stadtteilen, es gibt einfach keine Privatautos mehr da, die dürfen da nicht mehr reinfahren.",
-      "begin_time": "1:06:05.287",
-      "begin_seconds": 3965.287,
-      "end_time": "1:07:18.327",
-      "end_seconds": 4038.327,
-      "duration_seconds": 73.04000000000042
+      "begin_seconds": 3965.287
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Würdest du dann also Privatautos, also Sharingdienste aufnehmen?",
-      "begin_time": "1:07:18.347",
-      "begin_seconds": 4038.347,
-      "end_time": "1:07:21.867",
-      "end_seconds": 4041.867,
-      "duration_seconds": 3.519999999999982
+      "begin_seconds": 4038.347
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Ja, interessant. Darüber könnte man drüber reden, weil die bräuchte ich dann vielleicht manchmal, die Sharingdienste. Sagen wir mal, die dürfen, du hast ein Carsharingauto.",
-      "begin_time": "1:07:21.887",
-      "begin_seconds": 4041.887,
-      "end_time": "1:07:29.467",
-      "end_seconds": 4049.467,
-      "duration_seconds": 7.579999999999927
+      "begin_seconds": 4041.887
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Wie viele Jahre hast du jetzt gerade gesagt?",
-      "begin_time": "1:07:30.327",
-      "begin_seconds": 4050.327,
-      "end_time": "1:07:32.647",
-      "end_seconds": 4052.647,
-      "duration_seconds": 2.319999999999709
+      "begin_seconds": 4050.327
     },
     {
       "speaker": "SPEAKER_1",
       "text": "15, ich hab's mir jetzt sehr großzügig angelegt.",
-      "begin_time": "1:07:32.667",
-      "begin_seconds": 4052.667,
-      "end_time": "1:07:34.967",
-      "end_seconds": 4054.967,
-      "duration_seconds": 2.300000000000182
+      "begin_seconds": 4052.667
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Ja, also ich würde sagen, so genende 15. Also 15 bis 20. Also ich hatte auch gerade so einen Moment am Osterwochenende, wo man dann da so in diesen, weißt du, so in gutem Alten, um jetzt noch mal die Millennial Nostalgie ganz am Ende noch mal ganz fett auszupacken, ein dieses REM-Video. Everybody Hurts ist das, glaube ich, von ganz früher, wo so gelangweilte Menschen und Kinder im Stau, die alle so rausgucken und dann irgendwann aus ihrem Auto steigen und auf diese Blechkisten und sich so befreien, wenn das Lied so losdonnert und so. Also immer wenn es Stau gibt, ich hab das nicht so, wenn die Autos rumstehen, aber wenn es Stau gibt, dachte ich irgendwie echt so, das ist nicht mehr zeitgemäß, es ist ein höchst anachronistisches Moment, dass so viele kleine Blechkisten, also es ist irgendwie so dysfunktional, gar nicht mal mit so einem ganz krassen grünen Überbau sein. Es wirkt nicht mehr zeitgemäß. Insofern würde ich denken, irgendwie muss sich das schon ändern, aber es ist einfach sehr hartnäckig tatsächlich. Also ich würde eher sagen so 17 Jahre, dann passiert da was.",
-      "begin_time": "1:07:34.987",
-      "begin_seconds": 4054.987,
-      "end_time": "1:08:38.807",
-      "end_seconds": 4118.807,
-      "duration_seconds": 63.81999999999971
+      "begin_seconds": 4054.987
     },
     {
       "speaker": "SPEAKER_1",
       "text": "So, ist notiert die Prognose. Danke Nina für das Gespräch. Danke an alle Hörerinnen und Hörer.",
-      "begin_time": "1:08:39.507",
-      "begin_seconds": 4119.507,
-      "end_time": "1:08:46.167",
-      "end_seconds": 4126.167,
-      "duration_seconds": 6.660000000000764
+      "begin_seconds": 4119.507
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Danke dir, Lars.",
-      "begin_time": "1:08:46.187",
-      "begin_seconds": 4126.187,
-      "end_time": "1:08:47.087",
-      "end_seconds": 4127.087,
-      "duration_seconds": 0.9000000000005457
+      "begin_seconds": 4126.187
     },
     {
       "speaker": "SPEAKER_1",
       "text": "Wir sehen uns im Internet oder im WhatsApp-Gruppenchat.",
-      "begin_time": "1:08:47.107",
-      "begin_seconds": 4127.107,
-      "end_time": "1:08:51.547",
-      "end_seconds": 4131.547,
-      "duration_seconds": 4.4399999999996
+      "begin_seconds": 4127.107
     },
     {
       "speaker": "SPEAKER_3",
       "text": "Bis dahin, Lars.",
-      "begin_time": "1:08:53.967",
-      "begin_seconds": 4133.967,
-      "end_time": "1:08:54.847",
-      "end_seconds": 4134.847,
-      "duration_seconds": 0.8800000000001091
+      "begin_seconds": 4133.967
     },
     {
       "speaker": "SPEAKER_2",
       "text": "Die Titel aller Bücher, Artikel, Filme, Songs oder Serien aus dem Podcast finden Sie in der Podcastbeschreibung. Bei Anregungen, Kritik und Lob schreiben Sie uns gerne an gegenwart.at.",
-      "begin_time": "1:08:56.667",
-      "begin_seconds": 4136.667,
-      "end_time": "1:09:07.407",
-      "end_seconds": 4147.407,
-      "duration_seconds": 10.739999999999782
+      "begin_seconds": 4136.667
     }
   ]
 }
