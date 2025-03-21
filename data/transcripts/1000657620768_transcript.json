@@ -1,0 +1,969 @@
+{
+  "episode_title": "Episode 1000657620768",
+  "podcast_id": "1000657620768",
+  "episode_id": "1000657620768",
+  "extracted_date": "2025-03-21T22:00:43.596971",
+  "transcript": [
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Willkommen, Freunde der Musik und der künstlichen Intelligenz bei dem Fötter Podcast der Zeit, die sogenannte Gegenwart mit mir, Ijoma Mangold und meinem Kollegen Lars Weisbrod, dem ich hiermit das Wort erteile, zu kommentieren, was sich diese AI denn da nun wieder ausgedacht hat.",
+      "begin_time": "19.403",
+      "begin_seconds": 0,
+      "end_time": "37.803",
+      "end_seconds": 0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Diesmal war unser, wie immer individuell angefertigter, neuer Introsong für unseren Podcast gepromptet mit, ich weiß gar nicht mehr den ganzen Prompt gerade, aber ganz wichtig, dass ich eingegeben habe, es soll eine Marimba drin vorkommen. Eine Marimba, ich bin kein Musikwissenschaftler, ich würde sagen, so eine Art Xylophon, da kriegen wir wahrscheinlich böse E-Mails jetzt, es ist kein Xylophon, das ist eigentlich ein Holz, so wie bei, früher hat man heute im Musikunterricht gelernt, dass Saxophon eigentlich ein Holzblasinstrument ist, weil das ein Mundstück aus Holz ist.",
+      "begin_time": "38.223",
+      "begin_seconds": 0,
+      "end_time": "1:09.743",
+      "end_seconds": 4883.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Eine Klarinette.",
+      "begin_time": "1:09.763",
+      "begin_seconds": 4903.0,
+      "end_time": "1:11.183",
+      "end_seconds": 4443.0,
+      "duration_seconds": -460.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was ist mit der Klarinette?",
+      "begin_time": "1:11.203",
+      "begin_seconds": 4463.0,
+      "end_time": "1:12.503",
+      "end_seconds": 4823.0,
+      "duration_seconds": 360.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Deswegen ist es so nah mit der Klarinette verwandt. Ah ja, jaja, also ich glaube, jemand, der Klarinette spielen kann, kann auch Saxophon spielen, kann das sein?",
+      "begin_time": "1:12.523",
+      "begin_seconds": 4843.0,
+      "end_time": "1:19.843",
+      "end_seconds": 5583.0,
+      "duration_seconds": 740.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich kann beides nicht, ich kann aber diesen Song zaubern, mit der Song-KI, wenn ich was mit Marimba eingebe.",
+      "begin_time": "1:19.863",
+      "begin_seconds": 5603.0,
+      "end_time": "1:26.223",
+      "end_seconds": 5383.0,
+      "duration_seconds": -220.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Wäre es für dich vorstellbar, dass du diese Song-KI so genial, geil promptst, dass unser Jingle, falls man so sagt, plötzlich zu einem echten Mitgrölsong wird, auf den dann, und das wäre jetzt meine Sorge, möglicherweise faschistische Texte gesungen werden, gegen unseren Willen, aber einfach nur weil, und der von dir geprompte Song so mitreißend ist, wäre das denkbar?",
+      "begin_time": "1:26.243",
+      "begin_seconds": 5403.0,
+      "end_time": "1:55.943",
+      "end_seconds": 7843.0,
+      "duration_seconds": 2440.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Sehr gute Überleitung in unser Thema von heute, denn wir machen heute was, was wir paradoxerweise, glaube ich, so noch nie gemacht haben. Wir sind ein Gegenwart-Podcast, aber wir sind zum ersten Mal so richtig ganz nah an der wochenaktuellen Gegenwart. Ich würde jetzt auch sogar mal zugeben, wann...",
+      "begin_time": "1:55.963",
+      "begin_seconds": 7863.0,
+      "end_time": "2:12.723",
+      "end_seconds": 8643.0,
+      "duration_seconds": 780.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und wir hatten große Zweifel, ob wir das tun sollen, ob wir uns wirklich so nah an die Gegenwart heranwagen sollen.",
+      "begin_time": "2:12.743",
+      "begin_seconds": 8663.0,
+      "end_time": "2:18.303",
+      "end_seconds": 8583.0,
+      "duration_seconds": -80.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Es fühlt sich so ungewohnt an für uns, aber wir sind jetzt... Tatsächlich nehmen wir auf am Montag, den 27. und kommen gerade aus einem Wochenende, wo das eine große, alles überschattende Thema, der Song von Gigi D'Agostino war, der zu einem rechten Meme geworden ist, was an diesem Wochenende in Form eines Videos allen in Deutschland bis zum Bundeskanzler präsentiert wurde, einem Video aus Sylt, über das wir sprechen möchten. Wir möchten über diesen Song sprechen, über dieses rechte Meme, über rechte Gegenkultur und wofür diese Aufregung, dieser Zwischenfall, dieses Video steht. Ja, das versuchen wir mal.",
+      "begin_time": "2:18.323",
+      "begin_seconds": 8603.0,
+      "end_time": "2:54.603",
+      "end_seconds": 11043.0,
+      "duration_seconds": 2440.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und wir hoffen, dass die Woche bis zur Ausstrahlung nicht alles widerlegt oder überholt wird von künftig sich einstellenden Ereignissen. Also ich hoffe, unsere Halbwertszeit ist ausreichend bis nächste Woche.",
+      "begin_time": "2:54.903",
+      "begin_seconds": 11343.0,
+      "end_time": "3:09.363",
+      "end_seconds": 11703.0,
+      "duration_seconds": 360.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, apropos ausreichende Halbwertszeit, wir fangen wie immer an mit unserem Gegenwart-Check, wo natürlich die Halbwertszeit eher kurz ist. Wir müssen da auch hart an der Gegenwart bleiben und fangen du doch mal an, Ijoma.",
+      "begin_time": "3:09.383",
+      "begin_seconds": 11723.0,
+      "end_time": "3:21.843",
+      "end_seconds": 12903.0,
+      "duration_seconds": 1180.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich habe ein Phänomen, das eigentlich mit guten alten deutschen Tugenden zu tun hat, die man aber eigentlich auch schon wieder vergessen hat und die über den Reimport aus den USA uns überhaupt erst wieder als Teil unserer Nationalkultur in Erinnerung gerufen werden muss. In den USA, habe ich vor wenigen Wochen das erste Mal gesehen, haben in einem sehr ernsthaften, so ernsthaften Kontext, wo so Techies sich über wichtige Entwicklungen austauschen, die stellten plötzlich fest, dass es in Deutschland eine andere Fensterarchitektur gibt, als in den USA und dass diese Fensterarchitektur wirklich genial ist. Man kann, wenn man nämlich nicht will, dass Verbrecher einsteigen, aber man möchte doch gerne ein bisschen frische Luft haben, man kann in Deutschland Fenster auf Kipp stellen. Und die Amerikaner verfolgten das mit hohem Interesse. Es waren so verschiedene Videos, wo einfach unsere ganz normalen Fenster gezeigt wurden. Die wurden dann gegengeschnitten mit diesem amerikanischen Fenstertypus, den du ja nur so hochziehen kannst und auch selbst das ist noch kompliziert. Die technologische Überlegenheit des deutschen Fensters war eindeutig. Und während wir im Moment als Deutsche der Meinung sind, wir sind der kranke Mann Europas, dachten dann die Amerikaner, sie seien möglicherweise eben doch nicht an der Spitze des Fortschritts, denn sie seien noch nicht mehr in der Lage, gut funktionierende Fenster herzustellen. Und nun ist dieser Reimport, also was ich meine, das wieder erwachte Bewusstsein für unsere eigentlichen Stärken auch bei uns angekommen, soweit, dass es sogar, ich wiederhole dieses Wort nun schon zum zweiten Mal, und wir werden es in dieser Sendung noch öfter verwenden, dass es bereits einen Mitgrössong gibt, der heißt Fenster auf Kipp und der feiert ab diese deutsche Technologie.",
+      "begin_time": "3:22.303",
+      "begin_seconds": 12423.0,
+      "end_time": "4:57.943",
+      "end_seconds": 18763.0,
+      "duration_seconds": 6340.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, stopp, Moment. Aber Fenster auf Kipp hat eine andere Genese. Ich weiß jetzt genau, welchen Song du meinst. Aber Fenster auf Kipp ist seit mindestens Mitte der Pandemie ein Twitter-Meme, was man mir gerne drunter geschrieben hat, wenn ich zu querdenklerisch war. Da war immer die Antwort, Lars, mach mal das Fenster auf Kipp. Ich weiß gar nicht genau, wo das herkommt, aber es heißt wohl so viel. Du spinnst gerade, lüfte mal durch, so habe ich es immer verstanden. Also, Punkt, nein, allein deswegen kann ich den Punkt nicht geben, weil du offensichtlich nicht nahe genug an der Gegenwart bist, dass du diese Coincidence...",
+      "begin_time": "4:58.243",
+      "begin_seconds": 18123.0,
+      "end_time": "5:29.403",
+      "end_seconds": 20143.0,
+      "duration_seconds": 2020.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Der Song ist aber nicht aus der Pandemie, den gibt es überhaupt, glaube ich, erst seit Herzen 23.",
+      "begin_time": "5:29.423",
+      "begin_seconds": 20163.0,
+      "end_time": "5:34.163",
+      "end_seconds": 20203.0,
+      "duration_seconds": 40.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, aber das muss dann damit zu tun haben. Also deswegen Strafabzug für einen Punkt, den ich dir sonst gegeben habe, hätte, weil ich es interessant gefunden hätte, dass die Amerikaner das jetzt entdecken, ja, ja. Aber ich bleibe dabei, kein Punkt.",
+      "begin_time": "5:34.543",
+      "begin_seconds": 20583.0,
+      "end_time": "5:49.063",
+      "end_seconds": 21003.0,
+      "duration_seconds": 420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Die Engländer können ihre Fenster auch nicht auf Kipp stellen.",
+      "begin_time": "5:49.063",
+      "begin_seconds": 21003.0,
+      "end_time": "5:51.863",
+      "end_seconds": 21923.0,
+      "duration_seconds": 920.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, das habe ich mich gerade gefragt, ist das in Frankreich, gibt es das auch nicht?",
+      "begin_time": "5:52.363",
+      "begin_seconds": 21483.0,
+      "end_time": "5:57.043",
+      "end_seconds": 21463.0,
+      "duration_seconds": -20.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Zu Italien möchte ich mich nicht äußern, aber ich hätte große, großen Zweifel. Wie ja überhaupt dieses ganze Thema solide Bauweise, das ist schon eine extreme deutsche Eigentümlichkeit.",
+      "begin_time": "5:57.063",
+      "begin_seconds": 21483.0,
+      "end_time": "6:08.503",
+      "end_seconds": 22583.0,
+      "duration_seconds": 1100.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Der berühmte Satz von Angela Merkel, als sie mal gesagt hat, worauf kann man in Deutschland stolz sein, auf die Fenster, weil die so gut dicht halten.",
+      "begin_time": "6:09.383",
+      "begin_seconds": 22523.0,
+      "end_time": "6:16.283",
+      "end_seconds": 22843.0,
+      "duration_seconds": 320.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Genau, die sind so isoliert, das ist für die Energiewende gut. Man ist überrascht, natürlich ist das amerikanische Pro-Kopf-Einkommen vermutlich doppelt so hoch wie das deutsche, aber die Häuser sind trotzdem sehr wackelig und man hat das Gefühl, da kommt ein kleiner Tornado, ein kleiner Hurricane und schon sind die weggeweht. In Deutschland gibt es keine Hurricanes, aber unsere Häuser würden dem mutig trotzen. Naja, ich habe verloren, ich finde das Thema trotzdem sehr schön.",
+      "begin_time": "6:16.303",
+      "begin_seconds": 22863.0,
+      "end_time": "6:42.663",
+      "end_seconds": 24783.0,
+      "duration_seconds": 1920.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das mag sein, aber weil du dieses Fenster auf Kippen-Meme von Twitter nicht kennst, das mich fast wundert, gibt es dafür diesen Strafabzug. Ich mache mal weiter mit meinem ersten Punkt und zwar geht es bei mir um einen, um den Sprachwandel mal umgekehrt. Wir kennen das ja in tausend Facetten, dass die englische Sprache ins deutsche einbricht. Das ganze dreht sich gerade wieder um, nicht auf die simple Art, dass deutsche Wörter ins englische einsicken, sondern ich meine was anderes. Wir haben hier ab und zu schon mal den Begriff Booktalk fallen lassen, das Trend-Phänomen, was gerade überall dahinter steckt und eine interessante, ästhetische Konstellation, die man bei Booktalk erfolgreichen Büchern aus Deutschland beobachten kann. Es gibt ja auch deutsche Autorinnen und eher Autorinnen als Autoren, die dort erfolgreich sind, mit auf Deutsch geschriebenen Büchern, die dann, da gibt es ja immer diesen Begriff, die heißen dann irgendwie Young Adult irgendwas, ja, das ist immer diese neue Genre-Bezeichnung. Die verlegen ihre Geschichten sehr, sehr gerne in englischsprachige Länder, nach Amerika oder nach England, gerne so ins englische Internat. Das ist sozusagen so ein Lieblings-Schauplatz von Booktalk Young Adult Büchern. Aber es gibt auch andere Möglichkeiten, aber Hauptsache es spielt nicht in Deutschland, sondern irgendwo, wo alles auf Englisch heißt, wo man die Fenster nicht auf Kipp stellen kann. Das an sich ist schon interessant, aber jetzt gibt es vielleicht die erste große Verfilmung dieser deutschen Booktalk Bücher, die so richtig breit rezipiert und groß vermarktet wurde. Sie heißt Maxton Hall auf Amazon Prime, nach einem deutschen Booktalk Erfolg. Und dort, und ich konnte mir leider wirklich nur 25 Minuten davon angucken, weil ich offensichtlich nicht das Zielpublikum bin und es vielleicht auch objektiv wirklich jetzt nicht Hochkultur ist, was einem da präsentiert wird. Aber es spielt auch in einem englischen Internat. Aber es ist nur mit deutschen Schauspielern verfilmt, die alle natürlich Deutsch sprechen. Sie heißen nur Englisch und die Schilder sind auf Englisch sozusagen, aber ansonsten ist es Deutsch. Und das hat mich kurz fiktional auch ein bisschen verwirrt. Wie soll ich das einordnen sozusagen? Und dann ist mir eingefallen, in Deutschland gab es das ja immer, bei Rosemunde Pilcher zum Beispiel.",
+      "begin_time": "6:42.683",
+      "begin_seconds": 24803.0,
+      "end_time": "8:56.723",
+      "end_seconds": 32883.0,
+      "duration_seconds": 8080.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich wollte gerade sagen, Mist, dass du das jetzt selber sagst, ich dachte schon, mit dem Argument kann ich ihnen den Punkt verweichern.",
+      "begin_time": "8:57.003",
+      "begin_seconds": 32223.0,
+      "end_time": "9:02.543",
+      "end_seconds": 33063.0,
+      "duration_seconds": 840.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, aber trotzdem würde ich sagen, weil das ja jetzt durch dieses Booktalk so ein großer Erfolg ist bei den Büchern, aber wir wahrscheinlich auch jetzt mehr Serien und Filme sehen werden, die das adaptieren, werden wir wieder lauter Deutsche, die Deutsch sprechen, in englischen Landschaften mit englischen Namen sehen, wie früher bei Rosemunde Pilcher. Das ist mein Gegenwartvorschlag.",
+      "begin_time": "9:02.703",
+      "begin_seconds": 33223.0,
+      "end_time": "9:20.763",
+      "end_seconds": 34363.0,
+      "duration_seconds": 1140.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Was ist das Phänomen jetzt tatsächlich? Was ist jetzt so Gegenwart? Dass mehr deutsche Schauspieler in deutschen Produktionen englische Namen tragen.",
+      "begin_time": "9:20.783",
+      "begin_seconds": 34383.0,
+      "end_time": "9:32.323",
+      "end_seconds": 34643.0,
+      "duration_seconds": 260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja gut, das ist ja nur das Oberflächenphänomen. Dahinter steckt ja, dass ich mir immer eine Welt vorstellen muss, wo eigentlich alle Englisch sprechen. Aber der Erzähler hat sich sozusagen dazwischen… Was ist sozusagen eigentlich meine… Wie soll ich mein Willing Suspension of Disbelief, sagt auch der Literaturwissenschaftler. Wie funktioniert der hier? Ich muss mir vorstellen, die sprechen eigentlich alle Englisch. Aber sind synchronisiert auf Deutsch, damit ich sie verstehe. Weil eigentlich muss ich ja denken, die sind ja in Englisch.",
+      "begin_time": "9:32.363",
+      "begin_seconds": 34683.0,
+      "end_time": "9:59.043",
+      "end_seconds": 35983.0,
+      "duration_seconds": 1300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Warum synchronisiert? Die sprechen ja wirklich Deutsch.",
+      "begin_time": "9:59.063",
+      "begin_seconds": 36003.0,
+      "end_time": "10:01.363",
+      "end_seconds": 36423.0,
+      "duration_seconds": 420.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, also das ist das Gegenwart-Phänomen, diese interessante Sprachverwirrung.",
+      "begin_time": "10:01.383",
+      "begin_seconds": 36443.0,
+      "end_time": "10:05.723",
+      "end_seconds": 37023.0,
+      "duration_seconds": 580.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also es ist entweder eine besonders anspruchsvolle Beobachtung oder eine, die noch nicht mal den Begriff Phänomen verdient, weil, naja, es ist halt eine deutsche Produktion, die im Ausland spielt, ausländische Rollen spielt, aber halt auf Deutsch.",
+      "begin_time": "10:06.363",
+      "begin_seconds": 36723.0,
+      "end_time": "10:21.743",
+      "end_seconds": 38003.0,
+      "duration_seconds": 1280.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich finde das bemerkenswert und ich finde es bemerkenswert, dass durch diese Booktalk-Bücher das besonders gerne bedienen, diese Konstellation. Man könnte ja auch sagen, dann schreib halt gleich auf Englisch oder mach deinen Film halt gleich auf Englisch.",
+      "begin_time": "10:23.943",
+      "begin_seconds": 38323.0,
+      "end_time": "10:37.223",
+      "end_seconds": 38443.0,
+      "duration_seconds": 120.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Dann wäre es ja kein deutscher Film, keine deutsche Produktion mehr. Wir müssen noch unsere eigene Filminstrie. Wir drehen jetzt echte Bollywood-Serien, allerdings mit deutschen Schauspielern, die Deutsch reden. Das wäre ja, oder ich verstehe das Phänomen vielleicht noch nicht ausreichend. Es sieht jetzt aus, als wollte ich mich rächen, das ist echt nicht gemeint. Aber welches Moment der Gegenwart ist da zu greifen? Okay, vielleicht auch keine Frage.",
+      "begin_time": "10:37.243",
+      "begin_seconds": 38463.0,
+      "end_time": "11:04.603",
+      "end_seconds": 40443.0,
+      "duration_seconds": 1980.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Okay, ich mach's simpler, ich mach's simpler, Ijoma. Die Gegenwart ist, dass die Autorinnen dieser Bücher und in Nachfolge dann die Regisseure und Produzenten dieser Filme lieber Geschichten, die aus Deutschland kommen, von deutschen Köpfen ausgedacht sind, in Deutsch ausgedacht sind, lieber in England und USA spielen lassen. Da mach ich's simpel.",
+      "begin_time": "11:04.623",
+      "begin_seconds": 40463.0,
+      "end_time": "11:25.023",
+      "end_seconds": 41123.0,
+      "duration_seconds": 660.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das finde ich, ja. Aber nur weil du vorhin gesagt hast, sonst sprechen wir in Deutschland immer englische Wörter aus und jetzt geht's mal umgekehrt und dann hast du als nächstes gar nicht, dass jetzt deutsche Wörter ins Englische kommen, aber das, was du sagst, naja, das ist doch immer so. Wir Deutschen glauben immer, dass es im Ausland schöner ist, dass die Filme dort besser sind, die Bücher spannender sind und je mehr man quasi dann mit eigenen Bordmitteln so tun kann, als sei man selber Teil dieses Auslands, umso mehr hofft man dann auch Erfolg zu haben. Da scheint mir ein alter deutscher Minderwertigkeitskomplex einfach nur erfolgreich fort zu bestehen. Der deutsche Lifestyle, popkulturell nicht gut umzusetzen oder zu inszenieren ist, dass es doch, ob es stimmt oder nicht, weiß ich nicht, ist aber doch eine schon zur Liebengewohnheit gewordene deutsche Selbseinschätzung. Verstehst du, was ich meine? Ja, ja, ja. Ich will jetzt das Recht behalten. Ich will nur, verstehst du diesen Punkt? Ich habe das Gefühl, dass du eine interessante neue Version eines sehr alten Phänomens anbringst. Ich könnte dir den Punkt geben dafür, dass es eine neue Version eines alten Phänomens gibt, was ja auch was Neues ist. Dafür kriegst du den Punkt. Aber ich will sagen, der Kern der Sache ist seit 1945 geltend, würde ich denken.",
+      "begin_time": "11:25.043",
+      "begin_seconds": 41143.0,
+      "end_time": "12:40.723",
+      "end_seconds": 46323.0,
+      "duration_seconds": 5180.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich weiß, was du meinst. Du hast schon recht, du hast schon recht, ja. Freue mich, ich nehme jetzt mal den Punkt mit und du bist dran.",
+      "begin_time": "12:40.743",
+      "begin_seconds": 46343.0,
+      "end_time": "12:48.123",
+      "end_seconds": 46203.0,
+      "duration_seconds": -140.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich bin dran mit einer Gegenwartbeobachtung. Möglicherweise habe ich mir jetzt gerade selber ein Bein gestellt. Denn bei diesem Vorschlag, der ist quasi antihermeneutisch, der hat keine echte Deutung, der steht auch irgendwie für nichts Höheres, ja. Aber er ist definitiv ein neues Phänomen, das es zu vermerken gilt, auch wenn sich daraus, glaube ich, wirklich nichts ableiten lässt. Es hat eine Zuhörerin, Katinka Brundje oder Brundiers, uns geschrieben, der ich herzlich für diese Beobachtung danke, war mal wieder eine dieser Art, als ich es las, wusste ich es auch, stimmt, ist mir seit vier, fünf Monaten überall begegnet, hatte ich aber noch gar nicht als Phänomen abgespeichert. Ja, dass neuerdings die Einkaufswagen vor den Supermärkten dastehen, ohne dass man Chips reinschieben muss, um sie sich zu nehmen. Und sie schreibt auch so schön, seither hängt diese Kette, die Einkaufswagen mit der traurig herunter baumelnden Kette. Und sowohl in der Stadt in Berlin, wie auf dem Land, beobachte ich das mit großer Freude, weil es war ja auch immer noch nervig, diesen Chip immer vorreitig halten zu müssen. Und man fragt sich auch, wo leben wir eigentlich, dass das notwendig ist. Es ist offensichtlich nicht mehr notwendig. Man fragt sich, warum war das 20 Jahre zwingend? Wir erinnern uns auch noch an Herrn Möllemann, der glaube ich, darüber sein Ministeramt verloren hat, weil er irgendwie von seinem Schwager, glaube ich, so ein Chip, heute denken wir bei Chip an Intel und an Taiwan und so weiter, aber der Chip, den man für den Einkaufswagen brauchte, denn der hat schon Minister stürzen lassen. Das alles ist Vergangenheit.",
+      "begin_time": "12:48.143",
+      "begin_seconds": 46223.0,
+      "end_time": "14:12.043",
+      "end_seconds": 51163.0,
+      "duration_seconds": 4940.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was ist das für eine Geschichte?",
+      "begin_time": "14:12.343",
+      "begin_seconds": 51463.0,
+      "end_time": "14:13.703",
+      "end_seconds": 51883.0,
+      "duration_seconds": 420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich glaube, oder rede ich Unsinn? Ich glaube, dem wurde Vetternwirtschaft vorgeworfen, weil er auf Ministerpapier irgendjemanden einen Brief geschrieben hat, wo er das Enterprise seines Schwagers oder so empfiehlt und das Enterprise des Schwagers war die Herstellung dieser Chips, die man in den Einkaufswagen schickt.",
+      "begin_time": "14:17.663",
+      "begin_seconds": 52083.0,
+      "end_time": "14:34.903",
+      "end_seconds": 53343.0,
+      "duration_seconds": 1260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nein, also wenn es nicht stimmt, werden wir Mails bekommen, aber die Geschichte klingt gut. Du kriegst auch den Punkt. Weil, ja, du hast recht, man müsste jetzt mit ganz großer, glaube ich, weil es so unhermeneutisch erstmal ist, bräuchte man die ganz große Slaughter-Geste um. Da kannst du dann aber doch nur alles reinlegen. Da musst du wirklich sagen, das zeigt alles. Was alles, weiß ich jetzt nicht gerade, aber auf jeden Fall kriegst du den Punkt, auch weil mich diese Supermarkt-Beobachtungen wahnsinnig interessieren, was sich da so verändert. Ich denke auch immer noch drüber nach, seit wann gibt es im Supermarkt Körbe? Weil ich glaube nämlich, als ich klein war, wir denken ja, ein Korb ist was Altes, was es schon immer gab, aber ich glaube, als ich klein war, gab es nur Einkaufswagen.",
+      "begin_time": "14:37.123",
+      "begin_seconds": 52743.0,
+      "end_time": "15:21.843",
+      "end_seconds": 56103.0,
+      "duration_seconds": 3360.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nein, ich glaube, die waren damals aber nicht aus Plastik, sondern aus so silbernem Gitter.",
+      "begin_time": "15:21.863",
+      "begin_seconds": 56123.0,
+      "end_time": "15:26.043",
+      "end_seconds": 55603.0,
+      "duration_seconds": -520.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Aus so Metall, ach so, ja, okay.",
+      "begin_time": "15:26.063",
+      "begin_seconds": 55623.0,
+      "end_time": "15:27.743",
+      "end_seconds": 56363.0,
+      "duration_seconds": 740.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Aus so Metall, das erinnere ich als Kind.",
+      "begin_time": "15:27.763",
+      "begin_seconds": 56383.0,
+      "end_time": "15:29.823",
+      "end_seconds": 56563.0,
+      "duration_seconds": 180.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und dann gab es irgendwann diese Plastikkörbe, die gleichzeitig auf dem Boden rollen konnten. Also das interessiert mich immer alles wahnsinnig, warum man jetzt beschlossen hat, man hat doch nicht so viel Angst davor, dass die Leute irgendwie die Einkaufswagen alle klauen oder auf dem Parkplatz stehen lassen. Gute Frage, ja.",
+      "begin_time": "15:29.843",
+      "begin_seconds": 56583.0,
+      "end_time": "15:45.843",
+      "end_seconds": 57543.0,
+      "duration_seconds": 960.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Sehr gegenwärtig ist übrigens noch, wenn wir bei deinem Lieblingsthema Supermarkt sind, und ich hätte das auch gerne in den Gegenwartcheck reingeholt, aber ich wusste nicht, wie ich das als Gegenwart-Phänomen verkaufen kann, weil es einfach nur saugut ist, diese Werbung von EDEKA, die wir aus YouTube kennen, diese Werbung, wo uns ein junger Mann erklärt, dass er ein raffiniertes Verfahren hat, wie er passive fünfstellige Beträge im Monat generiert, und das ist nun der Marktleiter aus EDEKA, aber sein Versprechen, das ist halt eine wahnsinnig gute Parodie, die gut umgesetzt ist, und das Versprechen eines verlässlichen, passiven Einkommens lautet, sich bei EDEKA anstellen zu lassen. Aktives Einkommen, anders als Bitcoin, keine Volatilitätsgefahr. Dann geht er am Ende zu so einem Kassierer, ein junger schwarzer Mann, und hält ihm einen Kugelschreiber hin und sagt zu ihm, verkaufe mir diesen Kugelschreiber, so wie man das jetzt ja seine Fantasie vorlasst, eine Verkaufsstrategie einfallen, bringe das beste Marketing raus. Und dieser Kassierer nimmt emotional völlig bewegungslos diesen Kugelschreiber, und jetzt kommt halt der stärkste Moment von diesem Video, führt ihn über diesen Scanner, und es kommt das berühmte, jetzt wirklich ikonisch gewordene, BEEP, und das war's. Schon hat er ihn ihm verkauft.",
+      "begin_time": "15:45.863",
+      "begin_seconds": 57563.0,
+      "end_time": "17:06.063",
+      "end_seconds": 61623.0,
+      "duration_seconds": 4060.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Der Clip ist wirklich ganz toll, ja. Ist jetzt schon ein bisschen älter, aber ich dachte damals auch, man müsste eigentlich darüber was schreiben oder machen. Schön, dass du ihn noch mal so lebhaft nacherzählt hast. Wo waren wir eigentlich gerade? Wer hat jetzt wem? Du kriegst den Punkt für die fehlende Münz-Fund-Situation bei den Einkaufswägen aktuell. Und ich mach noch einen und dann ist die Folge gleich wieder um, weil wir das überzogen haben. Ich mach ein schnelles Wort, das Wort Gottlos. Ich hab's grad erst gehört in einem Podcast mit Klaas Heufer Umlauf, der irgendwie eine Podcaster-Geschichte erzählte, dass ein Vogel hätte sein Auto gottlos zugeschissen oder so, so was. Aber es ist natürlich auch wahnsinnig auffällig, so Social Media, wo so junge Leute das schreiben im Rap oder so junge Leute mit Rapbezug, da ist dann immer alles so als Steigerung gleich gottlos. Ist ein bisschen der Nachfolger von Ehrenlos oder so, das gab's mal vor ein paar Jahren. Da hab ich gesagt, wir gehen jetzt ehrenlos saufen. Jetzt ist es eher, wir gehen gottlos saufen. Und jetzt verweigerst du mir deswegen wieder den Punkt, wie bei Rosemunde Pilcher, aber muss ja auch die Re-Entries benennen. So nennst du das ja immer, Re-Entry. Ist es so lustig, weil gleichzeitig begegne mir das Wort, wenn ich gerade Märchen vorlese. Weil da heißt es nämlich über den bösen Wolf, irgendwo bei Rotkäppchen, ich weiß es schon gar nicht mehr, dass da ein gottloses Tier, ja. Deswegen darf man den auch so böse am Ende umbringen und so, weil es ein gottloses Tier ist.",
+      "begin_time": "17:06.083",
+      "begin_seconds": 61643.0,
+      "end_time": "18:31.663",
+      "end_seconds": 67323.0,
+      "duration_seconds": 5680.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, na ganz toll. Nein, nein, da kriegst du den Punkt aus vollem Herzen. Ich würde das Phänomen auch noch viel höher hängen und würde sagen, alles ist natürlich den Drang nach Distinktionsgewinn geschuldet. Man muss also jede Mode, man muss ihr voraus sein. Und wir haben jetzt einfach eine ganz große Tendenz der letzten 40 Jahre, einer radikalen Sekularisierung in Westeuropa erlebt, die auch eine Sekularisierung unseres Vokabulars nach sich zog. Und damit hat man sehr viel Energie rausgenommen, weil natürlich jeder Transzendenzbezug die Sprache stark auflädt. Sowohl beim Fluchen mit dem Teufel und so weiter, als auch unter der Berufung auf den lieben Gott. Da sind einfach alte Sprachenergien drin gespeichert, die es anzuzapfen sich lohnt und die auch dann funktionieren, wenn sie gewissermaßen auch so halbironisch sind, dass man weiß, ah ja, man bedient sich jetzt ausdrücklich eines älteren Vokabulars. Das finde ich ganz toll und ich hoffe auch, dass das Phänomen sich noch weiter verbreitet.",
+      "begin_time": "18:31.803",
+      "begin_seconds": 67463.0,
+      "end_time": "19:30.123",
+      "end_seconds": 70323.0,
+      "duration_seconds": 2860.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ijoma, lass uns zu der aktuellen super nahen Gegenwart kommen, zu dem Gigi D'Agostino Song La Mour Toujours. Auch das habe ich bestimmt jetzt halb richtig ausgesprochen, der umgetextet wurde auf Deutschland, die deutschen Ausländer raus. Was zu sehen war in einem Video von mehreren jungen Leuten bei einer Party auf Sylt am Pfingstwochenende und was zum großen bundesweiten Skandal wurde. Um es kurz nur einzuleiten, gehe ich erst mal nur noch ein paar Tage weiter zurück. Dieses Video ist am Pfingstwochenende auf Sylt entstanden. Mir war das ehrlich gar nicht so klar. Ich bin nicht so der Sylt-Experte, dass schon an Pfingsten die Insel voll ist und so Remi Demi los ist. Es war mir gar nicht klar, dass Pfingsten auf Sylt so ein Ding ist.",
+      "begin_time": "19:30.143",
+      "begin_seconds": 70343.0,
+      "end_time": "20:22.143",
+      "end_seconds": 73463.0,
+      "duration_seconds": 3120.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, irgendwie so eine Art neuer deutscher Spring Break schien mir das jetzt fast zu sein.",
+      "begin_time": "20:22.163",
+      "begin_seconds": 73483.0,
+      "end_time": "20:25.983",
+      "end_seconds": 74483.0,
+      "duration_seconds": 1000.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Vielleicht ist das auch neu. Bist du Sylt-Experte? Ist das auch neu? Neujahrisch? Newish? Stimmt, der deutsche Spring Break.",
+      "begin_time": "20:26.003",
+      "begin_seconds": 73563.0,
+      "end_time": "20:34.683",
+      "end_seconds": 74723.0,
+      "duration_seconds": 1160.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Da kann ich meine Hand nicht vorher legen, aber ich habe schon das Gefühl, dass das, weil das war ja nicht nur diese eine Party im Pony, sondern an ganz vielen Orten der Insel feierte popperhaft angezogene Jugend am Strand und so weiter. Und ich würde schon sagen, dass das ein neues Phänomen sein muss.",
+      "begin_time": "20:34.723",
+      "begin_seconds": 74763.0,
+      "end_time": "20:51.303",
+      "end_seconds": 75363.0,
+      "duration_seconds": 600.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "So, und jetzt, du hast die wichtigen Stichwörter schon genannt. Jetzt würde ich erst mal sagen, nach dem Pfingstmontag tauchten auf Twitter, da habe ich sie zumindest gesehen, erste Videos von jungen Menschen auf Sylt auf, die feiern. Und was daran speziell war, da ging es noch nicht, die haben noch nicht irgendwas Schlimmes gesungen und nichts mit rechts oder so. Es war nur, was daran speziell war oder aufgegriffen wurde, war die krasse, klischeehafte Uniformität dieser jungen Leute, die wirklich alle blond waren und alle die Pullover über die Schultern gelegt hatten und alle den gleichen Style hatten, dem müsste man auch noch mal, da wird auch immer viel so Halbgaris gesagt, um diesen Style einzufassen, weil da wird immer gesagt, Ralph Lauren, ich weiß gar nicht, ob das unbedingt zu Ralph Lauren passt, zumindest nicht dem, was Ralph Lauren heute eigentlich ist, aber einer bestimmten Sylt-Upscale-Look von sehr bürgerlichen jungen Kids, die vielleicht auch auf teure Schulen gehen, sahen auch alle sehr gut aus und feierten da. Und auf Twitter machte man sich schon über diese Videos lustig, einfach weil der normale linksradikale Twitter-User schon diesen Look und diese Leute unerträglich findet. Da würde ich mich erschießen, wenn ich da dabei sein müsste, am Strand bei denen. Da kommt natürlich auch immer der alte El Hotso-Namensgag, da sind dann immer Charlotte und Jonas und Annalena. Und dann dachte ich schon so, ah ja, interessant. Und dann passierte es, dann tauchte ein Video auf.",
+      "begin_time": "20:51.323",
+      "begin_seconds": 75383.0,
+      "end_time": "22:20.863",
+      "end_seconds": 81263.0,
+      "duration_seconds": 5880.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Justus, da werden wir ganz kurz noch, Justus ist ein wesentlicher Name und der passt auch besser als Annalena, weil Annalena kommt ja zu sehr dann doch aus so einem links-progressiven Milieu, nicht nur wegen unserer Außenministerin. Während Justus ist schon eher der Versuch, dass der Rechtsanwalt versucht, nochmal eine ältere, humanistisch-deutsche Tradition anzuknüpfen.",
+      "begin_time": "22:20.923",
+      "begin_seconds": 81323.0,
+      "end_time": "22:38.763",
+      "end_seconds": 82243.0,
+      "duration_seconds": 920.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Also weitere Stichwerte sind sicher die Perlenkette, die dann immer genannt wird als Accessoire der Charlotte, wenn es dann nicht eine Annalena ist. So, das bereitete auf Twitter sozusagen schon mal den Boden für den eigentlichen Skandal. Ein weiteres Video, was dann später auftauchte, ein paar Tage später. Wahrscheinlich haben es alle, die uns hören, gesehen. Wir beschreiben es trotzdem nochmal. Was tauchte dann für ein Video auf? Willst du nochmal versuchen, es nochmal einfach nur, wie sagt man so schön, zu beschreiben, aber noch nicht zu interpretieren oder zu werten. Nur was sehen wir da? Wahrscheinlich schwer in dem Fall.",
+      "begin_time": "22:39.843",
+      "begin_seconds": 82383.0,
+      "end_time": "23:15.683",
+      "end_seconds": 84383.0,
+      "duration_seconds": 2000.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, Lars, das ist tatsächlich im Moment auch eine meiner Lieblingswendungen. Ich erzähle gerne die Geschichte, die Anekdote, die Philosophen-Anekdote, wo zwei Phänomenologen, das ist eine philosophische Schule, die auf den Begründer der Phänomenologie Edmund Husserl zurückgeht. Die fahren Zug und sehen durch eine schöne Landschaft, wenn auf der grünen Wiese sehen sie eine Herde Schafe. Und dann sagt der eine, oh, was für schöne weiße, wolle Schafe. Und dann sagt der andere, zumindest von der Seite, die unserem Blick zugewendet ist. Also dahinter soll der vielleicht jetzt nur mäßig lustige Witz verborgen sein, dass man nur das sagt, was man wirklich sieht, ohne weitere Interpretationen, Erweiterungen, Extrapolationen vorzunehmen. Also zu sagen, dass das, was man da sieht, auch von der anderen Seite weiße, wolle Schafe sind, die Wahrscheinlichkeit spricht sehr dafür, wenn ihr auf der einen Seite weiße, wolle Schafe haben, dass sie es auf der anderen auch haben, wäre schon mehr als der strenge Phänomenologe zugestehen würde. Und in diesem phänomenologischen Sinn will ich gerne versuchen, das Video zu beschreiben. Es ist nicht sehr lang und schon ist es so schwer, etwas nur zu beschreiben. Jetzt wollte ich ihm schon sagen, und es blieb mir trotzdem erst mal die Spucke weg, als ich es anschaute, aber das ist ja nun schon ganz viel Interpretation. Man sieht eine gut aussehende junge Blondine, die mit vor Freude leuchtenden Augen diesen Text, Ausländer aus Deutschland und den Deutschen singt, so viel Feierfreude sieht man selten. Das ist natürlich ein starker Kontrast zu diesem Text. Dann kommt ein Schwenk rüber, das ist offensichtlich eine wackelige Handykamera, schwenkt rüber auf einen anderen, ganz genau kann ich es jetzt auch nicht festmachen, anderen jungen Mann mit Sonnenbrille, der auch eifrig laut mitgrölt. Dann schwenkt die Kamera weiterhin und nimmt eine junge Frau, die nicht mitsingt und die sich an ihren Freund vermutlich wendet und es gerade sehr bedenklich findet oder scheiße findet, was hier gesungen wird. Und dann schließe ich als Krönung dieses kurzen Ausschnitts jemanden, der nicht nur mitsingt, sondern mit den zwei Fingern der einen Hand ein Hitlerbärchen an seine Oberlippe anfügt und mit der anderen Hand so einen Hitlergruß, einen leicht variierten Hitlergruß macht, quasi gerade noch jenseits der Strafbarkeit, weil man ihn auch einfach als so eine Art DJ-Weschwörungsmove deuten könnte. Aber die Zweideutigkeit ist eine beabsichtigte.",
+      "begin_time": "23:15.703",
+      "begin_seconds": 84403.0,
+      "end_time": "25:40.263",
+      "end_seconds": 92663.0,
+      "duration_seconds": 8260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Aber können wir kurz bei diesem halben Hitlergruß stehen bleiben? Das hat sich mir so eingeprägt. Ganz interessant ist, was er mit der Hand macht. Also er reckt sie hoch. Recken ist schon das falsche Wort. Das ist zu steil und zu gradlinig. Auch in eigentlich voller Freude wirft er sie hoch, macht mit diesen angedeuteten Hitlerpartnern einen Finger. Und mit den anderen Fingern winkt er so ein bisschen, während er diesen Hitlergruß macht, was einerseits fast schon, man annehmen muss, eine kalkulierte Geste ist, um an der Strafbarkeit vorbeizugehen. Andererseits aber auch wirklich zur Freude dieses ganzen Settings passt also um die beschriebenen Leute herum, sind auch noch andere, die feiern, von denen man nicht genau sagen kann, wie viele die davon mitkriegen. Ob man denen jetzt, den wird dann auch vorgeworfen, das sei mangelnde Zivilcourage, dass sie nicht eingeschritten haben, die müssen es ja irgendwie mitbekommen haben. Aber es gibt sozusagen diese Protagonisten, aber drum herum stehen noch viele andere Leute, die alle sich sehr ähnlich sehen im ähnlichen Sinne, eben im Sinne von eben beschrieben, ja, in diesem Pliché-Szene. Genau, und am Ende sieht man eben diesen einen jungen Mann, der dann mit den Fingern so winkt während des Hitlergrußes, eben im Takt des Liedes. Paradoxerweise auch eine Geste der Freude eigentlich, wenn man nur diese Finger sich anguckt, wie freudig die dann hin und her wippen. Und ein Detail, auf das mich meine Frau hingewiesen hat, ist, dass man auch noch, und eigentlich das Video, als wäre es inszeniert ist, perfekt komponiert ist, auch noch am Ende, hinten auf der Straße, eine G-Klasse stehen sieht. Eine schwarze oder graue G-Klasse, die auch noch mal kurz ins Bild, um noch jedes Klischee damit reinzubringen.",
+      "begin_time": "25:40.523",
+      "begin_seconds": 92923.0,
+      "end_time": "27:10.923",
+      "end_seconds": 98723.0,
+      "duration_seconds": 5800.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, genau. Das ist also auf der phenomenologischen, ästhetischen Seite natürlich das Frapante, was, glaube ich, dann den viralen Erfolg auch ausmachte, dass hier quasi die Iconologie so hundertprozentig stimmt. Also da ist auch ein Klischeebild, das man sich von der Jeunesse Thuré auf Sylt machen mag, so hundertprozentig umgesetzt, im Guten wie im Schlechten. Wir sind jetzt eher noch bei der phenomenologischen Beschreibung. Auch in dieser, so ein leichtes Moment der Überraschung, dass es diesen Popper-Typus in dieser Rheinkultur überhaupt immer noch gibt. Und dann stellt man aber fest, weil es ja nicht nur dieses Video gibt, sondern wir sagten es bereits auch andere junge Leute, die während Pfingsten auf Sylt gefeiert haben. Und die haben alle denselben Look. Du hast gesagt, mit Ralph Lauren wäre man jetzt nicht so richtig in der Beschreibungskategorie. Aber ich würde schon an solche... Also das Charakteristikum ist doch schon das Polo-Shirt und da drüber geworfen der Kashmir-Polo-Ober, so wie das zuletzt Sascha Hehn zu tragen pflegte.",
+      "begin_time": "27:10.943",
+      "begin_seconds": 98743.0,
+      "end_time": "28:12.403",
+      "end_seconds": 101923.0,
+      "duration_seconds": 3180.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und die Bootsschuhe.",
+      "begin_time": "28:12.423",
+      "begin_seconds": 101943.0,
+      "end_time": "28:13.643",
+      "end_seconds": 102223.0,
+      "duration_seconds": 280.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und die Bootsschuhe dazu, genau. Und dieser Look hat jetzt gewissermaßen seine Unschuld verloren. Und man könnte auch umgekehrt sagen, er war ja immer schon unter dem starken FDP-Verdacht gestanden, die das dann aber früher anklägerisch vortrugen hatten, dann trotzdem schon noch das Problem zweifelsfrei nachzuweisen, warum ein FDP-Look böse ist. Und das ist jetzt gewissermaßen nachgeliefert worden. Für alle die, die immer schon Großmisstrauen gegen Poloshirts hatten, weil sie dahinter einen schlechten Charakter vermuteten, die sind jetzt gewissermaßen reich beschenkt worden über Pfingsten.",
+      "begin_time": "28:13.663",
+      "begin_seconds": 102243.0,
+      "end_time": "28:49.323",
+      "end_seconds": 104063.0,
+      "duration_seconds": 1820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "So, das wichtigste Element dieses Videos haben wir noch gar nicht beschrieben. Das müssen wir kurz, glaube ich, auch noch skizzieren. Dieser Text, Deutschland den Deutschen, Ausländer raus, wird gesungen zu dem Song, ich habe es schon gesagt, Lamour Toujour von Gigi D'Agostino, der jetzt über 20 Jahre alt ist. Und was ist das für ein Song? Die meisten werden ihn inzwischen kennen. Er klettert jetzt auch in den Charts hoch.",
+      "begin_time": "28:50.043",
+      "begin_seconds": 103843.0,
+      "end_time": "29:13.923",
+      "end_seconds": 106103.0,
+      "duration_seconds": 2260.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Kanntest du ihn vorher auch schon?",
+      "begin_time": "29:13.943",
+      "begin_seconds": 106123.0,
+      "end_time": "29:15.463",
+      "end_seconds": 105763.0,
+      "duration_seconds": -360.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, ja klar.",
+      "begin_time": "29:15.483",
+      "begin_seconds": 105783.0,
+      "end_time": "29:16.583",
+      "end_seconds": 105943.0,
+      "duration_seconds": 160.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also auch schon seit 1999 in dem Sinne. Noch vor seiner Verfremdung.",
+      "begin_time": "29:16.603",
+      "begin_seconds": 105963.0,
+      "end_time": "29:22.003",
+      "end_seconds": 105723.0,
+      "duration_seconds": -240.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich habe ihn kurz, als es darum ging, ah Gigi D'Agostino, habe ich mit einem anderen großen Hit verwechselt, The Riddle, aber auch diesen kenne ich. Das ist im Kopf auch von den schlechten Partys, auf denen ich als Teenager war, ist das irgendwie drin geblieben. Wir müssen ihn, glaube ich, gar nicht mehr groß beschreiben. Ich wollte gerade sagen, er steigt jetzt auch wieder in die Charts ein. Ich hoffe nicht, dass Journalisten das jetzt als Anlass nehmen zu sagen, das zeigt, wie rassistisch Deutschland ist. Ich habe diesen Song jetzt tatsächlich auch mehrmals gehört, weil man irgendwie auch so viel drüber nachdenkt und dann nochmal sich dieses Material auch zuführt. Es wird dann immer als Kirmes-Beat beschrieben, also ein im weitesten Sinne billiger Elektrosong, Spaßsong ohne großen Anspruch. Der Text ist auch ein bisschen gaga. Und es passiert so musikalisch immer genau das Erwartbare, was man von so einem Fire-Elektrosong erwartet. Und es gibt eben diesen klar erkennbaren, bisschen trötigen Kirmes-Beat, mit dem das Ganze auch einsetzt, der dann immer verschriftlicht wird als Düp, Düp, Düp, Düp, Düp, so. Und das ist genau die Stelle, auf die die krassen, brutalen Wörter Deutschland, den deutschen Ausländer raus, dann gesungen wurden in diesem Video. So, jetzt haben wir, glaube ich, einmal das Video beschrieben. Also es gibt ja verschiedene Facetten, die man jetzt noch mal durchsprechen muss. Einen wichtigen hast du schon gesagt. Das Ganze wurde zum nationalen Skandal sicher auch, weil es diese Leute gesungen haben. Und mit diese Leute ist einerseits so was gemeint wie die Mitte der Gesellschaft, also nicht irgendwelche unterstichtenden Ronnies aus dem Osten, wo man das dann so abheften würde und sagt, ja gut, was sollen die sonst singen? Wissen wir schon so. Sondern die Mitte der Gesellschaft, das macht dann natürlich Angst. Andererseits natürlich auch wieder gerade nicht die Mitte der Gesellschaft, sondern Leute, die zumindest so aussehen, als wären sie in den oberen zehn bis ein Prozent der Gesellschaft, nicht die Mitte.",
+      "begin_time": "29:23.343",
+      "begin_seconds": 106123.0,
+      "end_time": "31:08.943",
+      "end_seconds": 113023.0,
+      "duration_seconds": 6900.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Genau, angeblich muss man allein schon 150 Euro zahlen, um überhaupt ins Pony reinzukommen.",
+      "begin_time": "31:09.023",
+      "begin_seconds": 112163.0,
+      "end_time": "31:14.663",
+      "end_seconds": 113103.0,
+      "duration_seconds": 940.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Darüber müssen wir reden. Aber darf ich trotzdem erst mal über diesen Song reden? Und ich nenne es mal so, und das soll keine Verharmlosung sein, sondern einfach nur eine versuchende analytische Kategorie zu finden, über das Meme auf diesen Song, diese brutalen Zeilen zu singen. Darüber würde ich gern kurz sprechen, bevor wir zu dem Polohemden kommen. Da will ich jetzt auch noch mal was anderes vorschieben, weil ich schon gemerkt habe in den Diskussionen jetzt am Wochenende, dass da schnell auch Vorwürfe gemacht werden. Für mich ist es so, auch wenn das für andere albern klingt und andere es sogar fahrlässig finden oder verharmlosend, ich bin gerade in diesen Fällen immer für absolute hermeneutische Genauigkeit. Die interessiert mich gerade dann. Das ist auch erst mal nur ein privater, desynchratischer Wunsch von mir, dass ich das genau hermeneutisch verstehen will. Ich will wissen ganz genau, wer hat was wie genau gemeint. Das tue ich, wenn ein Komiker Vorwürfe kriegt, weil ein Witz von ihm verletzend war, dann will ich auch wissen, gegen wen sollte sich dieser Satz richten? Wie war er gemeint? In welchem Sinne war er satirisch gemeint? War er nicht satirisch gemeint? Und das interessiert mich hier erst mal auch in dem Fall. Ich bringe mal ein krasses Beispiel dafür, wie verrückt ich da bin. Kann man mir unterstellen, dass ich da verrückt bin. Akif Pirinci, du hast, glaube ich, selber mal deine Erfahrungen mit ihm gemacht, für den wir wirklich keine… Du hast dein Buch mal rezensiert, ja.",
+      "begin_time": "31:15.883",
+      "begin_seconds": 113383.0,
+      "end_time": "32:37.903",
+      "end_seconds": 118323.0,
+      "duration_seconds": 4940.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und danach bekam ich wäschekorbeweise, sagt man dann wohl, empörte Leserbriefe und wurde von der damals neuen Rechten, glaube ich, für vogelfrei erklärt, ja.",
+      "begin_time": "32:37.923",
+      "begin_seconds": 118343.0,
+      "end_time": "32:48.483",
+      "end_seconds": 118563.0,
+      "duration_seconds": 220.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Also wirklich, wir haben keinen Mitleid für den Herrn, der inzwischen wegen mehrfacher Volksverhetzung, glaube ich, eine Gefängnisstrafe bekommen hat, weil er dann auch auf die Urteile sozusagen die Bewährungsstrafen dann nicht geehrt hat, in dem Sinne, dass er aufgehört hat und so weiter. Es gab einen Vorfall, vor vielen Jahren schon, da gab es noch, da war noch Pegida in Dresden so wichtig. Und da sprach er auf einer Pegida-Demo und sagte etwas, ich nehme jetzt mal die Konsequenz vorweg, sagte etwas, was so schlimm war, dass die Pegida-Leute gesagt haben, wir wollen nichts mehr mit dem zu tun haben. Nicht nur die linksliberale Presse, sondern Pegida hat gesagt, der soll nicht mehr hinkommen. Und zwar sagte er wörtlich an einer Stelle seiner Rede, ich habe das wörtliche Zeit nochmal rausgesucht, es gäbe natürlich andere Alternativen, aber die KZs sind ja leider derzeit außer Betrieb. Woraufhin gesagt wurde, ah, Pirinchi möchte KZs wieder einführen, das ist das Schlimmste, was man sagen kann, der gehört nicht mehr dahin, auf unsere Bühne und überhaupt auf keine Bühne. Tatsächlich meinte er das aber nicht so. Bis heute macht es mich verrückt, dass das nicht jedem klar ist, dass er nicht die KZs wieder einführen wollte, sondern, und das ist ja auch schon schlimm genug, er sagte, wir Abweichler, die andere Meinung haben, werden sozusagen bestraft in allen Formen. Und eigentlich, so meinte er, es würde man uns gerne ins KZ stecken, uns Pirinschis, uns Pegida-Leute, aber die haben ja leider, aus der Perspektive der Mehrheitsgesellschaft oder der links-grünen Versifften, zu. So, und diese hermeneutische Genauigkeit, die ist mir irgendwie wichtig und die würde ich gerne auch in dem Fall einmal durchspielen, auch wenn man das für vielleicht übergenau halten mag.",
+      "begin_time": "32:48.503",
+      "begin_seconds": 118583.0,
+      "end_time": "34:20.123",
+      "end_seconds": 123723.0,
+      "duration_seconds": 5140.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, okay, ich atme jetzt schon mal tief durch. Es gibt ja auch immer hermeneutische Waghalsigkeiten. Dass du hier gerade die Ehre von Arkef Pirinschi mit diesem einen Satz verteidigst, finde ich sehr berechtigt. Ich hatte das so gar nicht mehr vor Augen. Aber in der Tat ist die Öffentlichkeit erbarmungslos. Wenn sie jemanden sowieso als böse markiert hat, dann wird ihm alles unterstellt. Selbst wenn der Satz, wie du, glaube ich, gerade plausibel gemacht hast, eigentlich anders gemeint hat. Arkef Pirinschi ist eine unerträgliche Figur, aber in der Tat, den Satz hat er, würde ich so auch sagen, nicht gemeint in dem Sinne, dass er andere da reinstecken will in das KZ, sondern dass er meint, andere wollten ihn da reinstecken.",
+      "begin_time": "34:20.503",
+      "begin_seconds": 124103.0,
+      "end_time": "35:00.663",
+      "end_seconds": 126663.0,
+      "duration_seconds": 2560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Genau, ja. Deswegen gehen wir jetzt erst mal zurück. Die auf Sylt haben das ja nicht erfunden, auf Gigi D'Agostino diesen Text zu singen, ja. Das hat ja jemand anderes erfunden, wer genau oder welche, ich weiß nicht, was ist die böse Version von Weisheit der vielen? Welche Gemeinheit der vielen auf diesen düsteren Witz gekommen ist, lässt sich nicht mehr nachvollziehen. Es lässt sich aber nachvollziehen, was der erste Beleg, das erste belegte Vorkommen davon ist, ja. Und das scheint, wenn man nichts übersehen hat, im Oktober 2023, also noch nicht so lange her gewesen zu sein, und zwar in ein Dorffest in Vorpommern, Erntedankfest heißt das glaube ich sogar manchmal, in Vorpommern, wo es auch ein Video von gibt, wo Menschen in einer Dorfdisco zu diesem Song genau diesen Text auf diese Stellen singen, ja. Das ist schon mal der erste Punkt, der mich jetzt interessiert. Dort scheint mir viel klarer zu sein, dass es sich um Rechte handelt, die das singen. Weil ich vielleicht Vorurteile habe gegenüber einer Dorfdisco in Ostdeutschland.",
+      "begin_time": "35:00.883",
+      "begin_seconds": 126883.0,
+      "end_time": "36:11.363",
+      "end_seconds": 130623.0,
+      "duration_seconds": 3740.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, ich wollte auch gerade sagen, dass du jetzt provozierst, du ein sehr naheliegend Einwand. Also, jetzt könnte man dir krassen Klassismus vorwerfen, wenn so ein brutal faschistischer Spruch gesungen wird in Vorpommern, dann ist dir völlig klar, üble Nazis. Aber wenn Leute mit Thorin Kaschme-Pullover in denselben Song singen, dann entdeckst du ein Phänomen der ästhetischen Vermitteltheit.",
+      "begin_time": "36:11.383",
+      "begin_seconds": 130643.0,
+      "end_time": "36:35.263",
+      "end_seconds": 131963.0,
+      "duration_seconds": 1320.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, vielleicht mache ich tatsächlich da einen Fehler, aber trotzdem, ich will kurz versuchen, auszuführen, warum ich an dieser Lesart festhalte. Es hat auch mit dem, auch dieses Wort benutze ich jetzt mal wertneutral, mit dem Vibe zu tun, den ich in diesem Video aus dem Oktober 23 sehe. Anders als auf Sylt, wo, man kann es nicht anders beschreiben, in der Fröhlichkeit gewunken wird und auch sozusagen zum DJ so fröhlich gewunken wird, gehen hier auch die Arme nach oben. Kein Hitlergruß, sie gehen nicht zum Hitlergruß nach oben. Sie gehen so mit dem Zeigefinger nach oben und zeigen so nach oben, aber sehr spitz und stichig und wütend, würde man sagen. So eigentlich, wie man es bei wütendem Rock macht. So wie man, auf die Frage kommen wir gleich auch noch mal, linke und rechte Gegenkultur. Ich kenne es natürlich eher aus der linken Gegenkultur, wenn man sozusagen singen würde. We're not gonna take it. So, und dann geht der Zeigefinger so nach oben. Und mit dieser Geste wird dort auch mehr gebrüllt als gesungen. Auf Gigi D'Agostino, die Textzeilen, die ich jetzt nicht nochmal zitiere. So, der Einzige, der ein bisschen rausfällt, wir können das Video auch unten verlinken, ist ein Mann, ein junger Mann, auf den das Video zuletzt schwenkt. Und ist auch der Einzige, den man so richtig erkennen kann. Der hat einen Kapuzenpullover, und das muss ich leider auch als Beleg jetzt nehmen, einen Kapuzen und einen Pullover an, auf dem das preußische Wappen drauf ist. Jetzt wirst du nur rufen, na, ich mag Preußen auch, wer das preußische Wappen trägt, wird ja jetzt noch nicht, aber gut. Wenn man in einer ostdeutschen Dorfdisco jemanden sieht, mit einem riesigen preußischen Wappen auf seinem Pullover, dass der jetzt nicht die Grünen wählt, liegt dann doch irgendwie nah. Also da will ich mich jetzt auch nicht dümmer stellen, als ich bin. So, ja. Und der singt auch nochmal am Ende. Bei dem habe ich aber das Gefühl, da ist schon fast wieder diese seltsame Fröhlichkeit mit dabei. Bei diesem letzten, den man in dem Video sieht. Oktober 23. Ich beschreibe das jetzt nochmal kurz. Und jetzt würde ich einfach sagen, in meiner hermenolischen Genauigkeit habe ich jetzt ein paar Fragen einfach nur. Vielleicht können wir da ein bisschen drüber reden und überlegen, ob wir da Antworten darauf finden. Oder vielleicht sagst du auch, die Fragen sind gar nicht interessant. Erstmal, warum nutzen Rechtsextreme? Und ich würde jetzt sagen, nicht nur dieses Video, sondern auch andere Umstände belegen, dass Rechtsextreme es nutzen. Auf die können wir gleich nochmal kommen. Benutzen ein Meme, was man ja im Teilen als ironisch beschreiben muss. Weil es passt ja alles nicht so richtig zusammen. Warum benutzen sie ein ironisch, irgendwie halbironisches Meme, für das sie nämlich so ein ja sowieso schon unzeitgemäßen brutal 90er-Jahres-Slogan wie Deutschland den deutschen Ausländer raus, während ja Martin Sellner heute von der Remigration spricht, wie wir wissen. Da gibt es ja schon eine seltsame, ich will nicht sagen ironische Distanz, aber eine Seltsamkeit zwischen diesen Formulierungen. Warum benutzen sie das und dann auch noch auf so ein unzeitgemäßes Bums Bums Kirmes-Disco-Lied von der Jahrtausendwende? Warum wird das zusammengeschwankt? Erstens. Zweitens, da frage ich mich natürlich, inwiefern geht es bei diesem Meme darum, was da gesagt wird, Ausländer raus. Oder inwiefern geht es darum, dass es gesagt wird, also um die Provokation, die damit verbunden ist? Finde ich eine zentrale Frage. Man muss natürlich auch fragen, wie hängt beides zusammen? Das ist natürlich voneinander getrennt zu betrachten. Dann würde ich gerne wissen, warum dieser Progrom-Slogan, mit dem ja sozusagen eigentlich man losmarschiert, um das Asylbewerberheim anzuzünden, warum der jetzt in diesem Kestus der gelösten guten Laune gesungen wird, zumindest auf Sylt, überhaupt, wie hat es das aus dieser ostdeutschen Scheundisco ins Sylt-Party-Milieu geschafft? Ja, findest du auch nicht völlig klar?",
+      "begin_time": "36:35.343",
+      "begin_seconds": 132043.0,
+      "end_time": "40:09.343",
+      "end_seconds": 144883.0,
+      "duration_seconds": 12840.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist nur dann, wenn ich nur ganz kurz unterbreche, weil sonst können wir alle Anmerkungen nicht merken, aber du kannst dann weitermachen, das ist nur dann nicht völlig klar, wenn man nicht der Meinung ist, dass es eine reine Kontinuität des Rassismus gibt auf der ersten und eindeutigsten Oberflächen, die Inhaltsebene, Ja, das ist eine ganz tolle Ebene. Wonach der Rechtsradikalismus, der Rechtsextremismus eben in Vorprommern genauso zu Hause ist wie in der Besserverdiener-Gesellschaft auf Kampen.",
+      "begin_time": "40:09.363",
+      "begin_seconds": 144903.0,
+      "end_time": "40:35.723",
+      "end_seconds": 146823.0,
+      "duration_seconds": 1920.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, aber selbst wenn man das so annimmt, würde ja jeder linke Analyst sagen, er äußert sich anders. Und hier ist der Witz ja gerade, dass der Witz, das traurige, dass er sich nicht anders äußert. Also das ist ja ein merkwürdiger Befund. Warum ist man auf diesem offensichtlich bürgerlichen Event, es ist ein Partyevent, aber alles, die ganze Verkleidung dieser jungen Menschen schreit ja, dass sie bürgerlich sein wollen. Der Ort, Sylt, steht für eine gewisse Bürgerlichkeit. Klar, die machen Party und die nehmen auch Kokain. Wer da jetzt konkret Kokain genommen hat, bitte nicht mich verklagen. Weiß ich nicht, aber dafür ist Sylt ja jetzt auch nicht unbekannt und so weiter. Aber trotzdem, warum sind die überhaupt an solchen Transgressionen interessiert? Die sollen doch sozusagen ihren Moet trinken und meines Weges über Geringverdiener lachen, wie sich Linke das dann vorstellen. Aber an dieser Art von Transgression, warum gibt es überhaupt ein Interesse dran? Das ist doch auch eine pervertierte Form der Transgression, weil man so im offenen Mainstream-Tageslicht plötzlich was ganz Krasses macht. Und dann frage ich mich natürlich, woher kennt man diese seltsame Transgression? Ist das ein bisschen wie bei Laila, als der verboten wurde letztes Jahr? Nur die ultra schlimme Variante davon. Und dann letzte Frage, ich will natürlich wissen, warum die Transgression, die diese jungen Leute auf Sylt erfahren, ausgerechnet diesen Inhalt hat. Also da sind wir jetzt schon wieder bei der Frage, was hat das auch mit einer rassistischen Einstellung zu tun? Warum nimmt man eben diesen Inhalt und nicht einen anderen transgressiven Inhalt? Das sind meine hermeneutischen Fragen daran. Vielleicht können wir ein bisschen darüber sprechen und kommen am Ende zu den größeren politischen Punkten.",
+      "begin_time": "40:36.263",
+      "begin_seconds": 146423.0,
+      "end_time": "42:09.943",
+      "end_seconds": 152683.0,
+      "duration_seconds": 6260.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Unbedingt. Und ich glaube, um da deine Gedanken vorzuführen, sie zu bewerten, sie zu verfeinern, ist es noch mal wichtig zu sagen, warum machen wir diese Sendung? Weil wir glauben, dass an diesem Phänomen vieles zu zeigen ist. Und natürlich kann man auch einfach sagen, naja, das ist vor allem eines, nämlich widerlicher Rassismus. Und das stimmt ja auch vollkommen. Und dann kann man sagen, damit ist das Thema für uns erledigt. Wir glauben aber, dass der Erfolg und dieser Angstgrusel, mit dem man, oder der Ekelgrusel, mit dem man diesen Song mit dem neuen Text rezipiert, die Faszination, die wir, also auch unsere Angstfaszination, die wir plötzlich mit diesem Ohrwurm haben. Wir kennen alle die unheimliche Macht eines Ohrwurms, weil der Ohrwurm ist stärker als unsere kontrollierte Bewusstseinssteuerung. Da ist etwas Unverfügbares, was wir nicht im Griff haben. Und wenn jetzt also eine schlimme menschenverachtende Parole das Vehikel eines Ohrwurms nimmt, um in unseren Köpfen anwesend zu sein, dann hat das so eine Gruselfaszination. Und genau der Grund, warum wir darüber reden, ist, weil wir glauben, es ist tatsächlich ein starkes semiotisches Phänomen. Dieses Meme wäre nicht so viral gegangen, wenn es jetzt einfach nur, nur und ausschließlich widerlicher Rassismus wäre. Es ist viral gegangen, weil dieser widerliche Rassismus sich verbindet mit anderen Momenten. Ein Moment ist das Musikalische, ein anderes Moment ist diese Provokationsgeste, das, was du die Transgression nennst. Ein wieder anderes Moment ist die soziologische Überdeterminierung, das da plötzlich, was du beschreibst, als ein Transfer aus einem ganz anderen Milieu, sogenannten Neonazi-Springerstiefel-Milieu, hin zur Segelbootschuhkampen, ins Bootschuhkampen-Milieu. All das sind verschiedene Schichten, die sich über dieses Reale legen. Und die wollen wir versuchen, auseinanderzunehmen. Ich möchte dem Einwand, den ich auch verstehe, vorgreifen, dass manche Zuhörer dann sagen, damit verharmlost ihr das. Doch, weil der Kern des Menschenverachtenden Rassismus, der muss doch im Mittelpunkt stehen, warum interessiert euch das andere? Aber ich glaube, um es zu beschreiben, braucht man diese ganzen verschiedenen Schichten. Und nur dann können wir es auch nehmen, als ein Zeichen, dass etwas über unsere Gegenwart aussagt.",
+      "begin_time": "42:09.963",
+      "begin_seconds": 152703.0,
+      "end_time": "44:38.883",
+      "end_seconds": 161563.0,
+      "duration_seconds": 8860.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, außerdem würde ich auch immer sagen, wenn man jetzt ein moralisches Problem ausgemacht hat, gegen das man etwas tun möchte, muss man ja auch die Art des Problems korrekt verstehen. Und dann ist vielleicht manchmal die Analyse, oder insofern die Analyse, dass sind eben Rassisten, dann nicht völlig deckungszutreffend ist. Ja, hat man einfach ein Problem auch an dem, was man dagegen tut, wenn man sozusagen verstehen muss, woher kommt rechtsextreme Hegemonie in popkulturellen Memes plötzlich. Das hilft ja auch, wenn man dagegen vorgehen möchte.",
+      "begin_time": "44:39.103",
+      "begin_seconds": 160843.0,
+      "end_time": "45:09.723",
+      "end_seconds": 163263.0,
+      "duration_seconds": 2420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Dein stärkstes Argument oder deine wichtigste Beobachtung, lass uns mit ihr starten, ist diese totale Diskrepanz zwischen dem ursprünglichen Charakter des Spruches Deutschland in deutschen Ausländer raus, der in der Tat, wie du das richtig beschreibst, ja aus dem Gestus des Zorns, des Aufruhrs von der Straße kommend. Jetzt geht man und will Menschen leiden sehen, die Zufluchten am Asylbewerberheim gefunden haben. Dass das sich komplett dreht und im Tonfalle der Bestgelauntheit vorgetragen wird. Dieses Indiz, worauf man immer hinweisen will, das, finde ich, darf man nicht verlieren. Das ist, worum wir uns jetzt ein bisschen bemühen, das in den Blick zu bekommen und zu fragen, wie ist das möglich und was ist da passiert?",
+      "begin_time": "45:09.743",
+      "begin_seconds": 163283.0,
+      "end_time": "45:50.863",
+      "end_seconds": 165863.0,
+      "duration_seconds": 2580.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich will auch nicht zu viel monologisieren. Ich will nur zwei, drei Bausteine noch hinzufügen, weil du das noch mal aufgeworfen hast, diese Frage. Nämlich erstens muss man sagen, das reden wir mal vom echten Neonazi, dass der Neonazi auf einen gewissen, ich nenne es mal, V-Effekt setzt, einen Verfremdungseffekt. Das sollte uns nicht überraschen. Das müssen wir eigentlich wissen. Ich bin jetzt nicht der größte Experte, da gibt es bessere Kenner von echter Neonazi-Rock und Musikkultur. Aber dass dort gerne Schlager genommen werden und umgetextet werden mit den brutalstmöglichen Texten, das ist bekannt schon lange. Und ich bringe jetzt mal das brutalstmögliche Beispiel. Wir alle erinnern uns noch mit Grusel an das Video, was vom NSU auftauchte. Ein Bekennervideo, was aber erst auftauchte, als sie tot waren. Außer der harte Cheppe, aber die anderen tot waren. Wo der rosarote Panther immer mit dieser Kinderfernsehen-Melodie auftauchte. Und das zusammengespannt wurde mit ja jetzt nicht nur einer brutalen Parole, sondern Morden. Also dieses Element scheint Neonazis immer schon vertraut gewesen zu sein. Von daher ist es jetzt erstmal vielleicht nicht so eine große Überraschung, dass Neonazis dieses alberne Bumstechno-Lied mit seiner albernen Liebesbotschaft nehmen und darauf das singen. Es ist aber etwas anderes, glaube ich, passiert, was ein bisschen komplizierter noch ist. Und zwar dieses Video, was ich beschrieben habe, vom Ernte Dankfest in Vorpommern, tauchte im Oktober 23 auf. Und dann gibt es kurze Zeit später auch im Internet Memes und Verweise da drauf. Und es wurde was gemacht mit dem Video. Und da sind so die ersten Sachen, die passieren, dass Leute von Twitter oder aus anderen Foren im Netz, die den Sound dieses Videos auf andere Videos legen. Und das sind sicher, glaube ich, irgendwie Rechte, die das machen, aber sie machen es in einer irgendwie anarchistischen Weise. Also es sind nicht strategische Köpfe des Vorfelddenkens von Kubitschek bis Sellner, die jetzt sagen, wie können wir das benutzen, sondern so ein bisschen mehr so aus dem Bauch, aus dem Anarchismus, aus dem bösen Anarchismus heraus. Es wurde sofort auf ein Video mit dem Rapper Flair gelegt, was kann man immerhin interpretieren, soll Sinn machen, weil Flair mal vorgeworfen wurde, er wäre irgendwie deutsch-national, aber es ist mehr so aus dem Gag, weil Flair so eine Gag-Figur im Internet ist. Dann wurde es auf ein Video gelegt, wo Armin Laschet feiert mit CDU-Leuten, was auch erst mal keinen Sinn ergibt, einfach nur so, jetzt sage ich schon ein wichtiges Wort, for the lulls, wie man dann auf Englisch sagt, einfach nur aus Scheiß, ja. Und das glaube ich erinnert mehr an das, was wir kennen aus den frühen Trump-Kampagnen, wo man immer gesagt hat, es gibt so ironische Trump-Internet-Kits, so von Reddit und anderen Internetforen, die finden es irgendwie lustig, dass Trump so brutal ist und die sind auch irgendwie rechts, aber alles hat so einen anarchistischen, ironischen Gestus. Und das war auch Teil zumindest von Trumps Erfolg im Internet. Und dieses Element, dieses ein bisschen anarchistische Element, kam glaube ich dann hinzu, als das einmal den Übertritt ins Internet geschafft hatte. Gleichzeitig kam natürlich dazu, dass echte strategische Player, die AfD, Selner, das Lied und den Verweis bewusst strategisch eingesetzt haben, da ist dann nichts anarchistisches dabei. Als Zelda mal irgendwie ein Video gemacht hat, lief zum Beispiel Gigi D'Agostino einfach so unschuldig im Hintergrund, so als, wie sagt man heute, Dog-Whistle, um klar zu machen, dass Remigration natürlich eigentlich heißt, Ausländer raus. Ja, aber diesen Zweischritt wollte ich noch klar machen. Es gibt sozusagen so diesen Verfremdungseffekt bei Neonazis, der das Ganze schon so eklig macht, aber dann kommt dieser Internet-Anarchismus noch oben drauf.",
+      "begin_time": "45:50.883",
+      "begin_seconds": 165883.0,
+      "end_time": "49:24.763",
+      "end_seconds": 178603.0,
+      "duration_seconds": 12720.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, das ist interessant. Zumal unser Bild des klassischen Neonazis, aber eigentlich auch der neuen Rechten, ist ja immer der von einem Mangel an Lebensfreude, die voller Resentiments sind sie quasi schon selbst gestraft genug damit, dass sie sich in unserer hedonistischen, urbanen Multikulti-Welt, dass sie da nicht einfach mitfeiern können. Und jetzt scheint da etwas zu passieren, was irgendwie Ausdruck ironischer Provokationsfreude ist, so wie man das zum Beispiel in der 1860er Zeit dann auch von den Situationisten kannte oder von den Spontis und so weiter. Natürlich mit anderen popkulturellen Versatzstücken, aber irgendwie nach einem ähnlichen Prinzip verfahren. Und wenn wir uns das Video anschauen, stelle ich mir schon die Frage, was ist in Deutschland passiert, dass plötzlich eine bestimmte Form des popkulturellen Provokationsgestus rechts angekommen ist oder umgekehrt gefragt hat vielleicht tatsächlich ein Rechtsruck im Land stattgefunden, der jetzt dazu führt, dass man heute rechte Parolen als gut gelaunte Provokationsparolen absondern kann, so wie man auf der linken Seite natürlich immer mit Che Guevara T-Shirt herumlaufen konnte oder Pol Pot verherrlichen konnte, obwohl Karwa, dass der eine Massenmörder war und der andere auch Blut an den Fingern hatte. Also für mich war die eine der Erkenntnisse aus dem vergangenen Wochenende schon, dass ich sagen würde, seit ich denken kann, warnen meine linken Freunde vor dem Rechtsruck in Deutschland. Und damit meine ich seit 30 Jahren und ich fand das immer sehr, sehr unglaubwürdig. So wie je und warnte auch immer davor, so wie jemand im Theater zu oft Feuer ruft, dann glaubt man natürlich irgendwann und nie brennt's, dann verliert dieser Warnruf eine Substanzialität. Und so schien mir auch die Warnung vor dem Rechtsruck, der immer schon, immer schon am Laufen war, eigentlich eine leere linke Selbstbestätigungsgeste. Jetzt würde ich eigentlich sagen, tatsächlich in den letzten vier, fünf Jahren glaube ich, dass tatsächlich unser öffentliches Denken wieder, nachdem es ganz lange, ganz stark nach links gerückt ist, Stichwort Sozialdemokratisierung der CDU unter Angela Merkel und so weiter, erleben wir tatsächlich gerade eine Gegenbewegung. Und zum ersten Mal würde ich jetzt selber sagen, ich glaube tatsächlich, dass wir eine rechte Tendenzwende haben. Ich meine das im Übrigen noch erstmal gar nicht moralisch bewerten, sondern einfach in dem Sinne, welche Argumente, welche Ansichten werden in der Öffentlichkeit abgerufen und diskutiert. Und als Teil einer solchen rechten Tendenzwende, glaube ich, muss man das schon lesen, wenn hier die Kinder aus den Spitzenverdienermilieus glauben, Distinktionspunkte, Provokationsdistinktionspunkte einzukassieren, wenn sie diesen Text auf dieses Lied singen. Denn sie wissen ja, was sie tun, würde ich sagen. Oder würdest du sagen, sie wissen eigentlich nicht genau, was sie tun, sondern sind gerade nur, wollen nur spielen?",
+      "begin_time": "49:24.943",
+      "begin_seconds": 178783.0,
+      "end_time": "52:29.423",
+      "end_seconds": 189363.0,
+      "duration_seconds": 10580.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das ist eine fiese Frage. Wollen die nur spielen? Wollen diese Leute in dem Video nur spielen? Ich würde mal, ich würde jemanden sagen, die wollen nur spielen, aber das heißt ja nicht, dass Spiele nicht gefährlich sind, offensichtlich für sie selbst. Vielleicht war das auch Teil des Spiels. Also gewisserweise kann ich mir das auch als eine Mutprobe vorstellen. Aber natürlich ist eben ein Spiel, egal wie gespielt es ist, auch gefährlich für Ausländer, die in unserer Gesellschaft leben oder Menschen, die unter so einer rechten Hegemonie dann zu leiden haben, die das irgendwie jetzt mit flustert. Aber das Wort spielen würde ich nicht ganz von der Hand weisen. Ich will, was du sagst, noch einmal auf der kulturellen, auf dieser Memebene unterstreichen. Was doch interessant ist, ist, dass es jetzt so linke Versuche gibt, diesen Song zu reclaimen. Also linke, die extra sich dabei filmen, wie sie etwas anderes auf Lamour Toujour singen. Ich habe eine Version gesehen mit Nazis auf Maulspringer enteignen. Ich habe eine Version gesehen mit Nazis raus. Deutschland ist Multi statt Deutschland den Deutschen. Das fand ich allerdings ein bisschen schwach. Also das schien mir dann, da bin ich dann doch, da bin ich ja vielleicht doch auch noch zu anti-deutsch, dass ich immer denke, also wenn man das als linker umtextet, muss doch mindestens sowas kommen, wie Deutschland ist scheiße oder so. Deutschland ist Multi. Also gut, egal wie ich das jetzt finde, was ich wichtiger finde ist, das ist ja eine ganz ungewohnte Situation für linke. Normalerweise gibt die linke ja den kulturellen Takt vor und dann versuchen so verzweifelt in, wie heißt der Ort, wo die da sind, immerhin schnell roda, versuchen die das irgendwie so umzupopeln, dass sie sich da irgendwie draufsetzen können als Rechte. Aber hier, weil der Gigi D'Agostino Song ist ja auch kein linker, es kam sozusagen aus der Neutralität, wurde von Rechten dann für ihre Zwecke benutzt und jetzt hächelt man dem so hinterher und das mag zwar gut gemein sein und vielleicht funktioniert sogar und man kann da wieder was anderes draufsingen, aber es beweist ja nur umso mehr, dass sich was gedreht hat und die rechte Hegemonie da ist, weil man ihr plötzlich hinterher laufen muss kulturell.",
+      "begin_time": "52:29.443",
+      "begin_seconds": 189383.0,
+      "end_time": "54:28.843",
+      "end_seconds": 196923.0,
+      "duration_seconds": 7540.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ein kurzes Durchatmen und Resümieren, weil du einige Schlüsselbegriffe hast fallen lassen, die vielleicht erklärungsbedürftig sind. Schnellrode ist ein Ort in Sachsen-Anhalt, dort lebt Götz Kubitschek, der als der intellektuelle Vordenker der neuen Rechten gilt und zwar ungefähr seit 20 Jahren. Er nennt das glaube ich ehemaliges Rittergut, Bauernhof glaube ich. Ich war da noch nie, aber einen Bauernhof gekauft. Und der hat halt sehr früh eine der Zentralfiguren linken kulturmarxistischen Denkens rezipiert, nämlich des Italieners Gramsci. Und Gramsci war anders als Marx eben kein Materialist, sondern sagte, wir müssen die Köpfe gewinnen, wir müssen die Ideen auf unsere Seite holen. Und das ist das sogenannte politische Vorfeld. Nur dann können wir quasi eine Kulturrevolution des politischen Denkens bezwecken. Und diese klassische kultur-marxistische Position, die hat Kubitschek und Design eben rezipiert und gesagt, nee, unser Geschäft ist jetzt nicht mehr mit den Baseballschlägern Ausländer anzugreifen oder Asylbewerber heim zu bedrohen, sondern wir müssen den Kampf um die Köpfe gewinnen, wir müssen über Ideen reden und streiten und wir müssen eben kulturelle Hegemonie zurückgewinnen. Und man könnte aus dieser Perspektive sagen, dass man in Schnellrode jetzt mit hoher Befriedigung auf Kampen blickt und sagt, wir haben fast schon die Ziellinie erreicht.",
+      "begin_time": "54:29.703",
+      "begin_seconds": 196843.0,
+      "end_time": "56:01.903",
+      "end_seconds": 202563.0,
+      "duration_seconds": 5720.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Bevor ich dir gleich noch eine große Frage stelle, die du mir beantworten musst, ja noch zwei Details zu dieser kulturellen Hegemonie. Irgendjemand fasst das auf Twitter auch schon gut zusammen, Gigi D'Agostino oder Gramsci, Hauptsache Italien, ja mit dem alten Fußballerspruch. Es ist ja nicht so, als wäre dieser Song nur da mal auf diesem Erntedankfest im Oktober im Osten und jetzt auf Sylt gesungen worden. Zwischendurch gab es auch Vorfälle, wir müssen sie nicht alle aufzählen.",
+      "begin_time": "56:01.923",
+      "begin_seconds": 202583.0,
+      "end_time": "56:27.643",
+      "end_seconds": 203863.0,
+      "duration_seconds": 1280.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Beruhigterweise im Fränkischen, ich glaube in der Nähe von Erlangen oder so, da feierte nach einem AfD-Parteitag die AfD-Jugend, wenn ich das richtig recherchiert habe, in einer Dorfdisco oder in einem Club. Und da sangen die auf Gigi D'Agostino auch den furchtbaren Text.",
+      "begin_time": "56:27.663",
+      "begin_seconds": 203883.0,
+      "end_time": "56:47.283",
+      "end_seconds": 204703.0,
+      "duration_seconds": 820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und jetzt geht es aber weiter. Es tauchen sozusagen immer neue Meldungen auf. Jetzt kurz vor der Podcast-Aufnahme lade ich, dass es einen Luxusinternat in Schleswig-Holstein gibt. Ich wusste nicht mal, ich dachte, in Deutschland gibt es sowas. Ich dachte, es gibt nur Saarlärm in Deutschland. 50.000 Euro im Jahr kostet es. Ich habe den Namen jetzt vergessen von dem Internat. Ah ja, du kennst dich da aus.",
+      "begin_time": "56:47.303",
+      "begin_seconds": 204723.0,
+      "end_time": "57:09.223",
+      "end_seconds": 205963.0,
+      "duration_seconds": 1240.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Jaja, die Hamburger schicken ihre Kinder da gerne hin.",
+      "begin_time": "57:09.243",
+      "begin_seconds": 205983.0,
+      "end_time": "57:12.163",
+      "end_seconds": 206083.0,
+      "duration_seconds": 100.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und da haben Minderjährige das auf einer Party gesungen. Und interessanterweise, total erst mal lustiger Satz, die Lehrer haben es aber beendet und die Kinder ins Bett geschickt, steht in der Spiegel-Online-Meldung. Die Kinder ins Bett geschickt, interessant, so. Und was ist dann jetzt die nächste Meldung? Natürlich war fast zu erwarten der Wiesenverantwortliche, der verantwortlich für das Oktoberfest, hat den Song verboten fürs Oktoberfest. Er hat gesagt, wir können auf dem Oktoberfest im Herbst nicht La Morte aux Jours spielen, weil man Angst hat, dass dann jemand sowas singt und sowas wollen wir jetzt.",
+      "begin_time": "57:13.223",
+      "begin_seconds": 206203.0,
+      "end_time": "57:45.203",
+      "end_seconds": 208103.0,
+      "duration_seconds": 1900.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "So, und jetzt beginnt natürlich eine Paradoxie zu greifen, die ich ohne jede Schadenfreude hier beschreiben möchte. Der Song wird immer erfolgreicher werden, gerade weil er in der Lage ist, so von höchster Stelle Gegenreaktionen hervorzurufen. In einem Therapiesprech gibt es doch immer diese Formulierung von der Selbstwirksamkeit, also dass man spürt, dass man durchs eigene Handeln etwas bewirken kann. Und das ist nun plötzlich möglich. Man singt Deutschland und die deutschen Ausländer raus auf diesen Song und man weiß, jetzt wird als nächstes der Bundeskanzler eintadeln, jetzt wird die Bundestagspräsidentin Bärbel Bas eintadeln, jetzt wird der Bundespräsident das Wort ergreifen und seinen Abscheu zum Ausdruck bringen. Und ich nenne es eine Paradoxie, deswegen weil es natürlich widerlich ist, diesen widerlichen Text zu singen, weil aber die popkulturelle Viralität ein stärkeres Instrument ist als jede moralische Verurteilung. Und deswegen ist das fast schon ein Selbstläufer. Nicht wie alle Selbstläufer, nicht auf ewig, aber erstmal findet so eine Art Schubumkehr statt. Jede politische Entrüstung der Erwachsenen gewissermaßen kann die provokante Jugend nur noch mehr dazu verführen und verleiten, bevor sie ins Bett geschickt werden, jetzt nochmal extra. Und deswegen gibt es ja auf Twitter eine Fülle, zum Beispiel ganz viele Orgelaufnahmen sind mir begegnet, wo Männer oder Frauen in Kirchen an Orgeln sitzen und jetzt dieses Lied, in dem Fall ohne Text, spielen. Das ist auch so ein Moment, das ich auch selber als sehr unheimlich empfinde. Die Verknüpfung der Melodie mit dem Text ist jetzt gewissermaßen neuronal in all unseren Köpfen so stark verdrahtet, dass es den Text gar nicht mehr braucht, sondern nur noch die Melodie. Und deshalb plötzlich, wir werden jetzt immer, egal wo, auf jedem Volksfest, auf jeder Party, wenn nur die Melodie gespielt wird, können wir uns nicht sicher sein, ob die Menschen, die da tanzen, im Kopf nicht den schlimmen inkriminierten Text heimlich mit summen, oder ob das tatsächlich noch der alte unschuldige Partyhit von vor 20 Jahren ist. Und darin liegt gewissermaßen das unheimliche und das virale Potenzial dieses Liedes. Und deswegen ist zum Beispiel so jemand wie der Martin Sellner, der Österreicher, der die Identitäre Bewegung, ich glaube, in Österreich anführt, und der ein kluger, taktisch oder strategisch, glaube ich, sozialpsychologisch raffiniert handelnder ansonsten widerlicher Typ ist. Deswegen erlebt er gerade so seinen Heiligabend und Ostern an einem Tag, weil er sieht, wie gut das jetzt mit diesem Lied erstmal funktioniert.",
+      "begin_time": "57:45.223",
+      "begin_seconds": 208123.0,
+      "end_time": "1:00:25.763",
+      "end_seconds": 3625.763,
+      "duration_seconds": -204497.237
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Du hast jetzt, wir haben ein bisschen vertauschte Rollen heute gehabt, weil du hast dann doch jetzt sehr oft moralisch gesprochen, zu Recht ja auch, und das verurteilt. Nein, das ist gar keine Kritik. Ich noch nicht, ja. Weil ich mir das moralische, hab's schon angedeutet, für was anderes aufsparen wollte. Ich bin vielleicht sogar wirklich so sehr Meinungsfreiheitsmaximalist ich als Individuum, dass mir vielleicht die ganz große moralische Empörung fehlt, wenn ich nur einen Satz höre und vom Kontext abstrahiere, ja. Und mir möglicherweise vorstellen kann, vielleicht ist es wirklich völlig ironisch gemeint gewesen, glaube ich bei denen nicht. Man könnte sich aber vorstellen, was ist, wenn das einfach Punks gewesen wären, die das gesungen hätten. Da würde man sagen, die hätten es nicht gesungen. Was ist, wenn sie es gesungen hätten? Dann würde man sagen, es war offensichtlich eine ironische Appropriation. Also da fehlt mir so der klare, die Angst fehlt mir da. Ich habe so wenig Angst vor Wörtern. Aber wovor ich Angst habe, ist, dass offensichtlich upstream von unserer Popkultur plötzlich echte Rechtsextreme sitzen. Und das macht mir wirklich Sorge. Also davor habe ich Angst, dass das Zeug aus Orten kommt und von Leuten geprägt und vorangetrieben wird, mit denen ich wirklich gar nichts zu tun haben will. Das ist sozusagen mein moralisches Problem an der Geschichte.",
+      "begin_time": "1:00:26.503",
+      "begin_seconds": 3626.503,
+      "end_time": "1:01:41.783",
+      "end_seconds": 3701.783,
+      "duration_seconds": 75.27999999999975
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Oder an wen denkst du da? Das habe ich jetzt nicht verstanden. Wer sind diese Leute, von denen du jetzt sprichst?",
+      "begin_time": "1:01:41.803",
+      "begin_seconds": 3701.803,
+      "end_time": "1:01:45.723",
+      "end_seconds": 3705.723,
+      "duration_seconds": 3.9200000000000728
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Na ja, jetzt hat nun niemand, wie das bei Memes so ist, jetzt hat ja nicht Selner dieses Meme erfunden, aber er zum Beispiel hat es mitgemacht und mitgeprägt. Es gibt irgendwelche rechten Internet-Edge-Lords, die die Videos dann bearbeitet haben, von denen ich erzählt habe. Und ich möchte eigentlich nicht, dass meine Popkultur von diesen Leuten kommt. Oder unsere Popkultur oder die Popkultur. Das ist meine Sorge.",
+      "begin_time": "1:01:45.743",
+      "begin_seconds": 3705.743,
+      "end_time": "1:02:06.003",
+      "end_seconds": 3726.003,
+      "duration_seconds": 20.26000000000022
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ach so, ja, aber das ist doch das Phänomen, über das wir reden. Das ist doch das Novum, dass ich plötzlich...",
+      "begin_time": "1:02:06.023",
+      "begin_seconds": 3726.023,
+      "end_time": "1:02:11.283",
+      "end_seconds": 3731.283,
+      "duration_seconds": 5.2599999999997635
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich will nur sagen, wie schlimm ich es finde. Wie schlimm ich es finde, das will ich nochmal sagen.",
+      "begin_time": "1:02:11.303",
+      "begin_seconds": 3731.303,
+      "end_time": "1:02:14.723",
+      "end_seconds": 3734.723,
+      "duration_seconds": 3.4200000000000728
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, ja, aber das muss nochmal... Was irgendwie weiterhin, finde ich, auch erklärungsbedürftig ist. Wie kann es passieren, dass es jetzt rechte Popkultur gibt? Und dass vor allem, es bleibt doch weiterhin... Also mir bleibt es schon weiterhin ein Rätsel. Man kann jetzt einfach sagen, ja, endlich bist du mal erwischt bei deinen Vorurteilen. Ich habe natürlich per se nichts gegen Leute, die Kashmir-Pullover tragen. Ich selber bin auch manchmal gerne in Kampen. Ich bin nicht der Meinung, und das ist ja eine große Erzählung aller meiner linken Freunde, die reden ja immer vom Extremismus der Mitte. Und damit ist gemeint, der schlimme Neofaschismus fange eben nicht erst irgendwo im düstersten Dorf der Sächsischen Schweiz an, sondern sei in Wahrheit im Herzen des Bürgertums immer schon tief drin, weil dieses Bürgertum zum Beispiel den Asylparagraf in den frühen 90er Jahren verändert hat. Das sei quasi hinter der bürgerlichen Fassade bereits eine Form der Ausländerfeindlichkeit und des wiederauferstandenen Faschismus. Und die Gegenbewegung zur Willkommenskultur sei eben auch Radikalismus der Mitte. Und da läge die viel größere Gefahr, weil das natürlich Menschen mit Geld und mit Macht seien. Und diese Narration fühlt sich nun total bestätigt. Und wenn ich, und die kann jetzt zu mir sagen, Ed Shebatch, wir haben es dir immer schon gesagt, das hast du jetzt mit deinen Leuten, die in der Sansibar abhängen und gerne Bootschuhe tragen. Das sind, die haben es, die haben bisher gewiss an den letzten 30 Jahre, haben die sich mühselig am Riemen gerissen. Aber jetzt war einfach zu viel Champagner im Glas und das über ich hatten sie nicht mehr im Griff. Und da haben sie das gesungen, was in ihrer düsteren Seele in Wahrheit immer schon mitgeschwungen hat, nämlich Deutschland und die deutschen Ausländer raus. So, ich kann also in diesem Vorkommnis die Wiederlegung meiner Naivität mit meiner mittig-bürgerlichen Grundeinstellung zum Ausdruck gekommen finden. Tue ich mich natürlich schwer, aber ich will mich diesen Vorwurf auch nicht ganz entziehen. Verstehst du, was ich meine? Ich will jetzt nicht einfach nur so sagen, hm.",
+      "begin_time": "1:02:14.743",
+      "begin_seconds": 3734.743,
+      "end_time": "1:04:25.203",
+      "end_seconds": 3865.203,
+      "duration_seconds": 130.46000000000004
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, aber das war die große Frage, an die ich dich angekündigt habe. Also du sagst jetzt auch, es gibt einen Rechtsruck. Nur du hast ja, anders als Linke hast du ja ein riesen Problem, weil du musst jetzt entweder zugeben, dass der Rechtsruck eben zugleich ein, was du als konservativ beschreiben würdest, ist und eben faschistisch oder protofaschistisch oder rechtsradikal. Entweder du musst das zugeben oder du musst irgendeine Erklärung finden, warum das nur ein Zufall ist, wenn das Teil des Rechtsrucks ist. Das wird aber schwer, glaube ich, jetzt.",
+      "begin_time": "1:04:25.223",
+      "begin_seconds": 3865.223,
+      "end_time": "1:04:55.863",
+      "end_seconds": 3895.863,
+      "duration_seconds": 30.639999999999873
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist ja immer ein bisschen so ein fieses Spiel in der Öffentlichkeit, immer schon. Kein Phänomen der Gegenwart, dass gewissermaßen Links und Rechts jeweils auch von der Gegenseite verhaftet werden für ihre extremistischen Ränder. Ich würde, wie soll ich das vorsichtig ausdrücken? Ich finde es jetzt total legitim zu überlegen, ob die Regierungen in Europa und auch in den USA nicht tatsächlich eine grundverkehrte Migrationspolitik fahren. Und mir scheinen auch viele Wahlergebnisse ein deutlicher Hinweis auf zu sein, dass da Handlungsbedarf herrscht. Ich möchte aber nicht diese Formen, das kann man ja auch bereits eine rechte Tendenzwende nennen, würde ich auch jetzt gar nicht bestreiten. Das sind ja keine klassischen linken Forderungen, sondern rechte Forderungen. Und insofern, glaube ich, finde tatsächlich so etwas, wenn der Bundeskanzler Scholz sagt, jetzt muss erbarungslos, ich kenne sein Adjektiv gar nicht mehr, jetzt muss mal richtig ordentlich abgeschoben werden, das würde ich auch fraglos sagen. Ja klar, hier beobachten wir die Veränderung einer politischen Grundtendenz. Und ich würde aber gleichzeitig für mich beanspruchen, dass das nicht ein und dasselbe ist wie einen faschistischen Slogan, ein menschlichen Slogan wie den deutschen Ausländer rauszusingen.",
+      "begin_time": "1:04:55.883",
+      "begin_seconds": 3895.883,
+      "end_time": "1:06:13.823",
+      "end_seconds": 3973.823,
+      "duration_seconds": 77.94000000000005
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Aber wer ist denn dann der Träger deiner nicht faschistischen rechten Tendenzwende, wenn es jetzt, stipulieren wir mal, diese Leute auf Sylt, ja jetzt schon mal nicht sein können, weil die singen ja Ausländer raus.",
+      "begin_time": "1:06:13.843",
+      "begin_seconds": 3973.843,
+      "end_time": "1:06:25.183",
+      "end_seconds": 3985.183,
+      "duration_seconds": 11.340000000000146
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Die nicht frei sprechen.",
+      "begin_time": "1:06:25.203",
+      "begin_seconds": 3985.203,
+      "end_time": "1:06:26.623",
+      "end_seconds": 3986.623,
+      "duration_seconds": 1.4200000000000728
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Oder du sprichst sie frei. Oder du sagst, die haben das nur ironisch gemeint, deswegen die sind eigentlich doch normale Konservative. Wir wissen ja gar nicht, was die sind.",
+      "begin_time": "1:06:28.703",
+      "begin_seconds": 3988.703,
+      "end_time": "1:06:37.163",
+      "end_seconds": 3997.163,
+      "duration_seconds": 8.460000000000036
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich glaube nicht, dass sie das ironisch gemeint haben. Ich glaube, sie haben es gesungen, weil sie etwas singen wollten, was ein maximales Provokationspotenzial hat. Das alleine hätte aber nicht gereicht, sondern sie singen es auch deswegen, weil sie tatsächlich glauben, dass das die schwache Stelle des politischen Systems ist. Also verstehst du, was ich sagen will? Auf zwei Ebenen. Einerseits ist es ein Spiel mit der Provokation, die hat aber als notwendige, wenn auch nicht hinreichende Bedingungen zur Voraussetzung, dass man der Meinung ist, das ist die schwache Stelle. Das ist der blinde Fleck unseres herrschenden politischen Klasse. Deswegen nehmen wir uns jetzt das Recht heraus, die genau da zu treffen und zu zeigen, hey, ihr könnt uns moralisch gar nicht erpressen, wir singen die vorstelligsten Sachen mit der besten Laune, weil wir euren Moralismus, ich glaube, dass euer Moralismus längst tot ist und nicht mehr lebendig, ja. Verstehst du, ist der Gedanke, ich will nicht sagen, ob ich Recht habe in meiner Beobachtung, aber ist er zumindest erstmal als Argument schlüssig formuliert? Ich bin mir selber nicht sicher, ist er schlüssig formuliert?",
+      "begin_time": "1:06:37.283",
+      "begin_seconds": 3997.283,
+      "end_time": "1:07:46.463",
+      "end_seconds": 4066.463,
+      "duration_seconds": 69.18000000000029
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nein, der letzte Gedanke scheint mir eine sehr gute Beschreibung zu sein von dem, was da passiert, bin sogar geneigt, dem zuzustimmen. Nur ist es keine Antwort auf die Frage, die du gerade selbst vorhergestellt hast oder die ich da nochmal gestellt habe, nämlich wenn du an eine rechte Tendenzwende glaubst, glaubst du dann auch, dass Konservativismus und Ausländer-Rausfaschismus nur zwei Seiten der gleichen Medaille sind?",
+      "begin_time": "1:07:46.483",
+      "begin_seconds": 4066.483,
+      "end_time": "1:08:10.163",
+      "end_seconds": 4090.163,
+      "duration_seconds": 23.679999999999836
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nein, sind nicht zwei Seiten der gleichen Medaille, gehen null und gar nicht. Also ich bin dafür, dass wir eine andere Einwanderungspolitik haben, bei der wir viel mehr auf Qualifikation schauen, bei der wir nicht zulassen, dass die Zuwanderung vor allem illegal erfolgt. Ich möchte legale, dann gerne übrigens sehr proaktive und auch intensive Zuwanderung, aber die muss, wie das andere klassische Einwandererstaaten, wie Neuseeland oder Kanada machen, die muss nach unseren Regeln geschehen. Das ist mir, halte ich für ein wichtiges und politisch legitimes Anliegen. Und ich bin der Meinung, dass das gar nichts mit Ausländerfeindlichkeit zu tun hat. Ich meine, Ausländerfeindlichkeit ist vulgär, billig und hässlich. Nee, um Gottes willen.",
+      "begin_time": "1:08:10.183",
+      "begin_seconds": 4090.183,
+      "end_time": "1:08:53.923",
+      "end_seconds": 4133.923,
+      "duration_seconds": 43.73999999999978
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich glaube, wir machen einfach an der Stelle mal einen Cut, auch wenn es ein ungewöhnlicher Moment ist. Ich finde, es steht immer noch eine große Frage im Raum, die sich vielleicht auch nicht so schnell auflösen lässt. Wir gehen einfach mal, wie wir das manchmal machen, zu unserer Prognosefrage am Schluss über. Oder habe ich dir jetzt mitten im Gedanken das Wort abgeschnitten?",
+      "begin_time": "1:08:54.023",
+      "begin_seconds": 4134.023,
+      "end_time": "1:09:10.763",
+      "end_seconds": 4150.763,
+      "duration_seconds": 16.73999999999978
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nein, ich merke, ich hatte mich gerade so konzentriert in Rage geredet, dass ich schon länger auch nicht mehr auf die Uhr geschaut habe und sehe, dass die schon recht weit fortgeschritten ist. Liebe Zuhörer, ihr seht, wir haben uns ein, wir fanden das Thema, darf ich kurz mal das so als Schluss, wir fanden das Thema popkulturell hoch interessant. Wir haben diese ganzen Aspekte, was heißt das eigentlich, kennt man nicht auch von sich selber in der Jugend, in der frühen Jugend, dass man sich zu der ein oder anderen Provokation hinreißen hat lassen, wie funktioniert Punk, wie funktioniert Überschreitung, das hätten wir jetzt alles noch vertiefen können, das haben wir nicht geschafft. Aber wir wollten uns vor diesem Thema nicht drücken, da liegt irgendetwas in der Luft und vielleicht war es jetzt nicht besonders konsistent, sodass sich das jetzt alles rundet, was wir ausgeführt haben. Aber hoffentlich haben wir ein paar weiterführende Überlegungen zu diesem Video zustande gebracht. Das wäre meine Hoffnung, meine Hoffnung.",
+      "begin_time": "1:09:11.823",
+      "begin_seconds": 4151.823,
+      "end_time": "1:10:07.983",
+      "end_seconds": 4207.983,
+      "duration_seconds": 56.159999999999854
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich glaube schon und ich glaube, wir kriegen jetzt auch noch eine tolle Prognose von dir zustande. Die ist nämlich diesmal ziemlich einfach. Wir erinnern uns alle, auch die Hörerinnen und Hörer, an deinen großen Prognose-Erfolg, als du den letzten Fußball-Weltmeister vorausgesagt hast. Ich möchte einfach, dass du das jetzt wiederholst für die Fußball-Europameisterschaft, die dieses Jahr ja in Deutschland stattfindet. Wer wird Fußball-Europameister? Ich kann dir auch nochmal vorlesen, wer dabei ist, falls du da eine Hilfe brauchst. Aber ich glaube, die Großen sind alle dabei.",
+      "begin_time": "1:10:08.383",
+      "begin_seconds": 4208.383,
+      "end_time": "1:10:40.503",
+      "end_seconds": 4240.503,
+      "duration_seconds": 32.11999999999989
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich weiß gar nichts über Fußball, gar nichts. Und ich weiß auch nicht mehr, damals gab es komplett außerfußballerische Gründe, warum ich Argentinien sagte. Und es war dann eine glückliche Koinzidenz, dass ich damit richtig lag. Ich kann jetzt gar keinen Namen sagen. Ich weiß ja wirklich gar nichts. Ich weiß noch nicht mehr, wer da spielt. Das Einzige, was ich wusste, ich wollte ein kleines Fest machen. Und als ich die ersten Einladungen ausgesprochen habe, hieß es, na ja, hast du eine große Leinwand und ich warum eine große Leinwand. Ja, da ist doch das Viertelfinale. Daraufhin musste ich mein Fest verschieben. England. England wird Europameister.",
+      "begin_time": "1:10:40.523",
+      "begin_seconds": 4240.523,
+      "end_time": "1:11:16.783",
+      "end_seconds": 4276.783,
+      "duration_seconds": 36.26000000000022
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das wäre natürlich eine große Sache für die Engländer jedenfalls.",
+      "begin_time": "1:11:17.183",
+      "begin_seconds": 4277.183,
+      "end_time": "1:11:21.123",
+      "end_seconds": 4281.123,
+      "duration_seconds": 3.9399999999996
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich setze auf England. Bis dahin sind vermutlich vorgezogene Neuwahlen und die werden schon wieder einen neuen Premierminister haben. Vielleicht energetisiert. Ich bin übrigens Fan von diesem aktuellen Premierminister, aber vielleicht energetisiert das die nationalen Energien.",
+      "begin_time": "1:11:21.143",
+      "begin_seconds": 4281.143,
+      "end_time": "1:11:36.363",
+      "end_seconds": 4296.363,
+      "duration_seconds": 15.220000000000255
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich bedanke mich auf jeden Fall bei dir. Ich bedanke mich bei den Zuhörerinnen und Zuhörern. Und ich bedanke mich bei Jona Frederik-Rösch, der heute an den Reglern saß, habe ich mir mal als Formulierung überlegt. Unser Producer. Ich bedanke mich bei allen bei Zeit Online, die uns helfen diesen Podcast herzustellen. Und ich fordere alle Hörerinnen und Hörer auf uns zu schreiben an gegenwartatzeit.de mit Vorschlägen für den Gegenwartcheck mit Meinungen, Kritik, Lob. Wir freuen uns darüber.",
+      "begin_time": "1:11:36.723",
+      "begin_seconds": 4296.723,
+      "end_time": "1:12:04.023",
+      "end_seconds": 4324.023,
+      "duration_seconds": 27.300000000000182
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Die Titel aller Bücher, Artikel, Filme, Songs oder Serien aus dem Podcast finden Sie in der Podcast-Beschreibung. Bei Anregungen, Kritik und Lob schreiben Sie uns gerne an www.gegenwart.de",
+      "begin_time": "1:12:06.903",
+      "begin_seconds": 4326.903,
+      "end_time": "1:12:16.963",
+      "end_seconds": 4336.963,
+      "duration_seconds": 10.05999999999949
+    }
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "episode_title": "Episode 1000662263089",
+  "podcast_id": "1000662263089",
+  "episode_id": "1000662263089",
+  "extracted_date": "2025-03-21T22:00:41.387089",
+  "transcript": [
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das war unser Song für heute, da habe ich was gepromptet mit dem Instrument Ukulele, sollte so ein bisschen nach Surfer klingen. Mein Name ist Lars Weisbrod, ich bin kein Surfer, sondern Redakteur im Filton der ZEIT und ich freue mich ganz besonders, weil heute beide meine Podcast-KollegInnen hier live mit mir vor Ort sind in einem professionellen Studio, nämlich Nina und Ijoma. Hallo.",
+      "begin_time": "22.875",
+      "begin_seconds": 0,
+      "end_time": "49.315",
+      "end_seconds": 0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Hallo Lars, hallo Ijoma, ich freue mich auch riesig, dass wir vor den Sommerferien noch einmal zusammen gekommen sind und uns angucken können, anfassen können und uns Blicke zuwerfen können, wie eben Ijoma als Lars gegendert hat. Also hallo auch von mir, mein Name ist Nina Pauer und das hier ist die sogenannte Gegenwart, unser Felthorn Podcast bei der ZEIT.",
+      "begin_time": "49.335",
+      "begin_seconds": 0,
+      "end_time": "1:11.215",
+      "end_seconds": 4475.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und ich freue mich, dass es eine Ukulele war, die uns heute den Weg in unsere Sendung bereitet hat. Es erinnert mich, ich kam mir plötzlich vor wie in den 90er Jahren in der Studenten-WG. Da lief sonntag morgens beim Brunch, wenn man völlig verkatert beim Brunch saß, lief auch immer irgendwie diese Sorte von Musik scheint mir.",
+      "begin_time": "1:11.795",
+      "begin_seconds": 5055.0,
+      "end_time": "1:32.475",
+      "end_seconds": 5995.0,
+      "duration_seconds": 940.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Mich hat es sehr an Jack Johnson erinnert, den Surfer mit seinen, was, Banana Pancakes. Pancakes und Brunch, passt doch zusammen. Und natürlich an unser Hauptthema, vor allem bin ich dankbar, dass dieser Song eben gelaufen ist, weil irgendwie bin ich heute aufgewacht und habe an unseren Podcast gedacht und hatte sofort einen Urwurm von erstens, wann wird es mal wieder endlich Sommer, zweitens, und es war Sommer von Peter Maffay und griechischer Wein, das war das Hartnäckigste. Es geht heute nämlich um Sehnsucht, passend natürlich zu dem, was in der Luft liegt. Es liegt Sehnsucht in der Luft nach Sommer, nach Sommerferien. Wir wollen jetzt aber hier auch nicht heute nur komisch über unsere Sommerferien labern. Wir haben alle etwas gelesen zum Thema Sehnsucht. Eigentlich war das so unsere Aufgabe, wenn wir schon mal zu dritt sind, bringt jeder was mit zu dem Thema. Wir wollen darüber sprechen, ob das Sehnsucht der Grundzustand des Menschen ist und auch feststellen, dass es eben nichts Überzeitliches hat, sondern eben doch auch etwas höchst Gegenwertiges.",
+      "begin_time": "1:32.495",
+      "begin_seconds": 6015.0,
+      "end_time": "2:35.335",
+      "end_seconds": 9635.0,
+      "duration_seconds": 3620.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "So ist es aber, bevor wir uns da hinein wagen, machen wir ganz traditionell unseren Gegenwart-Check. Wir haben unvorbereitet, die wir sind, nicht geklärt, wer als erstes ins Rennen geht.",
+      "begin_time": "2:36.135",
+      "begin_seconds": 9495.0,
+      "end_time": "2:47.375",
+      "end_seconds": 10395.0,
+      "duration_seconds": 900.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ijoma, fang du an.",
+      "begin_time": "2:47.395",
+      "begin_seconds": 10415.0,
+      "end_time": "2:48.715",
+      "end_seconds": 10795.0,
+      "duration_seconds": 380.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Okay, ich bin auch gar nicht mit einer eigenen Beobachtung am Start. Mir ist diese in den letzten zwei Wochen leider nichts aufgefallen an dieser Welt. Nichts war Gegenwertiges in dieser Welt. Naja, ich habe auch keine EM geschaut, vielleicht lag es daran.",
+      "begin_time": "2:48.735",
+      "begin_seconds": 10815.0,
+      "end_time": "3:02.215",
+      "end_seconds": 11135.0,
+      "duration_seconds": 320.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Oh ja, weil ich habe so viele, ich muss gleich was aus der EM machen.",
+      "begin_time": "3:02.235",
+      "begin_seconds": 11155.0,
+      "end_time": "3:04.895",
+      "end_seconds": 11935.0,
+      "duration_seconds": 780.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich glaube, jeder will hier was aus der EM machen. Die ist nur leider vorbei, wenn wir ausgestrahlt werden.",
+      "begin_time": "3:04.975",
+      "begin_seconds": 12015.0,
+      "end_time": "3:10.135",
+      "end_seconds": 11535.0,
+      "duration_seconds": -480.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Aber es ist auch nicht schlimm, wenn man nichts mitbekommt, weil man hat so viele Zuhörer, die einem schreiben, unter anderem, oder nicht unter anderem, jetzt hier in vorgehobener Stelle Laura Schartmann. Und zwar einen Trailer. Es ist doch im Kino immer so, dass nach dem Werbeblock, bevor dann der eigentliche Film kommt, das Kino, Unternehmen noch mal kurz so eine Selbstbespiegelung macht. Und die eben, darum geht es, dieser Trailer, dieser neue Trailer, ist sehr gegenwärtig, sehr klug gemacht, sehr elegant auch gemacht. Weil er das Bildmedium als solches reflektiert. Und zwar ist es ein Film, man kann ihn jederzeit als Trailer auch im Netz schauen von Cinemax. Er heißt Jetzt ist Film. Und er rückt an die Stelle, an der man sonst immer so eine Durchsage kommt, macht bitte eure Handys aus. Darum geht es schon gar nicht mehr. Das ist eh schon klar. Die Leute, die ins Kino gehen, machen ihr Handy aus, denn das wollen sie ja. Sie wollen in eine andere Welt eintauchen. Und dann kommt ein Film, der führt vor, wie wir quasi Sklaven unseres Smartphones sind. Und zwar sowohl auf der produzierenden wie auf der rezipierenden Seite produzierend. Also das setzt sich ein eleganter schwarzer Mann im Anzug mit Smoking hin und bekommt ein leckeres Sandwich. Und natürlich macht er erst mal das Foto vom Sandwich. Und so weiter. Also lauter diese, was stelle ich auf Instagram, wie filme ich mich selber, um es mit anderen zu teilen. Der Überbegriff des Ganzen in dem Film lautet immer Stories. Also es geht die ganze Zeit um Stories. Und natürlich ist das Smartphone in seiner vielfältigen Einsatzbarkeit ein Story-Produzent und ein Story-Vermittlungs-Agent. Wir produzieren selber Stories, wir schauen andere Leute Stories. Bei der Rezipien-Seite ist es natürlich noch viel lustiger. Da sieht man dann ständig so Familien-Szenen, wo der Papa macht irgendwie das Frühstück und will aber währenddessen ein kleines Filmchen anschauen. Also hat er sein iPhone gegen die Kaffeemaschine gelehnt und natürlich die Kopfhörer im Ohr, sodass er mit den Händen arbeiten kann. Aber die ganze Zeit statt auf seine Pancakes zu schauen, dann klingelt es an der Tür, er nimmt sein iPhone, wackelt zur Tür, rampt quasi gegen den Türpfosten, weil er ja aufs iPhone schaut und nicht auf den Weg öffnet. Die Tür, da ist die Tochter, die wird jetzt aber nicht herzlich begrüßt, denn die ist ihrerseits. So, das sind alles wohl vertraute Szenen, die auch nicht originär sein wollen, die sind aber sehr, sehr gut aufgenommen. Und dann eben kommt die Wende hin zum Kontrast. Was ist Kino? Das ist die volle, die echte Story ohne Ablenkung, wo eine Geschichte länger dauert, wo nichts rumpiepst, wo man, wie heißt das, 3D, Dolby Sound und so weiter hat, wo man eintaucht für zwei Stunden und so weiter. Und diese Selbstreflexion des Kinos, dass das Kino jetzt plötzlich zu dagegen, also erstmal würde man sagen, alles ist bewegt, Bild mit Ton. Aber nee, das Kino wird jetzt eigentlich zum Sehnsuchtsfluchtort unserer medialen Kleinteiligkeit.",
+      "begin_time": "3:10.155",
+      "begin_seconds": 11555.0,
+      "end_time": "6:01.535",
+      "end_seconds": 22195.0,
+      "duration_seconds": 10640.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Bildschirme abschalten, um einen Bildschirm zu haben. Ich bin so auf der Kippe, bei mir ist der auch aufgefallen im Kino, schon im Winter meine ich. Und ich fand das eben auch hochgegenwärtig. Jetzt ärgere ich mich fast, dass ich das nicht gemacht habe. Und ich meinte noch, dass ich zu meinem Mann gesagt habe, hier, das ist doch was. Aber der schien dann so ein bisschen so, ja klar, ist heute halt so irgendwie so ein bisschen. Deswegen wurde mir so ein bisschen ausgeredet. Aber ja, ich meine, es ist immer noch Gegenwart letztlich. Ich finde schon, es ist natürlich ein bisschen älter, schon, aber es trifft, es fasst auch zusammen. Eigentlich hätten wir hier im Podcast drüber reden müssen, über diese kleinen Momente, dieses wie man sein Handy an die Milchflasche legt und so, was ja auch immer wir damit angefangen haben, wir haben es so ein bisschen verpasst zu markieren. Im Zug auch, wo die Leute sich so aufbauen, immer machen und immer wenn das dann so unterrutscht, wenn man Kindern was hinstellt und dann fällt das so um, das ist einfach so ein Gegenwart, das Geräusch hätte man mal machen müssen. Ja, ihr kriegt den Punkt noch von mir, auch wenn es schon ein bisschen länger so ist. Aber es ist mir auch so aufgefallen, ich mochte das. Ich mag den Clip, ja.",
+      "begin_time": "6:02.395",
+      "begin_seconds": 22115.0,
+      "end_time": "7:05.715",
+      "end_seconds": 26215.0,
+      "duration_seconds": 4100.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, Nina hat schon recht, es ist so ein bisschen auf der Kippe. Aber du hast es jetzt so schön und detailliert und so begeistert nacherzählt, da bin ich verführt, den Punkt dir zu geben. Es ist übrigens interessanterweise auch beim Fernsehen, das ja noch viel eher immer schon nebenbei Medium war, anders als das Kino, ist aber auch ein Thema. Also dass man sagt, wir wollen eigentlich die einen, sozusagen der Netflix Mainstream macht Serien, um nebenbei aufs Handy zu gucken, aber die Serienkünstler wollen jetzt endlich wieder Serien machen, die dir zumindest abverlangen, dass du die Serie guckst. Was ja eh schon immer als eine Verfallsform von kultureller Beschäftigung galt, so auf den Fernseher zu gucken. Aber wenigstens dann nicht geleicht, sich aufs Handy zu gucken, sondern die Serie zu verfolgen.",
+      "begin_time": "7:05.735",
+      "begin_seconds": 26235.0,
+      "end_time": "7:46.075",
+      "end_seconds": 28035.0,
+      "duration_seconds": 1800.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich frag mich jetzt gerade, was wird die Zukunft sein, wenn dann irgendwann Smartphone-Werbung kommt, für sozusagen endlich wieder konzentriert auf Smartphone gucken? Wann wird das sein?",
+      "begin_time": "7:46.095",
+      "begin_seconds": 28055.0,
+      "end_time": "7:54.875",
+      "end_seconds": 29315.0,
+      "duration_seconds": 1260.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Endlich mal wieder konzentriert, wie früher ein paar Wheels durchscrollen. Mal den Neuralink abschalten und die Wheels durchscrollen.",
+      "begin_time": "7:54.895",
+      "begin_seconds": 29335.0,
+      "end_time": "8:03.135",
+      "end_seconds": 29115.0,
+      "duration_seconds": -220.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich find, du machst weiter, Lars. Was hat die EM in dir gebracht?",
+      "begin_time": "8:03.155",
+      "begin_seconds": 29135.0,
+      "end_time": "8:07.075",
+      "end_seconds": 29295.0,
+      "duration_seconds": 160.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich find, die EM ist wirklich so ein Gegenwartsaparat. Wir lagen da jetzt so ein bisschen schief und haben auch jetzt, also terminlich, haben wir auch jetzt das Problem, dass, wenn diese Folge ausgestrahlt ist, die EM schon zu Ende ist, jetzt gerade ist sie noch nicht ganz zu Ende, jetzt gerade ist auch Ijoma noch im Rennen.",
+      "begin_time": "8:07.695",
+      "begin_seconds": 29915.0,
+      "end_time": "8:20.715",
+      "end_seconds": 30715.0,
+      "duration_seconds": 800.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Jetzt gerade hat Spanien noch nicht gewonnen, aber Ijoma ist noch im Rennen mit seiner EM-Orakel-Krakenartigkeit, weil er schon wieder zumindest den einen Finalisten vorhin gesagt hat.",
+      "begin_time": "8:20.735",
+      "begin_seconds": 30735.0,
+      "end_time": "8:32.055",
+      "end_seconds": 30775.0,
+      "duration_seconds": 40.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und eigentlich gibt es da ganz viele Sachen bei der EM, die ich gern mal durchdiskutieren würde. Ich habe mich jetzt für Folgen entschieden, nämlich eine Frisur, die mich wirklich nachhaltig beschäftigt. Ich beschreibe sie erstmal kurz. Und zwar sind es insgesamt kurze Haare, an den Seiten sind sie unter der Mitte der Seite ganz kurz, also Seiten auf Null, wie man dann so sagt. Aber wirklich sagen, in der Mitte vom Seitenkopf ist runter, ist es ganz kurz. Nach oben ist es dann aber schon wieder ein bisschen länger. Es ist kein Undercut. Also die Grenze, wo Seiten auf Null aufhört und man wieder Haare sieht, ist sehr unnatürlich in der Mitte vom Seitenkopf. Das wiederum ist dann oft kombiniert mit einer Art, auf dem Kopf sind sie dann wieder ein bisschen länger, auch mit einer Art Vokohila, sodass sie nach hinten...",
+      "begin_time": "8:32.795",
+      "begin_seconds": 31515.0,
+      "end_time": "9:17.175",
+      "end_seconds": 33595.0,
+      "duration_seconds": 2080.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich denke jetzt an Toni Kroos nein, sondern noch länger?",
+      "begin_time": "9:17.195",
+      "begin_seconds": 33615.0,
+      "end_time": "9:20.795",
+      "end_seconds": 34395.0,
+      "duration_seconds": 780.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich sag gleich die Beispiele noch, lasst mich nur kurz, weil ich find's schwierig, so eine Frisur zu beschreiben. Sie gehen nach hinten so ein bisschen länger runter in den Nacken, aber diese halbe ungewöhnliche Grenze geht so mit nach hinten. Und dann, das gehört vielleicht im Kern auch gar nicht mehr dazu, aber das kombiniert man dann, gibt es auf dem Kopf auch noch ein seltsames kurzes Pony, das so ein bisschen vorne übersteht. Wer hat das prototypisch? Also ganz krass aufgefallen ist es mir nicht bei Toni Kroos, sondern bei Kai Havertz, der das für sich in aller Vollständigkeit trägt. Und danach ist es mir bei so vielen Spielern aufgefallen, ich kann jetzt ganz viele nennen, egal, auch viele Engländer, aber auch aus den Niederlanden. Und jetzt sehe ich es aber auch im Zug oder bei der Straße bei jungen Leuten, diese Frisur. Und da ist so viel dran interessant. Also das erste ist, dass zwei Leute, meine Frau und noch jemand, unabhängig voneinander, den guten Satz dazu gesagt haben, es sieht sehr ungesund aus, weil man das Gefühl hat, die Leute müssen jetzt zu einer Gehirn-OP oder so. Wenn man ihnen hier so an der Seite...",
+      "begin_time": "9:20.815",
+      "begin_seconds": 34415.0,
+      "end_time": "10:16.795",
+      "end_seconds": 37755.0,
+      "duration_seconds": 3340.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Wie sie waren bei einer oder so, die Geier.",
+      "begin_time": "10:16.815",
+      "begin_seconds": 37775.0,
+      "end_time": "10:18.575",
+      "end_seconds": 37655.0,
+      "duration_seconds": -120.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Genau, so was wegrasiert hat, wo man eigentlich keine Grenze erwartet. Dann hat es auch insgesamt so was Mittelalterliches. Also natürlich ist es keine Mönchs-Frisur, aber die Art der komischen Zugestelltenung sieht so eine Mischung aus postapokalyptisch und neuem Mittelalter aus. Ja, also insgesamt würde ich sagen, das ist eine neue Form, Fußballer wollen natürlich martialisch sein, eine neue Form von hässlicher Martialität, die da auftritt. Also wie so ein mittelalterlicher Kämpfer, der aber in so einem futuristischen Szenario jetzt auf einem Weltraumplaneten irgendwelche Schlachten ausführen muss. Ja, aber eigentlich super hässlich und unvorteilhaft. Jetzt kurz noch zum Namen. Ich kann, vielleicht können die Zuhörerinnen und Zuhörer mir noch helfen, es nicht ganz lokalisieren, wie das heißen soll, weil da auch viele Ontologien scheinbar so übereinanderlappen mit den Frisurnamen. Manche sagen dann, es könnte ein Mid-Fate sein, weil er in der Mitte anfängt. Andere sagen, es ist eher ein Burst-Fate, weil auf dem Kopf es dann so komisch explodiert eher noch. Wenn man das googelt, passen aber beide nicht 100%, aber die Frisur von Kai Havertz, so würde ich sie jetzt nennen.",
+      "begin_time": "10:18.595",
+      "begin_seconds": 37675.0,
+      "end_time": "11:19.875",
+      "end_seconds": 41615.0,
+      "duration_seconds": 3940.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Also das Havertz-Ding, das reißt mich jetzt so ein bisschen raus, weil ich hab gerade gestern einen Engländer gesehen, der so gespielt, also der so, also ich glaube dieses ungesunde... Genau, genau. Was jetzt aber da für Spr... ich weiß nicht. Also das ausrasierte, dieses ungesund rasierte, das ist für mich der Punkt. Ja, aber nicht in Kombination mit dieser Explosion auf dem Kopf, weil der Engländer hatte keine Explosion. Nein, nein, nein. Der hat dieses angeschmierte und der...",
+      "begin_time": "11:20.195",
+      "begin_seconds": 40995.0,
+      "end_time": "11:45.695",
+      "end_seconds": 42995.0,
+      "duration_seconds": 2000.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Keine Explosion. Ja, ja, keine Explosion. Havertz hat ja auch keine Explosion.",
+      "begin_time": "11:45.715",
+      "begin_seconds": 43015.0,
+      "end_time": "11:49.915",
+      "end_seconds": 43455.0,
+      "duration_seconds": 440.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Mein Punkt ist definitiv sicher. Ich habe überhaupt nur zwei Fußballspiele bei diesem Turnier gesehen. Ich erinnere, dass meine Freundin und ich, als wir diese Frisur das erste Mal wahrnahmen, vollständig zehn Minuten lang uns nicht mehr auf das Spiel konzentrieren konnten, sondern versuchten zu rekonstruieren, was da. Und genau, meine Freunde fand eher, wie du das gerade karakterisiert hast, das martialische, das abstoßende. Ich fand es im Gegenteil, vielleicht war das dann auch die berühmte Ekelfaszination, aber das würde ich gar nicht so sagen. Vielleicht eher das Mittelalter-Mönchische, das mir sofort gefiel. Also aber es war vollkommen klar, da ist was Neues, was meine Aufmerksamkeit bant. Insofern ja, gut, dass du, wir haben das dann nämlich nicht mehr nachgearbeitet, was ja notwendig ist, damit du es dann auch mit der entsprechenden Schubladekategorie dekorisierst und dann kannst du über die Welt reden. Und jetzt lieferst du das nach, ich bin sehr dankbar dafür.",
+      "begin_time": "11:53.495",
+      "begin_seconds": 43275.0,
+      "end_time": "12:42.955",
+      "end_seconds": 46675.0,
+      "duration_seconds": 3400.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Also ich finde die Erklärung so ein bisschen dürftig, muss ich sagen. Also ja, Mittelalter, also verstehst du so irgendwie so Mittelalter-Mönchisch-Kämpferisch, aber ich finde es auch natürlich absolute Gegenwart. Also den Punkt kriegst du. Das ist doch auch mal toll, etwas, was gar nicht zu deuten ist in eine Richtung. Ja, ja, aber...",
+      "begin_time": "12:42.975",
+      "begin_seconds": 46695.0,
+      "end_time": "13:00.475",
+      "end_seconds": 47275.0,
+      "duration_seconds": 580.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Es muss ja nicht jedes Phänomen, das absolut neu ist, gleich eine Message haben. In der Mode würde man ja sagen, es ist sowieso kontingente Variation. Und dann kann man im Nachhinein dem immer noch eine Bedeutung überstülpen. Und jetzt sind wir so nah dran, dass es noch nicht die Bedeutung gibt, sondern nur das neue Phänomen.",
+      "begin_time": "13:00.495",
+      "begin_seconds": 47295.0,
+      "end_time": "13:15.915",
+      "end_seconds": 48615.0,
+      "duration_seconds": 1320.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Das werd ich mir merken für sämtliches, was du mir ablehnst, weil du sagst, es gibt hier keine Erklärung für. Dann sag ich, das ist nur das Phänomen abgegriffen, brüfrisch.",
+      "begin_time": "13:15.935",
+      "begin_seconds": 48635.0,
+      "end_time": "13:24.955",
+      "end_seconds": 49195.0,
+      "duration_seconds": 560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Brüfrisch, genau.",
+      "begin_time": "13:24.975",
+      "begin_seconds": 49215.0,
+      "end_time": "13:26.615",
+      "end_seconds": 48975.0,
+      "duration_seconds": -240.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Aber dann lass mich doch ganz kurz noch mal meine Interpretation verteidigen. Nicht sagen, ich brauch keine Interpretation. Weil die Genealogie dieser Frisur scheint mir aus einer Welt zu kommen, mit diesen Fades und so kunstvoller Barbiertechnik. Warst du auch mal so problematisch, wie hast du das genannt, orientalische Hang zum Schmuck oder so genannt hast? Aus dieser Welt, die ja eher auf Feinheiten und Genauigkeit, im Fade geht es ja auch um so Genauigkeiten, wie die Haare da bearbeitet werden, die da drauf aussehen. Und das kippt aber jetzt wieder in was, was aussieht, wie jemand, der sozusagen grad mit Drachen gekämpft hat auf einem Raumschiff und die Seiten sind ihm weggeflammt worden.",
+      "begin_time": "13:26.635",
+      "begin_seconds": 48995.0,
+      "end_time": "14:05.335",
+      "end_seconds": 51035.0,
+      "duration_seconds": 2040.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Was er ja auch muss, wenn er den Spanien gegenübersteht.",
+      "begin_time": "14:05.355",
+      "begin_seconds": 51055.0,
+      "end_time": "14:07.615",
+      "end_seconds": 51435.0,
+      "duration_seconds": 380.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, also da ist irgendwas ganz Interessantes auch interpretatorisch an dieser mazizialischen...",
+      "begin_time": "14:07.635",
+      "begin_seconds": 51455.0,
+      "end_time": "14:11.415",
+      "end_seconds": 51475.0,
+      "duration_seconds": 20.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich würde auf meine Straßenbeobachtung, ich bin umgezogen, fahre jetzt noch mehr Fahrrad als vorher und mich interessieren ja, ein Hörer, ich weiß jetzt nicht, wer es war, Lars, du hattest das ja auch gesehen, hat über die WUM-Bikes bei Kindern geschrieben, diese teuren, fast neonartig bunt leuchtenden kleinen Fahrräder, mit denen Kinder heutzutage sehr, sehr schnell Fahrrad fahren lernen und die vor in den Vierteln, wo Eltern, ja so Prenzlauer Berg-mäßige Viertel, wo Eltern Geld haben, aber irgendwie bunt und kreativ sein wollen, da stehen die dann aufgereiht vor den Kitas. Der Hörer, leider habe ich deinen Namen vergessen, der hatte das ganz wunderbar beschrieben über die Farbenlehre heutiger Elternschaft. Also man hat, wenn man Geld hat und zur Bio-Awaren-Millennial-Elternschaft gehört, macht man beige bei Kindern oder so grau, so sehr gesetzte Töne, so unaufgeregte, fast schon so New-Rich-Style und dann hat man aber die Wum-Farbexplosion, um noch zu zeigen, es ist auch ein Statussymbol, aber um zu zeigen, wir sind hier wild und verspielt. Das hat der uns geschrieben. Ich fand diese Wum-Geschichte fast so ein bisschen alt, deswegen hab ich eine Beobachtung, was aber auch auf diese Wum-Bikes zutrifft. Und zwar hat man ja als zeitgenössische Lastenradelternschaft ein Problem, nämlich, dass Kinder teilweise mit diesen Wum-Bikes oder irgendwelchen Laufrädern, die wollen die irgendwie dabei haben, können dann aber nicht mehr. Und dann stapelt man nicht nur die Kinder in den Lastenrädern, sondern auch noch irgendwelche Roller und die scheren dann, eigentlich bräuchte man schon so ein Warnhinweis, Achtung, schert irgendwie fünf Meter aus. Und man sieht so die so gerümpelig rumfahren. Und jetzt scheint es aber eine Fortentwicklung zu sein, dass man hinten an den Lastenrädern und den Anhängern noch so, ja wie so ein, da wird das, das Vorderrad des kleinen Wuhmbikes wird so aufgebockt, so drangeschraubt, sodass die Kinder so wie im Fitnessstudio fast, sie treten, aber sie treten ins Nichts. Sie haben das, es wird simuliert, dass sie mitfahren und dass sie selber fahren. Und da komme ich, also mein Gegenwart-Check-Vorschlag ist schon diese Konstruktion, aber auch natürlich der metaphorische Inhalt, es ist noch das Statussymbol, aber es spiegelt natürlich auch Elternschaft heute, ja. Weil man gibt dem Kind natürlich das Gefühl, du fährst mit, man kauft eine riesen teure Apparatur dafür, also das teure Bike, das teure Lastenrad und noch den teuren Aufsatz. Das Kind fährt aber überhaupt nicht selber. Und das ist sozusagen für diese Millennial-Eltern-Helikopter-Tum, der ja, also man möchte, dass die Kinder alleine unterwegs sind, zum Beispiel ältere Kinder, aber man kauft ihnen dann sehr teure Uhren, damit sie die ganze Zeit getrackt werden und erreichbar sein. Also es ist so dieses sei wild und frei und, wie heißt das, frech, aber man hat sie die ganze Zeit im Griff und der Boomer-Vorwurf an diese Fahrräder ist natürlich, eh die Kinder werden faul, weil sie nicht selber gehen. Plus sozusagen, man könnte jetzt sagen, naja, man gibt ihnen das Gefühl, sie lernen jetzt Fahrradfahren, sie fahren Fahrrad, aber eigentlich sind sie an dich festgekettert und strampeln irgendwie ins Nichts. Die armen kleinen Wohlstands.",
+      "begin_time": "14:13.755",
+      "begin_seconds": 51935.0,
+      "end_time": "17:26.615",
+      "end_seconds": 63375.0,
+      "duration_seconds": 11440.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Von mir kriegst du den Punkt, weil mir das auch aufgefallen ist, schon ein bisschen länger, aber das macht in dem Fall nicht. Es gibt den ganzen Zoo der neuen Fahrrad Technologien, wo das ein interessanter Punkt von ist. Ich nenne jetzt nur gerade einen anderen, weil ich sehe da so viel. Es scheint mir jetzt aber auch so zu sein, dass wiederum das Lastenrad als Kindertransportmittel wieder ein bisschen Konkurrenz bekommt von nicht dem alten Kindersitz, sondern einem Fahrrad, was hinten so ein bisschen verlängert ist, wo einfach ein Sitz drin ist hinten.",
+      "begin_time": "17:26.635",
+      "begin_seconds": 63395.0,
+      "end_time": "17:53.335",
+      "end_seconds": 64715.0,
+      "duration_seconds": 1320.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ja, das ist eine Form davon.",
+      "begin_time": "17:53.535",
+      "begin_seconds": 64915.0,
+      "end_time": "17:55.855",
+      "end_seconds": 65355.0,
+      "duration_seconds": 440.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also du weißt sofort, wie das heißt, ja. Und ich habe auch diesen Anhänger oder diesen Abschleppwagen schon mal gesehen, wo das einfach so aufgebockt wird und das Kind fährt hinten so mit. Ich würde nur ergänzen, ist das wirklich dafür, um das Fahrrad zu transportieren? Großes Problem, gibt es ja auch tausend Memes zu, wir machen eine tolle Fahrradtour und dann sieht man so einen Vater, der eigentlich nur die ganze Zeit dieses Fahrrad schleppen muss, kenne ich. Ist es nicht eher, wenn man wirklich lange Strecken fahren will, dass die Kinder nicht wegfahren oder irgendwie?",
+      "begin_time": "17:59.755",
+      "begin_seconds": 65495.0,
+      "end_time": "18:24.075",
+      "end_seconds": 66315.0,
+      "duration_seconds": 820.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Genau, aber das wäre schon wieder der metaphorische Gehalt. Also du möchtest irgendwas mit denen machen, du möchtest denen Authentizität und eigenes Erleben bieten, aber du hast sie so fest an dich geschnallt, dass sie es eigentlich gar nicht können. Also sie können ja nicht ausscheren oder sowas.",
+      "begin_time": "18:24.095",
+      "begin_seconds": 66335.0,
+      "end_time": "18:37.835",
+      "end_seconds": 67855.0,
+      "duration_seconds": 1520.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, ja, ja, aber du hast schon recht, es ist ja eigentlich dasselbe. Man transportiert Fahrrad und Kind ohne Probleme, selbst wenn das Kind nicht mehr selber strampeln will.",
+      "begin_time": "18:37.855",
+      "begin_seconds": 67875.0,
+      "end_time": "18:46.155",
+      "end_seconds": 67715.0,
+      "duration_seconds": -160.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, ich kenn mich in dieser Welt zu wenig aus. Ich bin da zu inkompetent, um beurteilen zu können, ob das neu ist oder nicht. Aber das muss ich abnehmen. Allerdings ist alles drum herum, was ihr erzählt, scheint mir überaus anregend und vielsagend zu sein. Dass ein Kind angekettet ist, das jetzt wie du, Nina, wie ich fand, das gerade mit so einem leichten moralischen Tadel zu beobachten, ist die Verantwortung der Erziehungsberechtigten, die Kinder festzuketten, denn die können nun mal nicht für sich selber verantwortlich sein. Das ist alles nur im Sinne von, den Punkt kriegst du, weil es schön ist. Zweitens diese Frage der Farbgestaltung. Da würde ich jetzt auch eher sagen, das spricht doch für die Toleranz von Eltern, dass sie wissen, dass Kinder keine Erwachsenen sind und deswegen zwingen sie ihnen nicht ihre eigene Ästhetik auf, sondern sind bereit, Farben, die ihnen selber in den Augen wehtun, den Kindern zuzugestehen.",
+      "begin_time": "18:48.695",
+      "begin_seconds": 68375.0,
+      "end_time": "19:45.435",
+      "end_seconds": 71535.0,
+      "duration_seconds": 3160.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Kommt stark auf die Eltern an.",
+      "begin_time": "19:46.035",
+      "begin_seconds": 71195.0,
+      "end_time": "19:48.055",
+      "end_seconds": 71335.0,
+      "duration_seconds": 140.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und die dritte Beobachtung, weil du sprachst von dem Prenzlauer Öko-Awaren-Milieu, da wollte ich jetzt doch mal diese Bemerkung machen, man könnte langsam den Eindruck gewinnen, als gäbe es überhaupt keine reichen, rechten Konservativen. Sondern der Wohlstand wird immerzu als liberal vogue charakterisiert mit Punktesammelkarte in der Bio-Company. Wo ist eigentlich der gute, alte, rechte, reiche?",
+      "begin_time": "19:48.075",
+      "begin_seconds": 71355.0,
+      "end_time": "20:18.335",
+      "end_seconds": 73415.0,
+      "duration_seconds": 2060.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Auf Sylt ist der Ijoma.",
+      "begin_time": "20:18.355",
+      "begin_seconds": 73435.0,
+      "end_time": "20:19.695",
+      "end_seconds": 73835.0,
+      "duration_seconds": 400.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, wobei natürlich die, die diesen Lifestyle auch angenommen haben, jetzt mal phötonistisch zugespitzt. Also es gibt so ein Foto von Jan Fleischhauer auf dem Lastenrad. Das steht für mich sozusagen dafür. Der Lifestyle ist halt so hegemonial, dem kann sich sozusagen selbst der Rechte nicht entziehen.",
+      "begin_time": "20:20.815",
+      "begin_seconds": 74015.0,
+      "end_time": "20:38.675",
+      "end_seconds": 74955.0,
+      "duration_seconds": 940.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ja, stimmt.",
+      "begin_time": "20:39.855",
+      "begin_seconds": 75195.0,
+      "end_time": "20:42.235",
+      "end_seconds": 74755.0,
+      "duration_seconds": -440.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und auch die Rechts-Extremen vielleicht schon.",
+      "begin_time": "20:42.255",
+      "begin_seconds": 74775.0,
+      "end_time": "20:44.575",
+      "end_seconds": 75215.0,
+      "duration_seconds": 440.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Kubitschek sind ja auch berühmt für die Ziegen, die sie selber melken. Da ist auch wieder das Ökoboot.",
+      "begin_time": "20:44.595",
+      "begin_seconds": 75235.0,
+      "end_time": "20:50.355",
+      "end_seconds": 75355.0,
+      "duration_seconds": 120.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, aber das würde ich trennen, weil das sind zwei, das sind zwei verschiedene Genealogien, die nur zuquälig sind.",
+      "begin_time": "20:50.375",
+      "begin_seconds": 75375.0,
+      "end_time": "20:54.595",
+      "end_seconds": 75835.0,
+      "duration_seconds": 460.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Da kommst du schon wieder in Richtung Geyak.",
+      "begin_time": "20:54.615",
+      "begin_seconds": 75855.0,
+      "end_time": "20:56.315",
+      "end_seconds": 75675.0,
+      "duration_seconds": -180.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das wird hier zu kompliziert. Weil Kubitschek würde nicht auf dem Lastenrad. Martin Sellner würde nicht auf dem Lastenrad rumfahren oder mit so einer Baby trage. Gute Konservative wie Fleischhauer, jetzt glaube ich gerade schon extra.",
+      "begin_time": "20:56.335",
+      "begin_seconds": 75695.0,
+      "end_time": "21:08.035",
+      "end_seconds": 76115.0,
+      "duration_seconds": 420.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Liebe Leute, wir müssen... Ich sehne mich nach dem Hauptthema. Nein, ich würde gerne noch weiter mit euch im Gegenwartstech verharren, aber wir wollen noch so viel besprechen.",
+      "begin_time": "21:09.075",
+      "begin_seconds": 76215.0,
+      "end_time": "21:17.955",
+      "end_seconds": 77575.0,
+      "duration_seconds": 1360.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Wir wollen raus aus der Gegenwart und zwar hin zu einem fernen Punkt, denn den muss es immer geben, damit die Sehnsucht brennt. Der kann, um technisch zu sprechen, sowohl in der Zukunft liegen, wie in der Vergangenheit. Er kann auf der Zeitachse wie auf der Raumachse stattfinden. Wir sind auf das Thema gekommen, weil ich das schon seit Längerem immer vorschlage, und zwar aus einer ganz eigenen, aus einer reinen existenziellen Eigenbetroffenheit, weil ich manchmal damit hadere, andererseits es auch kultiviere, dass ich das Gefühl habe, mein Innenleben besteht fast nur und ausschließlich aus Sehnsucht. Und zwar in einer Weise, die so durchschaubar ist, die man auch einfach vielleicht auch Neid nennen könnte. Also ich habe ein Haus an Ort X und dann besuche ich einen Freund an Ort Y und denke, man müsste das Haus an Ort Y haben. Ich sehne mich, wenn ich in Brandenburg bin, nach Österreich. Und wenn ich in Österreich bin, denke ich, ist nicht eigentlich dieses raue Andalusien der wahre richtige Ort, um mal so richtig durchzuatmen oder so. Also es ist quasi mein gesamtes Verhältnis zur Welt und deswegen will ich es auch andererseits wiederum verteidigen, immer eines, das durch Sehnsucht aufgebaut wird und mit in dem Wort aufbauen drückt sich ja schon aus, dass da Energie dabei ist. Also ich würde Sehnsucht insofern nicht als etwas Lähmend, als nur Lähmendes empfinden, sondern als etwas, was mir in gewisser Weise innere Spannkraft verschafft. Denn die Sehnsüchte setzen mir immer neue Ziele. Das Gegenteil der Sehnsucht wäre quasi ein völlig stoisches Eins-Sein mit dem Hier und Jetzt und dem, was ich bin.",
+      "begin_time": "21:17.975",
+      "begin_seconds": 77595.0,
+      "end_time": "22:54.175",
+      "end_seconds": 82615.0,
+      "duration_seconds": 5020.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Du bist jetzt schon super weit vorgeprescht ins Thema Ijoma. Was ich toll finde, du hast es ja vorgeschlagen. Ich bin sofort drauf angesprungen. Lars ja so gar nicht. Da kannst du ja gleich noch mal was zu sagen. Wir haben jedenfalls gedacht, das ist super gut im Sommer und vor dem Sommer, weil alle Menschen, die ich jetzt treffe, sind sozusagen völlig, naja, eigentlich, das kann man ja nicht mehr Sehnsucht nennen, aber dahinter steckt Sehnsucht. Die sind im Tunnel vor den Sommerferien. Und natürlich sehnen sie sich zum Freitagnachmittag, wenn die Schulferien endlich angefangen haben. Und es baut sich, das hast du ja gerade sehr gut beschrieben, es baut sich dann so ein Energiefeld auf. Und dann ist man dort und wenn man dann dort ist, was auch immer dort bedeutet, ob man in dem Gefühl ist, wo endlich Sommerferien, da gibt es natürlich dieses berühmte, erst mal krank werden, erst mal schön streiten, erst mal im Stau stehen und alles furchtbar finden. Und dann kickt die Realität oder wie letzten Sommer, alles ist verregnet in Deutschland. Und dann wird das wieder blöd und dann sehnt man sich, naja, an den Ferienort im Süden. Dann hast du ja jetzt schon die Leute, die jammern. Also die sagen, ich fahre nach Griechenland, aber die eigentlich präventiv schon ihre Sehnsucht irgendwie selbst versuchen zu dekonstruieren. Das ist ja auch schon manchmal, ich weiß nicht, wie es euch geht, ob, weil du jetzt gerade auch persönlich gesagt hast, du sehnst dich dann von einem Ort zum nächsten, gehst du dann manchmal dort schon hin und versuchst, den Abfall der Energie schon aufzufangen? Das hab ich nicht ganz verstanden. Wenn du jetzt sagst, ich fahr jetzt in die Uckermark und das wird ganz toll und ich sehne mich dahin, weil in diesem stickigen, blöden Studio hier mit Lars und Nina ist irgendwie so entfremdet und furchtbar, da kann ich barfuß laufen. Und du weißt ja aber, das was ich gerade beschrieben hab, dass es dann selten dauerhaft so toll wird, wie man es sich in der Sehnsucht hier im Studio imaginiert, versuchst du es schon aufzufangen, verstehst du? Versuchst du Erwartungsmanagement oder bist du jemand, der sozusagen von der einen, weil so klang es ja gerade, von der einen Vollsehnsucht, Doppelrahmstufe, immer ganz naiv in die nächste rutscht?",
+      "begin_time": "22:54.195",
+      "begin_seconds": 82635.0,
+      "end_time": "24:55.475",
+      "end_seconds": 90175.0,
+      "duration_seconds": 7540.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ah ja, muss ich kurz nachdenken. Ich glaube tatsächlich, es ist völlig logisch, was ihr sagt, aber bei mir hat es gar nichts mit der Enttäuschung von Punkt A zu tun. Ja, klang so, aber das ist falsch. Nee, ich bin von dem Punkt A nicht enttäuscht, nur es tut sich schon wieder eine noch eine neue Sehnsucht auf, ohne dass ich das andere deswegen als Schal empfinden würde.",
+      "begin_time": "24:55.495",
+      "begin_seconds": 90195.0,
+      "end_time": "25:16.015",
+      "end_seconds": 90975.0,
+      "duration_seconds": 780.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Okay, weil du hast es ja auch eben gesagt, es ist keine Lähmung, sondern was eine neue Energie. Lähmung wäre mir nie eingefallen. Es ist eher so, dass ich dann total nervös werde, weil ich dann denke, so, jetzt bin ich endlich in diesem Zustand, da, wo ich hinwollte. Und dann wäre ich nervös, weil ich merke, ich kann dort nicht fahren. Also wir hatten das letzte Mal in der Fitness-Folge, wo ich gesagt habe, Ijoma, willst du für immer im Fitnessstudio sein? Und du sagst es ja, wo willst du denn für immer sein? Auf dem Berggipfel kannst du auch nicht für immer sein, du musst halt irgendwann wieder runter. Also der Moment ist halt sehr kurz. Aber Lars, sag du doch mal, warum du mit dem Thema einfach nicht bevormittest.",
+      "begin_time": "25:16.035",
+      "begin_seconds": 90995.0,
+      "end_time": "25:48.675",
+      "end_seconds": 93555.0,
+      "duration_seconds": 2560.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Darf ich kurz noch was zum Erwartungsmanagement sagen?",
+      "begin_time": "25:48.695",
+      "begin_seconds": 93575.0,
+      "end_time": "25:50.675",
+      "end_seconds": 93675.0,
+      "duration_seconds": 100.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ja, gerne.",
+      "begin_time": "25:50.695",
+      "begin_seconds": 93695.0,
+      "end_time": "25:51.015",
+      "end_seconds": 93075.0,
+      "duration_seconds": -620.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Es ist interessant, dass du das mit Sehnsucht verknüpst, weil über Erwartungsmanagement denke ich gerade tatsächlich wahnsinnig viel nach. Und das liegt an den Kindern, weil ich mittlerweile das Gefühl habe, die Haupttätigkeit, die ich als Vater betreiben muss und die Hauptkompetenz, die man dann vermitteln muss oder als Zweiergespann gemeinsam haben muss, ist dieses Erwartungsmanagement. Also vielleicht liegt das an meinen Kindern, aber es ist dann immer so, dass sich wahnsinnig auf was gefreut wird. Überbordend. Meine Frau ist auch immer eher der Typ, der das noch mehr anheizt. Und dann aber schnell, ich finde es glaube ich natürlich, weil Sachen erfordern dann Konzentration oder dauern lange, da dann schnell so ein Abfall geht und dann ist das doch langweilig. Und ich bin nur damit beschäftigt, das so auszupegeln, weil man natürlich auch nicht, man muss auch immer Vorfreude schüren, weil sonst kriege ich meine Kinder mal gar nicht aus dem Haus, aber das darf nicht zu viel sein, damit es da nicht zu eine große Enttäuschung ist. Und das ist mein Hauptberuf gerade, Erwartungsmanagement bei Kindern. Bei mir selber auch. Ja, das ist wahrscheinlich bei mir selber nicht anders, nur wenn ich mit meinen Kindern zu suchen hab, merke ich das mehr. Ich konnte nur mit dem Wort Sehnsucht erstmal nichts anfangen, weil es ist erstmal, darüber müsst ihr vielleicht nochmal reden, für mich eine klar historische Konstruktion. Ich denke da eben an deutsche Romantik oder so, etwas, wo mir erst mal der Zugang zu fehlt und was nicht Gegenwart ist, sondern was man erst wieder aufbohren muss und irgendwie zurückholen muss. Und wenn ihr dann drüber geredet habt, hatte ich manchmal das Gefühl, da bin ich dann vielleicht zu penibel immer, dass mir das Wort dann zu allgemein wird. Weil wenn es irgendwie nur heißt, Vorfreude, sich was wünschen, Neid, irgendwas, was irgendwie gut ist, dann ist es mir zu groß als Thema. Mir ist nur, und das will ich schon mal vorwegschicken, dass wir da gleich auch noch drüber reden, dann klar geworden, du hast gesagt, man kann es zeitlich zum Beispiel verorten, nach vorne oder nach hinten. Ich kann total viel mit dem Wort Nostalgie anfangen, weil ich erstens glaube, dass es ein wahnsinnig wichtiges Gegenwartphänomen ist, also der großen Gegenwart, sowohl ästhetisch als auch politisch. Und zweitens, alles was du erzählt hast über dich, kann ich so über mich erzählen, aber mit Nostalgie. Also ich habe wirklich das Problem, und das ist in meiner Familie ein Running Gag, es ist völlig klar, dass wenn wir irgendwas machen, dass ich ein halbes Jahr später sage, ich wünschte wir wären wieder da und würden das jetzt machen. Ich wünschte, wir wären noch in der alten Wohnung, da laufe ich so gerne vorbei. Also ich bin leider durch und durch so nostalgisch gestößt, dann meine Form der Sehnsucht.",
+      "begin_time": "25:51.335",
+      "begin_seconds": 93395.0,
+      "end_time": "28:20.195",
+      "end_seconds": 102195.0,
+      "duration_seconds": 8800.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Na ja, interessant, weil ich dir immer gerne eine gewisse Vergangenheitsfeindlichkeit unterstelle. Deswegen hätte ich damit gar nicht gerechnet. Aber du meinst, die kleine Vergangenheit.",
+      "begin_time": "28:20.215",
+      "begin_seconds": 102215.0,
+      "end_time": "28:32.455",
+      "end_seconds": 103175.0,
+      "duration_seconds": 960.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Die kleine Vergangenheit aus meinem Leben.",
+      "begin_time": "28:32.475",
+      "begin_seconds": 103195.0,
+      "end_time": "28:33.995",
+      "end_seconds": 103775.0,
+      "duration_seconds": 580.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Und wie weit geht die zurück? Also es ist dann eher so, du springst dann sozusagen, weil man könnte dir dann ja sagen, na ja gut, aber den Urlaub oder die Wohnung, da musst du ja erst mal hingezogen sein, damit du sie vermissen kannst und so was. Oder geht es dann weiter? Also es geht nicht chronologisch weiter zurück und irgendwann bist du dann, ich muss jetzt noch mal daran denken an Wolfgang.",
+      "begin_time": "28:35.735",
+      "begin_seconds": 103635.0,
+      "end_time": "28:53.835",
+      "end_seconds": 104815.0,
+      "duration_seconds": 1180.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Dass ich mich zurücksehe, wie ich noch als Kind mit dem Ruhm fahre, das gab es damals noch nicht. Beim Fahrrad rumgefahren bin. Nee, es ist auch schon so eine kurzfristige Nostalgie. Also man kann da glaube ich schon so einen Zeithorizont von einem halben Jahr oder einem Jahr sagen, dass ich damit sage, ach, das war so schön. Da ging es uns noch gut.",
+      "begin_time": "28:53.855",
+      "begin_seconds": 104835.0,
+      "end_time": "29:12.175",
+      "end_seconds": 105295.0,
+      "duration_seconds": 460.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Da müsste man ja sagen, das ist lustig, weil du musst ja dann immer einen neuen Stoff für diese Nostalgie. Also du musst ja eigentlich in der Gegenwart nach vorne rücken, um einen neuen Nostalgie-Stoff herzustellen. Ich habe heute Morgen noch mal die Stelle von Wolfgang Herndorf, weil wir ja gerade in der Krebsfolge über Arbeit und Struktur gesprochen haben, und der erste Absatz, der ja auch schon so wahnsinnig reinhaut, ich habe ihn jetzt nicht zum Zitieren mitgebracht, aber da geht es nämlich um seine Kindheit. Da schreibt er, er ist so zwei Jahre alt und liegt in seinem Bett und von draußen leuchtet die Dämmerung so rein und er ist wie ein Kissen, was zu alles ist wohlig, die Temperatur ist genau richtig und er ist wie ein Kissen, das zu Bewusstsein gekommen ist und dass er sich eigentlich immer nach dieser Art Stillstand gesehen hat, aber er sagt eben nicht den Stillstand, über den du gerade gesprochen hast, dieses Abwesenheit von Sehnsucht, sondern es ist auch ein nostalgischer Moment, also dieses komplette Aufgehobensein, dieses kindliche Aufgehobensein. Ich meine, wir haben das, das ist vielleicht ein erster kleiner Anker zur Gegenwart. Wir haben das natürlich in diesem ganzen inneren Kindtherapiegerede auch, also ein zurückkommen zu dem kindlichen Zustand, wo einem nichts fehlt. Also ich finde gerade dieses, die Temperatur ist genau richtig, dass man, dass einem wirklich gar nichts fehlt, dass man versorgt ist und alles heil ist. Das ist zum Beispiel was, was das ganze Thema schon in die Gegenwart wirft, würde ich sagen. Aber Ijoma, vielleicht magst du.",
+      "begin_time": "29:12.695",
+      "begin_seconds": 105815.0,
+      "end_time": "30:38.795",
+      "end_seconds": 111075.0,
+      "duration_seconds": 5260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Sie hat natürlich auch eine überzeitliche Bedeutung, weil man sich ja auch nähern kann und erst mal sagen kann, es ist einfach ein anthropologisches Charakteristikum, also eine Eigenschaft, die nur der Mensch hat. Denn um Sehnsucht zu empfinden, muss man quasi im Kontrafaktischen denken können und muss sich, also bei Nietzsche heißt das mal, das Tier ist an den Pflok des Augenblicks gebunden und da kann dann weder Nostalgie aufkommen, noch Sehnsucht nach einer Zukunft oder nach dem Nicht-Hier-Sein, nach der Utopie.",
+      "begin_time": "30:38.815",
+      "begin_seconds": 111095.0,
+      "end_time": "31:13.375",
+      "end_seconds": 112755.0,
+      "duration_seconds": 1660.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Das was uns zum Mensch macht, ist das Erzählen von der Vergangenheit und wie toll das war.",
+      "begin_time": "31:13.395",
+      "begin_seconds": 112775.0,
+      "end_time": "31:18.475",
+      "end_seconds": 113155.0,
+      "duration_seconds": 380.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Dadurch, dass wir ein Zeitbewusstsein haben und uns quasi befreien können aus der Realität des Hier und Jetzt. Aber gleichwohl, natürlich stimmt es auf was Lars sagt, Romantic, German Trademark, wenn man so möchte. Dort wurde sie eben ganz groß ausgespielt und das wollte ich nur mal an zwei kleinen Beispielen, die aber so kanonisch einschlägig sind. Das erste ist aus Goethes Willemeisters Lehrjahren, der Hafner und Mignon singen dieses Lied. Wir werden gleich sehen, dass man quasi zwei Kategorien, es gibt einfach die Sehnsucht, die wir mit der Liebe verbinden oder assoziieren, die sich auf einen anderen Menschen bezieht und dann gibt es die Sehnsucht nach dem ganz anderen Ort oder der ganz anderen Zeit. Und dieses berühmte Gedicht aus den Lehrjahren, das ist die Sehnsucht als Liebe. Nur wer die Sehnsucht kennt heißt es da. Nur wer die Sehnsucht kennt, weiß, was ich leide. Allein und abgetrennt von aller Freude sehe ich ans Firmament nach jener Seite. Ach, der mich liebt und kennt, ist in der Weite. Es schwindelt mir, es brennt mein Eingeweide. Nur wer die Sehnsucht kennt, weiß, was ich leide. Und endlich oft, oft schönste Arten, natürlich auch vertont worden. Und das vielleicht berühmteste Sehnsuchtsgedicht, das ist dann wirklich Hochromantik von dem schlesischen Beamten Eichendorf. Das würde ich auch gerne vortragen, weil da dieses Moment, dass man in die Ferne sehen, weil einem das hier zu viel Listehaft ist. Weil man nicht am festen Ort bleiben will, wo man alles kennt, weil man glaubt, dort, wo man noch nicht war, kann man auch selber ein anderer werden und in der Vorstellung, ein anderer zu werden, liegt offensichtlich für den Menschen auch immer die Vorstellung ein glücklicherer zu werden. Es schienen so golden die Sterne, am Fenster ich einsam stand, und hörte aus weiter Ferne ein Posthorn im stillen Land. Das Herz mir im Leib entbrannte, da hab ich mir heimlich gedacht, ach, wer da mitreisen könnte in der prächtigen Sommernacht. Also ihr merkt, ihr hört schon, das sind, finde ich, wahnsinnig klangvolle Wortkombinationen, die Sehnsucht wird da, wenn man dieses Gedicht liest, bezieht sich schon gar nicht mehr auf einen Ort, sondern am Ende auf das Gedicht selber. Also, ah, man möchte eigentlich auch mal in einer Welt leben, wo es eine prächtige Sommernacht gibt.",
+      "begin_time": "31:18.495",
+      "begin_seconds": 113175.0,
+      "end_time": "33:50.195",
+      "end_seconds": 121995.0,
+      "duration_seconds": 8820.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Oder noch ein Posthorn.",
+      "begin_time": "33:50.215",
+      "begin_seconds": 122015.0,
+      "end_time": "33:51.395",
+      "end_seconds": 122255.0,
+      "duration_seconds": 240.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und noch ein Posthorn erklingt. Das sind ja so Motive, die ungeheuer stark geblieben sind und noch lange, nachdem es keine Posthörner mehr gibt, wissen wir, welche Seite da zum Schwingen gebracht wird.",
+      "begin_time": "33:51.415",
+      "begin_seconds": 122275.0,
+      "end_time": "34:02.655",
+      "end_seconds": 123175.0,
+      "duration_seconds": 900.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich finde auch bei all solchen Gedichten aus der Zeit geht bei mir sofort die Sehnsucht nach. Bitte keinen Bildschirm, bitte kein elektrisches Licht. Also all sowas, wo die Dämmerung noch die Dämmerung war.",
+      "begin_time": "34:02.675",
+      "begin_seconds": 123195.0,
+      "end_time": "34:15.415",
+      "end_seconds": 123715.0,
+      "duration_seconds": 520.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Wobei das Posthorn ja auch der Beginn der Medialisierung der Welt ist.",
+      "begin_time": "34:15.435",
+      "begin_seconds": 123735.0,
+      "end_time": "34:20.715",
+      "end_seconds": 124315.0,
+      "duration_seconds": 580.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das ist glaube ich ja schon zentral, selbst in der Romantik, dass dieses menschliche Element schon eine wichtige Rolle spielt. Also einfach nur leere Natur ist nicht so spannend, das ist dann schon wie später Brecht das doch mal in so einem Gedicht formuliert hat. Ich kann es nicht zitieren, da ist das Haus am See und so weiter. Und das ist alles ganz schön. Aber wie traurig wäre das ohne den Rauch, der aus dem Haus kommt. Da müssen schon irgendwie Menschen so ein bisschen noch vorkommen und ihre Zeichen so.",
+      "begin_time": "34:20.835",
+      "begin_seconds": 124435.0,
+      "end_time": "34:47.615",
+      "end_seconds": 125835.0,
+      "duration_seconds": 1400.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nicht zu viel, aber doch. Er geht auch von Hans Carossa, dieses schöne Gedicht, wo einer nachts in der einsamen Natur in seinem Bett liegt und er hört das Rauschen des Brunnens, des Plätschern des Brunnens. Und plötzlich wird dieses Geräusch unterbrochen. Und dann ist er ganz ergriffen, weil er weiß, jetzt ist wohl ein Wanderer vorbeigekommen und hat seine Hände unter den Wasserstrahl gehalten, um seinen Durst zu löschen. Und für diesen Moment hört das Plätschern dann kurz mal auf.",
+      "begin_time": "34:47.635",
+      "begin_seconds": 125855.0,
+      "end_time": "35:19.495",
+      "end_seconds": 127635.0,
+      "duration_seconds": 1780.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Jetzt muss ich natürlich wieder an Michelle Obama denken und ihre Sehnsucht danach, dass alle Kinder im Bett sind und der Geschirrspüler läuft. Ja, wieder dieses, wie schön man da, das ist dann auch ein Geräusch der Erlösung.",
+      "begin_time": "35:19.515",
+      "begin_seconds": 127655.0,
+      "end_time": "35:30.635",
+      "end_seconds": 128435.0,
+      "duration_seconds": 780.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Wobei ich vielleicht jetzt fast bei diesen Beschreibungen zurücknehmen würde, dass uns das heute gar nicht mehr unmittelbar mal was sagt, weil in einer vielleicht etwas verwässerten, vertrashten Variante sind diese Formen der Sehnsucht ja total aktuell. Also dass man auf Instagram sich irgendwie Kevin Porn anguckt.",
+      "begin_time": "35:30.655",
+      "begin_seconds": 128455.0,
+      "end_time": "35:52.535",
+      "end_seconds": 129655.0,
+      "duration_seconds": 1200.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Was mein Kevin Porn?",
+      "begin_time": "35:52.635",
+      "begin_seconds": 129755.0,
+      "end_time": "35:54.135",
+      "end_seconds": 129375.0,
+      "duration_seconds": -380.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Das Leute in Hütten, in der Natur.",
+      "begin_time": "35:54.795",
+      "begin_seconds": 130035.0,
+      "end_time": "35:56.695",
+      "end_seconds": 130055.0,
+      "duration_seconds": 20.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ganz tolle Hütten, die ganz toll aussehen. Oder als einzelne Memes in Reels.",
+      "begin_time": "35:58.175",
+      "begin_seconds": 129655.0,
+      "end_time": "36:02.735",
+      "end_seconds": 130455.0,
+      "duration_seconds": 800.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich war in Mexiko in einem ganz tollen Cabin mitten im Dschungel. Das war mir gar nicht klar, dass ich da an einem Gegenwart-Phänomen dran war.",
+      "begin_time": "36:02.755",
+      "begin_seconds": 130475.0,
+      "end_time": "36:08.935",
+      "end_seconds": 131015.0,
+      "duration_seconds": 540.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Wie viele Stunden konntest du es genießen ohne dich in die nächste Hütte oder in das nächste Hotel oder zurück in dieses Studio?",
+      "begin_time": "36:08.955",
+      "begin_seconds": 131035.0,
+      "end_time": "36:14.755",
+      "end_seconds": 131195.0,
+      "duration_seconds": 160.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das Problem war, wir waren da nur eine Nacht und bekamen Sauerstoffprobleme, weil wir fanden das wahnsinnig toll. In dieser Kälte im Wald, da war so ein kleiner Kamin und den haben wir dann angezündet. Und dann stell ich mir das vor, wie toll das ist, während der Kamin noch glüht, schlafen wir bereits. Leider sind wir nach einer Stunde wieder aufgewacht.",
+      "begin_time": "36:14.775",
+      "begin_seconds": 131215.0,
+      "end_time": "36:29.735",
+      "end_seconds": 132075.0,
+      "duration_seconds": 860.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ein Glück überlebt.",
+      "begin_time": "36:29.755",
+      "begin_seconds": 132095.0,
+      "end_time": "36:31.175",
+      "end_seconds": 131635.0,
+      "duration_seconds": -460.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Weil die Luft so schlecht war.",
+      "begin_time": "36:31.195",
+      "begin_seconds": 131655.0,
+      "end_time": "36:33.655",
+      "end_seconds": 132235.0,
+      "duration_seconds": 580.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, aber auch so was, es gibt so ein Bild, das sehe ich immer wieder in irgendwelchen Reels von irgendeiner Insel vor Norwegen. So eine ganz kleine grüne Insel, die man komplett sieht und in der Mitte ist nur so ein Haus. Da gibt es manchmal auch so ein Meme dazu, würdest du hier für so und so viel Geld ohne Internet ein Jahr bleiben? Das gibt es alles schon. Teilweise auch ganz runtergereicht, jetzt werde ich wieder klassistisch, muss einmal pro Folge sein, ganz runtergereicht bis zu so einem Kalender mit den schönsten Leuchttürmen oder so. Das ist ja auch nichts anderes als das.",
+      "begin_time": "36:33.675",
+      "begin_seconds": 132255.0,
+      "end_time": "37:01.555",
+      "end_seconds": 133815.0,
+      "duration_seconds": 1560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Absolut.",
+      "begin_time": "37:01.575",
+      "begin_seconds": 133835.0,
+      "end_time": "37:02.015",
+      "end_seconds": 133335.0,
+      "duration_seconds": -500.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und sehr gegenwärtig.",
+      "begin_time": "37:02.035",
+      "begin_seconds": 133355.0,
+      "end_time": "37:03.795",
+      "end_seconds": 134175.0,
+      "duration_seconds": 820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nur noch eine letzte aus der Romantik kommende Zitat, in dem Fall von Novales, dem Dichter und im Grunde ja auch Philosophen. Weil von dem kommt auch ein berühmter Satz, dass die Sehnsucht am Ende die ist, die du als Nostalgie beschreibst und sich auf sich selber bezieht. Also Novales fragt, wo gehen wir denn hin, im Heinrich von Osterdingen daraus ist das Zitat, wo gehen wir denn hin? Immer nach Hause. Und da hat man dieses Beides. Einerseits will man die ferne, aber man hofft in Wahrheit in der Ferne, das Eigentliche selbst dann anzutreffen.",
+      "begin_time": "37:03.815",
+      "begin_seconds": 134195.0,
+      "end_time": "37:31.815",
+      "end_seconds": 135875.0,
+      "duration_seconds": 1680.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Darf ich das nur ganz kurz ergänzen, um anderes Zitat, was mir halt sofort in den Kopf schießt, wenn ich an Sehnsucht und deutsche Romantik denke. Das Problem ist, das kannst du mir gleich erklären, es kommt von Heine, also jemandem, der eigentlich ja schon kein richtiger Romantiker mehr ist, sondern das sich teilweise darüber lustig macht.",
+      "begin_time": "37:32.915",
+      "begin_seconds": 136035.0,
+      "end_time": "37:53.215",
+      "end_seconds": 136595.0,
+      "duration_seconds": 560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Aber auf dieser Klaviatur perfekt Spiel plus ironische Schlusswendung.",
+      "begin_time": "37:53.755",
+      "begin_seconds": 137135.0,
+      "end_time": "37:58.035",
+      "end_seconds": 136715.0,
+      "duration_seconds": -420.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und mir fällt halt sofort der Anfang von dem Loreley-Ding ein. Ich weiß nicht, was soll das bedeuten, dass ich so traurig bin. Das ist für mich deutsche Romantik. Also erstens ist jemand traurig. Aber noch viel wichtiger ist, es fragt jemand so tiefsinnig, was irgendwas bedeuten soll. Also da steckt für mich natürlich auch die ganze Kontinentalphilosophie, der ganze Hegel und so drin, den ich nicht mag, wo es immer nur so ganz tiefsinnig, alles muss irgendwas bedeuten und so. Das ist für mich auch Teil von deutscher Romantiksehnsucht.",
+      "begin_time": "37:58.575",
+      "begin_seconds": 137255.0,
+      "end_time": "38:27.255",
+      "end_seconds": 138675.0,
+      "duration_seconds": 1420.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Also ich bin besonders trauer und Schmerz und dieses Ziehen, dieses seelische Ziehen, die Seelen fasstziehen, die da in die Ferne oder in die zurückgezogen werden. Ich musste ja, als du das Thema vorgeschlagen hast, hat das Ijoma sofort an Florian Ilyes Bücher denken oder an seinen bahnbrechenden Erfolg, was natürlich daran liegt, dass er supergut schreibt. Aber eben auch, also zum einen natürlich an 1913, was ja und ich glaube darin liegt der Erfolg, dass er ist so unterhaltsam und schön und eben auch liebevoll die Menschen, die dort beschrieben werden, die Briefwechsel aller großen Stars dieser Zeit, also Rilke, Kafka, wer auch immer da alles vorkommt und alle sehnen sich die ganze Zeit weg, nämlich zu ihren Geliebten, zu anderen Orten und die, es ist keine lächerlich Machung da drin, aber schon, man, ja, man ist so, wie soll ich es beschreiben, also lächerlich wäre zu hart, aber man ist so gerührt und denkt so, ach, die Menschen, wie sie sich die ganze Zeit nur unglücklich machen und sehnen und schmerzen. Und ich glaube, ein Teil des Erfolges dieses Buches, aber auch all der folgenden, wo es ja auch so weiterging, ist eben das Zeigen, dass wir alle so sind. So wie du ja auch gesagt hast, ein Großteil deines Seelenlebens, deines inneren Lebens besteht aus daraus. Und ich glaube, nicht jeder und jede kann darüber so reden wie du, sondern manche denken, bin nur ich so, warum? Man projiziert ja, darum geht es auch bei meinem Beispiel, was ich mitgebracht habe. Man projiziert eben die Sehnsüchte auf andere Menschen und denkt so, ach Mensch, die sehen sich ja nicht die ganze Zeit weg. Und ich glaube, das ist ein Teil des Erfolges, das hier gezeigt wird. Alle haben sich schon immer weggesehen oder zu jemand anderem hingesehen.",
+      "begin_time": "38:29.495",
+      "begin_seconds": 139035.0,
+      "end_time": "40:18.775",
+      "end_seconds": 145855.0,
+      "duration_seconds": 6820.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nach Moskau, nach Moskau, so enden doch Tschechos drei Schwestern. Die leben da auf dem schönen Landhausen der Idylle. Aber glauben natürlich, umgekehrt wie wir jetzt aus der Persönlichkeit, wir sehen uns immer nach dem Land. Aber die sitzen halt wirklich auf dem Land und sehen sich immer nach Moskau, weil sie glauben, da ist das aufregende Leben.",
+      "begin_time": "40:18.795",
+      "begin_seconds": 145875.0,
+      "end_time": "40:34.895",
+      "end_seconds": 146935.0,
+      "duration_seconds": 1060.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ja, insofern, also bei Florian-Ilias-Büchern, die ja nur wirklich jedes Mal einschlagen und irgendwie drei Jahre auf der besten Liste auf Platz einstehen, auch das ist ja Gegenwart. Und es ist ein, also durch die Bücher, die das thematisieren, ist Sehnsucht wieder so Gegenwart. Die Caspar David Friedrich-Ausstellung, das Buch über Caspar David Friedrich. Also, da kann man ja fast schon sagen, das ist die Sehnsucht nach der Sehnsucht. Also, ähm, und auch bei 1913 und all diesen Büchern.",
+      "begin_time": "40:34.995",
+      "begin_seconds": 147035.0,
+      "end_time": "41:01.055",
+      "end_seconds": 147715.0,
+      "duration_seconds": 680.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und Florian Ehlens hat ja auch ein Buch über Caspar David Friedrich geschrieben.",
+      "begin_time": "41:01.075",
+      "begin_seconds": 147735.0,
+      "end_time": "41:03.715",
+      "end_seconds": 148495.0,
+      "duration_seconds": 760.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Genau, und du hast, ähm, die Sehnsucht, also wenn ich das lese, habe ich sozusagen die, wird meine Sehnsucht befriedigt nach dieser schönen, nach dem Posthorn und nach der ganzen Vergangenheit. Es wird aber auch, äh, mir gesagt, alles ist gut, alle haben sich schon immer so gesehnt, also dein Sehen ist normal. Ja, es hat so die Sehnsucht, Sehnsucht. Das finde ich ein sehr herausragendes Beispiel für die Gegenwärtigkeit des Ganzen. Und ich habe noch etwas anderes mitgebracht, wobei ich auch sofort dran denken musste bei dem Thema. Und zwar eine Novelle von Eduard von Kaiserling, erschienen 1911. Wellen heißt die, hat mir lustigerweise Florian Idies einmal empfohlen. Und ich habe das mehrfach gelesen, weil ich so, es hat auch was von diesem, ich meine, die Geste ist auch so ein bisschen beim Lesen, dass man denkt, ach, was placken sich alle ab, was quälen sich alle die ganze Zeit und wie irre ist eigentlich diese Art, wie menschliche Psychen funktionieren und eben auch funktioniert haben schon immer. Sehr gegenwärtig für den Sommer ist ja, dass die Menschen von uns, die am Strand sein werden in diesem Sommer, werden dort sitzen, mit ihren Familien oder alleine oder ihren Partnerinnen und Partnern und dann werden sie sich über ihre Bücher gebeugt ein bisschen umgucken und das Leben der anderen begucken in genau dieser Beiläufigkeit. Wer sitzt denn hier? Die waren gestern schon da. Ich möchte ja auch unbedingt, dass wir nochmal eine Folge über White Lotus machen, wo ja auch dieses sich beäugen gegenseitig am Strand und der Menschen, die man im Urlaub ist, weil da ist man natürlich eigentlich glücklich und zeigt irgendwie aber auch sein wahres Ich und so weiter. Dieses sich gegenseitige Beiläufige und dann aber doch auch recht Obsessive gegenseitig begucken, weil man sonst nichts zu tun hat. Man muss ja nicht ins Büro, man muss irgendwie nichts anderes machen als eben auf einem Strandhandtuch liegen und hat dann auch sehr viel Kapazitäten, einander beiläufig anzuglotzen und da hinein alles zu projizieren. Man kann natürlich auch sagen, guck mal wie unglücklich die da drüben aussehen. Ein Glück sitzen wir auf unserem Handtuch. Aber was meistens passiert oder häufig passiert, ist, dass man sich am Strand beäugt und denkt, ach Mensch, das ist ja eine glückliche Familie oder guck mal wie die sich noch abknutschen da hinten. Und das an einer historischen, ich weiß gar nicht welcher Strand das ist, man könnte sagen, der Strand des Lebens, irgendein Ostseestrand oder so, dort spielt diese Novelle Wellen und ich hab tatsächlich...",
+      "begin_time": "41:03.735",
+      "begin_seconds": 148515.0,
+      "end_time": "43:27.875",
+      "end_seconds": 157295.0,
+      "duration_seconds": 8780.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Und der war ja ein baltischer Baron.",
+      "begin_time": "43:27.895",
+      "begin_seconds": 157315.0,
+      "end_time": "43:29.875",
+      "end_seconds": 157415.0,
+      "duration_seconds": 100.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Genau.",
+      "begin_time": "43:29.915",
+      "begin_seconds": 157455.0,
+      "end_time": "43:30.255",
+      "end_seconds": 156855.0,
+      "duration_seconds": -600.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Also wir sind im östlichsten Ostsee.",
+      "begin_time": "43:30.275",
+      "begin_seconds": 156875.0,
+      "end_time": "43:34.175",
+      "end_seconds": 157015.0,
+      "duration_seconds": 140.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Genau und dort verbringen nun mehrere Personen ihren, die einen verbringen dort ihren Urlaub, die anderen sind da eigentlich hingezogen gerade. Ich hab mir das sogar aufgemalt, wie die Sehnsuchtsströme, wie so Gezeiten, hab ich mir so eine Skizze gemalt. Und ein Sehnsuchtsort, es sind nicht nur die Menschen, die einander in ihrer Sehnsucht anschmachten, sondern viele Pfeile gehen auch auf das Wort Meer. Denn auch das Meer wird die ganze Zeit angeschmachtet und angesehen auch immer in dieser schmerzlichen Natursehnsucht.",
+      "begin_time": "43:34.195",
+      "begin_seconds": 157035.0,
+      "end_time": "44:04.955",
+      "end_seconds": 159595.0,
+      "duration_seconds": 2560.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Das Meer, wenn ich jetzt kurz einwerfen darf, erfüllt ja eine strukturelle Homologie, könnte man sagen, mit der Sehnsucht. Nämlich der Horizont verschiebt sich immer weiter. Es hat die Ferne und irgendwo gibt es eine Grenze, ist der Horizont, aber die ist ja nur scheinbar. Wenn man den erreicht hat, tut sich schon wieder die nächste.",
+      "begin_time": "44:04.975",
+      "begin_seconds": 159615.0,
+      "end_time": "44:19.915",
+      "end_seconds": 160455.0,
+      "duration_seconds": 840.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Sehr schön, ja sehr schön. Und es verändert sich immer. Du kannst es nicht festhalten. Ja ja, also es ist sehr, sehr einladend dafür. Und an diesem Strand des Lebens stehen vor allem eine Gräfin, Dora Lice und ein Maler, Hans. Das ist ihr Mann, sie haben sogar geheiratet. Und diese Gräfin ist aus allen Konventionen ausgebrochen. Die war mit einem Graf zusammen, einem alten Graf, und hat sich von Hans, diesem Maler, immer portraitieren lassen und ist dann mit ihm durchgebrannt. Und diese Gräfin Dora Lice und der Hans laufen nun an diesem Strand, wo sie letztendlich, ist es eine frische Sehnsuchtserfüllung. Sie haben gerade ihre Sehnsucht erfüllt in diesem großen, wir machen das einfach, wir brennen jetzt durch miteinander. Geheiratet haben sie schon, sie sind genau in dem Kippmoment, wo die Sehnsucht erfüllt wurde, aber irgendwie halt einfach es jetzt weitergehen muss und das Leben, deswegen hab ich immer großen Respekt vor Menschen, die ihre Familien verlassen, ihre Partner verlassen, sich scheiden lassen, weil ich immer denke so, oh, dann muss es auch gut gehen, weil der Aufprall, wenn die Sehnsucht, mit dem du dann, wenn du mit der Affäre dann wirklich zusammen bist und dann merkst du, du musst auch morgens dein Handy gegen die Cornflakes packen und wenn das dann umfällt. Und dann, das möchte ich nicht erleben. Also die Lust wandeln da am Strand entlang und es kippt halt schon in deren Beziehung. Und auf der anderen Seite ist ein Pulk an, ja, an Adeligen, die in diesen, in diesen Konventionen also wirklich fest drin sind. Die Familie des Baron von Baudelaire. Es gibt zwei junge Frauen, Nini und Lolo. Lolo ist mit Hilmar verlobt, einem jungen Leutnant. Und dann ist da noch, ja, also verschiedene, also eine große Gesellschaft reist dort an. Und die sitzen fest im Sattel ihrer Konventionen und ihrer, ja, auch der ganzen Abläufe und der Starheit. Und die blicken nun, ich hab viele Pfeile gemalt, die meisten Pfeile gehen auf diese Gräfin Dora Lice. Die jungen Frauen in dieser Familie werfen ihre gesamte Sehnsucht auf diese Gräfin, weil die ist ja nun mal, also die sind beide noch nicht verheiratet und werfen alle ihre emanzipazorischen Sehnsüchte und ihre Hoffnung auf ein freieres Leben, wo Leidenschaft zählt. Auf diese Gräfin, also himmeln die total an. Die eine schickt ihr sogar Rosen aufs Zimmer. Also es hat so eine, fast schon ja, so erotische Ebene, dass sie werden wollen wie sie. Der junge Leutnant, der gerade verlobt ist, verliebt sich natürlich auch, erkennt in dieser Dora Lice einen ähnlich freigeistige, leidenschaftliche Person, wie er selber eigentlich ist, auch wenn er sich eigentlich ganz gerne verlobt hat und alles gut ist. Aber es gibt eben immer noch das andere, wonach man sich sehnt. Und so ist es halt so, dass man da am Strand mit denen, Ijoma du hattest mich ja gebeten, eine Stelle rauszusuchen, wo man sieht, wie diese Sehnsuchtsscheinwerfer auf das Leben der anderen sich so gegenseitig treffen, das ganze Buch besteht daraus. Und das ganze Buch besteht auch aus selbst, ich hab's jetzt nochmal mit der Sehnsuchtsbrille gelesen, und auch die kleinsten Äußerungen einer sagt dann, ein so ein Graf oder der Heimrat oder irgendwer sagt dann so, ich habe mir das mehr größer gedacht. Also selbst die kleinen Sachen werden irgendwie immer so, denkt man so, ha Mensch, jetzt wieder so eine Ernüchterung. Also man kann deswegen nicht eine große Stelle heraus suchen. Man kann aber einmal so den Sound des Buches, also es bringt einfach wahnsinnig Spaß, wer noch Sommerlektüre sucht. Nehme, war das jetzt ein korrekter Imperativ, zeitgenössischer, nehme dieses Buch bitte mit.",
+      "begin_time": "44:19.935",
+      "begin_seconds": 160475.0,
+      "end_time": "48:01.915",
+      "end_seconds": 173775.0,
+      "duration_seconds": 13300.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Lies und nimm.",
+      "begin_time": "48:01.935",
+      "begin_seconds": 173795.0,
+      "end_time": "48:02.775",
+      "end_seconds": 173695.0,
+      "duration_seconds": -100.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich kann ja einmal in den Sound so, wo diese Lolo und Nini, also die jungen Frauen, die legen sich dann immer auf die Jagd jeden Abend und hoffen, dass die Gräfin wieder vorbeikommt mit ihrem hotten Maler und ihrer tollen freien Liebe. Also, oben in der Giebelstube, Lolos und Ninis Schlafzimmer standen die beiden Mädchen noch am Fenster und schauten hinaus. Das Mond beglänzte mehr, das Rauschen und Wehen da draußen ließ ihnen keine Ruhe, es erregte sie fast schmerzhaft und das Paar, das dort unten an den blanken Säulen der brechenden Wellen hinschritt, gehörte mit zu dem Erregenden und Geheimnisvollen da draußen, das den beiden Mädchen ein seltsames Fieber in das Blut legte. Also, das seltsame Fieber ist die Sehnsucht und ein paar Sätze weiter hat man jetzt die Binnenansicht von diesem Paar, was dort so leidenschaftlich spazieren geht. Da kippt es nämlich schon. Hans Grill und Dora Lice gingen am Meeresufer entlang. Es ging sich gut auf dem feuchten, von den Wellen glattgestrichenen Sande. Zuweilen blieben sie stehen und schauten auf den breiten, sich sachtwiegenden Lichtweg hinab, den der Mond auf das Wasser warf. Nichts heute nichts, sagte Hans und machte eine Handbewegung, als wollte er das Meer beiseite schieben. Es ziert sich heute, es macht sich klein und süß, um zu gefallen. So lasse es doch, bat Dora Lice. Ja, ja, ich lasse es ja, erwiderte Hans ungeduldig. Und so geht es schon mal weiter. Es fängt schon an zu bröckeln. So romantisch ist der Spaziergang gar nicht. Und was auch fatal ist und was vielleicht jetzt rein auf die Liebesebene bezogen der Maler, hat dann eben seine Angebetete, die er immer gemalt hat. Also es ist die Hyper-Erfüllung der Sehnsucht. Aber sei der mit ihr zusammen, es kann er nicht mehr malen. Das ist halt auch schon wieder so ein bisschen doof. Und er sagt, ich möchte wissen, wo Teufel mein Talent hingekommen ist. Es war doch da. Bin ich daran schuld, fragte Doralice ruhig und schläfrig? Hans antwortete nicht zugleich. Er lag da und starrte zum Himmel auf und dachte nach. Ja, wie war das denn? Und er begann langsam zu sprechen, wie zu sich selber. Schuld, eine Schuld kann da nicht sein. Aber das ist es. Du nimmst jetzt in mir einen so großen Raum ein, dass das Talent nicht mehr Platz hat. Natürlich, das ist es. Du bist doch in mein Leben hereingekommen wie ein Wunder. Und noch bist du jeden Augenblick ein unbegreifliches Wunder. Wie soll da etwas anderes Platz haben? Immerfort ein Wunder zu erleben, strengt an. Und glaubst du, unterbrach in Doralice ein wenig gereizt, es strengt nicht an, immer den ganzen Tag ein Wunder zu sein? Hans lachte gutmütig. Lass es gut sein, ich gewinne mich schon an das Wunder. Und so geht es weiter. Sie sind dabei, sie haben sozusagen einen Metadiskurs darüber, wie sie selber sich entromantisieren. Also...",
+      "begin_time": "48:02.795",
+      "begin_seconds": 173715.0,
+      "end_time": "50:48.455",
+      "end_seconds": 183335.0,
+      "duration_seconds": 9620.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Eine herrliche Stelle.",
+      "begin_time": "50:48.615",
+      "begin_seconds": 183495.0,
+      "end_time": "50:51.455",
+      "end_seconds": 183515.0,
+      "duration_seconds": 20.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich könnte jetzt ewig weiterlesen, weil es einfach so toll ist. Auch die Sprache ist natürlich wunderbar dafür, weil es, ja, wie das seltsame Fieber. Und es beginnt dann halt ein Zersetzungsprozess, wo dann plötzlich eben die, du hast es ja eben gesagt, Lars, wenn man umzieht, plötzlich ist die alte Wohnung wieder toll. Wenn man sich trennt, plötzlich ist der Mensch, den man eben nicht mehr tragen konnte, irgendwie dann doch wieder toll. Und so ist es eben auch mit den Konventionen, die sie verlassen hat. Irgendwann ist sie dann eingeladen auf so eine Abendveranstaltung bei all diesen Menschen, die sie eigentlich nicht mehr tragen konnte. Und findest, merkt dann, dass sie eigentlich da wunderbar gedankenlos ist, weil eben alle, ja, alle Codes widerstimmen. Ja, gerade wenn man irgendwie das Milieu wechselt, ist es natürlich auch anstrengend. Es ist halt anstrengend, wenn da, wo sie mit ihrem Maler haust, ist halt doch irgendwie ein dunkles Loch und gar nicht mehr so toll. Und der wirft ihr immer vor, sobald sie irgendwie an die Vergangenheit denkt und so weiter. Und er sagt halt an einer Stelle, wir brauchen Alltäglichkeit. Der ewige Feiertag macht uns krank.",
+      "begin_time": "50:51.475",
+      "begin_seconds": 183535.0,
+      "end_time": "51:50.595",
+      "end_seconds": 187195.0,
+      "duration_seconds": 3660.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Absolut, der Wechsel ist die Variante. Ich muss ja bei Eduard von Kaisersling immer an die Spottverse denken. Als Gottes Atem langsam ging, da schuf er den Grafen Kaiserling. Der trägt nichts zur Sache bei, aber er ist ja so ein Meister der Langsamkeit.",
+      "begin_time": "51:50.615",
+      "begin_seconds": 187215.0,
+      "end_time": "52:10.015",
+      "end_seconds": 187815.0,
+      "duration_seconds": 600.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Es ist wunderbar, es passt wirklich sehr gut in den Sommerferienmodus.",
+      "begin_time": "52:10.875",
+      "begin_seconds": 188675.0,
+      "end_time": "52:14.995",
+      "end_seconds": 189035.0,
+      "duration_seconds": 360.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Es können nicht alle Festsage sein.",
+      "begin_time": "52:15.015",
+      "begin_seconds": 188115.0,
+      "end_time": "52:17.555",
+      "end_seconds": 188775.0,
+      "duration_seconds": 660.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Es ist wie ein seelisches Pflaster für Leute, die jetzt endlich bald im ersehnten Urlaub sind und dann merken, dass die Familie doch nervt und man selber doch irgendwie unzufrieden ist. Die deck kann sich sozusagen entweder nochmal 1913 durchlesen oder diese Novelle, weil man sich dadurch einfach glaube ich auch ein bisschen besser fühlt.",
+      "begin_time": "52:17.575",
+      "begin_seconds": 188795.0,
+      "end_time": "52:33.915",
+      "end_seconds": 190095.0,
+      "duration_seconds": 1300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Nina, darf ich kurz noch einen ganz anderen Autor auch noch erwähnen?",
+      "begin_time": "52:34.635",
+      "begin_seconds": 189875.0,
+      "end_time": "52:39.595",
+      "end_seconds": 190135.0,
+      "duration_seconds": 260.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Jeder sollte ja was mitbringen zum Thema insofern.",
+      "begin_time": "52:39.615",
+      "begin_seconds": 190155.0,
+      "end_time": "52:41.995",
+      "end_seconds": 190655.0,
+      "duration_seconds": 500.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, ich habe jetzt kein Zitat mitgebracht, aber Ijoma hat ja am Anfang schon gesagt, das Gegenteil zur Sehnsucht, was hast du gesagt? Das ist ja das Stoische oder Buddhistische, was hast du gesagt? Im ganz im Moment sein. Vielleicht auch deswegen kam mir das Thema Sehnsucht gerade nicht gegenwärtig vor, weil ich irgendwie immer das diffuse Gefühl habe und das kommt im Podcast ja auch an vielen Stellen schon vor, dass gegenwärtig ist, in der Gegenwart zu sein, in diesem Doppelsinne. Also heute wollen die Leute immer besonders im Moment sein. Sie schaffen es dann nicht, aber sie geben sich so Mühe. Und das wäre ja dann genau die entgegengesetzte Bewegung, die nicht Sehnsucht ist, wenn man deine simple Ontologie da jetzt unterstellen würde.",
+      "begin_time": "52:42.015",
+      "begin_seconds": 189735.0,
+      "end_time": "53:27.855",
+      "end_seconds": 193275.0,
+      "duration_seconds": 3540.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich würde da sofort dazwischenschreien, das ist ja die Sehnsucht nach der Gegenwart.",
+      "begin_time": "53:27.875",
+      "begin_seconds": 193295.0,
+      "end_time": "53:31.035",
+      "end_seconds": 192695.0,
+      "duration_seconds": -600.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, aber das wäre dann genau der Punkt, jetzt sind wir auf einer tollen Meterebene, das wäre genau der Punkt, wo ich nicht mehr richtig denken kann, weil dann bedeutet das Wort alles und nichts. Also dann ist Sehnsucht einfach...",
+      "begin_time": "53:32.295",
+      "begin_seconds": 193015.0,
+      "end_time": "53:44.595",
+      "end_seconds": 194035.0,
+      "duration_seconds": 1020.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Dann bedeutet das einfach nur, dass der Mensch einfach nicht glücklich sein kann, weil er sozusagen weder ins Hier und Jetzt sich einloggen kann, noch eben körperlich und seelisch in der Vergangenheit und so. Aber ich fand das interessant, was du gerade gesagt hast, Lars. Machen wir weiter.",
+      "begin_time": "53:44.615",
+      "begin_seconds": 194055.0,
+      "end_time": "53:59.955",
+      "end_seconds": 195295.0,
+      "duration_seconds": 1240.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Vielleicht können wir gleich darüber noch mal reden. Ich will nur gerade meinen Gedanken zu Ende führen und den Autor nennen. Der ist auch so eine Art Guardians-Figur dieses Podcasts, weil wir ihn in der allerersten Folge erwähnt haben, nämlich der Self-Help-Guru und deutschstämmige, aber auf Englisch publizierende und berühmt gewordene Autor und Ratgeber, Literatur, Bestsellerautor. Ecker Tolle. Und da ist schon sein berühmtes Buch.",
+      "begin_time": "54:00.135",
+      "begin_seconds": 194535.0,
+      "end_time": "54:25.895",
+      "end_seconds": 196795.0,
+      "duration_seconds": 2260.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Bei Allegro Pastel spielt der eine Rolle, deswegen war er in unserer ersten Folge dabei.",
+      "begin_time": "54:25.915",
+      "begin_seconds": 196815.0,
+      "end_time": "54:29.915",
+      "end_seconds": 197055.0,
+      "duration_seconds": 240.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Und schon sein berühmtes Buch, berühmtestes Buch, The Power of Now, Die Kraft der Gegenwart, enthält ja diese Doppeldeutlichkeit. Wir machen einen Podcast über die Gegenwart. Dieses Buch hat gar nichts mit Gegenwartdiagnosen oder so zu tun, sondern soll nur in einem, das versuche ich jetzt möglichst neutral zu sagen, protobuddhistischen Sinne, vulgärbuddhistischen Sinne, vulgär ist natürlich nicht mehr neutral, versucht nur irgendwie zu zeigen, dass wir von allen Bestrebungen und Wünschen und allen Überlegungen, was morgen ist und was gestern war, uns verabschieden sollen und nur eigentlich wunschlos in dem Moment leben. Und dann geht alles, dann ist Frieden. Dann gehen alle Probleme weg, eine sehr grobe Zusammenfassung von dem, was Tolle da schreibt. Und ist das nicht eigentlich das Gegenteil von Sehnsucht? Du hast gerade schon behauptet, du findest das auch wie eine Sehnsucht. Weil man dann eben sich nicht irgendwo hinsieht, sondern einfach wunschlos, buddhistisch vor sich hin, ohne jeden Antrieb und ohne jede komischen Ziele in Frieden sitzt und lebt. Das wäre sozusagen mein Gegenvorschlag dazu zur Sehnsucht.",
+      "begin_time": "54:30.395",
+      "begin_seconds": 196595.0,
+      "end_time": "55:35.775",
+      "end_seconds": 200875.0,
+      "duration_seconds": 4280.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja, aber den möchte ich wirklich zurückweisen. Dieses Ganz-und-nur-in-der-Gegenwart-Leben. Ich verstehe überhaupt nicht, warum das ein Imperativ sein sollte, dem man was abgewinnen kann.",
+      "begin_time": "55:35.795",
+      "begin_seconds": 200895.0,
+      "end_time": "55:45.475",
+      "end_seconds": 201175.0,
+      "duration_seconds": 280.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ijoma hat so mega seine Sehnsucht embraced. Ich glaube, das ist so wirklich...",
+      "begin_time": "55:45.995",
+      "begin_seconds": 201695.0,
+      "end_time": "55:50.115",
+      "end_seconds": 201115.0,
+      "duration_seconds": -580.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich kenne mir eine solche Existenz ganz im Jetzt. Da käme mir vor, als sei sie abgeschnitten von jedem Hallraum. Wenn ich in einer gotischen Kirche bin und einen Koral singe, dann hallt jeder Akkord vier-, fünfmal nach und kriegt dadurch seine Fülle, seine Dreidimensionalität.",
+      "begin_time": "55:50.175",
+      "begin_seconds": 201175.0,
+      "end_time": "56:09.875",
+      "end_seconds": 203015.0,
+      "duration_seconds": 1840.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Du meinst sozusagen Fetischisierung auch. Also alles, was damit noch... Wir haben ja letztens die Folge...",
+      "begin_time": "56:09.895",
+      "begin_seconds": 203035.0,
+      "end_time": "56:15.615",
+      "end_seconds": 203115.0,
+      "duration_seconds": 80.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nee, gar nicht so großdeutend. Wenn ich nur im Jetzt bin, dann habe ich quasi nur einen Punkt und keine Obertöne und Untertöne. Die Obertöne sind doch all das, was immer mitschwingt an Blick in die Zukunft.",
+      "begin_time": "56:15.635",
+      "begin_seconds": 203135.0,
+      "end_time": "56:28.155",
+      "end_seconds": 203435.0,
+      "duration_seconds": 300.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Es gibt dafür so eine schöne technische Formulierung. Ich lese ja gerade so gerne, auch inspiriert von einer Folge, die ich mit dir gemacht habe, Nina, wo wir über so Fragen geredet haben, lese ich so gerne so Philosophen, die sich so volkswirtschaftlich mit Mitteln der Volkswirtschaftslehre über so Probleme der Willensschwäche und so Gedanken gemacht haben. Es gibt einen berühmten Norweger, John Elster, und das ist jetzt eine sehr technische Formulierung für das, was du so schön Ober- und Untertöne sagst. Der sagt, bei all unseren Wünschen ist nicht nur die Frage, wie viele Nutzungspunkte gibt mir die Wunscherfüllung, sondern es gibt auch noch so temporale Externalitäten, weil ich auch noch die Vorfreude immer mit einberechen muss, wenn ich jetzt so ein homo economicus werde. Ich esse heute Abend Eis, das gibt mir fünf Nutzungspunkte, aber es gibt auch noch Nutzungspunkte, sodass ich mich darauf freue. Und er nennt das Externalitäten, wie man in der VWL ja so manche Sachen nennt. Und rückwärts aber auch, weil ich ja manchmal denke, ah, damals hast du ein Eis gegessen. Das war aber schön. Die Nutzungspunkte kommen auch noch oben.",
+      "begin_time": "56:28.175",
+      "begin_seconds": 203455.0,
+      "end_time": "57:22.795",
+      "end_seconds": 207315.0,
+      "duration_seconds": 3860.0
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Deswegen wäre eine Existenz ohne diese vor- und rückgreifenden Mitschwingungen ein Nur im Jetzt wäre völlig armselig.",
+      "begin_time": "57:22.815",
+      "begin_seconds": 207335.0,
+      "end_time": "57:30.935",
+      "end_seconds": 207935.0,
+      "duration_seconds": 600.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Für mich doch, ich würde das zurückweisen, sondern einfach oder einverleiben in unser Thema, weil ich sagen würde, das ist eben auch Sehnsucht und eine sehr gegenwärtige Sehnsucht nach dem Moment. Aber Ijoma, hast du nicht, also ich sehe da, hab da so ein Bild wie so eine Kamera, die plötzlich alles klarstellt. Also wenn du, wenn man meditiert und danach in die Natur geht und sich eine Blüte anguckt, dann ist das so wie in so einem richtig geilen Naturfilm oder so einem Tierfilm. Es ist plötzlich die Konturen, du nimmst die eine Blüte und denkst, und könnte es religiös werden und sagen, guck mal, Gott hat diese, wie diese Blüten. Oder im Herbst, wenn so ein Blatt da liegt und du läufst und du, der gute Teil von Eltern schaffst, wenn du so rumläufst und dir das Kind so ein Blatt entgegenstreckst und plötzlich guckst du in diese Adern und in diese Farben und so. Das ist für mich the power of now, da einmal zu verharren und die Schönheit dieser Welt und so weiter, da so zu versinken. Nur ist dieses Versinken in der Gegenwart für mich so eine Sehnsucht, die eben ja auch immer irgendwie nicht geht oder sehr, sehr schwer geht.",
+      "begin_time": "57:30.955",
+      "begin_seconds": 207955.0,
+      "end_time": "58:31.775",
+      "end_seconds": 211435.0,
+      "duration_seconds": 3480.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also was ich interessant finde, ist, dass ich jetzt verstanden habe, dass dich an der Begriff Sehnsucht, und da hast du völlig recht, das gehört sozusagen analytisch dazu, ja vor allem das notwendige Scheitern interessiert. Das ist mir jetzt klar geworden, dass das für dich der Kern dieses Begriffs ist.",
+      "begin_time": "58:31.995",
+      "begin_seconds": 211655.0,
+      "end_time": "58:46.235",
+      "end_seconds": 211795.0,
+      "duration_seconds": 140.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ijoma würde nicht scheitern sagen, für den ist das so eine Energielehre, wo das immer weiter springt irgendwie, genau.",
+      "begin_time": "58:46.255",
+      "begin_seconds": 211815.0,
+      "end_time": "58:51.935",
+      "end_seconds": 212795.0,
+      "duration_seconds": 980.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das finde ich jetzt total interessant. Das habe ich jetzt erst so richtig scharf gestellt, wie du gerade gesagt hast. Ich will nur noch ergänzen, natürlich reicht es gar nicht, nur diese beiden Sachen als Pole zu nehmen, wo man dann sagt, wo ist die Gegenwart? Also das Jahr 2024 ist eher bei The Power of Now oder eher bei Novalis oder was du zitiert hast. Weil die Gegenwart ist ja vor allem dadurch charakterisiert, dass die Leute weder das eine noch das andere haben, sondern eine extrem nervöse, mein Handy an die Konfliktschachtel machen und dann scroll ich da immer so durch, ob noch was anderes kommt. Dissoziation und Ungeduld. Und die ist eben weder Power of Now. Deswegen sehnen sich die Leute, wie Nina gesagt hat, nach der alten Sehnsucht. Sie haben auch keine richtige Sehnsucht mehr, sondern irgendwie worst of both worlds.",
+      "begin_time": "58:51.955",
+      "begin_seconds": 212815.0,
+      "end_time": "59:41.075",
+      "end_seconds": 214935.0,
+      "duration_seconds": 2120.0
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ja, das stimmt. Weil wenn wir jetzt noch mal so, okay, Sehnsucht heute, sie können sich ja auch nicht, sie können ja nicht eintauchen, wie Ijoma, wenn er da sitzt und denkt, ach, eigentlich wär's doch jetzt so da schön. Also man müsste aus dem Fenster gucken und sich in irgendeinen Tagtraum verlieren. Und dann wär's wieder okay. Aber dieses Scrollen ist weder noch. Jetzt würde ich noch mal eine Ebene weiter sagen, warum scrollen wir überhaupt? Klar, irgendwie aus so einem, weiß ich nicht, aus irgendwelchen Dopaminrausch und nervösen Händen und so weiter. Man könnte aber auch sagen, was ist denn diese ganze Insta-Aufführung? Ist ja auch wieder, irgendwie sind das so, vielleicht so toxische Sehnsuchtschnipsel. Weil man ja, also da muss ich immer bei diesen Threadwives dann denken. Oder bei irgendwelchen Aussteigern. Du hast ja auch schon den Cabin Porn-Aussteiger, die mit ihren Familien da sitzen. Und dann so macht die Mutter so ein Video und sagt so, also morgens wacht das eine Kind immer ganz in Ruhe auf. Und der andere macht schon mal das Kompostklo. Und hier geht die Sonne so schön über Portugal auf. Und alles ist so, wir backen gleich mit unseren eigenen Händen noch so ein Teig und so was. Das ist ja auch ein Sehnsuchtsbild des Aussteigens, was mir da vorgeführt wird, was natürlich auch nur die super schönen Seiten zeigt. Überhaupt die ganzen Reels, also Kochvideos, Fitnessvideos, Putzvideos, spielen ja mit der Sehnsucht durch die Schnelligkeit, weil ja alles immer so fast forward ist, sonst würde es ja halt mega lange dauern, weil Putzen einfach nervt und langsam funktioniert. Zeigen sie es aber wie früher in den 90ern in so einer Werbung, wo man einmal schnipst und meisterpropper hat alles weiß gemacht. Das ist ja auch wie so eine Selbstverarschung, die man sich da die ganze Zeit antut. Und ich meine, es gehört ja auch zur Gegenwart und schon sehr, sehr lange, dass gerade das Blöde an Social Media ist, dass man sich ja gerade vergleicht und dorthin sehnt in diese anderen Leben, die man dort sieht. Also wenn ich mich frage, ist Sehnsucht, ist das was, können wir uns ja jetzt nochmal fragen, können wir nicht ändern, dass sie die ganze Zeit da ist, aber verhagelt es einem die Gegenwart und den Moment? Also man kann sagen, ne, man kann sich süß immer weitersehnen oder produktiv zum nächsten Thema sehnen, auch bei der Arbeit oder sowas. Man kann aber auch sagen, naja, sind nicht gerade auch diese Lebensentwürfe, wie sie auf Instagram oder so gezeigt werden, verhageln die mir nicht auch den Abend mit meiner Familie, weil ich denke, ach man, eigentlich müsste ich doch eine Mutter sein, die immer da ist, eigentlich müssten wir doch als Familie nicht so streiten, sondern harmonisch sein. Also die Selbstbilder, können nicht die auch?",
+      "begin_time": "59:41.095",
+      "begin_seconds": 214955.0,
+      "end_time": "1:02:26.435",
+      "end_seconds": 3746.435,
+      "duration_seconds": -211208.565
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich glaube, das ist die Stelle, den großen Anthropologen und Philosophen René Girard vermutlich erstmalig in diesen Podcast einzuführen, der in Stanford gelehrt hat. Ich glaube, er ist vor sechs, sieben, acht Jahren gestorben. Der war seiner Zeit weit voraus und ist überhaupt erst in seinen letzten zehn Lebensjahren berühmt geworden. Warum? Weil er vermutlich auch, weil er, Boto Strauß hat ihn schon in den frühen 90er Jahren entdeckt und gerühmt, aber dann wurde er bekannt eigentlich durch einen seiner Schüler, nämlich Peter Thiel, der Venture-Kapitalist aus dem Silicon Valley, der unter einem PayPal- und Gründungsinvestor bei Facebook war und so weiter. Das ist so interessant, weil René Girard, der ist Franzosen gewesen, hat in Stanford gelehrt, hat so eine mimetische Theorie entwickelt, wonach wir Menschen nicht etwas begehren, was wir wollen, sondern wir begehren das, was ein anderer hat. Also dieses Moment, ich hatte das Ganze am Anfang auch schon mal gesagt, Sehnsucht und Neid sind verwandte, nah beieinander liegende Gefühle. Und René Girard wurde in kleinen Kennerkreisen immer schon geschätzt, aber das Interessante ist, er entwickelte eine Theorie, der gewissermaßen sehr lange der Anwendungsfall fehlte. Und der kam erst mit Social Media und plötzlich dachte man, boah, das ist ja genau die Theorie, die zu der Wirklichkeit, in der wir jetzt leben, passt. Und er hat sie so toll antizipiert. Und Peter Thiel würde auch tatsächlich sagen, dass er ganz viel von Girard gelernt hat, um in dieser digitalisierten Social Media Welt ein guter Investor oder Gründer zu werden.",
+      "begin_time": "1:02:26.455",
+      "begin_seconds": 3746.455,
+      "end_time": "1:04:03.955",
+      "end_seconds": 3843.955,
+      "duration_seconds": 97.5
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Jetzt guckst du mich so an.",
+      "begin_time": "1:04:04.955",
+      "begin_seconds": 3844.955,
+      "end_time": "1:04:06.175",
+      "end_seconds": 3846.175,
+      "duration_seconds": 1.2200000000002547
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Tech-Welt, Lars muss was sagen. Elon Musk hätte nie was entwickelt, wenn er nicht die Sehnsucht und den Größenwahn gehabt hätte. Nein, ich würde gerne noch mal fragen, oder Lars möchtest du was sagen? Ich möchte gerne noch mal fragen, so verhagelt uns das die Gegenwart? Oder wie können wir Sehnsucht produktiv machen? Und was mich auch interessiert noch an dem Thema, vielleicht haben wir so viel über Urlaubsorte und Affären geredet oder sowas, aber wie ist das auf politischer Ebene? Kann man Sehnsucht produktiv machen für sich? Ja, irgendwie schon, ne? Aber wie spielt Politik auch mit Sehnsüchten?",
+      "begin_time": "1:04:08.595",
+      "begin_seconds": 3848.595,
+      "end_time": "1:04:41.815",
+      "end_seconds": 3881.815,
+      "duration_seconds": 33.220000000000255
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ja, vielleicht will ich da jetzt wirklich noch einen Punkt machen, den ich schon angedeutet hab, nämlich, dass ich mal eine spezifische Sehnsucht, die rückwärtsgewandt nehme, der ich ja privat auch so nachhänge, die Nostalgie, und ich glaube, da gibt's tatsächlich ein politisches Gegenwartproblem auch. Ich glaube, weiter kann ich das noch nicht zu Ende denken, aber ich glaube tatsächlich, dass Nostalgie so ein zentraler Gegenwartsmotor ist. Und zwar nicht nur, wenn der Disney-Konzern mit seinen hochgezüchteten Super-Brainiac-Mechanismen wirklich uns die letzte Kindheitsnostalgie rauskratzt und uns nochmal zurückverkauft, wenn man jetzt doch nochmal den einen süßen Bären aus Star Wars nochmal in einem 5-Stunden-Film wiederaufbereitet oder so. Also das ist sozusagen für die Unterhaltungsindustrie nur noch Nostalgieverwertung, aber auch politisch. Wir sagen dann immer so schnell, ja, ja, irgendwie make America great again und bei den Rechtspopulisten da geht es auch irgendwie um so eine Rückwärtsgewandtheit. Ich glaube nur, man darf ja nicht unterschätzen, dass es eben nicht nur eine Rückwärtsgewandtheit ist, als damals Frauen noch nicht so viel zu sagen hatten oder als damals hier nicht so viele Ausländer waren oder so. Sondern es hat irgendwas auch mit einem viel grundsätzlichen nostalgischen Gefühl nach, nostalgischen Sehnsuchten nach der eigenen Kindheit zu tun, den aus irgendeinem Grund Rechte gerade viel besser bespielen können, immer viel besser bespielen können als Linke. Das kann ich jetzt nicht weiter ausformulieren, aber das wäre mein Gegenwartspunkt in dem Fall noch mal. Da liegt irgendwas noch begraben.",
+      "begin_time": "1:04:42.515",
+      "begin_seconds": 3882.515,
+      "end_time": "1:06:25.195",
+      "end_seconds": 3985.195,
+      "duration_seconds": 102.68000000000029
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Dann kommst du auf die Idee mit dem Kindlichen oder zurück in die Kindheit.",
+      "begin_time": "1:06:25.215",
+      "begin_seconds": 3985.215,
+      "end_time": "1:06:28.395",
+      "end_seconds": 3988.395,
+      "duration_seconds": 3.1799999999998363
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Das mit Disney muss irgendwas mit Trump zu tun haben. Ich glaube, da gibt es eine Verbindung, die darüber hinausgeht, dass man rechtspopulistische Nostalgie einfach nur auspustabiert im Sinne, früher hatten weiße Männer noch das Sagen und da war es besser, sondern dass das irgendwie noch was tiefenpsychologisches hat.",
+      "begin_time": "1:06:28.415",
+      "begin_seconds": 3988.415,
+      "end_time": "1:06:47.495",
+      "end_seconds": 4007.495,
+      "duration_seconds": 19.079999999999927
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ich weiß nicht, ob Rechte das besser bespielen, weil das ist jetzt eine spezifische Form, die Lars profiliert, diese Nostalgie, aber die Sehnsucht kann ja genauso gut in die Zukunft rechnen, hatten wir ja schon, da nennen wir sie die politische Utopie. Die haben dann traditionellerweise die Linken besser bespielt. Die haben dann traditionellerweise die Linken besser bespielt. Ich würde natürlich sagen, mit den größeren Blut- und Menschenopfern ist diese Zukunftsutopie, wenn man sie in die Wege leitet, dagegen ist dann die Nostalgie immer die harmlosere Variante, weil am Ende trägste vielleicht zum Oktoberfest wieder Tracht, aber da sind dann keine Menschen gestorben.",
+      "begin_time": "1:06:50.155",
+      "begin_seconds": 4010.155,
+      "end_time": "1:07:28.815",
+      "end_seconds": 4048.815,
+      "duration_seconds": 38.659999999999854
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Politisch funktioniert es jedenfalls so, dass man die Sehnsüchte in einen Topf wirft, gemeinsam, oder? Also das ist der Motor dann, oder das ist so, als wenn man sehnsuchtsmäßig auf derselben Frequenz sendet, wenn man sich Idealbilder rückwärtsgewandt oder in Reinheitsfantasien. Das ist die Energie, die dann entsteht, oder?",
+      "begin_time": "1:07:28.835",
+      "begin_seconds": 4048.835,
+      "end_time": "1:07:50.075",
+      "end_seconds": 4070.075,
+      "duration_seconds": 21.23999999999978
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Aber Nina, kannst du zum Schluss noch mal sagen, was ist denn für dich eigentlich das Gegenteil von Sehnsucht?",
+      "begin_time": "1:07:50.095",
+      "begin_seconds": 4070.095,
+      "end_time": "1:07:56.135",
+      "end_seconds": 4076.135,
+      "duration_seconds": 6.040000000000418
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Put sein vielleicht.",
+      "begin_time": "1:07:56.155",
+      "begin_seconds": 4076.155,
+      "end_time": "1:07:57.555",
+      "end_seconds": 4077.555,
+      "duration_seconds": 1.3999999999996362
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Okay, das ist so, das ist wie Wasser in der Geschichte von den Fischen, die fragen, was ist Wasser? Das ist überall um uns herum.",
+      "begin_time": "1:07:57.575",
+      "begin_seconds": 4077.575,
+      "end_time": "1:08:04.555",
+      "end_seconds": 4084.555,
+      "duration_seconds": 6.980000000000018
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Irgendwie hast du es jetzt gerade, weil du mich da so schnell erwischt hast, denke ich nur gerade, weil in dem Wellenbuch versucht sie, Selbstmord zu begehen, weil ihr Verlob da gerade die Gräfin jetzt so anhimmelt und mit der durchbrennen will. Und dieses Sehnen, wie sie sich nach dem Tod sehnt, nach dem Meer, was dann überall um sie herum ist. Und selbst das geht dann natürlich nicht, weil sie es nicht schafft, sich umzubringen. Ja, aber ich mein, da hört es auf, oder? Oder man muss sagen, gut, also aufs Leben übersetzt mit so Abstrichen, Zufriedenheit. Da muss man dann wieder auf so eine Richtung gehen. Ich glaube, was ist so ein bisschen der Stillstand oder eine Versöhnung eher mit der Sehnsucht? Ich musste eben gerade noch mal daran denken, wie zum einen die Therapiebilder, wenn man in eine Therapie geht und sagt, da ist ja so ein Create your happy place oder dein sicheren Ort, an den du dann immer denken sollst. Und genauso ist es ja in der Arbeitswelt. Also klar ist das eine blöde Frage, wo sehen sie sich selbst in fünf Jahren? Das ist ja auch, ist zwar blöd, aber wenn man sagt, ja, wohin sehne ich mich denn? Welche Version von mir selbst strebe ich denn an? Wenn man es jetzt mehr wie Ijoma sieht als Energie, als Antrieb, als positiven Antrieb, dann finde ich so diese Macht der inneren Bilder, dass man sagt, so klingt jetzt so therapeutisch, aber wenn man es schaffen würde, diese Bilder zu kreieren und die Sehnsucht kommt im Moment und dann werden die aufgefangen. Und man sagt so, ne, ne, du hast da dein schönes inneres Kind-Bild, da ist Ruhe, du hast aber auch dein Antriebsbild und sagst, in fünf Jahren möchte ich mit, aber schon so sehr, sehr bildlich, möchte ich mit so einer Brille, mit so einem Körper, mit so einer Haltung auf meinem Balkon sitzen und ein Buch schreiben oder sowas. Vielleicht könnte das so eine Versöhnung mit der Sehnsucht sein.",
+      "begin_time": "1:08:04.575",
+      "begin_seconds": 4084.575,
+      "end_time": "1:10:01.575",
+      "end_seconds": 4201.575,
+      "duration_seconds": 117.0
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Okay, klingt auf jeden Fall erstrebenswert.",
+      "begin_time": "1:10:01.955",
+      "begin_seconds": 4201.955,
+      "end_time": "1:10:04.255",
+      "end_seconds": 4204.255,
+      "duration_seconds": 2.300000000000182
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Vielleicht besser als irgendwelche Insta-Leuten hinterher zu scrollen oder so.",
+      "begin_time": "1:10:05.575",
+      "begin_seconds": 4205.575,
+      "end_time": "1:10:11.675",
+      "end_seconds": 4211.675,
+      "duration_seconds": 6.100000000000364
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Wollen wir an der Stelle einen Cut machen und zur nicht Gegenwart-Prognose, Zukunftsprognose, zur sogenannten Zukunft kommen, zu unserer Prognosefrage?",
+      "begin_time": "1:10:11.695",
+      "begin_seconds": 4211.695,
+      "end_time": "1:10:20.835",
+      "end_seconds": 4220.835,
+      "duration_seconds": 9.140000000000327
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Ja gerne, dann mach ich den Sprung in die Zukunft. In dem Fall ist die konkrete und in wenigen Monaten klar überprüfbare Zukunftsprognosefrage völlig auf der Hand und das ist natürlich die nach Joe Biden. Damit es jetzt nicht ganz so einfach ist, habe ich mir überlegt, weil ich sowieso davon überzeugt bin, dass Joe Biden nicht antreten wird, lautet meine Zukunftsprognose an euch. Glaubt ihr, dass die nächste Präsidentin der Vereinigten Staaten Kamala Harris ist?",
+      "begin_time": "1:10:21.215",
+      "begin_seconds": 4221.215,
+      "end_time": "1:10:50.375",
+      "end_seconds": 4250.375,
+      "duration_seconds": 29.159999999999854
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Also ich habe wirklich jetzt in den letzten Tagen auf Twitter so viele Videos von ihr gesehen. Jetzt muss man dazu sagen, haben wir ja auch schon öfter thematisiert. Also Twitter ist natürlich wirklich in meiner Zeit jetzt echt komplett rechts-lebertär. Und es ist völlig klar, dass das natürlich politisch gesteuerte Propaganda-Videos sind, die mir Kamala Harris schlecht machen sollen. Trotzdem falle ich drauf rein. Und das ist ja sozusagen alles so unangenehm und peinlich. Und es ist die Peinlichkeit, die… Oh Gott, dafür kriege ich jetzt Ärger. Die Peinlichkeit, die ich auch bei Annalena Baerbock manchmal spüre, muss ich jetzt sagen, ja, also tut mir leid, ich kurz aussagen, die aber im Quadrat nochmal, also auch die Unfähigkeit offensichtlich, zumindest in diesen Videos, einen Satz zu sagen wie ein normaler Mensch und nicht wie beim Poetry Slam oder so. Also, dass wäre meine Mindestanforderung an Politiker, einen Satz normal sagen zu können und nicht so, als sei beim Poetry Slam.",
+      "begin_time": "1:10:51.495",
+      "begin_seconds": 4251.495,
+      "end_time": "1:11:54.175",
+      "end_seconds": 4314.175,
+      "duration_seconds": 62.68000000000029
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Vielleicht musst du dieses Zitat auch kurz mal bringen, weil es gibt einen Satz, der irgendwie so lautet, wir müssen uns vorstellen können, what can be, und dann unburdened by what has been. Also, die Taten der Vergangenheit sollen, auch wenn es sehr viel Schlimmes, ich glaube, sie meint dann natürlich Rassismus, gegeben hat, soll das in diesem freien Land der USA uns den Blick nicht verstellen für das Großartige, was alles kommen kann. Was ja ein schlichter, aber stimmiger Satz ist, der ist völlig legitim, den kann man mal sagen. Die hat ihn aber nicht einmal gesagt, sondern wirklich hundertmal. Und zwar mit einem sehr hohenig triefenden Pathos. Und immerzu den selben Satz vor anderen Situationen. Da denkt man schon tatsächlich, was ist denn das für eine Sprechpuppe?",
+      "begin_time": "1:11:54.195",
+      "begin_seconds": 4314.195,
+      "end_time": "1:12:40.895",
+      "end_seconds": 4360.895,
+      "duration_seconds": 46.70000000000073
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich sehne mich sofort zurück zu Yes, we can.",
+      "begin_time": "1:12:40.915",
+      "begin_seconds": 4360.915,
+      "end_time": "1:12:43.175",
+      "end_seconds": 4363.175,
+      "duration_seconds": 2.2600000000002183
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Es gibt von diesen Sätzen halt mehrere. Da gibt es dieses You didn't fall out of a coconut tree. Aber ehrlich ist der Inhalt fast egal. Jetzt muss ich leider sagen, es ist genau das, was Trump sofort erkannt hat an Kamala Harris. Da gibt es dann so einen Splitter, wo er bei Fox News im Interview ist, ich glaub sogar mit dem bösen Tucker Carlson, wo sie dann, eigentlich ist es kein Interview, sie läst dann einfach über demokratische Politiker, ist auch Propaganda. Und er sagt Trump sofort, Kamala Harris, ich kann niemanden nachmachen, ich versuch's gar nicht. Aber er sagt dann sofort, ja, very bad, ganz schlimm. Und dann sagt er so aus dem Nichts, sagt er plötzlich, and she can only speak in rhymes. Und Klaus ist so, was mein, was mein, Rhymes? Rhymes stimmt, er meint das Richtige, sagt vielleicht das falsche Wort. Und macht dann sie so nach, jetzt versuch ich's einfach. Ja, sie sagt immer so, and then the boss goes here, and then the boss goes there, because that is what bosses do. Und man ist sofort genervt. Ja, das ist Kamala Harris, das ist super nervig. Okay, so eine lange Antwort. Ich fürchte, ich würd's mir natürlich wünschen, dass sie Präsidentin wird, weil die Alternative ist Trump. Aber ich fürchte nicht, dass sie Präsidentin werden kann.",
+      "begin_time": "1:12:43.195",
+      "begin_seconds": 4363.195,
+      "end_time": "1:13:47.255",
+      "end_seconds": 4427.255,
+      "duration_seconds": 64.0600000000004
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ich glaub's leider auch nicht. Ich hab gestern noch mal so einen langen, einer hätten wir auch als Gegenwart einen Punkt noch mal nehmen können, weil jetzt wirklich überall, auch bei uns, tolle Texte noch mal, warum Taylor Swift, warum ist sie so erfolgreich? Und gestern im Bett dachte ich, kann man nicht einfach Taylor Swift aufstellen? Dann weiß man, alle wählen sie und hat noch mal Zeit, dann irgendwie, also so, ist ja alles besser als, also besser als Trump ist es allemal. Das wird nicht passieren. Ich glaub's auch nicht, Ijoma. Ich weiß aber nicht, ich weiß aber nicht, ob... Ich hab immer noch Hoffnung und Sehnsucht, dass es irgendwie gut wird.",
+      "begin_time": "1:13:48.995",
+      "begin_seconds": 4428.995,
+      "end_time": "1:14:21.435",
+      "end_seconds": 4461.435,
+      "duration_seconds": 32.44000000000051
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Ich weiß aber gar nicht, ob das so sehr stimmt, wie sich das jetzt wir uns immer einreden, das sagt, stell doch einfach den auf, der würde gewinnen, man müsste es nur machen. Ich glaube schon, dass Joe Biden nicht umsonst derjenige war, der damals gegen Trump gewonnen hat, sondern dass ganz viel an ihm und nur an ihm so ist, dass er sozusagen die Mitte der Wähler, die sonst Trump wählen würden, überzeugen kann. Und klar, es gibt jetzt Umfragen, da steht so, Michelle Obama würde in theoretischen Umfragen gegen Trump recht hoch gewinnen und so. Aber das ist auch nur Theorie, das müsste man dann sehen, wie das dann auf dem Campaign-Trade ist und so. Ich glaube, das Problem ist viel tiefer, nämlich der eine fällt weg, der eine erwiesene Kompetenz hat im Trump-Besiegen, weil er es einmal schon geschafft hat. Also, dass wir uns wünschen würden, dass irgendwie irgendwelche tollen, intellektuellen, linksliberalen Präsidenten werden. Ja, aber bringt halt nichts, dass wir uns das wünschen.",
+      "begin_time": "1:14:21.455",
+      "begin_seconds": 4461.455,
+      "end_time": "1:15:13.795",
+      "end_seconds": 4513.795,
+      "duration_seconds": 52.340000000000146
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Ijoma, Lars, wir werden es bald. Nach der Sommerpause wissen wir mehr.",
+      "begin_time": "1:15:13.975",
+      "begin_seconds": 4513.975,
+      "end_time": "1:15:18.115",
+      "end_seconds": 4518.115,
+      "duration_seconds": 4.139999999999418
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Wir müssen aber noch etwas ankündigen.",
+      "begin_time": "1:15:18.255",
+      "begin_seconds": 4518.255,
+      "end_time": "1:15:20.315",
+      "end_seconds": 4520.315,
+      "duration_seconds": 2.0599999999994907
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Mit Stolz ankündigen. Wir müssen ganz verschiedene Sachen ankündigen. Erstens, hoffentlich habe ich mir das Datum jetzt richtig gemerkt. Wir kommen nach der Sommerpause, wir haben ja schon gesagt, wir gehen jetzt in eine Sommerpause, kommen wir wieder am ich glaube, es war der 9. September, Nina nickt, sind wir wieder da. Vorher aber gibt es noch eine Folge.",
+      "begin_time": "1:15:21.635",
+      "begin_seconds": 4521.635,
+      "end_time": "1:15:42.575",
+      "end_seconds": 4542.575,
+      "duration_seconds": 20.9399999999996
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Für alle, die Sehnsucht kriegen, ausnahmsweise.",
+      "begin_time": "1:15:42.595",
+      "begin_seconds": 4542.595,
+      "end_time": "1:15:44.955",
+      "end_seconds": 4544.955,
+      "duration_seconds": 2.3599999999996726
+    },
+    {
+      "speaker": "SPEAKER_2",
+      "text": "Für alle anderen auch, auch die, die Power of Now gerade lesen. Gibt es nämlich noch eine Folge, die jetzt zwei Wochen nach dieser kommen wird. Das ist aber eine besondere Folge, wie Ijoma schon gesagt hat, denn zum allerersten Mal haben wir in der Geschichte dieses Podcasts einen Gast bei uns. Es ist sozusagen unser kleines, gibt doch immer bei Politikern, das Sommergespräch. Das Sommergespräch, die kommt in zwei Wochen, danach dann Sommerpause, dann sehen wir uns im September wieder. Ich muss mich bedanken, was will ich auch noch machen, bei Ijoma, der heute hier saß im Studio. Danke. Bei allen anderen, die bei der Produktion und Verarbeitung dieses Podcasts mithelfen, bei ZEIT und ZEIT Online. Bei euch beiden, bei den Hörerinnen und Hörern, auch schon mal für die, für die schöne Saison, Staffel, die wir jetzt bis zur Sommerpause hatten. Mails, Gegenwart, Vorschläge, gerne wie immer an gegenwart.zeit.de. Ja, Nina, Ijoma, habe ich was vergessen?",
+      "begin_time": "1:15:44.975",
+      "begin_seconds": 4544.975,
+      "end_time": "1:16:40.775",
+      "end_seconds": 4600.775,
+      "duration_seconds": 55.79999999999927
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "text": "Nein, wir wünschen schöne Sommerferien.",
+      "begin_time": "1:16:40.795",
+      "begin_seconds": 4600.795,
+      "end_time": "1:16:42.675",
+      "end_seconds": 4602.675,
+      "duration_seconds": 1.8800000000001091
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "text": "Genau, einen schönen Sommer und bis dann, tschüss.",
+      "begin_time": "1:16:42.775",
+      "begin_seconds": 4602.775,
+      "end_time": "1:16:45.455",
+      "end_seconds": 4605.455,
+      "duration_seconds": 2.680000000000291
+    }
+  ]
+}
