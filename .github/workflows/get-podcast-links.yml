@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * 0'  # Run weekly on Sunday at midnight
 
+permissions:
+  contents: write
+
 jobs:
   fetch-episodes:
     runs-on: ubuntu-latest
@@ -74,8 +77,11 @@ jobs:
           
           print(f"Found {len(episodes)} episodes")
           
-          # Save to file
-          with open('episode_links.json', 'w') as f:
+          # Create data directory if it doesn't exist
+          os.makedirs('data/episodes', exist_ok=True)
+          
+          # Save to file in data directory
+          with open('data/episodes/episode_links.json', 'w') as f:
               json.dump(episodes, f, indent=2)
           
           # Set output for next workflow
@@ -93,4 +99,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: episode-links
-          path: episode_links.json
+          path: data/episodes/episode_links.json
+          
+      - name: Commit episode links to repository
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add data/episodes/episode_links.json
+          git commit -m "Update episode links" || echo "No changes to commit"
+          git push
