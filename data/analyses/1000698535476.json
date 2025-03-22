@@ -1,0 +1,98 @@
+{
+  "episode_title": "\"Air\" von Christian Kracht: Cottagecore ist auch nur eine Fantasy-Geschichte",
+  "apple_id": "1000698535476",
+  "spotify_id": "5UYnYo7wiN4SyYiyZS6zMa",
+  "episode_date": "2025-03-10",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Plateau-Uggboots und Space-Iglus",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Frauen tragen im Winter Uggboots mit Plateausohle, was in Kombination mit transparenten Kuppeln vor Restaurants eine Mondlandschaft-Ästhetik erzeugt. Dies könnte eine Vorbereitung auf zukünftige Mondmissionen sein.",
+      "metaebene": "Vorbereitung auf Mondmissionen, Bezugnahme auf NASA- und Elon Musk-Pläne zur Mondraumfahrt.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Schuhtrend",
+        "Mode",
+        "Winter",
+        "Mondmission",
+        "Restaurant-Iglus"
+      ],
+      "start_zeit": "88"
+    },
+    {
+      "vorschlag": "Man-Repeller-Mode",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Modetrend bei Frauen, Kleidungsstücke zu tragen, die Männer bewusst unattraktiv finden, um ein feministisches Statement zu setzen und sich dem 'male gaze' zu entziehen.",
+      "metaebene": "Feministische Mode, Ablehnung des 'male gaze', Autonomie durch Mode.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mode",
+        "Feminismus",
+        "Man Repeller",
+        "Frauenmode",
+        "gesellschaftliche Normen"
+      ],
+      "start_zeit": "218"
+    },
+    {
+      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Redewendung 'jemanden unter den Bus werfen' wird in der öffentlichen Diskussion und in den Medien auffällig häufig verwendet.",
+      "metaebene": "Vorzeitige Altersdemenz des Moderators (als Witz).",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Redewendung",
+        "Sprache",
+        "Medien",
+        "Politik",
+        "Kommunikation"
+      ],
+      "start_zeit": "285"
+    },
+    {
+      "vorschlag": "Personalisierte transparente Handyhüllen",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Sancho/Pancho",
+      "begruendung": "Junge Leute personalisieren transparente Handyhüllen mit Fotos, Quittungen und anderen persönlichen Gegenständen, wodurch das Handy vom cleanen Objekt zum persönlichen 'Wohnzimmer' wird.",
+      "metaebene": "iPhone als Gebrauchsgegenstand statt Kultobjekt, Analoge Elemente im digitalen Raum.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Handyhülle",
+        "Personalisierung",
+        "Smartphone",
+        "Digitalisierung",
+        "Individualisierung"
+      ],
+      "start_zeit": "389"
+    },
+    {
+      "vorschlag": "KI-generierte Pinterest-Bilder",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Lena",
+      "begruendung": "Auf Pinterest sind vermehrt KI-generierte Bilder für Wohnraumgestaltung zu finden, die zwar unendlich viele Optionen bieten, aber die Authentizität und Ernsthaftigkeit menschlicher, realer Dekorationsvorschläge vermissen lassen.",
+      "metaebene": "Authentizität vs. KI-Generierung, Restriktionen menschlicher Kreativität vs. unendliche KI-Optionen, veränderte Wahrnehmung von Inspiration und Realität.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Pinterest",
+        "Wohnraumgestaltung",
+        "Authentizität",
+        "Inspiration"
+      ],
+      "start_zeit": "548"
+    }
+  ]
+}
