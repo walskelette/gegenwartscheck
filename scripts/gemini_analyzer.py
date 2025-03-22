@@ -35,114 +35,70 @@ def load_transcript(file_path):
         return json.load(f)
 
 def create_gemini_prompt(transcript_data):
-    """Erstellt einen detaillierten Prompt für die Gemini API zur Analyse des Transkripts."""
-    
-    # Transkript-Text für den Prompt vorbereiten
+    """Erstellt einen Prompt für die Gemini API, der aus dem Transkript die relevanten Informationen extrahiert."""
+    # Extract speakers
+    speakers = {}
+    for item in transcript_data["transcript"]:
+        speaker = item["speaker"]
+        if speaker not in speakers and speaker.startswith("SPEAKER_"):
+            speakers[speaker] = speaker
+
     transcript_text = ""
     for item in transcript_data["transcript"]:
         speaker = item["speaker"]
         text = item["text"]
-        
-        # Include timestamp information if available
-        time_info = ""
-        if "begin_time" in item and "duration_seconds" in item:
-            time_info = f"[Zeit: {item['begin_time']}, Dauer: {round(item['duration_seconds'], 2)}s] "
-        elif "begin_seconds" in item:
-            time_info = f"[Zeit: {round(item['begin_seconds'], 2)}s] "
-            
-        transcript_text += f"{speaker}: {time_info}{text}\n\n"
-    
-    # Get episode title from transcript data
+        transcript_text += f"{speaker}: {text}\n\n"
+
     episode_title = transcript_data.get("episode_title", "Unbekannte Episode")
-    podcast_id = transcript_data.get("podcast_id", "")
-    # Handle both apple_id and spotify_id formats
-    if not podcast_id:
-        podcast_id = transcript_data.get("apple_id", transcript_data.get("spotify_id", "Unbekannt"))
     
-    extracted_date = transcript_data.get("extracted_date", transcript_data.get("upload_date", datetime.now().isoformat()))
-    
-    prompt = f"""
-Du bist ein Analyse-Assistent, der dabei hilft, bestimmte Segmente aus Podcast-Transkripten des Podcasts "Die sogenannte Gegenwart" zu extrahieren und zu strukturieren.
+    prompt = f"""Du bist ein persönlicher Assistent, der dabei hilft, Vorschläge zu identifizieren, die in dem Podcast "Gegenwart" gemacht werden.
 
-# Hintergrund zum Podcast
-"Die sogenannte Gegenwart" ist ein deutscher Podcast mit Nina Pauer, Lars Weisbrod und Ijoma Mangold. In fast jeder Folge spielen die Hosts ein Spiel namens "Gegenwartscheck".
+In diesem Podcast schlagen die Hosts gegenwärtige Phänomene vor, und der andere Host entscheidet, ob ein Punkt dafür vergeben wird oder nicht. Ein Punkt wird vergeben, wenn der Vorschlag tatsächlich ein Phänomen der Gegenwart beschreibt, das neu und relevant ist.
 
-# Regeln des Gegenwartscheck
-- Die Teilnehmer schlagen Konzepte, Ideen, Beobachtungen oder Trends vor, die sie für "gegenwärtig" halten
-- Jeder Vorschlag wird begründet und diskutiert
-- Am Ende entscheidet einer der anderen Teilnehmer, ob der Vorschlag einen "Punkt" bekommt oder nicht
-- Manchmal werden auch Vorschläge von Hörern diskutiert
+Die Hosts sind Lars Weisbrod und Ijoma Mangold. Manchmal ist statt Ijoma auch Nina Pauer dabei.
 
-# Erkennungsmuster für Gegenwartsvorschläge
-Gegenwartsvorschläge werden oft mit bestimmten Phrasen eingeleitet:
-- "Ich habe als Gegenwartscheck (mitgebracht)..."
-- "Mein Gegenwartscheck ist/wäre..."
-- "Ich hätte als Gegenwartscheck..."
-- "Für den Gegenwartscheck schlage ich vor..."
-- "Ich habe für den Gegenwartscheck..."
-- "Als Gegenwartscheck würde ich vorschlagen..."
-
-# Zuordnung der Sprecher zu Podcast-Hosts
-Im Transkript werden die Sprecher als SPEAKER_X bezeichnet. 
-- Versuche, die Sprecher anhand des Kontexts und der Namen in den Gesprächen zuzuordnen
-- Beachte, dass meist Nina Pauer, Lars Weisbrod und Ijoma Mangold an den Gesprächen teilnehmen
-- Wenn Hörer-Vorschläge diskutiert werden, wird der Name oft im Kontext genannt
-
-# Detaillierte Feldbeschreibungen
-- vorschlag: Der Kern-Begriff oder die Idee, die als gegenwärtig vorgeschlagen wird. Nur der Name ohne weitere Erklärungen.
-- begruendung: Die vollständige Erläuterung, warum der Vorschlag gegenwärtig ist.
-- metaebene: Ein weiterer Kontext oder eine übergeordnete Bedeutung, die explizit erwähnt wird. Nur ausfüllen, wenn klar als Metaebene benannt.
-- tags: 3-5 präzise Schlagwörter, die den thematischen Bereich des Vorschlags erfassen.
-
-# Umgang mit unvollständigen Informationen
-- Wenn das Transkript unvollständig ist oder Informationen fehlen, verwende null als Wert.
-- Spekuliere nicht über fehlende Informationen, sondern dokumentiere nur, was klar im Transkript erkennbar ist.
-- Bei unklaren Punktvergaben: Setze punkt_erhalten = false und punkt_von = null.
-
-# Deine Aufgabe
-Analysiere das folgende Transkript und extrahiere alle "Gegenwartscheck"-Vorschläge mit folgenden Informationen:
-1. Wer den Vorschlag gemacht hat (Nina, Lars, Ijoma oder ein Hörer)
-2. Falls es ein Hörer-Vorschlag ist, den Namen des Hörers
-3. Den vorgeschlagenen Begriff/Konzept/Trend
-4. Die Begründung für den Vorschlag
-5. Eine eventuell erwähnte "Metaebene"
-6. Ob der Vorschlag einen Punkt erhalten hat und von wem
-7. Erstelle für jeden Vorschlag 3-5 passende thematische Tags
-8. Die Zeitstempel, wann der Vorschlag beginnt und endet (falls im Transkript vorhanden)
-
-# Ausgabeformat
-Antworte ausschließlich im folgenden JSON-Format:
-
-```json
-{{
-  "gegenwartsvorschlaege": [
-    {{
-      "vorschlag": "Name des Gegenwartsvorschlags",
-      "vorschlagender": "Nina/Lars/Ijoma/[Name des Hörers]",
-      "ist_hoerer": true/false,
-      "hoerer_name": "Name des Hörers (falls vorhanden, sonst null)",
-      "begruendung": "Begründung für den Vorschlag",
-      "metaebene": "Metaebene (falls explizit erwähnt, sonst null)",
-      "punkt_erhalten": true/false,
-      "punkt_von": "Nina/Lars/Ijoma (falls Punkt erhalten, sonst null)",
-      "tags": ["Tag1", "Tag2", "Tag3"],
-      "start_zeit": "Startzeit in Sekunden oder Zeitformat (falls vorhanden, sonst null)",
-      "ende_zeit": "Endzeit in Sekunden oder Zeitformat (falls vorhanden, sonst null)"
-    }}
-  ]
-}}
-```
-
-# Transkript für die Analyse
-Podcast-Titel: {episode_title}
-Podcast-ID: {podcast_id}
-Extrahiert am: {extracted_date}
+Hier ist der Transkript-Text einer Podcast-Episode mit dem Titel "{episode_title}":
 
 {transcript_text}
 
-Antworte ausschließlich mit dem JSON-Format. Füge keine Erklärungen oder zusätzlichen Text hinzu.
+Identifiziere alle "Gegenwartsvorschläge" in diesem Transkript und extrahiere die folgenden Informationen für jeden Vorschlag:
+
+1. vorschlag: Der Name des Gegenwartsvorschlags
+2. vorschlagender: Wer hat den Vorschlag gemacht? (Nur Lars, Ijoma oder Nina)
+3. ist_hoerer: War es ein Vorschlag von einem Hörer oder einer Hörerin? (true/false)
+4. hoerer_name: Name des Hörers oder der Hörerin, falls vorhanden
+5. begruendung: Die Begründung für den Vorschlag 
+6. metaebene: Metaebene des Vorschlags, falls diskutiert
+7. punkt_erhalten: Hat der Vorschlag einen Punkt bekommen? (true/false)
+8. punkt_von: Wer hat den Punkt vergeben? (Lars, Ijoma oder Nina) - muss immer angegeben werden, null wenn kein Punkt vergeben wurde
+9. tags: 5 Keywords oder Tags, die das Thema des Vorschlags beschreiben
+10. start_zeit: Ab welcher Sekunde beginnt die Diskussion des Vorschlags? Gib nur die Zahl ohne "s" an (z.B. "120" statt "120s")
+
+Formatiere deine Antwort als JSON mit folgendem Schema:
+{{
+  "gegenwartsvorschlaege": [
+    {{
+      "vorschlag": "Name des Vorschlags",
+      "vorschlagender": "Lars/Ijoma/Nina",
+      "ist_hoerer": true/false,
+      "hoerer_name": "Name oder null",
+      "begruendung": "Begründung für den Vorschlag",
+      "metaebene": "Metaebene (falls explizit erwähnt, sonst null)",
+      "punkt_erhalten": true/false,
+      "punkt_von": "Lars/Ijoma/Nina",
+      "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
+      "start_zeit": "123"
+    }}
+  ]
+}}
+
+WICHTIG:
+- "start_zeit" ist eine Zeichenkette, die NUR die Zahl der Sekunden ohne das "s" am Ende enthält
+- "punkt_von" muss IMMER angegeben werden (auch, wenn kein Punkt vergeben wurde)
+- "vorschlagender" muss IMMER einer der Hosts sein (Lars, Ijoma oder Nina)
+- Stelle sicher, dass das JSON-Format korrekt ist.
 """
-    
+
     return prompt
 
 def analyze_transcript_with_gemini(client, transcript_data):
@@ -414,7 +370,7 @@ def create_output_data(transcript_data, analysis_result):
     elif not spotify_id and apple_id:
         spotify_id = apple_id
     
-    # Process gegenwartsvorschlaege to ensure required fields exist and remove unnecessary ones
+    # Process gegenwartsvorschlaege to ensure required fields exist and format is correct
     vorschlaege = analysis_result["gegenwartsvorschlaege"]
     for vorschlag in vorschlaege:
         # Ensure punkt_von is always included
@@ -425,13 +381,22 @@ def create_output_data(transcript_data, analysis_result):
         if "punkt_erhalten" not in vorschlag:
             vorschlag["punkt_erhalten"] = False
             
-        # Ensure start_zeit is included
+        # Ensure start_zeit is included without "s" suffix
         if "start_zeit" not in vorschlag:
             vorschlag["start_zeit"] = None
+        elif isinstance(vorschlag["start_zeit"], str) and vorschlag["start_zeit"].endswith("s"):
+            vorschlag["start_zeit"] = vorschlag["start_zeit"][:-1]
             
         # Remove ende_zeit field if it exists
         if "ende_zeit" in vorschlag:
             del vorschlag["ende_zeit"]
+            
+        # Ensure vorschlagender is one of the hosts
+        if "vorschlagender" not in vorschlag or vorschlag["vorschlagender"] not in ["Lars", "Ijoma", "Nina"]:
+            # If a listener was the source, set vorschlagender to the host who presented it
+            if vorschlag.get("ist_hoerer", False) and "hoerer_name" in vorschlag and vorschlag["hoerer_name"]:
+                # Default to Lars if we can't determine who presented it
+                vorschlag["vorschlagender"] = "Lars"
     
     return {
         "episode_title": transcript_data.get("episode_title", "Unbekannte Episode"),
