@@ -404,30 +404,40 @@ def create_output_data(transcript_data, analysis_result):
     if isinstance(episode_date, str) and "T" in episode_date:
         episode_date = episode_date.split("T")[0]
     
-    # Process gegenwartsvorschlaege to ensure timestamp information is preserved
+    # Get apple_id and spotify_id from transcript_data
+    apple_id = transcript_data.get("apple_id", "")
+    spotify_id = transcript_data.get("spotify_id", "")
+    
+    # If only one ID is available, use that for both fields
+    if not apple_id and spotify_id:
+        apple_id = spotify_id
+    elif not spotify_id and apple_id:
+        spotify_id = apple_id
+    
+    # Process gegenwartsvorschlaege to ensure required fields exist and remove unnecessary ones
     vorschlaege = analysis_result["gegenwartsvorschlaege"]
     for vorschlag in vorschlaege:
-        # Ensure start_zeit and ende_zeit fields exist
+        # Ensure punkt_von is always included
+        if "punkt_von" not in vorschlag:
+            vorschlag["punkt_von"] = None
+            
+        # Ensure punkt_erhalten is always included
+        if "punkt_erhalten" not in vorschlag:
+            vorschlag["punkt_erhalten"] = False
+            
+        # Ensure start_zeit is included
         if "start_zeit" not in vorschlag:
             vorschlag["start_zeit"] = None
-        if "ende_zeit" not in vorschlag:
-            vorschlag["ende_zeit"] = None
-    
-    # Handle both apple_id and spotify_id for compatibility
-    podcast_id = transcript_data.get("podcast_id", "")
-    if not podcast_id:
-        podcast_id = transcript_data.get("apple_id", transcript_data.get("spotify_id", ""))
-    
-    episode_id = transcript_data.get("episode_id", "")
-    if not episode_id and podcast_id:
-        episode_id = podcast_id
+            
+        # Remove ende_zeit field if it exists
+        if "ende_zeit" in vorschlag:
+            del vorschlag["ende_zeit"]
     
     return {
         "episode_title": transcript_data.get("episode_title", "Unbekannte Episode"),
-        "podcast_id": podcast_id,
-        "episode_id": episode_id,
+        "apple_id": apple_id,
+        "spotify_id": spotify_id,
         "episode_date": episode_date,
-        "extracted_date": datetime.now().isoformat(),
         "gegenwartsvorschlaege": vorschlaege
     }
 
