@@ -124,7 +124,7 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_SHOW_ID: '28XdO4hmYjzx83Ct7PeENb'  # "Die sogenannte Gegenwart" Spotify ID
+          SPOTIFY_SHOW_ID: '09j4UbTqLqpaUr2F7pxIgl'  # "Die sogenannte Gegenwart" Spotify ID
         run: |
           python scripts/spotify_fetch.py
       
