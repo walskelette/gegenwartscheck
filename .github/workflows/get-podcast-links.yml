@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       episode_links: ${{ steps.get-links.outputs.episode_links }}
+      spotify_episode_links: ${{ steps.get-spotify-links.outputs.spotify_episode_links }}
+      spotify_episode_count: ${{ steps.get-spotify-links.outputs.spotify_episode_count }}
     
     steps:
       - name: Checkout repository
@@ -28,13 +30,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
       
-      - name: Fetch podcast episodes
+      - name: Fetch podcast episodes from Apple
         id: get-links
         run: |
           python - <<'EOF'
           import requests
           import json
           import os
+          import logging
+          
+          # Configure logging
+          logging.basicConfig(
+              level=logging.INFO,
+              format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+          )
+          logger = logging.getLogger('apple_podcast_fetch')
           
           # Dies sogenannte Gegenwart podcast ID
           podcast_id = '1522895163'
@@ -44,44 +54,58 @@ jobs:
           limit = 100  # Apple API allows up to 100 episodes per request
           offset = 0
           
+          logger.info(f"Starting fetch from Apple Podcasts for podcast ID: {podcast_id}")
+          
           while True:
               url = f'https://itunes.apple.com/lookup?id={podcast_id}&entity=podcastEpisode&limit={limit}&offset={offset}'
-              response = requests.get(url)
-              data = response.json()
+              logger.info(f"Making request to Apple API with offset {offset}")
               
-              new_episodes = []
-              for episode in data.get('results', []):
-                  # Only include items with wrapperType == 'podcastEpisode', which filters out the podcast itself
-                  if episode.get('wrapperType') == 'podcastEpisode':
-                      episode_title = episode.get('trackName')
-                      episode_url = episode.get('trackViewUrl')
-                      episode_id = episode.get('trackId')
-                      release_date = episode.get('releaseDate')
-                      # Include all episodes, not just those with "gegenwartscheck" in the title
-                      new_episodes.append({
-                          "title": episode_title,
-                          "url": episode_url,
-                          "episode_id": episode_id,
-                          "release_date": release_date
-                      })
-              
-              if not new_episodes:
-                  break
-              
-              episodes.extend(new_episodes)
-              offset += limit
-              
-              # If we got fewer results than the limit, we've reached the end
-              if len(new_episodes) < limit:
+              try:
+                  response = requests.get(url)
+                  response.raise_for_status()
+                  data = response.json()
+                  
+                  new_episodes = []
+                  for episode in data.get('results', []):
+                      # Only include items with wrapperType == 'podcastEpisode', which filters out the podcast itself
+                      if episode.get('wrapperType') == 'podcastEpisode':
+                          episode_title = episode.get('trackName')
+                          episode_url = episode.get('trackViewUrl')
+                          episode_id = episode.get('trackId')
+                          release_date = episode.get('releaseDate')
+                          # Include all episodes, not just those with "gegenwartscheck" in the title
+                          new_episodes.append({
+                              "title": episode_title,
+                              "url": episode_url,
+                              "episode_id": episode_id,
+                              "release_date": release_date,
+                              "source": "apple"
+                          })
+                  
+                  logger.info(f"Retrieved {len(new_episodes)} episodes from Apple (offset {offset})")
+                  
+                  if not new_episodes:
+                      logger.info("No more episodes to fetch from Apple")
+                      break
+                  
+                  episodes.extend(new_episodes)
+                  offset += limit
+                  
+                  # If we got fewer results than the limit, we've reached the end
+                  if len(new_episodes) < limit:
+                      logger.info("Reached the end of available episodes from Apple")
+                      break
+              except Exception as e:
+                  logger.error(f"Error fetching from Apple: {str(e)}")
                   break
           
-          print(f"Found {len(episodes)} episodes")
+          logger.info(f"Found total of {len(episodes)} episodes from Apple")
           
           # Create data directory if it doesn't exist
           os.makedirs('data/episodes', exist_ok=True)
           
           # Save to file in data directory
-          with open('data/episodes/episode_links.json', 'w') as f:
+          with open('data/episodes/apple_episode_links.json', 'w') as f:
               json.dump(episodes, f, indent=2)
           
           # Set output for next workflow
@@ -89,12 +113,70 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write(f"episode_links={episode_links_json}\n")
           
-          print(f"Found {len(episodes)} episodes:")
+          print(f"Found {len(episodes)} episodes from Apple:")
           for ep in episodes[:10]:  # Print first 10 episodes for brevity
               print(f"- {ep['title']}: {ep['url']}")
           print("...and more")
           EOF
       
+      - name: Fetch podcast episodes from Spotify
+        id: get-spotify-links
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_SHOW_ID: '28XdO4hmYjzx83Ct7PeENb'  # "Die sogenannte Gegenwart" Spotify ID
+        run: |
+          python scripts/spotify_fetch.py
+      
+      - name: Merge episode data
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          import logging
+          
+          # Configure logging
+          logging.basicConfig(
+              level=logging.INFO,
+              format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+          )
+          logger = logging.getLogger('merge_episodes')
+          
+          # Load episodes from both sources
+          try:
+              with open('data/episodes/apple_episode_links.json', 'r') as f:
+                  apple_episodes = json.load(f)
+                  logger.info(f"Loaded {len(apple_episodes)} episodes from Apple")
+          except Exception as e:
+              logger.error(f"Error loading Apple episodes: {str(e)}")
+              apple_episodes = []
+          
+          try:
+              # Check if file exists before trying to load
+              spotify_path = 'data/episodes/spotify_episode_links.json'
+              if os.path.exists(spotify_path):
+                  with open(spotify_path, 'r') as f:
+                      spotify_episodes = json.load(f)
+                      logger.info(f"Loaded {len(spotify_episodes)} episodes from Spotify")
+              else:
+                  logger.warning(f"Spotify episodes file not found: {spotify_path}")
+                  spotify_episodes = []
+          except Exception as e:
+              logger.error(f"Error loading Spotify episodes: {str(e)}")
+              spotify_episodes = []
+          
+          # Combine episodes from both sources
+          all_episodes = apple_episodes + spotify_episodes
+          logger.info(f"Combined total: {len(all_episodes)} episodes")
+          
+          # Save combined episodes
+          with open('data/episodes/episode_links.json', 'w') as f:
+              json.dump(all_episodes, f, indent=2)
+          
+          logger.info("Successfully saved combined episodes to data/episodes/episode_links.json")
+          print(f"Combined {len(all_episodes)} episodes from Apple and Spotify")
+          EOF
+          
       - name: Upload episode links as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -105,6 +187,8 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
+          git add data/episodes/apple_episode_links.json
+          git add data/episodes/spotify_episode_links.json || echo "Spotify episode links file not available"
           git add data/episodes/episode_links.json
-          git commit -m "Update episode links" || echo "No changes to commit"
+          git commit -m "Update episode links from Apple and Spotify" || echo "No changes to commit"
           git push
