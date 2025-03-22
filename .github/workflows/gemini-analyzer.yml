@@ -1,12 +1,12 @@
 name: Gemini Transcript Analyzer
 
 on:
-  workflow_run:
-    workflows: ["Extract Podcast Transcript"]
-    types:
-      - completed
   workflow_dispatch:
     inputs:
+      specific_file:
+        description: 'Specific transcript file to process (leave empty to process all)'
+        required: false
+        type: string
       process_all:
         description: 'Process all transcript files (not just new ones)'
         required: false
@@ -21,7 +21,6 @@ permissions:
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     
     steps:
       - name: Checkout repository
@@ -44,21 +43,20 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          # Get process_all input value
+          # Get process_all and specific_file input values
           PROCESS_ALL="${{ github.event.inputs.process_all }}"
+          SPECIFIC_FILE="${{ github.event.inputs.specific_file }}"
           
-          # Determine which files to process based on the trigger
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${PROCESS_ALL}" == "true" ]; then
+          # Determine which files to process based on the inputs
+          if [ -n "${SPECIFIC_FILE}" ]; then
+            echo "Processing specific file: $SPECIFIC_FILE"
+            python scripts/gemini_analyzer.py --file "$SPECIFIC_FILE"
+          elif [ "${PROCESS_ALL}" == "true" ]; then
             echo "Processing all transcript files"
             find data/transcripts -name "*_transcript.json" -type f | while read -r file; do
               echo "Processing $file"
               python scripts/gemini_analyzer.py --file "$file"
             done
-          elif [ "${{ github.event_name }}" == "workflow_run" ]; then
-            echo "Processing the most recent transcript file"
-            latest=$(ls -t data/transcripts/*_transcript.json | head -1)
-            echo "Processing $latest"
-            python scripts/gemini_analyzer.py --file "$latest"
           else
             echo "Processing all transcript files (default)"
             find data/transcripts -name "*_transcript.json" -type f | while read -r file; do
