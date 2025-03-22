@@ -79,7 +79,14 @@ jobs:
           import json
           from bs4 import BeautifulSoup
           from datetime import datetime
-          import requests
+          import logging
+          
+          # Set up logging
+          logging.basicConfig(
+              level=logging.INFO,
+              format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+          )
+          logger = logging.getLogger('extract_transcript')
           
           # Create data directory if it doesn't exist
           os.makedirs('data/transcripts', exist_ok=True)
@@ -93,94 +100,21 @@ jobs:
                   with open(episode_links_path, 'r', encoding='utf-8') as f:
                       episodes_data = json.load(f)
                       
-                      # Create a lookup dictionary by episode_id
+                      # Create a lookup dictionary by apple_id
                       for episode in episodes_data:
-                          episode_id = str(episode.get('episode_id'))
-                          if episode_id:
-                              episode_metadata[episode_id] = {
+                          # Episodes may now have apple_id instead of episode_id
+                          apple_id = str(episode.get('apple_id', ''))
+                          if apple_id:
+                              episode_metadata[apple_id] = {
                                   'title': episode.get('title'),
-                                  'release_date': episode.get('release_date')
+                                  'release_date': episode.get('release_date'),
+                                  'spotify_id': episode.get('spotify_id')  # Get spotify_id from combined data
                               }
-                  print(f"Loaded metadata for {len(episode_metadata)} episodes")
+                  logger.info(f"Loaded metadata for {len(episode_metadata)} episodes")
               except Exception as e:
-                  print(f"Error loading episode links: {e}")
+                  logger.error(f"Error loading episode links: {e}")
           else:
-              print(f"Warning: Episode links file not found at {episode_links_path}")
-          
-          # Function to get Spotify ID for an episode based on release date and title
-          def get_spotify_id(title, upload_date):
-              try:
-                  # Gegenwartscheck podcast Spotify show ID
-                  show_id = "3sObg5LiElhdkjCVGYyuGG"  # Gegenwartscheck on Spotify
-                  
-                  # Get Spotify access token (using client credentials flow)
-                  client_id = os.environ.get('SPOTIFY_CLIENT_ID')
-                  client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
-                  
-                  if not client_id or not client_secret:
-                      print("Missing Spotify credentials, skipping Spotify ID lookup")
-                      return None
-                  
-                  # Create base64 encoded Authorization header (Basic auth)
-                  import base64
-                  auth_bytes = f"{client_id}:{client_secret}".encode('ascii')
-                  auth_header = base64.b64encode(auth_bytes).decode('ascii')
-                  
-                  # Request the access token
-                  auth_response = requests.post(
-                      'https://accounts.spotify.com/api/token',
-                      headers={
-                          'Authorization': f'Basic {auth_header}',
-                          'Content-Type': 'application/x-www-form-urlencoded'
-                      },
-                      data={
-                          'grant_type': 'client_credentials'
-                      }
-                  )
-                  
-                  if auth_response.status_code != 200:
-                      print(f"Failed to get Spotify token: {auth_response.status_code}, {auth_response.text}")
-                      return None
-                      
-                  auth_data = auth_response.json()
-                  access_token = auth_data['access_token']
-                  
-                  # Use the token to call the Spotify API
-                  headers = {
-                      'Authorization': f'Bearer {access_token}'
-                  }
-                  
-                  # Get episodes for the show (paginate if needed)
-                  response = requests.get(
-                      f'https://api.spotify.com/v1/shows/{show_id}/episodes?limit=50',
-                      headers=headers
-                  )
-                  
-                  if response.status_code != 200:
-                      print(f"Failed to get Spotify episodes: {response.status_code}, {response.text}")
-                      return None
-                      
-                  episodes = response.json()
-                  print(f"Successfully retrieved {len(episodes['items'])} episodes from Spotify")
-                  
-                  # Search for matching episode based on release date
-                  for episode in episodes['items']:
-                      episode_date = episode['release_date']  # Format: YYYY-MM-DD
-                      
-                      print(f"Comparing Spotify episode: '{episode['name']}' ({episode_date}) with podcast episode: '{title}' ({upload_date})")
-                      
-                      if episode_date == upload_date:
-                          # We found a date match, now check title similarity
-                          # For simplicity, we're using a basic contains check
-                          if title.lower() in episode['name'].lower() or episode['name'].lower() in title.lower():
-                              print(f"Found matching Spotify episode: {episode['id']} for {title}")
-                              return episode['id']
-                  
-                  print(f"No matching Spotify episode found for {title} ({upload_date})")
-                  return None
-              except Exception as e:
-                  print(f"Error getting Spotify ID: {e}")
-                  return None
+              logger.warning(f"Warning: Episode links file not found at {episode_links_path}")
           
           # Find all TTML files in the cache directory
           ttml_files = []
@@ -189,12 +123,12 @@ jobs:
                   if file.endswith('.ttml'):
                       ttml_files.append(os.path.join(root, file))
           
-          print(f"Found {len(ttml_files)} TTML files")
+          logger.info(f"Found {len(ttml_files)} TTML files")
           
           # Process each TTML file
           for ttml_file in ttml_files:
               try:
-                  print(f"Processing {ttml_file}")
+                  logger.info(f"Processing {ttml_file}")
                   
                   # Extract episode ID from the directory structure
                   # Path format: cache/extracted/EPISODE_ID/...
@@ -208,27 +142,22 @@ jobs:
                   # Extract podcast ID from filename
                   match = re.search(r'(\d+)\.ttml', os.path.basename(ttml_file))
                   if not match:
-                      print(f"Could not extract podcast ID from {ttml_file}")
+                      logger.warning(f"Could not extract podcast ID from {ttml_file}")
                       continue
                   
-                  podcast_id = match.group(1)
+                  apple_id = match.group(1)
                   
-                  # Get episode title from metadata or fallback to TTML
+                  # Get episode title and Spotify ID from metadata
                   episode_title = None
+                  spotify_id = None
                   upload_date = None
                   
                   # First check if we have metadata from episode_links.json
-                  if episode_id in episode_metadata:
-                      episode_title = episode_metadata[episode_id].get('title')
-                      
-                      # Extract just the date part from the release date (format: 2021-04-12T07:00:00Z)
-                      release_date_str = episode_metadata[episode_id].get('release_date')
-                      if release_date_str:
-                          try:
-                              # Extract just the date part
-                              upload_date = release_date_str.split('T')[0]
-                          except Exception as e:
-                              print(f"Error parsing release date {release_date_str}: {e}")
+                  if apple_id in episode_metadata:
+                      meta = episode_metadata[apple_id]
+                      episode_title = meta.get('title')
+                      spotify_id = meta.get('spotify_id')
+                      upload_date = meta.get('release_date')
                   
                   # If no title from metadata, try to get it from TTML
                   if not episode_title:
@@ -242,11 +171,6 @@ jobs:
                   if not episode_title:
                       episode_title = f"Episode {episode_id}"
                   
-                  # Get Spotify ID if we have upload date 
-                  spotify_id = None
-                  if upload_date and episode_title:
-                      spotify_id = get_spotify_id(episode_title, upload_date)
-                      
                   # Extract transcript content
                   transcript_chunks = []
                   speaking_chunks = soup.select('p')
@@ -282,7 +206,7 @@ jobs:
                                   milliseconds = int(seconds_parts[1]) if len(seconds_parts) > 1 else 0
                                   begin_seconds = seconds + (milliseconds / 1000)
                           except Exception as e:
-                              print(f"Error parsing begin time {begin_time}: {e}")
+                              logger.error(f"Error parsing begin time {begin_time}: {e}")
                       
                       # Round down seconds to integers
                       begin_seconds = int(begin_seconds)
@@ -312,13 +236,12 @@ jobs:
                       # Fallback to a safe title derived from the episode title
                       safe_title = re.sub(r'[^\w\-\. ]', '_', episode_title)
                       output_file = f"data/transcripts/{safe_title}_transcript.json"
-                      print("Warning: Using title-based filename because episode_id is not available")
+                      logger.warning("Using title-based filename because episode_id is not available")
                   
                   # Create the output data structure
                   output_data = {
                       "episode_title": episode_title,
-                      "apple_id": podcast_id,  # Renamed from podcast_id to apple_id
-                      "episode_id": episode_id,
+                      "apple_id": apple_id,
                   }
                   
                   # Add Spotify ID if available
@@ -335,10 +258,10 @@ jobs:
                   with open(output_file, 'w', encoding='utf-8') as f:
                       json.dump(output_data, f, indent=2, ensure_ascii=False)
                   
-                  print(f"Saved transcript to {output_file}")
+                  logger.info(f"Saved transcript to {output_file}")
                   
               except Exception as e:
-                  print(f"Error processing {ttml_file}: {e}")
+                  logger.error(f"Error processing {ttml_file}: {e}")
                   import traceback
                   traceback.print_exc()
           EOF

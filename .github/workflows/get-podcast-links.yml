@@ -73,12 +73,19 @@ jobs:
                           episode_url = episode.get('trackViewUrl')
                           episode_id = episode.get('trackId')
                           release_date = episode.get('releaseDate')
+                          
+                          # Process the release date to remove the time part
+                          if release_date and 'T' in release_date:
+                              release_date_date_only = release_date.split('T')[0]
+                          else:
+                              release_date_date_only = release_date
+                          
                           # Include all episodes, not just those with "gegenwartscheck" in the title
                           new_episodes.append({
                               "title": episode_title,
                               "url": episode_url,
-                              "episode_id": episode_id,
-                              "release_date": release_date,
+                              "apple_id": episode_id,
+                              "release_date": release_date_date_only,
                               "source": "apple"
                           })
                   
@@ -134,6 +141,7 @@ jobs:
           import json
           import os
           import logging
+          from datetime import datetime
           
           # Configure logging
           logging.basicConfig(
@@ -165,16 +173,75 @@ jobs:
               logger.error(f"Error loading Spotify episodes: {str(e)}")
               spotify_episodes = []
           
-          # Combine episodes from both sources
-          all_episodes = apple_episodes + spotify_episodes
-          logger.info(f"Combined total: {len(all_episodes)} episodes")
+          # Create a dictionary to group episodes by release date
+          episodes_by_date = {}
+          
+          # Process Apple episodes
+          for episode in apple_episodes:
+              release_date = episode.get('release_date')
+              if not release_date:
+                  logger.warning(f"Skipping Apple episode with no release date: {episode.get('title')}")
+                  continue
+                  
+              # Create or update the entry for this date
+              if release_date not in episodes_by_date:
+                  episodes_by_date[release_date] = {
+                      'title': episode.get('title'),
+                      'release_date': release_date,
+                      'apple_id': episode.get('apple_id'),
+                      'apple_url': episode.get('url')
+                  }
+              else:
+                  # If this date already exists, update Apple info
+                  episodes_by_date[release_date]['apple_id'] = episode.get('apple_id')
+                  episodes_by_date[release_date]['apple_url'] = episode.get('url')
+                  
+                  # Only update title if we don't already have one
+                  if not episodes_by_date[release_date].get('title'):
+                      episodes_by_date[release_date]['title'] = episode.get('title')
+          
+          # Process Spotify episodes
+          for episode in spotify_episodes:
+              release_date = episode.get('release_date')
+              if not release_date:
+                  logger.warning(f"Skipping Spotify episode with no release date: {episode.get('title')}")
+                  continue
+                  
+              # Make sure the release date is just the date part (YYYY-MM-DD)
+              if 'T' in release_date:
+                  release_date = release_date.split('T')[0]
+              
+              # Create or update the entry for this date
+              if release_date not in episodes_by_date:
+                  episodes_by_date[release_date] = {
+                      'title': episode.get('title'),
+                      'release_date': release_date,
+                      'spotify_id': episode.get('episode_id'),
+                      'spotify_url': episode.get('url')
+                  }
+              else:
+                  # If this date already exists, update Spotify info
+                  episodes_by_date[release_date]['spotify_id'] = episode.get('episode_id')
+                  episodes_by_date[release_date]['spotify_url'] = episode.get('url')
+                  
+                  # Only update title if we don't already have one
+                  if not episodes_by_date[release_date].get('title'):
+                      episodes_by_date[release_date]['title'] = episode.get('title')
+          
+          # Convert the dictionary to a list
+          merged_episodes = list(episodes_by_date.values())
+          
+          # Sort by release date (newest first)
+          merged_episodes.sort(key=lambda x: x.get('release_date', ''), reverse=True)
+          
+          logger.info(f"Combined total: {len(merged_episodes)} unique episodes by date")
           
           # Save combined episodes
           with open('data/episodes/episode_links.json', 'w') as f:
-              json.dump(all_episodes, f, indent=2)
+              json.dump(merged_episodes, f, indent=2)
           
           logger.info("Successfully saved combined episodes to data/episodes/episode_links.json")
-          print(f"Combined {len(all_episodes)} episodes from Apple and Spotify")
+          print(f"Combined {len(merged_episodes)} unique episodes from Apple and Spotify")
           EOF
           
       - name: Upload episode links as artifact

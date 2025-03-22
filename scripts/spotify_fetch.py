@@ -129,10 +129,14 @@ def main():
     # Get credentials from environment variables
     client_id = os.environ.get('SPOTIFY_CLIENT_ID')
     client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
-    show_id = os.environ.get('SPOTIFY_SHOW_ID', '09j4UbTqLqpaUr2F7pxIgl')  # Die sogenannte Gegenwart show ID
+    show_id = os.environ.get('SPOTIFY_SHOW_ID')  
     
     if not client_id or not client_secret:
         logger.error("SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET environment variables are required")
+        exit(1)
+    
+    if not show_id:
+        logger.error("SPOTIFY_SHOW_ID environment variable is required")
         exit(1)
     
     # Fetch episodes
