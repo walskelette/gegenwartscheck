@@ -1,0 +1,80 @@
+{
+  "episode_title": "Wie heißt die Lebensphase vor dem Rollator?",
+  "apple_id": "1000690739921",
+  "spotify_id": "2pjG4HAxyQGilZYrgw29A8",
+  "episode_date": "2025-02-10",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Retro-Elektrofahrzeuge",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Autohersteller bringen neue Elektrofahrzeugmodelle auf den Markt, die als Retro-Versionen traditioneller, alter Modelle gestaltet sind, um Nostalgie und Sehnsüchte der Konsumenten anzusprechen und den chinesischen Elektroautoherstellern Konkurrenz zu machen.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Automobilität",
+        "Elektrofahrzeuge",
+        "Retro",
+        "Nostalgie",
+        "Marketing"
+      ],
+      "start_zeit": "59"
+    },
+    {
+      "vorschlag": "Nicht erhöhte Preise als Marketing-Argument",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Mati",
+      "begruendung": "In Zeiten der Inflation wird die Tatsache, dass Preise für bestimmte Produkte oder Dienstleistungen seit langem nicht erhöht wurden, als besonderes Verkaufsargument und Zeichen von Stabilität im Marketing hervorgehoben.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Inflation",
+        "Marketing",
+        "Preise",
+        "Drogerie",
+        "Werbung"
+      ],
+      "start_zeit": "218"
+    },
+    {
+      "vorschlag": "Cold Plunge Coach",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Professionalisierung und Kommerzialisierung des Trends Eisbaden durch spezifische Coaches, die gegen Bezahlung Anleitungen und Unterstützung anbieten.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Eisbaden",
+        "Coaching",
+        "Wellness",
+        "Trends",
+        "Ökosystem"
+      ],
+      "start_zeit": "445"
+    },
+    {
+      "vorschlag": "Funktionale Kinderküche",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Denise",
+      "begruendung": "Funktionale Kinderküchen, die es Kindern ermöglichen, echte Koch- und Hausarbeitsprozesse nachzuvollziehen und zu erlernen, als Ausdruck eines Trends zu autonomer Erziehung und Haushalts-Partizipation von Kindern.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Kinder",
+        "Erziehung",
+        "Haushalt",
+        "Autonomie",
+        "Produkte"
+      ],
+      "start_zeit": "568"
+    }
+  ]
+}

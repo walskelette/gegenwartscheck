@@ -1,0 +1,80 @@
+{
+  "episode_title": "The White Lotus: Schafft der Westen Urlaub nur noch mit Beruhigungsmitteln?",
+  "apple_id": "1000695431521",
+  "spotify_id": "3VkeR2TjiIMkz6XWIZB12u",
+  "episode_date": "2025-02-24",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tesla-Scham",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Alexander, Anna, Achim",
+      "begruendung": "Das Gefühl, sich für den Besitz eines Teslas rechtfertigen zu müssen, nachdem Elon Musk 'verrückt geworden ist'. Der Tesla war einst ein Statussymbol, aber jetzt empfinden manche Besitzer Scham oder müssen sich abgrenzen. Der Aufkleber 'I bought this before Elon went crazy' dient als politisches Statement oder zum Schutz vor Vandalismus.",
+      "metaebene": "Rückkehr der Autoaufkleber-Diskussion",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Tesla",
+        "Scham",
+        "Elektroauto",
+        "Autoaufkleber",
+        "Politische Aussage"
+      ],
+      "start_zeit": "108"
+    },
+    {
+      "vorschlag": "Außengastrodome",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neue Technologie, um das Draußensitzen in Restaurants im Winter zu ermöglichen. Weiße, runde Zelt- oder Dom-ähnliche Strukturen, die um Tische im Außenbereich von Restaurants herum aufgebaut werden, als Nachfolger der Heizpilze.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Außengastronomie",
+        "Winter",
+        "Heizpilz",
+        "Dome",
+        "Zelte"
+      ],
+      "start_zeit": "290"
+    },
+    {
+      "vorschlag": "Kaffee mit jüngerem Ich",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Internet-Trend, bei dem man sich vorstellt, sein jüngeres Ich auf einen Kaffee zu treffen. Oft in pastellfarbenen, romantischen Darstellungen in sozialen Medien, die eine Versöhnung mit der Vergangenheit und eine Betonung des gegenwärtigen Erfolgs darstellen.",
+      "metaebene": "Poetry-Slam-Texte, Insta-Trends, Nostalgie vs. Gegenwartsfokus",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Kaffee",
+        "Jüngeres Ich",
+        "Nostalgie",
+        "Selbstversöhnung",
+        "Internet-Trend"
+      ],
+      "start_zeit": "408"
+    },
+    {
+      "vorschlag": "Rückkehr des Kabels",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "viele Hörer (Namen nicht genannt)",
+      "begruendung": "Wiederaufleben von kabelgebundenen Kopfhörern als Gegentrend zu Bluetooth-Kopfhörern. Begründet durch die umständliche Bluetooth-Verbindung, den Wunsch nach analoger Beruhigung und die Widerstandsfähigkeit von Kabeln, die im Ukraine-Krieg bei Drohnen eingesetzt werden.",
+      "metaebene": "Anti-Bluetooth-Trend, analog vs. digital, Resilienz",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Kabel",
+        "Kopfhörer",
+        "Bluetooth",
+        "Analog",
+        "Resilienz"
+      ],
+      "start_zeit": "648"
+    }
+  ]
+}

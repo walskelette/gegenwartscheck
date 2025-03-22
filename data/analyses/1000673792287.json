@@ -1,0 +1,80 @@
+{
+  "episode_title": "Müssen Märchen woke werden?",
+  "apple_id": "1000673792287",
+  "spotify_id": "0Yh7YYW8A5UcSjoLQjmBKU",
+  "episode_date": "2024-10-21",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Überlastete Internet-Bots, die Kunden ghosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Miloš",
+      "begruendung": "Internet-Bots, die in Online-Chats eingesetzt werden, sind so überlastet von Kundenanfragen, dass sie den Chat einfach verlassen, anstatt die Anfrage zu bearbeiten. Dies zeigt eine neue Dimension der Hilflosigkeit und Ohnmacht der Kunden im Umgang mit automatisierter Kundenbetreuung.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Chatbots",
+        "Kundenservice",
+        "Überlastung",
+        "Automatisierung",
+        "Ohnmacht"
+      ],
+      "start_zeit": "170"
+    },
+    {
+      "vorschlag": "Vogue Zero T-Shirt als politischer Slogan",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Auftauchen des Slogans 'Vogue Zero' auf einem T-Shirt bei einer pro-israelischen Gegendemonstration zeigt, dass die Anti-Vogue-Haltung zu einem allgemeinen Slogan und Kampfbegriff geworden ist, der Werte und eine klare Positionierung signalisiert.",
+      "metaebene": "Diskussion über die Repräsentativität und Reichweite des Phänomens, Einordnung in ähnliche Phänomene wie 'Gender-Gaga-Vogue-Bubble'.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Vogue",
+        "Mode",
+        "Slogan",
+        "Demonstration",
+        "Gegenwartskultur"
+      ],
+      "start_zeit": "720"
+    },
+    {
+      "vorschlag": "Höflichkeit gegenüber Chat-GPT",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Baris",
+      "begruendung": "Im Umgang mit Chat-GPT sind Menschen auffallend höflicher und verwenden Floskeln wie 'Bitte', im Gegensatz zum ruppigen Umgang mit älteren Sprachassistenten wie Siri oder Alexa. Dies könnte an der wahrgenommenen kognitiven Leistungsfähigkeit von Chat-GPT oder der Neuheit der Beziehung liegen.",
+      "metaebene": "Diskussion über die Gründe für die unterschiedliche Behandlung von Chatbots und Sprachassistenten, Vergleich mit menschlicher Interaktion und sozialem Verhalten.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Chat-GPT",
+        "KI",
+        "Höflichkeit",
+        "Sprachassistenten",
+        "Benutzerverhalten"
+      ],
+      "start_zeit": "1020"
+    },
+    {
+      "vorschlag": "Bedruckte Buchseitenkanten",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Sebastian Aster",
+      "begruendung": "Buchcover dehnen sich auf die Seitenkanten aus, die nun auch bedruckt werden, um Bücher 'booktalkable' zu machen. Dies ist eine Reaktion auf den Trend von BookTok und die Notwendigkeit, Bücher in Videos dreidimensional und rundum ansprechend zu präsentieren.",
+      "metaebene": "Vergleich mit früheren Schmuckausgaben und lustigen Taschenbüchern, Diskussion über die Aufwertung des haptischen Buches und die Nutzung zusätzlicher Flächen für Marketingzwecke.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Buchcover",
+        "BookTok",
+        "Haptik",
+        "Design",
+        "Marketing"
+      ],
+      "start_zeit": "1440"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "episode_title": "Der Untergang des kulturellen Establishments",
+  "apple_id": "1000678855558",
+  "spotify_id": "3H087jC8yNWyaNJBCZP0pG",
+  "episode_date": "2024-12-02",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "The Non-Degen Investor",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein Begriff aus der Kryptowelt für risikofreudige Investoren, der sich in der Mainstream-Finanzberichterstattung etabliert.",
+      "metaebene": "Diskussion über die Herkunft des Begriffs, seine Bedeutungswandel und mögliche negative Konnotationen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Krypto",
+        "Finanzen",
+        "Investoren",
+        "Degeneriert",
+        "Terminologie"
+      ],
+      "start_zeit": "165"
+    },
+    {
+      "vorschlag": "Jemanden unter den Bus werfen",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine englische Redewendung, die im Deutschen wörtlich übersetzt und ironisch verwendet wird, um politische Vorgänge zu beschreiben.",
+      "metaebene": "Diskussion über die Bedeutung, Herkunft und Verbreitung der Phrase sowie die implizite Gewalt.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "Redewendung",
+        "Politik",
+        "Brutalität",
+        "Englisch"
+      ],
+      "start_zeit": "600"
+    },
+    {
+      "vorschlag": "Max Energy – 'Tu dir keinen Zwang an, ohne Bindung, ohne Zwang'",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Charlotte",
+      "begruendung": "Die Philosophie der unverbindlichen Beziehungen aus Dating-Apps wird auf Energieversorger übertragen.",
+      "metaebene": "Diskussion über den Trend zur Auflösung langfristiger Verträge und ob dies ein neues Phänomen ist.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Energie",
+        "Verträge",
+        "Flexibilität",
+        "Dating",
+        "Konsum"
+      ],
+      "start_zeit": "950"
+    },
+    {
+      "vorschlag": "Ursula K. Le Guin",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Erneute Aktualität der Science-Fiction- und Fantasy-Autorin, insbesondere ihre Carrier-Bag Theory of Fiction.",
+      "metaebene": "Diskussion über Le Guins Werk, ihre Theorien und ihre gegenwärtige Relevanz.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Literatur",
+        "Science Fiction",
+        "Theorie",
+        "Erzählen",
+        "Relevanz"
+      ],
+      "start_zeit": "1500"
+    }
+  ]
+}

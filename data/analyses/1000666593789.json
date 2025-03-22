@@ -1,0 +1,80 @@
+{
+  "episode_title": "Wie lange geht Party Girl Forever?",
+  "apple_id": "1000666593789",
+  "spotify_id": "0nhuj8uYlxTSTK0TkYanby",
+  "episode_date": "2024-08-26",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tyla",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neuer Begriff, der in den Medien präsent ist und nun durch einen KI-generierten Song, der in die Charts eingestiegen ist, eine neue Relevanz bekommt. Bündelt Themen wie Jugendwort, KI-Kunst, Rassismus und Stereotypen.",
+      "metaebene": "Diskussion über die Relevanz von Journalisten-Begriffen und ob es mehr als nur \"Journalistenkram\" ist.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Tyla",
+        "Stereotyp",
+        "KI-Musik",
+        "Jugendwort",
+        "Rassismus"
+      ],
+      "start_zeit": "615"
+    },
+    {
+      "vorschlag": "Tan Lines",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Tan Lines als Statussymbol und \"Proof of Work\" für Urlaubserlebnisse, besonders bei jungen Menschen unter 23 Jahren, die ihre Bikini- oder Badehosenränder bewusst zur Schau stellen.",
+      "metaebene": "Diskussion darüber, ob Tan Lines als Phänomen neu oder zeitlos sind und ob es ein neuer Trend oder eine anhaltende Mode ist.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Tan Lines",
+        "Bräunung",
+        "Urlaub",
+        "Mode",
+        "Statussymbol"
+      ],
+      "start_zeit": "1405"
+    },
+    {
+      "vorschlag": "Dreirad für Rentner",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Zunahme von Dreirädern für ältere Menschen als neue Mobilitätsform nach dem E-Bike, die es ermöglicht, auch im Alter mobil und aktiv zu bleiben.",
+      "metaebene": "Diskussion über die Akzeptanz und Coolness von Dreirädern für ältere Menschen und die Verschiebung von Fahrrädern passend zur Lebensphase.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Dreirad",
+        "Rentner",
+        "Mobilität",
+        "Fahrrad",
+        "Alter"
+      ],
+      "start_zeit": "1820"
+    },
+    {
+      "vorschlag": "Ballermann statt Sylt auf Dating-Apps",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Theresa",
+      "begruendung": "Verschiebung der Präferenz auf Dating-Apps von \"Sylt\" zu \"Ballermann\", um nicht mit dem als noch schlimmer angesehenen \"Pony Club\" assoziiert zu werden.",
+      "metaebene": "Vergleich mit dem \"Entweder-oder-Spiel\" und der Frage, wie sich soziale Präferenzen und Gruppenzugehörigkeiten in Online-Profilen manifestieren.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Dating-Apps",
+        "OkCupid",
+        "Sylt",
+        "Ballermann",
+        "Soziale Präferenz"
+      ],
+      "start_zeit": "2110"
+    }
+  ]
+}

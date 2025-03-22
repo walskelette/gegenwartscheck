@@ -1,0 +1,80 @@
+{
+  "episode_title": "Warum kann Alice Weidel nur sarkastisch reden?",
+  "apple_id": "1000685580511",
+  "spotify_id": "0prdrbrkE0tIhE9xJFDVrW",
+  "episode_date": "2025-01-27",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Lieferboten Fahrradhandschuhe",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Berit",
+      "begruendung": "Überall rasen die Lieferboten Fahrradfahrer weiter rum. ... eine dieser Firmen ... hat jetzt seit diesem Winter an den Fahrrädern vorne, an dem Lenker so riesige Handschuhe ... wo man dann die Hände reintun kann, damit die nicht kalt werden, den Booten.",
+      "metaebene": "Verwachsen diese Fahrer so noch mehr mit dem Rad wie so Cyborgs.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Lieferboten",
+        "Fahrradfahrer",
+        "Handschuhe",
+        "Winter",
+        "Arbeitsbedingungen"
+      ],
+      "start_zeit": "100"
+    },
+    {
+      "vorschlag": "Gesprächsperson in Voice-Mail",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": null,
+      "begruendung": "Neue Ansprache meiner Voice-Mail, die ... jetzt nicht mehr vom Gesprächspartner spricht, sondern von der Gesprächsperson. Und sich ... ganz auf der Höhe der Gender-Neutralität bewegt.",
+      "metaebene": "Antizyklische Gender-Neutralität im Kontext von 'Wipeshift' und dem Abbau von DEI Programmen in großen Konzernen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gendern",
+        "Sprache",
+        "Voice-Mail",
+        "Telekommunikation",
+        "Political Correctness"
+      ],
+      "start_zeit": "318"
+    },
+    {
+      "vorschlag": "Wort 'generieren'",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Johannes",
+      "begruendung": "Das Wort generieren jetzt überall ist. ... dass man dem ganzen BWL-Sprech immer sagt, wir müssen Klicks generieren. ... es wird jetzt sozusagen alles generiert. ... sehr viel von generativer KI reden, also von sowas wie Chat, GPT oder irgendwelchen Bild-Kis, die Text oder Bilder generieren.",
+      "metaebene": "Betonung, dass wirtschaftliches Geschehen kein Nullsummenspiel ist. ... kreative Schöpfung des Kapitalismus, schöpfen sozusagen aus dem Nichts neue Zahlen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Wort",
+        "Generieren",
+        "BWL-Sprech",
+        "KI",
+        "Wirtschaft"
+      ],
+      "start_zeit": "542"
+    },
+    {
+      "vorschlag": "Begriff 'Kennenlernphase'",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Olaf aus Köln",
+      "begruendung": "Der Begriff der Kennenlernphase. Das Datingverhalten habe sich nämlich geändert ... in dem man nämlich eine Phase, einen Zeitraum des Übergangs zwischen ... dem losen Dating hin zur festen Beziehung einbaut und den auch mit einem feststehenden Begriff versieht, eben der Kennenlernphase.",
+      "metaebene": "Situation Ship, Zustand der über das bloße Dating hinausgeht, aber noch keine Bindungsängste hervorrufen sollte.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Dating",
+        "Beziehung",
+        "Kennenlernphase",
+        "Sprache",
+        "Soziologie"
+      ],
+      "start_zeit": "915"
+    }
+  ]
+}

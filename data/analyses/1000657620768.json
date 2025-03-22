@@ -1,0 +1,80 @@
+{
+  "episode_title": "Wird der Nazi-Giftschrank hip?",
+  "apple_id": "1000657620768",
+  "spotify_id": "4wOzb1DELCfXhTH4NjIZMQ",
+  "episode_date": "2024-06-03",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Deutsche Fensterarchitektur / Fenster auf Kipp",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Amerikaner entdecken die deutsche Fensterarchitektur (Fenster auf Kipp) als technologische Überlegenheit und es gibt bereits einen Mitgrössong namens 'Fenster auf Kipp', der diese Technologie feiert.",
+      "metaebene": "Diskussion über die Gültigkeit des Vorschlags, da 'Fenster auf Kipp' bereits ein Twitter-Meme aus der Pandemiezeit ist.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Fenster",
+        "Architektur",
+        "Deutschland",
+        "USA",
+        "Technologie"
+      ],
+      "start_zeit": "278"
+    },
+    {
+      "vorschlag": "Sprachwandel umgekehrt / Deutsche Booktok-Bücher in englischer Landschaft",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Deutsche Booktok-Bücher und deren Verfilmungen spielen oft in englischsprachigen Ländern, werden aber mit deutschen Schauspielern auf Deutsch verfilmt, ähnlich wie früher bei Rosamunde Pilcher. Dies führt zu einer Sprachverwirrung und ist ein interessantes gegenwärtiges Phänomen.",
+      "metaebene": "Diskussion darüber, ob es sich um ein neues Phänomen handelt oder nur eine neue Version eines alten Phänomens (deutscher Minderwertigkeitskomplex).",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Booktok",
+        "Film",
+        "Sprache",
+        "Deutschland",
+        "England"
+      ],
+      "start_zeit": "655"
+    },
+    {
+      "vorschlag": "Einkaufswagen ohne Chip",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Katinka Brundje oder Brundiers",
+      "begruendung": "Einkaufswagen vor Supermärkten stehen neuerdings ohne Chip-System da. Dies ist ein neues Phänomen, das nervige Chip-System ist verschwunden und man fragt sich, warum es überhaupt 20 Jahre lang notwendig war.",
+      "metaebene": "Diskussion über die Bedeutung dieses unhermeneutischen Phänomens und die Geschichte des Chips im Zusammenhang mit Herrn Möllemann.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Einkaufswagen",
+        "Supermarkt",
+        "Chip",
+        "Deutschland",
+        "Alltag"
+      ],
+      "start_zeit": "1368"
+    },
+    {
+      "vorschlag": "Wort 'gottlos'",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Wort 'gottlos' wird in der Jugendsprache und in sozialen Medien als Steigerung verwendet und erlebt ein Re-Entry, obwohl es auch in Märchen im Zusammenhang mit Bösem vorkommt.",
+      "metaebene": "Diskussion über den Drang nach Distinktionsgewinn und die Wiederentdeckung alter Sprachenergien durch die Sekularisierung.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Sprache",
+        "Jugendsprache",
+        "gottlos",
+        "Sekularisierung",
+        "Re-Entry"
+      ],
+      "start_zeit": "1865"
+    }
+  ]
+}

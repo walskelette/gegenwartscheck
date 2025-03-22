@@ -1,0 +1,26 @@
+{
+  "episode_title": "Wo sind eigentlich Nina, Lars und Ijoma?",
+  "apple_id": "1000534444029",
+  "spotify_id": "4u2HLw5ftVvR32qJtpNR90",
+  "episode_date": "2021-09-06",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Währungsangaben fehlen in Restaurantmenüs",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "In Menüs von modernen Restaurants stehen nur noch Zahlen ohne Währungseinheit (Euro, Dollar etc.). Die Einheit sei uncool geworden.",
+      "metaebene": "Es wird diskutiert, ob dies ein relevantes Gegenwartsphänomen ist.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Restaurantmenüs",
+        "Preise",
+        "Währung",
+        "Euro",
+        "Stil"
+      ],
+      "start_zeit": "7"
+    }
+  ]
+}

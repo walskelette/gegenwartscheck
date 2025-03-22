@@ -1,0 +1,80 @@
+{
+  "episode_title": "Warum wir uns nach gutem Streit sehnen",
+  "apple_id": "1000680510216",
+  "spotify_id": "38iwS8EblBcsrSzrSET3tv",
+  "episode_date": "2024-12-16",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Ist das echt?",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine neue Unsitte auf Facebook und Twitter, bei der Videoclips gepostet und mit der Frage 'Ist das echt?' versehen werden. Dies dient dazu, politische Gegner lächerlich zu machen und zu insinuieren, dass deren Aussagen KI-Manipulationen seien, obwohl sie tatsächlich echt sind.",
+      "metaebene": "Weiterentwicklung von 'Kannst du dir nicht ausdenken' im Kontext von KI.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Internet",
+        "Meme",
+        "Facebook",
+        "Twitter",
+        "KI"
+      ],
+      "start_zeit": "98"
+    },
+    {
+      "vorschlag": "Gott Strafe Meme",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Verwendung des 'Gott Strafe'-Memes, das auf den Ersten Weltkrieg und 'Gott Strafe England' zurückgeht. Es wird nun für verschiedene, oft humorvolle Zwecke eingesetzt und wirft Fragen nach dem spielerischen Umgang mit nationalistischer Propaganda auf.",
+      "metaebene": "Diskussion über den erlaubten Bereich spielerisch-frivoler Anspielungen und die Erinnerungskultur im Bezug auf den Ersten Weltkrieg im Vergleich zum Zweiten Weltkrieg.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Internet",
+        "Meme",
+        "Erster Weltkrieg",
+        "Nationalismus",
+        "Propaganda"
+      ],
+      "start_zeit": "280"
+    },
+    {
+      "vorschlag": "Social Media Migration",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Massimiliano",
+      "begruendung": "Die Migrationswellen von Nutzern von Plattformen wie X (ehemals Twitter) zu alternativen Plattformen wie Bluesky oder Mastodon. Dies erinnert an die traditionelle Presselandschaft mit politischen Positionierungen und könnte zu fragmentierten Informationsräumen führen.",
+      "metaebene": "Vergleich mit der traditionellen Presselandschaft und Diskussion über die veränderte Natur von Social Media und algorithmusbedingten Bubbles.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Social Media",
+        "Migration",
+        "Plattformen",
+        "Fragmentierung",
+        "Bubbles"
+      ],
+      "start_zeit": "675"
+    },
+    {
+      "vorschlag": "Hexen-Comeback",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Rückkehr von Hexen in der Popkultur (Filme wie 'Wicked', Marvel-Serien, 'Dune'-Serie) und in Online-Diskussionen ('Witch Talk' auf TikTok). Dies wird als feministisches und links konnotiertes Phänomen interpretiert, das mit der Suche der Linken nach neuen Wegen im Umgang mit Irrationalität zusammenhängt.",
+      "metaebene": "Diskussion über Feminismus, Irrationalität, linke Politik und den historischen Kontext der Hexenidentifikation im Feminismus der 70er Jahre.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Hexen",
+        "Popkultur",
+        "Feminismus",
+        "Irrationalität",
+        "TikTok"
+      ],
+      "start_zeit": "985"
+    }
+  ]
+}

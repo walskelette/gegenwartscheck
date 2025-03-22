@@ -1,0 +1,62 @@
+{
+  "episode_title": "Ist Homeoffice nur eine Phase?",
+  "apple_id": "1000645009122",
+  "spotify_id": "0EFGfTT14n1BMlUr0zFO23",
+  "episode_date": "2024-02-12",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Aufblasbare Eistonne zum Eisbaden",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Verena, Monika",
+      "begruendung": "Die aufblasbare Eistonne ist ein aktuelles Phänomen, das Eisbaden zugänglicher macht und Trends wie Longevity, Stressbewältigung und die Suche nach konkreter Angstbewältigung in gesichtslosen Krisenzeiten widerspiegelt. Es ist eine Weiterentwicklung des bereits bekannten Eisbadens.",
+      "metaebene": "Abgrenzung zum allgemeinen Eisbaden, Fokus auf die Tonne als Prestige-Objekt und Teil von Morgenroutinen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Eisbaden",
+        "Eistonne",
+        "aufblasbar",
+        "Longevity",
+        "Stressbewältigung"
+      ],
+      "start_zeit": "160"
+    },
+    {
+      "vorschlag": "Agnostisch (im alltagssprachlichen Gebrauch)",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Wort 'agnostisch' verlässt den religionstheoretischen Raum und wird im Alltag verwendet, um eine distanzierte, leidenschaftslose Haltung auszudrücken, oft im Sinne von 'es ist mir egal' oder 'ich habe keine Meinung dazu'.",
+      "metaebene": "Unterscheidung zwischen der ursprünglichen religiösen Bedeutung und der neuen, banalen Verwendung im Alltag. Epistemologische Aufwertung von Alltagsgegebenheiten.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Agnostisch",
+        "Sprachgebrauch",
+        "Alltagssprache",
+        "Geisteshaltung",
+        "Sprachwandel"
+      ],
+      "start_zeit": "685"
+    },
+    {
+      "vorschlag": "Videocalls im Café",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Immer mehr Menschen arbeiten nicht nur mit dem Computer im Café, sondern führen dort auch Videokonferenzen durch. Dies wird durch technische Entwicklungen wie Hintergrundausblendung und gute Kopfhörer ermöglicht und ist ein Zeichen für die zunehmende 'Schamlosigkeit' des Homeoffice-Trends.",
+      "metaebene": "Verbindung zum Hauptthema Homeoffice und veränderte Arbeitskultur. Diskussion über die Akzeptanz von Remote-Arbeit in öffentlichen Räumen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Videocall",
+        "Café",
+        "Remote-Arbeit",
+        "Homeoffice",
+        "Arbeitskultur"
+      ],
+      "start_zeit": "955"
+    }
+  ]
+}

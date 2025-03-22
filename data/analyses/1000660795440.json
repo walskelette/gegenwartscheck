@@ -1,0 +1,80 @@
+{
+  "episode_title": "Sind wir im Fitnesstudio alle gleich?",
+  "apple_id": "1000660795440",
+  "spotify_id": "3WxTlqt6dHdKGo3FGq1KrM",
+  "episode_date": "2024-07-01",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Subtile Geste des Widerstands gegen Deckel-Diktatur",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Beobachtung in Mailand, dass Menschen in Italien auf theatralische Weise mit gespreizten Fingern aus Plastikwasserflaschen trinken, um gegen die neue EU-Regulierung zu protestieren, die Deckel an Flaschen zu befestigen.",
+      "metaebene": "Diskussion über die Deutung der Geste als Widerstand und die Frage nach dem verwendeten Finger.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Italien",
+        "EU-Regulierung",
+        "Plastikdeckel",
+        "Widerstand",
+        "Geste"
+      ],
+      "start_zeit": "100"
+    },
+    {
+      "vorschlag": "Zwei Hunde als neues Stadtphänomen",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Wiebke",
+      "begruendung": "Hörerin Wiebke beobachtet vermehrt Menschen mit zwei Hunden in der Stadt und fragt nach den Gründen für dieses Phänomen. Möglicherweise ein Pandemie-Folgephänomen oder Ausdruck eines verstärkten Trends zum Haustier.",
+      "metaebene": "Diskussion über mögliche Deutungen, wie Pandemie-bedingte Hundeanschaffung oder Trend zum 'Anti-Vereinsamungs-Haustier'.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Hunde",
+        "Stadtleben",
+        "Pandemie",
+        "Haustiere",
+        "Paarhaltung"
+      ],
+      "start_zeit": "390"
+    },
+    {
+      "vorschlag": "Konjunktur des Wortes 'gewaltvoll'",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Saba Zahebi",
+      "begruendung": "Hörerin Saba Zahebi beobachtet die zunehmende Verwendung des Wortes 'gewaltvoll' als Erweiterung des Gewaltbegriffs, um abstrakte und schwer fassbare Formen von Gewalt zu beschreiben.",
+      "metaebene": "Vergleich mit 'struktureller Gewalt' und Diskussion über die emotionale Konnotation und den Ausdruck von Sensibilität.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Sprache",
+        "Wortwahl",
+        "Gewalt",
+        "gesellschaftliche Sensibilität",
+        "strukturelle Gewalt"
+      ],
+      "start_zeit": "818"
+    },
+    {
+      "vorschlag": "Menopause im 'krassen Moment'",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Olga",
+      "begruendung": "Hörerin Olga beobachtet einen 'krassen Moment' der Menopause mit viel Instagram-Content, Büchern und öffentlicher Thematisierung. Neue Lebensphase wird entdeckt und optimiert, im Kontext von Popfeminismus, Hormontalk und Gender-Data-Gap.",
+      "metaebene": "Diskussion über Begriffsexpansion 'Perimenopause', Tabuisierung und Kommerzialisierung medizinischer Themen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Menopause",
+        "Perimenopause",
+        "Frauengesundheit",
+        "Tabuisierung",
+        "Popfeminismus"
+      ],
+      "start_zeit": "1065"
+    }
+  ]
+}

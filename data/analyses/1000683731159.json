@@ -1,0 +1,80 @@
+{
+  "episode_title": "Haben Dinge eine Seele?",
+  "apple_id": "1000683731159",
+  "spotify_id": "2k3ZkebMkJDwPVR8RFO3iI",
+  "episode_date": "2025-01-13",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Bone Broth",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neuer Trend aus Amerika, der in Deutschland noch nicht so verbreitet ist. Knochenbrühe als hochwertiges, naturbelassenes Produkt, das Vitalität zurückbringt und im Trend der Paleo-Diät und Anti-Aging liegt.",
+      "metaebene": "Geschäftsidee, transatlantischer Trend-Transfer",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Bone Broth",
+        "Knochenbrühe",
+        "Food-Trend",
+        "Paleo-Diät",
+        "Anti-Aging"
+      ],
+      "start_zeit": "345"
+    },
+    {
+      "vorschlag": "Tradwife Satire",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Isolde",
+      "begruendung": "Satirische Weiterentwicklung des Tradwife-Phänomens auf Social Media, bei dem Comedians und private Nutzerinnen die ursprünglichen Tradwife-Inhalte ironisch überzeichnen und der Algorithmus Satire und Original nicht mehr unterscheiden kann.",
+      "metaebene": "Rezeption von Sozialfiguren, Ironie, Algorithmus-Unterscheidung",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Tradwife",
+        "Satire",
+        "Ironie",
+        "Social Media",
+        "Online-Phänomen"
+      ],
+      "start_zeit": "961"
+    },
+    {
+      "vorschlag": "Robert Habecks Weste",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Wolf",
+      "begruendung": "Robert Habecks neue Weste als politisches Kleidungsstück im Wahlkampf, das an einen Schafhirten erinnert und eine Renaissance der Weste einleiten könnte. Symbol für Bodenständigkeit und Handwerklichkeit.",
+      "metaebene": "Politische Symbolik von Kleidung, Wahlkampf-Strategie, Mode-Renaissance",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Robert Habeck",
+        "Weste",
+        "Politische Kleidung",
+        "Mode",
+        "Symbolik"
+      ],
+      "start_zeit": "2588"
+    },
+    {
+      "vorschlag": "Mentale Nebenkosten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Neuer Begriff aus dem Social-Media-Kosmos, der Mental Health und Finanzen verbindet. Beschreibt die versteckten 'Kosten' für neurodivergente Menschen in sozialen Situationen, die über Dopamin-Verbrauch und Erholungsbedarf 'bezahlt' werden.",
+      "metaebene": "Begriffsbildung, Vermischung von Diskursen, Neurodivergenz, Finanz-Metapher",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Mentale Nebenkosten",
+        "Mental Health",
+        "Neurodivergenz",
+        "Finanzen",
+        "Social Media-Begriff"
+      ],
+      "start_zeit": "3488"
+    }
+  ]
+}

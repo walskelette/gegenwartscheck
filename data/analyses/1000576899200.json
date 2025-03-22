@@ -1,0 +1,80 @@
+{
+  "episode_title": "Best of 2022: Urlaub in den Neunzigern",
+  "apple_id": "1000576899200",
+  "spotify_id": "3bWfe9UzA5w8jj0PNHQy6p",
+  "episode_date": "2022-08-22",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Moment, ich mache kurz noch die Kopfhörer rein",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Der Satz wird häufiger gesagt, seit kabellose Kopfhörer verbreitet sind. Man nimmt Anrufe ohne Kopfhörer entgegen und muss sie dann erst umständlich einsetzen, was zu einer neuen Komplexität in alltäglichen Gesprächen führt.",
+      "metaebene": "Technik verursacht neue Probleme, obwohl sie eigentlich Dinge vereinfachen soll. Der Satz könnte in Zukunft als zeitlicher Marker für die 2020er Jahre dienen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Kopfhörer",
+        "AirPods",
+        "Telefonieren",
+        "Technik",
+        "Alltag"
+      ],
+      "start_zeit": "165"
+    },
+    {
+      "vorschlag": "Hula-Hoop-Reifen-Workouts",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Lea",
+      "begruendung": "Hula-Hoop-Reifen sind wieder im Trend, besonders als 'Spaß-Workout' mit 'Self-Love-Überbau' und im Bereich der Rückbildung nach der Schwangerschaft. Es ist mehr als nur ein Fitness-Trend, sondern eine Verschiebung von verkrampfter Selbstoptimierung zu spielerischem Spaß.",
+      "metaebene": "Abgrenzung zum traditionellen 'Bauch-Beine-Po'-Workout, Fokus auf 'Self-Love' und Spaß. Diskussion, ob es sich um einen kurzlebigen Trend oder ein echtes Gegenwartsphänomen handelt.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Hula-Hoop",
+        "Workout",
+        "Fitness",
+        "Trend",
+        "Rückbildung"
+      ],
+      "start_zeit": "348"
+    },
+    {
+      "vorschlag": "Hundeballwerfer",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Hundeballwerfer, die wie Schuhlöffel aussehen, werden in Parks immer häufiger von Hundebesitzern verwendet, besonders in wohlhabenderen Gegenden wie Eppendorf. Es ist ein unerwartet populäres, fast schon unnötiges Tool, das sich durchsetzt.",
+      "metaebene": "Frage nach dem Grund der Gegenwärtigkeit: Faulheit, Ingenieurs-Begeisterung oder ein ungeniales Tool, das sich unerwartet durchsetzt?  Aspekt des 'schick Findens' und der Statussymbolik in bestimmten Vierteln.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Hundeballwerfer",
+        "Hunde",
+        "Sportgerät",
+        "Freizeit",
+        "Eppendorf"
+      ],
+      "start_zeit": "528"
+    },
+    {
+      "vorschlag": "a human being has seen your order",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Der Satz 'a human being has seen your order' auf einer Essensbestell-App ist ein Gegenwartsphänomen, weil er die Entmenschlichung durch Technologie und gleichzeitig das Bedürfnis nach menschlicher Bestätigung in digitalen Prozessen widerspiegelt. Die 'perverse Genauigkeit' der Bestellverfolgung und der ironische Unterton des Satzes sind bezeichnend.",
+      "metaebene": "Doppelcharakter des Satzes: Entmenschlichung vs. Beruhigung. Ironische Silicon Valley-Mentalität, die Ängste aufgreift und ironisiert, um unbedrohlicher zu wirken.  Interaktion Mensch-Maschine im technischen Hintergrund.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Lieferdienst",
+        "Bestellung",
+        "Technologie",
+        "Entmenschlichung",
+        "Ironie"
+      ],
+      "start_zeit": "758"
+    }
+  ]
+}

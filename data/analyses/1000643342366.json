@@ -1,0 +1,80 @@
+{
+  "episode_title": "Liebe Außerirdische, erlöst uns!",
+  "apple_id": "1000643342366",
+  "spotify_id": "4Ajo8zv8MiZUqkEVxN94SU",
+  "episode_date": "2024-01-29",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "15-Minuten-City",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein ursprünglich unschuldiges Konzept der Stadtplanung, das besagt, dass in Städten die wichtigsten Dinge in 15 Minuten zu Fuß erreichbar sein sollten, wird von Verschwörungstheoretikern als Zwangsinstrument und Einschränkung der Freiheit dargestellt.",
+      "metaebene": "Verschwörungstheorie aus Hilflosigkeit, Unfähigkeit zur Ideologiekritik, Ausdehnung des Begriffs Verschwörungstheorie",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "15-Minuten-City",
+        "Verschwörungstheorie",
+        "Stadtplanung",
+        "Ideologiekritik",
+        "urbane Konzepte"
+      ],
+      "start_zeit": "300"
+    },
+    {
+      "vorschlag": "Gummistiefel-Bauernprotest",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "An Ortseingangsschildern aufgehängte Gummistiefel mit Kreuzen als neues, analoges Protestsymbol der Bauern, das bei Städtern Irritation und ein Gefühl des Unheimlichen auslöst, da es aus einer fremden Lebenswelt stammt.",
+      "metaebene": "Irritation durch unbekannte Bildsprache, Konfrontation städtischer Bubbles mit Symbolen anderer Milieus, analoge vs. digitale Symbolik",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Bauernprotest",
+        "Gummistiefel",
+        "Symbolik",
+        "Landleben",
+        "Irritation"
+      ],
+      "start_zeit": "1320"
+    },
+    {
+      "vorschlag": "Leere Desinfektionsspender",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Dorian",
+      "begruendung": "Überall in öffentlichen Gebäuden stehende, aber nicht mehr aufgefüllte Desinfektionsspender als Symbol für die Langzeitwirkung und das Scheitern der Pandemiepolitik.",
+      "metaebene": "Mahnmal für gescheiterte Pandemiepolitik, Symbol für leere Versprechungen, Überbleibsel der Pandemie",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Desinfektionsspender",
+        "Pandemie",
+        "Symbol",
+        "öffentlicher Raum",
+        "Vergessen"
+      ],
+      "start_zeit": "1560"
+    },
+    {
+      "vorschlag": "Das Spektrum",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Julian",
+      "begruendung": "Die inflationäre Verwendung des Begriffs 'Spektrum' als universelle Antwort auf komplexe Fragen in Diskussionen, Artikeln und Gesprächen, wo Eindeutigkeit nicht mehr ausreicht.",
+      "metaebene": "Diskursstrategie, Ablösung älterer Formulierungen (z.B. 'Es gibt nicht DEN Islam'), naturwissenschaftliche vs. grammatikalische Beschreibung",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Spektrum",
+        "Diskurs",
+        "Sprache",
+        "Komplexität",
+        "Differenzierung"
+      ],
+      "start_zeit": "1710"
+    }
+  ]
+}

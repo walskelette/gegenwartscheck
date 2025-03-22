@@ -1,0 +1,80 @@
+{
+  "episode_title": "Narzisstisch sind immer nur die anderen",
+  "apple_id": "1000670352940",
+  "spotify_id": "3NkOEnVHMbW63TOGhzNwLS",
+  "episode_date": "2024-09-23",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Dem Bildschirm abgewandte Seite des Zahlungsgerätes",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Beim Bezahlen mit Karte wird das Lesegerät so hingehalten, dass der Kunde die Summe nicht sehen kann und dem Barista vertrauen muss. Um sicherzugehen, fragen viele Kunden: 'Kann ich mal bitte die Summe sehen?'",
+      "metaebene": "Die ursprüngliche Formulierung war zu sehr auf Ijomas persönliche Erfahrung bezogen, wurde aber dann auf das Phänomen der abgewandten Seite des Zahlungsgerätes verallgemeinert.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Bezahlen",
+        "Kartenzahlung",
+        "Vertrauen",
+        "Mikrointeraktion",
+        "Alltag"
+      ],
+      "start_zeit": "435"
+    },
+    {
+      "vorschlag": "Dubai-Schokolade",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein neuer Schokoladen-Trend, der ursprünglich aus Dubai kommt und auf TikTok viral geht. Die Schokolade ist gefüllt, oft teuer und wird nun auch in Deutschland imitiert und ist schnell ausverkauft. Sie vereint verschiedene aktuelle Trends wie Dubai als Trendziel, levantinische Küche durch Pistazien und Baklava-Elemente, Nusscremes als Proteinlieferanten und DIY-Kultur durch Nachmach-Videos.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Schokolade",
+        "Trend",
+        "Dubai",
+        "TikTok",
+        "Kulinarisch"
+      ],
+      "start_zeit": "655"
+    },
+    {
+      "vorschlag": "\"Ich bin fein damit\"",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Jan Formweg",
+      "begruendung": "Die Redewendung \"Ich bin fein damit\" ist aktuell sehr verbreitet, auch in der Politik, wie durch Markus Söder verwendet. Es ist eine neue Form von Anglizismus mit einem deutschen Wort in englischer grammatikalischer Struktur.",
+      "metaebene": "Diskussion über die Aktualität und den Neuigkeitswert des Vorschlags, da Nina die Redewendung schon länger kennt.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Redewendung",
+        "Anglizismus",
+        "Sprache",
+        "Politik",
+        "Alltagssprache"
+      ],
+      "start_zeit": "1188"
+    },
+    {
+      "vorschlag": "Laufwesten",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Louis/Lars",
+      "begruendung": "Viele Menschen, besonders beim Joggen, tragen kleine Westen, die wie Pistolenholster aussehen. Es geht um den Ausdauersport-Hype, besonders bei 25- bis 35-Jährigen, und den Fetisch für Sport-Equipment. Die Westen können Wasser, Gewichte oder Energy-Riegel enthalten und symbolisieren den exzessiven Ausdauersport als biografische Station.",
+      "metaebene": "Verbindung zum generellen Sport-Equipment-Fetisch und dem Wunsch nach immer mehr Ausrüstung im Ausdauersport.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Laufweste",
+        "Sport",
+        "Equipment",
+        "Ausdauersport",
+        "Gesundheit"
+      ],
+      "start_zeit": "1445"
+    }
+  ]
+}

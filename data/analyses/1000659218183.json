@@ -1,0 +1,80 @@
+{
+  "episode_title": "Warum wollt ihr alle an die Eliteuni?",
+  "apple_id": "1000659218183",
+  "spotify_id": "50EIbfVlKB54GMtpAgl9r7",
+  "episode_date": "2024-06-17",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Iris-Fotografie",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Anton",
+      "begruendung": "Individualisierungstrend in der Mittelschicht, bei dem Menschen, die sich nicht über Beruf oder Bildung definieren, ihren Körper (speziell die Iris) als Ausdruck von Individualität nutzen. Vergleichbar mit dem Tätowieren als Form der Individualisierung für Menschen ohne andere Mittel.",
+      "metaebene": "Diskussion über Klassismus-Vorwurf in Lars' Begründung.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Individualisierung",
+        "Körperkult",
+        "Narzißmus",
+        "Selbstdarstellung",
+        "Chibo-Gegenwart"
+      ],
+      "start_zeit": "178"
+    },
+    {
+      "vorschlag": "Glukoseenttäuschung",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Gefühl der Enttäuschung und Erschöpfung bei Menschen, die lange Ernährungsempfehlungen (Intervallfasten, Haferflocken) befolgt haben und nun erfahren, dass diese möglicherweise falsch oder überholt sind.  Verunsicherung durch ständige Änderungen in Ernährungstrends und -dogmen.",
+      "metaebene": "Diskussion darüber, ob ständige Trendwechsel überhaupt als 'Gegenwart' im Sinne des Spiels gelten können.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Ernährungstrends",
+        "Blutzucker",
+        "Gesundheit",
+        "Verunsicherung",
+        "Kanonverlust"
+      ],
+      "start_zeit": "358"
+    },
+    {
+      "vorschlag": "Tüte für die Tüte",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Phänomen, dass Luxusmarken wie Chanel ihre bereits als Verpackung gedachten Designertüten zusätzlich mit einer Plastikfolie schützen, um die Exklusivität und den Wert der Marke zu unterstreichen.  Symbolisiert die Überhöhung des Äußeren und der Verpackung im Luxuskonsum.",
+      "metaebene": "Handgemachter, selbstbeobachteter Gegenwartspunkt.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Luxuskonsum",
+        "Verpackungswahn",
+        "Statussymbol",
+        "Oberflächlichkeit",
+        "Konsumkultur"
+      ],
+      "start_zeit": "548"
+    },
+    {
+      "vorschlag": "Gamification von Mental Health / Trauma-Score",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Friederike (Rike)",
+      "begruendung": "Zunehmende Gamifizierung von Mental Health-Inhalten, insbesondere durch unseriöse Selbsttests in Apps, die Trauma-Scores oder ähnliches vergeben.  Klassische Gamification-Logik wird auf sensible psychologische Themen angewendet.",
+      "metaebene": "Diskussion darüber, ob das Phänomen 'Mental Health im Internet' nicht schon zu bekannt und etabliert ist, um noch als 'Gegenwart' im Sinne des Spiels zu gelten.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Mental Health",
+        "Gamification",
+        "Trauma",
+        "Unseriösität",
+        "Psychotests"
+      ],
+      "start_zeit": "691"
+    }
+  ]
+}

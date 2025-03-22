@@ -1,0 +1,80 @@
+{
+  "episode_title": "Sind wir nicht alle ein bisschen konservativ?",
+  "apple_id": "1000650321034",
+  "spotify_id": "6uswWGsdJ7ih2jqCdEYRwv",
+  "episode_date": "2024-03-25",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Ethische Nicht-Monogamie",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Ein neueres, neu konturiertes, neu profiliertes Phänomen, das versucht, sexuelle Freiheit und Partnerschaftlichkeit ethisch zu vereinen, im Gegensatz zur 'freien Liebe' der 68er.",
+      "metaebene": "Moralisierender Zeitgeistton, Bezug zu Polyamory und älteren Ratgebern.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Ethische Nichtmonogamie",
+        "Polyamory",
+        "Beziehungen",
+        "Moral",
+        "Zeitgeist"
+      ],
+      "start_zeit": "158"
+    },
+    {
+      "vorschlag": "Dicke Wälzer in der U-Bahn",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Zunehmende Sichtbarkeit von Menschen, die dicke Bücher, insbesondere Klassiker, in öffentlichen Verkehrsmitteln lesen, oft in Pose gesetzt und beeinflusst durch BookTok, als Gegentrend zu Social Media.",
+      "metaebene": "Physische Bücher vs. E-Books, Renaissance alter Medien, Lifestyle-Aspekt.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Bücher",
+        "Lesen",
+        "U-Bahn",
+        "BookTok",
+        "Klassiker"
+      ],
+      "start_zeit": "258"
+    },
+    {
+      "vorschlag": "Reservierungspflicht überall",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Oliver Waldmann",
+      "begruendung": "Die Notwendigkeit, mittlerweile fast alles zu reservieren, selbst in einfachen Restaurants, was auf künstliche Verknappung und eine veränderte Wahrnehmung von Verfügbarkeit hinweist.",
+      "metaebene": "Prinzip der künstlichen Verknappung, München-Spezifikum der Reservierungskultur.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Reservierung",
+        "Restaurants",
+        "Verknappung",
+        "München",
+        "Konsum"
+      ],
+      "start_zeit": "465"
+    },
+    {
+      "vorschlag": "CGI-Landschaften sehen nicht echt aus",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "In teuren Netflix-Filmen mit CGI-Effekten wirken selbst echte, schöne Landschaften im Film unecht, was ein Problem der Authentizität in digitalen Medien und eine Verschiebung der Wahrnehmung von Realität aufzeigt.",
+      "metaebene": "KI vs. Authentizität, Dominanz des Themas in Zuhörerzuschriften, Glaubwürdigkeit von Schönheit im digitalen Zeitalter.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Netflix",
+        "CGI",
+        "Authentizität",
+        "KI",
+        "Film"
+      ],
+      "start_zeit": "720"
+    }
+  ]
+}

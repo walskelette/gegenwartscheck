@@ -1,0 +1,80 @@
+{
+  "episode_title": "“22 Bahnen” lesen statt in Therapie zu gehen",
+  "apple_id": "1000677277401",
+  "spotify_id": "3G2yuKku7sWTlxZjanMhCn",
+  "episode_date": "2024-11-18",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Fake-Podcast-Situation",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Linus",
+      "begruendung": "Menschen stellen Mikrofone und Kopfhörer auf und tun so, als würden sie einen Podcast aufnehmen, obwohl sie alleine sind. Dies wird als neue Form des Statements in sozialen Medien beobachtet, insbesondere bei Finanzinfluencern und fragwürdigen Gurus.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Podcast",
+        "Fake",
+        "Soziale Medien",
+        "Influencer",
+        "Selbstdarstellung"
+      ],
+      "start_zeit": "162"
+    },
+    {
+      "vorschlag": "„dass sich etwas nicht abbilden lässt“",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Verwendung der Formel „dass sich etwas nicht abbilden lässt“ als neue Art zu sagen, dass etwas nicht möglich ist oder bestätigt wird, insbesondere im Kontext von Überlastung oder finanziellen Einschränkungen. Es dient als Rationalisierung und Objektivierung, klingt aber gleichzeitig soft.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Sprachgebrauch",
+        "Formel",
+        "Rationalisierung",
+        "Objektivierung",
+        "Arbeitswelt"
+      ],
+      "start_zeit": "318"
+    },
+    {
+      "vorschlag": "Arbeitszeitbetrug als neuer Gag",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Der Begriff „Arbeitszeitbetrug“ wird von lustigen Social-Media-Accounts als Eskalationsstufe im Kampf um Work-Life-Balance und als linker Witz verwendet. Es wird damit geflext, dass man während der Arbeitszeit andere Dinge tut, sowohl im Homeoffice als auch im Büro.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Arbeitswelt",
+        "Humor",
+        "Soziale Medien",
+        "Work-Life-Balance",
+        "Rebellion"
+      ],
+      "start_zeit": "528"
+    },
+    {
+      "vorschlag": "Vanlife-Hype-Heck-Sprüche",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Axel",
+      "begruendung": "Am Heck von Wohnmobilen, insbesondere von E-Bike-Rentnern, gibt es ein neues Phänomen: Anstelle von Stickern werden große Sprüche angebracht, die oft Carpe-Diem-mäßig oder hämisch sind und den neuen Lifestyle der mobilen, fitten Rentner widerspiegeln.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Vanlife",
+        "Wohnmobile",
+        "Rentner",
+        "Mobilität",
+        "Sprüche"
+      ],
+      "start_zeit": "688"
+    }
+  ]
+}

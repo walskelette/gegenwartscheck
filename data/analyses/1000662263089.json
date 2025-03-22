@@ -1,0 +1,62 @@
+{
+  "episode_title": "Ich wär jetzt lieber woanders",
+  "apple_id": "1000662263089",
+  "spotify_id": "6903DxAe49gNwysiT0dwZa",
+  "episode_date": "2024-07-15",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "CinemaxX Trailer \"Jetzt ist Film\"",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Laura Schartmann",
+      "begruendung": "Der Trailer reflektiert die Smartphone-Abhängigkeit und stellt das Kino als Sehnsuchtsort und Gegenpol zur medialen Kleinteiligkeit dar. Er thematisiert die ständige Produktion und Rezeption von \"Stories\" über Smartphones und kontrastiert dies mit dem immersiven Erlebnis des Kinos.",
+      "metaebene": "Die Metaebene betrifft die Selbstreflexion des Kinos und die Frage, ob Kino ein Fluchtort vor der medialen Kleinteiligkeit wird.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Kino",
+        "Smartphone",
+        "Trailer",
+        "Medienreflexion",
+        "Gegenwartskultur"
+      ],
+      "start_zeit": "49"
+    },
+    {
+      "vorschlag": "EM-Frisur / Kai Havertz Frisur",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine spezielle Frisur, die bei vielen EM-Spielern und jungen Leuten auf der Straße zu sehen ist. Charakterisiert durch kurze, an den Seiten ausrasierte Haare (Seiten auf Null) mit einer unnatürlichen Grenze in der Mitte des Seitenkopfes, oft kombiniert mit einem Vokuhila-Ansatz und einem kurzen Pony. Sie wirkt \"ungesund\", \"mittelalterlich-mönchisch\" und ist eine neue Form \"hässlicher Martialität\".",
+      "metaebene": "Diskussion über die Interpretation der Frisur, von martialisch bis mittelalterlich, und ob jedes neue Phänomen eine tiefere Bedeutung haben muss.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Frisur",
+        "EM",
+        "Fussball",
+        "Mode",
+        "Jugendkultur"
+      ],
+      "start_zeit": "168"
+    },
+    {
+      "vorschlag": "Woom-Bike Aufsatz am Lastenrad",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Hörer (Name vergessen)",
+      "begruendung": "Ein Aufsatz für Lastenräder und Anhänger, bei dem das Vorderrad eines Kinder-Woom-Bikes aufgebockt wird, sodass Kinder \"ins Leere\" treten können, während sie am Lastenrad befestigt sind. Dies symbolisiert die heutige Helikopter-Elternschaft und den Wunsch, Kindern Autonomie vorzugaukeln, während sie in Wirklichkeit kontrolliert und \"festgekettet\" werden.",
+      "metaebene": "Diskussion über die Metaphorik des Aufsatzes in Bezug auf moderne Elternschaft, Kontrolle vs. Freiheit und die Ambivalenz von Statussymbolen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Lastenrad",
+        "Fahrrad",
+        "Elternschaft",
+        "Statussymbol",
+        "Millennials"
+      ],
+      "start_zeit": "348"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "episode_title": "Habits ändern, manifestieren oder doch lieber detoxen?",
+  "apple_id": "1000641680369",
+  "spotify_id": "1VzdEwTaGWbCNjc2KZwxvH",
+  "episode_date": "2024-01-15",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Caspar David Friedrich Hype",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Caspar David Friedrich wird gegenwärtig gefeiert wie ein Popstar. Sein Bestseller steht auf Platz eins, Ausstellungen sind überfüllt, und es gibt viele Ausdeutungen in Zeitungen. Das Internet hat sich mit Memes des 'Wanderers' darauf vorbereitet. Es hat alles, was es heute braucht: eine Person, Naturkulisse, fiktive Landschaften, Natursehnsucht, Melancholie, Einsamkeit und Bilder, die wie KI-generiert aussehen.",
+      "metaebene": "Vergleich mit Kant, Da Vinci und Taylor Swift, Diskussion über die Objektivität des Vorschlags und die persönliche Wahrnehmung von Lars.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Kunst",
+        "Malerei",
+        "Natur",
+        "Hype",
+        "Klassiker"
+      ],
+      "start_zeit": "445"
+    },
+    {
+      "vorschlag": "Minimal-Anonymisierung auf Instagram mit Emojis über den Augen von Kindern",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Es etabliert sich eine Minimal-Anonymisierung von Kindern auf Instagram, bei der nur Emojis wie Sterne oder Herzen über die Augen gesetzt werden. Dies ist eine neue Form der Anonymisierung, die an frühere Pseudo-Anonymisierungen in Medien erinnert, aber eine metaphysische Note hat, indem sie den 'Sitz der Seele' schützt.",
+      "metaebene": "Diskussion über die Historizität und Neuartigkeit des Phänomens, Vergleich mit Kindheitserinnerungen an extreme Anonymisierungsversuche.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Social Media",
+        "Kinder",
+        "Anonymisierung",
+        "Digitalisierung",
+        "Elternschaft"
+      ],
+      "start_zeit": "689"
+    },
+    {
+      "vorschlag": "Gegenderter Satz 'fragen Sie Ihren Arzt oder Apotheker'",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Ben",
+      "begruendung": "Der Satz 'Bei Risiken und Nebenwirkungen fragen Sie Ihren Arzt oder Apotheker' wird zu 'fragen Sie Ihre Ärztin, Ihren Arzt oder in der Apotheke' erweitert. Dies zeigt, wie Gendern langsam in tief verankerte sprachliche Formeln einsickert und reflektiert juristische Aspekte, den Zeitgeist und die Medizin-Gender-Gap.",
+      "metaebene": "Diskussion über die sprachliche Schönheit der Lösung, die Richtigkeit der Formulierung 'in der Apotheke' und die generelle Relevanz von Gender-Beobachtungen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gendern",
+        "Sprache",
+        "Medizin",
+        "Apotheke",
+        "Gesellschaftlicher Wandel"
+      ],
+      "start_zeit": "928"
+    },
+    {
+      "vorschlag": "Stanley Cup als Statussymbol",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Victoria und Justin",
+      "begruendung": "Der Stanley Cup, ein großer Mehrwegbecher einer amerikanischen Firma, wird durch limitierte Farben und Marketingstrategien des ehemaligen Crocs-Marketingchefs zum Trend und Prestigeobjekt. Er symbolisiert 'stay hydrated', Nachhaltigkeit und Luxus im Kontext von Sport und Gesundheit.",
+      "metaebene": "Diskussion über die Hintergründe des Hypes, den spezifischen Charakter des Bechers als Prestigeobjekt und den Zusammenhang mit Trinkflaschen-Trends und Stahl als Material.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Trend",
+        "Getränkebecher",
+        "Statussymbol",
+        "Nachhaltigkeit",
+        "Marketing"
+      ],
+      "start_zeit": "1208"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "episode_title": "\"Dune\" und die Macht der Science-Fiction",
+  "apple_id": "1000668827390",
+  "spotify_id": "6xTJuqdHq44jjnbWnr2rtW",
+  "episode_date": "2024-09-09",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Fehler machen als Engagement-Motor",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Influencer machen absichtlich Fehler in Social Media Inhalten (z.B. Aufkleber auf Gurke lassen), um Kommentare und Engagement zu generieren.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Internetphänomen",
+        "Social Media",
+        "Engagement",
+        "Marketing",
+        "Fehler"
+      ],
+      "start_zeit": "141"
+    },
+    {
+      "vorschlag": "Dating im Supermarkt mit Ananas im Einkaufswagen",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Markus",
+      "begruendung": "In Spanien treffen sich Menschen in Supermärkten und nutzen umgedrehte Ananas im Einkaufswagen als Erkennungszeichen, um Partner zu finden. Zusätzliche Gegenstände wie Linsen oder Salat signalisieren unterschiedliche Beziehungsabsichten.",
+      "metaebene": "Vergleich mit analogen Dating-Zeichen wie Dirndl-Schleife und Codewörtern in Clubs.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Dating",
+        "Supermarkt",
+        "Analog",
+        "Spanien",
+        "Beziehungssuche"
+      ],
+      "start_zeit": "348"
+    },
+    {
+      "vorschlag": "Ein AirPod im Ohr bei Einzelhandelsangestellten",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Angestellte im Einzelhandel tragen vermehrt nur einen AirPod im Ohr während der Arbeit, was früher unüblich war. Dies ist ein Zeichen für veränderte Machtverhältnisse und die Akzeptanz von Ablenkung am Arbeitsplatz aufgrund von Personalmangel.",
+      "metaebene": "Diskussion über Akzeptanz durch Arbeitgeber und Vergleich mit früheren Arbeitsplatznormen.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Arbeitsplatz",
+        "Einzelhandel",
+        "AirPods",
+        "Personalmangel",
+        "Verhaltensänderung"
+      ],
+      "start_zeit": "747"
+    },
+    {
+      "vorschlag": "Muskel-Metapher für nicht-physische Fähigkeiten",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Metapher des 'Muskeltrainings' wird zunehmend auf nicht-körperliche Fähigkeiten wie Zuhören, Deeskalation oder Kommunikation übertragen, was die Vermessung und Optimierung aller Lebensbereiche durch Technologie und Selbstverbesserungstrends widerspiegelt.",
+      "metaebene": "Verbindung zu Vermessungstechnologien und Peter Sloterdijks 'Du musst dein Leben ändern'.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Metapher",
+        "Sprache",
+        "Training",
+        "Selbstoptimierung",
+        "Vermessung"
+      ],
+      "start_zeit": "1018"
+    }
+  ]
+}

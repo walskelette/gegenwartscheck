@@ -1,0 +1,80 @@
+{
+  "episode_title": "Reden wie ein Bundespräsident",
+  "apple_id": "1000654627745",
+  "spotify_id": "0KChymsWFwcrEPS0ZRD4k5",
+  "episode_date": "2024-05-06",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Re-Kanonisierung auf Twitter/X",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Eine Gegenbewegung zum anti-eurozentrischen Poststrukturalismus, bei der auf Twitter/X ein eurozentrischer Kulturkanon durch Listen von Superlativen (z.B. 'schönste Kathedralen Europas') wiederbelebt wird.",
+      "metaebene": "Verortung im Kontext von Elon Musks Twitter/X als rechtslibertär-konservative Plattform und Diskussion über verschiedene Abstufungen innerhalb dieses Phänomens.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Twitter",
+        "X",
+        "Kulturkanon",
+        "Eurozentrismus",
+        "Re-Kanonisierung"
+      ],
+      "start_zeit": "105"
+    },
+    {
+      "vorschlag": "Ansteck-Mikros in Instagram-Reels",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Sebastian Peerling",
+      "begruendung": "Die Verwendung von Ansteck-Mikrofonen, die in der Hand gehalten und nicht am Revers befestigt werden, in Instagram Reels, um einen improvisierten und authentischen Charakter zu erzeugen.",
+      "metaebene": "Die Nutzung von Technik als Accessoire über die reine Funktionalität hinaus und die Anspielung auf den 'Müllhaufen des linearen Fernsehens'.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Ansteck-Mikro",
+        "Instagram Reels",
+        "Authentizität",
+        "Technik-Accessoire",
+        "Improvisiert"
+      ],
+      "start_zeit": "1005"
+    },
+    {
+      "vorschlag": "Boomer-Sein als argumentative Figur",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Moritz",
+      "begruendung": "Die Koketterie und das Vorzeigen des eigenen 'Boomer-Seins' als argumentative Strategie, um Kritik zu entkräften oder eine bestimmte Position zu beziehen (z.B. Kritik an der Arbeitsmoral jüngerer Generationen).",
+      "metaebene": "Diskussion darüber, ob es sich um ein genuin gegenwärtiges Phänomen handelt und die Einordnung als rhetorische Strategie.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Boomer",
+        "Generationenkonflikt",
+        "Koketterie",
+        "Argumentation",
+        "Diskurs"
+      ],
+      "start_zeit": "1640"
+    },
+    {
+      "vorschlag": "Haarreifen bei jungen Männern mit Migrationshintergrund",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Auftreten von Haarreifen als neues Modeaccessoire bei jungen Männern mit Migrationshintergrund, oft in Kombination mit einem Gangster-Rap-Stil.",
+      "metaebene": "Einordnung als Neuentwicklung im Kontext der Feminisierung männlicher Stile und als auffälliges, modisches Statement.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Haarreif",
+        "Männer-Mode",
+        "Migration",
+        "Feminisierung",
+        "Accessoire"
+      ],
+      "start_zeit": "2030"
+    }
+  ]
+}

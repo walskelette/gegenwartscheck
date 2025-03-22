@@ -1,0 +1,80 @@
+{
+  "episode_title": "Willkommen in der biochemischen Lotterie",
+  "apple_id": "1000653158222",
+  "spotify_id": "5n1IURr09kOuxpNOpPYsus",
+  "episode_date": "2024-04-22",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Bitcoin-FOMO",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Gefühl, dass Bitcoin in der Mitte der Gesellschaft angekommen ist und dass die \"Fear of Missing Out\" (Fomo) auf Bitcoin nun auch in der Werbung und in Podcast-Überschriften thematisiert wird. Es wird versucht, Leute abzuholen, die Bitcoin früher skeptisch gegenüberstanden und ihnen eine zweite Chance zu präsentieren.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Bitcoin",
+        "FOMO",
+        "Krypto",
+        "Werbung",
+        "Gesellschaft"
+      ],
+      "start_zeit": "49"
+    },
+    {
+      "vorschlag": "Nicht mehr winkend bedanken im Straßenverkehr",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Beobachtung, dass das ausgiebige Winken als Dank im Straßenverkehr nachgelassen hat und durch ein normaleres, unneurotisches Verhältnis ersetzt wurde. Es wird argumentiert, dass das Reingelassenwerden im Verkehr als selbstverständlich angesehen wird und keine übertriebene Dankbarkeit mehr erfordert.",
+      "metaebene": null,
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Straßenverkehr",
+        "Dankbarkeit",
+        "Verhalten",
+        "Gesellschaft",
+        "Veränderung"
+      ],
+      "start_zeit": "288"
+    },
+    {
+      "vorschlag": "Book Nook",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die Ergänzung des Trends der Rückkehr des physischen Buches durch dekorative \"Book Nooks\" im Bücherregal. Diese 3D-artigen Deko-Objekte sollen eine gemütliche, kuschelige Leseatmosphäre visuell darstellen und das Bücherregal aufwerten, besonders auf Plattformen wie Instagram.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Buch",
+        "Dekoration",
+        "Bücherregal",
+        "Haptik",
+        "Cosiness"
+      ],
+      "start_zeit": "448"
+    },
+    {
+      "vorschlag": "Uber Arena",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Merve Krabbenhöft",
+      "begruendung": "Die Umbenennung der Mercedes-Benz-Arena in Berlin in Uber Arena als Symbol für den Wandel der Gegenwart. Dies steht für neue Mobilität versus alte Autoindustrie, digitale Apps versus traditionelles Blech, Silicon Valley versus Baden-Württemberg und Generation Z versus Boomer.",
+      "metaebene": null,
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Urbanisierung",
+        "Mobilität",
+        "Wandel",
+        "Technologie",
+        "Branding"
+      ],
+      "start_zeit": "805"
+    }
+  ]
+}

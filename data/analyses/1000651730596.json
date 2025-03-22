@@ -1,0 +1,80 @@
+{
+  "episode_title": "Was kommt nach Social Media?",
+  "apple_id": "1000651730596",
+  "spotify_id": "6zIR5ONqS4CrkHjaVwcKOf",
+  "episode_date": "2024-04-08",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Ko-Regulation",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Wort 'regulieren' hat sich von staatlicher oder marktlicher Regulierung zu einem Begriff in der Elternschaft entwickelt, insbesondere im Kontext von 'Selbstregulation' und 'Ko-Regulation' von Kindern. Es beschreibt die Fähigkeit von Kindern, ihre Emotionen zu managen, und die Rolle der Eltern bei der 'Ko-Regulation' der kindlichen Emotionen.",
+      "metaebene": "Diskussion über die Aktualität und Relevanz des Begriffs, Einordnung in den Kontext von Elternschaft und Instagram-Eltern-Bubble, Diskussion über 'Ko' als mögliches Gegenwarts-Präfix.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Elternschaft",
+        "Kindererziehung",
+        "Emotionen",
+        "Sprache",
+        "Begriffe"
+      ],
+      "start_zeit": "305"
+    },
+    {
+      "vorschlag": "Cortisolbauch",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Der 'Cortisolbauch' beschreibt Bauchfett, das angeblich durch Trauma und Stress verursacht wird, nicht durch falsche Ernährung.  Es wird als Phänomen in sozialen Medien, insbesondere Instagram, dargestellt, wo Frauen durch 'somatische Yoga-Übungen' ihren 'Cortisolbauch' abtrainieren sollen, indem sie emotionale Traumata lösen. Es ist verbunden mit dem Trend, alles durch Hormone zu erklären und als Gegenpol zu Abnehmspritzen.",
+      "metaebene": "Diskussion über die Glaubwürdigkeit und Wissenschaftlichkeit des Konzepts, Einordnung in den Kontext von Trauma-Esoterik und Hormon-Diskussionen.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Gesundheit",
+        "Stress",
+        "Trauma",
+        "Social Media",
+        "Körper"
+      ],
+      "start_zeit": "528"
+    },
+    {
+      "vorschlag": "Spezi-Comeback",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die 'Spezi', ein Cola-Fanta-Mix, erlebt ein Comeback und ist vermehrt in verschiedenen Varianten und sogar in Cafés ohne andere Softdrinks erhältlich.  Es wird als nostalgisches Getränk und als 'Trash-Ecke' in einer zunehmend gesundheitsbewussten und 'bio'-orientierten Gesellschaft gesehen, ähnlich wie die Erhaltung von Las Vegas als Erinnerung an den 'Irrsinn' Amerikas.",
+      "metaebene": "Diskussion über die Nostalgie-Komponente und die persönliche Relevanz des Vorschlags, Vergleich mit anderen Getränken und 'Trash-Ecken' aus der Kindheit.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Getränke",
+        "Nostalgie",
+        "Trends",
+        "Konsum",
+        "Kultur"
+      ],
+      "start_zeit": "758"
+    },
+    {
+      "vorschlag": "Menschliches Antlitz der KI",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "In der Werbung wird zunehmend versucht, KI durch 'menschliche Antlitze' vertrauenswürdiger und zugänglicher darzustellen. Dies geschieht durch den Einsatz von freundlich und kompetent wirkenden Personen in Werbeanzeigen für KI-bezogene Produkte und Dienstleistungen, um Ängste vor KI abzubauen und Vertrauen zu schaffen. Beispiele sind Anzeigen für Online-Banking-Tutorials und Weiterbildungen im Bereich KI.",
+      "metaebene": "Diskussion über die spezifische Gegenwärtigkeit der Beispiele, insbesondere die Werbung für die Schweißer-Ausbildung im Metaversum, und die Verbindung zu aktuellen Diskursen über Arbeit, Technologie und soziale Schichten.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "KI",
+        "Werbung",
+        "Technologie",
+        "Vertrauen",
+        "Gesellschaft"
+      ],
+      "start_zeit": "957"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "episode_title": "Wie wird mein Sohn kein toxischer Mann?",
+  "apple_id": "1000648734448",
+  "spotify_id": "4k8eFDUj9nEnSWO7CnY2V0",
+  "episode_date": "2024-03-11",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Trend Resurfacing",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Das Gefühl, dass alte Trends in sozialen Medien durch Algorithmen wieder hochgespült werden und dadurch als neu und gegenwärtig wahrgenommen werden, obwohl sie es nicht sind.",
+      "metaebene": "Wird als Entschuldigung für einen vorherigen Fehlvorschlag (Mukbang) und Versuch, Schwäche in Stärke zu verwandeln, präsentiert.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Trend Resurfacing",
+        "Social Media",
+        "Algorithmus",
+        "Online-Journalismus",
+        "Gegenwartsgefühl"
+      ],
+      "start_zeit": "55"
+    },
+    {
+      "vorschlag": "Rückkehr der optischen Medien",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die vermeintliche Rückkehr von CDs, DVDs und CD-ROMs als Reaktion auf teure Streaming-Dienste und als Wunsch nach fester, nicht überschreibbarer Datenspeicherung. Verweis auf chinesische Forschung zu CDs mit enormer Speicherkapazität.",
+      "metaebene": "Verknüpfung mit der Sehnsucht nach einer Ära, in der man zwar viel speichern kann, aber Daten festgeschrieben und nicht ständig veränderbar sind, ähnlich dem Gefühl der 90er Jahre.",
+      "punkt_erhalten": false,
+      "punkt_von": "Nina",
+      "tags": [
+        "Optische Medien",
+        "CDs",
+        "DVDs",
+        "Retro-Technologie",
+        "Datenspeicherung"
+      ],
+      "start_zeit": "230"
+    },
+    {
+      "vorschlag": "Supermarkt-Kasse-Spielen",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Kinder spielen Supermarkt-Kasse und ahmen dabei nach, dass man beim Einkaufen nicht nur Waren, sondern auch Bargeld an der Kasse erhält, was die gegenwärtige Praxis der Bargeldabhebung im Supermarkt widerspiegelt.",
+      "metaebene": "Verortung im Bereich \"Deep Parenting\" und Bezug zur aktuellen Relevanz von bargeldlosem Bezahlen und Bargeldabhebung im Einzelhandel.",
+      "punkt_erhalten": true,
+      "punkt_von": "Lars",
+      "tags": [
+        "Supermarkt-Kasse",
+        "Bargeldabhebung",
+        "Kinderspiel",
+        "Bargeldlosigkeit",
+        "Deep Parenting"
+      ],
+      "start_zeit": "515"
+    },
+    {
+      "vorschlag": "Human Design",
+      "vorschlagender": "Lars",
+      "ist_hoerer": true,
+      "hoerer_name": "Joelle",
+      "begruendung": "Human Design als zeitgemäße Form der Esoterik, die astrologische Fragen mit pseudophysikalischen und pseudowissenschaftlichen Erkenntnissen verbindet und aktuell an Popularität gewinnt. Vorstellung der Menschentypen: Generatoren, Manifestoren, Reflektoren, Projektoren und Manifestierende Generatoren.",
+      "metaebene": "Diskussion über Human Design als \"zeitgemäße Esoterik\" und Erwähnung des Wikipedia-Eintrags als Informationsquelle.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Human Design",
+        "Esoterik",
+        "Astrologie",
+        "Pseudophysik",
+        "Menschentypen"
+      ],
+      "start_zeit": "725"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "episode_title": "Sechs Strategien, unsterblich zu werden",
+  "apple_id": "1000646846540",
+  "spotify_id": "0zpzmwi1lJLCndBFYbPTkJ",
+  "episode_date": "2024-02-26",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Mukbang-Content",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Mukbang-Content ist ein YouTube-Phänomen, wo man Menschen beim Essen zuschauen kann. Es ist grotesk und neuartig, und sobald man anfängt zuzuschauen, entwickelt es einen gewissen Reiz. Es greift die anthropologische Konstante des Plauderns beim Essen auf und bietet entspannende Unterhaltung.",
+      "metaebene": "Neue Phänomene sind oft grotesk, und Mukbang ist ein Beispiel dafür.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Mukbang",
+        "Korea",
+        "Essen",
+        "YouTube",
+        "Grotesk"
+      ],
+      "start_zeit": "615"
+    },
+    {
+      "vorschlag": "Ausschlachtung von Zeiten (Adventskalender, Dry January, Fastenzeit, Jammerfasten)",
+      "vorschlagender": "Nina",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Die gegenwärtige Gesellschaft schlachtet Zeiteinheiten wie Monate oder religiöse Zeiten (Adventskalender, Fastenzeit) immer stärker aus, indem sie diese mit bestimmten Aktivitäten oder Verzichtskonzepten (Dry January, Zuckerfasten, Jammerfasten) verknüpft und kommerziell nutzt.  Besonders das 'Jammerfasten', das den Verzicht auf negative Gedanken propagiert, ist ein gegenwärtiges Phänomen.",
+      "metaebene": "Strukturierung der Zeit als Sinnstiftung durch Fasten und Verzicht.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Zeiteinteilung",
+        "Fastenzeit",
+        "Kommerzialisierung",
+        "Verzicht",
+        "Jammerfasten"
+      ],
+      "start_zeit": "771"
+    },
+    {
+      "vorschlag": "Pulsfrequenzmessung bei Schachspielern",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": true,
+      "hoerer_name": "Manuel",
+      "begruendung": "Bei Fernsehübertragungen von Schachturnieren wird zunehmend der körperliche Zustand der Spieler durch Messung der Herzfrequenz visualisiert. Dies zeigt, dass Schach nicht nur eine kognitive, sondern auch eine körperlich anstrengende Aktivität ist und verdeutlicht die Verbindung von Geist und Körper (Res Cogitans und Res Extensa) in einer zunehmend von KI geprägten Welt.",
+      "metaebene": "Rückkehr zur Körperlichkeit in einer kognitiv-fokussierten Welt, Überwindung des Cartesianischen Dualismus.",
+      "punkt_erhalten": true,
+      "punkt_von": "Nina",
+      "tags": [
+        "Schach",
+        "Pulsfrequenz",
+        "Körperlichkeit",
+        "KI",
+        "Messbarkeit"
+      ],
+      "start_zeit": "988"
+    },
+    {
+      "vorschlag": "Feedforward statt Feedback",
+      "vorschlagender": "Nina",
+      "ist_hoerer": true,
+      "hoerer_name": "Tobias aus München",
+      "begruendung": "Anstelle von Feedback, das sich auf die Vergangenheit und Fehler konzentriert, gewinnt 'Feedforward' an Bedeutung. Feedforward ist zukunftsorientiert und darauf ausgerichtet, positive und konstruktive Vorschläge für die Zukunft zu geben, um Kritik zu vermeiden und eine offene, annehmende Atmosphäre zu schaffen. Dies passt zur hypersensitiven Zeit, in der direkte Kritik vermieden werden soll.",
+      "metaebene": "Anpassung der Kommunikationskultur an eine 'hypersensitive Zeit', Vermeidung von direkter Kritik.",
+      "punkt_erhalten": false,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Feedforward",
+        "Feedback",
+        "Kommunikation",
+        "Kritik",
+        "Hypersensitivität"
+      ],
+      "start_zeit": "1218"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "episode_title": "Ist Pop heute rechts? (mit Diedrich Diederichsen)",
+  "apple_id": "1000663636669",
+  "spotify_id": "5AS1zS0O7hQnLtySIv37sq",
+  "episode_date": "2024-07-29",
+  "gegenwartsvorschlaege": [
+    {
+      "vorschlag": "Tesla Schwarz-Weiß-Lackierung",
+      "vorschlagender": "Ijoma",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Tesla beschränkt die Farbauswahl bei Autos auf Schwarz und Weiß, ähnlich wie hochwertige Restaurants ihre Speisekarte beschränken, was einen Trend zur Einschränkung der Auswahl im Sinne von Qualität widerspiegelt.",
+      "metaebene": "Diskussion über Fordismus, Toyotismus und Teslaismus als Epochen der Automobilproduktion und deren kulturelle Auswirkungen.",
+      "punkt_erhalten": false,
+      "punkt_von": "Lars",
+      "tags": [
+        "Tesla",
+        "Farben",
+        "Autos",
+        "Konsum",
+        "Auswahl"
+      ],
+      "start_zeit": "109"
+    },
+    {
+      "vorschlag": "Ally-Begriff in der Werbung",
+      "vorschlagender": "Lars",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Der Begriff 'Ally' aus dem identitätspolitischen Diskurs wird von der Werbeindustrie aufgegriffen und in einem breiteren, unverbindlicheren Kontext verwendet, z.B. 'Body Ally' für Kosmetikprodukte.",
+      "metaebene": "Diskussion über die Kommerzialisierung und Entkernung identitätspolitischer Begriffe durch die Werbung und die Frage, ob man 'Allies' kaufen kann.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Ally",
+        "Werbung",
+        "Identitätspolitik",
+        "Kommerzialisierung",
+        "Sprache"
+      ],
+      "start_zeit": "348"
+    },
+    {
+      "vorschlag": "Verschwinden von Shampoo für fettige Haare",
+      "vorschlagender": "Diedrich Diederichsen",
+      "ist_hoerer": false,
+      "hoerer_name": null,
+      "begruendung": "Shampoo für fettige Haare ist im deutschsprachigen Raum in Supermärkten kaum noch erhältlich, während es in Südeuropa und in Bioläden noch verfügbar ist. Dies deutet auf eine veränderte Selbstwahrnehmung oder Akzeptanz von fettigen Haaren in Deutschland hin.",
+      "metaebene": "Diskussion über kulturelle Unterschiede in der Körperpflege, Haarmode und die Rolle von Selbstbeschreibung und Stigma.",
+      "punkt_erhalten": true,
+      "punkt_von": "Ijoma",
+      "tags": [
+        "Shampoo",
+        "Haare",
+        "Deutschland",
+        "Körperpflege",
+        "Kulturunterschiede"
+      ],
+      "start_zeit": "588"
+    }
+  ]
+}
