@@ -52,6 +52,15 @@ def create_gemini_prompt(transcript_data):
             
         transcript_text += f"{speaker}: {time_info}{text}\n\n"
     
+    # Get episode title from transcript data
+    episode_title = transcript_data.get("episode_title", "Unbekannte Episode")
+    podcast_id = transcript_data.get("podcast_id", "")
+    # Handle both apple_id and spotify_id formats
+    if not podcast_id:
+        podcast_id = transcript_data.get("apple_id", transcript_data.get("spotify_id", "Unbekannt"))
+    
+    extracted_date = transcript_data.get("extracted_date", transcript_data.get("upload_date", datetime.now().isoformat()))
+    
     prompt = f"""
 Du bist ein Analyse-Assistent, der dabei hilft, bestimmte Segmente aus Podcast-Transkripten des Podcasts "Die sogenannte Gegenwart" zu extrahieren und zu strukturieren.
 
@@ -125,9 +134,9 @@ Antworte ausschließlich im folgenden JSON-Format:
 ```
 
 # Transkript für die Analyse
-Podcast-Titel: {transcript_data["episode_title"]}
-Podcast-ID: {transcript_data["podcast_id"]}
-Extrahiert am: {transcript_data["extracted_date"]}
+Podcast-Titel: {episode_title}
+Podcast-ID: {podcast_id}
+Extrahiert am: {extracted_date}
 
 {transcript_text}
 
@@ -386,10 +395,10 @@ def create_output_data(transcript_data, analysis_result):
         return None
     
     # Use release_date if available, otherwise fall back to extracted date or title-based date
-    episode_date = transcript_data.get("release_date")
+    episode_date = transcript_data.get("release_date", transcript_data.get("upload_date"))
     if not episode_date:
         # For backward compatibility
-        episode_date = extract_date_from_title(transcript_data["episode_title"])
+        episode_date = extract_date_from_title(transcript_data.get("episode_title", ""))
     
     # If episode_date is an ISO format string with time, extract just the date portion
     if isinstance(episode_date, str) and "T" in episode_date:
@@ -404,10 +413,19 @@ def create_output_data(transcript_data, analysis_result):
         if "ende_zeit" not in vorschlag:
             vorschlag["ende_zeit"] = None
     
+    # Handle both apple_id and spotify_id for compatibility
+    podcast_id = transcript_data.get("podcast_id", "")
+    if not podcast_id:
+        podcast_id = transcript_data.get("apple_id", transcript_data.get("spotify_id", ""))
+    
+    episode_id = transcript_data.get("episode_id", "")
+    if not episode_id and podcast_id:
+        episode_id = podcast_id
+    
     return {
-        "episode_title": transcript_data["episode_title"],
-        "podcast_id": transcript_data["podcast_id"],
-        "episode_id": transcript_data.get("episode_id"),
+        "episode_title": transcript_data.get("episode_title", "Unbekannte Episode"),
+        "podcast_id": podcast_id,
+        "episode_id": episode_id,
         "episode_date": episode_date,
         "extracted_date": datetime.now().isoformat(),
         "gegenwartsvorschlaege": vorschlaege
@@ -434,20 +452,40 @@ def get_output_filename(input_filename):
 
 def process_transcript(client, file_path, output_dir):
     """Verarbeitet eine einzelne Transkript-Datei."""
-    print(f"Verarbeite Transkript: {file_path}")
-    
     try:
-        # Transkript laden
+        print(f"Verarbeite Transkript: {file_path}")
+        
+        # Transcript laden
         transcript_data = load_transcript(file_path)
         
-        # Mit Gemini API analysieren (erste Analyse)
+        # Prüfen, ob die Ausgabedatei bereits existiert
+        output_filename = get_output_filename(file_path)
+        output_path = os.path.join(output_dir, output_filename)
+        
+        if os.path.exists(output_path):
+            print(f"Ausgabedatei existiert bereits: {output_path}")
+            with open(output_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                if existing_data.get("gegenwartsvorschlaege"):
+                    print(f"Überspringe Verarbeitung, da bereits analysiert: {file_path}")
+                    return True
+        
+        # Transcript analysieren
+        print("Führe erste Analyse durch...")
         initial_analysis = analyze_transcript_with_gemini(client, transcript_data)
         
-        if not initial_analysis:
-            print(f"Warnung: Keine gültigen Analyseergebnisse für {file_path}")
-            return False
+        if not initial_analysis or "gegenwartsvorschlaege" not in initial_analysis or not initial_analysis["gegenwartsvorschlaege"]:
+            print(f"Keine Gegenwartsvorschläge gefunden in: {file_path}")
+            # Leeres Ergebnis speichern, um in Zukunft zu überspringen
+            empty_result = {"gegenwartsvorschlaege": []}
+            output_data = create_output_data(transcript_data, empty_result)
+            save_output_data(output_data, output_path)
+            return True
         
-        # Zweite Analyse (Korrekturlesen) mit Gemini Pro
+        print(f"Gefundene Vorschläge: {len(initial_analysis['gegenwartsvorschlaege'])}")
+        
+        # Zweite Analyse durchführen (Korrektur und Verbesserung)
+        print("Führe zweite Analyse zur Verbesserung durch...")
         final_analysis = proofread_analysis_with_gemini(client, initial_analysis, transcript_data)
         
         # Ausgabedaten erstellen
@@ -458,7 +496,6 @@ def process_transcript(client, file_path, output_dir):
             return False
         
         # Ausgabedatei speichern
-        output_filename = get_output_filename(file_path)
         output_path = os.path.join(output_dir, output_filename)
         save_output_data(output_data, output_path)
         
@@ -500,4 +537,4 @@ def main():
     print(f"Verarbeitung abgeschlossen. {success_count} von {len(transcript_files)} Transkripten erfolgreich verarbeitet.")
 
 if __name__ == "__main__":
-    main() 
+    main()
