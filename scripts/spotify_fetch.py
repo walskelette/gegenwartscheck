@@ -3,6 +3,7 @@ import json
 import os
 import base64
 import logging
+from typing import List, Dict, Optional
 
 # Set up logging
 logging.basicConfig(
@@ -11,10 +12,19 @@ logging.basicConfig(
 )
 logger = logging.getLogger('spotify_fetch')
 
-def get_spotify_token(client_id, client_secret):
+def get_spotify_token(client_id: str, client_secret: str) -> str:
     """
     Get Spotify access token using Client Credentials flow.
-    This only works for endpoints that don't require user authentication.
+
+    Args:
+        client_id: Spotify API client ID
+        client_secret: Spotify API client secret
+
+    Returns:
+        Spotify access token as a string
+
+    Raises:
+        Exception if token cannot be obtained
     """
     logger.info("Getting Spotify access token")
     auth_string = f"{client_id}:{client_secret}"
@@ -40,9 +50,17 @@ def get_spotify_token(client_id, client_secret):
             logger.error(f"Response: {response.text}")
         raise
 
-def get_podcast_episodes(client_id, client_secret, show_id):
+def get_podcast_episodes(client_id: str, client_secret: str, show_id: str) -> List[Dict]:
     """
     Get all episodes for a Spotify podcast using show ID.
+
+    Args:
+        client_id: Spotify API client ID
+        client_secret: Spotify API client secret
+        show_id: Spotify show ID
+
+    Returns:
+        List of episode dictionaries
     """
     token = get_spotify_token(client_id, client_secret)
     logger.info(f"Fetching episodes for Spotify show ID: {show_id}")
@@ -107,9 +125,16 @@ def get_podcast_episodes(client_id, client_secret, show_id):
     
     return episodes
 
-def save_episodes(episodes, output_file):
+def save_episodes(episodes: List[Dict], output_file: str) -> bool:
     """
-    Save episodes to a JSON file
+    Save episodes to a JSON file.
+
+    Args:
+        episodes: List of episode dictionaries
+        output_file: Path to output JSON file
+
+    Returns:
+        True if save was successful, False otherwise
     """
     try:
         logger.info(f"Saving {len(episodes)} episodes to {output_file}")
@@ -122,9 +147,9 @@ def save_episodes(episodes, output_file):
         logger.error(f"Error saving episodes: {str(e)}")
         return False
 
-def main():
+def main() -> None:
     """
-    Main function to fetch Spotify podcast episodes
+    Main function to fetch Spotify podcast episodes.
     """
     # Get credentials from environment variables
     client_id = os.environ.get('SPOTIFY_CLIENT_ID')

@@ -9,10 +9,15 @@ import re
 import argparse
 import time
 import random
+import logging
 from datetime import datetime
 from pathlib import Path
 from google import genai
 from google.genai import types
+from typing import Any, Dict, Optional
+
+# Logging configuration
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 # Konstanten für die Verarbeitung
 DATA_DIR = "data/transcripts"
@@ -20,7 +25,7 @@ OUTPUT_DIR = "data/analyses"
 MODEL_NAME = "gemini-2.0-flash-thinking-exp-01-21"
 PROOFREADING_MODEL_NAME = "gemini-2.0-pro-exp-02-05"
 
-def setup_gemini_client():
+def setup_gemini_client() -> genai.Client:
     """Initialisiert den Gemini API-Client mit dem API-Schlüssel aus der Umgebungsvariable."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -29,12 +34,12 @@ def setup_gemini_client():
     client = genai.Client(api_key=api_key)
     return client
 
-def load_transcript(file_path):
+def load_transcript(file_path: str) -> dict:
     """Lädt eine Transkript-Datei und gibt deren Inhalt zurück."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def create_gemini_prompt(transcript_data):
+def create_gemini_prompt(transcript_data: dict) -> str:
     """Erstellt einen Prompt für die Gemini API, der aus dem Transkript die relevanten Informationen extrahiert."""
     # Extract speakers
     speakers = {}
@@ -101,7 +106,7 @@ WICHTIG:
 
     return prompt
 
-def analyze_transcript_with_gemini(client, transcript_data):
+def analyze_transcript_with_gemini(client: genai.Client, transcript_data: dict) -> Optional[dict]:
     """Analysiert ein Transkript mit der Gemini API."""
     prompt_text = create_gemini_prompt(transcript_data)
     
@@ -172,8 +177,8 @@ def analyze_transcript_with_gemini(client, transcript_data):
                 result = json.loads(json_text)
                 return result
             except json.JSONDecodeError as e:
-                print(f"Fehler beim Parsen der Gemini-Antwort: {e}")
-                print(f"Antworttext: {response_text}")
+                logging.warning(f"Fehler beim Parsen der Gemini-Antwort: {e}")
+                logging.warning(f"Antworttext: {response_text}")
                 return None
                 
         except Exception as e:
@@ -182,22 +187,22 @@ def analyze_transcript_with_gemini(client, transcript_data):
                 if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
                     # Use a fixed delay based on rate limit of 2 rpm
                     delay = min_retry_delay + (retry_attempt * 5) + random.uniform(0, 2)
-                    print(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    logging.warning(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
                     time.sleep(delay)
                 else:
-                    print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
+                    logging.warning(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
             else:
                 # If it's not a rate limit error, don't retry
-                print(f"Fehler bei der Gemini API-Anfrage: {e}")
+                logging.warning(f"Fehler bei der Gemini API-Anfrage: {e}")
                 break
     
     # If all retries failed
     return None
 
-def proofread_analysis_with_gemini(client, initial_analysis, transcript_data):
+def proofread_analysis_with_gemini(client: genai.Client, initial_analysis: dict, transcript_data: dict) -> dict:
     """Führt eine zweite Analyse zur Verbesserung und Korrektur der ersten Analyse durch."""
     if not initial_analysis or "gegenwartsvorschlaege" not in initial_analysis:
-        print("Keine Analyse zum Korrekturlesen vorhanden.")
+        logging.info("Keine Analyse zum Korrekturlesen vorhanden.")
         return initial_analysis
     
     # Erstellen eines strukturierten JSON-Strings für den Prompt
@@ -310,11 +315,11 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
             
             try:
                 result = json.loads(json_text)
-                print("Zweite Analyse (Korrekturlesen) erfolgreich durchgeführt.")
+                logging.info("Zweite Analyse (Korrekturlesen) erfolgreich durchgeführt.")
                 return result
             except json.JSONDecodeError as e:
-                print(f"Fehler beim Parsen der Proofreading-Antwort: {e}")
-                print(f"Antworttext: {response_text}")
+                logging.warning(f"Fehler beim Parsen der Proofreading-Antwort: {e}")
+                logging.warning(f"Antworttext: {response_text}")
                 return initial_analysis  # Rückgabe der ursprünglichen Analyse bei Fehler
                 
         except Exception as e:
@@ -323,19 +328,19 @@ Antworte nur mit dem verbesserten JSON-Format. Füge keine Erklärungen oder zus
                 if retry_attempt < max_retries - 1:  # Don't sleep on the last attempt
                     # Use a fixed delay based on rate limit of 2 rpm
                     delay = min_retry_delay + (retry_attempt * 5) + random.uniform(0, 2)
-                    print(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
+                    logging.warning(f"Rate limit erreicht (max 2 rpm). Warte {delay:.2f} Sekunden vor Versuch {retry_attempt + 2}/{max_retries}...")
                     time.sleep(delay)
                 else:
-                    print(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
+                    logging.warning(f"Maximale Anzahl von Versuchen erreicht. Fehler: {e}")
             else:
                 # If it's not a rate limit error, don't retry
-                print(f"Fehler bei der Proofreading-API-Anfrage: {e}")
+                logging.warning(f"Fehler bei der Proofreading-API-Anfrage: {e}")
                 break
     
     # If all retries failed, return the initial analysis
     return initial_analysis
 
-def extract_date_from_title(title):
+def extract_date_from_title(title: str) -> str:
     """Versucht, ein Datum aus dem Episodentitel zu extrahieren."""
     # Einfache Methode: Suche nach einem vierstelligen Jahr
     year_match = re.search(r'20\d{2}', title)
@@ -345,7 +350,7 @@ def extract_date_from_title(title):
     # Falls kein Datum gefunden wurde, verwenden wir das aktuelle Datum
     return datetime.now().strftime("%Y-%m-%d")
 
-def create_output_data(transcript_data, analysis_result):
+def create_output_data(transcript_data: dict, analysis_result: dict) -> Optional[dict]:
     """Erstellt die finalen Ausgabedaten aus den Transkript- und Analysedaten."""
     if not analysis_result or "gegenwartsvorschlaege" not in analysis_result:
         return None
@@ -406,14 +411,32 @@ def create_output_data(transcript_data, analysis_result):
         "gegenwartsvorschlaege": vorschlaege
     }
 
-def save_output_data(output_data, output_path):
-    """Speichert die Ausgabedaten als JSON-Datei."""
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
-    print(f"Ausgabedaten gespeichert in: {output_path}")
+def validate_output_schema(output_data: dict) -> bool:
+    """Validiert das Ausgabeschema grob, um offensichtliche Fehler zu vermeiden."""
+    required_fields = ["episode_title", "apple_id", "spotify_id", "episode_date", "gegenwartsvorschlaege"]
+    for field in required_fields:
+        if field not in output_data:
+            logging.warning(f"Fehlendes Feld im Output: {field}")
+            return False
+    if not isinstance(output_data["gegenwartsvorschlaege"], list):
+        logging.warning("'gegenwartsvorschlaege' ist nicht vom Typ Liste.")
+        return False
+    return True
 
-def get_output_filename(input_filename):
+def save_output_data(output_data: dict, output_path: str) -> None:
+    """Speichert die Ausgabedaten als JSON-Datei."""
+    if not validate_output_schema(output_data):
+        logging.warning(f"Ungültiges Ausgabeschema, Datei wird nicht gespeichert: {output_path}")
+        return
+    try:
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, indent=2, ensure_ascii=False)
+        logging.info(f"Ausgabedaten gespeichert in: {output_path}")
+    except Exception as e:
+        logging.error(f"Fehler beim Speichern der Ausgabedaten in {output_path}: {e}")
+
+def get_output_filename(input_filename: str) -> str:
     """Erzeugt einen Ausgabedateinamen basierend auf dem Eingabedateinamen."""
     base_name = os.path.basename(input_filename)
     # Extrahiere die ID aus dem Dateinamen (erster Teil vor dem Unterstrich)
@@ -425,49 +448,53 @@ def get_output_filename(input_filename):
         # Fallback: Entferne "_transcript" und ändere die Erweiterung zu "_gegenwartscheck.json"
         return base_name.replace("_transcript.json", "_gegenwartscheck.json")
 
-def process_transcript(client, file_path, output_dir):
-    """Verarbeitet eine einzelne Transkript-Datei."""
-    try:
-        print(f"Verarbeite Transkript: {file_path}")
-        
-        # Transcript laden
-        transcript_data = load_transcript(file_path)
-        
-        # Prüfen, ob die Ausgabedatei bereits existiert
-        output_filename = get_output_filename(file_path)
-        output_path = os.path.join(output_dir, output_filename)
-        
-        if os.path.exists(output_path):
-            print(f"Ausgabedatei existiert bereits: {output_path}")
+def get_existing_analysis(output_path: str) -> Optional[dict]:
+    """Lädt bestehende Analysedaten, falls vorhanden und gültig."""
+    if os.path.exists(output_path):
+        try:
             with open(output_path, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
                 if existing_data.get("gegenwartsvorschlaege"):
-                    print(f"Überspringe Verarbeitung, da bereits analysiert: {file_path}")
-                    return True
+                    return existing_data
+        except Exception as e:
+            logging.warning(f"Fehler beim Laden bestehender Analysedatei {output_path}: {e}")
+    return None
+
+def process_transcript(client: genai.Client, file_path: str, output_dir: str) -> bool:
+    """Verarbeitet eine einzelne Transkript-Datei und speichert die Analyse, falls noch nicht vorhanden."""
+    try:
+        logging.info(f"Verarbeite Transkript: {file_path}")
+        transcript_data = load_transcript(file_path)
+        output_filename = get_output_filename(file_path)
+        output_path = os.path.join(output_dir, output_filename)
+        existing_data = get_existing_analysis(output_path)
+        if existing_data:
+            logging.info(f"Überspringe Verarbeitung, da bereits analysiert: {file_path}")
+            return True
         
         # Transcript analysieren
-        print("Führe erste Analyse durch...")
+        logging.info("Führe erste Analyse durch...")
         initial_analysis = analyze_transcript_with_gemini(client, transcript_data)
         
         if not initial_analysis or "gegenwartsvorschlaege" not in initial_analysis or not initial_analysis["gegenwartsvorschlaege"]:
-            print(f"Keine Gegenwartsvorschläge gefunden in: {file_path}")
+            logging.info(f"Keine Gegenwartsvorschläge gefunden in: {file_path}")
             # Leeres Ergebnis speichern, um in Zukunft zu überspringen
             empty_result = {"gegenwartsvorschlaege": []}
             output_data = create_output_data(transcript_data, empty_result)
             save_output_data(output_data, output_path)
             return True
         
-        print(f"Gefundene Vorschläge: {len(initial_analysis['gegenwartsvorschlaege'])}")
+        logging.info(f"Gefundene Vorschläge: {len(initial_analysis['gegenwartsvorschlaege'])}")
         
         # Zweite Analyse durchführen (Korrektur und Verbesserung)
-        print("Führe zweite Analyse zur Verbesserung durch...")
+        logging.info("Führe zweite Analyse zur Verbesserung durch...")
         final_analysis = proofread_analysis_with_gemini(client, initial_analysis, transcript_data)
         
         # Ausgabedaten erstellen
         output_data = create_output_data(transcript_data, final_analysis)
         
         if not output_data:
-            print(f"Warnung: Keine gültigen Ausgabedaten für {file_path}")
+            logging.warning(f"Warnung: Keine gültigen Ausgabedaten für {file_path}")
             return False
         
         # Ausgabedatei speichern
@@ -477,10 +504,10 @@ def process_transcript(client, file_path, output_dir):
         return True
         
     except Exception as e:
-        print(f"Fehler bei der Verarbeitung von {file_path}: {e}")
+        logging.warning(f"Fehler bei der Verarbeitung von {file_path}: {e}")
         return False
 
-def main():
+def main() -> None:
     """Hauptfunktion zum Ausführen des Skripts."""
     
     parser = argparse.ArgumentParser(description="Analysiert Podcast-Transkripte mit der Gemini API")
@@ -501,7 +528,7 @@ def main():
     else:
         transcript_files = glob.glob(os.path.join(args.input_dir, "*_transcript.json"))
     
-    print(f"Gefundene Transkript-Dateien: {len(transcript_files)}")
+    logging.info(f"Gefundene Transkript-Dateien: {len(transcript_files)}")
     
     # Transkripte verarbeiten
     success_count = 0
@@ -509,7 +536,7 @@ def main():
         if process_transcript(client, file_path, args.output_dir):
             success_count += 1
     
-    print(f"Verarbeitung abgeschlossen. {success_count} von {len(transcript_files)} Transkripten erfolgreich verarbeitet.")
+    logging.info(f"Verarbeitung abgeschlossen. {success_count} von {len(transcript_files)} Transkripten erfolgreich verarbeitet.")
 
 if __name__ == "__main__":
     main()
