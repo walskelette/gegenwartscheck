@@ -104,6 +104,8 @@ jobs:
           # Create data directory if it doesn't exist
           os.makedirs('data/transcripts', exist_ok=True)
           
+          primary_id_for_filename = os.environ.get('EPISODE_ID_FROM_ZIP')
+          
           # Load episode links data for titles and release dates if available
           episode_metadata = {}
           episode_links_path = 'data/episodes/episode_links.json'
@@ -255,6 +257,7 @@ jobs:
                   output_data = {
                       "episode_title": episode_title,
                       "apple_id": apple_id,
+                      "filename_primary_id": episode_id, # This episode_id is from path_parts[2]
                   }
                   
                   # Add Spotify ID if available
