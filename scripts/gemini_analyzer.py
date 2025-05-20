@@ -440,7 +440,7 @@ def get_output_filename(input_filename: str) -> str:
     """Erzeugt einen Ausgabedateinamen basierend auf dem Eingabedateinamen."""
     base_name = os.path.basename(input_filename)
     # Extrahiere die ID aus dem Dateinamen (Teil vor "_transcript.json")
-    id_match = re.match(r'(.*)_transcript\.json', base_name)
+    id_match = re.match(r'(.+?)_transcript\.json', base_name)
     if id_match:
         primary_id = id_match.group(1)
         return f"{primary_id}.json"
