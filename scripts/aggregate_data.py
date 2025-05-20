@@ -49,7 +49,7 @@ def process_analyses(analyses_dir: str, episode_lookup: Dict[str, Dict[str, Any]
     Processes analysis files, enriches Vorschlaege with episode metadata.
     """
     all_vorschlaege: List[Dict[str, Any]] = []
-    analysis_files = glob.glob(os.path.join(analyses_dir, "*.json"))
+    analysis_files = sorted(glob.glob(os.path.join(analyses_dir, "*.json")))
 
     if not analysis_files:
         logging.warning(f"No analysis files found in directory: {analyses_dir}")
