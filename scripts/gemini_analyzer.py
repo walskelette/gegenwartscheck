@@ -439,13 +439,13 @@ def save_output_data(output_data: dict, output_path: str) -> None:
 def get_output_filename(input_filename: str) -> str:
     """Erzeugt einen Ausgabedateinamen basierend auf dem Eingabedateinamen."""
     base_name = os.path.basename(input_filename)
-    # Extrahiere die ID aus dem Dateinamen (erster Teil vor dem Unterstrich)
-    id_match = re.match(r'(\d+)_', base_name)
+    # Extrahiere die ID aus dem Dateinamen (Teil vor "_transcript.json")
+    id_match = re.match(r'(.+?)_transcript\.json', base_name)
     if id_match:
-        episode_id = id_match.group(1)
-        return f"{episode_id}.json"
+        primary_id = id_match.group(1)
+        return f"{primary_id}.json"
     else:
-        # Fallback: Entferne "_transcript" und ändere die Erweiterung zu "_gegenwartscheck.json"
+        # Fallback, falls das Muster nicht passt (sollte nicht vorkommen bei korrekten Eingabedateien)
         return base_name.replace("_transcript.json", "_gegenwartscheck.json")
 
 def get_existing_analysis(output_path: str) -> Optional[dict]:

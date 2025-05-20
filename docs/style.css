@@ -1,0 +1,149 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px; /* Add some padding to the sides of the body */
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+main {
+    padding: 10px; /* Slightly reduced padding if container has its own */
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+#search-filter-section input[type="text"],
+#search-filter-section select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#search-filter-section input[type="text"] {
+    margin-right: 10px; /* Spacing between search and selects if they were inline */
+}
+
+/* Vorschlag Item Styling */
+#vorschlaege-container article {
+    background-color: #f9f9f9;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+#vorschlaege-container article h3 {
+    color: #0056b3; /* A distinct color for vorschlag title */
+    margin-bottom: 10px;
+}
+
+#vorschlaege-container article p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #555;
+}
+#vorschlaege-container article p strong {
+    color: #333;
+}
+
+#vorschlaege-container article a {
+    color: #007bff;
+    text-decoration: none;
+}
+#vorschlaege-container article a:hover {
+    text-decoration: underline;
+}
+
+/* Stats Container Styling */
+#stats-container div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+#stats-container h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #333;
+}
+#stats-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#stats-container li {
+    padding: 2px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #333; /* Consistent with header */
+    color: #fff;
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
+/* Responsive adjustments (optional for basic) */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+    .container {
+        margin: 10px auto;
+        padding: 15px;
+    }
+    #search-filter-section input[type="text"],
+    #search-filter-section select {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

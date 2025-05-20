@@ -13,10 +13,12 @@ on:
         type: boolean
         default: false
 
-# Add permissions to allow reading artifacts from other workflows
+# Add permissions to allow reading artifacts from other workflows and deploying to GitHub Pages
 permissions:
   actions: read
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   analyze:
@@ -86,3 +88,54 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+  build-and-deploy-site:
+    needs: analyze
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Get all history
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      
+      - name: Run Data Aggregation Script
+        run: |
+          python scripts/aggregate_data.py
+
+      - name: Commit Updated site_data.json
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          # Check if docs/site_data.json has changed or is new
+          if ! git diff --quiet docs/site_data.json; then
+            echo "docs/site_data.json has changed or is new. Committing and pushing."
+            git add docs/site_data.json
+            git commit -m "Update site_data.json for GitHub Pages [skip ci]"
+            git push
+          else
+            echo "No changes to docs/site_data.json. Nothing to commit."
+          fi
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

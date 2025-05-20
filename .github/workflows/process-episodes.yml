@@ -147,34 +147,38 @@ jobs:
       - name: Create safe filename
         id: safe-filename
         run: |
-          # Use episode ID for filename instead of title
           EPISODE_ID="${{ matrix.episode.apple_id }}"
-          # Fallback to episode_id or spotify_id if apple_id is not available
-          if [ -z "$EPISODE_ID" ]; then
-            EPISODE_ID="${{ matrix.episode.episode_id }}"
+          
+          if [ -z "$EPISODE_ID" ] || [ "$EPISODE_ID" == "null" ]; then
+            EPISODE_ID="${{ matrix.episode.spotify_id }}"
           fi
-          # Final fallback to safe title if no IDs are available
-          if [ -z "$EPISODE_ID" ]; then
-            EPISODE_ID=$(echo "${{ matrix.episode.title }}" | sed 's/[^a-zA-Z0-9]/_/g')
-            echo "Warning: Using title as filename because no episode ID is available"
+          
+          if [ -z "$EPISODE_ID" ] || [ "$EPISODE_ID" == "null" ]; then
+            EPISODE_ID=$(echo "${{ matrix.episode.title }}" | sed 's/[^a-zA-Z0-9]/_/g' | cut -c1-50)
           fi
-          echo "safe_title=$EPISODE_ID" >> $GITHUB_OUTPUT
+          
+          if [ -z "$EPISODE_ID" ]; then
+            echo "Error: No valid ID could be formed for the episode."
+            exit 1
+          fi
+          
+          echo "PRIMARY_ID=$EPISODE_ID" >> $GITHUB_OUTPUT
       
       - name: Zip the Podcasts Cache Folder
         run: |
-          zip -r "${{ steps.safe-filename.outputs.safe_title }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
+          zip -r "${{ steps.safe-filename.outputs.PRIMARY_ID }}_cache.zip" "$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache"
       
       - name: Upload Cache Folder to data/raw
         run: |
           mkdir -p data/raw
-          mv "${{ steps.safe-filename.outputs.safe_title }}_cache.zip" "data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
-          echo "Cache saved to data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
+          mv "${{ steps.safe-filename.outputs.PRIMARY_ID }}_cache.zip" "data/raw/${{ steps.safe-filename.outputs.PRIMARY_ID }}_cache.zip"
+          echo "Cache saved to data/raw/${{ steps.safe-filename.outputs.PRIMARY_ID }}_cache.zip"
       
       - name: Upload Cache as Artifact (backup)
         uses: actions/upload-artifact@v4
         with:
           name: transcript-cache-${{ github.run_id }}-${{ strategy.job-index }}
-          path: "data/raw/${{ steps.safe-filename.outputs.safe_title }}_cache.zip"
+          path: "data/raw/${{ steps.safe-filename.outputs.PRIMARY_ID }}_cache.zip"
       
       # Commit changes to data/raw
       - name: Commit Changes

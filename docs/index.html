@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gegenwartsvorschläge Analyse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analyse der Gegenwartsvorschläge</h1>
+    </header>
+
+    <main>
+        <section id="stats-section">
+            <h2>Statistiken</h2>
+            <div id="stats-container">
+                <!-- Statistiken werden hier per JS eingefügt -->
+            </div>
+        </section>
+
+        <section id="search-filter-section">
+            <h2>Suche & Filter</h2>
+            <input type="text" id="search-input" placeholder="Suche...">
+            <select id="filter-proposer">
+                <option value="">Alle Vorschlagende...</option>
+                <!-- Optionen werden hier per JS eingefügt -->
+            </select>
+            <select id="filter-tag">
+                <option value="">Alle Tags...</option>
+                <!-- Optionen werden hier per JS eingefügt -->
+            </select>
+        </section>
+
+        <section id="vorschlaege-list-section">
+            <h2>Vorschläge</h2>
+            <div id="vorschlaege-container">
+                <!-- Vorschläge werden hier per JS eingefügt -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Daten generiert am: <span id="data-generated-date">Lade Datum...</span></p>
+        <!-- Optional: If site_data.json contains a generation date, display it here.
+             For now, we'll leave it static or update if the data provides it. -->
+    </footer>
+
+    <script src="main.js"></script></body>
+</html>
