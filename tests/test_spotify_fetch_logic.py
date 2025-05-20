@@ -124,7 +124,7 @@ class TestSpotifyFetchLogic(unittest.TestCase):
         
         calls = [
             call("https://api.spotify.com/v1/shows/dummy_show_id/episodes", headers={"Authorization": "Bearer dummy_token"}, params={"limit": 50, "offset": 0, "market": "US"}),
-            call(sample_spotify_episodes_page1["next"], headers={"Authorization": "Bearer dummy_token"}, params={"limit": 50, "offset": 1, "market": "US"}) #The 'next' url already contains offset and limit, but the code overrides it
+            call(sample_spotify_episodes_page1["next"], headers={"Authorization": "Bearer dummy_token"}) # Use the 'next' URL as-is without overriding its query parameters
         ]
         mock_get.assert_has_calls(calls)
         self.assertEqual(mock_get.call_count, 2)
